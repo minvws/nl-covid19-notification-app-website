@@ -33,8 +33,8 @@ h1 {
     text-align: center;
     background-color: #01689b;
     color: white;
-    line-height: 75px;
     margin-top: 16px;
+    padding: 16px;
 }
 
 /* Content */
@@ -52,6 +52,27 @@ article > p {
 h2 {
     font-size: 1.5rem;
     margin: 8px 0;
+}
+
+.video {
+    width: 80%;
+    padding-top: 45%;
+    position: relative;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    article {
+        max-width: 90%;
+    }
 }
 
 /* Statements */
@@ -74,7 +95,7 @@ details > summary::-webkit-details-marker {
 }
 
 details > * {
-    padding: 0 48px;
+    margin: 0 48px;
 }
 
 summary {
