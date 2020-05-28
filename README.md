@@ -30,10 +30,10 @@ To build Jekyll, you could [install Jekyll locally](https://jekyllrb.com/docs/in
 To use a Docker image you should have Docker engine installed, see [how to install Docker enginge](https://docs.docker.com/engine/install/).
 
 [`starefossen/github-pages`](https://hub.docker.com/r/starefossen/github-pages) is a small Alpine Docker image for running GitHub Pages / Jekyll projects locally.
-You need to do is to mount the pages in a volume under `/usr/src/app` like this:
+You only need to mount the pages in a volume under `/usr/src/app` like this:
 ```bash
 docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 ```
-*Note: for Windows we advise Powershell or another shell that supports `$PWD`, for `cmd` you can replace `$PWD` with `%cd%`.*
+*Note: for Windows users we advise Powershell or another shell that supports `$PWD`, for `cmd` you can replace `$PWD` with `%cd%`.*
 
-The Jekyll page will be available on `http://localhost:4000`.
+The Jekyll page will be available on [`http://localhost:4000`](http://localhost:4000/).
