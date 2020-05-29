@@ -1,10 +1,10 @@
 ---
 layout: default
-title: COVID-19 Notificatie App Status
-lang: nl
+title: COVID-19 Notification App Status
+lang: en
 lang-ref: covid19-notification-app-status-index
 ---
-<p>Hier geven we graag uitleg over de vragen en status van de app</p>
+<p>Questions and status of the app are displayed here</p>
 
 {% assign features = site.features | where:"lang", page.lang %}
 {% for feature in features %}
