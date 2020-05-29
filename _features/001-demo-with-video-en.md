@@ -1,7 +1,8 @@
 ---
 title: Placeholder Stelling
-summary: Placeholder korte omschrijving
-lang: nl
+summary: Placeholder short description
+lang: en
+lang-ref: feature-001-demo-with-video
 status: checked
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
