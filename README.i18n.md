@@ -11,21 +11,22 @@ Content for each language exists in its own folder based on the language code, w
 language (nl) at top-level. Contents in features collection are identified by a `lang` key, 
 which will allow you to filter for a language key in the collection.
 
-## data dir
+## Data dir
 The `_data` directory holds files for translation (usefull in layouts) and language metadata.
 
-## to test:
+## To test:
 
   - Dutch (default) language (nl) http://127.0.0.1:4000
   - English language (en) http://127.0.0.1:4000/en
 
-## language switch
-A language switch could look like this:
+## Language switch
+A language switch in HTML could look like this:
+
 	<em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
 	<ul class="languages">
 	{% for lang in site.data.languages %}
-	{% assign language = lang[1] %}
-	<li><a href="{{site.baseurl}}{{lang[0]}}">{{ language.label }}</a></li>
+	    {% assign language = lang[1] %}
+	    <li><a href="{{site.baseurl}}{{lang[0]}}">{{ language.label }}</a></li>
 	{% endfor %}
 	</ul>
 
