@@ -1,11 +1,17 @@
-<img src="img/logo.svg" alt="Logo Rijksoverheid" class="logo"/>
+{% if page.lang == "nl" %}
+<img src="img/logo.svg" alt="Logo Rijksoverheid" class="logo" />
+{% else %}
+<img src="../img/logo.svg" alt="Logo Rijksoverheid" class="logo" />
+{% endif %}
 
 <header>
-    <h1>
-        <span class="lead">Onderzoek:</span>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-    </h1>
-
-    <img src="img/app-preview.png" alt="App preview" class="app-preview"/>
+  <h1>
+    <span class="lead">Onderzoek:</span>{% if page.title %}{{ page.title }}{%
+    else %}{{ site.title }}{% endif %}
+  </h1>
+  {% if page.lang == "nl" %}
+  <img src="img/app-preview.png" alt="App preview" class="app-preview" />
+  {% else %}
+  <img src="../img/app-preview.png" alt="App preview" class="app-preview" />
+  {% endif %}
 </header>
-
-
