@@ -1,6 +1,6 @@
 ---
 title: Placeholder Stelling
-summary: Placeholder korte omschrijving
-lang: nl
+summary: Placeholder short description
+lang: en
 status: in-progress
 ---
