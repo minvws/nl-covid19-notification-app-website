@@ -1,3 +1,7 @@
+{% if page.lang == "nl" %}
+<img src="img/logo.svg" alt="Logo Rijksoverheid" class="logo" />
+{% else %}
 <img src="/img/logo.svg" alt="Logo Rijksoverheid" class="logo" />
+{% endif %}
 <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 
