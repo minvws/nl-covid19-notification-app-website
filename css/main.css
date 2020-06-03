@@ -133,10 +133,6 @@ article p {
     display: none;
 }
 
-.statements summary:focus {
-    outline: none;
-}
-
 /* Footer */
 .github {
     display: block;
