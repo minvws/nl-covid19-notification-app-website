@@ -1,4 +1,4 @@
-# nl-covid19-notification-app-dashboard
+# nl-covid19-notification-app-status
 
 ## What is GitHub Pages
 
