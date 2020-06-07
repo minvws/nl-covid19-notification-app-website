@@ -1,11 +1,14 @@
 ---
 layout: default
-title: COVID-19 Notification App Status
+title: Op weg naar een veilige en betrouwbare Covid-19 notificatie app
 lang: en
 lang-ref: covid19-notification-app-status-index
 ---
+
+<h2>Current state of affairs</h2>
 <p>Questions and status of the app are displayed here</p>
 
+<div class="statements">
 {% assign features = site.features | where:"lang", page.lang %}
 {% for feature in features %}
 <details class="{{ feature.status }}">
@@ -16,3 +19,4 @@ lang-ref: covid19-notification-app-status-index
     {{ feature.content }}
 </details>
 {% endfor %}
+</div>

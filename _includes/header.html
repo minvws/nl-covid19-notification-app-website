@@ -3,5 +3,15 @@
 {% else %}
 <img src="../img/logo.svg" alt="Logo Rijksoverheid" class="logo" />
 {% endif %}
-<h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 
+<header>
+  <h1>
+    <span class="lead">Onderzoek:</span>{% if page.title %}{{ page.title }}{%
+    else %}{{ site.title }}{% endif %}
+  </h1>
+  {% if page.lang == "nl" %}
+  <img src="img/app-preview.png" alt="App preview" class="app-preview" />
+  {% else %}
+  <img src="../img/app-preview.png" alt="App preview" class="app-preview" />
+  {% endif %}
+</header>

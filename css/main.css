@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -23,137 +24,164 @@ body {
 }
 
 /* Header */
-
 .logo {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 24px;
 }
 
-h1 {
-    text-align: center;
-    background-color: #01689b;
-    color: white;
-    margin-top: 16px;
-    padding: 16px;
-}
-
-/* Content */
-
-article {
-    max-width: 50%;
-    margin: 32px auto;
-}
-
-article > p {
-    margin: 32px 0;
-    font-size: 1.6rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin: 8px 0;
-}
-
-.video {
-    width: 80%;
-    padding-top: 45%;
+header {
     position: relative;
+    background-color: #F9E11E;
+    background-image: url("../img/header-background.svg");
+    background-repeat: no-repeat;
+    background-position: 105% 30%;
+    background-size: 55%;
+
+    padding-top: 60px;
+    padding-left: 8%;
+    padding-bottom: 8%;
 }
 
-.video iframe {
+header h1 {
+    color: #154273;
+    font-size: 28pt;
+    width: 40%;
+    letter-spacing: 1px;
+}
+
+header h1 .lead {
+    display: block;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+header img {
+    display: block;
+    top: 30%;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+    left: 62.5%;
+    width: 25%;
 }
 
-@media only screen and (max-width: 800px) {
-    article {
-        max-width: 90%;
-    }
+/* Article */
+article {
+    position: relative;
+
+    margin-top: -50px;
+    margin-left: calc(8% - 32px);
+    width: 50%;
+    padding: 0 32px 32px;
+    background-color: white;
+    border-radius: 32px;
+}
+
+article > h2 {
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+article p {
+    width: 70%;
+    line-height: 1.5em;
 }
 
 /* Statements */
 
-details {
-    position: relative;
-    border: 1px solid #888;
-
-    margin: 32px 0;
-    -moz-appearance:initial;
-    border-right-width: 10px;
+.statements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
-details > summary {
+.statements details {
+    margin: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    padding-bottom: 16px;
+
+    background-repeat: no-repeat;
+    background-position: right 15px top 20px;
+    background-size: 15px;
+}
+
+.statements details.checked {
+    background-image: url('../img/trafficlight-green.svg');
+}
+
+.statements details.in-progress {
+    background-image: url('../img/trafficlight-orange.svg');
+}
+
+.statements details.stopped {
+    background-image: url('../img/trafficlight-red.svg');
+}
+
+.statements details > summary {
+    padding: 24px;
     list-style-type: none;
+    cursor: pointer;
+    margin-left: 0;
 }
 
-details > summary::-webkit-details-marker {
+.statements details > * {
+    margin: 0 24px;
+}
+
+.statements details > summary::-webkit-details-marker {
     display: none;
 }
 
-details > * {
-    margin: 0 48px;
-}
-
-summary {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    cursor: pointer;
-}
-
-summary:focus {
-    outline: none;
-}
-
-summary::before {
-    content: '+';
-    display: block;
-    background-color: #01689b;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 28px;
-    left: 16px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-}
-
-details[open] summary::before {
-    content: '-';
-}
-
-details[open] {
-    padding-bottom: 32px;
-}
-
-details.failed {
-    border-right-color: #bb0000;
-}
-
-
-details.in-progress {
-    border-right-color: #ff9900;
-}
-
-details.checked {
-    border-right-color: #00bb33;
-}
-
+/* Footer */
 .github {
     display: block;
     width: 16px;
     height: 16px;
-    margin: 0 auto;
+    margin: 32px auto;
 }
 
 .github img {
     width: 16px;
     height: 16px;
+}
+
+/* Tablet layout */
+@media only screen and (max-width: 1024px) {
+    header {
+        background-position: 50% 10%;
+        padding-bottom: 16%;
+    }
+
+    header h1 {
+        width: 80%;
+    }
+
+    header img {
+        display: none;
+    }
+
+    article {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Mobile layout */
+@media only screen and (max-width: 400px) {
+    header {
+        background-size: 80%;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    article {
+        padding: 16px
+    }
+
+    article p {
+        width: 100%;
+    }
 }
