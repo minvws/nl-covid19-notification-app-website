@@ -1,10 +1,10 @@
 # Projectstatus website COVID-19 notificatieapp
 
-## About this working document**
+## About this working document
 All the issues we are currently investigating are in the project.
 
 ## Thought
-clear ans simple website, with fold-outs, including sub-issues that are investigated.
+clear and simple website, with fold-outs, including sub-issues that are investigated.
 Target group: ordinary citizens, broad target group (simply formulated in B1 language level).
 
 ## Links
