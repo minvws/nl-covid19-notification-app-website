@@ -52,7 +52,10 @@ Paul Wagener (first draft)
 * Ruben Ahuluheluw
 * Anouschka Scholten
 
-## *Copywriters Someone who can temporarily oversee the Github commits.
+## Copywriters
+to be determined
+
+## Someone who can temporarily oversee the Github commits.
 @arianvp
 
 ## Digital accessibility expert
