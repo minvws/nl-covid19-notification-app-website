@@ -1,5 +1,8 @@
 # Projectstatus website COVID-19 notificatieapp
 
+# TEMPORARY CONTENT LOCK!!
+As of 17-6-2020 Edo Plantinga is merging this document with another spec document. Please do not make any pull requests on this doc until further notice (probably in a few days), as this will create version problems. Ping Edo via Slack for a status update. 
+
 ## About
 This site is intended as a project website of the notification-app by the Ministry of Healt team. It evolved from a status dashboard idea to something similar to the project website.
 
