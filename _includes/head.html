@@ -1,14 +1,12 @@
 <head>
     <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.translations.title[page.lang] }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.data.translations['description'][page.lang]}}" />
-  {% if page.lang == "nl" %}
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
-  {% else %}
-    <link href="../css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
-  {% endif %}
+    <meta name="description" content="{{ site.data.translations.description[page.lang]}}">
+    <link href="{{ relroot }}css/main.css" rel="stylesheet">
+    <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ relroot }}fonts/RO-SerifWeb-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 

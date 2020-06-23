@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="full-width-content">
+  <div class="statements">
+    {% assign statements = site.statements | where:"lang", page.lang | sort: "index" %}
+    {% for statement in statements %}
+      <details>
+        <summary {% if statement.icon %} class="icon-{{ statement.icon }}" {% endif %}>
+          <h2>{{ statement.title }}</h2>
+          <span><strong>{{ statement.timeline.completed.size }} {{ site.data.translations.x-of-y[page.lang] }} {{ statement.timeline.completed.size | plus: statement.timeline.working-on.size }}</strong> {{ statement.summary }}</span>
+          <div class="expand">{{ site.data.translations.readmore[page.lang] }}<span class="chevron-down"></span></div>
+          <div class="collapse top">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div>
+          <div class="collapse bottom">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div>
+        </summary>
+        <div class="card-content">
+          {% if statement.timeline.completed.size > 0 %}
+          <h3 class="completed">{{ site.data.translations.completed[page.lang] }}</h3>
+          <ul class="completed">
+          {% for item in statement.timeline.completed %}
+            <li>{{ item }}</li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+          {% if statement.timeline.working-on.size > 0 %}
+          <h3 class="working-on">{{ site.data.translations.working-on[page.lang] }}</h3>
+          <ul class="working-on">
+          {% for item in statement.timeline.working-on %}
+            <li>{{ item }}</li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+          {{ statement.content }}
+          <div class="respond">
+            <a href="#">{{ site.data.translations.respond[page.lang] }}</a>
+          </div>
+          <div class="more">
+            <h3>{{ site.data.translations.want-to-known-more[page.lang] }}</h3>
+            <span>{{ site.data.translations.see-the-faq[page.lang] }}</span>
+          </div>
+          <div class="share">
+            <h4>{{ site.data.translations.share[page.lang] }}</h4>
+            <ul>
+              <li><a href="#" class="icon-twitter">{{ site.data.translations.share-on-twitter[page.lang] }}</a></li>
+              <li><a href="#" class="icon-facebook">{{ site.data.translations.share-on-facebook[page.lang] }}</a></li>
+              <li><a href="#" class="icon-linkedin">{{ site.data.translations.share-on-linkedin[page.lang] }}</a></li>
+            </ul>
+          </div>
+        </div>
+      </details>
+    {% endfor %}
+    </div>
+
+    <ul><li><a href="{{ site.data.translations.principles-href[page.lang] }}">{{ site.data.translations.principles[page.lang] }}</a></li></ul>
+  </div>
+</div>

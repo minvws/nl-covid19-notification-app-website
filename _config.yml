@@ -1,7 +1,5 @@
-title: COVID-19 Notificatie App Status
-description: Dashboard om de status van de COVID-19 notificatie app te volgen
 repo: minvws/nl-covid19-notification-app-dashboard
-baseurl: /
 
 collections:
-  - features
+  - statements
+  - questions

@@ -1,25 +1,17 @@
 ---
 layout: default
-title: Op weg naar een veilige en betrouwbare Covid-19 notificatie app
 lang: nl
-lang-ref: covid19-notification-app-status-index
+lang-ref: covid19-notification-app-website-index
 ---
 
-<h2>Huidige stand van zaken</h2>
+<div class="lead">Onze ambitie is om te zorgen dat we straks allemaal lorem ipsum en met deze app dolor sit amet gegevens veilig en Covid-19 enzovoort.</div>
 
-<p>Hoe zorgen we voor een app die we allemaal kunnen gebruiken? En hoe garanderen we dat niemand ongewenst bij onze
-    gegevens kan? Er wordt onderzoek gedaan naar álle factoren. En zijn deze afgerond? Pas dan is er een werkbare
-    app.</p>
-
-<div class="statements">
-{% assign features = site.features | where:"lang", page.lang %}
-{% for feature in features %}
-<details class="{{ feature.status }}">
-    <summary>
-        <h2>{{ feature.title }}</h2>
-        <span>{{ feature.summary }}</span>
-    </summary>
-    {{ feature.content }}
-</details>
-{% endfor %}
+<div class="follow">
+  <h2>Huidige stand van zaken:</h2>
+  <div class="state">In ontwikkeling</div>
+  <ul>
+    <li><a href="#">Wanneer is de app klaar?</a></li>
+    <li><a href="#">Wie maakt de app?</a></li>
+    <li><a href="#">Hoe wordt de app ontwikkeld?</a></li>
+  </ul>
 </div>
