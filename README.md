@@ -13,7 +13,7 @@ Ordinary citizens, the general public
 
 * [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
 * [Status information](https://docs.google.com/document/d/1cZyhR4ggnF7sGkA1PKt-zbfC6bl7VpRqqhhICNhEbBk/edit)(in Dutch)
-* [Current HTML implementation](https://bwbroersma.github.io/nl-covid19-notification-app-website/#) (still to be pushed to master)
+* [Current HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
 * Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140)[  ](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)
 * Also see the[Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
 
