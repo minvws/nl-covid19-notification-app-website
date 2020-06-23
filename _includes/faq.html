@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="faq">
+    <a name="faq"></a>
+    <h2>{{ site.data.translations.faq[page.lang] }}</h2>
+    {% assign sets = site.questions | where:"lang", page.lang | sort: "index" | group_by: "set" | sort: "name" %}
+    {% for set in sets %}
+    {% assign keyname = set.name | slice: 2, 999 | prepend: "faq-" %}
+    <input type="radio" name="faq" id="radio-{{ keyname }}"{% if keyname == "faq-top5" %} checked{% endif %}>
+    <label for="radio-{{ keyname }}"><h3>{{ site.data.translations[keyname][page.lang] }}</h3></label>
+    <div class="tab tab-{{ keyname }}">
+      {% for question in set.items %}
+      <details>
+        <summary><h4>{{ question.title }}</h4></summary>
+        <div class="answer">
+          {{ question.content }}
+        </div>
+        <div class="feedback">
+          <h5>{{ site.data.translations.has-been-answered[page.lang] }}</h5>
+          <a href="#">{{ site.data.translations.answered-yes[page.lang] }}</a>
+          <a href="#">{{ site.data.translations.answered-no[page.lang] }}</a>
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+    {% endfor %}
+    <form action="#" method="POST" class="ask-question">
+      <label for="ask-question"><h3>{{ site.data.translations.question-not-listed[page.lang] }}</h3></label>
+      <input name="ask-question" id="ask-question" type="text">
+      <input type="submit" value="{{ site.data.translations.send-question[page.lang] }}">
+    </form>
+  </div>
+</div>

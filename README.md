@@ -68,7 +68,7 @@ The hosting requirements are defined elsewhere.
 * UXers / frontenders: 
   * Bart Lenstra | bart@osage.nl
   * Paul Wagener (first draft)
-  * Benjamin Boersma
+  * Benjamin W. Boersma
 * Ux experts (interface)
   * Ruben Ahuluheluw
   * Ruben Vandenbussche
@@ -80,7 +80,7 @@ The hosting requirements are defined elsewhere.
   * Anouschka Scholten
 * Copywriter: Maria Faragg
 * Temporary overseeer of Github commits: @arianvp
-* Technical lead, markdown setup via Jekyll: Benjamin Boersma
+* Technical lead, markdown setup via Jekyll: Benjamin W. Boersma @bwbroersma
 
 ## Technical setup
 
@@ -94,19 +94,47 @@ GitHub Pages support the static site generator [Jekyll](https://jekyllrb.com/).
 Jekyll supports [Markdown](https://daringfireball.net/projects/markdown/), [Liquid](https://github.com/Shopify/liquid/wiki), HTML and CSS to create a complete static website.
 By using the Liquid templating language, content can be stored in Markdown.
 
-### How to add a feature
+### How to add a statement
 
-To add a feature, create a Markdown file in `_features` with the following template:
+To add a feature, create a Markdown file in `_statement` with the following template:
 ```md
 ---
-title: The title
+index: 7
+title: Is this statement true?
+icon: thumbs-ub
 summary: Short summary
-status: in-progress
+timeline:
+  completed:
+    - Something that is completed
+    - More stuff already done
+  working-on:
+    - Still working on X
+    - Also need to check Y
 ---
-The Markdown content goes here, this can contain <code>HTML</code>.
+There is optional Markdown content goes here, this can contain <code>HTML</code>.
 ```
-For the status field the values `failed`, `in-progress` and `checked` can be used.
-Please prefix your file with 3 zero's and a dash (`000-`), it will be renamed to have an incremental number when we merge it.
+For the `icon` field the values `book`, `lock`, `privacy` and `thumbs-up` can be used for now.
+
+### How to add a question
+
+To add a feature, create a Markdown file in `_questions` with the following template:
+```md
+---
+set: 3-app
+index: 6
+title: Question about X
+lang: nl
+---
+The answer in Markdown goes here, this can contain <code>HTML</code>.
+```
+For the `set` field the values `1-top5`, `2-opensource`, `3-app` and `4-development` can be used.
+Please also include the name part as prefix of your file, e.g. `app-X.md`.
+
+### Translation
+
+Please give your file a short English name without spaces (you can use dash `-` instead).
+You should at least provide the base file with `lang: nl`.
+The translations should have the same name with a `-lang` suffix, where `lang` is the language keyword e.g. `en`.
 
 ### How to test GitHub Pages locally
 

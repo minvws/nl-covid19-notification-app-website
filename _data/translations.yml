@@ -1,6 +1,105 @@
+title:
+  nl: Grip op Covid-19
+  en: Grip on Covid-19
+subtitle:
+  nl: Alleen Samen zorgen we<br>voor minder besmettingen
+  en: Only/Alone Together we will<br>ensure fewer infections
+note:
+  nl: "Let op:"
+  en: "Please note:"
+development:
+  nl: in ontwikkeling
+  en: under development
+govlogo:
+  nl: Rijksoverheid logo
+  en: Government logo
+minvws:
+  nl: Ministerie van Volksgezondheid,<br>Welzijn en Sport
+  en: Ministry of Health,<br>Welfare and Sport
+watch:
+  nl: Bekijk de film
+  en: Watch the movie
+app-preview:
+  nl: App preview
+  en: App preview
+x-of-y:
+  nl: van
+  en: of
+readmore:
+  nl: Meer uitleg
+  en: More information
+readless:
+  nl: Verberg uitleg
+  en: Close information
+completed:
+  nl: Afgerond
+  en: Completed
+working-on:
+  nl: Mee bezig
+  en: Working on
+respond:
+  nl: Reageren op dit onderwerp?
+  en: Respond on this subject?
+want-to-known-more:
+  nl: Wilt u meer weten?
+  en: Want to know more?
+see-the-faq:
+  nl: Bekijk de <a href="#faq">veelgestelde vragen</a>
+  en: See the <a href="#faq">frequently asked questions</a>
+share:
+  nl: "Delen:"
+  en: "Share:"
+share-on-twitter:
+  nl: Deel op Twitter
+  en: Share on Twitter
+share-on-facebook:
+  nl: Deel op Facebook
+  en: Deel op Facebook
+share-on-linkedin:
+  nl: Deel op LinkedIn
+  en: Deel op LinkedIn
+principles:
+  nl: Bekijk meer uitgangspunten en principes
+  en: View more starting points and principles
+principles-href:
+  nl: "#"
+  en: "#"
+explainer:
+  nl: Zo gaat de app werken
+  en: This is how the will app work
+faq:
+  nl: Veel gestelde vragen
+  en: Frequently asked questions
+faq-top5:
+  nl: Top 5
+  en: Top 5
+faq-opensource:
+  nl: Open Source
+  en: Open Source
+faq-app:
+  nl: De app
+  en: The app
+faq-development:
+  nl: Ontwikkeling
+  en: Development
+has-been-answered:
+  nl: Is uw vraag beantwoord?
+  en: Has your question been answered?
+answered-yes:
+  nl: Wel beantwoord
+  en: Answered
+answered-no:
+  nl: Niet beantwoord
+  en: Not answered
+question-not-listed:
+  nl: Staat uw vraag er niet bij?
+  en: Is your question not listed?
+send-question:
+  nl: Verstuur vraag
+  en: Send question
 description:
-  nl: "Dashboard om de status van de COVID-19 notificatie app te volgen"
-  en: "Dashboard to follow status of the COVID-19 notification app"
+  nl: Website om de status van de COVID-19 notificatie app te volgen
+  en: Website to follow status of the COVID-19 notification app
 differentlanguage:
-  nl: "Lees in andere taal"
-  en: "Read in different language"
+  nl: Lees in andere taal
+  en: Read in different language

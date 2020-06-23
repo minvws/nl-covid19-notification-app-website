@@ -1,12 +1,23 @@
+{% assign relroot = '' %}
+{% if page.lang != 'nl' %}
+{%   assign relroot = '../' %}
+{% endif %}
 <!DOCTYPE html>
 <!-- generated at {{ site.time }} -->
 <html lang="{{page.lang}}">
 {% include head.html %}
 <body>
-    {% include header.html %}
-    <article>
+  {% include header.html %}
+  <main>
+    <div class="container">
+      <div class="content">
         {{ content }}
-    </article>
-    {% include footer.html %}
+      </div>
+    </div>
+    {% include statements.html %}
+    {% include explainer.html %}
+    {% include faq.html %}
+  </main>
+  {% include footer.html %}
 </body>
 </html>
