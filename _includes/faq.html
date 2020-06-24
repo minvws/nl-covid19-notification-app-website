@@ -14,19 +14,22 @@
         <div class="answer">
           {{ question.content }}
         </div>
+        <!-- TODO: This feature will not be implemented in the first version
         <div class="feedback">
           <h5>{{ site.data.translations.has-been-answered[page.lang] }}</h5>
           <a href="#">{{ site.data.translations.answered-yes[page.lang] }}</a>
           <a href="#">{{ site.data.translations.answered-no[page.lang] }}</a>
-        </div>
+        </div> -->
       </details>
       {% endfor %}
     </div>
     {% endfor %}
+    <!-- TODO: This feature will not be implemented in the first version
     <form action="#" method="POST" class="ask-question">
       <label for="ask-question"><h3>{{ site.data.translations.question-not-listed[page.lang] }}</h3></label>
       <input name="ask-question" id="ask-question" type="text">
       <input type="submit" value="{{ site.data.translations.send-question[page.lang] }}">
     </form>
+    -->
   </div>
 </div>

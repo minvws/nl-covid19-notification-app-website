@@ -1,15 +1,21 @@
-title:
+page-title:
   nl: Grip op Covid-19
   en: Grip on Covid-19
-subtitle:
+header-title:
+  nl: Grip op Covid-19<br> met de [name here] app
+  en: Grip on Covid-19<br> with the [name here] app
+header-subtitle:
   nl: Alleen Samen zorgen we<br>voor minder besmettingen
-  en: Only/Alone Together we will<br>ensure fewer infections
+  en: Together we can<br>ensure fewer infections
+header-language-picker-label:
+  nl: Taal
+  en: Language
 note:
   nl: "Let op:"
   en: "Please note:"
 development:
-  nl: in ontwikkeling
-  en: under development
+  nl: in ontwikkeling v0.6
+  en: under development v0.6
 govlogo:
   nl: Rijksoverheid logo
   en: Government logo

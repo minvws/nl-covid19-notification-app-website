@@ -1,5 +1,15 @@
+---
+---
+
 /* check to see if you named all colors:
 $ grep -Po '(#[0-9A-Fa-f]{6}|rgba?\([^)]+\)) ?(/[*].*[*]/)?' css/main.css | grep -vE '^(#(0{6}|[Ff]{6}))|(rgba?\((0,\s*){3}|(255,\s*){3})' | sort | uniq -c | sort -k2
+*/
+
+/**
+Breakpoints:
+420px (mobile)
+740px (tablet)
+960px (desktop)
 */
 * {
     margin: 0;
@@ -38,9 +48,13 @@ body {
 }
 
 .container {
-    max-width: 1270px;
+    max-width: 1100px;
     position: relative;
     margin: auto;
+    
+    @media(min-width: 960px) {
+        padding: 0 0 0 2em;
+    }
 }
 
 a, a:visited {
@@ -63,6 +77,8 @@ ul > li {
     line-height: 1.625rem;
 }
 
+@import "header-yellow";
+
 /* Header */
 .badge {
     position: absolute;
@@ -84,22 +100,21 @@ ul > li {
 /* Logo */
 
 .logobar {
-    min-height: 120px;
-    display: flex;
-}
+    padding: 0 0 1.6em 0;
 
-.logo {
-    padding-left: 240px;
-    min-height: 88px;
-    margin: 0 auto;
+    @media (min-width: 740px) {
+        padding-bottom: 3em;
+    }
 }
 
 .logo img {
-    width: 44px;
+    display: block;
+    width: auto;
     height: 77px;
+    margin: 0 auto;
 }
 
-.logo .wordmark {
+/* .logo .wordmark {
    font-size: 14px;
    line-height: 14px;
    margin-left: 9px;
@@ -110,46 +125,13 @@ ul > li {
    float: right;
    padding-top: 34px;
    display: block;
-}
+} */
+
+
 
 /* Yellow header bar */
 
 .headerbar {
-    position: relative;
-    background-color: #F9E11E /* RO geel */;
-}
-
-.headerbar .container {
-    position: relative;
-    padding-top: 60px;
-    padding-left: 8%;
-    padding-bottom: 5%;
-    background-image: url('../img/header-background.svg');
-    background-repeat: no-repeat;
-    background-position: 105% 30%;
-    background-size: 55%;
-}
-
-header h1 {
-    color: #154273 /* RO blauw */;
-    font-size: 3rem;
-    line-height: 3.125rem;
-    width: 45%;
-}
-
-header h1 .subtitle {
-    font-weight: normal;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-/*    letter-spacing: 1px;*/
-}
-
-.headerbar img {
-    display: block;
-    top: 7.5%;
-    position: absolute;
-    left: 62.5%;
-    width: 25%;
 }
 
 /* Watch button */
@@ -175,23 +157,110 @@ header .watch > a:hover {
 /* Content */
 .content {
     position: relative;
-    margin-top: -50px;
-    margin-left: calc(8% - 32px);
-    width: 50%;
-    padding: 0 32px 32px;
+    margin-top: -1.6em;
+    padding: 1.6em;
     background-color: #FFFFFF;
-    border-radius: 32px;
+    border-radius: 1.6em;
+    max-width: 500px;
+
+    @media (min-with: 960px) {
+        width: 60%;
+    }
 }
 
 .content > div {
     padding-top: 1.5624rem;
 }
 
-.content > .lead {
-    font-weight: bold;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+.lead {
+    position: relative;
+    margin: -3em 0 0 0;
+    padding: 2.4em;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+    color: #333333; /* RO tekst */;
+
+    @media (min-width: 960px) {
+        max-width: calc(100% - 382px);
+    }
 }
+
+.lead__text {
+
+    h2 {
+        margin: 0 0 0.7em;
+        font-size: 2em;
+        line-height: 1;
+    }
+
+    p {
+        margin: 0 0 1.4em;
+        font-size: 1.26em;
+    }
+
+    ul {
+        margin: 0 0 1em;
+        font-size: 1.26em;
+    }
+}
+
+.lead__preview {
+    display: none; // TODO: temporary
+    
+    @media (min-width: 960px) {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        top: -343px;
+        right: -349px;
+        width: 324px;
+        // Position depends on .header-yellow
+
+        > img { // TODO: temporary
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+/**
+
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+    }
+    .content > div {
+        flex: 50%;
+    }
+    .content .lead {
+        margin-right: 16px;
+    }
+    .content .follow {
+        margin-left: 16px;
+    }
+*/
+
+/**
+
+
+    .content {
+        display: block;
+        padding: 16px;
+    }
+
+    .content .lead {
+        padding-top: 0.5rem;
+        margin-right: 0; 
+    }
+
+    .content .follow {
+        margin-left: 0;
+    }
+*/
+
 
 .follow > h2 {
     font-size: 1rem;
@@ -207,9 +276,7 @@ header .watch > a:hover {
 /* Statements */
 
 .full-width-content {
-    margin: 0 calc(8% - 32px);
-    width: 84%;
-    padding: 0 32px 32px;
+    padding: 0 2em;
     z-index: 1;
     position: relative;
 }
@@ -217,8 +284,10 @@ header .watch > a:hover {
 .statements {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -16px;
-    margin-right: -16px;
+    
+    margin: 0 0 0 0;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .statements details {
@@ -274,6 +343,7 @@ header .watch > a:hover {
     margin-right: calc(33.33333% - 32px);
     padding-bottom: 2.3rem;
 }
+
 .statements details[open] > summary {
     margin-bottom: 0;
     padding-bottom: 0.5rem;
@@ -335,6 +405,10 @@ header .watch > a:hover {
 }
 .statements details > summary > div > span.chevron-up {
     background-image: url('../img/chevron-up.svg');
+}
+.statements details > summary > div > span.chevron-right {
+    background-image: url('../img/chevron-up.svg');
+    transform: rotate(90deg);
 }
 
 /* Statement Icons */
@@ -541,10 +615,23 @@ a.explainer > h2 {
 
 .faq {
     display: block;
-    margin: 32px;
     background-color: #F5F5F5 /* lichtgrijs */;
-    padding: 2rem 4rem;
+    margin: 3em 0 0 0;
+    padding: 1.6em;
+
+    &:after {
+        content: '';
+        display: block;
+        overflow: hidden;
+        height: 0px;
+        clear: both;
+    }
+
+    @media (min-width: 680px) {
+        padding: 2rem 4rem;
+    }
 }
+
 .faq > h2 {
     font-size: 2rem;
     color: #333333;
@@ -557,9 +644,10 @@ a.explainer > h2 {
 .faq .tab {
     float: right;
     clear: right;
-    width: 60%;
-    margin-right: 20%;
     display: none;
+    @media (min-width: 680px) {
+        width: calc(100% - 200px);
+    }
 }
 #radio-faq-top5:checked ~ .tab-faq-top5,
 #radio-faq-opensource:checked ~ .tab-faq-opensource,
@@ -592,7 +680,9 @@ a.explainer > h2 {
     clear: left;
     margin-bottom: 0.875rem;
     height: 1.125rem;
-    width: 20%;
+    @media (min-width: 680px) {
+        width: 200px;
+    }
 }
 .faq > label:hover > h3 {
     text-decoration: underline;
@@ -662,7 +752,7 @@ a.explainer > h2 {
     color: #154273 /* RO blauw */;
 }
 .faq details summary > h4 {
-    padding: 0 65px 0 15px;
+    padding: 0 40px 0 15px;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.1875rem;
@@ -721,10 +811,6 @@ a.explainer > h2 {
     body {
         min-width: 768px;
     }
-    .headerbar .container {
-        background-position: 50% 10%;
-        padding-bottom: 12%;
-    }
 
     header h1 {
         width: 80%;
@@ -738,23 +824,9 @@ a.explainer > h2 {
         display: none;
     }
 
-    .content {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-    }
-    .content > div {
-        flex: 50%;
-    }
-    .content .lead {
-        margin-right: 16px;
-    }
-    .content .follow {
-        margin-left: 16px;
-    }
     .full-width-content {
-        width: 100%;
         margin: 0;
+        width: 100%;
     }
     .statements details {
         width: calc(50% - 32px);
@@ -763,10 +835,7 @@ a.explainer > h2 {
         width: 100%;
         margin-right: 16px;
     }
-    .explainer,
-    .faq {
-        padding: 1rem 1rem;
-    }
+    
     .faq .tab {
         width: calc(80% - 16px);
         margin-right: 16px;
@@ -795,13 +864,6 @@ a.explainer > h2 {
     .logo .wordmark {
         display: none;
     }
-
-    .headerbar .container{
-        background-size: 80%;
-        padding-top: 20px;
-        padding-bottom: 20%;
-    }
-
     header h1 {
         width: 100%;
         font-size: 2rem;
@@ -812,16 +874,10 @@ a.explainer > h2 {
         font-size: 1.375rem;
         line-height: 1.625rem; 
     }
-
-    .content {
-        display: block;
-        padding: 16px;
-    }
     .full-width-content {
         padding: 0 16px;
     }
-    .explainer,
-    .faq {
+    .explainer {
         margin: 16px;
     }
     .faq > label {
@@ -842,15 +898,6 @@ a.explainer > h2 {
     }
     .explainer {
         background-position: center center, bottom right, center center;
-    }
-
-    .content .lead {
-        padding-top: 0.5rem;
-        margin-right: 0; 
-    }
-
-    .content .follow {
-        margin-left: 0;
     }
 
     .statements details {

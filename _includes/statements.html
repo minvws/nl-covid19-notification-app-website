@@ -7,7 +7,7 @@
         <summary {% if statement.icon %} class="icon-{{ statement.icon }}" {% endif %}>
           <h2>{{ statement.title }}</h2>
           <span><strong>{{ statement.timeline.completed.size }} {{ site.data.translations.x-of-y[page.lang] }} {{ statement.timeline.completed.size | plus: statement.timeline.working-on.size }}</strong> {{ statement.summary }}</span>
-          <div class="expand">{{ site.data.translations.readmore[page.lang] }}<span class="chevron-down"></span></div>
+          <div class="expand">{{ site.data.translations.readmore[page.lang] }}<span class="chevron-right"></span></div>
           <div class="collapse top">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div>
           <div class="collapse bottom">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div>
         </summary>
@@ -29,9 +29,10 @@
           </ul>
           {% endif %}
           {{ statement.content }}
+          <!-- TODO: This is a feature that will not be implemented in the first version
           <div class="respond">
             <a href="#">{{ site.data.translations.respond[page.lang] }}</a>
-          </div>
+          </div> -->
           <div class="more">
             <h3>{{ site.data.translations.want-to-known-more[page.lang] }}</h3>
             <span>{{ site.data.translations.see-the-faq[page.lang] }}</span>

@@ -4,20 +4,27 @@
     <div class="logobar">
       <div class="logo">
         <img src="{{ relroot }}img/logo.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
-        <span class="wordmark">
+        <!-- <span class="wordmark">
           <span class="sender">{{ site.data.translations.minvws[page.lang] }}</span>
-        </span>
+        </span> -->
       </div>
     </div>
   </div>
-  <div class="headerbar">
+  <div class="header-yellow">
     <div class="container">
-      <h1>
-        {% if page.title %}{{ page.title }}{% else %}{{ site.data.translations.title[page.lang] }}{% endif %}
-        <div class="subtitle">{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.data.translations.subtitle[page.lang] }}{% endif %}</div>
-      </h1>
-      <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div>
-      <img src="{{ relroot }}img/app-preview.png" alt="{{ site.data.translations.app-preview[page.lang] }}" class="app-preview">
+      <div class="header-yellow__text">
+        <div class="header-yellow__language-picker">
+          {{ site.data.translations.header-language-picker-label[page.lang] }}:
+          <strong>Nederlands</strong>
+          <!-- TODO -->
+          [TODO]
+        </div>
+        <h1>
+          {{ site.data.translations.header-title[page.lang] }}
+        </h1>
+        <h2 class="subtitle">{{ site.data.translations.header-subtitle[page.lang] }}</h2>
+      </div>
+      <!-- TODO <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->
     </div>
   </div>
 </header>
