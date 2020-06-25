@@ -12,8 +12,8 @@ Ordinary citizens, the general public
 ### **Links:**
 
 * [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
-* [Status information](https://docs.google.com/document/d/1cZyhR4ggnF7sGkA1PKt-zbfC6bl7VpRqqhhICNhEbBk/edit)(in Dutch)
-* [Current HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
+* [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
+* [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
 * Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140)[  ](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)
 * Also see the[Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
 
@@ -66,13 +66,12 @@ The hosting requirements are defined elsewhere.
 * Initial idea: Edo Plantinga, community manager at VWS. (please note: the initial idea was a traffic light dashboard, it now evolved to the beginnings of a project website). 
 * Community team lead: Harrie Kuipers (tel: 06 24260957 - harrie@osage.nl)
 * UXers / frontenders: 
-  * Bart Lenstra | bart@osage.nl
   * Paul Wagener (first draft)
   * Benjamin W. Boersma
 * Ux experts (interface)
-  * Ruben Ahuluheluw
-  * Ruben Vandenbussche
-  * Nelleke Harmse
+  * Bart Lenstra | bart@osage.nl
+  * Laura Engelshove
+  * Cas Zeegers
 * Ux testers
   * Nelleke Harmse
   * Ruben Vandenbussche
@@ -135,6 +134,8 @@ Please also include the name part as prefix of your file, e.g. `app-X.md`.
 Please give your file a short English name without spaces (you can use dash `-` instead).
 You should at least provide the base file with `lang: nl`.
 The translations should have the same name with a `-lang` suffix, where `lang` is the language keyword e.g. `en`.
+
+See file [README.i18n.md](README.i18n.md) for details.
 
 ### How to test GitHub Pages locally
 
