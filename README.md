@@ -66,13 +66,12 @@ The hosting requirements are defined elsewhere.
 * Initial idea: Edo Plantinga, community manager at VWS. (please note: the initial idea was a traffic light dashboard, it now evolved to the beginnings of a project website). 
 * Community team lead: Harrie Kuipers (tel: 06 24260957 - harrie@osage.nl)
 * UXers / frontenders: 
-  * Bart Lenstra | bart@osage.nl
   * Paul Wagener (first draft)
   * Benjamin W. Boersma
 * Ux experts (interface)
-  * Ruben Ahuluheluw
-  * Ruben Vandenbussche
-  * Nelleke Harmse
+  * Bart Lenstra | bart@osage.nl
+  * Laura Engelshove
+  * Cas Zeegers
 * Ux testers
   * Nelleke Harmse
   * Ruben Vandenbussche
