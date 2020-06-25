@@ -135,6 +135,8 @@ Please give your file a short English name without spaces (you can use dash `-` 
 You should at least provide the base file with `lang: nl`.
 The translations should have the same name with a `-lang` suffix, where `lang` is the language keyword e.g. `en`.
 
+See file [README.i18n.md](README.i18n.md) for details.
+
 ### How to test GitHub Pages locally
 
 To build Jekyll, you could [install Jekyll locally](https://jekyllrb.com/docs/installation/) or probably the easier route: use a Docker image.
