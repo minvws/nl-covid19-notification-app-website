@@ -3,3 +3,6 @@ repo: minvws/nl-covid19-notification-app-dashboard
 collections:
   - statements
   - questions
+
+sass:
+  sass_dir: css

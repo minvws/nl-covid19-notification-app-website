@@ -1,0 +1,74 @@
+
+
+.header-yellow {
+    overflow-x: hidden;
+    background-color: #F9E11E /* RO geel */;
+    position: relative;
+    background-image: url('../img/header-background.svg');
+    background-repeat: no-repeat;
+    background-size: 347px;
+    background-position: center 23px;
+    min-height: 300px;
+
+    @media(min-width: 680px) {
+        background-size: 680px;
+        background-position: center 62px;
+    }
+
+    @media(min-width: 960px) {
+        background-image: none;
+        // Note: background moved to .lead__preview ‘under‘ the mobile phone graphic
+    }
+}
+
+.header-yellow__center {
+    position: relative;
+}
+
+.header-yellow__language-picker {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.38);
+    padding: 0.8em 0.8em;
+    color: #000;
+    cursor: pointer;
+
+    &:hover {
+        background: #fff;
+    }
+} 
+
+.header-yellow__text {
+    color: #154273 /* RO blauw */;
+    // See .content with negative margin-top
+    padding: 0 0 2em 1.38em;
+
+    @media (min-width: 680px) {
+        padding: 0 0 2em 3em;
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 0 5em 2.6em;
+        // min-height: 500px;
+    }
+    
+    h1 {
+        margin: 2em 0 0 0;
+        font-size: 1.62em;
+        line-height: 1.16em;
+
+        @media (min-width: 680px) {
+            font-size: 2.62em;
+        }
+    }
+        
+    h2 {
+        margin: 0.38em 0 1.62em 0;
+        font-size: 1.38em;
+        line-height: 1.2em;
+        font-weight: 400;
+
+        @media (min-width: 680px) {
+            font-size: 2em;
+        }
+    }
+}

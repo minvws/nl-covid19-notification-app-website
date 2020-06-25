@@ -1,15 +1,21 @@
-title:
+page-title:
   nl: Grip op Covid-19
   en: Grip on Covid-19
-subtitle:
+header-title:
+  nl: Grip op Covid-19<br> met de [name here] app
+  en: Grip on Covid-19<br> with the [name here] app
+header-subtitle:
   nl: Alleen Samen zorgen we<br>voor minder besmettingen
-  en: Only Together will we<br>ensure fewer infections
+  en: Only Together we will<br>ensure fewer infections
+header-language-picker-label:
+  nl: Taal
+  en: Language
 note:
   nl: "Let op:"
   en: "Please note:"
 development:
-  nl: in ontwikkeling
-  en: under development
+  nl: in ontwikkeling v0.6
+  en: under development v0.6
 govlogo:
   nl: Rijksoverheid logo
   en: Government logo
@@ -82,6 +88,9 @@ faq-app:
 faq-development:
   nl: Ontwikkeling
   en: Development
+faq-info-will-be-updated:
+  nl: Er zullen de komenden tijd meer antwoorden bij komen
+  en: More items will be added over time
 has-been-answered:
   nl: Is uw vraag beantwoord?
   en: Has your question been answered?
@@ -103,3 +112,66 @@ description:
 differentlanguage:
   nl: Lees in andere taal
   en: Read in different language
+
+# Footer translations
+
+footer-contact-title:
+  nl: Contact
+footer-contact-ask-a-question-url: #
+footer-contact-ask-a-question:
+  nl: Stel een vraag
+footer-contact-press-url: #
+footer-contact-press:
+  nl: Persvragen?
+
+footer-phone-title:
+  nl: Telefoonnummer (gratis)
+footer-phone:
+  nl: 0800 - TODO
+footer-phone-line:
+  nl: bereikbaar maandag t/m vrijdag
+
+footer-join-title:
+  nl: Meekijken en meedoen?
+footer-join-github-url: https://github.com/minvws
+footer-join-github:
+  nl: Bekijk op GitHub de open source code en documenten
+footer-join-slack-url: https://doemee.codefor.nl/
+footer-join-slack:
+  nl: Praat mee in slack
+
+footer-more-info-title:
+  nl: Meer informatie?
+footer-more-info-url: https://rijksoverheid.nl
+footer-more-info:
+  nl: Kijk op Rijksoverheid.nl
+
+footer-try-first-title:
+  nl: App eerst proberen?
+footer-try-first-url:
+  nl: #
+footer-try-first:
+  nl: Geef je op!
+
+footer-logos-minvws-url: https://minvws.nl/
+footer-logos-minvws-img-alt: 
+  nl: Logo Ministerie van Volksgezondheid, Welzijn en Sport
+footer-logos-rivm-url: https://www.rivm.nl/
+footer-logos-rivm-img-alt: 
+  nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
+footer-logos-ggd-url: https://www.ggd.nl/
+footer-logos-ggd-img-alt: 
+  nl: Logo GGD Nederland
+
+footer-misc-privacy-url: #
+footer-misc-privacy:
+  nl: Privacy
+footer-misc-disclaimer-url: #
+footer-misc-disclaimer:
+  nl: Disclaimer
+footer-misc-cookies-url: #
+footer-misc-cookies:
+  nl: Cookies
+footer-misc-colofon-url: #
+footer-misc-colofon:
+  nl: Colofon
