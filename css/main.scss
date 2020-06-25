@@ -11,6 +11,9 @@ Breakpoints:
 740px (tablet)
 960px (desktop)
 */
+
+$color-RO_donkerblauw: #154273 /* RO blauw */;
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +47,6 @@ Breakpoints:
 body {
     font-family: 'RO Sans', sans-serif;
     font-size: 16px;
-    min-width: 800px;
 }
 
 .container {
@@ -78,6 +80,7 @@ ul > li {
 }
 
 @import "header-yellow";
+@import "../_includes/footer";
 
 /* Header */
 .badge {
@@ -109,9 +112,16 @@ ul > li {
 
 .logo img {
     display: block;
-    width: auto;
-    height: 77px;
+    width: 45px;
     margin: 0 auto;
+
+    @media (min-width: 740px) {
+        width: 45px;
+    }
+
+    @media (min-width: 960px) {
+        width: 50px;
+    }
 }
 
 /* .logo .wordmark {
@@ -210,16 +220,32 @@ header .watch > a:hover {
     @media (min-width: 960px) {
         display: block;
         position: absolute;
-        z-index: 2;
+        z-index: 0;
         top: -343px;
         right: -349px;
         width: 324px;
         // Position depends on .header-yellow
 
         > img { // TODO: temporary
+            position: relative;
             display: block;
             width: 100%;
             height: auto;
+            z-index: 1;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -147px;
+            right: -138px;
+            bottom: 0;
+            z-index: 0;
+            background-image: url('../img/header-background.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center 23px;
+            width: 600px;
         }
     }
 }
@@ -282,12 +308,15 @@ header .watch > a:hover {
 }
 
 .statements {
-    display: flex;
     flex-wrap: wrap;
     
     margin: 0 0 0 0;
     margin-left: -10px;
     margin-right: -10px;
+
+    @media (min-width: 740px) {
+        display: flex;
+    }
 }
 
 .statements details {
@@ -296,8 +325,15 @@ header .watch > a:hover {
     background-color: #FFFFFF;
     border-radius: 5px;
     flex-grow: 0;
-    width: calc(33.33333% - 32px);
     position: relative;
+
+    @media (min-width: 740px) {
+        width: calc(50% - 32px);
+    }
+
+    @media (min-width: 960px) {
+        width: calc(33.333% - 32px);
+    }
 }
 
 .statements details > summary::-webkit-details-marker {
@@ -339,8 +375,6 @@ header .watch > a:hover {
 }
 
 .statements details[open] {
-    width: calc(66.66666% - 32px);
-    margin-right: calc(33.33333% - 32px);
     padding-bottom: 2.3rem;
 }
 
@@ -536,7 +570,6 @@ header .watch > a:hover {
 /* Statement More information */
 
 .card-content > .more {
-    float: left;
 }
 
 .card-content > .more > h3 {
@@ -551,27 +584,23 @@ header .watch > a:hover {
 
 /* Statement Share */
 
-.card-content > .share {
-    float: right;
-}
-
-.card-content > .share > h4 {
+.share > h4 {
     font-size: 1.125rem;
     line-height: 1.375rem;
 }
 
-.card-content > .share > ul {
+.share > ul {
     list-style: none;
     height: 40px;
     margin-bottom: 10px;
 }
 
-.card-content > .share > ul > li {
+.share > ul > li {
     float: left;
     margin-right: 10px;
 }
 
-.card-content > .share > ul > li > a {
+.share > ul > li > a {
     display: block;
     width: 40px;
     height: 40px;
@@ -616,8 +645,10 @@ a.explainer > h2 {
 .faq {
     display: block;
     background-color: #F5F5F5 /* lichtgrijs */;
-    margin: 3em 0 0 0;
+    margin: 3em auto 0 auto;
     padding: 1.6em;
+    max-width: 1100px;
+    position: relative;
 
     &:after {
         content: '';
@@ -628,27 +659,35 @@ a.explainer > h2 {
     }
 
     @media (min-width: 680px) {
-        padding: 2rem 4rem;
+        padding: 3rem 4rem 2rem 4rem;
     }
 }
 
 .faq > h2 {
     font-size: 2rem;
     color: #333333;
-    margin-bottom: 1rem;
+    margin-bottom: 2.6rem;
 }
 
 .faq input[name=faq] {
     display: none;
 }
+
 .faq .tab {
     float: right;
     clear: right;
     display: none;
-    @media (min-width: 680px) {
+
+    @media (min-width: 740px) {
         width: calc(100% - 200px);
     }
+
+    @media (min-width: 960px) {
+        width: calc(100% - 400px);
+        margin-right: 200px;
+    }
 }
+
 #radio-faq-top5:checked ~ .tab-faq-top5,
 #radio-faq-opensource:checked ~ .tab-faq-opensource,
 #radio-faq-app:checked ~ .tab-faq-app,
@@ -680,6 +719,7 @@ a.explainer > h2 {
     clear: left;
     margin-bottom: 0.875rem;
     height: 1.125rem;
+    
     @media (min-width: 680px) {
         width: 200px;
     }
@@ -808,9 +848,6 @@ a.explainer > h2 {
 
 /* Tablet layout */
 @media only screen and (max-width: 1024px) {
-    body {
-        min-width: 768px;
-    }
 
     header h1 {
         width: 80%;
@@ -828,13 +865,6 @@ a.explainer > h2 {
         margin: 0;
         width: 100%;
     }
-    .statements details {
-        width: calc(50% - 32px);
-    }
-    .statements details[open] {
-        width: 100%;
-        margin-right: 16px;
-    }
     
     .faq .tab {
         width: calc(80% - 16px);
@@ -848,9 +878,6 @@ a.explainer > h2 {
 
 /* Mobile layout */
 @media only screen and (max-width: 400px) {
-    body {
-        min-width: 320px;
-    }
     .badge {
         font-size: 0.8125rem;
         line-height: 0.8125rem;

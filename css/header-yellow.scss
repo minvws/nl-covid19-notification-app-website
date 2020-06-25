@@ -17,19 +17,7 @@
 
     @media(min-width: 960px) {
         background-image: none;
-
-        .header-yellow__text:after {
-            content: '';
-            position: absolute;
-            top: -100px;
-            right: -90px;
-            bottom: 0;
-            background-image: url('../img/header-background.svg');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center 23px;
-            width: 620px;
-        }
+        // Note: background moved to .lead__preview ‘under‘ the mobile phone graphic
     }
 }
 
@@ -60,6 +48,7 @@
 
     @media (min-width: 960px) {
         padding: 0 0 5em 2.6em;
+        // min-height: 500px;
     }
     
     h1 {
