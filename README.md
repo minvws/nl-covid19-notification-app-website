@@ -14,8 +14,8 @@ Ordinary citizens, the general public
 * [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
 * [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
 * [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
-* Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)
-* Also see the[Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
+* Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/))
+* Also see the [Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
 
 How to help
 ---------------------
@@ -51,7 +51,7 @@ Design principles
 
 Features, requirements and standards
 ------------------------------------
-Preamble: the intended quality of the website is very high (10/10), as this will impact the number of downloads both directly (defined as a high click-through rate to the app stores) and indirectly (influencing public opinion, by taking away common misconceptions etc.). 
+**Preamble:** the intended quality of the website is very high (10/10), as this will impact the number of downloads both directly (defined as a high click-through rate to the app stores) and indirectly (influencing public opinion, by taking away common misconceptions etc.). 
 * Requirement 1: Adhering to **WCAG accessibility standards** as specified in the [Accessibility document](https://github.com/minvws/nl-covid19-notification-app-coordination/blob/master/accessibility/Toegankelijkheid.md) of the app itself.
 * Requirement 2: **Download button should be easily added after launch of the app.**
 * Requirement 3: Should be clear that the app was built in conjunction with **Rijksoverheid, RIVM, GGD**.
@@ -72,7 +72,7 @@ The hosting requirements are defined elsewhere.
 
 How this website came about (pinging journalists)
 ------------------------------------
-There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via Github and Slack) from the traffic dashboard to what is now the project website-to-be. Honorable mentions go to Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/). 
+There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via Github and Slack) from the traffic dashboard to what is now the project website-to-be. Honorable mentions go to Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)). 
 Please ping any of the people involved via Slack if you are interested in writing an article about this.
 
 Technical setup
