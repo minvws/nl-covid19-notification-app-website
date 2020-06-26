@@ -1,5 +1,5 @@
 About
------
+---------------------
 
 This site is the project website of the notification-app by the Dutch Ministry of Health.
 
@@ -14,8 +14,12 @@ Ordinary citizens, the general public
 * [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
 * [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
 * [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
-* Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140)[  ](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)
+* Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)
 * Also see the[Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
+
+How to help
+---------------------
+Please join the Slack channel and check out the kanban board for the latest status. 
 
 Goals of the website:
 ---------------------
@@ -39,7 +43,7 @@ Design principles
 -----------------
 
 * Design principle 1: Clarity and usability over eye candy
-* Design principle 2: Test the results on the target group, guerilla testing in the supermarket
+* Design principle 2: Test the results on the target group, guerilla testing in the supermarket, etc. 
 * Design principle 3: Mobile first
 * Design principle 4: Usable for anyone (so: simply formulated in B1 language level, tested on users, etc.)
 * Design principle 5: Confirm to the design principles of[  ](https://www.gebruikercentraal.nl/)[Gebruiker](https://www.gebruikercentraal.nl/)[  ](https://www.gebruikercentraal.nl/)[Centraal](https://www.gebruikercentraal.nl/).
@@ -47,41 +51,32 @@ Design principles
 
 Features, requirements and standards
 ------------------------------------
-
-* Requirement 1: Adhering to WCAG accessibility standards as specified in the [Accessibility document](https://github.com/minvws/nl-covid19-notification-app-coordination/blob/master/accessibility/Toegankelijkheid.md) of the app itself.
-* Requirement 2: Download button should be easily added after launch of the app.
-* Requirement 3: Should be clear that the app was built in conjunction with Rijksoverheid, RIVM, GGD.
-* Requirement 4: A/B testing (after launch of the app) should be possible in a privacy friendly way, so
+Preamble: the intended quality of the website is very high (10/10), as this will impact the number of downloads both directly (defined as a high click-through rate to the app stores) and indirectly (influencing public opinion, by taking away common misconceptions etc.). 
+* Requirement 1: Adhering to **WCAG accessibility standards** as specified in the [Accessibility document](https://github.com/minvws/nl-covid19-notification-app-coordination/blob/master/accessibility/Toegankelijkheid.md) of the app itself.
+* Requirement 2: **Download button should be easily added after launch of the app.**
+* Requirement 3: Should be clear that the app was built in conjunction with **Rijksoverheid, RIVM, GGD**.
+* Requirement 4: **A/B testing** (before and after launch of the app) should be possible in a privacy-friendly way. Rationale: the website is an essential step in the conversion funnel. Every percentage of improvement at this step will result in a significant increase in numbers of downloads (in the order of hundreds of thousands), thus aiding the epidemiological effectiveness of the app. 
   * Routing to variations of the website
-  * Statistics preferably using the [Piwik (Mamoto) service of the government](https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-dienstverlening/platform-rijksoverheid-online)
-* Requirement 5: Use of video's should be possible (adhering to [WCAG standards](https://www.digitoegankelijk.nl/uitleg-van-eisen/geluid-en-video))
-* Requirement 6: adhere to [General Data Protection GDPR](https://gdpr.eu/tag/gdpr/) (in Dutch: Algemene Verordening Persoonsgegevens (AVG))
-* Requirement 7: [Guidelines websites and other online resources](https://www.ubrijk.nl/documenten/brochure/brochure-2019/11/13/handreiking-verplichte-richtlijnen-websites-en-andere-online-middelen)
-* Requirement 8: Multilingual support, allowing for a mechanism for crowdsourced translations. The crowdsourced translations are out of scope of the website, but the website setup should allow for it.
+  * Statistics preferably using the [Piwik service of the government](https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-dienstverlening/platform-rijksoverheid-online)
+  * It should be possible to assess the effectiveness of social media campaigns (as a part of the conversion funnel before people land on the website). 
+* Requirement 5: Use of **video's** should be possible (adhering to [WCAG standards](https://www.digitoegankelijk.nl/uitleg-van-eisen/geluid-en-video))
+* Requirement 6: adhere to [General Data Protection **GDPR**](https://gdpr.eu/tag/gdpr/) (in Dutch: Algemene Verordening Persoonsgegevens (AVG))
+* Requirement 7: [**Government guidelines websites** and other online resources](https://www.ubrijk.nl/documenten/brochure/brochure-2019/11/13/handreiking-verplichte-richtlijnen-websites-en-andere-online-middelen)
+* Requirement 8: **Multilingual** support, allowing for a mechanism for crowdsourced translations. The crowdsourced translations are out of scope of the website, but the website setup should allow for it.
+* Requirement 9: **Open research, build and design process**. It should be easy for people to suggest improvements to the website, as this will improve the quality significantly (see: preamble). Also, this will help us in giving more ownership of the app among the people in The Netherlands, hopefully aiding adoption. Among others, we hope to involve: 
+  * The designers and UX researchers of the app itself, who have learnt a lot about the concerns and desires of users via their extensive UX research and testing. This will also bring the look and feel of the website and the app closer together. 
+  * The coders and designers of the Code for NL community, that can help improve accessibility, multilingual challenges, etc. 
+  * The UX researchers of the Code for NL community, that have gained insight into the main concerns of potential users via a questionaire. 
 
 The hosting requirements are defined elsewhere.
 
-## People involved (thank you!)
-*(this part needs cleaning up, incorporate this list in the community website)*
-* Initial idea: Edo Plantinga, community manager at VWS. (please note: the initial idea was a traffic light dashboard, it now evolved to the beginnings of a project website). 
-* Community team lead: Harrie Kuipers (tel: 06 24260957 - harrie@osage.nl)
-* UXers / frontenders: 
-  * Paul Wagener (first draft)
-  * Benjamin W. Boersma
-* Ux experts (interface)
-  * Bart Lenstra | bart@osage.nl
-  * Laura Engelshove
-  * Cas Zeegers
-* Ux testers
-  * Nelleke Harmse
-  * Ruben Vandenbussche
-  * Ruben Ahuluheluw
-  * Anouschka Scholten
-* Copywriter: Maria Faragg
-* Temporary overseeer of Github commits: @arianvp
-* Technical lead, markdown setup via Jekyll: Benjamin W. Boersma @bwbroersma
+How this website came about (pinging journalists)
+------------------------------------
+There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via Github and Slack) from the traffic dashboard to what is now the project website-to-be. Honorable mentions go to Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/). 
+Please ping any of the people involved via Slack if you are interested in writing an article about this.
 
-## Technical setup
+Technical setup
+------------------------------------
 
 ### GitHub Pages
 
