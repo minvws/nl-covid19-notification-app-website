@@ -14,8 +14,8 @@ note:
   nl: "Let op:"
   en: "Please note:"
 development:
-  nl: in ontwikkeling v0.6
-  en: under development v0.6
+  nl: in ontwikkeling v0.7
+  en: under development v0.7
 govlogo:
   nl: Rijksoverheid logo
   en: Government logo
@@ -112,6 +112,24 @@ description:
 differentlanguage:
   nl: Lees in andere taal
   en: Read in different language
+
+
+
+info-slides:
+  -
+    image: slide-outside-bicycle
+    nl:
+      title: Bescherm je vrienden, familie en de rest van Nederland
+      content: |
+        [Naam app] waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
+        Zo kunnen we samen de verspreiding stoppen.
+  -
+    image: slide-app-notification
+    nl:
+      title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
+      content: |
+        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. 
+        Deze persoon moet ook de app gebruiken.
 
 # Footer translations
 

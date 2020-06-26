@@ -1,0 +1,208 @@
+
+.statements {
+    flex-wrap: wrap;
+    
+    margin: 0 0 0 0;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    @media (min-width: 740px) {
+        display: flex;
+    }
+}
+
+.statements details {
+    margin: 16px;
+    box-shadow: 0 2px 9px -2px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    flex-grow: 0;
+    position: relative;
+
+    @media (min-width: 740px) {
+        width: calc(50% - 32px);
+    }
+
+    @media (min-width: 960px) {
+        width: calc(33.333% - 32px);
+    }
+}
+
+.statements details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.statements details > .card-content {
+    padding: 20px;
+    color: #333333 /* donkergrijs */;
+}
+
+.statements details > summary {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left 25px top 25px;
+    background-size: 42px;
+    height: 100%;
+
+    padding: 18px 20px 40px 85px;
+    list-style-type: none;
+    cursor: pointer;
+    
+    h2 {
+        font-size: 1.625em;
+        line-height: 1.26em;
+        margin-bottom: 0.45rem;
+        color: $color-RO_donkerblauw;
+    }
+
+    p {
+        line-height: 1.38em;
+        margin-bottom: 1.2rem;
+    }
+
+    .summary-expand {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 0.5rem 0.5em 0.5em 100px;
+        margin: 0;
+        color: $color-RO_donkerblauw;
+        border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
+        font-size: 1.1em;
+
+        > .icon {
+            position: relative;
+            top: 1px;
+            margin: 0 -0.4em 0 -0.4em;
+        }
+    }
+}
+
+.statements details > summary > span {
+    line-height: 1.375rem;
+}
+
+/* Statement hover and open effects */
+
+.statements details > summary:hover {
+    background-color: #F5F5F5 /* lichtgrijs */;
+}
+.statements details > summary:hover > .expand {
+    color: #002783 /* RO donker link2 */;
+}
+
+.statements details[open] > summary {
+    background-color: #F5F5F5 /* lichtgrijs */;
+}
+
+.statements details[open] > summary {
+    color: #154273 /* RO blauw */;
+}
+
+// 
+//
+//
+
+.details__summary__icon {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    
+    svg {
+        max-width: 49px;
+        color: $color-WARN_rood;
+
+        details:hover & {
+            color: $color-RO_donkerblauw;
+        }
+    }
+}
+
+.details__summary__expanded-box-background {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 162ms ease-out;
+
+    details[open] & {
+        opacity: 1; 
+        visibility: visible;
+        transition: 262ms ease-out;
+    }
+}
+
+.details__expanded-box {
+    visibility: hidden;
+    overflow: hidden;
+    background: #fff;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 420px;
+    width: calc(100% - 42px);
+    border-radius: 0.4em 0 0 0.4em;
+    transform: translate(110%, 0);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.62);
+    transition: 162ms ease-out;
+    overflow-y: scroll;
+
+    details[open] & {
+        visibility: visible;
+        transform: translate(0, 0);
+        transition: 262ms ease-out;
+    }
+}
+
+.expanded-box__header {
+    position: relative;
+    padding: 2em 4em 2em 6em;
+    background-color: #F5F5F5 /* lichtgrijs */;
+}
+
+.expanded-box__header__icon {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    
+    svg {
+        max-width: 49px;
+        color: $color-WARN_rood;
+
+        details:hover & {
+            color: $color-RO_donkerblauw;
+        }
+    }
+}
+
+.expanded-box__header__title {
+    font-size: 1.625em;
+    line-height: 1.26em;
+    margin-bottom: 0.45rem;
+    color: $color-RO_donkerblauw;
+}
+
+.expanded-box__content {
+    padding: 2em 2em;
+}
+
+.expanded-box__want-to-know-more {
+    padding: 1.7em 2em;
+    background-color: #F5F5F5 /* lichtgrijs */;
+
+    > h3 {
+        margin-bottom: 0.26em;
+    }
+    
+    > p {
+        margin-bottom: 0;
+    }
+}
