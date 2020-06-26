@@ -14,6 +14,10 @@ Breakpoints:
 
 $color-RO_donkerblauw: #154273 /* RO blauw */;
 
+$color-RO_lichtblauw: #EFF7F9;
+
+$color-WARN_rood: #CA005D;
+
 * {
     margin: 0;
     padding: 0;
@@ -44,9 +48,14 @@ $color-RO_donkerblauw: #154273 /* RO blauw */;
     font-display: swap;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'RO Sans', sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -81,6 +90,7 @@ ul > li {
 
 @import "header-yellow";
 @import "../_includes/footer";
+@import "../_includes/statements";
 
 /* Header */
 .badge {
@@ -184,11 +194,15 @@ header .watch > a:hover {
 
 .lead {
     position: relative;
-    margin: -3em 0 0 0;
-    padding: 2.4em;
+    margin: -3.7em 0 0 0;
+    padding: 2em 1.6em 0 1.6em;
     background-color: #FFFFFF;
     border-radius: 2em;
     color: #333333; /* RO tekst */;
+
+    @media (min-width: 740px) {
+        padding: 2em 2.4em 0 2.4em;
+    }
 
     @media (min-width: 960px) {
         max-width: calc(100% - 382px);
@@ -204,19 +218,28 @@ header .watch > a:hover {
     }
 
     p {
-        margin: 0 0 1.4em;
-        font-size: 1.26em;
+        margin: 0 0 1.2em;
+        font-size: 1.38em;
+        line-height: 1.38em;
     }
 
     ul {
         margin: 0 0 1em;
         font-size: 1.26em;
+
+        li {
+            margin-bottom: 0.3em;
+        }
     }
 }
 
 .lead__preview {
-    display: none; // TODO: temporary
+    margin: 0 -1em 1.6em -1em;
     
+    > img {
+        display: none;
+    }
+
     @media (min-width: 960px) {
         display: block;
         position: absolute;
@@ -224,10 +247,12 @@ header .watch > a:hover {
         top: -343px;
         right: -349px;
         width: 324px;
+        margin: 0;
+        min-height: 670px;
         // Position depends on .header-yellow
 
         > img { // TODO: temporary
-            position: relative;
+            position: absolute;
             display: block;
             width: 100%;
             height: auto;
@@ -247,6 +272,48 @@ header .watch > a:hover {
             background-position: center 23px;
             width: 600px;
         }
+    }
+}
+
+.info-slider {
+    position: relative;
+    background: $color-RO_lichtblauw;
+    border-radius: 0.6em;
+    // padding: 1em;
+
+    @media (min-width: 960px) {
+        border-radius: 0;
+        margin: 107px 36px 0 37px;
+        z-index: 1;
+        height: 422px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+.info-slide__graphic {
+    margin: 0 0 1em 0;
+    text-align: center;
+
+    img {
+        max-width: calc(100% - 3em);
+        height: auto;
+    }
+
+    @media (min-width: 960px) {
+        padding-top: 2em;
+    }
+}
+
+.info-slide__text {
+    padding: 1.2em;
+    
+    h3 {
+        margin-bottom: 0.5em;
+    }
+
+    p {
+
     }
 }
 
@@ -307,93 +374,6 @@ header .watch > a:hover {
     position: relative;
 }
 
-.statements {
-    flex-wrap: wrap;
-    
-    margin: 0 0 0 0;
-    margin-left: -10px;
-    margin-right: -10px;
-
-    @media (min-width: 740px) {
-        display: flex;
-    }
-}
-
-.statements details {
-    margin: 16px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    flex-grow: 0;
-    position: relative;
-
-    @media (min-width: 740px) {
-        width: calc(50% - 32px);
-    }
-
-    @media (min-width: 960px) {
-        width: calc(33.333% - 32px);
-    }
-}
-
-.statements details > summary::-webkit-details-marker {
-    display: none;
-}
-
-.statements details > .card-content {
-    padding: 20px;
-    color: #333333 /* donkergrijs */;
-}
-
-.statements details > summary {
-    background-repeat: no-repeat;
-    background-position: left 25px top 25px;
-    background-size: 42px;
-
-    padding: 20px 20px 0 85px;
-    padding-bottom: 3rem;
-    list-style-type: none;
-    cursor: pointer;
-}
-.statements details > summary > h2 {
-    font-size: 1.625rem;
-    line-height: 1.6875rem;
-    margin-bottom: 0.5rem;
-    min-height: 3.375rem; /* 2 lines*/
-}
-.statements details > summary > span {
-    line-height: 1.375rem;
-}
-
-/* Statement hover and open effects */
-
-.statements details > summary:hover {
-    background-color: #F5F5F5 /* lichtgrijs */;
-}
-.statements details > summary:hover > .expand {
-    color: #002783 /* RO donker link2 */;
-}
-
-.statements details[open] {
-    padding-bottom: 2.3rem;
-}
-
-.statements details[open] > summary {
-    margin-bottom: 0;
-    padding-bottom: 0.5rem;
-    background-color: #F5F5F5 /* lichtgrijs */;
-}
-
-.statements details[open] > summary > span {
-    display: none;
-}
-
-.statements details[open] > summary {
-    color: #154273 /* RO blauw */;
-}
-.statements details[open] > summary > h2 {
-    width: 70%;
-}
 
 /* Statement expand and collapse buttons */
 
@@ -423,6 +403,19 @@ header .watch > a:hover {
 }
 .statements details[open] > summary > .collapse {
     display: block;
+}
+
+.icon {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 1rem;
+}
+
+.icon-chevron-right {
+    background-image: url('../img/chevron-up.svg');
+    transform: rotate(90deg);
 }
 
 /* Statement Expand collapse chevrons */
@@ -465,24 +458,28 @@ header .watch > a:hover {
 
 /* Statement Timeline */
 
-.card-content ul.completed,
-.card-content ul.working-on {
-    list-style: none;
-    margin-left: 40px;
+.timeline {
+    position: relative;
 }
 
-.card-content > h3.completed,
-.card-content > h3.working-on {
+.timeline ul.completed,
+.timeline ul.working-on {
+    list-style: none;
+    margin-left: 64px;
+}
+
+.timeline > h3.completed,
+.timeline > h3.working-on {
     font-size: 1.625rem;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 64px;
     margin-bottom: 20px;
 }
 
-.card-content > h3.completed::before,
-.card-content > h3.working-on::before,
-.card-content > ul.completed > li::before,
-.card-content > ul.working-on > li::before {
+.timeline > h3.completed::before,
+.timeline > h3.working-on::before,
+.timeline > ul.completed > li::before,
+.timeline > ul.working-on > li::before {
     content: '';
     width: 20px;
     height: 20px;
@@ -495,8 +492,8 @@ header .watch > a:hover {
     left: 23px;
     z-index: 2;
 }
-.card-content > h3.completed::before,
-.card-content > h3.working-on::before {
+.timeline > h3.completed::before,
+.timeline > h3.working-on::before {
     width: 34px;
     height: 34px;
     left: 16px;
@@ -504,10 +501,10 @@ header .watch > a:hover {
     background-repeat: no-repeat;
 }
 
-.card-content > h3.completed::after,
-.card-content > h3.working-on::after,
-.card-content > ul.completed > li::after,
-.card-content > ul.working-on > li::after {
+.timeline > h3.completed::after,
+.timeline > h3.working-on::after,
+.timeline > ul.completed > li::after,
+.timeline > ul.working-on > li::after {
     content: '';
     border-left-width: 4px;
     border-left-style: solid;
@@ -516,36 +513,36 @@ header .watch > a:hover {
     height: 40px;
 }
 
-.card-content > h3.completed::after,
-.card-content > h3.working-on::after {
+.timeline > h3.completed::after,
+.timeline > h3.working-on::after {
     height: 55px;
 }
-.card-content > h3.completed::before {
+.timeline > h3.completed::before {
     background-image: url('../img/completed.svg');
 }
-.card-content > h3.working-on::before {
+.timeline > h3.working-on::before {
     background-image: url('../img/working-on.svg');
 }
-.card-content > h3.completed::before,
-.card-content > h3.completed::after,
-.card-content > ul.completed > li::before,
-.card-content > ul.completed > li::after {
+.timeline > h3.completed::before,
+.timeline > h3.completed::after,
+.timeline > ul.completed > li::before,
+.timeline > ul.completed > li::after {
    border-color: #64C62A /* lichtgroen */;
 }
-.card-content > h3.working-on::before,
-.card-content > h3.working-on::after,
-.card-content > ul.working-on > li::before,
-.card-content > ul.working-on > li::after {
+.timeline > h3.working-on::before,
+.timeline > h3.working-on::after,
+.timeline > ul.working-on > li::before,
+.timeline > ul.working-on > li::after {
    border-color: #154273 /* RO blauw */;
 }
 
-.card-content > ul.completed > li,
-.card-content > ul.working-on > li {
+.timeline > ul.completed > li,
+.timeline > ul.working-on > li {
     height: 2rem;
     line-height: 1em;
 }
-.card-content > ul.completed > li:last-child::after,
-.card-content > ul.working-on > li:last-child::after {
+.timeline > ul.completed > li:last-child::after,
+.timeline > ul.working-on > li:last-child::after {
     height: 0;
 }
 
@@ -925,21 +922,5 @@ a.explainer > h2 {
     }
     .explainer {
         background-position: center center, bottom right, center center;
-    }
-
-    .statements details {
-        width: 100%;
-    }
-    .statements details[open] > summary > .collapse.top {
-        display: none;
-    }
-    .statements details[open] > summary > h2 {
-        width: 100%;
-    }
-    .card-content > .more, .card-content > .share {
-        float: none;
-    }
-    .card-content > .share {
-        margin-top: 1rem;
     }
 }
