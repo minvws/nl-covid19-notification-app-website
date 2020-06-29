@@ -1,59 +1,75 @@
-<footer class="footer">
-    <div class="footer__links">
-        <div class="footer__links__col">
-            <h3>{{ site.data.translations.footer-contact-title[page.lang] }}</h3>
-            <ul>
-                <li><a href="{{ site.data.translations.footer-contact-ask-a-question-url }}">{{ site.data.translations.footer-contact-ask-a-question[page.lang] }}</a></li>
-                <li><a href="{{ site.data.translations.footer-contact-press-url }}">{{ site.data.translations.footer-contact-press[page.lang] }}</a></li>
-            </ul>
-            <h3>{{ site.data.translations.footer-phone-title[page.lang] }}</h3>
-            <p>
-                {{ site.data.translations.footer-phone[page.lang] }}<br/>
-                {{ site.data.translations.footer-phone-line[page.lang] }}
-            </p>
-        </div>
-        <div class="footer__links__col">
-            <h3>{{ site.data.translations.footer-join-title[page.lang] }}</h3>
-            <ul>
-                <li><a href="{{ site.data.translations.footer-join-github-url }}">{{ site.data.translations.footer-join-github[page.lang] }}</a></li>
-                <li><a href="{{ site.data.translations.footer-join-slack-url }}">{{ site.data.translations.footer-join-slack[page.lang] }}</a></li>
-            </ul>
-            <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
-            <ul>
-                <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
-            </ul>
-        </div>
-        <div class="footer__links__col">
-            <h3>{{ site.data.translations.footer-try-first-title[page.lang] }}</h3>
-            <ul>
-                <li><a href="{{ site.data.translations.footer-try-first-url[page.lang] }}">{{ site.data.translations.footer-try-first[page.lang] }}</a></li>
-            </ul>
-            <h3>{{ site.data.translations.share[page.lang] }}</h3>
-            <div class="share">
+<footer>
+    <div class="footer-samen">
+        <a class="footer-samen__logo" href="{{ site.data.translations.footer-samen-logo-url }}">
+            <img src="{{ relroot }}img/logo-alleen-samen.svg" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
+        </a>
+        <p class="footer-samen__follow">
+            <a href="{{ site.data.translations.footer-social-instagram-url }}">
+                {{ site.data.translations.footer-samen-follow_md[page.lang] | markdownify | replace:'<p>','' | replace:'</p>','' }}
+            </a>
+        </p>
+    </div>
+    <div class="footer">
+        <div class="footer__links">
+            <!-- TODO: 
+            <div class="footer__links__col">
+                <h3>{{ site.data.translations.footer-contact-title[page.lang] }}</h3>
                 <ul>
-                    <li><a href="#" class="icon-twitter">{{ site.data.translations.share-on-twitter[page.lang] }}</a></li>
-                    <li><a href="#" class="icon-facebook">{{ site.data.translations.share-on-facebook[page.lang] }}</a></li>
-                    <li><a href="#" class="icon-linkedin">{{ site.data.translations.share-on-linkedin[page.lang] }}</a></li>
+                    <li><a href="{{ site.data.translations.footer-contact-ask-a-question-url }}">{{ site.data.translations.footer-contact-ask-a-question[page.lang] }}</a></li>
+                    <li><a href="{{ site.data.translations.footer-contact-press-url }}">{{ site.data.translations.footer-contact-press[page.lang] }}</a></li>
+                </ul>
+                <h3>{{ site.data.translations.footer-phone-title[page.lang] }}</h3>
+                <p>
+                    {{ site.data.translations.footer-phone[page.lang] }}<br/>
+                    {{ site.data.translations.footer-phone-line[page.lang] }}
+                </p>
+            </div>
+            <div class="footer__links__col">
+                <h3>{{ site.data.translations.footer-try-first-title[page.lang] }}</h3>
+                <ul>
+                    <li><a href="{{ site.data.translations.footer-try-first-url[page.lang] }}">{{ site.data.translations.footer-try-first[page.lang] }}</a></li>
+                </ul>
+                <h3>{{ site.data.translations.share[page.lang] }}</h3>
+                <div class="share">
+                    <ul>
+                        <li><a href="#" class="icon-twitter">{{ site.data.translations.share-on-twitter[page.lang] }}</a></li>
+                        <li><a href="#" class="icon-facebook">{{ site.data.translations.share-on-facebook[page.lang] }}</a></li>
+                        <li><a href="#" class="icon-linkedin">{{ site.data.translations.share-on-linkedin[page.lang] }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            -->
+            <div class="footer__links__col ___desktop-66">
+                <p class="footer-logos-info">{{ site.data.translations.footer-logos-info[page.lang] }}</p>
+                <div class="footer-logos">
+                    <a href="{{ site.data.translations.footer-logos-minvws-url }}">
+                        <img src="{{ relroot }}img/logo-VWS.svg" alt="{{ site.data.translations.footer-logos-minvws-img-alt[page.lang] }}" />
+                    </a>
+                    <a href="{{ site.data.translations.footer-logos-rivm-url }}">
+                        <img src="{{ relroot }}img/logo-VWS-RIVM.svg" alt="{{ site.data.translations.footer-logos-rivm-img-alt[page.lang] }}" />
+                    </a>
+                    <a href="{{ site.data.translations.footer-logos-ggd-url }}">
+                        <img src="{{ relroot }}img/logo-GGD.svg" class="___logo-ggd" alt="{{ site.data.translations.footer-logos-ggd-img-alt[page.lang] }}" />
+                    </a>
+                </div>
+            </div>
+            <div class="footer__links__col ___desktop-33">
+                <h3>{{ site.data.translations.footer-join-title[page.lang] }}</h3>
+                <ul>
+                    <li><a href="{{ site.data.translations.footer-join-github-url }}">{{ site.data.translations.footer-join-github[page.lang] }}</a></li>
+                    <!-- <li><a href="{{ site.data.translations.footer-join-slack-url }}">{{ site.data.translations.footer-join-slack[page.lang] }}</a></li> -->
+                </ul>
+                <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
+                <ul>
+                    <li><a href="{{ site.data.translations.footer-more-info-url }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
                 </ul>
             </div>
         </div>
-    </div>
-
-    <div class="footer__logos">
-        <a href="{{ site.data.translations.footer-logos-minvws-url }}">
-            <img src="{{ relroot }}img/logo-VWS.svg" alt="{{ site.data.translations.footer-logos-minvws-img-alt[page.lang] }}" />
-        </a>
-        <a href="{{ site.data.translations.footer-logos-rivm-url }}">
-            <img src="{{ relroot }}img/logo-VWS-RIVM.svg" alt="{{ site.data.translations.footer-logos-rivm-img-alt[page.lang] }}" />
-        </a>
-        <a href="{{ site.data.translations.footer-logos-ggd-url }}">
-            <img src="{{ relroot }}img/logo-GGD.svg" class="___logo-ggd" alt="{{ site.data.translations.footer-logos-ggd-img-alt[page.lang] }}" />
-        </a>
-    </div>
-    <div class="footer__misc">
-        <a href="{{ site.data.translations.footer-misc-privacy-url }}">{{ site.data.translations.footer-misc-privacy[page.lang] }}</a> - 
-        <a href="{{ site.data.translations.footer-misc-disclaimer-url }}">{{ site.data.translations.footer-misc-disclaimer[page.lang] }}</a> - 
-        <a href="{{ site.data.translations.footer-misc-cookies-url }}">{{ site.data.translations.footer-misc-cookies[page.lang] }}</a> - 
-        <a href="{{ site.data.translations.footer-misc-colofon-url }}">{{ site.data.translations.footer-misc-colofon[page.lang] }}</a>
+        <div class="footer__misc">
+            <a href="{{ site.data.translations.footer-misc-privacy-url }}">{{ site.data.translations.footer-misc-privacy[page.lang] }}</a> - 
+            <a href="{{ site.data.translations.footer-misc-disclaimer-url }}">{{ site.data.translations.footer-misc-disclaimer[page.lang] }}</a> - 
+            <a href="{{ site.data.translations.footer-misc-cookies-url }}">{{ site.data.translations.footer-misc-cookies[page.lang] }}</a> - 
+            <a href="{{ site.data.translations.footer-misc-colofon-url }}">{{ site.data.translations.footer-misc-colofon[page.lang] }}</a>
+        </div>
     </div>
 </footer>

@@ -1,0 +1,185 @@
+.info-slider__slides {
+    background: $color-RO_lichtblauw;
+    border-radius: 0.6em;
+    overflow: hidden;
+
+    @media (min-width: 960px) {
+        border-radius: 0;
+        min-height: 463px;
+
+        .swiper-container {
+            height: 463px;
+        }
+    //     // overflow: hidden
+    }
+
+    // Swipe.JS - Next / prev button
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 4.2rem;
+        padding: 2rem;
+        --swiper-theme-color: #{$color-RO_donkerblauw};
+        --swiper-navigation-size: 32px;
+        transition: var(--transition-out--fast);
+        background: transparent;
+        border: 0;
+
+        &:hover {
+            transform: scale(1.2);
+            transition: var(--transition-in--fast);
+        }
+
+        &:active {
+            transform: scale(1.1);
+            transition: var(--transition-out--fast);
+        }
+
+        &:focus {
+            outline: 0;
+        }
+
+        @media (min-width: 740px) {
+            top: calc(50% - 1rem);
+        }
+
+        @media (min-width: 960px) {
+            top: auto;
+            bottom: 0px;
+            --swiper-navigation-size: 24px;
+        }
+    }
+
+    .swiper-button-prev {
+        left: -0.2rem;
+    }
+
+    .swiper-button-next {
+        right: -0.2rem;
+    }
+
+    // Swipe.JS - Pagination
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        position: static;
+        margin-top: -3px;
+
+        @media (min-width: 960px) {
+            bottom: 6px;
+            position: absolute;
+        }
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 1rem 0.4rem;
+        position: relative;
+        width: 12px;
+        height: 12px;
+        --swiper-theme-color: #C4C4C4;
+        transition: var(--transition-out);
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -1rem;
+            right: -0.4rem;
+            bottom: -1rem;
+            left: -0.4rem;
+        }
+
+        &:hover {
+            --swiper-theme-color: #618DBE; // TODO: Unofficial color?
+            transition: none;
+        }
+    
+        &.swiper-pagination-bullet-active {
+            --swiper-theme-color: #{$color-RO_donkerblauw};
+            transition: var(--transition-in);
+        }
+    }
+}
+
+.info-slide {
+    position: relative;
+    margin: 0 -0.6rem;
+    padding: 0.8em 1em 0 1em;
+    color: $color-RO_donkerblauw;
+
+    @media (min-width: 740px) and (max-width: 959px) {
+        display: flex;
+        padding: 2.4rem 4.4rem 0 5rem;
+    }
+
+    @media (min-width: 960px) {
+        padding: 1rem;
+        border-radius: 0;
+        margin: 0 0 0 0;
+        padding: 0;
+        z-index: 1;
+        height: 422px;
+    }
+}
+
+.info-slide__graphic {
+    margin: 0 0 0.2em 0;
+    text-align: center;
+
+    @media (min-width: 740px) and (max-width: 959px) {
+        flex: 0 0 auto;
+        width: 11.7rem;
+        overflow: hidden;
+        margin-right: 2rem;
+        align-self: center;
+    }
+
+    img {
+        max-width: calc(100% - 8rem);
+        height: 138px;
+        width: auto;
+
+        @media (min-width: 740px) and (max-width: 959px) {
+            height: 138px;
+            width: auto;
+            max-width: none;
+        }
+
+        @media (min-width: 960px) {
+            height: 138px;
+            width: auto;
+            max-width: none;
+        }
+    }
+
+    @media (min-width: 960px) {
+        padding-top: 1em;
+    }
+}
+
+.info-slide__text {
+    padding: 0.2em 0.8em 0 1.2em;
+    color: #000; // TODO:
+
+    @media (min-width: 740px) and (max-width: 959px) {
+        padding: 0.2em 0.8em 0 0;
+    }
+    
+    h3 {
+        margin-bottom: 0.5em;
+        line-height: 1.4em;
+
+        .md-highlight {
+            color: $color-WARN_rood;
+        }
+    }
+
+    p {
+        line-height: 1.26em;
+
+        @media (min-width: 960px) {
+            line-height: 1.4em;
+        }
+    }
+
+    @media (min-width: 960px) {
+        padding: 1.4em;
+    }
+}

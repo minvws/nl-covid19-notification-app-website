@@ -1,9 +1,64 @@
+
+.footer-samen {
+    padding: 2.2rem 1.4rem 2rem 1.4em;
+    max-width: 1100px;
+
+    @media(min-width: 740px) {
+        padding-top: 3.2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media(min-width: 960px) {
+        padding-top: 5em;
+        margin: 0 auto;
+    }
+}
+
+.footer-samen__logo {
+    > img {
+        display: block;
+        width: calc(100% - 4em);
+        max-width: 350px;
+        margin: 0 auto;
+
+        @media(min-width: 740px) {
+            width: calc(100% - 2em);
+        }
+    }
+}
+
+.footer-samen__follow {
+    margin-top: 2em;
+    font-size: 1.4em;
+
+    span.md-highlight {
+        color: $color-WARN_rood;
+    }
+
+    @media (min-width: 740px) {
+        margin-top: 0.5rem;
+        margin-left: 2em;
+    }
+
+    @media (min-width: 960px) {
+        margin-top: 0.2rem;
+        font-size: 2em;
+    }
+}
+
+//
+// Regular footer
+//
+
 .footer {
     position: relative;
     border-top: 1px solid $color-RO_donkerblauw;
     padding: 1em 0 calc(1.4em + 24px) 0;
     margin: 3em 1.4em 0 1.4em;
     max-width: 1100px;
+    font-size: 1em;
+    line-height: 1em;
     
     @media (min-width: 740px) {
         margin-right: 1.6em;
@@ -37,35 +92,62 @@
     }
 }
 
+.footer__social {
+    
+}
+
 .footer__links {
-    font-size: 1.16em;
-    line-height: 1em;
+    font-size: 1em;
+    line-height: 1.38em;
 
     h3 {
         margin-top: 2em;
-        margin-bottom: 0.6em;
+        margin-bottom: 0.4em;
         font-size: 1.1em;
     }
 
     ul li {
         list-style: none;
-        margin-bottom: 0.6em;
+        margin-bottom: 0.4em;
+        
+        a {
+            display: block;
+        }
     }
 
-    @media(min-width: 740px) {
+    @media(min-width: 960px) {
         display: flex;
     }
 }
 
 .footer__links__col {
-    @media(min-width: 740px) {
-        width: 33.3%;
+    @media(min-width: 960px) {
         padding: 0 2em 0 0;
+    }
+
+    @media(min-width: 960px) {
+        &.___desktop-33 {
+            // order: 2;
+            width: 33.3%;
+        }
+
+        &.___desktop-66 {
+            // order: 1;
+            width: 66.6%;
+        }
     }
 }
 
-.footer__logos {
-    margin: 2em 0;
+.footer-logos-info {
+    margin-top: 0;
+
+    @media (min-width: 960px) {
+        margin-top: 3em;
+    }
+}
+
+.footer-logos {
+    margin: 1em 0 2em 0;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -89,5 +171,6 @@
 }
 
 .footer__misc {
+    margin: 2em 0 0 0;
     font-size: 0.84em;
 }

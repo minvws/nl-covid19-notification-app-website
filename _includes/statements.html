@@ -3,6 +3,8 @@
   <div class="statements">
     {% assign statements = site.statements | where:"lang", page.lang | sort: "index" %}
     {% for statement in statements %}
+      
+      <!-- Focus bij openen, focus terug bij sluiten  -->
       <details>
         <summary {% if statement.icon %} {% endif %}>
           <div class="details__summary__icon">{% include graphics/{{ statement.icon }}.svg %}</div>
@@ -12,8 +14,11 @@
             <span><strong>{{ statement.timeline.completed.size }} {{ site.data.translations.x-of-y[page.lang] }} {{ statement.timeline.completed.size | plus: statement.timeline.working-on.size }}</strong> </span>
           -->
           <p>{{ statement.summary }}</p>
-          <p class="summary-expand"><span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}</p>
-          <!-- <div class="expand"><span class="chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}</span></div>
+          <button class="summary-expand">
+            <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
+            <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader }}: {{ statement.title }}</span>
+          </button>
+          <!-- TODO: Obsolete <div class="expand"><span class="chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}</span></div>
           <div class="collapse top">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div>
           <div class="collapse bottom">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div> -->
         </summary>
@@ -44,7 +49,9 @@
             </div>
           </div>
           <div class="expanded-box__want-to-know-more">
-            <h3>{{ site.data.translations.want-to-known-more[page.lang] }}</h3>
+            <h3>
+              {{ site.data.translations.want-to-known-more[page.lang] }}
+            </h3>
             <p>{{ site.data.translations.see-the-faq[page.lang] }}</p>
           </div>
         </div>

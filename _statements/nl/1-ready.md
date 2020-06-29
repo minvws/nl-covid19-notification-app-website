@@ -7,10 +7,10 @@ timeline:
   completed:
     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
     - Onderzoek naar ipsum lerum enzovoort
-  working-on:
-    - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
-    - Onderzoek naar ipsum lerum enzovoort
-    - Extra aandachtspunten etc etc
+  # working-on:
+  #   - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
+  #   - Onderzoek naar ipsum lerum enzovoort
+  #   - Extra aandachtspunten etc etc
 lang: nl
 ---
 <p>Half juli 2020 wordt besloten of de app in heel Nederland gebruikt kan worden. Tot dat moment bouwen we aan de app. En testen we om zeker te weten dat de app voor iedereen:</p>

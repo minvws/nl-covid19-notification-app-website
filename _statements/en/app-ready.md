@@ -1,8 +1,8 @@
 ---
-index: 6
-title: Hoe kan ik meedenken?
-icon: book
-summary: lorem ipsum dolor sit amet
+index: 1
+title: When will the app be ready?
+icon: calendar
+summary: Half juli wordt besloten of en wanneer de app gebruikt kan worden.
 timeline:
   completed:
     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
@@ -11,7 +11,6 @@ timeline:
     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
     - Onderzoek naar ipsum lerum enzovoort
     - Extra aandachtspunten etc etc
-lang: nl
+lang: en
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+<p>To do</p>

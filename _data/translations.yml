@@ -34,6 +34,9 @@ x-of-y:
 readmore:
   nl: Meer uitleg
   en: More information
+readmore-about_screen-reader:
+  nl: over
+  en: about
 readless:
   nl: Verberg uitleg
   en: Hide information
@@ -77,8 +80,9 @@ faq:
   nl: Veel gestelde vragen
   en: Frequently asked questions
 faq-top5:
-  nl: Top 5
-  en: Top 5
+# TODO: this should not be translated here
+  en: General
+  nl: Algemeen
 faq-opensource:
   nl: Open Source
   en: Open Source
@@ -86,8 +90,8 @@ faq-app:
   nl: De app
   en: The app
 faq-development:
-  nl: Ontwikkeling
-  en: Development
+  nl: Werking van de app
+  en: Werking van de app
 faq-info-will-be-updated:
   nl: Er zullen de komenden tijd meer antwoorden bij komen
   en: More items will be added over time
@@ -116,22 +120,50 @@ differentlanguage:
 
 
 info-slides:
-  -
-    image: slide-outside-bicycle
-    nl:
+  nl:
+    -
+      image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
         [Naam app] waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
         Zo kunnen we samen de verspreiding stoppen.
-  -
-    image: slide-app-notification
-    nl:
+    -
+      image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
         Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. 
         Deze persoon moet ook de app gebruiken.
+    -
+      image: graphic-app-bluetooth
+      title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
+      content: |
+        De app ziet via Bluetooth of je dicht bij iemand was.
+        Hoe dichterbij, hoe sterker het Bluetooth-signaal.
+        De app weet niet waar je was en wie je bent.
+    -
+      image: graphic-bicycle
+      title: <span class="md-highlight">Voorbeeld</span><br> Fietste iemand voorbij? Dan krijg je later geen melding
+      content: |
+        Het Bluetooth-signaal was door de afstand te zwak en jullie waren maar kort bij elkaar in de buurt.
+    -
+      image: graphic-train
+      title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
+      content: |
+        Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
 
 # Footer translations
+
+footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
+footer-samen-logo:
+  nl: alleen samen krijgen we corona onder controle
+footer-samen-follow-url: https://www.instagram.com/minvws/
+footer-samen-follow_md:
+  nl: Wil je meer<br> <span class="md-highlight">www.instagram.com/minvws</span>
+
+
+footer-logos-info:
+  nl: De corona-app wordt ontwikkeld in opdracht van het ministerie van VWS. Dat gebeurt in samenwerking met het RIVM en de GGD.
+  en: 
 
 footer-contact-title:
   nl: Contact
@@ -142,21 +174,21 @@ footer-contact-press-url: #
 footer-contact-press:
   nl: Persvragen?
 
-footer-phone-title:
-  nl: Telefoonnummer (gratis)
-footer-phone:
-  nl: 0800 - TODO
-footer-phone-line:
-  nl: bereikbaar maandag t/m vrijdag
+# footer-phone-title:
+#   nl: Telefoonnummer (gratis)
+# footer-phone:
+#   nl: 0800 - TODO
+# footer-phone-line:
+#   nl: bereikbaar maandag t/m vrijdag
 
 footer-join-title:
   nl: Meekijken en meedoen?
 footer-join-github-url: https://github.com/minvws
 footer-join-github:
   nl: Bekijk op GitHub de open source code en documenten
-footer-join-slack-url: https://doemee.codefor.nl/
-footer-join-slack:
-  nl: Praat mee in slack
+# footer-join-slack-url: https://doemee.codefor.nl/
+# footer-join-slack:
+#   nl: Praat mee in slack
 
 footer-more-info-title:
   nl: Meer informatie?
@@ -164,12 +196,12 @@ footer-more-info-url: https://rijksoverheid.nl
 footer-more-info:
   nl: Kijk op Rijksoverheid.nl
 
-footer-try-first-title:
-  nl: App eerst proberen?
-footer-try-first-url:
-  nl: #
-footer-try-first:
-  nl: Geef je op!
+# footer-try-first-title:
+#   nl: App eerst proberen?
+# footer-try-first-url:
+#   nl: #
+# footer-try-first:
+#   nl: Geef je op!
 
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
