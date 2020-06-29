@@ -76,7 +76,7 @@ There is a nice story to be told about how the website was created. It all start
 Please ping any of the people involved via Slack if you are interested in writing an article about this.
 
 ## Honorable mentions and gratitude 
-Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw. 
+Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw, Joost Soeterbroek. 
 
 Harrie and Bart have later been asked to finish the project on a paid basis. 
 
