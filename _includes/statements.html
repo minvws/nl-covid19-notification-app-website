@@ -28,7 +28,9 @@
             <h2 class="expanded-box__header__title">{{ statement.title }}</h2>
           </div>
           <div class="expanded-box__content">
-            {{ statement.content }}
+            <div class="content-block">
+              {{ statement.content }}
+            </div>
             <div class="timeline">
               {% if statement.timeline.completed.size > 0 %}
                 <h3 class="completed">{{ site.data.translations.completed[page.lang] }}</h3>

@@ -11,19 +11,18 @@
   <div class="header-yellow">
     <div class="container">
       <div class="header-yellow__text">
-        <!-- TODO: not available for first version
         <div class="header-yellow__language-picker">
           {{ site.data.translations.header-language-picker-label[page.lang] }}:
           <strong>{{ site.data.languages[page.lang].label }}</strong>
-          <ul class="languages">
+          <span class="languages">
             {% for lang in site.data.languages %}
                 {% assign language = lang[1] %}
-                {{  | jsonify }}
-                <li><a href="/{{site.baseurl}}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></li>
+                {% if lang[0] != page.lang %}
+                  <span>&nbsp; <a href="/{{site.baseurl}}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></span>
+                {% endif %}
             {% endfor %}
-          </ul>
+          </span>
         </div>
-        -->
         <h1>
           {{ site.data.translations.header-title[page.lang] }}
         </h1>
