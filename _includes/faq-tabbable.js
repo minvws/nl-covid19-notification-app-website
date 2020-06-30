@@ -47,10 +47,8 @@
         // When entering the page
         if (location.hash !== '') {
             var id = location.hash.replace('#', '');
-            var tabPanels = tabbable.querySelectorAll('.tabbable-tab-panel')
-            console.log(tabPanels);
+            var tabPanels = tabbable.querySelectorAll('.tabbable-tab-panel');
             for (var i4=0; i4 < tabPanels.length; i4++) {
-                console.log(tabPanels[i4].getAttribute('id'), id);
                 if (tabPanels[i4].getAttribute('id') === id) {
                     activateTab(document.querySelector('a[href="#'+id+'"]'));
                 }

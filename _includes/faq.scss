@@ -101,9 +101,11 @@
 // Panel
 
 .faq-tab-panel {
+    position: relative;
 
     @media (min-width: 740px) {
         .tabbable-js-interactive & {
+            z-index: -1;
             margin-top: -100px;
             padding-top: 100px;
             margin-bottom: -1px;
@@ -112,6 +114,7 @@
             overflow: hidden;
 
             &.tabbable-tab-panel--active {
+                z-index: auto;
                 margin-bottom: 0;
                 opacity: 1;
                 height: auto;
@@ -153,6 +156,10 @@
     border-radius: 5px;
     width: 100%;
     margin-bottom: 10px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .faq details:first-child {
@@ -212,14 +219,25 @@
 }
 .faq details[open] summary > h4 {
     font-weight: bold;
-    font-size: 1.625rem;
-    line-height: 1.6875rem;
+    transition: var(--transition-in--fast);
+
+    @media (min-width: 740px) {
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.625rem;
+        line-height: 1.6875rem;
+    }
 }
 
 /* FAQ Feedback */
 
 .faq .answer, .faq .feedback {
     padding: 20px;
+
+    @media (min-width: 740px) {
+        padding: 0 30px 20px 30px;
+    }
 }
 
 .feedback > h5 {
