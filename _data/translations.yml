@@ -5,8 +5,8 @@ header-title:
   nl: Grip op Covid-19<br> met de [name here] app
   en: Grip on Covid-19<br> with the [name here] app
 header-subtitle:
-  nl: Alleen Samen zorgen we<br>voor minder besmettingen
-  en: Only Together we will<br>ensure fewer infections
+  nl: Alleen samen zorgen we<br>voor minder besmettingen
+  en: Only together we will<br>ensure fewer infections
 header-language-picker-label:
   nl: Taal
   en: Language
@@ -38,8 +38,8 @@ readmore-about_screen-reader:
   nl: over
   en: about
 readless:
-  nl: Verberg uitleg
-  en: Hide information
+  nl: Verberg details
+  en: Less details
 completed:
   nl: Afgerond
   en: Completed

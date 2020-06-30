@@ -18,7 +18,7 @@
             {% for lang in site.data.languages %}
                 {% assign language = lang[1] %}
                 {% if lang[0] != page.lang %}
-                  <span>&nbsp; <a href="/{{site.baseurl}}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></span>
+                  <span>&nbsp; <a href="{{ relroot }}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></span>
                 {% endif %}
             {% endfor %}
           </span>

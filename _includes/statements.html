@@ -14,7 +14,7 @@
             <span><strong>{{ statement.timeline.completed.size }} {{ site.data.translations.x-of-y[page.lang] }} {{ statement.timeline.completed.size | plus: statement.timeline.working-on.size }}</strong> </span>
           -->
           <p>{{ statement.summary }}</p>
-          <button class="summary-expand">
+          <button type="button" class="summary-expand">
             <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
             <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader }}: {{ statement.title }}</span>
           </button>
@@ -23,6 +23,9 @@
           <div class="collapse bottom">{{ site.data.translations.readless[page.lang] }}<span class="chevron-up"></span></div> -->
         </summary>
         <div class="details__expanded-box">
+          <button type="button" class="expanded-box__btn-collapse">
+            <span class="icon icon-chevron-left"></span>{{ site.data.translations.readless[page.lang] }}
+          </button>
           <div class="expanded-box__header">
             <div class="expanded-box__header__icon">{% include graphics/{{ statement.icon }}.svg %}</div>
             <h2 class="expanded-box__header__title">{{ statement.title }}</h2>

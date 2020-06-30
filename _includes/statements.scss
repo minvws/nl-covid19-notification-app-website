@@ -170,6 +170,20 @@
     }
 }
 
+.expanded-box__btn-collapse {
+    display: block;
+    padding: 0.5rem 0.5em 0.5em;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(21, 66, 115, 0.2);
+    background-color: #F5F5F5 /* lichtgrijs */;
+    color: $color-RO_donkerblauw;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+}
+
 .expanded-box__header {
     position: relative;
     padding: 2em 4em 2em 6em;

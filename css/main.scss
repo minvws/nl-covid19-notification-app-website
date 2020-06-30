@@ -406,6 +406,11 @@ header .watch > a:hover {
     transform: rotate(90deg);
 }
 
+.icon-chevron-left {
+    background-image: url('../img/chevron-up.svg');
+    transform: rotate(-90deg);
+}
+
 /* Statement Expand collapse chevrons */
 
 .statements details > summary > div > span {
