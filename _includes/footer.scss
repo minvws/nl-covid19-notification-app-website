@@ -6,7 +6,6 @@
     @media(min-width: 740px) {
         padding-top: 3.2em;
         display: flex;
-        justify-content: center;
     }
 
     @media(min-width: 960px) {
@@ -18,12 +17,12 @@
 .footer-samen__logo {
     > img {
         display: block;
-        width: calc(100% - 4em);
+        width: 100%;
         max-width: 350px;
         margin: 0 auto;
 
         @media(min-width: 740px) {
-            width: calc(100% - 2em);
+            width: 312px;
         }
     }
 }
@@ -31,6 +30,7 @@
 .footer-samen__follow {
     margin-top: 2em;
     font-size: 1.4em;
+    font-weight: 600;
 
     span.md-highlight {
         color: $color-WARN_rood;
@@ -42,8 +42,9 @@
     }
 
     @media (min-width: 960px) {
+        margin-left: 120px;
         margin-top: 0.2rem;
-        font-size: 2em;
+        font-size: 32px;
     }
 }
 

@@ -1,0 +1,244 @@
+
+
+.faq {
+    display: block;
+    background-color: #F5F5F5 /* lichtgrijs */;
+    margin: 3em auto 22px auto;
+    padding: 20px;
+    max-width: 1190px;
+    position: relative;
+
+    @media (min-width: 960px) {
+        padding: 50px 80px;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 32px;
+        height: 32px;
+        transform: rotate(45deg);
+        transform-origin: center;
+        background: inherit;
+        bottom: -16px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+.faq > h2 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #000;
+    margin-top: -6px; // Compensate for line-height
+    margin-bottom: 17px;
+
+    @media (min-width: 960px) {
+        margin-bottom: 42px;
+    }
+}
+
+.faq input[name=faq] {
+    display: none;
+}
+
+//
+// Faq layout
+//
+
+.faq-layout {
+    @media (min-width: 740px) {
+        display: flex;
+    }
+}
+
+.faq-layout__contents {
+    flex: 0 0 200px;
+}
+
+.faq-layout__contents__list {
+    @media (max-width: 739px) {
+        display: none;
+    }
+
+    li {
+        list-style: none;
+        
+        a {
+            display: block;
+            transition: var(--transition-out);
+            color: #154273 /* RO blauw */;
+            display: block;
+            margin-bottom: 19px;
+            font-size: 18px;
+            line-height: 20px;
+            padding-right: 10px;
+            border-left: 0px solid rgba(31, 82, 155, 0);
+
+            &.tabbable-tab--active {
+                border-left: 2px solid #1F529B;
+                padding-left: 8px;
+                color: #000000;
+                transition: var(--transition-in);
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.faq-layout__tab-panels {
+    flex: 1 1;
+    max-width: 674px;
+}
+
+.faq-layout__tab-panels__updates-will-follow {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+// Panel
+
+.faq-tab-panel {
+    @media (min-width: 740px) {
+        .tabbable-js-interactive & {
+            margin-bottom: -1px;
+            opacity: 0;
+            height: 1px;
+            overflow: hidden;
+
+            &.tabbable-tab-panel--active {
+                margin-bottom: 0;
+                opacity: 1;
+                height: auto;
+                overflow: hidden;
+                transition: opacity var(--transition-in);
+            }
+        }
+    }
+}
+
+.faq-tab-panel__title {
+    font-weight: 600;
+    color: $color-RO_donkerblauw;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 6px;
+    line-height: 20px;
+    
+    .tabbable-js-interactive & {
+        @media (min-width: 740px) {
+            position: absolute;
+            left: -9999px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.faq details {
+    position: relative;
+    border: 1px solid #154273 /* RO blauw */;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.faq details:first-child {
+    margin-top: 0;
+}
+
+.faq details[open],
+.faq details[open]:hover {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.faq details summary::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+    background: transparent url('../img/plus.svg') center center no-repeat;
+}
+
+.faq details[open] summary::after {
+    opacity: 1;
+    background-image: url('../img/minus.svg');
+}
+.faq details:hover summary::after {
+    opacity: 1;
+}
+
+.faq details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq details:hover {
+    background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
+    border-color: #002783 /* RO donker link2 */;
+}
+.faq details:hover summary {
+    text-decoration: underline;
+}
+.faq details[open]:hover summary {
+    text-decoration: none;
+}
+
+.faq details summary {
+    padding: 15px 0 16px 0;
+    list-style-type: none;
+    cursor: pointer;
+    color: #154273 /* RO blauw */;
+}
+.faq details summary > h4 {
+    padding: 0 40px 0 18px;
+    font-weight: normal;
+    font-size: 18px;
+}
+.faq details[open] summary > h4 {
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 1.6875rem;
+}
+
+/* FAQ Feedback */
+
+.faq .answer, .faq .feedback {
+    padding: 20px;
+}
+
+.feedback > h5 {
+    color: #333333 /* donkergrijs */;
+    font-size: 1.125rem;
+}
+
+.feedback > a {
+    border: 1px solid #ACACAC /* grijs */;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 20px 20px 0 0;
+}
+.feedback > a:hover {
+    background-color: #002783 /* RO donker link2 */;
+    border-color: #002783 /* RO donker link2 */;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ask-question {
+    clear: both;
+}

@@ -107,6 +107,7 @@ ul {
 @import "../_includes/footer";
 @import "../_includes/statements";
 @import "../_includes/info-slider";
+@import "../_includes/faq";
 
 /* Header */
 .badge {
@@ -632,52 +633,6 @@ a.explainer > h2 {
 
 /* FAQ */
 
-.faq {
-    display: block;
-    background-color: #F5F5F5 /* lichtgrijs */;
-    margin: 3em auto 0 auto;
-    padding: 1.6em;
-    max-width: 1100px;
-    position: relative;
-
-    &:after {
-        content: '';
-        display: block;
-        overflow: hidden;
-        height: 0px;
-        clear: both;
-    }
-
-    @media (min-width: 680px) {
-        padding: 3rem 4rem 2rem 4rem;
-    }
-}
-
-.faq > h2 {
-    font-size: 2rem;
-    color: #333333;
-    margin-bottom: 2.6rem;
-}
-
-.faq input[name=faq] {
-    display: none;
-}
-
-.faq .tab {
-    float: right;
-    clear: right;
-    display: none;
-
-    @media (min-width: 740px) {
-        width: calc(100% - 200px);
-    }
-
-    @media (min-width: 960px) {
-        width: calc(100% - 400px);
-        margin-right: 200px;
-    }
-}
-
 #radio-faq-top5:checked ~ .tab-faq-top5,
 #radio-faq-opensource:checked ~ .tab-faq-opensource,
 #radio-faq-app:checked ~ .tab-faq-app,
@@ -721,106 +676,6 @@ a.explainer > h2 {
     display: inline-block;
     font-size: 1.125rem;
     line-height: 1.125rem;
-}
-
-.faq details {
-    position: relative;
-    border: 1px solid #154273 /* RO blauw */;
-    border-radius: 5px;
-    width: 100%;
-    margin: 0.5em auto;
-}
-
-.faq details:first-child {
-    margin-top: 0;
-}
-
-.faq details[open],
-.faq details[open]:hover {
-    background: #FFFFFF;
-    border-color: #FFFFFF;
-}
-
-.tab details summary::after {
-    content: '';
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 50px;
-    width: 50px;
-    opacity: 0.3;
-    background: transparent url('../img/plus.svg') center center no-repeat;
-}
-
-.tab details[open] summary::after {
-    opacity: 1;
-    background-image: url('../img/minus.svg');
-}
-.tab details:hover summary::after {
-    opacity: 1;
-}
-
-.faq details > summary::-webkit-details-marker {
-    display: none;
-}
-
-.faq details:hover {
-    background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
-    border-color: #002783 /* RO donker link2 */;
-}
-.faq details:hover summary {
-    text-decoration: underline;
-}
-.faq details[open]:hover summary {
-    text-decoration: none;
-}
-
-.faq details summary {
-    padding: 1.09375rem 0;
-    list-style-type: none;
-    cursor: pointer;
-    color: #154273 /* RO blauw */;
-}
-.faq details summary > h4 {
-    padding: 0 40px 0 15px;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 1.1875rem;
-}
-.faq details[open] summary > h4 {
-    font-weight: bold;
-    font-size: 1.625rem;
-    line-height: 1.6875rem;
-}
-
-/* FAQ Feedback */
-
-.faq .answer, .faq .feedback {
-    padding: 20px;
-}
-
-.feedback > h5 {
-    color: #333333 /* donkergrijs */;
-    font-size: 1.125rem;
-}
-
-.feedback > a {
-    border: 1px solid #ACACAC /* grijs */;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #000000;
-    padding: 0.5rem 1rem;
-    display: inline-block;
-    margin: 20px 20px 0 0;
-}
-.feedback > a:hover {
-    background-color: #002783 /* RO donker link2 */;
-    border-color: #002783 /* RO donker link2 */;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.ask-question {
-    clear: both;
 }
 
 /* Footer */
