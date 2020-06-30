@@ -101,8 +101,11 @@
 // Panel
 
 .faq-tab-panel {
+
     @media (min-width: 740px) {
         .tabbable-js-interactive & {
+            margin-top: -100px;
+            padding-top: 100px;
             margin-bottom: -1px;
             opacity: 0;
             height: 1px;
@@ -112,7 +115,7 @@
                 margin-bottom: 0;
                 opacity: 1;
                 height: auto;
-                overflow: hidden;
+                overflow: visible;
                 transition: opacity var(--transition-in);
             }
         }

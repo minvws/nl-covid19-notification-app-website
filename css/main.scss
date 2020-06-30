@@ -57,12 +57,12 @@ $color-WARN_rood: #CA005D;
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'RO Sans', sans-serif;
     font-size: 16px;
-    overflow-x: hidden;
 }
 
 .container {
