@@ -11,11 +11,11 @@ Ordinary citizens, the general public
 
 ### **Links:**
 
-* [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
-* [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
-* [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
-* Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/))
-* Also see the [Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
+1. [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
+1. [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
+1. [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
+1. Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/))
+1. Also see the [Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
 
 How to help
 ---------------------
