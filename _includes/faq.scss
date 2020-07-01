@@ -183,6 +183,10 @@
     background: transparent url('../img/plus.svg') center center no-repeat;
 }
 
+.faq details summary::before {
+    display: none; // Created by polyfill for IE11
+}
+
 .faq details[open] summary::after {
     opacity: 1;
     background-image: url('../img/minus.svg');
