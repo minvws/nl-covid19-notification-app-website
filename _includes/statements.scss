@@ -1,17 +1,13 @@
 
 .statements {
-    flex-wrap: wrap;
-    
-    margin: 0 0 0 0;
-    margin-left: -10px;
-    margin-right: -10px;
 
     @media (min-width: 740px) {
         display: flex;
+        flex-wrap: wrap;
     }
 }
 
-.statements details {
+.statements__statement {
     margin: 16px;
     box-shadow: 0 2px 9px -2px rgba(0, 0, 0, 0.2);
     background-color: #FFFFFF;
@@ -28,26 +24,26 @@
     }
 }
 
-.statements details > summary::-webkit-details-marker {
-    display: none;
-}
-
-.statements details > .card-content {
-    padding: 20px;
-    color: #333333 /* donkergrijs */;
-}
-
-.statements details > summary {
+.statement-summary {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-repeat: no-repeat;
     background-position: left 25px top 25px;
     background-size: 42px;
     height: 100%;
-
-    padding: 18px 20px 40px 85px;
     list-style-type: none;
-    cursor: pointer;
-    
+    color: #333333;
+
+    &:hover {
+        background-color: #F5F5F5 /* lichtgrijs */;
+    }
+}
+
+.statement__content {
+    flex: 1 1;
+    padding: 18px 20px 0 85px;
+
     h2 {
         font-size: 1.625em;
         line-height: 1.26em;
@@ -59,60 +55,50 @@
         line-height: 1.38em;
         margin-bottom: 1.2rem;
     }
+}
 
-    .summary-expand {
+.statement-summary__btn-expand {
+    flex: 0 0;
+    display: block;
+    border: 0;
+    border-radius: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0.5em 0.5em 100px;
+    margin: 0;
+    color: $color-RO_donkerblauw;
+    background: transparent;
+    border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
+    font-size: 1.1em;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+
+    &:after {
+        // Make the whole .statement-summary clickable
+        content: '';
         position: absolute;
         display: block;
-        border: 0;
-        border-radius: 0;
-        bottom: 0;
+        top: 0;
         right: 0;
+        bottom: 0;
         left: 0;
-        width: 100%;
-        padding: 0.5rem 0.5em 0.5em 100px;
-        margin: 0;
-        color: $color-RO_donkerblauw;
-        background: transparent;
-        border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
-        font-size: 1.1em;
-        font-family: inherit;
-        text-align: left;
-        cursor: pointer;
-
-        > .icon {
-            position: relative;
-            top: 1px;
-            margin: 0 -0.4em 0 -0.4em;
-        }
     }
-}
 
-.statements details > summary > span {
-    line-height: 1.375rem;
-}
-
-/* Statement hover and open effects */
-
-.statements details > summary:hover {
-    background-color: #F5F5F5 /* lichtgrijs */;
-}
-.statements details > summary:hover > .expand {
-    color: #002783 /* RO donker link2 */;
-}
-
-.statements details[open] > summary {
-    background-color: #F5F5F5 /* lichtgrijs */;
-}
-
-.statements details[open] > summary {
-    color: #154273 /* RO blauw */;
+    > .icon {
+        position: relative;
+        top: 1px;
+        margin: 0 -0.4em 0 -0.4em;
+    }
 }
 
 // 
 //
 //
 
-.details__summary__icon {
+.statement-summary__icon {
     position: absolute;
     top: 18px;
     left: 18px;
@@ -121,28 +107,9 @@
         max-width: 49px;
         color: $color-WARN_rood;
 
-        details:hover & {
+        .statement-summary:hover & {
             color: $color-RO_donkerblauw;
         }
-    }
-}
-
-.details__summary__expanded-box-background {
-    opacity: 0;
-    visibility: hidden;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.2);
-    transition: 162ms ease-out;
-
-    details[open] & {
-        opacity: 1; 
-        visibility: visible;
-        transition: 262ms ease-out;
     }
 }
 
@@ -163,9 +130,32 @@
     transition: 162ms ease-out;
     overflow-y: scroll;
 
-    details[open] & {
+    .statements__statement--expanded & {
         visibility: visible;
         transform: translate(0, 0);
+        transition: 262ms ease-out;
+    }
+}
+
+//
+//
+//
+
+.details__summary__expanded-box-background {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 162ms ease-out;
+
+    .statements__statement--expanded & {
+        opacity: 1; 
+        visibility: visible;
         transition: 262ms ease-out;
     }
 }
