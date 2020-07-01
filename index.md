@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 lang: nl
 lang-ref: covid19-notification-app-website-index
 ---
