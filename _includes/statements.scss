@@ -1,9 +1,18 @@
 
 .statements {
+    margin: 30px auto 22px auto;
+    padding: 0 10px;
+    max-width: 1190px;
 
     @media (min-width: 740px) {
+        margin: 30px auto 22px auto;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: -16px; // Compensate for statement tile margins
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 64px;
     }
 }
 
@@ -105,8 +114,8 @@
 
 .statement-summary__icon {
     position: absolute;
-    top: 18px;
-    left: 18px;
+    top: 23px;
+    left: 23px;
     
     svg {
         max-width: 49px;
@@ -127,13 +136,19 @@
     top: 0;
     right: 0;
     bottom: 0;
-    max-width: 420px;
+    max-width: 480px;
     width: calc(100% - 42px);
-    border-radius: 0.4em 0 0 0.4em;
+    border-radius: 10px 0 0 10px;
     transform: translate(110%, 0);
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.62);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
     transition: 162ms ease-out;
     overflow-y: scroll;
+    
+    &:focus,
+    &:focus-within {
+        outline: 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+    }
 
     .statements__statement--expanded & {
         visibility: visible;
@@ -155,7 +170,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     transition: 162ms ease-out;
 
     .statements__statement--expanded & {
@@ -167,16 +182,25 @@
 
 .expanded-box__btn-collapse {
     display: block;
-    padding: 0.5rem 0.5em 0.5em;
+    padding: 15px 16px 10px 32px;
     width: 100%;
     border: 0;
     cursor: pointer;
+    color: $color-RO_donkerblauw;
+    background: transparent;
+    font-family: inherit;
+    font-size: 18px;
+    text-align: left;
+
+    .icon {
+        position: relative;
+        top: 3px;
+    }
+}
+
+.expanded-box__btn-collapse--above-header {
     border-bottom: 1px solid rgba(21, 66, 115, 0.2);
     background-color: #F5F5F5 /* lichtgrijs */;
-    color: $color-RO_donkerblauw;
-    font-family: inherit;
-    font-size: inherit;
-    text-align: left;
 }
 
 .expanded-box__header {
@@ -208,7 +232,7 @@
 }
 
 .expanded-box__content {
-    padding: 2em 2em;
+    padding: 16px 2em;
 }
 
 .expanded-box__want-to-know-more {

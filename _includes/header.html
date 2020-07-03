@@ -12,16 +12,7 @@
     <div class="container">
       <div class="header-yellow__text">
         <div class="header-yellow__language-picker">
-          {{ site.data.translations.header-language-picker-label[page.lang] }}:
-          <strong>{{ site.data.languages[page.lang].label }}</strong>
-          <span class="languages">
-            {% for lang in site.data.languages %}
-                {% assign language = lang[1] %}
-                {% if lang[0] != page.lang %}
-                  <span>&nbsp; <a href="{{ relroot }}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></span>
-                {% endif %}
-            {% endfor %}
-          </span>
+          {% include language-picker.html %}
         </div>
         <h1>
           {{ site.data.translations.header-title[page.lang] }}

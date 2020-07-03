@@ -1,0 +1,12 @@
+<div class="language-picker">
+  {{ site.data.translations.header-language-picker-label[page.lang] }}:
+  <strong>{{ site.data.languages[page.lang].label }}</strong>
+  <span class="languages">
+    {% for lang in site.data.languages %}
+        {% assign language = lang[1] %}
+        {% if lang[0] != page.lang %}
+          <span>&nbsp; <a href="{{ relroot }}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></span>
+        {% endif %}
+    {% endfor %}
+  </span>
+</div>

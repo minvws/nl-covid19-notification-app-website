@@ -93,13 +93,8 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-image: url('../img/chevron-right.svg');
-    list-style-position: inside;
-    /*padding-inline-start: 12px;*/
-}
-
 @import "header-yellow";
+@import "../_includes/language-picker.scss";
 @import "content-block";
 @import "../_includes/footer";
 @import "../_includes/statements";

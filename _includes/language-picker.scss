@@ -1,0 +1,11 @@
+.language-picker {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.38);
+    padding: 0.8em 0.8em;
+    color: #000;
+    cursor: pointer;
+
+    &:hover {
+        background: #fff;
+    }
+}

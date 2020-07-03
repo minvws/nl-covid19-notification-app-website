@@ -15,6 +15,10 @@
         });
     }
 
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') { closeStatement(); }
+    });
+
     function openStatement(index) {
         if (openStatementIndex !== null) { return; }
         openStatementIndex = index;
@@ -22,8 +26,8 @@
         var statementToOpen = document.getElementById('statement-' + openStatementIndex);
         statementToOpen.setAttribute('class', statementToOpen.getAttribute('class') + ' statements__statement--expanded');
 
-        // TODO: Focus on content of statement
-        // TODO: Freeze background body scroll
+        // WCAG: Focus on statement after animation (which has appeared)
+        setTimeout(function () { statementToOpen.querySelector('.details__expanded-box').focus(); }, 200);
     }
 
     function closeStatement() {
@@ -31,8 +35,9 @@
         var statementToClose = document.getElementById('statement-' + openStatementIndex);
         statementToClose.setAttribute('class', statementToClose.getAttribute('class').replace(' statements__statement--expanded', ''));
 
-        openStatementIndex = null;
+        // WCAG: Focus back on button
+        statementToClose.querySelector('.statement-summary__btn-expand').focus();
 
-        // TODO: Focus back on button
+        openStatementIndex = null;
     }
 })();

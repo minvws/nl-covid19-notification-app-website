@@ -7,9 +7,17 @@
 <html lang="{{page.lang}}">
 {% include head.html %}
 <body>
-  {% include header.html %}
-  <main>
-    <div class="container">
+  {% include header-slim.html %}
+  <main class="content-center">
+    {% if page.showHomeBtn %}
+      <p class="content-center__home">
+        <a href="../">
+          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
+        </a>
+      </p>
+    {% endif %}
+
+    <div class="content-block">
       {{ content }}
     </div>
   </main>

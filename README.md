@@ -130,6 +130,10 @@ The answer in Markdown goes here, this can contain <code>HTML</code>.
 For the `set` field the values `1-top5`, `2-opensource`, `3-app` and `4-development` can be used.
 Please also include the name part as prefix of your file, e.g. `app-X.md`.
 
+### Content formatting
+
+Take a look at this [example content page](https://minvws.github.io/nl-covid19-notification-app-website/en/example-content-page) ([source in markdown](./example-content-page.md)) which displays all possible content formatting options. These display options are also available in: statement, question
+
 ### Translation
 
 Please give your file a short English name without spaces (you can use dash `-` instead).

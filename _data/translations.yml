@@ -38,8 +38,8 @@ readmore-about_screen-reader:
   nl: over
   en: about
 readless:
-  nl: Verberg details
-  en: Less details
+  nl: Verberg uitleg
+  en: Hide explanation
 completed:
   nl: Afgerond
   en: Completed
@@ -116,8 +116,9 @@ description:
 differentlanguage:
   nl: Lees in andere taal
   en: Read in different language
-
-
+layout-template-home:
+  nl: Home
+  en: Home
 
 info-slides:
   nl:
@@ -159,7 +160,8 @@ footer-samen-logo:
   en: Only together we can control corona
 footer-samen-follow-url: https://www.instagram.com/minvws/
 footer-samen-follow_md:
-  nl: Wil je meer<br> <span class="md-highlight">www.instagram.com/minvws</span>
+  nl: Wil je meer<br> <span class="md-highlight"><u>www.instagram.com/minvws</u></span>
+  en: Want to know more<br/> <span class="md-highlight"><u>www.instagram.com/minvws</u></span>
 
 
 footer-logos-info:
@@ -184,18 +186,22 @@ footer-contact-press:
 
 footer-join-title:
   nl: Meekijken en meedoen?
+  en: Want to join the effort?
 footer-join-github-url: https://github.com/minvws
 footer-join-github:
   nl: Bekijk op GitHub de open source code en documenten
+  en: Take a look at GitHub for the open source code and documents
 # footer-join-slack-url: https://doemee.codefor.nl/
 # footer-join-slack:
 #   nl: Praat mee in slack
 
 footer-more-info-title:
   nl: Meer informatie?
+  en: More information?
 footer-more-info-url: https://rijksoverheid.nl
 footer-more-info:
   nl: Kijk op Rijksoverheid.nl
+  en: Go to rijksoverheid.nl
 
 # footer-try-first-title:
 #   nl: App eerst proberen?
@@ -214,15 +220,19 @@ footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
 
-footer-misc-privacy-url: #
+footer-misc-privacy-url: /privacy
 footer-misc-privacy:
   nl: Privacy
-footer-misc-disclaimer-url: #
+  en: Privacy
+footer-misc-disclaimer-url: /disclaimer
 footer-misc-disclaimer:
   nl: Disclaimer
-footer-misc-cookies-url: #
+  en: Disclaimer
+footer-misc-cookies-url: /cookies
 footer-misc-cookies:
   nl: Cookies
-footer-misc-colofon-url: #
+  en: Cookies
+footer-misc-colofon-url: /colofon
 footer-misc-colofon:
   nl: Colofon
+  en: Colophon

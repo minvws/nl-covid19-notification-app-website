@@ -1,0 +1,15 @@
+<header>
+  <div class="badge"><span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}</div>
+  <div class="logobar">
+    <div class="logo">
+      <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
+    </div>
+  </div>
+  <div class="header-yellow header-yellow--slim">
+    <div class="header-yellow__center">
+      <div class="header-yellow__language-picker">
+        {% include language-picker.html %}
+      </div>
+    </div>
+  </div>
+</header>

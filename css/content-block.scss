@@ -1,15 +1,141 @@
+
+.content-center {
+    margin-top: -26px;
+    background: #fff;
+    border-radius: 0 26px 26px 0;
+    padding: 20px 20px;
+    max-width: 1100px;
+
+    @media (min-width: 740px) {
+        padding: 20px 100px;
+        margin: -50px auto 0;
+        border-radius: 34px 34px 0  0;
+    }
+
+    @media (min-width: 960px) {
+        padding: 26px 200px 20px 126px;
+    }
+}
+
+.content-center__home {
+    margin-top: 10px;
+    margin-left: -13px;
+    font-size: 14px;
+
+    .icon-chevron-left {
+        position: relative;
+        top: 3px;
+        left: -3px;
+    }
+}
+
 .content-block {
-    line-height: 138%;
+    font-size: 16px;
+    line-height: 142%;
+    color: #333;
+
+    // Inline elements
+
+    a {
+        text-decoration: underline;
+    }
+
+    // Block elements
+
+    h1 {
+        margin: 25px 0 40px 0;
+        color: $color-RO_donkerblauw;
+        font-size: 30px;
+        line-height: 116%;
+    }
+
+    h2 {
+        margin: 40px 0 14px;
+        font-size: 24px;
+        line-height: 116%;
+    }
+
+    h3 {
+        margin: 40px 0 14px;
+        font-size: 20px;
+        line-height: 116%;
+    }
 
     p {
-        margin-bottom: 1em;
+        margin: 14px 0;
     }
 
     ul {
-        margin-bottom: 0.4em;
+        margin-bottom: 10px;
+        margin-left: 17px;
+    }
 
-        li {
-            margin-bottom: 0.6em;
+    ol {
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    ul li,
+    ol li {
+        margin-bottom: 4px;
+    }
+
+    table {
+        font-size: 14px;
+        line-height: 18px;
+        min-width: 100%;
+
+        tr {
+            th, td {
+                padding: 14px 18px;
+                text-align: left;
+            }
+
+            th {
+                background: $color-RO_lichtblauw;
+                color: $color-RO_donkerblauw;
+            }
+
+            td {
+                border-bottom: 1px solid #333;
+            }
+        }
+    }
+
+    .md-info-grey {
+        opacity: 0.5;
+        margin-bottom: 6px;
+        font-size: 14px;
+        line-height: 126%;
+    }
+
+    .md-block-lead {
+        margin: 40px 0 40px;
+        font-size: 22px;
+        line-height: 126%;
+        color: $color-RO_donkerblauw;
+    }
+
+    .md-block-zebra {
+        padding: 1px 20px 1px 20px;
+        margin: 30px -20px 40px -20px;
+        background: $color-RO_lichtblauw;
+        border-radius: 10px;
+
+        h1 {
+            color: $color-RO_donkerblauw;
+        }
+
+        @media (min-width: 740px) {
+            margin-left: -40px;
+            margin-right: -40px;
+            padding: 5px 40px 1px 40px;
+        }
+
+        @media (min-width: 960px) {
+            margin-left: -100px;
+            margin-right: -100px;
+            padding: 5px 100px 1px 100px;
         }
     }
 }

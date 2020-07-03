@@ -10,7 +10,20 @@
   {% include header.html %}
   <main>
     <div class="container">
-      {{ content }}
+
+      <div class="lead">
+        <div class="lead__text">
+          {{ content }}
+        </div>
+      
+        <div class="lead__preview">
+          <img src="{{ relroot }}img/app-preview.png" alt="{{ site.data.translations.app-preview[page.lang] }}" class="app-preview">
+          <div class="lead__preview__slider">
+            {% include info-slider.html %}
+          </div>
+        </div>
+      </div>
+      
     </div>
     {% include statements.html %}
     <!-- {% include explainer.html %} -->
