@@ -162,3 +162,7 @@ To test locally with htmlproofer (to test validity of html-code):
 ```bash
 bundle exec htmlproofer ./_site --checks-to-ignore=LinkCheck
 ```
+
+### Vendors
+
+Note: rather than rely on a third party CDN or dependencies that are not part of this repository; all assets and dependencies are part of this build. Please go to [the vendor licenses directory](./vendor-licenses) for the vendor licenses.
