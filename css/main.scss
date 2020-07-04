@@ -122,20 +122,26 @@ a:hover {
 /* Logo */
 
 .logobar {
-    padding: 0 0 1.6em 0;
+    padding: 0 0 20px 0;
 
     @media (min-width: 740px) {
-        padding-bottom: 3em;
+        padding-bottom: 45px;
+    }
+
+    @media (min-width: 960px) {
+        padding-bottom: 50px;
     }
 }
 
 .logo img {
     display: block;
-    width: 45px;
+    width: 40px;
     margin: 0 auto;
+    margin-top: -20px;
 
     @media (min-width: 740px) {
         width: 45px;
+        margin-top: 0;
     }
 
     @media (min-width: 960px) {
