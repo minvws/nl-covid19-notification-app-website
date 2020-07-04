@@ -6,3 +6,6 @@ collections:
 
 sass:
   sass_dir: css
+
+# needed for travis CI
+exclude: [vendor]
