@@ -157,3 +157,8 @@ docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pag
 *Note: for Windows users we advise Powershell or another shell that supports `$PWD`, for `cmd` you can replace `$PWD` with `%cd%`.*
 
 The Jekyll page will be available on [`http://localhost:4000`](http://localhost:4000/).
+
+To test locally with htmlproofer (to test validity of html-code):
+```bash
+bundle exec htmlproofer ./_site --checks-to-ignore=LinkCheck
+```
