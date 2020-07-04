@@ -24,7 +24,10 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-cache: bundler # caching bundler gem packages will speed up build
+# cache: bundler # caching bundler gem packages will speed up build
+cache:
+  directories:
+  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:
