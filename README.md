@@ -3,6 +3,8 @@ About
 
 This site is the project website of the notification-app by the Dutch Ministry of Health.
 
+[![Build Status](https://travis-ci.org/jsoeterbroek/nl-covid19-notification-app-dashboard.svg?branch=patch-testing)](https://travis-ci.org/jsoeterbroek/nl-covid19-notification-app-dashboard)
+
 ### **Status: work in progress**
 
 ### **Target audience:**
