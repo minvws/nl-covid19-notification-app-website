@@ -3,7 +3,7 @@ index: 1
 title: Wanneer is de app klaar?
 icon: calendar
 summary: De overheid streeft ernaar de corona-app in juli 2020 te lanceren. 
-# timeline:
+timeline:
   completed:
     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
     - Onderzoek naar ipsum lerum enzovoort
