@@ -2,7 +2,7 @@
 index: 2
 title: Hoe werkt de app
 icon: app-touch
-summary: De corona-app waarschuwt je als je in de buurt bent geweest van iemand met het coronavirus.
+summary: De app waarschuwt je als je in de buurt bent geweest van iemand met het coronavirus.
 lang: nl
 ---
 
