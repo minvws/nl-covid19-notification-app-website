@@ -28,6 +28,8 @@
 
         // WCAG: Focus on statement after animation (which has appeared)
         setTimeout(function () { statementToOpen.querySelector('.details__expanded-box').focus(); }, 200);
+
+        _paq.push(['trackEvent', 'statement', 'nl - open', statementToOpen.querySelector('.statement__content h2').textContent]);        
     }
 
     function closeStatement() {

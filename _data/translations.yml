@@ -77,7 +77,7 @@ explainer:
   nl: Zo gaat de app werken
   en: This is how the app will work
 faq:
-  nl: Veel gestelde vragen
+  nl: Veelgestelde vragen
   en: Frequently asked questions
 faq-top5:
 # TODO: this should not be translated here
@@ -96,14 +96,23 @@ faq-info-will-be-updated:
   nl: Er zullen de komende tijd meer antwoorden bij komen
   en: More answers will be added over time
 has-been-answered:
-  nl: Is uw vraag beantwoord?
+  nl: Is je vraag beantwoord?
   en: Has your question been answered?
-answered-yes:
+feedback-answer-yes:
   nl: Wel beantwoord
   en: Answered
-answered-no:
+feedback-answer-no:
   nl: Niet beantwoord
   en: Not answered
+feedback-answer-submitted-title:
+  nl: Dank je wel voor je reactie!
+  en: Thank you for your reaction
+feedback-answer-submitted-yes_md:
+  nl: Heb je andere vragen over de app? Stel die hier.
+  en: Have you got other questions about the app? 
+feedback-answer-submitted-no_md:
+  nl: We verzamelen alle reacties om de informatie op deze website te verbeteren. 
+  en: We use your feedback to improve the information on this website.
 question-not-listed:
   nl: Staat uw vraag er niet bij?
   en: Is your question not listed?

@@ -246,12 +246,21 @@
     }
 }
 
-.feedback > h5 {
+.feedback {
+    display: none;
+
+    html.js-enabled & {
+        display: block;
+    }
+}
+
+.feedback h5 {
     color: #333333 /* donkergrijs */;
     font-size: 1.125rem;
 }
 
-.feedback > a {
+.feedback button {
+    cursor: pointer;
     border: 1px solid #ACACAC /* grijs */;
     border-radius: 5px;
     font-weight: bold;
@@ -260,12 +269,22 @@
     display: inline-block;
     margin: 20px 20px 0 0;
 }
-.feedback > a:hover {
+
+.feedback button:hover {
     background-color: #002783 /* RO donker link2 */;
     border-color: #002783 /* RO donker link2 */;
     color: #FFFFFF;
     text-decoration: none;
 }
-.ask-question {
-    clear: both;
+
+.feedback__answered {
+
+}
+
+.feedback__question--hide {
+    display: none;
+}
+
+.feedback__answered--hide {
+    display: none;
 }
