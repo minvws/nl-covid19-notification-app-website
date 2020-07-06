@@ -6,8 +6,6 @@ summary: Ja, de app is 100% anoniem en vrijwillig.
 lang: nl
 ---
 
-Ja, de app is veilig. Daar zorgen wij voor op deze manier:
-
 Ja, de app is veilig. Daar zorgen we voor:
 
 - De app gebruikt alleen anonieme codes, geen persoonsgegevens. 
