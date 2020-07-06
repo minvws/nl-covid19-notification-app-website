@@ -18,7 +18,7 @@ Zo kunnen we samen de verspreiding van het coronavirus stoppen.
 - Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. De app weet niet wie je bent, dus niemand komt dat te weten.
 
 <details>
-   <summary>Wanneer krijg ik een melding?/</summary>
+   <summary>Wanneer krijg ik een melding?</summary>
    <div markdown="1">
 Je krijgt een waarschuwing als:
 
@@ -34,7 +34,7 @@ Zat je naast die persoon in de trein? Dan kun je **later** een melding krijgen. 
 </details>
 
 <details>
-   <summary>Ik heb een melding gekregen, wat nu?/</summary>
+   <summary>Ik heb een melding gekregen, wat nu?</summary>
    <div markdown="1">
 Als je een melding krijgt, ben je dicht bij iemand geweest die daarna positief is getest op het virus. 
 
@@ -44,7 +44,7 @@ De GGD raadt je aan je te laten testen op het virus, zelfs als je je nog niet zi
 </details>
 
 <details>
-   <summary>Ik ben positief getest op corona, wat nu?/</summary>
+   <summary>Ik ben positief getest op corona, wat nu?</summary>
    <div markdown="1">
 Als je positief getest bent op corona, dan kun je dit aangeven in de app. Zo kun je anderen anoniem waarschuwen. Dit beslis je zelf - het is niet niet verplicht en gaat niet automatisch.
 
