@@ -17,51 +17,58 @@
         </div>
         <button type="button" class="statement-summary__btn-expand" data-js-btn-open-statement="{{ forloop.index }}">
           <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
-          <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader }}: {{ statement.title }}</span>
+          <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader[page.lang] }}: {{ statement.title }}</span>
         </button>
       </div>
 
       <div class="details__summary__expanded-box-background" data-js-btn-close-statement></div>
-      <div class="details__expanded-box" tabindex="0" aria-modal="true">
-        <button type="button" class="expanded-box__btn-collapse expanded-box__btn-collapse--above-header" data-js-btn-close-statement>
-          {{ site.data.translations.readless[page.lang] }} <span class="icon icon-chevron-right"></span>
-        </button>
-        <div class="expanded-box__header">
-          <div class="expanded-box__header__icon">{% include graphics/{{ statement.icon }}.svg %}</div>
-          <h2 class="expanded-box__header__title">{{ statement.title }}</h2>
-        </div>
-        <div class="expanded-box__content">
-          <div class="content-block">
-            {{ statement.content }}
+      <div
+        class="details__expanded-box"
+        tabindex="0"  role="dialog" aria-modal="true" aria-labelledby="statement-{{ forloop.index }}-title"
+      >
+        <div role="document">
+          <button type="button" class="expanded-box__btn-collapse expanded-box__btn-collapse--above-header" data-js-btn-close-statement>
+            {{ site.data.translations.readless[page.lang] }} <span class="icon icon-chevron-right"></span>
+          </button>
+          <div class="expanded-box__header">
+            <div class="expanded-box__header__icon" aria-hidden="true">{% include graphics/{{ statement.icon }}.svg %}</div>
+            <h2 class="expanded-box__header__title" id="statement-{{ forloop.index }}-title">{{ statement.title }}</h2>
           </div>
-          <div class="timeline">
-            {% if statement.timeline.completed.size > 0 %}
-              <h3 class="completed">{{ site.data.translations.completed[page.lang] }}</h3>
-              <ul class="completed">
-                {% for item in statement.timeline.completed %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-            {% if statement.timeline.working-on.size > 0 %}
-              <h3 class="working-on">{{ site.data.translations.working-on[page.lang] }}</h3>
-              <ul class="working-on">
-                {% for item in statement.timeline.working-on %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
+          <div class="expanded-box__content">
+            <div class="content-block">
+              {{ statement.content }}
+            </div>
+            <div class="timeline">
+              {% if statement.timeline.completed.size > 0 %}
+                <h3 class="completed">{{ site.data.translations.completed[page.lang] }}</h3>
+                <ul class="completed">
+                  {% for item in statement.timeline.completed %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              {% if statement.timeline.working-on.size > 0 %}
+                <h3 class="working-on">{{ site.data.translations.working-on[page.lang] }}</h3>
+                <ul class="working-on">
+                  {% for item in statement.timeline.working-on %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
           </div>
+          <div class="expanded-box__want-to-know-more">
+            <h3>
+              {{ site.data.translations.want-to-known-more[page.lang] }}
+            </h3>
+            <p data-js-btn-close-statement>{{ site.data.translations.see-the-faq[page.lang] }}</p>
+          </div>
+          <button type="button" class="expanded-box__btn-collapse" data-js-btn-close-statement>
+            {{ site.data.translations.readless[page.lang] }}
+            <span class="screen-reader-text">{{ site.data.translations.readless--under[page.lang] }}</span>
+            <span class="icon icon-chevron-right"></span>
+          </button>
         </div>
-        <div class="expanded-box__want-to-know-more">
-          <h3>
-            {{ site.data.translations.want-to-known-more[page.lang] }}
-          </h3>
-          <p data-js-btn-close-statement>{{ site.data.translations.see-the-faq[page.lang] }}</p>
-        </div>
-        <button type="button" class="expanded-box__btn-collapse" data-js-btn-close-statement>
-          {{ site.data.translations.readless[page.lang] }} <span class="icon icon-chevron-right"></span>
-        </button>
       </div>
       <!-- TODO: This is a feature that will not be implemented in the first version
       <div class="respond">

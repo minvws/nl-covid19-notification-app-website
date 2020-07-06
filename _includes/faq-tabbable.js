@@ -40,6 +40,10 @@
             var tabPanelSelector = tab.getAttribute('href');
             var tabPanel = document.querySelector(tabPanelSelector);
             tabPanel.setAttribute('class', tabPanel.getAttribute('class') + ' tabbable-tab-panel--active');
+
+            window.addEventListener('load', function() {
+                initFeedbackBtns();
+            });
         }
 
         activateTab(tabbable.querySelector('.tabbable-tab:first-child'));

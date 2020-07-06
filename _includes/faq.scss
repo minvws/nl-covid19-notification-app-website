@@ -105,6 +105,7 @@
 
     @media (min-width: 740px) {
         .tabbable-js-interactive & {
+            display: none;
             z-index: -1;
             margin-top: -100px;
             padding-top: 100px;
@@ -114,6 +115,7 @@
             overflow: hidden;
 
             &.tabbable-tab-panel--active {
+                display: block;
                 z-index: auto;
                 margin-bottom: 0;
                 opacity: 1;

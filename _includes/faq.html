@@ -1,5 +1,4 @@
 <div class="faq tabbable">
-  <a name="faq"></a>
   <h2 id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
   <!-- 
@@ -16,7 +15,7 @@
         {% for set in sets %}
           {% assign keyname = set.name | slice: 2, 999 | prepend: "faq-" %}
           <li><!-- Note: get class ".tab-active" when interactive -->
-            <a href="#faq-tab-panel-{{ keyname }}" id="faq-tab-{{ keyname }}" aria-selected="true" class="tabbable-tab">
+            <a href="#faq-tab-panel-{{ keyname }}" id="faq-tab-{{ keyname }}" class="tabbable-tab">
               {{ site.data.translations[keyname][page.lang] }}
             </a>
           </li>
@@ -27,8 +26,15 @@
 
       {% for set in sets %}
         {% assign keyname = set.name | slice: 2, 999 | prepend: "faq-" %}
-        <div class="faq-tab-panel tabbable-tab-panel" id="faq-tab-panel-{{ keyname }}">
-          <h3 class="faq-tab-panel__title">{{ site.data.translations[keyname][page.lang] }}</h3>
+        <div
+          class="faq-tab-panel tabbable-tab-panel"
+          id="faq-tab-panel-{{ keyname }}"
+          aria-labelledby="faq-tab-panel__title-{{ forloop.index }}"
+        >
+          <h3
+            class="faq-tab-panel__title"
+            id="faq-tab-panel__title-{{ forloop.index }}"
+          >{{ site.data.translations[keyname][page.lang] }}</h3>
           {% for question in set.items %}
             <details data-js-stats-accordion='["trackEvent", "faq", "{{ page.lang }} - {{ site.data.translations[keyname][page.lang] }}", "{{ question.title }}"]'>
               <summary><h4>{{ question.title }}</h4></summary>

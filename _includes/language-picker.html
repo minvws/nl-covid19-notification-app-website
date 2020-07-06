@@ -1,12 +1,25 @@
-<div class="language-picker">
-  {{ site.data.translations.header-language-picker-label[page.lang] }}:
-  <strong>{{ site.data.languages[page.lang].label }}</strong>
-  <span class="languages">
+<nav class="language-picker" aria-labelledby="language-picker-title">
+  <p>
+    {{ site.data.translations.header-language-picker-label[page.lang] }}:
+    <strong>{{ site.data.languages[page.lang].label }}</strong>
+  </p>
+  <h3 id="language-picker-title">
+    {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}:
+  </h3>
+  <ul class="languages">
     {% for lang in site.data.languages %}
-        {% assign language = lang[1] %}
-        {% if lang[0] != page.lang %}
-          <span>&nbsp; <a href="{{ relroot }}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}">{{ language.label }}</a></span>
-        {% endif %}
+      {% assign language = lang[1] %}
+      {% if lang[0] != page.lang %}
+        <li hreflang="{{ lang[0] }}">
+          <a
+            href="{{ relroot }}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}"
+            hreflang="{{ lang[0] }}"
+            lang="{{ lang[0] }}"
+          >
+            {{ language.label }}
+          </a>
+        </li>
+      {% endif %}
     {% endfor %}
-  </span>
-</div>
+  </ul>
+</nav>

@@ -44,6 +44,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 9px -2px rgba(0, 0, 0, 0.2);
     background-color: #FFFFFF;
+    overflow: hidden;
 
     html.browser-ie-11 & {
         box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.26);
@@ -89,6 +90,7 @@
     font-family: inherit;
     text-align: left;
     cursor: pointer;
+    transition: var(--transition-in);
 
     &:after {
         // Make the whole .statement-summary clickable
@@ -99,6 +101,12 @@
         right: 0;
         bottom: 0;
         left: 0;
+    }
+
+    &:focus {
+        color: #fff;
+        background-color: $color-RO_donkerblauw;
+        transition: var(--transition-in--fast);
     }
 
     > .icon {
@@ -191,6 +199,7 @@
     font-family: inherit;
     font-size: 18px;
     text-align: left;
+    outline-offset: 2px;
 
     .icon {
         position: relative;

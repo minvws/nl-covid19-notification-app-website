@@ -31,6 +31,11 @@ $color-WARN_rood: #CA005D;
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: 2px dotted currentColor;
+    outline-offset: 4px;
+}
+
 @font-face {
     font-family: 'RO Sans';
     src: url('../fonts/RO-SansWebText-Regular.woff') format('woff'), url('../fonts/RO-SansWebText-Regular.woff2') format('woff2');
@@ -52,9 +57,17 @@ $color-WARN_rood: #CA005D;
     font-display: swap;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+
+    &.html-no-scroll {
+        overflow: hidden;
+
+        body {
+            overflow-y: scroll; // Prevent scrollbar jitter
+        }
+    }
 }
 
 body {
@@ -100,6 +113,38 @@ a:hover {
 @import "../_includes/statements";
 @import "../_includes/info-slider";
 @import "../_includes/faq";
+
+/* Skip links */
+
+.skiplinks {
+    position: relative;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 16px;
+    z-index: 2;
+
+    a {
+        font-size: 1.26562rem;
+        line-height: 1.58025;
+        width: auto;
+        min-height: 44px;
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        background-color: #002783;
+        position: absolute;
+        top: -100vh;
+        left: -100vw;
+        text-decoration: none;
+
+        &:focus {
+            top: 15px;
+            left: 15px;
+        }
+    }
+}
 
 /* Header */
 .badge {

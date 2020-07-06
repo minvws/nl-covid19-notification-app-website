@@ -1,8 +1,11 @@
 <header>
+  <div class="skiplinks">
+    <a href="#content">Ga direct naar inhoud</a>
+  </div>
   <div class="badge"><span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}</div>
   <div class="logobar">
     <div class="logo">
-      <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
+      <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}" aria-hidden="true">
       <!-- TODO: <span class="wordmark">
         <span class="sender">{{ site.data.translations.minvws[page.lang] }}</span>
       </span> -->
