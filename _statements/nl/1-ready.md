@@ -2,8 +2,8 @@
 index: 1
 title: Wanneer is de app klaar?
 icon: calendar
-summary: Half juli wordt besloten of en wanneer de app gebruikt kan worden.
-timeline:
+summary: De overheid streeft ernaar de corona-app in juli 2020 te lanceren. 
+# timeline:
   completed:
     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
     - Onderzoek naar ipsum lerum enzovoort
@@ -14,15 +14,16 @@ timeline:
 lang: nl
 ---
 
-Half juli 2020 wordt besloten of de app in heel Nederland gebruikt kan worden.
-Tot dat moment bouwen we aan de app.
-En testen we om zeker te weten dat de app voor iedereen:
+Half juli 2020 wordt besloten of de app in heel Nederland gebruikt kan worden. Tot dat moment testen we de veiligheid en toegankelijkheid van de app. Met de testresultaten verbeteren we de app steeds verder. De overheid streeft ernaar dat je de app in juli 2020 kunt downloaden.
 
-- voor iedereen goed werkt,
-- voor iedereen begrijpelijk is,
-- helemaal veilig is.
+We testen zo uitgebreid om zeker te weten dat de app voor iedereen:
 
-Zo weten we zeker dat iedereen de app straks gemakkelijk kan gebruiken.
+- goed werkt,
+- begrijpelijk is,
+- helemaal veilig is. 
+
+Zo weten we zeker dat iedereen de app straks gemakkelijk kan gebruiken. 
+
 
 <!--div class="video">
     <iframe src="https://www.youtube.com/embed/D__UaR5MQao" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
