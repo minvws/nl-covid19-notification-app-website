@@ -220,19 +220,19 @@ footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
 
-footer-misc-privacy-url: /privacy
+footer-misc-privacy-url: ./privacy
 footer-misc-privacy:
   nl: Privacy
   en: Privacy
-footer-misc-disclaimer-url: /disclaimer
+footer-misc-disclaimer-url: ./disclaimer
 footer-misc-disclaimer:
   nl: Disclaimer
   en: Disclaimer
-footer-misc-cookies-url: /cookies
+footer-misc-cookies-url: ./cookies
 footer-misc-cookies:
   nl: Cookies
   en: Cookies
-footer-misc-colofon-url: /colofon
+footer-misc-colofon-url: colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon

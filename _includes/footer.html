@@ -30,19 +30,19 @@
         <div class="footer__links">
             <div class="footer__links__col ___desktop-66">
                 <div class="footer-logos-info">{{ site.data.translations.footer-logos-info_md[page.lang] | markdownify }}</div>
+                {% comment %}
                 <div class="footer-logos">
-                    <a href="{{ site.data.translations.footer-logos-minvws-url }}">
+                    <!-- <a href="{{ site.data.translations.footer-logos-minvws-url }}">
                         <img src="{{ relroot }}img/logo-VWS.svg" alt="{{ site.data.translations.footer-logos-minvws-img-alt[page.lang] }}" />
                     </a>
-                    {% comment %}
-                    <!-- <a href="{{ site.data.translations.footer-logos-rivm-url }}">
+                    <a href="{{ site.data.translations.footer-logos-rivm-url }}">
                         <img src="{{ relroot }}img/logo-VWS-RIVM.svg" alt="{{ site.data.translations.footer-logos-rivm-img-alt[page.lang] }}" />
                     </a>
                     <a href="{{ site.data.translations.footer-logos-ggd-url }}">
                         <img src="{{ relroot }}img/logo-GGD.svg" class="___logo-ggd" alt="{{ site.data.translations.footer-logos-ggd-img-alt[page.lang] }}" />
                     </a> -->
-                    {% endcomment %}
                 </div>
+                {% endcomment %}
             </div>
             <div class="footer__links__col ___desktop-33">
                 <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
@@ -56,10 +56,14 @@
                 {{ site.data.translations.footer-misc-privacy[page.lang] }}
             </a>
             - 
+            {% comment %}
+            <!-- 
             <a href="{{ site.data.translations.footer-misc-disclaimer-url }}">
                 {{ site.data.translations.footer-misc-disclaimer[page.lang] }}
             </a>
-             - 
+            -
+            -->
+            {% endcomment %}
             <a href="{{ site.data.translations.footer-misc-cookies-url }}">
                 {{ site.data.translations.footer-misc-cookies[page.lang] }}
             </a>
