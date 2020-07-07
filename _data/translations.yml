@@ -23,8 +23,8 @@ development:
   nl: in ontwikkeling v0.7
   en: under development v0.7
 govlogo:
-  nl: Rijksoverheid home
-  en: Government home
+  nl: Logo Rijksoverheid home
+  en: Logo Government home
 minvws:
   nl: Ministerie van Volksgezondheid,<br>Welzijn en Sport
   en: Ministry of Health,<br>Welfare and Sport
@@ -180,8 +180,8 @@ info-slides:
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
-  nl: Alleen samen krijgen we corona onder controle
-  en: Only together we can control corona
+  nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
+  en: Only together we can control corona. Go to the campagne website
 footer-samen-follow:
   nl: Meer op social media
   en: More on social media
