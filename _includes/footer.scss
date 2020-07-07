@@ -2,6 +2,7 @@
 .footer-samen {
     padding: 2.2rem 1.4rem 2rem 1.4em;
     max-width: 1100px;
+    flex-direction: column;
 
     @media(min-width: 740px) {
         padding-top: 3.2em;
@@ -15,14 +16,24 @@
 }
 
 .footer-samen__logo {
+    position: relative;
+
     > img {
         display: block;
         width: 100%;
         max-width: 350px;
         margin: 0 auto;
+        transition: var(--transition-out);
 
         @media(min-width: 740px) {
             width: 312px;
+        }
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.06);
+            transition: var(--transition-in);
         }
     }
 }

@@ -23,8 +23,8 @@ development:
   nl: in ontwikkeling v0.7
   en: under development v0.7
 govlogo:
-  nl: Rijksoverheid home
-  en: Government home
+  nl: Logo Rijksoverheid home
+  en: Logo Government home
 minvws:
   nl: Ministerie van Volksgezondheid,<br>Welzijn en Sport
   en: Ministry of Health,<br>Welfare and Sport
@@ -132,15 +132,18 @@ layout-template-home:
   nl: Home
   en: Home
 
+info-slider-title:
+  nl: Dit is wat je kunt verwachten van de app
+  en: This is what you can expect from the app
 info-slider-btn-pause:
   nl: Pauzeer slider
   en: Pauzeer slider
 info-slider-btn-prev-slide:
-  nl: Vorige slide
-  en: Previous slide
+  nl: Vorige slide van slider
+  en: Previous slide of slider
 info-slider-btn-next-slide:
-  nl: Volgende slide
-  en: Next slide
+  nl: Volgende slide van slider
+  en: Next slide of slider
 info-slides:
   nl:
     -
@@ -177,8 +180,8 @@ info-slides:
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
-  nl: Alleen samen krijgen we corona onder controle
-  en: Only together we can control corona
+  nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
+  en: Only together we can control corona. Go to the campagne website
 footer-samen-follow:
   nl: Meer op social media
   en: More on social media

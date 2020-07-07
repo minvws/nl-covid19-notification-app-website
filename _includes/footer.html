@@ -3,7 +3,8 @@
         <a class="footer-samen__logo" href="{{ site.data.translations.footer-samen-logo-url }}">
             <img src="{{ relroot }}img/logo-alleen-samen.svg" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
         </a>
-        <div class="footer-samen__follow">
+        {% comment %}
+        <!-- <div class="footer-samen__follow">
             <p>{{ site.data.translations.footer-samen-follow[page.lang] }}</p>
             <ul class="share">
                 <li>
@@ -22,7 +23,8 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
+        {% endcomment %}
     </div>
     <div class="footer">
         <div class="footer__links">
@@ -32,12 +34,14 @@
                     <a href="{{ site.data.translations.footer-logos-minvws-url }}">
                         <img src="{{ relroot }}img/logo-VWS.svg" alt="{{ site.data.translations.footer-logos-minvws-img-alt[page.lang] }}" />
                     </a>
-                    <a href="{{ site.data.translations.footer-logos-rivm-url }}">
+                    {% comment %}
+                    <!-- <a href="{{ site.data.translations.footer-logos-rivm-url }}">
                         <img src="{{ relroot }}img/logo-VWS-RIVM.svg" alt="{{ site.data.translations.footer-logos-rivm-img-alt[page.lang] }}" />
                     </a>
                     <a href="{{ site.data.translations.footer-logos-ggd-url }}">
                         <img src="{{ relroot }}img/logo-GGD.svg" class="___logo-ggd" alt="{{ site.data.translations.footer-logos-ggd-img-alt[page.lang] }}" />
-                    </a>
+                    </a> -->
+                    {% endcomment %}
                 </div>
             </div>
             <div class="footer__links__col ___desktop-33">
@@ -48,10 +52,17 @@
             </div>
         </div>
         <div class="footer__misc">
-            <a href="{{ site.data.translations.footer-misc-privacy-url }}">{{ site.data.translations.footer-misc-privacy[page.lang] }}</a> - 
-            <a href="{{ site.data.translations.footer-misc-disclaimer-url }}">{{ site.data.translations.footer-misc-disclaimer[page.lang] }}</a> - 
-            <a href="{{ site.data.translations.footer-misc-cookies-url }}">{{ site.data.translations.footer-misc-cookies[page.lang] }}</a> - 
-            <a href="{{ site.data.translations.footer-misc-colofon-url }}">{{ site.data.translations.footer-misc-colofon[page.lang] }}</a>
+            <a href="{{ site.data.translations.footer-misc-privacy-url }}">
+                {{ site.data.translations.footer-misc-privacy[page.lang] }}
+            </a>
+            - 
+            <a href="{{ site.data.translations.footer-misc-disclaimer-url }}">
+                {{ site.data.translations.footer-misc-disclaimer[page.lang] }}
+            </a>
+             - 
+            <a href="{{ site.data.translations.footer-misc-cookies-url }}">
+                {{ site.data.translations.footer-misc-cookies[page.lang] }}
+            </a>
         </div>
     </div>
 </footer>

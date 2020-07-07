@@ -59,6 +59,8 @@
     color: #154273 /* RO blauw */;
     // See .content with negative margin-top
     padding: 0 0 2em 1.38em;
+    position: relative;
+    z-index: 2;
 
     @media (min-width: 680px) {
         padding: 0 0 2em 3em;
@@ -66,7 +68,7 @@
 
     @media (min-width: 960px) {
         padding: 0 0 5em 2.6em;
-        // min-height: 500px;
+        margin-right: 400px;
     }
     
     h1 {

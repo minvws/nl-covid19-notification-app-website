@@ -10,7 +10,6 @@
         .swiper-container {
             height: 463px;
         }
-    //     // overflow: hidden
     }
 
     // Swipe.JS - Next / prev button
@@ -35,7 +34,8 @@
         }
 
         &:focus {
-            outline-offset: -2px;
+            outline: 0;
+            background: rgba($color-RO_donkerblauw--interaction, 0.2);
         }
 
         @media (min-width: 740px) {
@@ -58,22 +58,24 @@
     }
 
     // Swipe.JS - Pagination
-    .swiper-container-horizontal > .swiper-pagination-bullets {
+    .swiper-container-horizontal .swiper-pagination-bullets {
         position: static;
         margin-top: -3px;
 
         @media (min-width: 960px) {
             bottom: 6px;
             position: absolute;
+            width: 100%;
         }
     }
 
-    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    .swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 1rem 0.4rem;
         position: relative;
         width: 12px;
         height: 12px;
-        --swiper-theme-color: #C4C4C4;
+        background: #7da5d3;
+        opacity: 1;
         transition: var(--transition-out);
 
         &:after {
@@ -87,12 +89,12 @@
         }
 
         &:hover {
-            --swiper-theme-color: #618DBE; // TODO: Unofficial color?
+            background: #{$color-RO_donkerblauw--interaction};
             transition: none;
         }
     
         &.swiper-pagination-bullet-active {
-            --swiper-theme-color: #{$color-RO_donkerblauw--interaction};
+            background: #{$color-RO_donkerblauw--interaction};
             transition: var(--transition-in);
         }
     }
@@ -156,7 +158,9 @@
 
 .info-slide__text {
     padding: 0.2em 0.8em 0 1.2em;
-    color: #000; // TODO:
+    color: #333; 
+    position: relative;
+    z-index: 2;
 
     @media (min-width: 740px) and (max-width: 959px) {
         padding: 0.2em 0.8em 0 0;

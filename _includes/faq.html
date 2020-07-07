@@ -63,11 +63,11 @@
                   </button>
                 </div>
                 {% comment %} TODO: Optimize this HTML... {% endcomment %}
-                <div tabindex="0" class="feedback__answered feedback__answered--hide" data-stats-feedback="ja">
+                <div tabindex="-1" role="alert" class="feedback__answered feedback__answered--hide" data-stats-feedback="ja">
                   <h5>{{ site.data.translations.feedback-answer-submitted-title[page.lang] }}</h5>
                   {{ site.data.translations.feedback-answer-submitted-yes_md[page.lang] | markdownify }}
                 </div>
-                <div tabindex="0" class="feedback__answered feedback__answered--hide" data-stats-feedback="nee">
+                <div tabindex="-1" role="alert" class="feedback__answered feedback__answered--hide" data-stats-feedback="nee">
                   <h5>{{ site.data.translations.feedback-answer-submitted-title[page.lang] }}</h5>
                   {{ site.data.translations.feedback-answer-submitted-no_md[page.lang] | markdownify }}
                 </div>
