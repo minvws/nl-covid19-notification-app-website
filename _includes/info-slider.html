@@ -3,15 +3,25 @@
   <div class="info-slider__slides">
     <!-- Swipe.JS Slider main container -->
     <div class="swiper-container">
+      <h2>Carroussel</h2>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <button type="button" class="swiper-button-prev">
+        <span class="screen-reader-text">{{ site.data.translations.info-slider-btn-prev-slide[page.lang] }}</span>
+      </button>
+      <button type="button" class="swiper-button-next">
+        <span class="screen-reader-text">{{ site.data.translations.info-slider-btn-next-slide[page.lang] }}</span>
+      </button>
       <div class="swiper-wrapper">
           {% for info-slide in site.data.translations.info-slides[page.lang] %}
           <div class="swiper-slide">
-            <div class="info-slide" aria-labelledby="info-slide-title-{{ forloop.index }}">
+            <div class="info-slide" id="swiper-slide-{{ forloop.index }}" aria-labelledby="info-slide-title-{{ forloop.index }}">
               <div class="info-slide__graphic">
                 <!-- Note: pro-active lazy-load by Swipe.JS -->
                 <img
                   data-src="{{ relroot }}img/info-slider/{{ info-slide.image }}.svg"
-                  alt="" aria-hidden="true"
+                  alt="{{ info-slide.img-alt }}"
                   class="swiper-lazy"
                 >
               </div>
@@ -23,15 +33,6 @@
           </div>
           {% endfor %}
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-      <!-- If we need navigation buttons -->
-      <button type="button" class="swiper-button-prev">
-        <span class="screen-reader-text">{{ site.data.translations.info-slider-btn-prev-slide[page.lang] }}</span>
-      </button>
-      <button type="button" class="swiper-button-next">
-        <span class="screen-reader-text">{{ site.data.translations.info-slider-btn-next-slide[page.lang] }}</span>
-      </button>
     </div>
   </div>
   <button

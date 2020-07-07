@@ -2,6 +2,7 @@
 .footer-samen {
     padding: 2.2rem 1.4rem 2rem 1.4em;
     max-width: 1100px;
+    flex-direction: column;
 
     @media(min-width: 740px) {
         padding-top: 3.2em;

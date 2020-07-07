@@ -10,7 +10,6 @@
         .swiper-container {
             height: 463px;
         }
-    //     // overflow: hidden
     }
 
     // Swipe.JS - Next / prev button
@@ -35,7 +34,8 @@
         }
 
         &:focus {
-            outline-offset: -2px;
+            outline: 0;
+            background: rgba($color-RO_donkerblauw--interaction, 0.2);
         }
 
         @media (min-width: 740px) {
@@ -156,7 +156,9 @@
 
 .info-slide__text {
     padding: 0.2em 0.8em 0 1.2em;
-    color: #000; // TODO:
+    color: #333; 
+    position: relative;
+    z-index: 2;
 
     @media (min-width: 740px) and (max-width: 959px) {
         padding: 0.2em 0.8em 0 0;

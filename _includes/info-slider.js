@@ -7,7 +7,10 @@
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
-            clickable: true
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<a class="' + className + '" href="#swiper-slide-' + index + '">' + (index + 1) + '</a>';
+            }
         },
 
         // Navigation arrows
@@ -23,7 +26,7 @@
 
         autoplay: {
             delay: 3500
-        }
+        },
     });
 
     // WCAG SC 2.2.2: Pause, Stop, Hide
