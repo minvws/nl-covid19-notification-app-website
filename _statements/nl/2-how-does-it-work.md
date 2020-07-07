@@ -23,9 +23,9 @@ Zo kunnen we samen de verspreiding van het coronavirus stoppen.
    <div markdown="1">
 Je krijgt een waarschuwing als:
 
-Iemand via de corona-app aangeeft het coronavirus te hebben,
-én jij in de afgelopen dagen in de buurt bent geweest van die persoon,
-én jullie langere tijd dichtbij elkaar zijn geweest.
+- Iemand via de corona-app aangeeft het coronavirus te hebben,
+- én jij in de afgelopen dagen in de buurt bent geweest van die persoon,
+- én jullie langere tijd dichtbij elkaar zijn geweest.
 
 Dus fietste die andere persoon voorbij? Dan krijg je **geen** melding. Jullie waren maar kort bij elkaar in de buurt.
 
