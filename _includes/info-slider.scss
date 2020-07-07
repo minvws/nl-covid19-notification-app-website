@@ -74,7 +74,7 @@
         position: relative;
         width: 12px;
         height: 12px;
-        background: #7da5d3;
+        background: #2A71C3;
         opacity: 1;
         transition: var(--transition-out);
 
@@ -96,6 +96,7 @@
         &.swiper-pagination-bullet-active {
             background: #{$color-RO_donkerblauw--interaction};
             transition: var(--transition-in);
+            transform: scale(1.38);
         }
     }
 }
