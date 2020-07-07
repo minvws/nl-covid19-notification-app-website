@@ -3,6 +3,7 @@ var _paq = _paq || [];
 _paq.push(["setCookieDomain", "*.minvws.github.io"]);
 _paq.push(["setDomains", ["*.minvws.github.io"]]);
 _paq.push(['setLinkTrackingTimer', 750]);
+_paq.push(['setCustomDimension', 1, document.documentElement.lang]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 

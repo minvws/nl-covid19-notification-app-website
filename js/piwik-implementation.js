@@ -1,4 +1,5 @@
 (function() {
+    var lang = document.documentElement.lang;
     
     // TODO: Carrousel
 
@@ -15,7 +16,6 @@
     }
 
     window.addEventListener('load', function() {
-        _paq.push(['setCustomDimension', 1, document.documentElement.lang]);
         initFeedbackBtns();
     });
 })();
