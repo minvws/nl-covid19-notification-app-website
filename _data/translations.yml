@@ -1,14 +1,14 @@
 page-title:
-  nl: Grip op Covid-19
+  nl: Het coronavirus onder controle met [Naam app]
   en: Grip on Covid-19
 header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: Grip op Covid-19<br> met de [name here] app
-  en: Grip on Covid-19<br> with the [name here] app
+  nl: Het coronavirus onder controle met [Naam app]
+  en: Grip on Covid-19<br> with the [Naam app] app
 header-subtitle:
-  nl: Alleen samen zorgen we<br>voor minder besmettingen
+  nl: Alleen samen kunnen we er voor zorgen dat<br>we nieuwe besmettingen voorkomen
   en: Only together we will<br>ensure fewer infections
 header-language-picker-label:
   nl: Huidige taal
@@ -96,8 +96,8 @@ faq-development:
   nl: Werking van de app
   en: How the app works
 faq-info-will-be-updated:
-  nl: Er zullen de komende tijd meer antwoorden bij komen
-  en: More answers will be added over time
+  nl: Er komen meer vragen en antwoorden beschikbaar
+  en: More questions and answers will be available soon
 has-been-answered:
   nl: Is je vraag beantwoord?
   en: Has your question been answered?
@@ -111,8 +111,8 @@ feedback-answer-submitted-title:
   nl: Dank je wel voor je reactie!
   en: Thank you for your reaction
 feedback-answer-submitted-yes_md:
-  nl: Heb je andere vragen over de app? Stel die hier.
-  en: Have you got other questions about the app? 
+  nl: Heb je andere vragen over de app? Stel die [hier](https://www.rijksoverheid.nl/contact).
+  en: Have you got other questions about the app? Visit [this page](https://www.rijksoverheid.nl/contact). 
 feedback-answer-submitted-no_md:
   nl: We verzamelen alle reacties om de informatie op deze website te verbeteren. 
   en: We use your feedback to improve the information on this website.
