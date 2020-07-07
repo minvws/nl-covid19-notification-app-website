@@ -13,3 +13,5 @@ Ja, de app is veilig. Daar zorgen we voor:
 - Onafhankelijke deskundigen hebben de app helpen bouwen. 
 - De app wordt uitgebreid getest voordat je ‘m kunt downloaden.
 
+Lees meer over de veiligheid van de app op [de website van de Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-zorgt-de-overheid-ervoor-dat-de-corona-app-veilig-is).
+
