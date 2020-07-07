@@ -25,4 +25,6 @@ De corona-app helpt verdere besmettingen te verminderen.
 
 Zo krijgen we samen corona onder controle.
 
+Lees meer over hoe de app het bron en contactonderzoek helpt op [de website van de Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-werkt-de-corona-app).
+
 
