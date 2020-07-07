@@ -25,7 +25,7 @@
             for (var i3=0; i3 < tabsActive.length; i3++) {
                 var tabActive = tabsActive[i3];
                 tabActive.setAttribute('class', tabActive.getAttribute('class').replace('tabbable-tab--active', ''));
-                tabActive.setAttribute('aria-selected', 'false');
+                tabActive.setAttribute('aria-current', 'false');
             }
             // Set tab active
             tab.setAttribute('class', tab.getAttribute('class') + ' tabbable-tab--active');
@@ -41,7 +41,7 @@
             var tabPanelSelector = tab.getAttribute('href');
             var tabPanel = document.querySelector(tabPanelSelector);
             tabPanel.setAttribute('class', tabPanel.getAttribute('class') + ' tabbable-tab-panel--active');
-            tab.setAttribute('aria-selected', 'true');
+            tab.setAttribute('aria-current', 'true');
 
             window.addEventListener('load', function() {
                 initFeedbackBtns();
