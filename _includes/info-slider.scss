@@ -58,17 +58,18 @@
     }
 
     // Swipe.JS - Pagination
-    .swiper-container-horizontal > .swiper-pagination-bullets {
+    .swiper-container-horizontal .swiper-pagination-bullets {
         position: static;
         margin-top: -3px;
 
         @media (min-width: 960px) {
             bottom: 6px;
             position: absolute;
+            width: 100%;
         }
     }
 
-    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    .swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 1rem 0.4rem;
         position: relative;
         width: 12px;

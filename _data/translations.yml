@@ -139,11 +139,11 @@ info-slider-btn-pause:
   nl: Pauzeer slider
   en: Pauzeer slider
 info-slider-btn-prev-slide:
-  nl: Vorige slide
-  en: Previous slide
+  nl: Vorige slide van slider
+  en: Previous slide of slider
 info-slider-btn-next-slide:
-  nl: Volgende slide
-  en: Next slide
+  nl: Volgende slide van slider
+  en: Next slide of slider
 info-slides:
   nl:
     -
