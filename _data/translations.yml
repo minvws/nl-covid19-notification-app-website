@@ -5,11 +5,11 @@ header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: Het coronavirus onder controle met [Naam app]
+  nl: Het coronavirus onder<br> controle met [Naam app]
   en: Grip on Covid-19<br> with the [Naam app] app
 header-subtitle:
-  nl: Alleen samen kunnen we er voor zorgen dat<br>we nieuwe besmettingen voorkomen
-  en: Only together we will<br>ensure fewer infections
+  nl: Alleen samen kunnen we er voor zorgen dat<br> we nieuwe besmettingen voorkomen
+  en: Only together we will<br> ensure fewer infections
 header-language-picker-label:
   nl: Huidige taal
   en: Current language
