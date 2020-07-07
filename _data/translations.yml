@@ -132,6 +132,9 @@ layout-template-home:
   nl: Home
   en: Home
 
+info-slider-title:
+  nl: Dit is wat je kunt verwachten van de app
+  en: This is what you can expect from the app
 info-slider-btn-pause:
   nl: Pauzeer slider
   en: Pauzeer slider

@@ -6,10 +6,11 @@
 
         // If we need pagination
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination__bullets',
             clickable: true,
             renderBullet: function (index, className) {
-                return '<a class="' + className + '" href="#swiper-slide-' + index + '">' + (index + 1) + '</a>';
+                return '<a class="' + className + '" href="#swiper-slide-' + index + '"><span class="screen-reader-text">Ga naar slide ' + (index + 1) + '</span></a>';
+                // TODO: render vanuit liquid en geef juist taal keys
             }
         },
 
