@@ -3,12 +3,11 @@
     <title>{{ page.title }}{% if page.title %} - {% endif %}{{ site.data.translations.page-title[page.lang] }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.data.translations.description[page.lang]}}">
-    <link href="{{ relroot }}css/main.css?v={{ site.time | replace_first: " ", "T" | replace: " ", "" }}" rel="stylesheet">
+    <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
     <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="{{ relroot }}fonts/RO-SerifWeb-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    {% comment %}<!-- <link rel="preload" href="{{ relroot }}fonts/RO-SerifWeb-Regular.woff2" as="font" type="font/woff2" crossorigin> -->{% endcomment %}
     <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <!-- TODO: Include in (future) bundle? -->
     <link rel="stylesheet" href="{{ relroot }}js/vendors/swiper-bundle.6.0.0.min.css" crossorigin="anonymous">
     <script src="{{ relroot }}js/vendors/swiper-bundle.6.0.0.min.js" crossorigin="anonymous"></script>
     <script src="{{ relroot }}js/piwik.js?v={{ timeslug }}" crossorigin="anonymous" async></script>

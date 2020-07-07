@@ -1,9 +1,14 @@
-{% assign relroot = '' %}
-{% if page.lang != 'nl' %}
-{%   assign relroot = '../' %}
-{% endif %}
+{%- assign relroot = '' -%}
+{%- if page.lang != 'nl' -%}
+  {%- assign relroot = '../' -%}
+{%- endif -%}
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 <!DOCTYPE html>
-<!-- generated at {{ site.time }} -->
+<!--
+  This website is generated at {{ site.time }}.
+  The code is open source. You are welcome to contribute. Go to git: 
+  https://github.com/minvws/nl-covid19-notification-app-website
+-->
 <html lang="{{page.lang}}">
 {% include head.html %}
 <body>
@@ -19,7 +24,11 @@
         </div>
       
         <div class="lead__preview">
-          <img src="{{ relroot }}img/app-preview.png" alt="{{ site.data.translations.app-preview[page.lang] }}" class="app-preview">
+          <img
+            src="{{ relroot }}img/app-preview.png"
+            aria-hidden="true"
+            class="app-preview"
+          >
           <div class="lead__preview__slider">
             {% include info-slider.html %}
           </div>

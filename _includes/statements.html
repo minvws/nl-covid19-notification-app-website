@@ -40,7 +40,6 @@
             </div>
             <div class="timeline">
               {% if statement.timeline.completed.size > 0 %}
-                <h3 class="completed">{{ site.data.translations.completed[page.lang] }}</h3>
                 <ul class="completed">
                   {% for item in statement.timeline.completed %}
                     <li>{{ item }}</li>
@@ -48,7 +47,6 @@
                 </ul>
               {% endif %}
               {% if statement.timeline.working-on.size > 0 %}
-                <h3 class="working-on">{{ site.data.translations.working-on[page.lang] }}</h3>
                 <ul class="working-on">
                   {% for item in statement.timeline.working-on %}
                     <li>{{ item }}</li>
@@ -70,6 +68,7 @@
           </button>
         </div>
       </div>
+      {% comment %}
       <!-- TODO: This is a feature that will not be implemented in the first version
       <div class="respond">
         <a href="#">{{ site.data.translations.respond[page.lang] }}</a>
@@ -82,11 +81,14 @@
           <li><a href="#" class="icon-linkedin">{{ site.data.translations.share-on-linkedin[page.lang] }}</a></li>
         </ul>
       </div> -->
+      {% endcomment %}
     </article>
   {% endfor %}
   </div>
+  {% comment %}
   <!-- TODO: not available in first version
     <ul><li><a href="{{ site.data.translations.principles-href[page.lang] }}">{{ site.data.translations.principles[page.lang] }}</a></li></ul> 
   -->
+  {% endcomment %}
 </div>
 <script type="text/javascript">{% include statements.js %}</script>

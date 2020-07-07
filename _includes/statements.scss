@@ -81,14 +81,14 @@
     right: 0;
     left: 0;
     width: 100%;
-    padding: 0.5rem 0.5em 0.5em 100px;
+    padding: 0.5rem 0.5em 0.5em 0.5em;
     margin: 0;
     color: $color-RO_donkerblauw--interaction;
     background: transparent;
     border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
     font-size: 1.1em;
     font-family: inherit;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     transition: var(--transition-in);
 

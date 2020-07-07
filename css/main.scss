@@ -31,7 +31,7 @@ $color-WARN_rood: #CA005D;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: -4px;
+    outline-offset: 8px;
     outline: 2px solid transparent;
 }
 
@@ -55,12 +55,13 @@ $color-WARN_rood: #CA005D;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'RO Serif';
-    src: url('../fonts/RO-SerifWeb-Regular.woff2') format('woff2'), url('../fonts/RO-SerifWeb-Regular.woff') format('woff');
-    font-weight: 400;
-    font-display: swap;
-}
+// Currently not in use...
+// @font-face {
+//     font-family: 'RO Serif';
+//     src: url('../fonts/RO-SerifWeb-Regular.woff2') format('woff2'), url('../fonts/RO-SerifWeb-Regular.woff') format('woff');
+//     font-weight: 400;
+//     font-display: swap;
+// }
 
 html {
     scroll-behavior: smooth;
@@ -525,6 +526,7 @@ header .watch > a:hover {
     left: 23px;
     z-index: 2;
 }
+
 .timeline > h3.completed::before,
 .timeline > h3.working-on::before {
     width: 34px;
@@ -543,7 +545,8 @@ header .watch > a:hover {
     border-left-style: solid;
     position: absolute;
     left: 31px;
-    height: 40px;
+    top: 2px;
+    bottom: 4px;
 }
 
 .timeline > h3.completed::after,
@@ -571,8 +574,8 @@ header .watch > a:hover {
 
 .timeline > ul.completed > li,
 .timeline > ul.working-on > li {
-    height: 2rem;
-    line-height: 1em;
+    line-height: 138%;
+    margin-bottom: 7px;
 }
 .timeline > ul.completed > li:last-child::after,
 .timeline > ul.working-on > li:last-child::after {

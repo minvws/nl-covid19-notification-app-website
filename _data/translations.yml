@@ -49,12 +49,6 @@ readless:
 readless--under:
   nl: onderaan
   en: onderaan
-completed:
-  nl: Afgerond
-  en: Completed
-working-on:
-  nl: Mee bezig
-  en: Working on
 respond:
   nl: Reageren op dit onderwerp?
   en: Respond to this subject?

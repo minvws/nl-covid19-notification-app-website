@@ -13,7 +13,7 @@
     }
 
     @media (min-width: 960px) {
-        padding: 26px 200px 20px 126px;
+        padding: 26px 200px 20px 200px;
     }
 }
 
@@ -84,6 +84,8 @@
         font-size: 14px;
         line-height: 18px;
         min-width: 100%;
+        border-collapse: separate;
+        border-spacing: 6px;
 
         tr {
             th, td {
@@ -99,6 +101,12 @@
             td {
                 border-bottom: 1px solid #333;
             }
+        }
+    }
+
+    details {
+        summary {
+            cursor: pointer;
         }
     }
 
