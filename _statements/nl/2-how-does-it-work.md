@@ -11,13 +11,15 @@ En geeft je advies hoe je niet iemand anders besmet.
 Daarmee bescherm je je familie, vrienden en de rest van Nederland.
 Zo kunnen we samen de verspreiding van het coronavirus stoppen.
   
-<Hier komt de video>  
- 
-- De app ziet via Bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
-- Hoe sterker het signaal, hoe dichterbij je was.
-- Dit gebeurt 100% anoniem: de app weet niet wie jij bent, wie de ander is of waar jullie zijn.
-- Als je in de buurt bent geweest van iemand met het corona virus en die de app heeft, krijg je later een melding van de app.
-- Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. De app weet niet wie je bent, dus niemand komt dat te weten.
+<!-- TODO: Hier komt de video   -->
+
+<div class="md-timeline" markdown="1">
+1. De app ziet via Bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
+2. Hoe sterker het signaal, hoe dichterbij je was.
+3. Dit gebeurt 100% anoniem: de app weet niet wie jij bent, wie de ander is of waar jullie zijn.
+4. Als je in de buurt bent geweest van iemand met het corona virus en die de app heeft, krijg je later een melding van de app.
+5. Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. De app weet niet wie je bent, dus niemand komt dat te weten.
+</div>
 
 <details>
    <summary>Wanneer krijg ik een melding?</summary>

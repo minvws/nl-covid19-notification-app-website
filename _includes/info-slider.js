@@ -32,7 +32,8 @@
 
     // WCAG SC 2.2.2: Pause, Stop, Hide
     // https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html
-    document.querySelector('.info-slider__btn-pause').addEventListener('click', function() {
-        mySwiper.autoplay.stop();
-    });
+    // TODO, also see html...
+    // document.querySelector('.info-slider__btn-pause').addEventListener('click', function() {
+    //     mySwiper.autoplay.stop();
+    // });
 })();

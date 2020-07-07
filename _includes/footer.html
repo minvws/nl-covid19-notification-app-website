@@ -29,7 +29,7 @@
     <div class="footer">
         <div class="footer__links">
             <div class="footer__links__col ___desktop-66">
-                <p class="footer-logos-info">{{ site.data.translations.footer-logos-info[page.lang] }}</p>
+                <div class="footer-logos-info">{{ site.data.translations.footer-logos-info_md[page.lang] | markdownify }}</div>
                 <div class="footer-logos">
                     <a href="{{ site.data.translations.footer-logos-minvws-url }}">
                         <img src="{{ relroot }}img/logo-VWS.svg" alt="{{ site.data.translations.footer-logos-minvws-img-alt[page.lang] }}" />

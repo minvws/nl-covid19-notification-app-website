@@ -31,7 +31,7 @@
 .faq > h2 {
     font-size: 32px;
     line-height: 40px;
-    color: #000;
+    color: #333;
     margin-top: -6px; // Compensate for line-height
     margin-bottom: 17px;
 
@@ -80,7 +80,7 @@
             &.tabbable-tab--active {
                 border-left: 2px solid #1F529B;
                 padding-left: 8px;
-                color: #000000;
+                color: #333;
                 transition: var(--transition-in);
                 font-weight: 600;
             }
@@ -131,7 +131,7 @@
     font-weight: 600;
     color: $color-RO_donkerblauw;
     font-size: 18px;
-    margin-top: 17px;
+    margin-top: 27px;
     margin-bottom: 6px;
     line-height: 20px;
     
@@ -222,8 +222,12 @@
     color: #154273 /* RO blauw */;
 }
 
+.faq details[open] summary {
+    padding-bottom: 4px;
+}
+
 .faq details summary > h4 {
-    padding: 0 40px 0 18px;
+    padding: 0 45px 0 18px;
     font-weight: normal;
     font-size: 18px;
 }
@@ -234,7 +238,7 @@
     @media (min-width: 740px) {
         padding-top: 5px;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 45px;
         font-size: 1.625rem;
         line-height: 1.6875rem;
     }
@@ -272,8 +276,9 @@
     background: #fff;
     padding: 0.5rem 1rem;
     display: inline-block;
-    margin: 20px 20px 0 0;
-    font-size: inherit;
+    margin: 11px 10px 0 0;
+    font-size: 16px;
+    font-family: inherit;
 }
 
 .feedback button:hover {

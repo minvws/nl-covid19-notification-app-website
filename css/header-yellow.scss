@@ -68,7 +68,7 @@
 
     @media (min-width: 960px) {
         padding: 0 0 5em 2.6em;
-        margin-right: 400px;
+        margin-right: 424px;
     }
     
     h1 {
@@ -82,12 +82,13 @@
     }
         
     h2 {
-        margin: 0.38em 0 1.62em 0;
+        margin: 0.38em 0 2.3em 0;
         font-size: 1.38em;
         line-height: 1.2em;
         font-weight: 400;
 
         @media (min-width: 680px) {
+            margin-bottom: 1.62em;
             font-size: 2em;
         }
     }

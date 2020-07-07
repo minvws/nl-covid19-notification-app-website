@@ -22,6 +22,7 @@
         transition: var(--transition-out--fast);
         background: transparent;
         border: 0;
+        z-index: 3;
 
         &:hover {
             transform: scale(1.2);
@@ -35,7 +36,7 @@
 
         &:focus {
             outline: 0;
-            background: rgba($color-RO_donkerblauw--interaction, 0.2);
+            background: rgba($color-RO_donkerblauw--interaction, 0.1);
         }
 
         @media (min-width: 740px) {
@@ -65,6 +66,7 @@
         @media (min-width: 960px) {
             bottom: 6px;
             position: absolute;
+            z-index: 2;
             width: 100%;
         }
     }
@@ -173,6 +175,15 @@
 
         .md-highlight {
             color: $color-WARN_rood;
+        }
+
+        u {
+            // TODO
+            text-decoration: none;
+            background: rgb(194, 237, 241);
+            padding: 2px 3px;
+            border-radius: 3px;
+            color: #000;
         }
     }
 

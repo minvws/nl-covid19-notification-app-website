@@ -66,6 +66,7 @@ $color-WARN_rood: #CA005D;
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: scroll;
 
     &.html-no-scroll {
         overflow: hidden;
@@ -563,7 +564,8 @@ header .watch > a:hover {
 .timeline > h3.completed::after,
 .timeline > ul.completed > li::before,
 .timeline > ul.completed > li::after {
-   border-color: #64C62A /* lichtgroen */;
+    border-color: #36870D;
+    // Community 
 }
 .timeline > h3.working-on::before,
 .timeline > h3.working-on::after,

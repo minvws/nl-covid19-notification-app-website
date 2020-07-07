@@ -2,7 +2,7 @@
 .content-center {
     margin-top: -26px;
     background: #fff;
-    border-radius: 0 26px 26px 0;
+    border-radius: 26px 26px 0 0;
     padding: 20px 20px;
     max-width: 1100px;
 
@@ -67,7 +67,14 @@
 
     ul {
         margin-bottom: 10px;
-        margin-left: 17px;
+        margin-left: 0.9em;
+        list-style-type: disc;
+
+        ul {
+            margin-top: 4px;
+            margin-bottom: 0;
+            margin-left: 1.1em;
+        }
     }
 
     ol {
@@ -104,10 +111,85 @@
         }
     }
 
+    .md-timeline {
+        ul,
+        ol {
+            position: relative;
+            list-style: none;
+            margin-left: 0;
+
+            li {
+                position: relative;
+                padding-left: 33px;
+                padding-bottom: 6px;
+
+                // Round item
+                &::before {
+                    content: '';
+                    width: 20px;
+                    height: 20px;
+                    background: #FFFFFF;
+                    border-width: 4px;
+                    border-style: solid;
+                    border-radius: 50%;
+                    position: absolute;
+                    box-sizing: border-box;
+                    left: 0;
+                    top: 1px;
+                    z-index: 2;
+                    border-color: #36870D;
+                }
+
+                // Line
+                &::after {
+                    border-color: #36870D;
+                    content: '';
+                    border-left-width: 4px;
+                    border-left-style: solid;
+                    position: absolute;
+                    left: 8px;
+                    top: 3px;
+                    bottom: -6px;
+                }
+
+                &:last-child::after {
+                    height: 0;
+                }
+            }
+        }
+    }
+
     details {
+        border-top: $color-RO_donkerblauw--interaction 1px solid;
+        border-bottom: $color-RO_donkerblauw--interaction 1px solid;
+        margin: 14px 0;
+
+        + details {
+            margin-top: -14px;
+            border-top: 0;
+        }
+
         summary {
             cursor: pointer;
+            color: $color-RO_donkerblauw--interaction;
+            padding: 8px 0;
+            
+            &:hover {
+                background: $color-RO_lichtblauw;
+            }
         }
+
+        &[open] summary {
+            padding-bottom: 0;
+            margin-bottom: -4px;
+            font-weight: bold;
+
+            &:hover {
+                background: transparent;
+            }
+        }
+
+        
     }
 
     .md-info-grey {

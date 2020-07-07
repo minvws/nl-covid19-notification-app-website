@@ -8,7 +8,7 @@ header-title:
   nl: Het coronavirus onder<br> controle met [Naam app]
   en: Grip on Covid-19<br> with the [Naam app] app
 header-subtitle:
-  nl: Alleen samen kunnen we er voor zorgen dat<br> we nieuwe besmettingen voorkomen
+  nl: Alleen samen kunnen we er voor zorgen dat we nieuwe besmettingen voorkomen
   en: Only together we will<br> ensure fewer infections
 header-language-picker-label:
   nl: Huidige taal
@@ -198,8 +198,8 @@ footer-follow-instagram:
   nl: Volg ons op Instagram
   en: Follow us on Instagram
 
-footer-logos-info:
-  nl: De corona-app wordt ontwikkeld in opdracht van het ministerie van VWS. Dat gebeurt in samenwerking met het RIVM en de GGD.
+footer-logos-info_md:
+  nl: De corona-app wordt ontwikkeld in opdracht van het Ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
   en: ''
 
 footer-more-info-title:
