@@ -110,9 +110,16 @@
     }
 
     .md-block-lead {
-        margin: 40px 0 40px;
+        margin: 20px 0 40px;
         font-size: 22px;
         line-height: 126%;
+
+        p {
+            margin-bottom: 26px;
+        }
+    }
+
+    .md-text-color-RO-donkerblauw {
         color: $color-RO_donkerblauw;
     }
 

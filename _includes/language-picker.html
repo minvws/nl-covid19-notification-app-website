@@ -1,9 +1,9 @@
 <nav class="language-picker" aria-labelledby="language-picker-title">
-  <p>
+  <p class="language-picker__current">
     {{ site.data.translations.header-language-picker-label[page.lang] }}:
     <strong>{{ site.data.languages[page.lang].label }}</strong>
   </p>
-  <h3 id="language-picker-title">
+  <h3 id="language-picker-title" class="screen-reader-text">
     {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}:
   </h3>
   <ul class="languages">

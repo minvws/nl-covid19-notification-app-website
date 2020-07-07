@@ -5,10 +5,12 @@
   <div class="badge"><span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}</div>
   <div class="logobar">
     <div class="logo">
-      <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}" aria-hidden="true">
-      <!-- TODO: <span class="wordmark">
+      <a href="{{ relroot }}">
+        <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
+      </a>
+      {% comment %}<!-- TODO: <span class="wordmark">
         <span class="sender">{{ site.data.translations.minvws[page.lang] }}</span>
-      </span> -->
+      </span> -->{% endcomment %}
     </div>
   </div>
   <div class="header-yellow">
@@ -22,7 +24,7 @@
         </h1>
         <h2 class="subtitle">{{ site.data.translations.header-subtitle[page.lang] }}</h2>
       </div>
-      <!-- TODO <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->
+      {% comment %}<!-- TODO <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->{% endcomment %}
     </div>
   </div>
 </header>

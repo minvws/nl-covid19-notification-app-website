@@ -14,6 +14,8 @@ Breakpoints:
 
 $color-RO_donkerblauw: #154273 /* RO blauw */;
 
+$color-RO_donkerblauw--interaction: #002783;
+
 $color-RO_lichtblauw: #EFF7F9;
 
 $color-WARN_rood: #CA005D;
@@ -29,11 +31,14 @@ $color-WARN_rood: #CA005D;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: -4px;
+    outline: 2px solid transparent;
 }
 
 *:focus {
-    outline: 2px dotted currentColor;
+    outline: 2px solid #008fcd;
     outline-offset: 4px;
+    transition: 100ms ease-out;
 }
 
 @font-face {
@@ -97,7 +102,7 @@ body {
 }
 
 a, a:visited {
-    color: #154273 /* RO blauw */;
+    color: $color-RO_donkerblauw--interaction;
     text-decoration: none;
 }
 
@@ -176,6 +181,12 @@ a:hover {
     @media (min-width: 960px) {
         padding-bottom: 50px;
     }
+}
+
+.logo a {
+    display:block;
+    max-width: 50px;
+    margin: 0 auto;
 }
 
 .logo img {
@@ -278,21 +289,6 @@ header .watch > a:hover {
         margin: 0 0 0.7em;
         font-size: 2em;
         line-height: 1;
-    }
-
-    p {
-        margin: 0 0 1.2em;
-        font-size: 1.38em;
-        line-height: 1.38em;
-    }
-
-    ul {
-        margin: 0 0 1em;
-        font-size: 1.26em;
-
-        li {
-            margin-bottom: 0.3em;
-        }
     }
 }
 
@@ -623,18 +619,18 @@ header .watch > a:hover {
     line-height: 1.375rem;
 }
 
-.share > ul {
+ul.share {
     list-style: none;
     height: 40px;
     margin-bottom: 10px;
 }
 
-.share > ul > li {
+ul.share  > li {
     float: left;
     margin-right: 10px;
 }
 
-.share > ul > li > a {
+ul.share > li > a {
     display: block;
     width: 40px;
     height: 40px;
@@ -772,12 +768,6 @@ a.explainer > h2 {
     }
     .badge > .note {
         display: block;
-    }
-    .logobar > .logo {
-        padding-left: 0;
-    }
-    .logo .wordmark {
-        display: none;
     }
     header h1 {
         width: 100%;

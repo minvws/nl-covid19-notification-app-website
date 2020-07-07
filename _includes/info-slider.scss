@@ -18,7 +18,7 @@
     .swiper-button-next {
         top: 4.2rem;
         padding: 2rem;
-        --swiper-theme-color: #{$color-RO_donkerblauw};
+        --swiper-theme-color: #{$color-RO_donkerblauw--interaction};
         --swiper-navigation-size: 32px;
         transition: var(--transition-out--fast);
         background: transparent;
@@ -35,7 +35,7 @@
         }
 
         &:focus {
-            outline: 0;
+            outline-offset: -2px;
         }
 
         @media (min-width: 740px) {
@@ -92,7 +92,7 @@
         }
     
         &.swiper-pagination-bullet-active {
-            --swiper-theme-color: #{$color-RO_donkerblauw};
+            --swiper-theme-color: #{$color-RO_donkerblauw--interaction};
             transition: var(--transition-in);
         }
     }
@@ -102,7 +102,7 @@
     position: relative;
     margin: 0 -0.6rem;
     padding: 0.8em 1em 0 1em;
-    color: $color-RO_donkerblauw;
+    color: $color-RO_donkerblauw--interaction;
 
     @media (min-width: 740px) and (max-width: 959px) {
         display: flex;

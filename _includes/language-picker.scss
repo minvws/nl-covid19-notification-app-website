@@ -5,15 +5,25 @@
     color: #333;
     cursor: pointer;
 
-    &:hover {
-        background: #fff;
-    }
+    // &:hover {
+    //     background: #fff;
+    // }
 }
 
 .language--active {
     font-weight: bold;
 }
 
-.language-picker-title {
+.language-picker__current {
+    display: inline;
+}
 
+.languages {
+    margin: 0 0 0 4px;
+    display: inline;
+
+    li {
+        display: inline;
+        list-style: none;
+    }
 }

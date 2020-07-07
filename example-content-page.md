@@ -7,7 +7,7 @@ permalink: /en/example-content-page
 
 # H1 Paginatitel over drie regels zodat er veel tekst in past
 
-<p class="md-block-lead" markdown="1">
+<p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
     Block lead. Inleiding Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror **milibus** vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus
 </p>
 

@@ -69,7 +69,7 @@
         a {
             display: block;
             transition: var(--transition-out);
-            color: #154273 /* RO blauw */;
+            color: $color-RO_donkerblauw--interaction;
             display: block;
             margin-bottom: 19px;
             font-size: 18px;
@@ -94,7 +94,7 @@
 }
 
 .faq-layout__tab-panels__updates-will-follow {
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     font-size: 14px;
 }
 
@@ -159,6 +159,12 @@
     width: 100%;
     margin-bottom: 10px;
 
+    &:hover {
+        background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
+        border-color: $color-RO_donkerblauw--interaction;
+        transition: var(--transition-in);
+    }
+
     &:last-child {
         margin-bottom: 0;
     }
@@ -201,14 +207,9 @@
     display: none;
 }
 
-.faq details:hover {
-    background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
-    border-color: #002783 /* RO donker link2 */;
-    transition: var(--transition-in);
-}
-
 .faq details:hover summary {
     text-decoration: underline;
+    border-color: $color-RO_donkerblauw--interaction;
 }
 .faq details[open]:hover summary {
     text-decoration: none;
@@ -220,6 +221,7 @@
     cursor: pointer;
     color: #154273 /* RO blauw */;
 }
+
 .faq details summary > h4 {
     padding: 0 40px 0 18px;
     font-weight: normal;
@@ -267,9 +269,11 @@
     border-radius: 5px;
     font-weight: bold;
     color: #000000;
+    background: #fff;
     padding: 0.5rem 1rem;
     display: inline-block;
     margin: 20px 20px 0 0;
+    font-size: inherit;
 }
 
 .feedback button:hover {

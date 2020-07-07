@@ -3,11 +3,26 @@
         <a class="footer-samen__logo" href="{{ site.data.translations.footer-samen-logo-url }}">
             <img src="{{ relroot }}img/logo-alleen-samen.svg" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
         </a>
-        <p class="footer-samen__follow">
-            <a href="{{ site.data.translations.footer-social-instagram-url }}">
-                {{ site.data.translations.footer-samen-follow_md[page.lang] | markdownify | replace:'<p>','' | replace:'</p>','' }}
-            </a>
-        </p>
+        <div class="footer-samen__follow">
+            <p>{{ site.data.translations.footer-samen-follow[page.lang] }}</p>
+            <ul class="share">
+                <li>
+                    <a href="{{ site.data.translations.footer-follow-facebook-url }}" class="icon-facebook">
+                        {{ site.data.translations.footer-follow-facebook[page.lang] }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ site.data.translations.footer-follow-twitter-url }}" class="icon-twitter">
+                        {{ site.data.translations.footer-follow-twitter[page.lang] }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ site.data.translations.footer-follow-instagram-url }}" class="icon-instagram">
+                        {{ site.data.translations.footer-follow-instagram[page.lang] }}
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="footer">
         <div class="footer__links">

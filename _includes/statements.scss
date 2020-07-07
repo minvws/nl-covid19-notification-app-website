@@ -83,7 +83,7 @@
     width: 100%;
     padding: 0.5rem 0.5em 0.5em 100px;
     margin: 0;
-    color: $color-RO_donkerblauw;
+    color: $color-RO_donkerblauw--interaction;
     background: transparent;
     border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
     font-size: 1.1em;
@@ -105,8 +105,9 @@
 
     &:focus {
         color: #fff;
-        background-color: $color-RO_donkerblauw;
+        background-color: $color-RO_donkerblauw--interaction;
         transition: var(--transition-in--fast);
+        outline: 0;
     }
 
     > .icon {
@@ -130,7 +131,7 @@
         color: $color-WARN_rood;
 
         .statement-summary:hover & {
-            color: $color-RO_donkerblauw;
+            color: $color-RO_donkerblauw--interaction;
         }
     }
 }
@@ -199,7 +200,7 @@
     font-family: inherit;
     font-size: 18px;
     text-align: left;
-    outline-offset: 2px;
+    outline-offset: -2px;
 
     .icon {
         position: relative;

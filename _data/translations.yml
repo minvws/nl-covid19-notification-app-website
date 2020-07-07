@@ -23,8 +23,8 @@ development:
   nl: in ontwikkeling v0.7
   en: under development v0.7
 govlogo:
-  nl: Rijksoverheid logo
-  en: Government logo
+  nl: Rijksoverheid home
+  en: Government home
 minvws:
   nl: Ministerie van Volksgezondheid,<br>Welzijn en Sport
   en: Ministry of Health,<br>Welfare and Sport
@@ -141,6 +141,12 @@ layout-template-home:
 info-slider-btn-pause:
   nl: Pauzeer slider
   en: Pauzeer slider
+info-slider-btn-prev-slide:
+  nl: Vorige slide
+  en: Previous slide
+info-slider-btn-next-slide:
+  nl: Volgende slide
+  en: Next slide
 info-slides:
   nl:
     -
@@ -179,14 +185,25 @@ footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covi
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle
   en: Only together we can control corona
-footer-samen-follow-url: https://www.instagram.com/minvws/
-footer-samen-follow_md:
-  nl: Wil je meer<br> <span class="md-highlight"><u>www.instagram.com/minvws</u></span>
-  en: Want to know more<br/> <span class="md-highlight"><u>www.instagram.com/minvws</u></span>
+footer-samen-follow:
+  nl: Meer op social media
+  en: More on social media
+footer-follow-facebook-url: #todo
+footer-follow-facebook:
+  nl: Volg ons op Facebook
+  en: Follow us on Facebook
+footer-follow-twitter-url: #todo
+footer-follow-twitter:
+  nl: Volg ons op Twitter
+  en: Follow us on Twitter
+footer-follow-instagram-url: #todo
+footer-follow-instagram:
+  nl: Volg ons op Instagram
+  en: Follow us on Instagram
 
 footer-logos-info:
   nl: De corona-app wordt ontwikkeld in opdracht van het ministerie van VWS. Dat gebeurt in samenwerking met het RIVM en de GGD.
-  en: 
+  en: ''
 
 footer-more-info-title:
   nl: Meer informatie?
