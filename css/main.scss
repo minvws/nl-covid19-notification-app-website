@@ -352,6 +352,10 @@ header .watch > a:hover {
             background-size: 100%;
             background-position: center 23px;
             width: 600px;
+
+            .browser-ie-11 & {
+                right: -166px;
+            }
         }
     }
 }
