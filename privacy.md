@@ -2,6 +2,7 @@
 layout: content
 lang: nl
 showHomeBtn: true
+title: Privacy
 permalink: /privacy
 ---
 

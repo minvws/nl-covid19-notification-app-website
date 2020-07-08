@@ -2,6 +2,7 @@
 layout: content
 lang: nl
 showHomeBtn: true
+title: Cookies
 permalink: /cookies
 ---
 
