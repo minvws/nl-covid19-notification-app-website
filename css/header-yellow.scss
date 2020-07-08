@@ -80,6 +80,10 @@
         @media (min-width: 680px) {
             font-size: 3em;
         }
+        
+        @media (min-width: 960px) {
+            margin-right: 9rem; // TODO: Temporary
+        }
     }
         
     h2 {
