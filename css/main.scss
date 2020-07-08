@@ -92,6 +92,12 @@ body {
     }
 }
 
+abbr {
+    cursor: help;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);

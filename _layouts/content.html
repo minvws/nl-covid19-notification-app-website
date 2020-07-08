@@ -1,7 +1,10 @@
+{%- assign relroot = './' -%}
+{%- if page.lang != 'nl' -%}
+  {%- assign relroot = '../' -%}
+{%- endif -%}
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
-{%- assign relroot = '' -%}{%- if page.lang != 'nl' -%}{%- assign relroot = '../' -%}{%- endif -%}
-{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 <!--
   This website is generated at {{ site.time }}.
   The code is open source. You are welcome to contribute. Go to git: 
@@ -13,7 +16,7 @@
   <main class="content-center" id="content">
     {% if page.showHomeBtn %}
       <p class="content-center__home">
-        <a href="../">
+        <a href="{{ relroot }}">
           <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
         </a>
       </p>

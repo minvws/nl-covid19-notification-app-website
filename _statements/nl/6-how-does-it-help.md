@@ -19,9 +19,11 @@ We zien familie, vrienden en collega’s meer.
 Maar het coronavirus is nog niet weg.
 De corona-app helpt verdere besmettingen te verminderen.
 
+<div class="md-timeline" markdown="1">
 - Hoe meer mensen de corona-app gebruiken...
 - hoe sneller we al mensen bereiken die nog geen klachten hebben...
 - en stoppen we de verspreiding van het virus.
+</div>
 
 Zo krijgen we samen corona onder controle.
 

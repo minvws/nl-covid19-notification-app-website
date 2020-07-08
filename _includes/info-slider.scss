@@ -16,21 +16,23 @@
     .swiper-button-prev,
     .swiper-button-next {
         top: 4.2rem;
-        padding: 2rem;
+        padding: 20px 20px 20px 20px;
         --swiper-theme-color: #{$color-RO_donkerblauw--interaction};
         --swiper-navigation-size: 32px;
         transition: var(--transition-out--fast);
         background: transparent;
         border: 0;
         z-index: 3;
+        color: $color-RO_donkerblauw;
 
         &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
             transition: var(--transition-in--fast);
+            color: $color-RO_donkerblauw--interaction;
         }
 
         &:active {
-            transform: scale(1.1);
+            transform: scale(1.06);
             transition: var(--transition-out--fast);
         }
 
@@ -45,17 +47,39 @@
 
         @media (min-width: 960px) {
             top: auto;
-            bottom: 0px;
+            bottom: 12px;
             --swiper-navigation-size: 24px;
+
+            .browser-ie-11 & {
+                bottom: 2px;
+            }
+        }
+
+        &:after {
+            position: absolute;
+        }
+
+        .browser-ie-11 &:after {
+            position: relative;
+            content: '';
+            border-left: 2px solid currentColor;
+            border-top: 2px solid currentColor; 
+            width: 20px;
+            height: 20px;
+            transform: rotate(-45deg);
         }
     }
 
     .swiper-button-prev {
-        left: -0.2rem;
+        left: 10px;
     }
 
     .swiper-button-next {
-        right: -0.2rem;
+        right: 10px;
+
+        .browser-ie-11 &:after {
+            transform: rotate(135deg);
+        }
     }
 
     // Swipe.JS - Pagination
@@ -85,9 +109,9 @@
             display: block;
             position: absolute;
             top: -1rem;
-            right: -0.4rem;
+            right: -5px;
             bottom: -1rem;
-            left: -0.4rem;
+            left: -5px;
         }
 
         &:hover {
@@ -115,7 +139,6 @@
     }
 
     @media (min-width: 960px) {
-        padding: 1rem;
         border-radius: 0;
         margin: 0 0 0 0;
         padding: 0;

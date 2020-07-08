@@ -246,7 +246,7 @@
 
 /* FAQ Feedback */
 
-.faq .answer, .faq .feedback {
+.faq .answer {
     padding: 20px;
 
     @media (min-width: 740px) {
@@ -256,6 +256,7 @@
 
 .feedback {
     display: none;
+    margin-top: 20px;
 
     html.js-enabled & {
         display: block;
