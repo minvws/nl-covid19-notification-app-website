@@ -1,6 +1,6 @@
 ---
 set: 2-development
-index: 3
+index: 4
 title: Werkt de corona-app ook op mijn telefoon?
 lang: nl
 ---
