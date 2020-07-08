@@ -43,7 +43,7 @@
 
         &:focus {
             outline: 0;
-            background: rgba($color-RO_donkerblauw--interaction, 0.1);
+            background: $color-focus-background;
         }
 
         @media (min-width: 740px) {

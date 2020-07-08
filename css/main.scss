@@ -20,6 +20,9 @@ $color-RO_lichtblauw: #EFF7F9;
 
 $color-WARN_rood: #CA005D;
 
+$color-focus: #008fcd;
+$color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
+
 :root {
     --transition-in: 262ms ease;
     --transition-in--fast: 100ms ease;
@@ -35,8 +38,13 @@ $color-WARN_rood: #CA005D;
     outline: 2px solid transparent;
 }
 
+.browser-ie-11 * {
+    outline-offset: 0;
+    outline: 0;
+}
+
 *:focus {
-    outline: 2px solid #008fcd;
+    outline: 2px solid $color-focus;
     outline-offset: 4px;
     transition: 100ms ease-out;
 }

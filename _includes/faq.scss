@@ -158,6 +158,7 @@
     border-radius: 5px;
     width: 100%;
     margin-bottom: 10px;
+    overflow: hidden;
 
     &:hover {
         background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
@@ -180,15 +181,23 @@
     border-color: #FFFFFF;
 }
 
+.faq details summary:focus {
+    outline: 0; // See summary::after
+}
+
 .faq details summary::after {
     content: '';
     position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 50px;
-    width: 50px;
-    opacity: 0.3;
-    background: transparent url('../img/plus.svg') center center no-repeat;
+    top: 6px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    opacity: 0.62;
+    border-radius: 2px;
+    outline-offset: 8px;
+    outline: 2px solid transparent;
+    background: url('../img/plus.svg') center center no-repeat;
+    transition: var(--transition-out);
 }
 
 .faq details summary::before {
@@ -199,7 +208,22 @@
     opacity: 1;
     background-image: url('../img/minus.svg');
 }
-.faq details:hover summary::after {
+
+.faq details summary:hover::after {
+    opacity: 1;
+    background-color: $color-focus-background;
+}
+
+.faq details summary:focus::after {
+    opacity: 1;
+    background-color: $color-focus-background;
+    transition: var(--transition-in);
+    outline: 2px solid $color-focus;
+    outline-offset: -2px;
+}
+
+.faq details:hover summary::after,
+.faq details:focus summary::after {
     opacity: 1;
 }
 
@@ -207,11 +231,13 @@
     display: none;
 }
 
-.faq details:hover summary {
+.faq details:hover summary,
+.faq details summary:focus {
     text-decoration: underline;
     border-color: $color-RO_donkerblauw--interaction;
 }
-.faq details[open]:hover summary {
+.faq details[open]:hover summary,
+.faq details[open] summary:focus {
     text-decoration: none;
 }
 
@@ -220,6 +246,11 @@
     list-style-type: none;
     cursor: pointer;
     color: #154273 /* RO blauw */;
+
+    &:hover {
+        user-select: none; // This is to prevent a double click selecting all text.
+        // Normal text selection will be minimally   affected in the text flow.
+    }
 }
 
 .faq details[open] summary {
@@ -290,7 +321,18 @@
 }
 
 .feedback__answered {
+    background: $color-RO_lichtblauw;
+    border-radius: 5px;
+    padding: 11px 16px;
 
+    &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px $color-focus;
+    }
+
+    h5 {
+        margin: 0 0 6px 0;
+    }
 }
 
 .feedback__question--hide {
