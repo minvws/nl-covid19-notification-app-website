@@ -1,7 +1,6 @@
 ---
-set: 1-top5 # todo
+set: 2-development
 index: 1
-group: Algemeen
 title: Waarom is de app nodig?
 lang: nl
 ---
