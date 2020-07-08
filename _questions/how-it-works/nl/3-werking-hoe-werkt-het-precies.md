@@ -1,6 +1,6 @@
 ---
 set: 2-development
-index: 2
+index: 3
 title: Hoe werkt de app precies?
 lang: nl
 ---
