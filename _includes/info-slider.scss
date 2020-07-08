@@ -3,19 +3,24 @@
     border-radius: 0.6em;
     overflow: hidden;
 
+    .swiper-container {
+        padding: 0 0 50px 0; // Swiper pagination
+    }
+
     @media (min-width: 960px) {
         border-radius: 0;
         min-height: 463px;
 
         .swiper-container {
             height: 463px;
+            padding-bottom: 0;
         }
     }
 
     // Swipe.JS - Next / prev button
     .swiper-button-prev,
     .swiper-button-next {
-        top: 4.2rem;
+        top: 77px;
         padding: 20px 20px 20px 20px;
         --swiper-theme-color: #{$color-RO_donkerblauw--interaction};
         --swiper-navigation-size: 32px;
@@ -84,8 +89,10 @@
 
     // Swipe.JS - Pagination
     .swiper-container-horizontal .swiper-pagination-bullets {
-        position: static;
-        margin-top: -3px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
 
         @media (min-width: 960px) {
             bottom: 6px;
