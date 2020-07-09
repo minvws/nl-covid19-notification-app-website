@@ -227,11 +227,17 @@ footer-misc-disclaimer-url: ./disclaimer
 footer-misc-disclaimer:
   nl: Disclaimer
   en: Disclaimer
+footer-misc-report-vulnerability-url: 
+  nl: ./kwetsbaarheid-melden
+  en: ./kwetsbaarheid-melden
+footer-misc-report-vulnerability:
+  nl: Kwetsbaarheid melden
+  en: Report vulnerability
 footer-misc-cookies-url: ./cookies
 footer-misc-cookies:
   nl: Cookies
   en: Cookies
-footer-misc-colofon-url: colofon
+footer-misc-colofon-url: ./colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon

@@ -64,8 +64,12 @@
             -
             -->
             {% endcomment %}
-            <a href="{{ site.data.translations.footer-misc-cookies-url }}">
+            <a href="{{ site.data.translations.footer-misc-cookies-url[page.lang] }}">
                 {{ site.data.translations.footer-misc-cookies[page.lang] }}
+            </a>
+            - 
+            <a href="{{ site.data.translations.footer-misc-report-vulnerability-url }}">
+                {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
             </a>
         </div>
     </div>
