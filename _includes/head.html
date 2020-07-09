@@ -13,11 +13,19 @@
     <script src="{{ relroot }}js/piwik.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
     <script src="{{ relroot }}js/stats.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
     
+    <meta name="description" content="{{ site.data.translations.head-social-og-description[page.lang]}}">
+
     <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name[page.lang] }}">
     <meta property="og:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
-    <meta name="description" content="{{ site.data.translations.head-social-og-description[page.lang]}}">
     <meta property="og:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}"/>
     <meta property="og:image" itemprop="image" content="{{ relroot }}{{ site.data.translations.head-social-og-image-url[page.lang]}}">
     <meta property="og:type" content="website" />
-    {% comment %} TODO: <meta property="og:updated_time" content="123seconds" />{% endcomment %}
+
+    <meta name="twitter:card" content="summary" />
+    {% comment %}<!-- TODO: <meta name="twitter:site" content="@flickr" /> -->{% endcomment %}
+    <meta name="twitter:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
+    <meta name="twitter:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}" />
+    <meta name="twitter:image" content="{{ relroot }}{{ site.data.translations.head-social-og-image-url[page.lang]}}" />
+
+    {% comment %}<!-- TODO: <meta property="og:updated_time" content="123seconds" /> -->{% endcomment %}
 </head>
