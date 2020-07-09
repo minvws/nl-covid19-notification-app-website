@@ -1,3 +1,17 @@
+head-social-og-site_name:
+  nl: De CoronaMelder app is in ontwikkeling
+  en: TBD
+head-social-og-title:
+  nl: De CoronaMelder app is in ontwikkeling
+  en: TBD
+head-social-og-description:
+  nl: We krijgen het coronavirus steeds meer onder controle, maar het is er nog altijd. Dus is het belangrijk om alert te blijven. Daarom is er een app in ontwikkeling.
+  en: TBD
+head-social-og-image-url:
+  # Relative url e.g.: img/social.png
+  nl: img/head-social-og-image--nl.png
+  en: img/head-social-og-image--nl.png
+
 page-title:
   nl: De CoronaMelder app is in ontwikkeling
   en: Grip on Covid-19
