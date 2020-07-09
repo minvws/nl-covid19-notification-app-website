@@ -250,6 +250,12 @@ footer-misc-report-vulnerability-url:
 footer-misc-report-vulnerability:
   nl: Kwetsbaarheid melden
   en: Report vulnerability
+footer-misc-contact-url: 
+  nl: ./contact
+  en: ./contact
+footer-misc-contact:
+  nl: Contact
+  en: Contact
 footer-misc-cookies-url: ./cookies
 footer-misc-cookies:
   nl: Cookies
