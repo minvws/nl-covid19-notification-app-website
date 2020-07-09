@@ -140,7 +140,7 @@ send-question:
   nl: Verstuur vraag
   en: Send question
 description:
-  nl: Website om de status van de COVID-19 notificatie app te volgen
+  nl: Website om de status van de CoronaMelder app te volgen
   en: Website to follow the status of the COVID-19 notification app
 differentlanguage:
   nl: Lees in andere taal
@@ -215,7 +215,7 @@ footer-follow-instagram:
   en: Follow us on Instagram
 
 footer-logos-info_md:
-  nl: De corona-app wordt ontwikkeld in opdracht van het Ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
+  nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
   en: ''
 
 footer-more-info-title:
@@ -228,7 +228,7 @@ footer-more-info:
 
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
-  nl: Logo Ministerie van Volksgezondheid, Welzijn en Sport
+  nl: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
 footer-logos-rivm-url: https://www.rivm.nl/
 footer-logos-rivm-img-alt: 
   nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
