@@ -8,7 +8,7 @@ permalink: /toegankelijkheidsverklaring
 
 # Toegankelijkheidsverklaring
 
-Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden.
+Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden.
 
 ## Wat is een toegankelijke website?
 
