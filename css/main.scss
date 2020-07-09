@@ -339,18 +339,7 @@ header .watch > a:hover {
             z-index: 1;
         }
 
-        &:after {
-            content: '';
-            position: absolute;
-            display: block;
-            top: -80px;
-            right: -21px;
-            bottom: 120px;
-            left: -21px;
-            border-radius: 50px;
-            box-shadow: 0 10px 26px rgba(0,0,0,0.26);
-        }
-
+        // Graphic with circles
         &:before {
             content: '';
             position: absolute;
@@ -368,6 +357,19 @@ header .watch > a:hover {
             .browser-ie-11 & {
                 right: -166px;
             }
+        }
+
+        // Shadow under phone image
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            top: -80px;
+            right: -19px;
+            bottom: 120px;
+            left: -19px;
+            border-radius: 50px;
+            box-shadow: 0 10px 26px rgba(0,0,0,0.26);
         }
     }
 }
