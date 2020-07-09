@@ -28,21 +28,21 @@ Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijk
 ### Carrousel 
 -	De carrousel (slider) loopt automatisch door
 -	**gevolg**: Als er meer tijd nodig is om de teksten in de carrousel te lezen kan deze niet gepauzeerd worden 
--	**alternatief**: NVT 
+-	**alternatief**: Niet van toepassing
 -	**maatregel**: pauze mogelijkheid toevoegen
 -	**planning**: voor 31-08-2020
 
 ### Carrousel bullets
 -	Contrast opsomming nalopen
 -	**gevolg**: Het kan zijn dat door het contrast de opsomming minder goed leesbaar is 
--	**alternatief**: NVT 
+-	**alternatief**: Niet van toepassing
 -	**maatregel**: contrast aanpassen
 -	**planning**: voor 31-08-2020
 
 ### Talen
 -	De CoronaMelder app wordt nog getest, indien op termijn de app voor iedereen beschikbaar is, wordt deze site ook beschikbaar in meerdere talen.
 -	**gevolg**: De site is nu alleen beschikbaar in de Nederlandse taal. 
--	**alternatief**: NVT 
+-	**alternatief**: Niet van toepassing
 -	**maatregel**: Website in meerdere talen aanbieden indien de CoronaMelder app wordt ingevoerd.    
 -	**planning**: voor lancering Coronamelder app
 
