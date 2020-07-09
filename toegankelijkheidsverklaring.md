@@ -8,7 +8,7 @@ permalink: /toegankelijkheidsverklaring
 
 # Toegankelijkheidsverklaring
 
-Het ministerie van Volksgezondheid, welzijn en sport, wil dat iedereen deze website kan gebruiken. Kom je toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden.
+Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden.
 
 ## Wat is een toegankelijke website?
 
@@ -49,5 +49,7 @@ Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijk
 ## Problemen met toegankelijkheid melden
 
 Heeft u vragen of opmerkingen? Of wilt u een pagina gebruiken die niet toegankelijk is? Dan kunt u [contact opnemen](https://www.ordz.nl/contact).
+
+Coronamelder.nl wordt geregeld bijgewerkt, dit betekent dat dit item binnen de toegankelijkheidsverklaring ook wordt aangevuld met extra onderwerpen die binnen deze website geconstateerd worden.
 
 
