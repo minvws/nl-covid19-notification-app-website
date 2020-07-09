@@ -264,3 +264,10 @@ footer-misc-colofon-url: ./colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
+
+footer-misc-accessibility-statement-url:
+  nl: ./toegankelijkheidsverklaring
+  en: ./toegankelijkheidsverklaring
+footer-misc-accessibility-statement:
+  nl: Toegankelijkheidsverklaring
+  en: Accessibility statement
