@@ -150,14 +150,13 @@ info-slides:
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
-        [Naam app] waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
+        De app waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
         Zo kunnen we samen de verspreiding stoppen.
     -
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
-        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. 
-        Deze persoon moet ook de app gebruiken.
+        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
     -
       image: graphic-app-bluetooth
       title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
@@ -169,7 +168,7 @@ info-slides:
       image: graphic-bicycle
       title: <span class="md-highlight">Voorbeeld</span><br> Fietste iemand voorbij? Dan krijg je later geen melding
       content: |
-        Het Bluetooth-signaal was door de afstand te zwak en jullie waren maar kort bij elkaar in de buurt.
+        Het Bluetooth-signaal was sterk genoeg omdat jullie dicht bij elkaar waren. Dit duurde alleen zo kort dat de kans op besmetting heel laag is.
     -
       image: graphic-train
       title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
