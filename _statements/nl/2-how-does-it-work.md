@@ -2,11 +2,11 @@
 index: 2
 title: Hoe werkt de app?
 icon: app-touch
-summary: De app stuurt je een bericht als je in de buurt bent geweest van iemand die besmet is met het coronavirus.
+summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 lang: nl
 ---
 
-De app stuurt je een bericht als je in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt. 
+De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt. 
   
 <!-- TODO: Hier komt de video   -->
 
