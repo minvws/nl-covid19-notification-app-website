@@ -8,6 +8,8 @@ permalink: /toegankelijkheidsverklaring
 
 # Toegankelijkheidsverklaring
 
+Datum toegankelijkheidsverklaring 10-07-2020
+
 Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden.
 
 ## Wat is een toegankelijke website?
@@ -48,7 +50,7 @@ Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijk
 
 ## Problemen met toegankelijkheid melden
 
-Heeft u vragen of opmerkingen? Of wilt u een pagina gebruiken die niet toegankelijk is? Dan kunt u [contact opnemen](https://www.ordz.nl/contact).
+Heeft u vragen of opmerkingen? Of wilt u een pagina gebruiken die niet toegankelijk is? Dan kunt u contact opnemen via het e-mailadres liaison@minvws.nl
 
 Coronamelder.nl wordt geregeld bijgewerkt, dit betekent dat dit item binnen de toegankelijkheidsverklaring ook wordt aangevuld met extra onderwerpen die binnen deze website geconstateerd worden.
 
