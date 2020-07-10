@@ -329,16 +329,17 @@ header .watch > a:hover {
         min-height: 670px;
         // Position depends on .header-yellow
 
-        > img { // TODO: temporary
+        > img {
             position: absolute;
-            top: -90px;
-            right: -38px;
+            top: -80px;
+            right: -22px;
             display: block;
-            width: 338px;
+            width: 309px;
             height: auto;
             z-index: 1;
         }
 
+        // Graphic with circles
         &:before {
             content: '';
             position: absolute;
@@ -356,6 +357,19 @@ header .watch > a:hover {
             .browser-ie-11 & {
                 right: -166px;
             }
+        }
+
+        // Shadow under phone image
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            top: -80px;
+            right: -19px;
+            bottom: 120px;
+            left: -19px;
+            border-radius: 50px;
+            box-shadow: 0 10px 26px rgba(0,0,0,0.26);
         }
     }
 }

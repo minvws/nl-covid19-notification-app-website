@@ -1,7 +1,7 @@
 ---
 set: 2-development
-index: 4
-title: Loopt de batterij van mijn telefoon snel leeg door de corona-app?
+index: 5
+title: Loopt de batterij van mijn telefoon snel leeg door de CoronaMelder app?
 lang: nl
 ---
 

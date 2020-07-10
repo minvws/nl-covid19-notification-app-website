@@ -76,12 +76,16 @@
     @media (min-width: 740px) {
         margin-right: 1.6em;
         margin-left: 1.6em;
-        padding: 2em 1em 0.4em 1em;
+        padding: 2em 1em calc(1.4em + 24px) 1em;
     }
     
     @media (min-width: 960px) {
-        padding: 1em 3em 1em 3em;
+        padding: 1em 3em calc(1.4em + 24px) 3em;
         margin: 4.8em auto 0 auto;
+    }
+    
+    @media (min-width: 1200px) {
+        padding-bottom: 0.4em;
     }
     
     &:after {

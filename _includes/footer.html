@@ -67,9 +67,32 @@
             <a href="{{ site.data.translations.footer-misc-cookies-url }}">
                 {{ site.data.translations.footer-misc-cookies[page.lang] }}
             </a>
+            - 
+            <a href="{{ site.data.translations.footer-misc-accessibility-statement-url[page.lang] }}">
+                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}
+            </a>
+            - 
+            {% comment %}
+            <!-- 
+            <a href="{{ site.data.translations.footer-misc-contact-url[page.lang] }}">
+                {{ site.data.translations.footer-misc-contact[page.lang] }}
+            </a>
+            - 
+            -->
+            {% endcomment %}
+            <a href="{{ site.data.translations.footer-misc-about-corona-url[page.lang] }}">
+                {{ site.data.translations.footer-misc-about-corona[page.lang] }}
+            </a>
+            - 
+            <a href="{{ site.data.translations.footer-misc-report-vulnerability-url[page.lang] }}">
+                {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
+            </a>
         </div>
     </div>
 </footer>
 
-<script type="text/javascript">{% include generic.js %}</script>
-<script src="{{ relroot }}js/vendors/details-element-polyfill.2.4.0.js" crossorigin="anonymous" async></script>
+<script type="text/javascript" src="{{ relroot }}js/generic.js?v={{ timeslug }}"></script>
+<script type="text/javascript" src="{{ relroot }}js/info-slider.js?v={{ timeslug }}"></script>
+<script type="text/javascript" src="{{ relroot }}js/statements.js?v={{ timeslug }}"></script>
+<script type="text/javascript" src="{{ relroot }}js/faq-tabbable.js?v={{ timeslug }}"></script>
+<script type="text/javascript" src="{{ relroot }}js/vendors/details-element-polyfill.2.4.0.js" crossorigin="anonymous" async></script>
