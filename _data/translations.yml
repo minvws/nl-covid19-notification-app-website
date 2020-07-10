@@ -256,6 +256,12 @@ footer-misc-contact-url:
 footer-misc-contact:
   nl: Contact
   en: Contact
+footer-misc-about-corona-url: 
+  nl: ./over-corona
+  en: TBD
+footer-misc-about-corona:
+  nl: Over Corona
+  en: TBD
 footer-misc-cookies-url: ./cookies
 footer-misc-cookies:
   nl: Cookies
