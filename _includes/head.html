@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
-    <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    {% comment %}<!-- <link rel="preload" href="{{ relroot }}fonts/RO-SerifWeb-Regular.woff2" as="font" type="font/woff2" crossorigin> -->{% endcomment %}
-    <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextregular.woff" as="font" type="font/woff" crossorigin>
+    {% comment %}<!-- <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextitalic.woff" as="font" type="font/woff" crossorigin> -->{% endcomment %}
+    <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextbold.woff" as="font" type="font/woff" crossorigin>
     <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.css" crossorigin="anonymous">
     <script src="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.js" crossorigin="anonymous"></script>
@@ -19,6 +19,7 @@
     <meta property="og:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
     <meta property="og:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}"/>
     <meta property="og:image" itemprop="image" content="{{ relroot }}{{ site.data.translations.head-social-og-image-url[page.lang]}}">
+    <meta property="og:updated_time" content="{{ site.time | date: "%s" }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary" />
@@ -27,6 +28,4 @@
     <meta name="twitter:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}" />
     <meta name="twitter:image" content="https://coronamelder.nl/{{ site.data.translations.head-social-og-image-url[page.lang]}}" />
     <meta name="twitter:image:alt" content="https://coronamelder.nl/{{ site.data.translations.head-social-og-image-alt[page.lang]}}" />
-
-    {% comment %}<!-- TODO: <meta property="og:updated_time" content="123seconds" /> -->{% endcomment %}
 </head>
