@@ -1,8 +1,6 @@
 (function() {
     var lang = document.documentElement.lang;
     
-    // TODO: Carrousel
-
     // Statement: go to git /_layouts/statements.js
 
     // Accordion

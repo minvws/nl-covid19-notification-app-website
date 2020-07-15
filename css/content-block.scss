@@ -203,17 +203,17 @@
 
     .md-block-lead {
         margin: 20px 0 40px;
-        font-size: 20px; // TODO: Temporary for the announcement message
-        line-height: 142%; // TODO: Temporary for the announcement message
+        font-size: 20px;
+        line-height: 142%;
 
         p {
             margin-bottom: 26px;
         }
 
         @media (min-width: 960px) {
-            margin: -13px 50px 40px 0px; // TODO: Temporary for the announcement message
-            font-size: 26px; // TODO: Temporary for the announcement message
-            line-height: 142%; // TODO: Temporary for the announcement message
+            margin: -13px 50px 40px 0px;
+            font-size: 26px;
+            line-height: 142%;
         }
     }
 

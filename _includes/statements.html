@@ -10,9 +10,6 @@
         </div>
         <div class="statement__content">
           <h2>{{ statement.title }}</h2>
-          <!-- TODO: timeline progress, may note be used for first version
-            <span><strong>{{ statement.timeline.completed.size }} {{ site.data.translations.x-of-y[page.lang] }} {{ statement.timeline.completed.size | plus: statement.timeline.working-on.size }}</strong> </span>
-          -->
           <p>{{ statement.summary }}</p>
         </div>
         <button type="button" class="statement-summary__btn-expand" data-js-btn-open-statement="{{ forloop.index }}">
@@ -68,26 +65,7 @@
           </button>
         </div>
       </div>
-      {% comment %}
-      <!-- TODO: This is a feature that will not be implemented in the first version
-      <div class="respond">
-        <a href="#">{{ site.data.translations.respond[page.lang] }}</a>
-      </div> -->
-      <!-- TODO: not available yet in first version <div class="share">
-        <h4>{{ site.data.translations.share[page.lang] }}</h4>
-        <ul>
-          <li><a href="#" class="icon-twitter">{{ site.data.translations.share-on-twitter[page.lang] }}</a></li>
-          <li><a href="#" class="icon-facebook">{{ site.data.translations.share-on-facebook[page.lang] }}</a></li>
-          <li><a href="#" class="icon-linkedin">{{ site.data.translations.share-on-linkedin[page.lang] }}</a></li>
-        </ul>
-      </div> -->
-      {% endcomment %}
     </article>
   {% endfor %}
   </div>
-  {% comment %}
-  <!-- TODO: not available in first version
-    <ul><li><a href="{{ site.data.translations.principles-href[page.lang] }}">{{ site.data.translations.principles[page.lang] }}</a></li></ul> 
-  -->
-  {% endcomment %}
 </div>

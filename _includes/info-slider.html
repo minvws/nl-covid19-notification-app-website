@@ -20,7 +20,7 @@
         <div class="swiper-pagination"></div>
       </nav>
 
-      <button type="button" class="swiper-button-next"><!-- TODO: Aria label (vanuit swiper.JS) moet weg... -->
+      <button type="button" class="swiper-button-next">
         <span class="screen-reader-text">
           {{ site.data.translations.info-slider-btn-next-slide[page.lang] }}:
           {{ site.data.translations.info-slider-title[page.lang] }}
@@ -50,13 +50,12 @@
       </div>
     </div>
   </div>
-  {% comment %}
-  <!-- TODO: temp disabled, waiting for CSS styling <button
+  {% comment %}<!-- TODO #91: temp disabled, waiting for CSS styling <button
     type="button"
     class="info-slider__btn-pause"
   >
     {{ site.data.translations.info-slider-btn-pause[page.lang] }}:
     {{ site.data.translations.info-slider-title[page.lang] }}
-  </button> -->
-  {% endcomment %}
+  </button>
+  -->{% endcomment %}
 </div>
