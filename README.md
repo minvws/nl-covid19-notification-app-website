@@ -90,7 +90,7 @@ Technical setup
 
 We use the git flow way of working with one addition:
 
-- `production` branch has been added. Once the version on the master has been previewed and OK'ed, it can be merged to the production branch which is used for internal acceptance testing. This way content editors can easily preview their changes on master (as set by GitHub pages).
+- `production` branch has been added. Once the version on the master has been previewed and OK'ed, it can be merged to the production branch which is used for internal acceptance testing. This way content editors can easily preview their changes on master (as set by GitHub pages) without (unintentionally) affecting an acceptance test.
 
 ### GitHub Pages
 
