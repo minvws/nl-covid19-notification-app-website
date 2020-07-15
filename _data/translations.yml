@@ -338,3 +338,21 @@ information-naw:
 information-gps:
   nl: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
   en: Your GPS or location data will not be used or stored.
+# Media element (used for videos)
+# See _includes/components/mediaplayer.html
+
+mediaelement-download-title:
+  nl: Download deze video
+  en: Download this video
+mediaelement-download-mp4-video:w
+  nl: MP4-video
+  en: MP4-video
+mediaelement-download-mp3-voiceover:
+  nl: MP3-audiospoor (voiceover)
+  en: MP3-audio (voiceover)
+mediaelement-download-subtitle:
+  nl: Ondertitelingsbestand
+  en: Subtitle
+mediaelement-transcript-title:
+  nl: Uitgeschreven tekst van de video
+  en: Written out text of the video
