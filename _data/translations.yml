@@ -172,7 +172,7 @@ info-slides:
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
-        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+        Dit gebeurt als je 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
     -
       image: graphic-app-bluetooth
       title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
