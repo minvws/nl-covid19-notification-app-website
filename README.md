@@ -1,7 +1,7 @@
 About
 ---------------------
 
-This site is the project website of the Coronamelder app by the Dutch Ministry of Health.
+This site is the project website of the Coronamelder app by the Dutch Ministry of Health at www.coronamelder.nl.
 
 - **Status:** work in progress
 - **Target audience:** the general public
