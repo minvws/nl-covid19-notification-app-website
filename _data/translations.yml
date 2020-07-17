@@ -12,8 +12,9 @@ head-social-og-image-url:
   nl: img/head-social-og-image--nl.png
   en: img/head-social-og-image--nl.png
 head-social-og-image-alt:
-  nl: Impressie van website waarop toelichting te vinden is
-  en: TBD
+  # Relative url e.g.: img/social.png
+  nl: img/app-preview.png
+  en: img/app-preview.png
 
 page-title:
   nl: De CoronaMelder app is in ontwikkeling
