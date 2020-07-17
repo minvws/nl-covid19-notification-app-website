@@ -100,7 +100,6 @@ faq:
   nl: Veelgestelde vragen
   en: Frequently asked questions
 faq-top5:
-# TODO: this should not be translated here
   en: General
   nl: Algemeen
 faq-opensource:
@@ -173,7 +172,7 @@ info-slides:
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
-        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+        Dit gebeurt als je 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
     -
       image: graphic-app-bluetooth
       title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
@@ -201,15 +200,15 @@ footer-samen-logo:
 footer-samen-follow:
   nl: Meer op social media
   en: More on social media
-footer-follow-facebook-url: #todo
+footer-follow-facebook-url: TBD
 footer-follow-facebook:
   nl: Volg ons op Facebook
   en: Follow us on Facebook
-footer-follow-twitter-url: #todo
+footer-follow-twitter-url: TBD
 footer-follow-twitter:
   nl: Volg ons op Twitter
   en: Follow us on Twitter
-footer-follow-instagram-url: #todo
+footer-follow-instagram-url: TBD
 footer-follow-instagram:
   nl: Volg ons op Instagram
   en: Follow us on Instagram

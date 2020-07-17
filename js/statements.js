@@ -34,7 +34,7 @@
             trapFocus(dialog);
         }, 200);
 
-        _paq.push(['trackEvent', 'statement', '{{ document.documentElement.lang }} - open', statementToOpen.querySelector('.statement__content h2').textContent]);
+        _paq.push(['trackEvent', 'statement', document.documentElement.lang + ' - open', statementToOpen.querySelector('.statement__content h2').textContent]);
     }
 
     function closeStatement() {

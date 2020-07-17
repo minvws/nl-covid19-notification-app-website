@@ -61,6 +61,4 @@
             }
         }
     }
-
-    // TODO: automatic detection... window.onhashchange = locationHashChanged;
 })();

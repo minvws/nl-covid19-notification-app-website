@@ -14,6 +14,6 @@ summary: Je gebruikt de app geheel vrijwillig.
 lang: nl
 ---
 
-Je bent volledig vrij in je keuze om de app wel of niet te gebruiken. Niemand kan je dus verplichten de om app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Je bent volledig vrij in je keuze om de app wel of niet te gebruiken. Niemand kan je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
 
 Je bepaalt zelf of je de app gebruikt. 
