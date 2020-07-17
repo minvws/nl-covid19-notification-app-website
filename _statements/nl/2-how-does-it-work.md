@@ -12,7 +12,7 @@ De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iema
 1. De app ziet via Bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
 2. Hoe sterker het signaal, hoe dichterbij je was.
 3. Dit gebeurt zonder persoonsgegevens of locatiegegevens. De app weet niet wie jij bent, wie de ander is of waar jullie zijn.
-4. Als je in de buurt bent geweest van iemand met het corona virus en die de app heeft, krijg je later een melding van de app.
+4. Als je in de buurt bent geweest van iemand met het coronavirus en die de app heeft, krijg je later een melding van de app.
 5. Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. De app weet niet wie je bent, dus niemand komt dat te weten.
 </div>
 
