@@ -133,7 +133,6 @@ a:hover {
 @import "content-block";
 @import "../_includes/footer";
 @import "../_includes/statements";
-@import "../_includes/info-slider";
 @import "../_includes/faq";
 
 /* Skip links */
@@ -309,76 +308,6 @@ header .watch > a:hover {
     }
 }
 
-.lead__preview {
-    // margin: 0 -1em 1.6em -1em;
-    
-    > img {
-        display: none;
-    }
-
-    @media (min-width: 960px) {
-        display: block;
-        position: absolute;
-        z-index: 0;
-        // top: -343px;
-        // right: -349px;
-        // width: 324px;
-        top: -250px;
-        right: -316px;
-        width: 262px;
-        margin: 0;
-        min-height: 670px;
-        // Position depends on .header-yellow
-
-        > img {
-            position: absolute;
-            top: -80px;
-            right: -22px;
-            display: block;
-            width: 309px;
-            height: auto;
-            z-index: 1;
-        }
-
-        // Graphic with circles
-        &:before {
-            content: '';
-            position: absolute;
-            top: -220px;
-            /** Perfect alignment: width: of this element, width of the element above */
-            right: calc((600px / -2) + calc(262px / 2));
-            bottom: 0;
-            z-index: 0;
-            background-image: url('../img/header-background.svg');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center 23px;
-            width: 600px;
-
-            .browser-ie-11 & {
-                right: -166px;
-            }
-        }
-
-        // Shadow under phone image
-        &:after {
-            content: '';
-            position: absolute;
-            display: block;
-            top: -80px;
-            right: -19px;
-            bottom: 120px;
-            left: -19px;
-            border-radius: 50px;
-            box-shadow: 0 10px 26px rgba(0,0,0,0.26);
-        }
-    }
-}
-
-.lead__preview__slider {
-    position: relative;
-    z-index: 1;
-}
 
 /**
 

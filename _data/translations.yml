@@ -149,49 +149,6 @@ layout-template-home:
   nl: Home
   en: Home
 
-info-slider-title:
-  nl: Dit is wat je kunt verwachten van de app
-  en: This is what you can expect from the app
-info-slider-btn-pause:
-  nl: Pauzeer slider
-  en: Pauzeer slider
-info-slider-btn-prev-slide:
-  nl: Vorige slide van slider
-  en: Previous slide of slider
-info-slider-btn-next-slide:
-  nl: Volgende slide van slider
-  en: Next slide of slider
-info-slides:
-  nl:
-    -
-      image: graphic-outside-bicycle
-      title: Bescherm je vrienden, familie en de rest van Nederland
-      content: |
-        De app waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
-        Zo kunnen we samen de verspreiding stoppen.
-    -
-      image: graphic-app-notification
-      title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
-      content: |
-        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
-    -
-      image: graphic-app-bluetooth
-      title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
-      content: |
-        De app ziet via Bluetooth of je dicht bij iemand was.
-        Hoe dichterbij, hoe sterker het Bluetooth-signaal.
-        De app weet niet waar je was en wie je bent.
-    -
-      image: graphic-bicycle
-      title: <span class="md-highlight">Voorbeeld</span><br> Fietste iemand voorbij? Dan krijg je later geen melding
-      content: |
-        Het Bluetooth-signaal was sterk genoeg omdat jullie dicht bij elkaar waren. Dit duurde alleen zo kort dat de kans op besmetting heel laag is.
-    -
-      image: graphic-train
-      title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
-      content: |
-        Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
-
 # Footer translations
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
