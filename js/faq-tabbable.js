@@ -44,7 +44,7 @@
             tab.setAttribute('aria-current', 'true');
 
             window.addEventListener('load', function() {
-                initFeedbackBtns();
+                // Piwik deactivated initFeedbackBtns();
             });
         }
 
