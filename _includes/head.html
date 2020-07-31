@@ -10,9 +10,11 @@
     <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.css" crossorigin="anonymous">
     <script src="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.js" crossorigin="anonymous"></script>
+    {%- comment -%}
     <script src="{{ relroot }}js/piwik.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
     <script src="{{ relroot }}js/stats.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
-    
+    {%- endcomment -%}
+
     <meta name="description" content="{{ site.data.translations.head-social-og-description[page.lang]}}">
 
     <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name[page.lang] }}">
