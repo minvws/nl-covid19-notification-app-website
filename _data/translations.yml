@@ -1,19 +1,19 @@
 head-social-og-site_name:
   nl: De CoronaMelder app is in ontwikkeling
-  en: TBD
+  en: The CoronaMelder app is under development
 head-social-og-title:
   nl: De CoronaMelder app is in ontwikkeling
-  en: TBD
+  en: The CoronaMelder app is under development
 head-social-og-description:
   nl: We krijgen het coronavirus steeds meer onder controle, maar het is er nog altijd. Dus is het belangrijk om alert te blijven. Daarom is er een app in ontwikkeling.
-  en: TBD
+  en: Coronavirus is getting slowly under control, but it is still out there. It's important to stay alert. That is why this application is under development.
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
   nl: img/head-social-og-image--nl.png
   en: img/head-social-og-image--nl.png
 head-social-og-image-alt:
   nl: Impressie van website waarop toelichting te vinden is
-  en: TBD
+  en: Sites where you can find additional explanations
 
 page-title:
   nl: De CoronaMelder app is in ontwikkeling
@@ -23,7 +23,7 @@ header-skip-to-content:
   en: Skip to content
 header-title:
   nl: De CoronaMelder app is in ontwikkeling
-  en: 
+  en: The CoronaMelder app is under development
 header-subtitle:
   nl: 
   en:
@@ -65,7 +65,7 @@ readless:
   en: Hide explanation
 readless--under:
   nl: onderaan
-  en: onderaan
+  en: at the bottom
 respond:
   nl: Reageren op dit onderwerp?
   en: Respond to this subject?
@@ -153,7 +153,7 @@ info-slider-title:
   en: This is what you can expect from the app
 info-slider-btn-pause:
   nl: Pauzeer slider
-  en: Pauzeer slider
+  en: Pause slider
 info-slider-btn-prev-slide:
   nl: Vorige slide van slider
   en: Previous slide of slider
@@ -190,13 +190,42 @@ info-slides:
       title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
       content: |
         Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
+  en:
+    -
+      image: graphic-outside-bicycle
+      title: Protect your friends, family and the rest of the Netherlands
+      content: |
+        The app will warn you if you have been around someone infected with the coronavirus.
+        This way we can stop the spread together.
+    -
+      image: graphic-app-notification
+      title: You will receive a message <u>after</u> if you have been at risk of getting infected
+      content: |
+        This will happen if you have been close to someone, who has been confirmed of having the coronavirus for more than 15 minutes. The other person must also use the app.
+    -
+      image: graphic-app-bluetooth
+      title: The app uses <u>only</u> Bluetooth, <br><u>no</u> location data
+      content: |
+        The app uses bluetooth Bluetooth to determine whether you were close to someone.
+        The closer you where, the stronger the Bluetooth signal will be.
+        The app does not know where you were and who you are.
+    -
+      image: graphic-bicycle
+      title: <span class="md-highlight">Example</span><br> Did cycle past someone? Then you will not be notified later
+      content: |
+        The Bluetooth signal was strong enough because you were close to each other. Given that this was a short encounter the chance of infection is very low.
+    -
+      image: graphic-train
+      title: <span class="md-highlight">Example</span><br> Were you close to someone on the train? Then you can get a notification later
+      content: |
+        The Bluetooth signal was strong enough and you were close to each other for a prolonged time.
 
 # Footer translations
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
-  en: Only together we can control corona. Go to the campagne website
+  en: Only together we can control corona. Go to the campaign website
 footer-samen-follow:
   nl: Meer op social media
   en: More on social media
@@ -215,7 +244,7 @@ footer-follow-instagram:
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
-  en: ''
+  en: The corona app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is done in collaboration with the <abbr title="National Institute for Public Health and the Environment">RIVM</abbr> and the <abbr title="Municipal Health Service"> GGD </abbr>.
 
 footer-more-info-title:
   nl: Meer informatie?
@@ -223,18 +252,20 @@ footer-more-info-title:
 footer-more-info-url: https://rijksoverheid.nl
 footer-more-info:
   nl: Kijk op Rijksoverheid.nl
-  en: Go to rijksoverheid.nl
+  en: Go to Rijksoverheid.nl
 
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
   nl: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
+  en: Logo of the Ministry of Health, Welfare and Sport
 footer-logos-rivm-url: https://www.rivm.nl/
 footer-logos-rivm-img-alt: 
   nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
+  en: Logo of the National Institute for Public Health and the Environment
 footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
-
+  en: Logo of the Municipal Health Service
 footer-misc-privacy-url: ./privacy
 footer-misc-privacy:
   nl: Privacy
@@ -269,7 +300,6 @@ footer-misc-colofon-url: ./colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
-
 footer-misc-accessibility-statement-url:
   nl: ./toegankelijkheidsverklaring
   en: ./toegankelijkheidsverklaring

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Op weg naar een veilige en betrouwbare Covid-19 notificatie app
+title: Towards a safe and reliable Covid-19 notification app
 lang: en
 lang-ref: covid19-notification-app-status-index
 ---
