@@ -97,4 +97,4 @@ De Minister van Volksgezondheid, Welzijn en Sport en de GGD nemen de bescherming
 
 ### 10. Wijziging privacyverklaring
 
-Deze privacyverklaring kan worden gewijzigd. In dat geval zullen wij de gewijzigde privacyverklaring op onze website publiceren, waarna deze privacyverklaring direct van kracht is. Als de wijzigingen voor u van belang zijn, zullen wij u via de berichtgeving in de app daarop attenderen. U kunt dan ook de eerdere versies van deze privacyverklaring raadplegen via [archief-functie]
+Deze privacyverklaring kan worden gewijzigd. In dat geval zullen wij de gewijzigde privacyverklaring op onze website publiceren, waarna deze privacyverklaring direct van kracht is. Als de wijzigingen voor u van belang zijn, zullen wij u via de berichtgeving in de app daarop attenderen. 
