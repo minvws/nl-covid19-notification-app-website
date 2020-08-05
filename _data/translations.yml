@@ -33,6 +33,9 @@ header-language-picker-label:
 header-language-picker-switch-lang:
   nl: Wissel van taal
   en: Switch language
+header-language-picker-current-lang:
+  nl: huidige taal
+  en: current language
 note:
   nl: "Let op:"
   en: "Please note:"

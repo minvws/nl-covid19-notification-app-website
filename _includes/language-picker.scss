@@ -3,15 +3,42 @@
 }
 
 .language-picker {
+    position: relative;
     display: inline-block;
     background: rgba(255, 255, 255, 0.38);
     padding: 0.8em 0.8em;
     color: #333;
     cursor: pointer;
+    transition: var(--transition-out);
+    width: 242px;
 
-    // &:hover {
-    //     background: #fff;
-    // }
+    &:hover {
+        background: $color-RO_donkerblauw--interaction;
+        color: #fff;
+        transition: var(--transition-in);
+    }
+
+    &:after {
+        opacity: 0.62;
+        content: '';
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        border: solid currentColor;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        color: currentColor;
+        transition: transform var(--transition-out);
+    }
+
+    &:focus-within:after {
+        opacity: 0.2;
+        color: #000;
+        transform: rotate(-135deg);
+        transition: transform var(--transition-in);
+    }
 }
 
 .language--active {
@@ -22,12 +49,65 @@
     display: inline;
 }
 
+//
+// Dropdown
+//
+
+.language-dropdown {
+    position: absolute;
+    background: #fff;
+
+    opacity: 0;
+    top: -10px;
+    left: -9999px;
+    width: 262px;
+    padding: 12px 0 12px 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    transition: opacity var(--transition-out);
+    transform: scale(0.9);
+
+    .language-picker:focus-within & {
+        opacity: 1;
+        transition: opacity var(--transition-in), transform var(--transition-in);
+        transform: none;
+        left: -8px;
+    }
+}
+
+.languages-title {
+    color: #666;
+    font-weight: 400;
+    font-size: 100%;
+    margin: 0;
+    padding: 6px 18px;
+}
+
 .languages {
-    margin: 0 0 0 4px;
-    display: inline;
+    margin: 0 0 0 0;
+    list-style: none;
 
     li {
-        display: inline;
-        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        a {
+            display: block;
+            padding: 6px 18px;
+            color: $color-RO_donkerblauw;
+
+            &:hover {
+                text-decoration: underline;
+                font-weight: bold;
+                color: $color-RO_donkerblauw--interaction;
+            }
+        }
+
+        &.___active {
+
+            a {
+                color: #333333;
+                font-weight: bold;
+            }
+        }
     }
 }
