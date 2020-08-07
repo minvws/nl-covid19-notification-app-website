@@ -1,9 +1,22 @@
 .component-mediaelement {
-    background-color: #f3f3f3;
+    background-color: $color-RO_lichtblauw;
 
     details {
         padding-left: 14px;
         padding-right: 14px;
+        border-bottom: rgba(0, 39, 131, 0.3) 1px solid;
+
+        ::-webkit-details-marker {
+            color: rgba(0, 39, 131, 0.6);
+        }
+
+        &:hover::-webkit-details-marker {
+            color: rgba(0, 39, 131, 0.84);
+        }
+
+        ul {
+            margin: 14px 0 14px 20px;
+        }
     }
 }
 
@@ -32,6 +45,6 @@
     z-index: 3;
 
     &:not([style*="display: none"]) {
-        background-color: #154273;
+        background: #154273;
     }
 }

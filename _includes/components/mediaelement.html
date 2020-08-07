@@ -3,6 +3,7 @@
         width="100%" height="340"
         controls="controls"
         preload="none"
+        poster="{{relroot}}{{ site.data.videos[include.key].video-preview-image['default'] }}"
         data-audio-description='[{"src": "{{relroot}}{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}", "type": "audio/mp3"}]'
         data-audio-description-voiceover="true"
     >
