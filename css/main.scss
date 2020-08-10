@@ -316,18 +316,16 @@ header .watch > a:hover {
     width: 100%;
 
     img{ 
-      width: 100%;  
+      height: 70px; 
+      margin-bottom: 0.5em;
     }
     .app_badge_column__left {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
         @media (min-width: 740px) {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-            flex: 1;
-            padding-right: 0.5em;
+            flex-basis: auto;
+            margin-right: 0.5em;
         }
     }
     .app_badge_column__right {
@@ -335,11 +333,7 @@ header .watch > a:hover {
         flex-direction: column;
         flex-basis: 100%;
         @media (min-width: 740px) {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-            flex: 1;
-            padding-right: 0.5em;
+            flex-basis: auto;
         }
      }
 }
