@@ -5,7 +5,7 @@ head-social-og-title:
   nl: De CoronaMelder app is in ontwikkeling
   en: TBD
 head-social-og-description:
-  nl: We krijgen het coronavirus steeds meer onder controle, maar het is er nog altijd. Dus is het belangrijk om alert te blijven. Daarom is er een app in ontwikkeling.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
   en: TBD
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
@@ -22,7 +22,7 @@ header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: De CoronaMelder app is in ontwikkeling
+  nl: Voorkom verspreiding, download CoronaMelder
   en: 
 header-subtitle:
   nl: 
@@ -147,6 +147,19 @@ differentlanguage:
 layout-template-home:
   nl: Home
   en: Home
+
+info-lead:
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
+  en: TBD
+info-lead-title:
+  nl: Download de CoronaMelder app
+  en: TBD
+info-app-store-url:
+  nl: https://coronamelder.nl/
+  en: TBD
+info-goole-play-url:
+  nl: https://coronamelder.nl/
+  en: TBD
 
 info-slider-title:
   nl: Dit is wat je kunt verwachten van de app
