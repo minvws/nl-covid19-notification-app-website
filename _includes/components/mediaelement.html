@@ -9,7 +9,7 @@
     >
         <source type="video/mp4" src="{{relroot}}{{ site.data.videos[include.key].mp4-src['default'] }}" />
         {% for subtitle in site.data.videos[include.key].subtitles %}
-            <track src="{{ subtitle.src }}" kind="subtitles" srclang="subtitle.lang" label="{{ site.data.languages[subtitle.lang].label }}">
+            <track src="{{ subtitle.src }}" kind="subtitles" srclang="{{ subtitle.lang }}" label="{{ site.data.languages[subtitle.lang].label }}">
         {% endfor %}
     </video>
     <details>
