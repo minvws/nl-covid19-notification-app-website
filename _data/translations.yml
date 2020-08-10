@@ -160,6 +160,12 @@ info-app-store-url:
 info-goole-play-url:
   nl: https://coronamelder.nl/
   en: TBD
+info-app-store-img:
+  nl: app-store-badge-nl.svg
+  en: app-store-badge-eng.svg
+info-goole-play-img:
+  nl: google-play-badge-nl.svg
+  en: google-play-badge-eng.svg
 
 info-slider-title:
   nl: Dit is wat je kunt verwachten van de app
