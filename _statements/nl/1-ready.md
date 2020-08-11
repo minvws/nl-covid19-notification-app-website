@@ -1,8 +1,8 @@
 ---
 index: 1
-title: Wanneer is de app klaar?
+title: Kan ik de app al gebruiken?
 icon: calendar
-summary: Op 1 september is het voornemen om de app landelijk te lanceren.
+summary: Ja, en in Twente en Drenthe kun je met de app ook anderen waarschuwen als je corona hebt.
 lang: nl
 ---
 

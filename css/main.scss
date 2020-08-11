@@ -304,9 +304,38 @@ header .watch > a:hover {
 
     h2 {
         margin: 0 0 0.7em;
-        font-size: 2em;
+        font-size: 1.2em;
         line-height: 1;
     }
+}
+
+.lead__app_badges{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    img{ 
+      height: 70px; 
+      margin-bottom: 0.5em;
+    }
+    .app_badge_column__left {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        @media (min-width: 740px) {
+            flex-basis: auto;
+            margin-right: 0.5em;
+        }
+    }
+    .app_badge_column__right {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        @media (min-width: 740px) {
+            flex-basis: auto;
+        }
+     }
 }
 
 .lead__preview {
@@ -340,25 +369,8 @@ header .watch > a:hover {
             z-index: 1;
         }
 
-        // Graphic with circles
-        &:before {
-            content: '';
-            position: absolute;
-            top: -220px;
-            /** Perfect alignment: width: of this element, width of the element above */
-            right: calc((600px / -2) + calc(262px / 2));
-            bottom: 0;
-            z-index: 0;
-            background-image: url('../img/header-background.svg');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center 23px;
-            width: 600px;
-
-            .browser-ie-11 & {
-                right: -166px;
-            }
-        }
+        // Graphic with circles moved to header-yellow for overflow: hidden
+       
 
         // Shadow under phone image
         &:after {

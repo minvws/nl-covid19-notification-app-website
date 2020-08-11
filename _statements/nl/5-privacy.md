@@ -1,8 +1,8 @@
 ---
-index: 3
+index: 5
 title: Hoe zit het met mijn Privacy?
 icon: privacy
-summary: De app werkt zonder persoonsgegevens of locatiegegevens.
+summary: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
 lang: nl
 ---
 
