@@ -156,16 +156,22 @@ info-lead-title:
   en: TBD
 info-app-store-url:
   nl: https://coronamelder.nl/
-  en: TBD
+  en: https://coronamelder.nl/
 info-goole-play-url:
   nl: https://coronamelder.nl/
-  en: TBD
+  en: https://coronamelder.nl/
 info-app-store-img:
   nl: app-store-badge-nl.svg
   en: app-store-badge-eng.svg
 info-goole-play-img:
   nl: google-play-badge-nl.svg
   en: google-play-badge-eng.svg
+info-app-store-alt:
+  nl: Download in de App Store
+  en: Download from the App Store
+info-goole-play-alt:
+  nl: Download in de Google play store
+  en: Download from the Google play store
 
 info-slider-title:
   nl: Dit is wat je kunt verwachten van de app
@@ -231,6 +237,12 @@ footer-follow-instagram-url: TBD
 footer-follow-instagram:
   nl: Volg ons op Instagram
   en: Follow us on Instagram
+footer-phone:
+  nl: Heb je vragen over de CoronaMelder?
+  en: TBD
+footer-phone-action:
+  nl: Bel 0800-xxxx
+  en: TBD
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
@@ -243,6 +255,12 @@ footer-more-info-url: https://rijksoverheid.nl
 footer-more-info:
   nl: Kijk op Rijksoverheid.nl
   en: Go to rijksoverheid.nl
+footer-misc-title:
+  nl: Over deze site?
+  en: TBD?
+footer-contact-title:
+  nl: Contact
+  en: Contact
 
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
