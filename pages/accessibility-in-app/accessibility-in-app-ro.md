@@ -1,7 +1,6 @@
 ---
-layout: content
+layout: in-app-content
 lang: en
-showHomeBtn: true
 permalink: /ro/accessibility-in-app
 ---
 
