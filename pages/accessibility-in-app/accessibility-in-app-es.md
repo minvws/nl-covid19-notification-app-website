@@ -2,7 +2,7 @@
 layout: content
 lang: en
 showHomeBtn: true
-permalink: /en/accessibility-in-app
+permalink: /es/accessibility-in-app
 ---
 
 # Toegankelijkheid

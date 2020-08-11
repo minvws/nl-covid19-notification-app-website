@@ -2,7 +2,7 @@
 layout: content
 lang: en
 showHomeBtn: true
-permalink: /nl/colofon-in-app
+permalink: /tr/colofon-in-app
 ---
 
 # Colofon
