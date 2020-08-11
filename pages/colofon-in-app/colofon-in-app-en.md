@@ -5,48 +5,33 @@ showHomeBtn: true
 permalink: /en/colofon-in-app
 ---
 
-# H1 Paginatitel over drie regels zodat er veel tekst in past
+# Colofon
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-    Block lead. Inleiding Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror **milibus** vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus
+    De CoronaMelder-app is ontwikkeld door het Ministerie van Volksgezondheid, Welzijn en Sport in samenwerking met het RIVM en de landelijke GGD’en. De app had niet tot stand kunnen komen zonder de hulp van tientallen experts, ervaringsdeskundigen en een grote open source community van burgers die heeft meegekeken en getest tijdens de ontwikkeling. Er is alles aan gedaan om te zorgen voor een privacyvriendelijke, veilige en toegankelijke en gebruiksvriendelijke app die helpt  corona onder controle te krijgen en houden.
 </p>
 
-Op cookies zijn 2 wetten van toepassing:
+De CoronaMelder-app volgt de Web Content Accessibility Guidelines (WCAG) 2.1 op niveau AA zoals opgenomen in Europese standaard EN 301 549. Als deze Europese standaard wordt bijgewerkt met specifieke richtlijnen voor mobiele applicaties, zullen we deze volgen.
 
-1. Algemene Verordening Gegevensbescherming
-2. Telecomwet
+## H2 Broncode
 
-## H2 alineakoppen
+De broncode van de app en de achterliggende systemen zijn volledig openbaar. Je kunt alle code terugvinden op <a target="_blank" href="https://github.com/minvws">GitHub</a>. Zo is de precieze werking van de app controleerbaar, en helpen de vele ogen bij het opsporen van eventuele kwetsbaarheden.
 
-Paragraph text 16/22 Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus. Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus
+## H2 Bijdragen
 
-### H3 alineakoppen
+- Naast de auteurs van de diverse open source, 3rd party bibliotheken hebben we bijdragen ontvangen van heel veel andere <a target="_blank" href="https://github.com/minvws/nl-covid19-notification-app-design/blob/master/%E2%9D%A4%EF%B8%8F">mensen</a>
 
-Paragraph text 16/22 Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus. Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus
+## H2 Licenties, Condities en Disclaimers applicatie
 
-Paragraph text 16/22 Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab.
+- De open source licentie van de CoronaMelder <a target="_blank" href="https://github.com/minvws/nl-covid19-notification-app-ios/blob/master/LICENSES.md">iOS Applicatie</a> en de <a target="_blank" href="https://github.com/minvws/nl-covid19-notification-app-ios/tree/master/licenses">iOS 3rd party</a> bibliotheken die in de applicatie gebruikt worden.
+- De open source licentie van CoronaMelder op <a target="_blank" href="https://github.com/minvws/nl-covid19-notification-app-android/blob/master/LICENSES.md">Android</a>
 
-- gebruikte apparatuur en software (apparaten, browsers, besturingssysteem)
-- gebruikte links om op onze website te komen
-- gebruikte links binnen de website
-- gebruikte zoektermen in de zoekmachine op de website zelf
+Deze licenties, condities en disclaimers maken integraal deel uit van respectievelijk de iOS en Android-distributie en de Mobile Applicatie.
 
-Paragraph text 16/22 Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus. Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des exerciunt, etur re ipitatio qui offictur? Ciiscit, volupta volore quiate arum int ut ommosae aspienimus
+## H2 Licenties, Condities en Disclaimers server
 
-<p class="md-info-grey">Cookies voor onderzoek</p>
+- <a target="_blank" href="https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md">Backend licentie</a> en de <a target="_blank" href="https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE">3rd party</a> voor het backend.
 
-| Naam cookie   | Doel |
-|---------------|------|
-| Cookie_pk_id  | Is de bezoeker nieuw of heeft de bezoeker de site al eerder bezocht? |
-| Cookie_pk_ses | Welke pagina's heeft de bezoeker geraadpleegd? |
-| Cookie_pk_ref | Vanaf welke site is de bezoeker gekomen? |
+## H2 Kwetsbaarheden kunnen vertrouwelijk gemeld worden bij het Nationaal Cyber Security Center van de Nederlandse Overheid (ook anoniem).
 
-Paragraph text 16/22 Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab.
-
-<div class="md-block-zebra" markdown="1">
-# Zebra block H1 titel
-
-<p class="md-block-lead" markdown="1">
-    Inleiding Catemquatur amustium, eum sit illaut lab ilit etur, expliae num amenis prae lacepti istibus dio maximusam veror milibus vellecab iducit et des **exerciunt**, etur re ipitatio qui offictur? Ciiscit, volupta volore [quiate arum link](#link) int ut ommosae aspienimus
-</p>
-</div>
+Kwetsbaarheden kunnen vertrouwelijk gemeld worden bij het <a target="_blank" href="https://www.ncsc.nl/contact/kwetsbaarheid-melden" >Nationaal Cyber Security Center van de Nederlandse Overheid</a> (ook anoniem).
