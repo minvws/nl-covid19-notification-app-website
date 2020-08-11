@@ -1,6 +1,6 @@
 ---
-index: 2
-title: Hoe werkt de app?
+index: 6
+title: Hoe helpt de app tegen corona? 
 icon: app-touch
 summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 lang: nl

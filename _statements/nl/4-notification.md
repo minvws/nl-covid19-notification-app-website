@@ -1,8 +1,8 @@
 ---
-index: 5
-title: Is de app verplicht?
-icon: book
-summary: Je gebruikt de app geheel vrijwillig. 
+index: 4
+title: Wanneer krijg ik een melding?
+icon: bell
+summary: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft. 
 # timeline:
 #   completed:
 #     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
