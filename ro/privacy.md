@@ -1,9 +1,9 @@
 ---
 layout: content
-lang: nl
+lang: en
 showHomeBtn: true
 title: Privacyverklaring
-permalink: /privacy
+
 ---
 
 {% include privacy-text.md %}
