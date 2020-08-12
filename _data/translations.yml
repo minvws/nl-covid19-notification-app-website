@@ -23,7 +23,7 @@ header-skip-to-content:
   en: Skip to content
 header-title:
   nl: De CoronaMelder app is in ontwikkeling
-  en: 
+  en: De CoronaMelder app is in ontwikkeling
 header-subtitle:
   nl: 
   en:
@@ -190,6 +190,35 @@ info-slides:
       title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
       content: |
         Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
+  en:
+    -
+      image: graphic-outside-bicycle
+      title: Bescherm je vrienden, familie en de rest van Nederland
+      content: |
+        De app waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
+        Zo kunnen we samen de verspreiding stoppen.
+    -
+      image: graphic-app-notification
+      title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
+      content: |
+        Dit gebeurt als je 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+    -
+      image: graphic-app-bluetooth
+      title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
+      content: |
+        De app ziet via Bluetooth of je dicht bij iemand was.
+        Hoe dichterbij, hoe sterker het Bluetooth-signaal.
+        De app weet niet waar je was en wie je bent.
+    -
+      image: graphic-bicycle
+      title: <span class="md-highlight">Voorbeeld</span><br> Fietste iemand voorbij? Dan krijg je later geen melding
+      content: |
+        Het Bluetooth-signaal was sterk genoeg omdat jullie dicht bij elkaar waren. Dit duurde alleen zo kort dat de kans op besmetting heel laag is.
+    -
+      image: graphic-train
+      title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
+      content: |
+        Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
 
 # Footer translations
 
@@ -215,7 +244,7 @@ footer-follow-instagram:
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
-  en: ''
+  en: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
 
 footer-more-info-title:
   nl: Meer informatie?
@@ -228,13 +257,15 @@ footer-more-info:
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
   nl: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
+  en: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
 footer-logos-rivm-url: https://www.rivm.nl/
 footer-logos-rivm-img-alt: 
   nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
+  en: Logo Rijksinstituut voor Volksgezondheid en Milieu
 footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
-
+  en: Logo GGD Nederland
 footer-misc-privacy-url: ./privacy
 footer-misc-privacy:
   nl: Privacy

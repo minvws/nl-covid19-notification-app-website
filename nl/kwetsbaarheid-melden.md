@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: enln
 showHomeBtn: true
 title: Kwetsbaarheid melden
 ---

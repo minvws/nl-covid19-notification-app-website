@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: nl
 showHomeBtn: true
 title: Privacyverklaring
 
