@@ -1,0 +1,21 @@
+{%- assign relroot = './' -%}
+{%- if page.lang != 'nl' -%}
+  {%- assign relroot = '../' -%}
+{%- endif -%}
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+<!--
+  This website is generated at {{ site.time }}.
+  The code is open source. You are welcome to contribute. Go to git: 
+  https://github.com/minvws/nl-covid19-notification-app-website
+-->
+{% include head.html %}
+<body>
+  <main class="content-center content-center__in_app" id="content">
+    <div class="content-block">
+      {{ content }}
+    </div>
+  </main>
+</body>
+</html>
