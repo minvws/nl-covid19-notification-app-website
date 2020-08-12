@@ -1,86 +1,21 @@
 <div class="faq tabbable">
   <h2 id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
-  <!-- 
-    Setup as suggested by: http://simplyaccessible.com/article/danger-aria-tabs/
-    with a few alterations for basic functionality if JavaScript is disabled.
-
-    Take a look at faq-tabbable.js for more info
-  -->
   <div class="faq-layout">
 
-    {% assign sets = site.questions | where:"lang", page.lang | sort: "index" | group_by: "set" | sort: "name" %}
+    {% assign questions = site.questions | where:"lang", page.lang | sort: "index" | sort: "name" | slice: 0, 3 %}
     <div class="faq-layout__contents">
       <ul class="faq-layout__contents__list">
-        {% for set in sets %}
-          {% assign keyname = set.name | slice: 2, 999 | prepend: "faq-" %}
-          <li><!-- Note: get class ".tab-active" when interactive -->
-            <a href="#faq-tab-panel-{{ keyname }}" id="faq-tab-{{ keyname }}" class="tabbable-tab">
-              {{ site.data.translations[keyname][page.lang] }}
+        {% for question in questions %}
+          <li>
+            <a href="/faq/{{ question.index }}" id="faq-{{ question.index }}" class="tabbable-tab">
+              {{ question.title }}
             </a>
           </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="faq-layout__tab-panels">
 
-      {% for set in sets %}
-        {% assign keyname = set.name | slice: 2, 999 | prepend: "faq-" %}
-        <div
-          class="faq-tab-panel tabbable-tab-panel"
-          id="faq-tab-panel-{{ keyname }}"
-          aria-labelledby="faq-tab-panel__title-{{ forloop.index }}"
-        >
-          <h3
-            class="faq-tab-panel__title"
-            id="faq-tab-panel__title-{{ forloop.index }}"
-          >{{ site.data.translations[keyname][page.lang] }}</h3>
-          {% for question in set.items %}
-            <details data-js-stats-accordion='["trackEvent", "faq", "{{ page.lang }} - {{ site.data.translations[keyname][page.lang] }}", "{{ question.title }}"]'>
-              <summary><h4>{{ question.title }}</h4></summary>
-              <div class="answer">
-                <div class="content-block">
-                  {{ question.content }}
-                </div>
-
-                {%- comment -%}
-                <div class="feedback">{% comment %} Note hidden by default. Can only be used when js-enabled. {% endcomment %}
-                  <div class="feedback__question" data-js-stats-event='["trackEvent", "feedback", "faq - {{ question.title }}", "--statsFeedback--"]'>
-                    <h5>{{ site.data.translations.has-been-answered[page.lang] }}</h5>
-                    <button
-                      type="button" 
-                      data-js-stats-form-feedback-btn
-                      data-stats-feedback="ja"
-                    >
-                      {{ site.data.translations.feedback-answer-yes[page.lang] }}
-                    </button>
-                    <button
-                      type="button"
-                      data-js-stats-form-feedback-btn
-                      data-stats-feedback="nee"
-                    >
-                      {{ site.data.translations.feedback-answer-no[page.lang] }}
-                    </button>
-                  </div>
-                  <div tabindex="-1" role="alert" class="feedback__answered feedback__answered--hide" data-stats-feedback="ja">
-                    <h5>{{ site.data.translations.feedback-answer-submitted-title[page.lang] }}</h5>
-                    {{ site.data.translations.feedback-answer-submitted-yes_md[page.lang] | markdownify }}
-                  </div>
-                  <div tabindex="-1" role="alert" class="feedback__answered feedback__answered--hide" data-stats-feedback="nee">
-                    <h5>{{ site.data.translations.feedback-answer-submitted-title[page.lang] }}</h5>
-                    {{ site.data.translations.feedback-answer-submitted-no_md[page.lang] | markdownify }}
-                  </div>
-                </div>
-              </div>
-              {%- endcomment -%}
-
-            </details>
-          {% endfor %}
-        </div>
-      {% endfor %}
-
-      <p class="faq-layout__tab-panels__updates-will-follow">{{ site.data.translations.faq-info-will-be-updated[page.lang] }}</p>
-    </div>
-  </div>
-
+    <a class="faq-layout__tab-panels__updates-will-follow">Alle veelgestelde vragen </a>
+    
 </div>
