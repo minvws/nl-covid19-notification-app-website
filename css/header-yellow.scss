@@ -5,15 +5,15 @@
     position: relative;
     background-color:#EAF4F9;
     background-color: linear-gradient(180deg, #D8EBF1 0%, #EAF4F9 100%);
-    background-image: url('../img/header-background.svg');
+    background-image: url('../img/logo-app.svg');
     background-repeat: no-repeat;
-    background-size: 347px;
-    background-position: center 23px;
+    background-size: 150px;
+    background-position: right 25px top 45px;
     min-height: 300px;
 
     @media(min-width: 680px) {
-        background-size: 680px;
-        background-position: center 62px;
+        background-size: 230px;
+        background-position: right 40px top 55px;
     }
 
     @media(min-width: 960px) {
@@ -82,7 +82,7 @@
     z-index: 2;
 
     @media (min-width: 680px) {
-        padding: 0 0 2em 3em;
+        padding: 0 0 3.5em 3em;
     }
 
     @media (min-width: 960px) {
@@ -95,6 +95,7 @@
         margin: 0.5em 0 0 0;
         font-size: 1.62em;
         line-height: 1.16em;
+        width: 50%;
 
         @media (min-width: 680px) {
             font-size: 3em;
