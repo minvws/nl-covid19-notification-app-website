@@ -2,3 +2,9 @@ nl:
   label: Nederlands
 en:
   label: English
+de:
+  label: Deutsche
+fr:
+  label: Französisch
+
+
