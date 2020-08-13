@@ -8,7 +8,7 @@
       <ul class="faq-layout__contents__list">
         {% for question in questions %}
           <li>
-            <a href="{{ question.url }}" id="faq-{{ question.index }}">
+            <a class="fag-item" href="{{ question.url }}" id="faq-{{ question.index }}">
               {{ question.title }}
             </a>
           </li>
@@ -16,6 +16,6 @@
       </ul>
     </div>
 
-    <a href="/faq" class="faq-layout__tab-panels__updates-will-follow">Alle veelgestelde vragen </a>
+    <a href="/faq" class="fag__link">Alle veelgestelde vragen </a>
     
 </div>

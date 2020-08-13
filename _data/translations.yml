@@ -176,25 +176,6 @@ info-goole-play-alt:
   nl: Download in de Google play store
   en: Download from the Google play store
 
-info-lead:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
-  en: TBD
-info-lead-title:
-  nl: Download de CoronaMelder app
-  en: TBD
-info-app-store-url:
-  nl: https://coronamelder.nl/
-  en: TBD
-info-goole-play-url:
-  nl: https://coronamelder.nl/
-  en: TBD
-info-app-store-img:
-  nl: app-store-badge-nl.svg
-  en: app-store-badge-eng.svg
-info-goole-play-img:
-  nl: google-play-badge-nl.svg
-  en: google-play-badge-eng.svg
-
 info-slider-title:
   nl: Dit is wat je kunt verwachten van de app
   en: This is what you can expect from the app

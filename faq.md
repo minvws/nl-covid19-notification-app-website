@@ -6,7 +6,7 @@ showHomeBtn: true
 
 # Veelgestelde vragen
 
-{% assign questions = site.questions | where:"lang", page.lang,   | sort: "index"  %}
+{% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
 ## Hoe de app helpt tegen corona?
 
