@@ -1,4 +1,4 @@
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = '' -%}
 {%- if page.lang and page.lang != 'nl' -%}
   {%- assign langSlug = '/' | append: page.lang -%}
 {%- endif -%}
@@ -21,6 +21,6 @@
       </ul>
     </div>
 
-    <a href="{{ langSlug }}faq" class="fag__link">Alle veelgestelde vragen </a>
+    <a href="{{ langSlug }}/faq" class="fag__link">Alle veelgestelde vragen </a>
     
 </div>
