@@ -19,6 +19,10 @@
       </p>
     {% endif %}
 
+    <div class="content-block">
+      {{ content }}
+    </div>
+
     {% if page.showFaqBtn %}
       <p class="content-center__home">
         <a href="{{ relroot }}/faq">
@@ -27,9 +31,6 @@
       </p>
     {% endif %}
 
-    <div class="content-block">
-      {{ content }}
-    </div>
   </main>
   {% include footer.html %}
 </body>

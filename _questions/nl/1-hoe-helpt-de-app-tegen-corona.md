@@ -4,6 +4,7 @@ index: 1
 set: 1
 title: Hoe helpt CoronaMelder tegen corona?
 lang: nl
+showHomeBtn: true
 showFaqBtn: true
 ---
 
