@@ -1,4 +1,4 @@
-<div class="faq tabbable">
+<div class="faq">
   <h2 id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
   <div class="faq-layout">
@@ -8,7 +8,7 @@
       <ul class="faq-layout__contents__list">
         {% for question in questions %}
           <li>
-            <a href="/faq/{{ question.index }}" id="faq-{{ question.index }}" class="tabbable-tab">
+            <a href="{{ question.url }}" id="faq-{{ question.index }}">
               {{ question.title }}
             </a>
           </li>
@@ -16,6 +16,6 @@
       </ul>
     </div>
 
-    <a class="faq-layout__tab-panels__updates-will-follow">Alle veelgestelde vragen </a>
+    <a href="/faq" class="faq-layout__tab-panels__updates-will-follow">Alle veelgestelde vragen </a>
     
 </div>

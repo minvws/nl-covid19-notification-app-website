@@ -155,11 +155,11 @@ info-lead-title:
   nl: Download de CoronaMelder app
   en: TBD
 info-app-store-url:
-  nl: https://coronamelder.nl/
-  en: https://coronamelder.nl/
+  nl: https://apps.apple.com/nl/app/id1517652429
+  en: https://apps.apple.com/nl/app/id1517652429
 info-goole-play-url:
-  nl: https://coronamelder.nl/
-  en: https://coronamelder.nl/
+  nl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  en: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
 info-app-store-img:
   nl: app-store-badge-nl.svg
   en: app-store-badge-eng.svg
@@ -241,8 +241,17 @@ footer-phone:
   nl: Heb je vragen over de CoronaMelder?
   en: TBD
 footer-phone-action:
-  nl: Bel 0800-xxxx
+  nl: Bel 0800-1280
   en: TBD
+footer-phone-opening:
+  nl: Openingstijden
+  en: Opening hours
+footer-phone-opening-hours:
+  nl: Maandag t/m vrijdag 08.00 – 20.00 uur  
+  en: Maandag t/m vrijdag 08.00 – 20.00 uur
+footer-phone-opening-hours-weekend:
+  nl: Zaterdag en zondag 10.00 – 16.00 uur 
+  en: Zaterdag en zondag 10.00 – 16.00 uur
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.

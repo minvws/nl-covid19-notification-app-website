@@ -69,6 +69,8 @@
     padding: 2.2rem 1.4rem 2rem 1.4em;
     max-width: 1100px;
     flex-direction: column;
+    color: #154273 /* RO blauw */;
+    font-size: 24px;
 
     @media(min-width: 740px) {
         padding-top: 3.0em;
@@ -84,13 +86,18 @@
 }
 
 .footer-phone_text {
-    color: #154273 /* RO blauw */;
     font-size: 32px
 }
 
 .footer-phone_action_text {
     color: #CA005D /* RO pink */;
-    font-size: 32px
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
+.footer-opening-hours {
+    font-weight: 800;
+    line-height: 2.2;
 }
 
 
