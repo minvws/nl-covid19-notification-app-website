@@ -3,7 +3,7 @@
 
   <div class="faq-layout">
 
-    {% assign questions = site.questions | where:"lang", page.lang | sort: "index" | sort: "name" | slice: 0, 3 %}
+    {% assign questions = site.questions | where:"lang", page.lang | sort: "index" | slice: 0, 3 %}
     <div class="faq-layout__contents">
       <ul class="faq-layout__contents__list">
         {% for question in questions %}

@@ -1,7 +1,4 @@
-{%- assign relroot = './' -%}
-{%- if page.lang != 'nl' -%}
-  {%- assign relroot = '../' -%}
-{%- endif -%}
+{%- assign relroot = '../' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -16,8 +13,16 @@
   <main class="content-center" id="content">
     {% if page.showHomeBtn %}
       <p class="content-center__home">
-        <a href="{{ relroot }}">
+        <a href="{{ relroot }} ">
           <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
+        </a>
+      </p>
+    {% endif %}
+
+    {% if page.showFaqBtn %}
+      <p class="content-center__home">
+        <a href="{{ relroot }}/faq">
+          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-faq[page.lang] }}
         </a>
       </p>
     {% endif %}

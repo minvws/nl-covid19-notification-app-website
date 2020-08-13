@@ -72,6 +72,10 @@
     color: #154273 /* RO blauw */;
     font-size: 24px;
 
+    &.small {
+        padding: 2.2rem 200px 2rem 200px; 
+    }
+
     @media(min-width: 740px) {
         padding-top: 3.0em;
         padding-bottom: 3.2em;

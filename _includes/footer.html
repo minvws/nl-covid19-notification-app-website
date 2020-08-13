@@ -1,6 +1,10 @@
 <footer>
 
-    <div class="footer-phone">
+    {% if page.layout == 'content' %}
+        {% assign small = 'small' %}
+    {% endif %}
+
+    <div class="footer-phone {{ small }} ">
         <h2 class="footer-phone_text">{{ site.data.translations.footer-phone[page.lang] }}</h2>
         <h3 class="footer-phone_action_text">{{ site.data.translations.footer-phone-action[page.lang] }}</h3>
 
@@ -8,8 +12,8 @@
         <p>{{ site.data.translations.footer-phone-opening-hours[page.lang] }}</p>
         <p>{{ site.data.translations.footer-phone-opening-hours-weekend[page.lang] }}</p>
     </div>  
-
-    <div class="footer-samen">
+    {% if page.showTogheter %}
+    <div class="footer-samen {{ small }} ">
         <a class="footer-samen__logo" href="{{ site.data.translations.footer-samen-logo-url }}">
             <img src="{{ relroot }}img/logo-alleen-samen.svg?v=2020-07-17" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
         </a>
@@ -36,6 +40,8 @@
         </div> -->
         {% endcomment %}
     </div>
+    {% endif %}
+
     <div class="footer">
         <div class="footer-inner">
             <div class="footer__links">

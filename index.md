@@ -2,6 +2,7 @@
 layout: home
 lang: nl
 title: ''
+showTogheter: true
 lang-ref: covid19-notification-app-website-index
 ---
 
