@@ -1,7 +1,4 @@
-{%- assign relroot = './' -%}
-{%- if page.lang != 'nl' -%}
-  {%- assign relroot = '../' -%}
-{%- endif -%}
+{%- assign relroot = '../' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -17,5 +14,11 @@
       {{ content }}
     </div>
   </main>
+
+  {% if page.redirectToApp %}
+    <script type="text/javascript" src="{{ relroot }}js/redirect-app.js?v={{ timeslug }}"></script>
+  {% endif %}
+
 </body>
 </html>
+

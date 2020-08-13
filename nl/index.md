@@ -1,6 +1,6 @@
 ---
 layout: home
-lang: en
+lang: nl
 title: ''
 lang-ref: covid19-notification-app-website-index
 ---
