@@ -42,8 +42,8 @@
         }
 
         &:focus {
-            outline: 0;
-            background: $color-focus-background;
+            outline-color: #2A71C3;
+            outline-width: 2px;
         }
 
         @media (min-width: 740px) {
@@ -124,6 +124,11 @@
         &:hover {
             background: #{$color-RO_donkerblauw--interaction};
             transition: none;
+        }
+
+        &:focus {
+            outline-color: #2A71C3;
+            outline-width: 2px;
         }
     
         &.swiper-pagination-bullet-active {
