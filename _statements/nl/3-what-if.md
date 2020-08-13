@@ -1,10 +1,18 @@
 ---
+layout: content-statements
 index: 3
 title: Wat moet ik doen als ik een melding krijg?
 icon: mobile-check
 summary: Je wordt geadviseerd thuis te blijven en je te laten testen.  
 lang: nl
 ---
+
+<div class="expanded-box__header__icon">
+  {% include graphics/{{ page.icon }}.svg %}
+</div>
+
+# {{ page.title }}
+{: ..expanded-box__header__title}
 
 Ja, de app is veilig. Daar zorgen we voor:
 

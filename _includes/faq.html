@@ -1,3 +1,8 @@
+{%- assign langSlug = '/' -%}
+{%- if page.lang and page.lang != 'nl' -%}
+  {%- assign langSlug = '/' | append: page.lang -%}
+{%- endif -%}
+
 <div class="faq">
   <h2 id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
@@ -16,6 +21,6 @@
       </ul>
     </div>
 
-    <a href="/faq" class="fag__link">Alle veelgestelde vragen </a>
+    <a href="{{ langSlug }}faq" class="fag__link">Alle veelgestelde vragen </a>
     
 </div>

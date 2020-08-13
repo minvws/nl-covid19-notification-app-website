@@ -14,16 +14,33 @@
 -->
 {% include head.html %}
 <body>
-  <main class="content-center content-center__in_app" id="content">
+  {% include header-statements.html %}
+  <main class="content-center" id="content">
+      <p class="content-center__home">
+        <a href="{{ langSlug }}">
+          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
+        </a>
+      </p>
+
     <div class="content-block">
       {{ content }}
     </div>
+
+    
+    Wil je meer weten
+
+    <p class="content-center__home">
+      <a href="{{ langSlug }}">
+        <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
+      </a>
+    </p>
+
+
   </main>
 
-  {% if page.redirectToApp %}
-    <script type="text/javascript" src="{{ relroot }}js/redirect-app.js?v={{ timeslug }}"></script>
-  {% endif %}
 
+  <footer>
+    {% include footer-js.html %}
+  </footer>
 </body>
 </html>
-

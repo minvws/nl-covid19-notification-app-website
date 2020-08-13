@@ -1,0 +1,20 @@
+<header>
+  <div class="skiplinks">
+    <a href="#content">
+      {{ site.data.translations.header-skip-to-content[page.lang] }}
+    </a>
+  </div>
+  {%- if (site.data.translations.development[page.lang] && site.data.translations.development[page.lang] != '') -%}
+    <div class="badge">
+      <span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}
+    </div>
+  {%- endif -%}
+
+  <div class="header-statements">
+    <div class="header-statements__center">
+      <div class="header-statements__language-picker">
+        {% include language-picker.html %}
+      </div>
+    </div>
+  </div>
+</header>

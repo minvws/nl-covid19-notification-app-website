@@ -315,44 +315,44 @@ footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
   en: Logo GGD Nederland
-footer-misc-privacy-url: ./privacy
+footer-misc-privacy-url: privacy
 footer-misc-privacy:
   nl: Privacy
   en: Privacy
-footer-misc-disclaimer-url: ./disclaimer
+footer-misc-disclaimer-url: disclaimer
 footer-misc-disclaimer:
   nl: Disclaimer
   en: Disclaimer
 footer-misc-report-vulnerability-url: 
-  nl: ./kwetsbaarheid-melden
-  en: ./kwetsbaarheid-melden
+  nl: kwetsbaarheid-melden
+  en: kwetsbaarheid-melden
 footer-misc-report-vulnerability:
   nl: Kwetsbaarheid melden
   en: Report vulnerability
 footer-misc-contact-url: 
-  nl: ./contact
-  en: ./contact
+  nl: /contact
+  en: /contact
 footer-misc-contact:
   nl: Contact
   en: Contact
 footer-misc-about-corona-url: 
-  nl: ./over-corona
-  en: TBD
+  nl: over-corona
+  en: over-corona
 footer-misc-about-corona:
   nl: Over Corona
-  en: TBD
-footer-misc-cookies-url: ./cookies
+  en: About Corona
+footer-misc-cookies-url: cookies
 footer-misc-cookies:
   nl: Cookies
   en: Cookies
-footer-misc-colofon-url: ./colofon
+footer-misc-colofon-url: colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
 
 footer-misc-accessibility-statement-url:
-  nl: ./toegankelijkheidsverklaring
-  en: ./toegankelijkheidsverklaring
+  nl: /toegankelijkheidsverklaring
+  en: /toegankelijkheidsverklaring
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
   en: Accessibility statement

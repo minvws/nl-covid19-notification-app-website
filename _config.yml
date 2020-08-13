@@ -2,9 +2,11 @@ repo: minvws/nl-covid19-notification-app-website
 
 collections:
   statements:
+    output: true
+    permalink: /:path
   questions:
     output: true
-    permalink: /faq/:name
+    permalink: /:path
 
 sass:
   sass_dir: css
