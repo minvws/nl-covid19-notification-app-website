@@ -45,6 +45,14 @@
             outline-color: #2A71C3;
         }
 
+        &:focus:not(:focus-visible) {
+            outline-color: transparent;
+        }
+
+        &:focus:not(.focus-visible)  {
+            outline-color: transparent;
+        }          
+
         @media (min-width: 740px) {
             top: calc(50% - 1rem);
         }
