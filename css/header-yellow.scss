@@ -49,10 +49,11 @@
     }
 
     @media(min-width: 960px) {
-        background-image: url('../img/header-background.svg');
-        background-repeat: no-repeat;
-        background-size: 680px;
-        background-position: calc(50vw + 71px) -123px;
+        background-image: none;
+        &:before {
+            content: none;
+            background-image: none;
+        }
     }
 }
 

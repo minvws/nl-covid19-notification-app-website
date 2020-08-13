@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 1
-title: Hoe helpt CoronaMelder tegen corona?
+title: Waarom is CoronaMelder nodig?
 lang: nl
 showHomeBtn: true
 showFaqBtn: true
