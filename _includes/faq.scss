@@ -49,6 +49,13 @@
 // Faq layout
 //
 
+h2.fag-layout__title {
+    color: #154273;
+    background: #EFF7F9;
+    padding: 0.6em 20px;
+    margin-bottom: 0;
+}
+
 .faq-layout__contents__list {
     position: relative;
     border: 1px solid rgba(21, 66, 115, 0.5);
@@ -57,8 +64,8 @@
     margin-bottom: 20px;
     overflow: hidden;
 
-    li:last-child .fag-item{
-        border-bottom: none;
+    li:first-child .fag-item{
+        border-top: none;
     } 
 }
 
@@ -66,7 +73,7 @@
     display: block;
     position: relative;
     color: #154273;
-    border-bottom: 1px solid #154273 /* RO blauw */;
+    border-top: 1px solid rgba(21, 66, 115, 0.5);
     padding: 0.8em 0.5em;
     color: #154273;
     font-size: 21px;
@@ -76,7 +83,7 @@
 
     &:hover {
         background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
-        border-color: $color-RO_donkerblauw--interaction;
+        // border-color: $color-RO_donkerblauw--interaction;
         transition: var(--transition-in);
     }
 
@@ -100,6 +107,30 @@
     }
 }
 
+
+//
+//  Modifier for faq overview page
+//
+
+.faq-layout__contents.__overview {
+
+    .faq-layout__contents__list {
+        border: none;
+        border-bottom: 1px solid rgba(21, 66, 115, 0.5);
+        margin-left: 0em;
+        border-radius: 0px;
+    }
+    .faq-layout__contents__list li {
+        margin-bottom: 0px;
+    }
+    .fag-item {
+        padding: 14px 20px;
+        font-size: 16px;
+        color: #333333;
+        text-decoration: none;
+    }
+}
+
 .fag__link:before {
     content: '';
     position: relative;
@@ -110,7 +141,6 @@
     mask: url(../img/chevron-right.svg) no-repeat 50% 50%;
     transition: var(--transition-out);
     padding: 10px;
-
 }
 
 

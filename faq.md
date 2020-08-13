@@ -9,13 +9,14 @@ showHomeBtn: true
 {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
 ## Hoe de app helpt tegen corona?
+{: .fag-layout__title}
 
-<div class="faq-layout__contents">
+<div class="faq-layout__contents __overview">
     <ul class="faq-layout__contents__list">
     {% for question in questions %}
         {% if question.set == 1 %}
             <li>
-                <a href="{{ question.url }}" id="faq-{{ question.index }}">
+                <a class="fag-item" href="{{ question.url }}" id="faq-{{ question.index }}">
                     {{ question.title }}
                 </a>
             </li>
@@ -26,13 +27,14 @@ showHomeBtn: true
 
 
 ## Werking van de app
+{: .fag-layout__title}
 
-<div class="faq-layout__contents">
+<div class="faq-layout__contents __overview">
     <ul class="faq-layout__contents__list">
     {% for question in questions %}
         {% if question.set == 2 %}
             <li>
-                <a href="{{ question.url }}" id="faq-{{ question.index }}">
+                <a class="fag-item" href="{{ question.url }}" id="faq-{{ question.index }}">
                     {{ question.title }}
                 </a>
             </li>
@@ -43,13 +45,14 @@ showHomeBtn: true
 
 
 ## Testregios's Twente en Drenthe
+{: .fag-layout__title}
 
-<div class="faq-layout__contents">
+<div class="faq-layout__contents __overview">
     <ul class="faq-layout__contents__list">
     {% for question in questions %}
         {% if question.set == 3 %}
             <li>
-                <a href="{{ question.url }}" id="faq-{{ question.index }}">
+                <a class="fag-item" href="{{ question.url }}" id="faq-{{ question.index }}">
                     {{ question.title }}
                 </a>
             </li>
