@@ -1,8 +1,8 @@
 ---
-index: 4
-title: Werkt de app veilig?
-icon: lock
-summary: De app wordt uitgebreid getest voordat je hem kunt downloaden.  
+index: 3
+title: Wat moet ik doen als ik een melding krijg?
+icon: mobile-check
+summary: Je wordt geadviseerd thuis te blijven en je te laten testen.  
 lang: nl
 ---
 

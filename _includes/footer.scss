@@ -3,6 +3,7 @@
     padding: 2.2rem 1.4rem 2rem 1.4em;
     max-width: 1100px;
     flex-direction: column;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
 
     @media(min-width: 740px) {
         padding-top: 3.2em;
@@ -17,6 +18,7 @@
 
 .footer-samen__logo {
     position: relative;
+   
 
     > img {
         display: block;
@@ -60,38 +62,86 @@
 }
 
 //
+// Phone footer
+//
+
+.footer-phone {
+    padding: 2.2rem 1.4rem 2rem 1.4em;
+    max-width: 1100px;
+    flex-direction: column;
+    color: #154273 /* RO blauw */;
+    font-size: 24px;
+
+    &.small {
+        padding: 2.2rem 200px 2rem 200px; 
+    }
+
+    @media(min-width: 740px) {
+        padding-top: 3.0em;
+        padding-bottom: 3.2em;
+        display: flex;
+    }
+
+    @media(min-width: 960px) {
+        padding-top: 4.0em;
+        padding-bottom: 5em;
+        margin: 0 auto;
+    }
+}
+
+.footer-phone_text {
+    font-size: 32px
+}
+
+.footer-phone_action_text {
+    color: #CA005D /* RO pink */;
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
+.footer-opening-hours {
+    font-weight: 800;
+    line-height: 2.2;
+}
+
+
+//
 // Regular footer
 //
 
 .footer {
+    background: #0E6999;
+}
+
+.footer-inner {
     position: relative;
-    border-top: 1px solid $color-RO_donkerblauw;
-    padding: 1em 0 calc(1.4em + 24px) 0;
-    margin: 3em 1.4em 0 1.4em;
+    padding: 1em;
+    margin: 0 auto;
     max-width: 1100px;
     font-size: 1em;
     line-height: 1em;
-    color: #333;
+    color: #fff;
     
     @media (min-width: 740px) {
         margin-right: 1.6em;
         margin-left: 1.6em;
-        padding: 2em 1em calc(1.4em + 24px) 1em;
+        padding-bottom: 2.5em;
+        //padding: 2em 1em calc(1.4em + 24px) 1em;
     }
     
     @media (min-width: 960px) {
-        padding: 1em 3em calc(1.4em + 24px) 3em;
+        //padding: 1em 3em calc(1.4em + 24px) 3em;
         margin: 4.8em auto 0 auto;
     }
     
     @media (min-width: 1200px) {
-        padding-bottom: 0.4em;
+        //padding-bottom: 0.4em;
     }
     
     &:after {
         content: '';
         position: absolute;
-        bottom: 0;
+        top: -25px;
         right: 0;
         left: 0;
         margin: 0 auto;
@@ -114,8 +164,24 @@
 }
 
 .footer__links {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.38em;
+    
+    a, a:visited {
+        color: #fff;
+    }
+
+    a:before {
+        content: '';
+        position: relative;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        -webkit-mask: url(../img/chevron-right.svg) no-repeat 50% 50%;
+        mask: url(../img/chevron-right.svg) no-repeat 50% 50%;
+        transition: var(--transition-out);
+        padding: 10px;
+    }
 
     h3 {
         margin-top: 32px;
@@ -139,7 +205,7 @@
 
 .footer__links__col {
     @media(min-width: 960px) {
-        padding: 0 70px 0 0;
+        padding: 0 50px 0 0;
     }
 
     @media(min-width: 960px) {
@@ -147,10 +213,20 @@
             // order: 2;
             width: 33.3%;
         }
-
+        
         &.___desktop-66 {
             // order: 1;
             width: 66.6%;
+        }
+
+        &.___desktop-50 {
+            // order: 2;
+            width: 50%;
+        }
+        
+        &.___desktop-25 {
+            // order: 1;
+            width: 25%;
         }
     }
 }
@@ -191,4 +267,8 @@
 .footer__misc {
     margin: 2em 0 0 0;
     font-size: 0.84em;
+
+    a, a:visited {
+        color: #fff;
+    }
 }

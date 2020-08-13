@@ -1,8 +1,8 @@
 ---
-index: 6
+index: 2
 title: Hoe helpt de app tegen corona?
 icon: heart
-summary: De CoronaMelder app waarschuwt als je in buurt bent geweest van iemand die corona heeft.
+summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 # timeline:
 #   completed:
 #     - Zorgen voor lorem ipsum dolor sit amet vendis molendicabo
