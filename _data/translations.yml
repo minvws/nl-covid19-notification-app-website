@@ -330,8 +330,8 @@ footer-misc-report-vulnerability:
   nl: Kwetsbaarheid melden
   en: Report vulnerability
 footer-misc-contact-url: 
-  nl: /contact
-  en: /contact
+  nl: contact
+  en: contact
 footer-misc-contact:
   nl: Contact
   en: Contact
@@ -351,8 +351,8 @@ footer-misc-colofon:
   en: Colophon
 
 footer-misc-accessibility-statement-url:
-  nl: /toegankelijkheidsverklaring
-  en: /toegankelijkheidsverklaring
+  nl: toegankelijkheidsverklaring
+  en: toegankelijkheidsverklaring
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
   en: Accessibility statement

@@ -1,7 +1,7 @@
 {%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 {%- assign langSlug = '/' -%}
-{%- if page.lang and page.lang != 'nl' -%}
+{%- if page.lang -%}
   {%- assign langSlug = '/' | append: page.lang -%}
 {%- endif -%}
 
@@ -30,7 +30,7 @@
 
     {% if page.showFaqBtn %}
       <p class="content-center__home">
-        <a href="{{ langSlug }}faq">
+        <a href="{{ langSlug }}/faq">
           <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-faq[page.lang] }} 
         </a>
       </p>

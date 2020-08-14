@@ -105,14 +105,10 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1.5em;
-
-
-    @media(min-width: 740px) {
-        width: 120px;
-        flex: 0 0 120px;
-        align-items: baseline;
-        justify-content: left;
-    }
+    width: 120px;
+    flex: 0 0 120px;
+    align-items: baseline;
+    justify-content: left;
 }
 
 .footer-phone__column-right {

@@ -1,5 +1,5 @@
-{%- assign langSlug = '' -%}
-{%- if page.lang and page.lang != 'nl' -%}
+{%- assign langSlug = '/' -%}
+{%- if page.lang -%}
   {%- assign langSlug = '/' | append: page.lang -%}
 {%- endif -%}
 

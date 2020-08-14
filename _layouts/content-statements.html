@@ -1,9 +1,10 @@
 {%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
 {%- assign langSlug = '/' -%}
-{%- if page.lang and page.lang != 'nl' -%}
+{%- if page.lang -%}
   {%- assign langSlug = '/' | append: page.lang -%}
 {%- endif -%}
+
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
