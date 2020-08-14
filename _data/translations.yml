@@ -160,19 +160,19 @@ info-lead-title:
 info-app-store-url:
   nl: https://apps.apple.com/nl/app/id1517652429
   en: https://apps.apple.com/nl/app/id1517652429
-info-goole-play-url:
+info-google-play-url:
   nl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   en: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
 info-app-store-img:
   nl: app-store-badge-nl.svg
   en: app-store-badge-eng.svg
-info-goole-play-img:
+info-google-play-img:
   nl: google-play-badge-nl.svg
   en: google-play-badge-eng.svg
 info-app-store-alt:
   nl: Download in de App Store
   en: Download from the App Store
-info-goole-play-alt:
+info-google-play-alt:
   nl: Download in de Google play store
   en: Download from the Google play store
 
@@ -297,7 +297,7 @@ footer-more-info:
   nl: Kijk op Rijksoverheid.nl
   en: Go to rijksoverheid.nl
 footer-misc-title:
-  nl: Over deze site?
+  nl: Over deze site
   en: TBD?
 footer-contact-title:
   nl: Contact

@@ -49,7 +49,7 @@
 // Faq layout
 //
 
-h2.fag-layout__title {
+h2.faq-layout__title {
     color: #154273;
     background: #EFF7F9;
     padding: 0.6em 20px;
@@ -64,12 +64,12 @@ h2.fag-layout__title {
     margin-bottom: 20px;
     overflow: hidden;
 
-    li:first-child .fag-item{
+    li:first-child .faq-layout__item{
         border-top: none;
     } 
 }
 
-.fag-item {
+.faq-layout__item {
     display: block;
     position: relative;
     color: #154273;
@@ -83,12 +83,11 @@ h2.fag-layout__title {
 
     &:hover {
         background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
-        // border-color: $color-RO_donkerblauw--interaction;
         transition: var(--transition-in);
     }
 
     &:focus {
-        outline-offset: 0px;
+        outline-offset: -2px;
     }
 
     &:after {
@@ -123,7 +122,7 @@ h2.fag-layout__title {
     .faq-layout__contents__list li {
         margin-bottom: 0px;
     }
-    .fag-item {
+    .faq-layout__item {
         padding: 14px 20px;
         font-size: 16px;
         color: #333333;
@@ -131,7 +130,7 @@ h2.fag-layout__title {
     }
 }
 
-.fag__link:before {
+.faq__link:before {
     content: '';
     position: relative;
     height: 10px;
