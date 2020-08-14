@@ -88,7 +88,8 @@ h2.fag-layout__title {
     }
 
     &:focus {
-        outline-offset: 0px;
+    &:focus {
+        outline-offset: -2px;
     }
 
     &:after {
@@ -142,5 +143,4 @@ h2.fag-layout__title {
     transition: var(--transition-out);
     padding: 10px;
 }
-
 
