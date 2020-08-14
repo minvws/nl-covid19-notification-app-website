@@ -229,4 +229,4 @@ Deze privacyverklaring kan worden gewijzigd. In dat geval zullen wij de
 gewijzigde privacyverklaring op onze website publiceren, waarna deze
 privacyverklaring direct van kracht is. Als de wijzigingen voor u van belang
 zijn, zullen wij u via de berichtgeving in de app daarop attenderen. Laatste
-update: 12 augustus 2020
+update: 17 augustus 2020

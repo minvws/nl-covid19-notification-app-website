@@ -217,4 +217,4 @@ unauthorised access, undesired disclosures and unauthorised changes.
 This privacy statement is subject to amendment. In that case, we will publish
 the amended privacy statement on our website, after it will have immediate
 effect. You will be informed of any amendments relevant to you via the
-notifications in the app. Most recent update: 12 August 2020
+notifications in the app. Most recent update: 17 August 2020
