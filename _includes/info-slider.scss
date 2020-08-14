@@ -42,9 +42,16 @@
         }
 
         &:focus {
-            outline: 0;
-            background: $color-focus-background;
+            outline-color: #2A71C3;
         }
+
+        &:focus:not(:focus-visible) {
+            outline-color: transparent;
+        }
+
+        &:focus:not(.focus-visible)  {
+            outline-color: transparent;
+        }          
 
         @media (min-width: 740px) {
             top: calc(50% - 1rem);
@@ -124,6 +131,10 @@
         &:hover {
             background: #{$color-RO_donkerblauw--interaction};
             transition: none;
+        }
+
+        &:focus {
+            outline-color: #2A71C3;
         }
     
         &.swiper-pagination-bullet-active {
