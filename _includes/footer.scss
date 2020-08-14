@@ -68,7 +68,6 @@
 .footer-phone {
     padding: 2.2rem 1.4rem 2rem 1.4em;
     max-width: 1100px;
-    flex-direction: column;
     color: #154273 /* RO blauw */;
     font-size: 24px;
 
@@ -89,6 +88,32 @@
     }
 }
 
+
+.footer-phone__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-phone__column-left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+
+
+    @media(min-width: 740px) {
+        width: 120px;
+        flex: 0 0 120px;
+        align-items: baseline;
+        justify-content: left;
+    }
+}
+
+.footer-phone__column-right {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-phone_text {
     font-size: 32px
 }
@@ -103,6 +128,7 @@
     font-weight: 800;
     line-height: 2.2;
 }
+
 
 
 //
