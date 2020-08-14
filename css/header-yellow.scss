@@ -40,20 +40,59 @@
 }
 
 .header-yellow--slim {
-    min-height: 130px;
+    min-height: 180px;
     padding: 0 0 50px 0;
+    color: #ffffff;
+    background: linear-gradient(10.25deg, #C9005D 14.82%, #C9005D 14.87%, #C9005D 44.26%, #315BBC 131.42%, #315BBC 133.42%);
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        bottom: 0;
+        z-index: 0;
+        background-image: url('../img/logo-badge.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center 23px;
+        width: 80px;
+
+        .browser-ie-11 & {
+            right: -166px;
+        }
+    }
 
     @media(min-width: 740px) {
-        background-size: 680px;
-        background-position: center -84px;
+        min-height: 220px;
     }
 
     @media(min-width: 960px) {
-        background-image: none;
+        background: linear-gradient(10.25deg, #C9005D 14.82%, #C9005D 14.87%, #C9005D 44.26%, #315BBC 131.42%, #315BBC 133.42%);
         &:before {
             content: none;
             background-image: none;
         }
+        &:after {
+            /** Perfect alignment: width: of this element, width of the element above */
+            width: 80px;
+            right: calc((980px / -2) + calc(100% / 2));
+        }
+    }
+}
+
+.header-yellow__title {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 15px;
+
+    @media (min-width: 740px) {
+        font-size: 40px;
+        padding-left: 55px;
+    }
+
+    @media (min-width: 960px) {
+        padding-left: 155px;
     }
 }
 
