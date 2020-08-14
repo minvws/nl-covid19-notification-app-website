@@ -12,9 +12,9 @@ lang: en
 </div>
 
 # {{ page.title }}
-{: ..expanded-box__header__title}
+{: .expanded-box__header__title}
 
-De app werkt zonder persoonsgegevens of locatiegegevens. Als je telefoon via Bluetooth met andere app gebruikers in de buurt contact maakt is dit via een willekeurige code.
+**De app werkt zonder persoonsgegevens of locatiegegevens. Als je telefoon via Bluetooth met andere app gebruikers in de buurt contact maakt is dit via een willekeurige code.**
 
 De CoronaMelder app weet dus niet wie je bent en ook niet waar je bent. 
 

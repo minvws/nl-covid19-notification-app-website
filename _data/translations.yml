@@ -150,6 +150,12 @@ layout-template-home:
 layout-template-faq:
   nl: Terug naar alle veelgestelde vragen
   en: F.A.Q
+layout-all-faq:
+  nl: Alle veelgestelde vragen
+  en: All frequently asked questions
+layout-template-close:
+  nl: Sluiten
+  en: Close
 
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
@@ -221,6 +227,9 @@ info-slides:
       content: |
         Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
   en:
+    -
+      image: graphic-app-logo
+      title: CoronaMelder
     -
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland

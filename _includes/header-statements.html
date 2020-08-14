@@ -9,12 +9,19 @@
       <span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}
     </div>
   {%- endif -%}
-
-  <div class="header-statements">
-    <div class="header-statements__center">
-      <div class="header-statements__language-picker">
+  <div class="content-right-top">
+      <a href="{{ langSlug }}">
+        {{ site.data.translations.layout-template-close[page.lang] }} <span class="icon icon-close"></span>
+      </a>
+  </div>
+  <div class="header-yellow header-yellow--slim __statement">
+    <div class="header-yellow__center">
+      <div class="header-yellow__language-picker">
         {% include language-picker.html %}
+      </div>
+      <div class="header-yellow__title">
+        {{ site.data.translations.head-app-name[page.lang] }}
       </div>
     </div>
   </div>
-</header>
+

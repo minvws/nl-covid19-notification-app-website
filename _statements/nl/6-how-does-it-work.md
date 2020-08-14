@@ -12,9 +12,9 @@ lang: nl
 </div>
 
 # {{ page.title }}
-{: ..expanded-box__header__title}
+{: .expanded-box__header__title}
 
-De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt. 
+**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
 
 <div class="md-timeline" markdown="1">
 1. De app ziet via Bluetooth of je dicht bij iemand bent geweest die ook de app heeft.

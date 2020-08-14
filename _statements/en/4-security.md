@@ -12,9 +12,9 @@ lang: en
 </div>
 
 # {{ page.title }}
-{: ..expanded-box__header__title}
+{: .expanded-box__header__title}
 
-Ja, de app is veilig. Daar zorgen we voor:
+**Ja, de app is veilig. Daar zorgen we voor:**
 
 - De app gebruikt alleen willekeurige codes, geen persoonsgegevens. 
 - Je recht om de app vrijwillig te gebruiken, wordt beschermd. 

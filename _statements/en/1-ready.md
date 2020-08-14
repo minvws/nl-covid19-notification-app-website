@@ -12,6 +12,6 @@ lang: en
 </div>
 
 # {{ page.title }}
-{: ..expanded-box__header__title}
+{: .expanded-box__header__title}
 
-Op 1 september is het voornemen om de app landelijk te lanceren. Tot dat moment testen we de veiligheid en toegankelijkheid van de app. Met de testresultaten verbeteren we de app steeds verder.
+**Op 1 september is het voornemen om de app landelijk te lanceren. Tot dat moment testen we de veiligheid en toegankelijkheid van de app. Met de testresultaten verbeteren we de app steeds verder.**

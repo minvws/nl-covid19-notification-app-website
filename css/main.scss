@@ -498,6 +498,10 @@ header .watch > a:hover {
     transform: rotate(-90deg);
 }
 
+.icon-close {
+    background-image: url('../img/close.svg');
+}
+
 /* Statement Expand collapse chevrons */
 
 .statements details > summary > div > span {

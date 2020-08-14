@@ -213,19 +213,14 @@
     background-color: #F5F5F5 /* lichtgrijs */;
 }
 
-.expanded-box__header {
-    position: relative;
-    padding: 2em 4em 2em 6em;
-    background-color: #F5F5F5 /* lichtgrijs */;
-}
-
 .expanded-box__header__icon {
-    position: absolute;
-    top: 2em;
-    left: 2em;
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 25px;
     
     svg {
-        max-width: 49px;
+        max-width: 70px;
         color: $color-WARN_rood;
 
         details:hover & {
@@ -235,25 +230,24 @@
 }
 
 .expanded-box__header__title {
-    font-size: 1.625em;
-    line-height: 1.26em;
-    margin-bottom: 0.45rem;
-    color: $color-RO_donkerblauw;
-}
-
-.expanded-box__content {
-    padding: 16px 2em;
+    padding-top: 0.2em;
 }
 
 .expanded-box__want-to-know-more {
-    padding: 1.7em 2em;
-    background-color: #F5F5F5 /* lichtgrijs */;
+    margin: 2.5em 0em;
+    padding: 3.0em 2em;
+    background-color: #EFF7F9;
 
     > h3 {
-        margin-bottom: 0.26em;
+        font-size: 26px;
+        margin-bottom: 0.5em;
     }
     
     > p {
         margin-bottom: 0;
     }
+}
+
+.expanded-box__close {
+    padding-top: 0.2em;
 }
