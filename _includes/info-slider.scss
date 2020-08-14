@@ -157,7 +157,7 @@
 .info-slide__graphic {
     margin: 0 0 0.2em 0;
     text-align: center;
-
+    
     @media (min-width: 740px) and (max-width: 959px) {
         flex: 0 0 auto;
         width: 11.7rem;
@@ -171,16 +171,32 @@
         height: 138px;
         width: auto;
 
+        &.__first-slide {
+            margin-top: 1.0em;
+            height: 220px;
+        }
+
+
         @media (min-width: 740px) and (max-width: 959px) {
             height: 138px;
             width: auto;
             max-width: none;
+
+            &.__first-slide {
+                margin-top: 0em;
+                height: 138px;
+            }
+    
         }
 
         @media (min-width: 960px) {
             height: 138px;
             width: auto;
             max-width: none;
+            &.__first-slide {
+                margin-top: 4.5em;
+                height: 220px;
+            }
         }
     }
 
@@ -195,8 +211,19 @@
     position: relative;
     z-index: 2;
 
+    &.__first-slide {
+        padding-top: 0;
+        text-align: center;
+        font-size: 22px;
+    }
+
     @media (min-width: 740px) and (max-width: 959px) {
         padding: 0.2em 0.8em 0 0;
+        &.__first-slide {
+            padding-top: 40px;
+            font-size: 32px;
+            left: -25px;
+        }
     }
     
     h3 {

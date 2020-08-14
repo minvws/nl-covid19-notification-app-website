@@ -13,7 +13,7 @@ showHomeBtn: true
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
-    <ul class="faq-layout__contents__list">
+    <ul class="faq-layout-contents__list">
     {% for question in questions %}
         {% if question.set == 1 %}
             <li>
@@ -31,7 +31,7 @@ showHomeBtn: true
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
-    <ul class="faq-layout__contents__list">
+    <ul class="faq-layout-contents__list">
     {% for question in questions %}
         {% if question.set == 2 %}
             <li>
@@ -49,7 +49,7 @@ showHomeBtn: true
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
-    <ul class="faq-layout__contents__list">
+    <ul class="faq-layout-contents__list">
     {% for question in questions %}
         {% if question.set == 3 %}
             <li>

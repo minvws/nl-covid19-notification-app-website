@@ -191,6 +191,9 @@ info-slider-btn-next-slide:
 info-slides:
   nl:
     -
+      image: graphic-app-logo
+      title: CoronaMelder
+    -
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
@@ -349,6 +352,12 @@ footer-misc-colofon-url: colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
+footer-misc-pers-url: 
+  nl: pers
+  en: pers
+footer-misc-pers:
+  nl: Pers
+  en: Pers
 
 footer-misc-accessibility-statement-url:
   nl: toegankelijkheidsverklaring

@@ -4,13 +4,13 @@
 {%- endif -%}
 
 <div class="faq">
-  <h2 id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
+  <h2 class="faq-homepage__title" id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
   <div class="faq-layout">
 
     {% assign questions = site.questions | where:"lang", page.lang | sort: "index" | slice: 0, 3 %}
     <div class="faq-layout__contents">
-      <ul class="faq-layout__contents__list">
+      <ul class="faq-layout-contents__list">
         {% for question in questions %}
           <li>
             <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">

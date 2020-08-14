@@ -28,7 +28,7 @@
     }
 }
 
-.faq > h2 {
+.faq-homepage__title {
     font-size: 32px;
     line-height: 40px;
     color: #333;
@@ -49,14 +49,14 @@
 // Faq layout
 //
 
-h2.faq-layout__title {
+.faq-layout__title {
     color: #154273;
     background: #EFF7F9;
     padding: 0.6em 20px;
     margin-bottom: 0;
 }
 
-.faq-layout__contents__list {
+.faq-layout-contents__list {
     position: relative;
     border: 1px solid rgba(21, 66, 115, 0.5);
     border-radius: 5px;
@@ -113,13 +113,13 @@ h2.faq-layout__title {
 
 .faq-layout__contents.__overview {
 
-    .faq-layout__contents__list {
+    .faq-layout-contents__list {
         border: none;
         border-bottom: 1px solid rgba(21, 66, 115, 0.5);
         margin-left: 0em;
         border-radius: 0px;
     }
-    .faq-layout__contents__list li {
+    .faq-layout-contents__list li {
         margin-bottom: 0px;
     }
     .faq-layout__item {
