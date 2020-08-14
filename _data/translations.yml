@@ -197,13 +197,12 @@ info-slides:
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
-        De app waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
-        Zo kunnen we samen de verspreiding stoppen.
+        CorornaMelder waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. Zo kunnen we samen de verspreiding stoppen.
     -
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
-        Dit gebeurt als je 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. Deze persoon moet ook de app gebruiken.
     -
       image: graphic-app-bluetooth
       title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
