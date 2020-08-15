@@ -4,4 +4,4 @@ lang: en
 title: Privacy in app
 ---
 
-{% include privacy-text.md %}
+{% include privacy-text-en.md %}
