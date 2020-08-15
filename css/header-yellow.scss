@@ -16,8 +16,14 @@
         background-position: right 40px top 55px;
     }
 
+    @media(min-width: 680px) {
+        background-size: 230px;
+        background-position: right 40px top 55px;
+    }
+
     @media(min-width: 960px) {
         background-image: none;
+        position: relative;
         &:before {
             content: '';
             position: absolute;
@@ -33,7 +39,14 @@
             width: 600px;
 
             .browser-ie-11 & {
-                right: -166px;
+                right: calc(((100% - 1200px)/2) - 1px);
+            }
+        }
+    }
+    @media(min-width: 1080px) {
+            &:before {
+                .browser-ie-11 & {
+                right: calc(((100% - 1300px)/2) - 1px);
             }
         }
     }
@@ -59,7 +72,7 @@
         width: 80px;
 
         .browser-ie-11 & {
-            right: -166px;
+            right: 166px;
         }
     }
 
