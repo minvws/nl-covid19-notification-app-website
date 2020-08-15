@@ -17,7 +17,18 @@
     @media (min-width: 960px) {
         padding: 26px 200px 20px 200px;
     }
+
+    &.icon-chevron-left {
+        border-radius: 0;
+        margin-top: 0;
+    }
 }
+
+.content-center--statement {
+    border-radius: 0;
+    margin-top: 0;
+}
+
 
 .content-center__home {
     margin-top: 10px;
@@ -30,6 +41,17 @@
         left: -3px;
     }
 }
+
+
+.content-right-top {
+    position: relative; // Necessary for specific iOS iPad overflow issue
+    display: block; // Necessary for IE11
+    background: #fff;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: right;
+}
+
 
 .content-center__in_app {
     margin-top: 10px;
@@ -68,7 +90,7 @@
     }
 
     p {
-        margin: 14px 0;
+        margin: 16px 0;
     }
 
     ul {
@@ -118,6 +140,7 @@
     }
 
     .md-timeline {
+        padding: 1em 0;
         ul,
         ol {
             position: relative;
@@ -166,8 +189,8 @@
     }
 
     details {
-        border-top: $color-RO_donkerblauw--interaction 1px solid;
-        border-bottom: $color-RO_donkerblauw--interaction 1px solid;
+        border-top: 1px solid rgba(21, 66, 115, 0.5);
+        border-bottom: 1px solid rgba(21, 66, 115, 0.5);
         margin: 14px 0;
 
         + details {
@@ -175,23 +198,52 @@
             border-top: 0;
         }
 
+   
         summary {
             cursor: pointer;
-            color: $color-RO_donkerblauw--interaction;
-            padding: 8px 0;
+            position: relative;
+            color: #333333;
+            padding: 14px 20px;
+            font-size: 16px;
+
+            &:focus {
+                outline-offset: -1px;
+            }
             
             &:hover {
                 background: $color-RO_lichtblauw;
             }
         }
 
+        summary { list-style-type: none; } /* Firefox */
+        summary::-webkit-details-marker { display: none; } /* Chrome */
+        summary::marker { display: none; }
+
+        summary:after {
+            content: '';
+            position: absolute;
+            top: 6px;
+            right: 5px;
+            height: 40px;
+            width: 40px;
+            opacity: 0.62;
+            border-radius: 2px;
+            outline-offset: 8px;
+            outline: 2px solid transparent;
+            background: url(../img/chevron-right.svg) center center no-repeat;
+            transition: var(--transition-out);
+        }
+
         &[open] summary {
-            padding-bottom: 0;
-            margin-bottom: -4px;
             font-weight: bold;
 
             &:hover {
                 background: transparent;
+            }
+
+            &:after {
+                background: url(../img/chevron-right.svg) center center no-repeat;
+                transform: rotate(90deg);
             }
         }
 

@@ -1,12 +1,20 @@
 ---
+layout: content-statements
 index: 4
-title: Werkt de app veilig?
+title: Is the app save
 icon: lock
 summary: De app wordt uitgebreid getest voordat je hem kunt downloaden.  
 lang: en
 ---
 
-Ja, de app is veilig. Daar zorgen we voor:
+<div class="expanded-box__header__icon">
+  {% include graphics/{{ page.icon }}.svg %}
+</div>
+
+# {{ page.title }}
+{: .expanded-box__header__title}
+
+**Ja, de app is veilig. Daar zorgen we voor:**
 
 - De app gebruikt alleen willekeurige codes, geen persoonsgegevens. 
 - Je recht om de app vrijwillig te gebruiken, wordt beschermd. 
