@@ -65,6 +65,10 @@
     margin-bottom: 20px;
     overflow: hidden;
 
+    li {
+        height: 55px;
+    }
+
     li:first-child .faq-layout__item{
         border-top: none;
     } 
@@ -80,7 +84,6 @@
     font-size: 21px;
     line-height: 22px;
     width: 100%;
-    overflow: hidden;
 
     &:hover {
         background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
