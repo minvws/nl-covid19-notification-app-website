@@ -46,7 +46,9 @@
                 >
               </div>
               <div class="info-slide__text {{ firstSlide }}">
-                <h3 id="info-slide-title-{{ forloop.index }}">{{ info-slide.title | markdownify }}</h3>
+                <div id="info-slide-title-{{ forloop.index }}">
+                  <b>{{ info-slide.title | markdownify }}</b>
+                </div>
                 {{ info-slide.content | markdownify }}
               </div>
             </div>
