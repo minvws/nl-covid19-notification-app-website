@@ -2,10 +2,12 @@
     <meta charset="UTF-8">
     <title>{% if page.title != '' %}{{ page.title }} - {% endif %}{{ site.data.translations.page-title[page.lang] }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
-    <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextregular.woff" as="font" type="font/woff" crossorigin>
-    {% comment %}<!-- <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextitalic.woff" as="font" type="font/woff" crossorigin> -->{% endcomment %}
+    <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextregular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextregular.woff" type="font/woff2" crossorigin="anonymous">
+    {% comment %}
+        <!-- <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextitalic.woff" as="font" type="font/woff" crossorigin="anonymous"> -->
+    {% endcomment %}
     <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextbold.woff" as="font" type="font/woff" crossorigin>
     <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.css" crossorigin="anonymous">
