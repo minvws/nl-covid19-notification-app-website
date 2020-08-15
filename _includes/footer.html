@@ -1,98 +1,73 @@
 <footer>
-    <div class="footer-samen">
+
+    {% include footer-phone.html %}
+    
+    {% if page.showTogether  %}
+    <div class="footer-samen {{ small }}">
         <a class="footer-samen__logo" href="{{ site.data.translations.footer-samen-logo-url }}">
             <img src="{{ relroot }}img/logo-alleen-samen.svg?v=2020-07-17" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
         </a>
-        {% comment %}
-        <!-- <div class="footer-samen__follow">
-            <p>{{ site.data.translations.footer-samen-follow[page.lang] }}</p>
-            <ul class="share">
-                <li>
-                    <a href="{{ site.data.translations.footer-follow-facebook-url }}" class="icon-facebook">
-                        {{ site.data.translations.footer-follow-facebook[page.lang] }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ site.data.translations.footer-follow-twitter-url }}" class="icon-twitter">
-                        {{ site.data.translations.footer-follow-twitter[page.lang] }}
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ site.data.translations.footer-follow-instagram-url }}" class="icon-instagram">
-                        {{ site.data.translations.footer-follow-instagram[page.lang] }}
-                    </a>
-                </li>
-            </ul>
-        </div> -->
-        {% endcomment %}
     </div>
+    {% endif %}
+
     <div class="footer">
-        <div class="footer__links">
-            <div class="footer__links__col ___desktop-66">
-                <div class="footer-logos-info">{{ site.data.translations.footer-logos-info_md[page.lang] | markdownify }}</div>
-                {% comment %}
-                <div class="footer-logos">
-                    <!-- <a href="{{ site.data.translations.footer-logos-minvws-url }}">
-                        <img src="{{ relroot }}img/logo-VWS.svg" alt="{{ site.data.translations.footer-logos-minvws-img-alt[page.lang] }}" />
-                    </a>
-                    <a href="{{ site.data.translations.footer-logos-rivm-url }}">
-                        <img src="{{ relroot }}img/logo-VWS-RIVM.svg" alt="{{ site.data.translations.footer-logos-rivm-img-alt[page.lang] }}" />
-                    </a>
-                    <a href="{{ site.data.translations.footer-logos-ggd-url }}">
-                        <img src="{{ relroot }}img/logo-GGD.svg" class="___logo-ggd" alt="{{ site.data.translations.footer-logos-ggd-img-alt[page.lang] }}" />
-                    </a> -->
+        <div class="footer-inner">
+            <div class="footer-links">
+                <div class="footer-links-col ___desktop-50">
+                    <div class="footer-logos-info">{{ site.data.translations.footer-logos-info_md[page.lang] | markdownify }}</div>
                 </div>
-                {% endcomment %}
+                <div class="footer-links-col ___desktop-25">
+                    <h3>{{ site.data.translations.footer-misc-title[page.lang] }}</h3>
+                    <ul>
+                        <li>
+                            <a href="{{ langSlug }}/{{ site.data.translations.footer-misc-privacy-url }}">
+                                {{ site.data.translations.footer-misc-privacy[page.lang] }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ langSlug }}/{{ site.data.translations.footer-misc-cookies-url }}">
+                                {{ site.data.translations.footer-misc-cookies[page.lang] }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ langSlug }}/{{ site.data.translations.footer-misc-colofon-url[page.lang] }}">
+                                {{ site.data.translations.footer-misc-colofon[page.lang] }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ langSlug }}/{{ site.data.translations.footer-misc-accessibility-statement-url[page.lang] }}">
+                                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ langSlug }}/{{ site.data.translations.footer-misc-report-vulnerability-url[page.lang] }}">
+                                {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ langSlug }}/{{ site.data.translations.footer-misc-pers-url[page.lang] }}">
+                                {{ site.data.translations.footer-misc-pers[page.lang] }}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links-col ___desktop-25">
+                    <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
+                    <ul>
+                        <li><a href="{{ site.data.translations.footer-more-info-url }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
+                    </ul>
+                    <h3>{{ site.data.translations.footer-contact-title[page.lang] }}</h3>
+                    <ul>
+                    <li> {{ site.data.translations.footer-phone[page.lang] }} </li>
+                    <li>{{ site.data.translations.footer-phone-action[page.lang] }}</li>
+                    </ul>
+                </div>
+    
+            
             </div>
-            <div class="footer__links__col ___desktop-33">
-                <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
-                <ul>
-                    <li><a href="{{ site.data.translations.footer-more-info-url }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__misc">
-            <a href="{{ site.data.translations.footer-misc-privacy-url }}">
-                {{ site.data.translations.footer-misc-privacy[page.lang] }}
-            </a>
-            - 
-            {% comment %}
-            <!-- 
-            <a href="{{ site.data.translations.footer-misc-disclaimer-url }}">
-                {{ site.data.translations.footer-misc-disclaimer[page.lang] }}
-            </a>
-            -
-            -->
-            {% endcomment %}
-            <a href="{{ site.data.translations.footer-misc-cookies-url }}">
-                {{ site.data.translations.footer-misc-cookies[page.lang] }}
-            </a>
-            - 
-            <a href="{{ site.data.translations.footer-misc-accessibility-statement-url[page.lang] }}">
-                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}
-            </a>
-            - 
-            {% comment %}
-            <!-- 
-            <a href="{{ site.data.translations.footer-misc-contact-url[page.lang] }}">
-                {{ site.data.translations.footer-misc-contact[page.lang] }}
-            </a>
-            - 
-            -->
-            {% endcomment %}
-            <a href="{{ site.data.translations.footer-misc-about-corona-url[page.lang] }}">
-                {{ site.data.translations.footer-misc-about-corona[page.lang] }}
-            </a>
-            - 
-            <a href="{{ site.data.translations.footer-misc-report-vulnerability-url[page.lang] }}">
-                {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
-            </a>
+        
         </div>
     </div>
 </footer>
 
-<script type="text/javascript" src="{{ relroot }}js/generic.js?v={{ timeslug }}"></script>
-<script type="text/javascript" src="{{ relroot }}js/info-slider.js?v={{ timeslug }}"></script>
-<script type="text/javascript" src="{{ relroot }}js/statements.js?v={{ timeslug }}"></script>
-<script type="text/javascript" src="{{ relroot }}js/faq-tabbable.js?v={{ timeslug }}"></script>
-<script type="text/javascript" src="{{ relroot }}js/vendors/details-element-polyfill.2.4.0.js" crossorigin="anonymous" async></script>
+{% include footer-js.html %}
