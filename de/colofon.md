@@ -1,6 +1,7 @@
 ---
-layout: in-app-content
-lang: nl
+layout: content
+lang: en
+showHomeBtn: true
 title: Colofon
 ---
 
