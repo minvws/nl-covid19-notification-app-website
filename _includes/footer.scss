@@ -210,9 +210,7 @@
         position: relative;
         height: 10px;
         width: 10px;
-        background-color: #fff;
-        -webkit-mask: url(../img/chevron-right.svg) no-repeat 50% 50%;
-        mask: url(../img/chevron-right.svg) no-repeat 50% 50%;
+        background: url(../img/chevron-right-white.svg) no-repeat 50% 50%;
         transition: var(--transition-out);
         padding: 10px;
     }
