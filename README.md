@@ -4,7 +4,7 @@ About
 This repository contains the source files of the official website for the Dutch COVID-19 Notification App CoronaMelder and is available at [coronamelder.nl](https://coronamelder.nl)
 
 
-Goals of the website:
+Goals of the website
 ---------------------
 
 The main objective of coronamelder.nl is to activate Dutch citizens to download and use CoronaMelder to reduce COVID-19 infections. Therefore, the site meets the information needs of visitors. Mainly:
@@ -20,7 +20,7 @@ See also the [Requirements and design principles](https://github.com/minvws/nl-c
 
 
 Disclaimer
-------------------------------------
+-----------
 
 The design and development of the website started as a volunteering project [in the community](https://minvws.github.io/nl-covid19-notification-app-community-website/). The Ministry of Health, Welfare and Sport has built the current website on the foundation created by community members.
 
