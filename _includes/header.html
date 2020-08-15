@@ -25,7 +25,9 @@
         <h1>
           {{ site.data.translations.header-title[page.lang] }}
         </h1>
-        <h2 class="subtitle">{{ site.data.translations.header-subtitle[page.lang] }}</h2>
+        {%- if (site.data.translations.header-subtitle[page.lang] != '') -%}
+          <h2 class="subtitle">{{ site.data.translations.header-subtitle[page.lang] }}</h2>
+        {%- endif -%}
       </div>
       {% comment %}<!-- TODO See #61 <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->{% endcomment %}
     </div>
