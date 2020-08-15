@@ -5,6 +5,9 @@ title: Mandatory
 icon: book
 summary: Je gebruikt de app geheel vrijwillig. 
 lang: en
+categories:
+- en
+- statements
 ---
 
 <div class="expanded-box__header__icon">

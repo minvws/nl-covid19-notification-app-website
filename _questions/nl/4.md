@@ -4,8 +4,10 @@ index: 4
 set: 2
 title: Werkt de app veilig?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

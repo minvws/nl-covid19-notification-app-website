@@ -4,8 +4,10 @@ index: 1
 set: 1
 title: Waarom is CoronaMelder nodig?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

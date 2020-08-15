@@ -5,6 +5,9 @@ title: Wanneer krijg ik een melding?
 icon: bell
 summary: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft. 
 lang: nl
+categories:
+- nl
+- statements
 ---
 
 <div class="expanded-box__header__icon">

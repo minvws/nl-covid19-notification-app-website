@@ -5,6 +5,9 @@ title: Hoe helpt de app tegen corona?
 icon: heart
 summary: De CoronaMelder app waarschuwt als je in buurt bent geweest van iemand die corona heeft.
 lang: en
+categories:
+- en
+- statements
 ---
 
 <div class="expanded-box__header__icon">

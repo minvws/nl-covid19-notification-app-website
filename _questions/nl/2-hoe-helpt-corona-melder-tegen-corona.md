@@ -4,8 +4,10 @@ index: 2
 set: 1
 title: Hoe helpt CoronaMelder tegen corona?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

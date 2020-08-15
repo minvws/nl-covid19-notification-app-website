@@ -5,6 +5,9 @@ title: Wat moet ik doen als ik een melding krijg?
 icon: mobile-check
 summary: Je wordt geadviseerd thuis te blijven en je te laten testen.  
 lang: nl
+categories:
+- nl
+- statements
 ---
 
 <div class="expanded-box__header__icon">

@@ -5,6 +5,9 @@ title: Hoe helpt de app tegen corona?
 icon: heart
 summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 lang: nl
+categories:
+- nl
+- statements
 ---
 
 <div class="expanded-box__header__icon">

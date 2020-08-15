@@ -4,8 +4,10 @@ index: 7
 set: 2
 title: Loopt de batterij van mijn telefoon snel leeg door de app?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

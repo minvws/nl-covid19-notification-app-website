@@ -5,6 +5,9 @@ title: Hoe zit het met mijn Privacy?
 icon: privacy
 summary: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
 lang: nl
+categories:
+- nl
+- statements
 ---
 
 <div class="expanded-box__header__icon">

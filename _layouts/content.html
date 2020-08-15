@@ -17,24 +17,12 @@
   {% include header-slim.html %}
   <main class="content-center" id="content">
     {% if page.showHomeBtn %}
-      <p class="content-center__home">
-        <a href="{{ langSlug }}">
-          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
-        </a>
-      </p>
+      {% include breadcrumbs.html title=page.title %}
     {% endif %}
-
+    
     <div class="content-block">
       {{ content }}
     </div>
-
-    {% if page.showFaqBtn %}
-      <p class="content-center__home">
-        <a href="{{ langSlug }}/faq">
-          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-faq[page.lang] }} 
-        </a>
-      </p>
-    {% endif %}
 
   </main>
   {% include footer.html %}

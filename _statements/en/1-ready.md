@@ -5,6 +5,9 @@ title: When is the app ready?
 icon: calendar
 summary: Op 1 september is het voornemen om de app landelijk te lanceren.
 lang: en
+categories:
+- en
+- statements
 ---
 
 <div class="expanded-box__header__icon">
