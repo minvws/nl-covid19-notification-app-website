@@ -1,46 +1,31 @@
 About
 ---------------------
 
-This site is the project website of the Coronamelder app by the Dutch Ministry of Health at www.coronamelder.nl.
+This repository contains the source files of the official website for the Dutch COVID-19 Notification App CoronaMelder and is available at [coronamelder.nl](https://coronamelder.nl)
 
-- **Status:** [published](https://coronamelder.nl)
-- **Target audience:** the general public
-
-How to help
----------------------
-Please join the Slack channel and check out the [kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) for the latest status. 
-
-1. [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
-1. [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
-1. [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) (preview of `master` branch)
-1. Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/))
-1. Also see the [Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
 
 Goals of the website:
 ---------------------
 
-Before the app is finished, the main goal is to **inform** visitors:
+The main objective of coronamelder.nl is to activate Dutch citizens to download and use CoronaMelder to reduce COVID-19 infections. Therefore, the site meets the information needs of visitors. Mainly:
 
-* Goal 1: Provide a clear overview of which areas the team is working on / what the project status is.
-* Goal 2: Eliminate common misunderstandings such as:
-  * "The app will be launched no matter what, the government is ignoring all the pitfalls!" --> No, we're investigating and building concurrently
-  * "The government can access my contacts and track me all day" --> No, everything stays on your phone, the government can never technically access it. This is different for central solutions, but in NL we opted for a decentralized approach.
-  * "The screens look as if they are finished, the app will be launched tomorrow!" --> No, we are still investigating many things.
-* Goal 3: What will the app do? What is it? Why is an app necessary?
-* Goal 4: Make it clear that this is partly a community driven project. Everyone is allowed to contribute, criticize, etc.
-* Goal 5: Be transparant in our approach
-* Goal 6: Communicate clearly when the government will decide whether to actually roll out the app after it has been finished.
+- Explain why the app is needed, what the app does and how CoronaMelder works
+- Give answers to frequently asked questions about CoronaMelder and debunk misconceptions
+- Provide the current privacy statement, accessibility statement, colophon and version information of CoronaMelder
+- Refer to the iOS App Store and Android Google Play Store to install CoronaMelder on a smartphone
+- Offer contact channels for other questions about CoronaMelder
 
-After the app is finished a new goal is added:
-
-* Goal 7: **convince** people to download and use the app
+See also the [Requirements and design principles](https://github.com/minvws/nl-covid19-notification-app-website/blob/master/README.requirements.md) for the website.
 
 
-How this website came about (pinging journalists) 
+
+Disclaimer
 ------------------------------------
 
-There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via Github and Slack) from the traffic dashboard to what is now the project website-to-be. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)). 
-Please ping any of the people involved via Slack if you are interested in writing an article about this.
+The design and development of the website started as a volunteering project [in the community](https://minvws.github.io/nl-covid19-notification-app-community-website/). The Ministry of Health, Welfare and Sport has built the current website on the foundation created by community members.
+
+Do you want to get in touch with the people involved in designing and building the website? Join the [CodeForNL Slack](https://doemee.codefor.nl/) and go to the `#coronamelder-website` channel. Although the primary language used on the channel is Dutch you should feel free to join the conversation in English.
+
 
 ## Honorable mentions and gratitude 
 
@@ -48,10 +33,7 @@ Shout out to all volunteers that helped out, among which: Harrie Kuipers (projec
 
 Harrie, Bart, Cas and Laura have later been asked to finish the project on a paid basis. 
 
-Documentation
-------------------------------------
+## Development & Contribution process 
 
-- [Add, improve and remove content and translations](README.content-translations.md)
-- [Requirements and design principles](README.requirements.md)
-- [Develop with us (contribute and review)](README.development.md)
-  - [i18n (internationalization)](README.i18n.md)
+The development team works directly from this open-source repository. If you plan to propose changes, we recommend opening an issue beforehand where we can discuss your planned changes. This increases the chance that we’re able to use your contribution (or it avoids doing work if there are reasons why we wouldn't be able to use it).
+See also [Develop with us (contribute and review)](README.development.md) and [i18n (internationalization)](README.i18n.md)
