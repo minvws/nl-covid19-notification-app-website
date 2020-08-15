@@ -1,12 +1,20 @@
 ---
-index: 4
-title: Werkt de app veilig?
-icon: lock
-summary: De app wordt uitgebreid getest voordat je hem kunt downloaden.  
+layout: content-statements
+index: 3
+title: Wat moet ik doen als ik een melding krijg?
+icon: mobile-check
+summary: Je wordt geadviseerd thuis te blijven en je te laten testen.  
 lang: nl
 ---
 
-Ja, de app is veilig. Daar zorgen we voor:
+<div class="expanded-box__header__icon">
+  {% include graphics/{{ page.icon }}.svg %}
+</div>
+
+# {{ page.title }}
+{: .expanded-box__header__title}
+
+**Ja, de app is veilig. Daar zorgen we voor:**
 
 - De app gebruikt alleen willekeurige codes, geen persoonsgegevens. 
 - Je recht om de app vrijwillig te gebruiken, wordt beschermd. 

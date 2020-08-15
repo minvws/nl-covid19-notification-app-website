@@ -1,11 +1,11 @@
-head-social-og-site_name:
-  nl: De CoronaMelder app is in ontwikkeling
-  en: TBD
+head-app-name:
+  nl: CoronaMelder
+  en: CoronaMelder
 head-social-og-title:
   nl: De CoronaMelder app is in ontwikkeling
   en: TBD
 head-social-og-description:
-  nl: We krijgen het coronavirus steeds meer onder controle, maar het is er nog altijd. Dus is het belangrijk om alert te blijven. Daarom is er een app in ontwikkeling.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
   en: TBD
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
@@ -22,8 +22,8 @@ header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: De CoronaMelder app is in ontwikkeling
-  en: De CoronaMelder app is in ontwikkeling
+  nl: Voorkom verspreiding, download CoronaMelder
+  en: Voorkom verspreiding, download CoronaMelder
 header-subtitle:
   nl: 
   en:
@@ -150,6 +150,40 @@ differentlanguage:
 layout-template-home:
   nl: Home
   en: Home
+layout-template-faq:
+  nl: Terug naar alle veelgestelde vragen
+  en: F.A.Q
+layout-all-faq:
+  nl: Alle veelgestelde vragen
+  en: All frequently asked questions
+layout-template-close:
+  nl: Sluiten
+  en: Close
+
+info-lead:
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
+  en: TBD
+info-lead-title:
+  nl: Download de CoronaMelder app
+  en: TBD
+info-app-store-url:
+  nl: https://apps.apple.com/nl/app/id1517652429
+  en: https://apps.apple.com/nl/app/id1517652429
+info-google-play-url:
+  nl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  en: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+info-app-store-img:
+  nl: app-store-badge-nl.svg
+  en: app-store-badge-eng.svg
+info-google-play-img:
+  nl: google-play-badge-nl.svg
+  en: google-play-badge-eng.svg
+info-app-store-alt:
+  nl: Download in de App Store
+  en: Download from the App Store
+info-google-play-alt:
+  nl: Download in de Google play store
+  en: Download from the Google play store
 
 info-slider-title:
   nl: Dit is wat je kunt verwachten van de app
@@ -166,16 +200,18 @@ info-slider-btn-next-slide:
 info-slides:
   nl:
     -
+      image: graphic-app-logo
+      title: CoronaMelder
+    -
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
-        De app waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
-        Zo kunnen we samen de verspreiding stoppen.
+        CorornaMelder waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. Zo kunnen we samen de verspreiding stoppen.
     -
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
-        Dit gebeurt als je 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. Deze persoon moet ook de app gebruiken.
     -
       image: graphic-app-bluetooth
       title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
@@ -194,6 +230,9 @@ info-slides:
       content: |
         Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
   en:
+    -
+      image: graphic-app-logo
+      title: CoronaMelder
     -
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
@@ -244,6 +283,21 @@ footer-follow-instagram-url: TBD
 footer-follow-instagram:
   nl: Volg ons op Instagram
   en: Follow us on Instagram
+footer-phone:
+  nl: Heb je vragen over de CoronaMelder?
+  en: TBD
+footer-phone-action:
+  nl: Bel 0800-1280
+  en: TBD
+footer-phone-opening:
+  nl: Openingstijden
+  en: Opening hours
+footer-phone-opening-hours:
+  nl: Maandag t/m vrijdag 08.00 – 20.00 uur  
+  en: Maandag t/m vrijdag 08.00 – 20.00 uur
+footer-phone-opening-hours-weekend:
+  nl: Zaterdag en zondag 10.00 – 16.00 uur 
+  en: Zaterdag en zondag 10.00 – 16.00 uur
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
@@ -256,6 +310,12 @@ footer-more-info-url: https://rijksoverheid.nl
 footer-more-info:
   nl: Kijk op Rijksoverheid.nl
   en: Go to rijksoverheid.nl
+footer-misc-title:
+  nl: Over deze site
+  en: TBD?
+footer-contact-title:
+  nl: Contact
+  en: Contact
 
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
@@ -269,44 +329,52 @@ footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
   en: Logo GGD Nederland
-footer-misc-privacy-url: ./privacy
+footer-misc-privacy-url: privacy
 footer-misc-privacy:
   nl: Privacy
   en: Privacy
-footer-misc-disclaimer-url: ./disclaimer
+footer-misc-disclaimer-url: disclaimer
 footer-misc-disclaimer:
   nl: Disclaimer
   en: Disclaimer
 footer-misc-report-vulnerability-url: 
-  nl: ./kwetsbaarheid-melden
-  en: ./kwetsbaarheid-melden
+  nl: kwetsbaarheid-melden
+  en: kwetsbaarheid-melden
 footer-misc-report-vulnerability:
   nl: Kwetsbaarheid melden
   en: Report vulnerability
 footer-misc-contact-url: 
-  nl: ./contact
-  en: ./contact
+  nl: contact
+  en: contact
 footer-misc-contact:
   nl: Contact
   en: Contact
 footer-misc-about-corona-url: 
-  nl: ./over-corona
-  en: TBD
+  nl: over-corona
+  en: over-corona
 footer-misc-about-corona:
   nl: Over Corona
-  en: TBD
-footer-misc-cookies-url: ./cookies
+  en: About Corona
+footer-misc-cookies-url: cookies
 footer-misc-cookies:
   nl: Cookies
   en: Cookies
-footer-misc-colofon-url: ./colofon
+footer-misc-colofon-url: 
+  nl: colofon
+  en: colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
+footer-misc-pers-url: 
+  nl: pers
+  en: pers
+footer-misc-pers:
+  nl: Pers
+  en: Pers
 
 footer-misc-accessibility-statement-url:
-  nl: ./toegankelijkheidsverklaring
-  en: ./toegankelijkheidsverklaring
+  nl: toegankelijkheidsverklaring
+  en: toegankelijkheidsverklaring
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
   en: Accessibility statement
