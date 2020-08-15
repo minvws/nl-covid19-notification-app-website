@@ -26,10 +26,6 @@
         max-width: 350px;
         margin: 0 auto;
         transition: var(--transition-out);
-
-        @media(min-width: 740px) {
-            width: 312px;
-        }
     }
 
     &:hover {
