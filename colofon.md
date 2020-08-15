@@ -1,7 +1,7 @@
 ---
-layout: in-app-content
+layout: content
 lang: nl
-title: Colofon
+showHomeBtn: true
 ---
 
 {% include colofon-text.md %}
