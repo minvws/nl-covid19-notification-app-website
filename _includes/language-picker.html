@@ -17,8 +17,18 @@
         {% assign language = lang[1] %}
         <li class="language-picker__language">
           {%- if lang[0] != page.lang -%}
-          {%- assign lang_prefix = lang[0] -%}
-          {%- assign slug = page.url | replace_first: page.lang, '' | replace_first '//', '/'%}
+
+          {% assign url_size = page.url | remove:'/index.html' | split: '/' %}
+          {%- if page.error -%}
+            {%- assign lang_prefix = lang[0] -%}
+            {%- assign slug = '/404.html' %}
+          {%- elsif url_size.size > 2 -%}
+            {%- assign lang_prefix = lang[0] -%}
+            {%- assign slug = page.url | replace_first: page.lang, '' | replace_first '//', '/' | remove:'.html'%}
+           {%- else -%}
+            {%- assign lang_prefix = lang[0] -%}
+            {%- assign slug = '/' %}
+          {%- endif -%}
         
           <a class="language-picker__link"
             href="/{{ lang_prefix }}{{ slug }}"
