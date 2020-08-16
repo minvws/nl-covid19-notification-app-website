@@ -126,6 +126,10 @@
     font-size: 32px;
     margin-bottom: 0.5em;
     line-height: 1.4;
+
+    a {
+        color: #CA005D /* RO pink */;
+    }
 }
 
 .footer-opening-hours {
@@ -201,7 +205,7 @@
         color: #fff;
     }
 
-    a:before {
+    li > a:before {
         content: '';
         position: relative;
         height: 10px;

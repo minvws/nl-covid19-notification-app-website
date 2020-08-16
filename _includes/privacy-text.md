@@ -12,10 +12,6 @@ De centrale server stelt de DKs vervolgens beschikbaar, zodat deze automatisch k
 
 Als er een match is, wordt er op basis van een aantal weegfactoren bepaald of sprake is geweest van risicovol contact. Is dat het geval, met andere woorden bent u in de afgelopen tijd dichtbij een persoon geweest die besmet is met COVID-19, dan ontvangt u melding van uw verhoogde kans op besmetting. Ook geeft de app advies om u bij klachten te laten testen op besmetting met het virus.
 
-Zie ook de video
-['Hoe werkt CoronaMelder?'](https://www.youtube.com/watch?v=mk7ZNygVW1E&feature=youtu.be)
-op YouTube.
-
 ## De praktijktest
 
 De praktijktest start op 17 augustus en wordt uitgevoerd in samenwerking met de GGD-en van Twente, Drenthe, Gelderland Zuid, Noord-Oost Gelderland en IJsselland. Andere GGD-en werken tijdens de praktijktest nog niet met CoronaMelder. CoronaMelder is wel voor iedereen beschikbaar in de app stores. Je kan CoronaMelder daarom ook downloaden als je niet in het werkveld van en van deze praktijktest regio’s woont. Alleen gebruikers die in het werkveld van de deelnemende regio GGD-regio’s vallen kunnen de TEKs succesvol uploaden naar de centrale server. Hiervoor is namelijk een autorisatiecode nodig van de GGD-en. De overige werking van CoronaMelder blijft gelijk.

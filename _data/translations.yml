@@ -151,8 +151,8 @@ layout-template-home:
   nl: Home
   en: Home
 layout-template-faq:
-  nl: Terug naar alle veelgestelde vragen
-  en: Back to all frequently asked questions
+  nl: Terug naar veelgestelde vragen
+  en: Back to frequently asked questions
 layout-all-faq:
   nl: Alle veelgestelde vragen
   en: All frequently asked questions
@@ -286,7 +286,7 @@ footer-follow-instagram:
   en: Follow us on Instagram
 footer-phone:
   nl: Heb je vragen over de CoronaMelder?
-  en: Do you have any questions about the CoronaMelder app? 
+  en: Do you have any questions about the CoronaMelder app?
 footer-phone-action:
   nl: Bel <a href="tel:0800-1280">+318001280</a>
   en: Call <a href="tel:0800-1280">+318001280</a>
@@ -295,25 +295,25 @@ footer-phone-opening:
   en: Opening hours
 footer-phone-opening-hours:
   nl: Maandag t/m vrijdag 08.00 – 20.00 uur  
-  en: Monday till friday 08.00 – 20.00 uur
+  en: Monday till friday 08.00 a.m. 08.00 p.m.
 footer-phone-opening-hours-weekend:
   nl: Zaterdag en zondag 10.00 – 16.00 uur 
-  en: Saturday and sunday 10.00 – 16.00 h
+  en: Saturday and sunday 10.00 a.m. – 04.00 p.m
 
 footer-logos-info_md:
-  nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
-  en: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
+  nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> en de <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
+  en: The CoronaMelder app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is being done in collaboration with the <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> and the <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
 
 footer-more-info-title:
   nl: Meer informatie?
   en: More information?
 footer-more-info-url: https://rijksoverheid.nl
 footer-more-info:
-  nl: Kijk op Rijksoverheid.nl
-  en: Go to rijksoverheid.nl
+  nl: Kijk op rijksoverheid.nl
+  en: Go to government.nl
 footer-misc-title:
-  nl: Over deze site
-  en: About this website
+  nl: Over CoronaMelder
+  en: About CoronaMelder
 footer-contact-title:
   nl: Contact
   en: Contact
@@ -379,3 +379,14 @@ footer-misc-accessibility-statement-url:
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
   en: Accessibility statement
+
+error-title:
+    nl: Deze pagina kan helaas niet worden gevonden
+    en: This page can't be found
+error-back-to-home-page:
+  nl: Ga terug naar de hoofdpagina coronamelder.nl
+  en: Back to the homepage coronamelder.nl
+error-back-to-faq:
+  nl: Ga naar veelgestelde vragen
+  en: Ga to frequently asked questions
+  

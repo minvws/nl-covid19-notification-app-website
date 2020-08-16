@@ -11,4 +11,4 @@ If you have discovered a weakness or a vulnerability on this website, please rep
 
 Together with the NCSC we will look at the issue and will try to solve this as soon as possible. 
 
-Click here to report a [vulnerability](https://english.ncsc.nl/report-vulnerability).
+Click [here](https://english.ncsc.nl/report-vulnerability) to report a vulnerability.
