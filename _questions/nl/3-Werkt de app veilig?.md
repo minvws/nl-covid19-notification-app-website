@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 2
+index: 3
 set: 2
 title: Werkt de app veilig?
 lang: nl
