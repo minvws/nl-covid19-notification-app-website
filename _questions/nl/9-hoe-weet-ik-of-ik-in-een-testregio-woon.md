@@ -12,7 +12,7 @@ showHomeBtn: true
 
 # {{ page.title }}
 
-Bekijk hier of je in een gemeente woont van deze testregio’s:
+Bekijk [hier]() of je in een gemeente woont van deze testregio’s:
 -  	GGD Drenthe
 -  	GGD Gelderland-Zuid
 -  	GGD IJsselland
