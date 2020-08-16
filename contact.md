@@ -3,7 +3,6 @@ layout: content
 lang: nl
 showBreadCrumbs: true
 title: Contact
-permalink: /contact
 ---
 
 # Contact
