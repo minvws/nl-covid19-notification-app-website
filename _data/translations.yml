@@ -379,3 +379,14 @@ footer-misc-accessibility-statement-url:
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
   en: Accessibility statement
+
+error-title:
+    nl: Deze pagina kan helaas niet worden gevonden
+    en: This page can't be found
+error-back-to-home-page:
+  nl: Ga terug naar de hoofdpagina coronamelder.nl
+  en: Back to the homepage coronamelder.nl
+error-back-to-faq:
+  nl: Ga naar veelgestelde vragen
+  en: Ga to frequently asked questions
+  
