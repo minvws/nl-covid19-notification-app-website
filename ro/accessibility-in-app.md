@@ -1,20 +1,23 @@
 ---
 layout: in-app-content
 lang: en
-title: Toegankelijkheid
+title: Accessibility
 ---
 
-# Toegankelijkheid
+# Accessibility
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-  De CoronaMelder-app moet toegankelijk zijn voor iedereen. Vanaf het eerste ontwerp is daar met behulp van experts en ervaringsdeskundigen rekening mee gehouden. Toch kan het zo zijn dat de app misschien niet goed toegankelijk is. Kun je de app niet goed gebruiken? Meld dat dan via <a href="mailto:liaison@minvws.nl">liaison@minvws.nl</a>.
+  The CoronaMelder app should be accessible to everyone. From its very first design accessibility has been taken into account, with the help of experts and experience experts. Yet the app might not be as accessible to you. Are you unable to use the app well? Let us know by emailing <a href="mailto:liaison@minvws.nl">liaison@minvws.nl</a>.
 </p>
 
-De CoronaMelder-app volgt de Web Content Accessibility Guidelines (WCAG) 2.1 op niveau AA zoals opgenomen in Europese standaard EN 301 549. Als deze Europese standaard wordt bijgewerkt met specifieke richtlijnen voor mobiele applicaties, zullen we deze volgen.
+The CoronaMelder app follows the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2018/REC-WCAG21-20180605/) on level AA as set out in the European standard EN 301 549. If this European standard is updated with specific guidelines for mobile applications, we will follow them.
 
-## Hoe we zorgen voor een toegankelijke CoronaMelder?
+Find detailed information about the app's accessibility in our accessibility statement.
 
-- In het team dat de app bouwt zijn mensen opgenomen die veel ervaring hebben met digitale toegankelijkheid
-- In het ontwerp van de app is rekening gehouden met toegankelijkheid. Zo is waar een tekstalternatief voor afbeeldingen gebruikt en is er gelet op het gebruik van kleur en kleurcontrast
-- Er zijn veel gebruikerstests gedaan, ook met mensen die een functiebeperking hebben. De resultaten hiervan zijn verwerkt in de app
-- De toegankelijkheid van de app is zowel door het team als een onafhankelijke partij getest
+## How do we ensure CoronaMelder is accessible?
+
+- The team who builds the app includes people with a great deal of experience with digital accessibility
+- For the app's design, accessibility has been taken into account. For example, where necessary, a text alternative for images is used and colour use and colour contrast have been kept in mind
+- During development, the app was regularly tested for accessibility
+- Many user tests have been conducted, many of which have included people with a functional disability. The results have been incorporated into the app
+- The app's accessibility has been tested both by the team and by an independent party
