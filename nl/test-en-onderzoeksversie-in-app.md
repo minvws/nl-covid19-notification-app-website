@@ -1,17 +1,17 @@
 ---
 layout: in-app-content
 lang: nl
-title: Research version
+title: Onderzoeksversie
 ---
 
-# Research version
+# Onderzoeksversie
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-    You're one of the first people in The Netherlands to use CoronaMelder
+    Je bent een van de eersten in Nederland met CoronaMelder
 </p>
 
-Until September 1, you can only get notifications from people tested for coronavirus by the GGD in the IJsselland, Noord- and Oost-Gelderland, Gelderland-Midden, Gelderland-Zuid, Drenthe and Twente regions.
+Je kunt tot 1 september alleen meldingen krijgen van mensen die zijn getest op corona bij de GGD in de regio’s IJsselland, Noord- en Oost-Gelderland, Gelderland-Midden, Gelderland-Zuid, Drenthe en Twente.
 
-From September 1, anyone who's been tested by the GGD and found to have coronavirus can decide to warn others using CoronaMelder. As long as those people use the app too, of course. 
+Vanaf 1 september kan iedereen die getest is door de GGD en corona heeft beslissen om anderen te waarschuwen via CoronaMelder. Zolang ze natuurlijk de app hebben.
 
-It's smart of you to have downloaded the app so quickly. This way, you'll immediately help to stop the spread of the coronavirus.
+Het is slim dat je de app zo snel gedownload hebt. Zo help je direct om de verspreiding van corona te stoppen.
