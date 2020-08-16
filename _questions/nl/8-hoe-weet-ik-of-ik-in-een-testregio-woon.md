@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 8
+index: 9
 set: 3
 title: Hoe weet ik of ik in een testregio woon?
 lang: nl
