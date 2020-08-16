@@ -46,7 +46,7 @@ title: Veelgestelde vragen
 </div>
 
 
-## Testregios's Twente en Drenthe
+## Testregios's 
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
