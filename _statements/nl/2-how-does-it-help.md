@@ -17,8 +17,7 @@ categories:
 # {{ page.title }}
 {: .expanded-box__header__title}
 
-**We mogen elkaar weer vaker zien. We zien familie, vrienden en collega’s meer. Maar het coronavirus is nog niet weg. Met de CoronaMelder app voorkom je dat je het virus onbewust op anderen overdraagt als je nog geen klachten hebt.**
-
-Lees meer over hoe de app het bron en contactonderzoek aanvult op [de website van de Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-werkt-de-corona-app).
-
+Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.
+ 
+Als je via de app een waarschuwing krijgt, kun je contact opnemen met de GGD om je te laten testen en blijf je thuis. Zo voorkom je dat je bijvoorbeeld je (groot)ouders besmet. Of dat je het virus verspreidt op een drukke plek, zoals de markt of een sportevenement. 
 
