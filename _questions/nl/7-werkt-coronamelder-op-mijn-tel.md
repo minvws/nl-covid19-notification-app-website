@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 6
+index: 7
 set: 2
 title: Werkt CoronaMelder ook op mijn telefoon?
 lang: nl

@@ -3,7 +3,7 @@ layout: content-statements
 index: 3
 title: Wat moet ik doen als ik een melding krijg?
 icon: mobile-check
-summary: Je wordt geadviseerd thuis te blijven en je te laten testen.  
+summary: Je wordt geadviseerd thuis te blijven en je te laten testen tijdens deze proefperiode in de testregio’s.  
 lang: nl
 categories:
 - nl
