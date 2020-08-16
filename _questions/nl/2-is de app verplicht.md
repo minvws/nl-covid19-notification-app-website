@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 1
+index: 2
 set: 2
 title: Is de app verplicht?
 lang: nl
