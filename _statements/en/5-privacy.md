@@ -1,9 +1,9 @@
 ---
 layout: content-statements
 index: 5
-title: Hoe zit het met mijn privacy?
+title: What about my privacy?
 icon: privacy
-summary: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+summary: The app does not know your location, name, e-mail address, phone number or other contact details. The app does not need this information in order to work.
 lang: nl
 categories:
 - nl
@@ -17,7 +17,7 @@ categories:
 # {{ page.title }}
 {: .expanded-box__header__title}
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+The app exchanges random codes with other phones. These codes do not contain any personal information about you, or any information about your location. The app does not know where you are, or who you are.
+
+Even if you test positive for coronavirus and you report this in the app, this information can never be linked to your name or contact details. And you are also completely free to choose whether you want to use the app or not.
 
