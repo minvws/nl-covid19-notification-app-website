@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 2
-title: Hoe helpt CoronaMelder tegen corona?
+title: Is de app verplicht?
 lang: nl
 showHomeBtn: true
 showFaqBtn: true
