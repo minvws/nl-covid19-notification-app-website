@@ -248,20 +248,20 @@ info-slides:
       image: graphic-app-bluetooth
       title: The CoronaMelder app uses Bluetooth, <br> <u>not</u> location data
       content: |
-        The app detects people who are near you using Bluetooth. 
-        The closer you are to the other person, the stronger the Bluetooth signal is. 
-        The app does not know where you are, or who you are.
+        Using Bluetooth, the app sees if you've been near someone. 
+        The closer you've been, the stronger the Bluetooth signal. 
+        The app doesn't know who you are or where you've been.
     -
       image: graphic-bicycle
-      title: <span class="md-highlight">Voorbeeld</span><br> Imagine someone cycles past you in the street. You will not get a notification if that person later tests positive.
+      title: <span class="md-highlight">Example</span><br> Did someone cycle past you? Then you will not get a notification later.
 
       content: |
-        That’s because the Bluetooth signal was not strong enough, because you were not close enough to that person. And also because you were only near them for a short time, so the chance of infection was very low.
+        The Bluetooth signal was strong because you were near each other. But only for a very short time. This means your risk of infection is very low.
     -
       image: graphic-train
-      title: <span class="md-highlight">Voorbeeld</span><br> Imagine you are sitting near to someone in the train. You could get a notification if that person later tests positive.
+      title: <span class="md-highlight">Example</span><br> Did you sit near someone on the train? You could get a notification later.
       content: |
-        That’s because the Bluetooth signal was strong enough, and because you were near that person for a longer period of time.
+        The Bluetooth signal was strong enough and you were near each other for a longer period of time.
 
 # Footer translations
 
