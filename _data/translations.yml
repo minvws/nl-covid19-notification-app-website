@@ -288,8 +288,8 @@ footer-phone:
   nl: Heb je vragen over de CoronaMelder?
   en: Do you have any questions about the CoronaMelder app? 
 footer-phone-action:
-  nl: Bel 0800-1280
-  en: Call 0800-1280
+  nl: Bel <a href="tel:0800-1280">+318001280</a>
+  en: Call <a href="tel:0800-1280">+318001280</a>
 footer-phone-opening:
   nl: Openingstijden
   en: Opening hours
