@@ -10,7 +10,7 @@ title: Veelgestelde vragen
 
 {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
-## Hoe de app helpt tegen corona?
+## Hoe de app helpt tegen corona
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
