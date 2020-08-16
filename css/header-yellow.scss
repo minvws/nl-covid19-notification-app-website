@@ -12,6 +12,7 @@
 
     @media(min-width: 960px) {
         background-image: none;
+        overflow: hidden;
 
         &::before {
             bottom: 0;

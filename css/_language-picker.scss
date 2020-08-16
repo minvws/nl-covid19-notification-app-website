@@ -10,9 +10,15 @@
     &:hover {
         background-color: rgba($color-RO_donkerblauw--interaction, 1);
         color: #fff;
-        transition: background-color var(--transition-in), color var(--transition-in);
+        transition: color var(--transition-in), color var(--transition-in), top var(--transition-in);
+    }
+
+    &.open {
+        top: 10px;
     }
 }
+
+
 
 .content-error .language-picker {
     top: -26px;

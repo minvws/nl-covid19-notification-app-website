@@ -13,12 +13,14 @@
 		button.setAttribute('aria-expanded', ariaExpanded);
 
 		if (ariaExpanded) {
+			languagePicker.classList.add("open");
 			document.documentElement
 				.addEventListener('keydown', escapeKeydownHandler, true);
 			document.documentElement
 				.addEventListener('click', outsideClickHandler, true);
 			firstInteractive.focus();
 		} else {
+			languagePicker.classList.remove("open");
 			document.documentElement
 				.removeEventListener('keydown', escapeKeydownHandler, true);
 			document.documentElement
