@@ -1,9 +1,9 @@
 ---
 layout: content-statements
 index: 2
-title: Hoe helpt de app tegen corona?
+title: How will the app help to stop coronavirus?
 icon: heart
-summary: CoronaMelder waarschuwt nadat je in de buurt bent geweest van iemand die corona heeft.
+summary: The CoronaMelder will warn you if you have been near someone with coronavirus.
 lang: nl
 categories:
 - nl
@@ -17,7 +17,7 @@ categories:
 # {{ page.title }}
 {: .expanded-box__header__title}
 
-Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.
- 
-Als je via de app een waarschuwing krijgt, kun je contact opnemen met de GGD om je te laten testen en blijf je thuis. Zo voorkom je dat je bijvoorbeeld je (groot)ouders besmet. Of dat je het virus verspreidt op een drukke plek, zoals de markt of een sportevenement. 
+You can pass coronavirus on to other people even if you do not have symptoms. The earlier you find out that you have (or could have) coronavirus, the easier it is to make sure you do not pass it on to other people. The CoronaMelder app helps you do this. 
+
+If you receive a notification through the app, you are advised to stay at home. That will stop you from passing coronavirus on to your parents or grandparents, for example. And that you will not spread the virus in crowded places, such as at a market or a sports event.  
 
