@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 4
+index: 5
 set: 2
 title: Hoe meet CoronaMelder de afstand tot andere gebruikers van de app?
 lang: nl
