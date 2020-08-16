@@ -28,8 +28,8 @@ categories:
 </div>
 
 <details>
-   <summary>Wanneer krijg ik een melding?</summary>
-   <div markdown="1">
+<summary>Wanneer krijg ik een melding?</summary>
+<div markdown="1">
 Je krijgt een waarschuwing als:
 
 - Iemand via de corona-app aangeeft het coronavirus te hebben,
@@ -40,23 +40,23 @@ Dus fietste die andere persoon voorbij? Dan krijg je **geen** melding. Jullie wa
 
 Zat je naast die persoon in de trein? Dan kun je **later** een melding krijgen. Als het Bluetooth-signaal sterk genoeg was, zaten jullie dicht bij elkaar. Dan is er kans op besmetting.
 
-  </div>
+</div>
 </details>
 
 <details>
-   <summary>Ik heb een melding gekregen, wat nu?</summary>
-   <div markdown="1">
+<summary>Ik heb een melding gekregen, wat nu?</summary>
+<div markdown="1">
 Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. 
 
 Bel gratis 0800-1202 om gratis een coronatest aan te vragen.
 
-  </div>
+</div>
 </details>
 
 <details>
-   <summary>Ik ben positief getest op corona, wat nu?</summary>
-   <div markdown="1">
+<summary>Ik ben positief getest op corona, wat nu?</summary>
+<div markdown="1">
 Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. Zo kun je anderen waarschuwen. De ontvanger ziet niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
 
-  </div>
+</div>
 </details>
