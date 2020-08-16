@@ -56,9 +56,6 @@
 }
 
 .breadcrumbs {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-
     &.disabled {
         color: #333;
     }
