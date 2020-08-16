@@ -4,9 +4,9 @@ index: 3
 title: What should I do if I get a notification?
 icon: mobile-check
 summary: If you get a notification, you are advised to stay at home and get tested for coronavirus.  
-lang: nl
+lang: en
 categories:
-- nl
+- en
 - statements
 ---
 
