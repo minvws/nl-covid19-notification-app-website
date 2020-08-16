@@ -1,7 +1,7 @@
 ---
 layout: content
 lang: en
-showHomeBtn: true
+showBreadCrumbs: true
 title: Cookies
 ---
 

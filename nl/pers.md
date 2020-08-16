@@ -1,7 +1,7 @@
 ---
 layout: content
 lang: nl
-showHomeBtn: true
+showBreadCrumbs: true
 title: Informatie voor de pers
 vwsLink: https://www.rijksoverheid.nl/persinformatie-ministerie-van-vws/woordvoerders
 ---

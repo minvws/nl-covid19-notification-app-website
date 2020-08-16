@@ -7,7 +7,8 @@ lang: en
 categories:
 - en
 - faq
-showHomeBtn: true
+showBreadCrumbs: true
+showContact: true
 ---
 
 # {{ page.title }}

@@ -1,7 +1,8 @@
 ---
 layout: content
 lang: en
-showHomeBtn: true
+showBreadCrumbs: true
+showContact: true
 title: Frequently asked questions
 ---
 

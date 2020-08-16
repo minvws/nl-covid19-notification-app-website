@@ -1,7 +1,8 @@
 ---
 layout: content
 lang: nl
-showHomeBtn: true
+showBreadCrumbs: true
+showContact: true
 title: Veelgestelde vragen
 ---
 
