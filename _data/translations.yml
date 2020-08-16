@@ -151,8 +151,8 @@ layout-template-home:
   nl: Home
   en: Home
 layout-template-faq:
-  nl: Terug naar alle veelgestelde vragen
-  en: Back to all frequently asked questions
+  nl: Terug naar veelgestelde vragen
+  en: Back to frequently asked questions
 layout-all-faq:
   nl: Alle veelgestelde vragen
   en: All frequently asked questions
