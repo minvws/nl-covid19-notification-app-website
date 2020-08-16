@@ -5,6 +5,9 @@ title: How does it work
 icon: app-touch
 summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 lang: en
+categories:
+- en
+- statements
 ---
 
 <div class="expanded-box__header__icon">

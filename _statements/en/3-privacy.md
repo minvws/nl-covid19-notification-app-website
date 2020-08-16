@@ -5,6 +5,9 @@ title: Privacy
 icon: privacy
 summary: De app werkt zonder persoonsgegevens of locatiegegevens.
 lang: en
+categories:
+- en
+- statements
 ---
 
 <div class="expanded-box__header__icon">

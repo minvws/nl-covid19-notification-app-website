@@ -4,8 +4,10 @@ index: 8
 set: 3
 title: Ik woon in een testregio hoe kan ik CoronaMelder nu al gebruiken?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

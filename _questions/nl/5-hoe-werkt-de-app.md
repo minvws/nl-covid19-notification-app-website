@@ -4,8 +4,10 @@ index: 6
 set: 2
 title: Hoe werkt de app technisch precies?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

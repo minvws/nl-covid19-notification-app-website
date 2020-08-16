@@ -4,8 +4,10 @@ index: 3
 set: 2
 title: Is de app verplicht?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

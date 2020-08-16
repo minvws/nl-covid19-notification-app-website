@@ -4,8 +4,10 @@ index: 8
 set: 3
 title: Hoe weet ik of ik in een testregio woon?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

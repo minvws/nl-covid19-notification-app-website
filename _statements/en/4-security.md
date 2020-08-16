@@ -5,6 +5,9 @@ title: Is the app save
 icon: lock
 summary: De app wordt uitgebreid getest voordat je hem kunt downloaden.  
 lang: en
+categories:
+- en
+- statements
 ---
 
 <div class="expanded-box__header__icon">

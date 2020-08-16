@@ -4,8 +4,10 @@ index: 1
 set: 1
 title: Why do we need coronaMelder
 lang: en
+categories:
+- en
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

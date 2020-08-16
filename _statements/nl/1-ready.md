@@ -5,6 +5,9 @@ title: Kan ik de app al gebruiken?
 icon: calendar
 summary: Ja, en in Twente en Drenthe kun je met de app ook anderen waarschuwen als je corona hebt.
 lang: nl
+categories:
+- nl
+- statements
 ---
 
 <div class="expanded-box__header__icon">

@@ -4,8 +4,10 @@ index: 6
 set: 2
 title: Werkt CoronaMelder ook op mijn telefoon?
 lang: nl
+categories:
+- nl
+- faq
 showHomeBtn: true
-showFaqBtn: true
 ---
 
 # {{ page.title }}

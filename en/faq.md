@@ -2,9 +2,10 @@
 layout: content
 lang: en
 showHomeBtn: true
+title: Frequently asked questions
 ---
 
-# Veelgestelde vragen
+# {{ page.title }}
 
 
 {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
