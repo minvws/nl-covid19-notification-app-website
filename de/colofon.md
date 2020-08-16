@@ -2,7 +2,5 @@
 layout: content
 lang: en
 showHomeBtn: true
-title: Colofon
+title: Colophon
 ---
-
-{% include colofon-text-en.md %}
