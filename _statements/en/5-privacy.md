@@ -4,9 +4,9 @@ index: 5
 title: What about my privacy?
 icon: privacy
 summary: The app does not know your location, name, e-mail address, phone number or other contact details. The app does not need this information in order to work.
-lang: nl
+lang: en
 categories:
-- nl
+- en
 - statements
 ---
 
