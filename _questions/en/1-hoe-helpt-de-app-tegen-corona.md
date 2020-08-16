@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 1
-title: Why do we need coronaMelder
+title: Why is the CoronaMelder app needed?
 lang: en
 categories:
 - en
@@ -12,4 +12,4 @@ showHomeBtn: true
 
 # {{ page.title }}
 
-Op 1 september is het voornemen om de app landelijk te lanceren. Tot dat moment testen we de veiligheid en toegankelijkheid van de app. Met de testresultaten verbeteren we de app steeds verder.
+The app is designed to support the contact tracing work being done by the GGD. It allows people with no symptoms to be warned that they could have been infected. This means that users of the app can avoid passing the virus on to other people.
