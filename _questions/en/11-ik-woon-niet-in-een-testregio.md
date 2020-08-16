@@ -2,7 +2,7 @@
 layout: content
 index: 11
 set: 3
-title: I don’t live in the trial region: how can I start using the CoronaMelder app?
+title: I don’t live in the trial region how can I start using the CoronaMelder app?
 lang: en
 categories:
 - en
