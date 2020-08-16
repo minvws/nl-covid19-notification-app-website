@@ -5,4 +5,4 @@ showHomeBtn: true
 title: Colofon
 ---
 
-{% include colofon-text.md %}
+{% include colofon-text-en.md %}
