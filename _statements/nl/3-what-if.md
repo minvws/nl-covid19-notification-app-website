@@ -17,12 +17,11 @@ categories:
 # {{ page.title }}
 {: .expanded-box__header__title}
 
-**Ja, de app is veilig. Daar zorgen we voor:**
-
-- De app gebruikt alleen willekeurige codes, geen persoonsgegevens. 
-- Je recht om de app vrijwillig te gebruiken, wordt beschermd. 
-- Deskundigen binnen en buiten de overheid helpen mee om de app te bouwen. 
-- De app wordt uitgebreid getest voordat je ‘m kunt downloaden.
-
-Lees meer over de veiligheid van de app op [de website van de Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-zorgt-de-overheid-ervoor-dat-de-corona-app-veilig-is).
+Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
+ 
+Als je thuisblijft, is de kans klein dat je dan ook anderen besmet.
+ 
+Zeven dagen na de ontmoeting waarover de melding ging, kun je je tijdens deze proefperiode in de testregio’s laten testen op corona. Ook als je (nog) geen klachten hebt. Heb je al eerder klachten? Laat je dan ook eerder testen.
+ 
+Bel 0800-1202 om gratis een coronatest aan te vragen.
 
