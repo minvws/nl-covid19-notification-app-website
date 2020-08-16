@@ -7,12 +7,13 @@ lang: nl
 categories:
 - nl
 - faq
-showHomeBtn: true
+showBreadCrumbs: true
+showContact: true
 ---
 
 # {{ page.title }}
 
-Bekijk [hier](..) of je in een gemeente woont van deze testregio’s:
+Bekijk [hier](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) of je in een gemeente woont van deze testregio’s:
 -  	GGD Drenthe
 -  	GGD Gelderland-Zuid
 -  	GGD IJsselland

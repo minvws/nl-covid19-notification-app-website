@@ -7,7 +7,8 @@ lang: nl
 categories:
 - nl
 - faq
-showHomeBtn: true
+showBreadCrumbs: true
+showContact: true
 ---
 
 # {{ page.title }}
@@ -24,11 +25,10 @@ Blijk je zelf corona te hebben?
 -    	In deze melding staat alleen op welke dag ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.
  
 Zo helpt de app om elkaar te beschermen tegen corona. Dit kan nu in vijf GGD-regio’s:
-·  	Drenthe
-·  	Gelderland-Zuid
-·  	IJsselland
-·  	Noord- en Oost-Gelderland
-·  	Twente
+- Drenthe
+- Gelderland-Zuid
+- IJsselland
+- Noord- en Oost-Gelderland
+- Twente
  
-Lees meer over hoe de app helpt tegen corona op [de website van de Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-werkt-de-corona-app).
 

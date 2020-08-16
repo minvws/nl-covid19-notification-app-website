@@ -7,7 +7,8 @@ lang: nl
 categories:
 - nl
 - faq
-showHomeBtn: true
+showBreadCrumbs: true
+showContact: true
 ---
 
 # {{ page.title }}
@@ -15,5 +16,3 @@ showHomeBtn: true
 Heb je een coronatest gedaan, en blijk je corona te hebben? Dan neemt een GGD-medewerker contact met je op.
 Wil je ook anderen waarschuwen? Dan deel je vrijwillig je GGD-sleutel. Deze vind je in de app. Zo kunnen alleen mensen die écht besmet zijn een melding versturen.
  
-Wil je meer weten?
-Lees meer over de praktijktest met CoronaMelder op [de website van Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-wordt-de-corona-app-getest-voordat-deze-beschikbaar-wordt). 

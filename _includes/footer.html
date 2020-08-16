@@ -1,6 +1,7 @@
 <footer>
-
-    {% include footer-phone.html %}
+    {% if page.showContact  %}
+        {% include footer-phone.html %}
+    {% endif %}
     
     {% if page.showTogether  %}
     <div class="footer-samen {{ small }}">
@@ -55,11 +56,6 @@
                     <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
                     <ul>
                         <li><a href="{{ site.data.translations.footer-more-info-url }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
-                    </ul>
-                    <h3>{{ site.data.translations.footer-contact-title[page.lang] }}</h3>
-                    <ul>
-                    <li> {{ site.data.translations.footer-phone[page.lang] }} </li>
-                    <li>{{ site.data.translations.footer-phone-action[page.lang] }}</li>
                     </ul>
                 </div>
     

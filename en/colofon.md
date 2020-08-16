@@ -1,5 +1,5 @@
 ---
-layout: in-app-content
+layout: content
 lang: en
 title: Colophon
 ---
@@ -25,7 +25,7 @@ help discover any potential vulnerabilities.
 
 - Aside from the authors of the various open source, 3rd-party libraries, we
   have received contributions from
-  [many others](https://github.com/minvws/nl-covid19-notification-app-design/blob/master/%E2%9D%A4%EF%B8%8F).
+  [many others](https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F).
 
 ## Application Licences, Terms & Conditions and Disclaimers
 
