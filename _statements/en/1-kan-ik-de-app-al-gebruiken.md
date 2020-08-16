@@ -4,9 +4,9 @@ index: 1
 title: Can I use the app already?
 icon: calendar
 summary: Yes, and in some regions of the Netherlands you can already use the app to warn other people if you test positive for coronavirus.
-lang: nl
+lang: en
 categories:
-- nl
+- en
 - statements
 ---
 
