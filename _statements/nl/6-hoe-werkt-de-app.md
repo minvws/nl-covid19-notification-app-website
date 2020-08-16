@@ -68,4 +68,3 @@ Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de 
 </div>
 </details>
 
-**Verder vind je een overzicht van klachten die passen bij het coronavirus en informatie over de coronatest. Je kunt direct vanuit de app een afspraak maken voor een coronatest.**
