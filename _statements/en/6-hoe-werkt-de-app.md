@@ -1,12 +1,12 @@
 ---
 layout: content-statements
 index: 6
-title: Hoe werkt de app
+title: How does the app work
 icon: app-touch
-summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
-lang: nl
+summary: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period
+lang: en
 categories:
-- nl
+- en
 - statements
 ---
 
@@ -17,22 +17,22 @@ categories:
 # {{ page.title }}
 {: .expanded-box__header__title}
 
-**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
+**The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it..** 
 
 <div class="md-timeline" markdown="1">
-1. De app ziet via bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
-2. Hoe sterker het signaal, hoe dichterbij je was.
-3. De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens. De app weet niet wie jij bent, wie de ander is of waar jullie zijn.
-4. Als je in de buurt bent geweest van iemand met het coronavirus en die de app heeft, krijg je later een melding van de app.
-5. Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. **In deze melding staat alleen wanneer ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.**
+1. The app uses Bluetooth to detect other people who are around you, as long as they have the app too.
+2. The closer you are to the other person, the stronger the Bluetooth signal is.
+3. You do not need to enter your location, name, e-mail address, telephone number or any other contact details in order for the app to work. The app does not know who youare, who the other person is, or your location.
+4. If you have been near someone with the app who later tests positive for coronavirus, the app will alert you of this.
+5. If you test positive for coronavirus yourself, you can also choose to add this information to the app. This is voluntary. If you do this, the app will then alert all the other app users you have been near. The alert will only tell them the day on which they were near somebody who has tested positive. It does not tell them who that person was, or where they were at the time
 </div>
 
 <details>
-   <summary>Wanneer krijg ik een melding?</summary>
+   <summary>My coronavirus test is positive. What happens now?</summary>
    <div markdown="1">
-Als je positief getest bent op corona in een testregio, dan kun je dit vrijwillig aangeven in de app, samen met de GGD. Als een GGD-medewerker je belt met de testuitslag, vraagt deze jou dan ook of je anderen wilt waarschuwen via de app. Als je hiervoor kiest, ziet de ontvanger niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
 
-Bekijk hier of je in een gemeente woont van deze testregio's:
+If you have tested positive for coronavirus in one of the trial regions, you can add this information to the app,together with the GGD. . If an employee of the GGD calls you with the test result, they will ask you if want to warn other people via the app. If you choose this 
+option the receiver can’t see who you are or on which location you were near each other.You can decide whether these notifications are sent. This is not compulsory, and it is not automatic.
 
 - GGD Drenthe
 - GGD Gelderland-Zuid
@@ -45,27 +45,18 @@ Bekijk hier of je in een gemeente woont van deze testregio's:
 </details>
 
 <details>
-<summary>Wat staat er in de waarschuwing?</summary>
+<summary>What information is in the notification?</summary>
 <div markdown="1">
 
-In de melding staat hoeveel dagen geleden je dicht bij iemand was die later corona bleek te hebben. Het is niet bekend wie dat was, waar of wanneer precies.
+The notification will say how many days ago you were around somebody who has tested positive for coronavirus. The notification does not say who that person was, and it does not say where or exactly when you were near them.
 
-**Je krijgt ook advies over wat je het beste kunt doen tijdens deze proefperiode in de testregio’s**
+**The notification also includes advice on what to do next**
 
--   	Heb je geen klachten? Doe een coronatest en blijf thuis tot je de uitslag weet
--   	Heb je (lichte)klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet
--   	Heb je ernstige klachten of zit je in een risicogroep? Bel je huisarts.
+-   	If you have no symptoms: arrange a coronavirus test and stay at home until you get the result
+-   	If you have mild symptoms of coronavirus: arrange a coronavirus test and stay at home until you get the resul
+-   	If you have serious symptoms, or you are in a higher-risk group: call your doctor. 
 
 </div>
 </details>
 
-<details>
-<summary>Ik ben positief getest op corona, wat nu?</summary>
-<div markdown="1">
-
-Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. Zo kun je anderen waarschuwen. De ontvanger ziet niet wie je bent of waar er contact  is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
-
-</div>
-</details>
-
-**Verder vind je een overzicht van klachten die passen bij het coronavirus en informatie over de coronatest. Je kunt direct vanuit de app een afspraak maken voor een coronatest.**
+**It also includes a summary of the symptoms that coronavirus can cause, and information about the test. You can make an appointment for a test directly from the app.**

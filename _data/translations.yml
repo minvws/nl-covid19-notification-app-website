@@ -165,7 +165,7 @@ info-lead:
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions.
 info-lead-title:
   nl: Download de CoronaMelder app
-  en: TBD
+  en: Download the CoronaMelder app
 info-app-store-url:
   nl: https://apps.apple.com/nl/app/id1517652429
   en: https://apps.apple.com/nl/app/id1517652429
@@ -248,20 +248,20 @@ info-slides:
       image: graphic-app-bluetooth
       title: The CoronaMelder app uses Bluetooth, <br> <u>not</u> location data
       content: |
-        The app detects people who are near you using Bluetooth. 
-        The closer you are to the other person, the stronger the Bluetooth signal is. 
-        The app does not know where you are, or who you are.
+        Using Bluetooth, the app sees if you've been near someone. 
+        The closer you've been, the stronger the Bluetooth signal. 
+        The app doesn't know who you are or where you've been.
     -
       image: graphic-bicycle
-      title: <span class="md-highlight">Voorbeeld</span><br> Imagine someone cycles past you in the street. You will not get a notification if that person later tests positive.
+      title: <span class="md-highlight">Example</span><br> Did someone cycle past you? Then you will not get a notification later.
 
       content: |
-        That’s because the Bluetooth signal was not strong enough, because you were not close enough to that person. And also because you were only near them for a short time, so the chance of infection was very low.
+        The Bluetooth signal was strong because you were near each other. But only for a very short time. This means your risk of infection is very low.
     -
       image: graphic-train
-      title: <span class="md-highlight">Voorbeeld</span><br> Imagine you are sitting near to someone in the train. You could get a notification if that person later tests positive.
+      title: <span class="md-highlight">Example</span><br> Did you sit near someone on the train? You could get a notification later.
       content: |
-        That’s because the Bluetooth signal was strong enough, and because you were near that person for a longer period of time.
+        The Bluetooth signal was strong enough and you were near each other for a longer period of time.
 
 # Footer translations
 
@@ -286,19 +286,19 @@ footer-follow-instagram:
   en: Follow us on Instagram
 footer-phone:
   nl: Heb je vragen over de CoronaMelder?
-  en: TBD
+  en: Do you have any questions about the CoronaMelder app? 
 footer-phone-action:
   nl: Bel 0800-1280
-  en: TBD
+  en: Call 0800-1280
 footer-phone-opening:
   nl: Openingstijden
   en: Opening hours
 footer-phone-opening-hours:
   nl: Maandag t/m vrijdag 08.00 – 20.00 uur  
-  en: Maandag t/m vrijdag 08.00 – 20.00 uur
+  en: Monday till friday 08.00 – 20.00 uur
 footer-phone-opening-hours-weekend:
   nl: Zaterdag en zondag 10.00 – 16.00 uur 
-  en: Zaterdag en zondag 10.00 – 16.00 uur
+  en: Saturday and sunday 10.00 – 16.00 h
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
@@ -313,7 +313,7 @@ footer-more-info:
   en: Go to rijksoverheid.nl
 footer-misc-title:
   nl: Over deze site
-  en: TBD?
+  en: About this website
 footer-contact-title:
   nl: Contact
   en: Contact
@@ -371,7 +371,7 @@ footer-misc-pers-url:
   en: pers
 footer-misc-pers:
   nl: Pers
-  en: Pers
+  en: Press
 
 footer-misc-accessibility-statement-url:
   nl: toegankelijkheidsverklaring

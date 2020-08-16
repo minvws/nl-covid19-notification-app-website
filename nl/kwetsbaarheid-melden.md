@@ -11,4 +11,4 @@ Ontdekt u een zwakke plek of kwetsbaarheid op deze website, meld dit dan aan het
 
 Wij bekijken samen met het NCSC het probleem en lossen dit zo snel mogelijk op.
 
-[Meld kwetsbaarheid op ncsc.nl/contact/kwetsbaarheid-melden](https://www.ncsc.nl/contact/kwetsbaarheid-melden)
+Meld kwetsbaarheid op [ncsc.nl/contact/kwetsbaarheid-melden](https://www.ncsc.nl/contact/kwetsbaarheid-melden)
