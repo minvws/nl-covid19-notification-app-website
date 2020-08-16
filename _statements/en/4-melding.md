@@ -4,9 +4,9 @@ index: 4
 title: When will I get a notification?
 icon: bell
 summary: If you have been near someone who has tested positive for coronavirus since you were near them, you will get a notification.
-lang: nl
+lang: en
 categories:
-- nl
+- en
 - statements
 ---
 
