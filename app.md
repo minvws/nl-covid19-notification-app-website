@@ -1,7 +1,7 @@
 ---
 layout: in-app-content
 lang: nl
-showHomeBtn: true
+showBreadCrumbs: true
 permalink: /app
 redirectToApp: true
 ---

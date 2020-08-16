@@ -1,6 +1,6 @@
 ---
 layout: content
 lang: nl
-showHomeBtn: true
+showBreadCrumbs: true
 title: Colofon
 ---

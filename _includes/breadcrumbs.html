@@ -1,11 +1,16 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-<p class="content-center__home">
+
+<!-- <p class="content-center__home">
   {% for crumb in crumbs offset: 1 %}
-    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
       {% if forloop.first %}
         {{ site.data.translations.layout-template-home[page.lang] }}
       {% elsif forloop.last == false %}
-        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+        {% if include.collection == 'questions' %}
+          {{ site.data.translations.faq[page.lang] }}
+        {% else %}
+          {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+      {% endif %}
       {% else %}
         {{ include.title }}
       {% endif %}
@@ -14,4 +19,31 @@
       <span class="icon icon-chevron-right"></span>
     {% endif %}
   {% endfor %}
+</p> -->
+
+
+
+
+<p class="content-center__home">
+  
+  {% for crumb in crumbs offset: 1 %}
+  {{% assign start_crumb = '' %}}
+    {% if forloop.first %}
+    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+      {{ site.data.translations.layout-template-home[page.lang] }}
+    </a>
+    {% elsif forloop.last == false %}
+      <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+        {{ site.data.translations.faq[page.lang] }}
+      </a>
+    {% else %}
+      {{ include.title }}
+    {% endif %}
+    {% if forloop.last == false %}
+      <span class="icon icon-chevron-right"></span>
+    {% endif %}
+  {% endfor %}
 </p>
+
+
+

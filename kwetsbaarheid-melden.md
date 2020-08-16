@@ -1,7 +1,7 @@
 ---
 layout: content
 lang: nl
-showHomeBtn: true
+showBreadCrumbs: true
 title: Kwetsbaarheid melden
 permalink: /kwetsbaarheid-melden
 ---
