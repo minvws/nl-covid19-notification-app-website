@@ -18,14 +18,14 @@ categories:
 {: .expanded-box__header__title}
 
 
-In deze GGD-regio’s wordt de app al in de praktijk getest::
+In deze GGD-regio’s wordt de app al in de praktijk getest:
 -  	Drenthe
 -  	Gelderland-Zuid
 -  	IJsselland
 -  	Noord- en Oost-Gelderland
 -  	Twente
  
-Bekijk of je in een gemeente woont binnen de testregio’s. [MO4] 
+Bekijk of je in een gemeente woont binnen de testregio’s. 
  
 Alleen in deze regio’s kun je:
 -   	je laten testen nadat je een melding hebt gekregen.
