@@ -13,7 +13,7 @@ De CoronaMelder-app is ontwikkeld door het Ministerie van Volksgezondheid, Welzi
 
 De broncode van de app en de achterliggende systemen zijn volledig openbaar. Je kunt alle code terugvinden op [GitHub](https://github.com/minvws). Zo is de precieze werking van de app controleerbaar, en helpen de vele ogen bij het opsporen van eventuele kwetsbaarheden.
 
-## Broncode
+## Bijdragen
 
 - Naast de auteurs van de diverse open source, 3rd party bibliotheken hebben we bijdragen ontvangen van heel veel andere [mensen](https://github.com/minvws/nl-covid19-notification-app-design/blob/master/%E2%9D%A4%EF%B8%8F)
 
