@@ -33,7 +33,7 @@
         &:hover {
             transform: scale(1.1);
             transition: var(--transition-in--fast);
-            color: $color-RO_donkerblauw--interaction;
+            color: $color-RO_donkerblauw;
         }
 
         &:active {
@@ -223,6 +223,8 @@
     z-index: 2;
 
     &.__first-slide {
+        color: #333333;
+        color: rgba(0, 0, 0, 0.8)
         padding-top: 0;
         text-align: center;
         font-size: 22px;

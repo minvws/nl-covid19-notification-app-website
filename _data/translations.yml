@@ -289,16 +289,16 @@ footer-phone:
   en: Do you have any questions about the CoronaMelder app? 
 footer-phone-action:
   nl: Bel 0800-1280
-  en: Call 800-1280
+  en: Call 0800-1280
 footer-phone-opening:
   nl: Openingstijden
   en: Opening hours
 footer-phone-opening-hours:
   nl: Maandag t/m vrijdag 08.00 – 20.00 uur  
-  en: Maandag t/m vrijdag 08.00 – 20.00 uur
+  en: Monday till friday 08.00 – 20.00 uur
 footer-phone-opening-hours-weekend:
   nl: Zaterdag en zondag 10.00 – 16.00 uur 
-  en: Zaterdag en zondag 10.00 – 16.00 uur
+  en: Saturday and sunday 10.00 – 16.00 h
 
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr> en de <abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr>.
@@ -313,7 +313,7 @@ footer-more-info:
   en: Go to rijksoverheid.nl
 footer-misc-title:
   nl: Over deze site
-  en: TBD?
+  en: About this website
 footer-contact-title:
   nl: Contact
   en: Contact
