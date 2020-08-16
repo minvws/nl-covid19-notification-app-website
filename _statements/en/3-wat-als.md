@@ -1,9 +1,9 @@
 ---
 layout: content-statements
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: What should I do if I get a notification?
 icon: mobile-check
-summary: Je wordt geadviseerd thuis te blijven en je te laten testen tijdens deze proefperiode in de testregio’s.  
+summary: If you get a notification, you are advised to stay at home and get tested for coronavirus.  
 lang: nl
 categories:
 - nl
@@ -17,11 +17,11 @@ categories:
 # {{ page.title }}
 {: .expanded-box__header__title}
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
+If you get a notification, it means you have been near someone who has tested positive for coronavirus. Don’t panic: this does not mean for sure that you have coronavirus too. It means you have been in a high-risk situation and that you could have been infected with coronavirus. 
+
+By staying at home, you can reduce the chance of infecting other people.
  
-Als je thuisblijft, is de kans klein dat je dan ook anderen besmet.
- 
-Zeven dagen na de ontmoeting waarover de melding ging, kun je je tijdens deze proefperiode in de testregio’s laten testen op corona. Ook als je (nog) geen klachten hebt. Heb je al eerder klachten? Laat je dan ook eerder testen.
- 
-Bel 0800-1202 om gratis een coronatest aan te vragen.
+You will be advised to get tested for coronavirus seven days after the day you were exposed to the virus. The notification will tell you which day this was. You should get tested even if you have no symptoms. If you develop symptoms earlier than seven days afterwards, you should get tested sooner. 
+
+Call 0800-1202 to arrange a coronavirus test, free of charge.
 
