@@ -10,6 +10,5 @@ showFaqBtn: true
 
 # {{ page.title }}
 
-We mogen elkaar weer vaker zien. We zien familie, vrienden en collega’s meer. Maar het coronavirus is nog niet weg. Met de CoronaMelder app voorkom je dat je het virus onbewust op anderen overdraagt als je nog geen klachten hebt.
+De app werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer en op de meeste Android-telefoons die werken met versie 6 of nieuwer.
 
-Lees meer over hoe de app het bron en contactonderzoek aanvult op [de website van de Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/vraag-en-antwoord/hoe-werkt-de-corona-app).
