@@ -17,8 +17,11 @@
         {% assign language = lang[1] %}
         <li class="language-picker__language">
           {%- if lang[0] != page.lang -%}
+          {%- assign lang_prefix = lang[0] -%}
+          {%- assign slug = page.url | replace_first: page.lang, '' | replace_first '//', '/'%}
+        
           <a class="language-picker__link"
-            href="{{ relroot }}{% if lang[0] != 'nl' %}{{ lang[0] }}{% endif %}"
+            href="/{{ lang_prefix }}{{ slug }}"
             hreflang="{{ lang[0] }}"
             lang="{{ lang[0] }}"
           >
