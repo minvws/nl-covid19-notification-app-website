@@ -20,7 +20,7 @@ Heeft de persoon die je tegenkomt ook de app? Dan delen jullie telefoons hun cod
  
 3. Als iemand corona heeft, kan deze persoon zijn of haar codes op een server zetten
 Deze server bevat alleen codes van besmette personen. Om de codes toe te voegen, moet een besmet persoon eerst een GGD-sleutel doorgeven aan de GGD. Dit kan nu nog alleen als je in een testregio woont.
-Bekijk hier of je in een testregio woont:  
+Bekijk [hier](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) of je in een testregio woont:  
  
 -  	GGD Drenthe
 -  	GGD Gelderland-Zuid
