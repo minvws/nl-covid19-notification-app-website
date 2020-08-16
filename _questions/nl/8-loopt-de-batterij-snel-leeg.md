@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 7
+index: 8
 set: 2
 title: Loopt de batterij van mijn telefoon snel leeg door de app?
 lang: nl
