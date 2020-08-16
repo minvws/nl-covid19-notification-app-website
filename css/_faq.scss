@@ -1,0 +1,149 @@
+
+
+.faq {
+    display: block;
+    background-color: #F5F5F5 /* lichtgrijs */;
+    margin: 50px auto 22px auto;
+    padding: 20px;
+    max-width: 1190px;
+    position: relative;
+
+    @media (min-width: 960px) {
+        padding: 50px 80px;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 32px;
+        height: 32px;
+        transform: rotate(45deg);
+        transform-origin: center;
+        background: inherit;
+        bottom: -16px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+.faq-homepage__title {
+    font-size: 32px;
+    line-height: 40px;
+    color: #333;
+    margin-top: -6px; // Compensate for line-height
+    margin-bottom: 17px;
+
+    @media (min-width: 960px) {
+        margin-bottom: 42px;
+    }
+}
+
+.faq input[name=faq] {
+    display: none;
+}
+
+
+//
+// Faq layout
+//
+
+.faq-layout__title {
+    color: #154273;
+    background: #EFF7F9;
+    padding: 0.6em 20px;
+}
+.content-block .faq-layout__title{
+    margin-bottom: 0;
+}
+.faq-layout-contents__list {
+    position: relative;
+    border: 1px solid rgba(21, 66, 115, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+    li {
+        height: 55px;
+    }
+
+    li:first-child .faq-layout__item{
+        border-top: none;
+    } 
+}
+
+.faq-layout__item {
+    display: block;
+    position: relative;
+    color: #154273;
+    border-top: 1px solid rgba(21, 66, 115, 0.5);
+    padding: 0.8em 0.5em;
+    color: #154273;
+    font-size: 21px;
+    line-height: 22px;
+    width: 100%;
+
+    &:hover {
+        background-color: rgba(0, 39, 131, 0.07) /* RO donker link2 */;
+        transition: var(--transition-in);
+    }
+
+    &:focus {
+        outline-offset: -2px;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 6px;
+        right: 5px;
+        height: 40px;
+        width: 40px;
+        opacity: 0.62;
+        border-radius: 2px;
+        outline-offset: 8px;
+        outline: 2px solid transparent;
+        background: url(../img/chevron-right.svg) center center no-repeat;
+        transition: var(--transition-out);
+    }
+}
+
+
+//
+//  Modifier for faq overview page
+//
+
+.faq-layout__contents.__overview {
+
+    .faq-layout-contents__list {
+        border: none;
+        border-bottom: 1px solid rgba(21, 66, 115, 0.5);
+        margin-left: 0em;
+        border-radius: 0px;
+    }
+    .faq-layout-contents__list li {
+        margin-bottom: 0px;
+    }
+    .faq-layout__item {
+        padding: 14px 20px;
+        font-size: 16px;
+        color: #333333;
+        text-decoration: none;
+    }
+}
+
+.faq__link {
+    font-size: 21px;
+
+    &:before {
+        content: '';
+        position: relative;
+        height: 10px;
+        width: 10px;
+        background: url(../img/chevron-right-darkblue.svg) no-repeat 50% 50%;
+        transition: var(--transition-out);
+        padding: 10px;
+    }
+}

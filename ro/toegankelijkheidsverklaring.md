@@ -2,10 +2,12 @@
 layout: content
 lang: en
 showHomeBtn: true
-title: Toegankelijkheidsverklaring
+title: Accessibility
 ---
 
-# Toegankelijkheidsverklaring
+# Accessibility
+
+English version coming soon!
 
 Datum toegankelijkheidsverklaring 10-07-2020
 

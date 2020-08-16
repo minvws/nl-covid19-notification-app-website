@@ -2,9 +2,10 @@
 layout: content
 lang: nl
 showHomeBtn: true
+title: Veelgestelde vragen
 ---
 
-# Veelgestelde vragen
+# {{ page.title }}
 
 
 {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
@@ -45,7 +46,7 @@ showHomeBtn: true
 </div>
 
 
-## Testregios's Twente en Drenthe
+## Testregios's 
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">

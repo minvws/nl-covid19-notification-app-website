@@ -7,8 +7,8 @@ title: Cookies
 
 # Cookies
 
-Deze website gebruikt geen cookies om webstatistieken te meten. 
+This website doesn’t use cookies to measure webstatistics. 
 
-## Geen trackingcookies
+## No trackingcookies
 
-Trackingcookies zijn cookies die bezoekers tijdens het surfen over andere websites kunnen volgen. Coronamelder.nl gebruikt geen trackingcookies. De website biedt daarom geen ondersteuning voor de DoNotTrack-instelling van browsers. Coronamelder.nl houdt zich aan de in Nederland geldende wetgeving.
+Trackingcookies are cookies that follow visitors when they are visiting different websites. Coronamelder.nl doesn’t use trackingcookies. The website offers no support for DoNotTrack- settings from browers. Coronamelder.nl adheres to the legislation applicable in the Netherlands.
