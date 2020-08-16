@@ -1,10 +1,10 @@
 ---
 layout: in-app-content
 lang: en
-title: Onderzoeksversie
+title: Research version
 ---
 
-# Onderzoeksversie
+# Research version
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
     You're one of the first people in The Netherlands to use CoronaMelder
