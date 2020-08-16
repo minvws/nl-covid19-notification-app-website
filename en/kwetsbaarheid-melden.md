@@ -2,13 +2,13 @@
 layout: content
 lang: en
 showHomeBtn: true
-title: Kwetsbaarheid melden
+title: Reporting a vulnerability
 ---
 
-# Kwetsbaarheid melden
+# Reporting a vulnerability
 
-Ontdekt u een zwakke plek of kwetsbaarheid op deze website, meld dit dan aan het Nationaal Cyber Security Centrum (NCSC). Het maken van zo'n melding heet Coordinated Vulnerability Disclosure (CVD).
+If you have discovered a weakness or a vulnerability on this website, please report this to the National Cyber Security Centre (NCSC). A report like this is called a Coordinated Vulnerability Disclosure (CVD).
 
-Wij bekijken samen met het NCSC het probleem en lossen dit zo snel mogelijk op.
+Together with the NCSC we will look at the issue and will try to solve this as soon as possible. 
 
 [Meld kwetsbaarheid op ncsc.nl/contact/kwetsbaarheid-melden](https://www.ncsc.nl/contact/kwetsbaarheid-melden)
