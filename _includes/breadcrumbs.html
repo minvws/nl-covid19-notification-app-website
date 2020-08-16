@@ -1,18 +1,17 @@
-
-
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 <p class="content-center__home">
   {% for crumb in crumbs offset: 1 %}
     <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
       {% if forloop.first %}
         {{ site.data.translations.layout-template-home[page.lang] }}
-        <span class="icon icon-chevron-right"></span>
       {% elsif forloop.last == false %}
-      {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-        <span class="icon icon-chevron-right"></span>
+        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
       {% else %}
-        {{ include.title }} 
+        {{ include.title }}
       {% endif %}
     </a>
+    {% if forloop.last == false %}
+      <span class="icon icon-chevron-right"></span>
+    {% endif %}
   {% endfor %}
 </p>
