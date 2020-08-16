@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 9
+index: 10
 set: 3
 title: Ik woon in een testregio: hoe kan ik CoronaMelder nu al gebruiken?
 lang: nl
