@@ -1,12 +1,6 @@
-
-
 .header-yellow {
-    overflow-x: hidden;
     position: relative;
-    background-color:#EAF4F9;
-    background-color: linear-gradient(180deg, #D8EBF1 0%, #EAF4F9 100%);
-    background-image: url('../img/logo-app.svg');
-    background-repeat: no-repeat;
+    background: #eaf4f9 url('../img/logo-app.svg') no-repeat;
     background-size: 150px;
     background-position: right 25px top 45px;
     min-height: 300px;
@@ -16,27 +10,20 @@
         background-position: right 40px top 55px;
     }
 
-    @media(min-width: 680px) {
-        background-size: 230px;
-        background-position: right 40px top 55px;
-    }
-
     @media(min-width: 960px) {
         background-image: none;
-        position: relative;
-        &:before {
-            content: '';
-            position: absolute;
-            top: -100px;
-            /** Perfect alignment: width: of this element, width of the element above */
-            right: calc((1300px / -2) + calc(100% / 2));
+
+        &::before {
             bottom: 0;
-            z-index: 0;
-            background-image: url('../img/header-background.svg');
-            background-repeat: no-repeat;
+            content: '';
+            background: transparent url('../img/header-background.svg') no-repeat;
             background-size: 100%;
             background-position: center 23px;
+            position: absolute;
+            right: calc((1300px / -2) + calc(100% / 2));
+            top: -100px;
             width: 600px;
+            z-index: 0;
 
             .browser-ie-11 & {
                 right: calc(((100% - 1200px)/2) - 1px);
@@ -44,7 +31,7 @@
         }
     }
     @media(min-width: 1080px) {
-            &:before {
+            &::before {
                 .browser-ie-11 & {
                 right: calc(((100% - 1300px)/2) - 1px);
             }
@@ -127,10 +114,6 @@
     }
 }
 
-.header-yellow__language-picker {
-
-}
-
 .header-yellow__text {
     color: #154273 /* RO blauw */;
     // See .content with negative margin-top
@@ -147,7 +130,7 @@
         margin-right: 424px;
         min-height: 430px;
     }
-    
+
     h1 {
         margin: 0.5em 0 0 0;
         font-size: 1.62em;
@@ -157,12 +140,12 @@
         @media (min-width: 680px) {
             font-size: 3em;
         }
-        
+
         @media (min-width: 960px) {
             margin-right: 9rem;
         }
     }
-        
+
     h2 {
         margin: 0.38em 0 2.3em 0;
         font-size: 1.38em;
