@@ -75,9 +75,9 @@
 }
 
 .language-picker__title {
-    color: #090C0E;
-    font-weight: 400;
-    font-size: 100%;
+    color: #090c0e;
+    font-size: 16px;
+    font-weight: normal;
     line-height: 1;
     margin: 0;
     padding: 13px 18px;
@@ -86,18 +86,19 @@
 }
 
 .language-picker__languages {
-    margin: 0;
     list-style: none;
 }
 
 .language-picker__language {
-    color: #999999;
+    color: #333;
+    font-weight: bold;
     margin: 0;
     padding: 6px 18px;
 }
 
 .language-picker__link {
     display: block;
+    font-weight: normal;
     margin: -6px -18px;
     padding: 6px 18px;
     color: $color-RO_donkerblauw;
