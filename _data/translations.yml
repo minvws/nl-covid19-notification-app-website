@@ -2,10 +2,10 @@ head-app-name:
   nl: CoronaMelder
   en: CoronaMelder
 head-social-og-title:
-  nl: De CoronaMelder app is in ontwikkeling
+  nl: CoronaMelder wordt getest in de praktijk
   en: TBD
 head-social-og-description:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
   en: TBD
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
@@ -16,14 +16,14 @@ head-social-og-image-alt:
   en: TBD
 
 page-title:
-  nl: De CoronaMelder app is in ontwikkeling
-  en: Grip on Covid-19
+  nl: CoronaMelder wordt getest in de praktijk
+  en: CoronaMelder wordt getest in de praktijk
 header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: Voorkom verspreiding, download CoronaMelder
-  en: Voorkom verspreiding, download CoronaMelder
+  nl: CoronaMelder wordt getest in de praktijk
+  en: CoronaMelder wordt getest in de praktijk
 header-subtitle:
   nl: 
   en:
@@ -161,7 +161,7 @@ layout-template-close:
   en: Close
 
 info-lead:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu getest in Twente en Drenthe, maar iedereen kan ‘m nu al downloaden.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
   en: TBD
 info-lead-title:
   nl: Download de CoronaMelder app
@@ -206,15 +206,16 @@ info-slides:
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
-        CorornaMelder waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. Zo kunnen we samen de verspreiding stoppen.
+        De app waarschuwt nadat je in de buurt bent geweest van iemand met corona. Zo kun jij voorkomen dat je de mensen in je omgeving besmet.
     -
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
       content: |
-        Dit gebeurt als je 10 minuten dicht bij iemand bent geweest die daarna positief is getest. Deze persoon moet ook de app gebruiken.
+       Dit gebeurt als je minstens 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+
     -
       image: graphic-app-bluetooth
-      title: De app gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
+      title: CoronaMelder gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
       content: |
         De app ziet via Bluetooth of je dicht bij iemand was.
         Hoe dichterbij, hoe sterker het Bluetooth-signaal.
@@ -228,7 +229,7 @@ info-slides:
       image: graphic-train
       title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
       content: |
-        Het Bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
+       Het bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
   en:
     -
       image: graphic-app-logo
@@ -237,8 +238,7 @@ info-slides:
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
-        De app waarschuwt nadat je in de buurt bent geweest van iemand met het coronavirus. 
-        Zo kunnen we samen de verspreiding stoppen.
+        De app waarschuwt nadat je in de buurt bent geweest van iemand met corona. Zo kun jij voorkomen dat je de mensen in je omgeving besmet.
     -
       image: graphic-app-notification
       title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
