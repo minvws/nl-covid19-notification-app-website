@@ -2,9 +2,9 @@
 layout: content
 lang: en
 showHomeBtn: true
-title: Over Corona
+title: About Corona
 ---
 
-# Over Corona
+# About Corona
 
-Wil je het nieuws en ontwikkelingen over het coronavirus weten ga dan naar de [rijksoverheidswebsite](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19) of het [coronadashboard](https://coronadashboard.rijksoverheid.nl).
+Would like to know more the Coronavirus please check [government.nl](https://www.government.nl/) or the [coronadashboard](https://coronadashboard.rijksoverheid.nl).

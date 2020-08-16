@@ -20,4 +20,3 @@ lang-ref: covid19-notification-app-website-index
     </a>
   </div>
 </div>
-
