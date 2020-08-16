@@ -2,7 +2,7 @@
 layout: content
 index: 8
 set: 3
-title: Ik woon in een testregio: hoe kan ik CoronaMelder nu al gebruiken?
+title: Ik woon in een testregio hoe kan ik CoronaMelder nu al gebruiken?
 lang: nl
 showHomeBtn: true
 showFaqBtn: true
