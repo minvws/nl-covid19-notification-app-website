@@ -10,7 +10,7 @@ title: Frequently asked questions
 
 {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
-## Hoe de app helpt tegen corona?
+## How the app helps to stop the spread of coronavirus
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
@@ -28,7 +28,7 @@ title: Frequently asked questions
 </div>
 
 
-## Werking van de app
+## How the app works
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
@@ -46,7 +46,7 @@ title: Frequently asked questions
 </div>
 
 
-## Testregios's Twente en Drenthe
+## Trial regions 
 {: .faq-layout__title}
 
 <div class="faq-layout__contents __overview">
