@@ -4,9 +4,9 @@ index: 2
 title: How will the app help to stop coronavirus?
 icon: heart
 summary: The CoronaMelder will warn you if you have been near someone with coronavirus.
-lang: nl
+lang: en
 categories:
-- nl
+- en
 - statements
 ---
 
