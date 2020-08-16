@@ -1,7 +1,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{% if page.title != '' %}{{ page.title }} - {% endif %}{{ site.data.translations.page-title[page.lang] }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
     <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextregular.woff" as="font" type="font/woff" crossorigin>
@@ -21,7 +22,7 @@
     <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name[page.lang] }}">
     <meta property="og:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
     <meta property="og:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}"/>
-    <meta property="og:image" itemprop="image" content="{{ relroot }}{{ site.data.translations.head-social-og-image-url[page.lang]}}">
+    <meta property="og:image" content="{{ relroot }}{{ site.data.translations.head-social-og-image-url[page.lang]}}">
     <meta property="og:updated_time" content="{{ site.time | date: "%s" }}" />
     <meta property="og:type" content="website" />
 
