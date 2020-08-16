@@ -20,7 +20,7 @@ opsporen van eventuele kwetsbaarheden.
 
 - Naast de auteurs van de diverse open source, 3rd party bibliotheken hebben we
   bijdragen ontvangen van heel veel andere
-  [mensen](https://github.com/minvws/nl-covid19-notification-app-design/blob/master/%E2%9D%A4%EF%B8%8F)
+  [mensen](https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F)
 
 ## Licenties, Condities en Disclaimers applicatie
 
