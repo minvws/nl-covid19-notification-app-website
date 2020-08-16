@@ -320,7 +320,6 @@ header .watch > a:hover {
       height: 65px; 
     }
     .app_badge_column__left {
-        display: flex;
         flex-direction: column;
         flex-basis: 100%;
         @media (min-width: 740px) {
@@ -329,7 +328,6 @@ header .watch > a:hover {
         }
     }
     .app_badge_column__right {
-        display: flex;
         flex-direction: column;
         flex-basis: 100%;
         @media (min-width: 740px) {
