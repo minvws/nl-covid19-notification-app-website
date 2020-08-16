@@ -28,21 +28,21 @@
            {%- else -%}
             {%- assign lang_prefix = lang[0] -%}
             {%- assign slug = '/' %}
-          {%- endif -%}
-        
+          {% endif %}
+
           <a class="language-picker__link"
             href="/{{ lang_prefix }}{{ slug }}"
             hreflang="{{ lang[0] }}"
             lang="{{ lang[0] }}"
           >
-          {%- endif -%}
-          {{- language.label -}}
-          {%- if lang[0] == page.lang -%}
-          <span class="screen-reader-text">({{ site.data.translations.header-language-picker-current-lang[page.lang] }})</span>
-          {%- endif -%}
-          {%- if lang[0] != page.lang -%}
+          {% endif %}
+          {{ language.label }}
+          {% if lang[0] == page.lang %}
+            ({{ site.data.translations.header-language-picker-current-lang[page.lang] }})
+          {% endif %}
+          {% if lang[0] != page.lang %}
           </a>
-          {%- endif -%}
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
