@@ -190,6 +190,9 @@ a:hover {
 
 .logobar {
     padding: 0 0 20px 0;
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
 
     @media (min-width: 740px) {
         padding-bottom: 45px;
