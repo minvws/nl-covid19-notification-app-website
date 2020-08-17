@@ -33,10 +33,6 @@ Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijk
 -	**maatregel**: Website in meerdere talen aanbieden indien de CoronaMelder app wordt ingevoerd.    
 -	**planning**: voor lancering Coronamelder app
 
-## Problemen met toegankelijkheid melden
-
-Heeft u vragen of opmerkingen? Of wilt u een pagina gebruiken die niet toegankelijk is? Dan kunt u contact opnemen via het e-mailadres <liaison@minvws.nl>
-
 Coronamelder.nl wordt geregeld bijgewerkt, dit betekent dat dit item binnen de toegankelijkheidsverklaring ook wordt aangevuld met extra onderwerpen die binnen deze website geconstateerd worden.
 
 
