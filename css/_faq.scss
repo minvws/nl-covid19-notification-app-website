@@ -34,6 +34,7 @@
     color: #333;
     margin-top: -6px; // Compensate for line-height
     margin-bottom: 17px;
+    color: $color-RO_donkerblauw;
 
     @media (min-width: 960px) {
         margin-bottom: 42px;
@@ -66,7 +67,7 @@
     overflow: hidden;
 
     li {
-        min-height: 55px;
+        min-height: 50px;
     }
 
     li:first-child .faq-layout__item{
@@ -126,7 +127,7 @@
         margin-bottom: 0px;
     }
     .faq-layout__item {
-        padding: 14px 20px;
+        padding: 14px 35px 14px 20px;
         font-size: 16px;
         color: #333333;
         text-decoration: none;
