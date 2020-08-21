@@ -22,6 +22,21 @@
       <div class="lead">
         <div class="lead__text">
           <div class="content-block">
+            <div class="md-block-lead" markdown="1">
+                <p>{{ site.data.translations.info-lead[page.lang] }}</p>
+                <h2>
+                  {{ site.data.translations.info-lead-title[page.lang] }}
+                </h2>
+                <div class="lead__app_badges">
+                  <a class="app_badge_column__left" href="{{ site.data.translations.info-app-store-url[page.lang] }}">
+                    <img src="/img/{{ site.data.translations.info-app-store-img[page.lang] }}" alt="App Store" />
+                  </a>
+                  <a class="app_badge_column__right" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
+                    <img src="/img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="Google Play" />
+                  </a>
+                </div>
+              </div>
+
             {{ content }}
           </div>
         </div>
