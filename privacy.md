@@ -2,8 +2,8 @@
 layout: content
 lang: nl
 showBreadCrumbs: true
-title: Privacyverklaring
 permalink: /privacy
+title: Privacyverklaring
 ---
 
 {% include privacy-text.md %}
