@@ -10,14 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
-
 Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:
 -	Drenthe
 -	Gelderland-Zuid

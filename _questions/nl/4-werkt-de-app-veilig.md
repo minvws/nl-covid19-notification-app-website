@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 Ja, de app is veilig. Daar zorgen we voor:
 - De app wordt voortdurend getest.
 - De app kent niet jouw naam of contactgegevens.

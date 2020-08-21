@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 Bekijk [hier](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) of je in een gemeente woont van deze testregio’s:
 - GGD Drenthe
 - GGD Gelderland-Zuid

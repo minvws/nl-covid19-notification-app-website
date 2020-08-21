@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 If you have been near someone who later tests positive for coronavirus, and if that person adds their positive status to the app:
 - You will receive a notification. It is possible that you have been infected too, even if you do not feel unwell (yet).
 - You can then arrange a test at the GGD and stay at home until you know the result. This means you can avoid passing coronavirus on to other people.  
