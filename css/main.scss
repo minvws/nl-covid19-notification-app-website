@@ -95,7 +95,7 @@ body {
     max-width: 1100px;
     position: relative;
     margin: auto;
-    
+
     @media(min-width: 960px) {
         padding: 0 0 0 2em;
     }
@@ -119,7 +119,7 @@ abbr {
 }
 
 a, a:visited {
-    color: $color-RO_donkerblauw--interaction;
+    color: $color-RO_donkerblauw;
     text-decoration: none;
 }
 
@@ -129,12 +129,12 @@ a:hover {
 }
 
 @import "header-yellow";
-@import "../_includes/language-picker.scss";
+@import "language-picker";
 @import "content-block";
-@import "../_includes/footer";
-@import "../_includes/statements";
-@import "../_includes/info-slider";
-@import "../_includes/faq";
+@import "footer";
+@import "statements";
+@import "info-slider";
+@import "faq";
 
 /* Skip links */
 
@@ -190,6 +190,9 @@ a:hover {
 
 .logobar {
     padding: 0 0 20px 0;
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
 
     @media (min-width: 740px) {
         padding-bottom: 45px;
@@ -304,14 +307,41 @@ header .watch > a:hover {
 
     h2 {
         margin: 0 0 0.7em;
-        font-size: 2em;
+        font-size: 1.2em;
         line-height: 1;
     }
 }
 
+.lead__app_badges{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0.5em;
+
+    img{
+      height: 65px;
+    }
+    .app_badge_column__left {
+        flex-direction: column;
+        flex-basis: 100%;
+        @media (min-width: 740px) {
+            flex-basis: auto;
+            margin-right: 0.5em;
+        }
+    }
+    .app_badge_column__right {
+        flex-direction: column;
+        flex-basis: 100%;
+        @media (min-width: 740px) {
+            flex-basis: auto;
+        }
+     }
+}
+
 .lead__preview {
     // margin: 0 -1em 1.6em -1em;
-    
+
     > img {
         display: none;
     }
@@ -340,25 +370,8 @@ header .watch > a:hover {
             z-index: 1;
         }
 
-        // Graphic with circles
-        &:before {
-            content: '';
-            position: absolute;
-            top: -220px;
-            /** Perfect alignment: width: of this element, width of the element above */
-            right: calc((600px / -2) + calc(262px / 2));
-            bottom: 0;
-            z-index: 0;
-            background-image: url('../img/header-background.svg');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center 23px;
-            width: 600px;
+        // Graphic with circles moved to header-yellow for overflow: hidden
 
-            .browser-ie-11 & {
-                right: -166px;
-            }
-        }
 
         // Shadow under phone image
         &:after {
@@ -409,7 +422,7 @@ header .watch > a:hover {
 
     .content .lead {
         padding-top: 0.5rem;
-        margin-right: 0; 
+        margin-right: 0;
     }
 
     .content .follow {
@@ -484,6 +497,10 @@ header .watch > a:hover {
 .icon-chevron-left {
     background-image: url('../img/chevron-up.svg');
     transform: rotate(-90deg);
+}
+
+.icon-close {
+    background-image: url('../img/close.svg');
 }
 
 /* Statement Expand collapse chevrons */
@@ -598,7 +615,7 @@ header .watch > a:hover {
 .timeline > ul.completed > li::before,
 .timeline > ul.completed > li::after {
     border-color: #36870D;
-    // Community 
+    // Community
 }
 .timeline > h3.working-on::before,
 .timeline > h3.working-on::after,
@@ -741,7 +758,7 @@ a.explainer > h2 {
     clear: left;
     margin-bottom: 0.875rem;
     height: 1.125rem;
-    
+
     @media (min-width: 680px) {
         width: 200px;
     }
@@ -787,7 +804,7 @@ a.explainer > h2 {
         margin: 0;
         width: 100%;
     }
-    
+
     .faq .tab {
         width: calc(80% - 16px);
         margin-right: 16px;
@@ -815,7 +832,7 @@ a.explainer > h2 {
 
     header h1 .subtitle {
         font-size: 1.375rem;
-        line-height: 1.625rem; 
+        line-height: 1.625rem;
     }
     .full-width-content {
         padding: 0 16px;

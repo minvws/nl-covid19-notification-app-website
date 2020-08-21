@@ -1,39 +1,102 @@
-
-
 .header-yellow {
-    overflow-x: hidden;
-    background-color: #F9E11E /* RO geel */;
-    background-image: url('../img/header-background.svg');
-    background-repeat: no-repeat;
-    background-size: 347px;
-    background-position: center 23px;
+    position: relative;
+    background: #eaf4f9 url('../img/logo-app.svg') no-repeat;
+    background-size: 120px;
+    background-position: right 20px top 80px;
     min-height: 300px;
 
     @media(min-width: 680px) {
-        background-size: 680px;
-        background-position: center 62px;
+        background-size: 200px;
+        background-position: right 40px top 40px;
     }
 
     @media(min-width: 960px) {
         background-image: none;
-        // Note: background moved to .lead__preview ‘under‘ the mobile phone graphic
+
+        &::before {
+            bottom: 0;
+            content: '';
+            background: transparent url('../img/header-background.svg?v=2') no-repeat;
+            background-size: 100%;
+            background-position: center 23px;
+            position: absolute;
+            right: calc((1300px / -2) + calc(100% / 2));
+            top: -100px;
+            width: 600px;
+            z-index: 0;
+
+            .browser-ie-11 & {
+                right: calc(((100% - 1200px)/2) - 1px);
+            }
+        }
+    }
+    @media(min-width: 1080px) {
+            &::before {
+                .browser-ie-11 & {
+                right: calc(((100% - 1300px)/2) - 1px);
+            }
+        }
     }
 }
 
 .header-yellow--slim {
-    min-height: 130px;
+    min-height: 180px;
     padding: 0 0 50px 0;
+    color: #ffffff;
+    background: linear-gradient(0deg, #C9005D 38%, #315BBC 130%);
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        bottom: 0;
+        z-index: 0;
+        background-image: url('../img/logo-badge.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center 23px;
+        width: 80px;
+
+        .browser-ie-11 & {
+            right: 166px;
+        }
+    }
 
     @media(min-width: 740px) {
-        background-size: 680px;
-        background-position: center -84px;
+        min-height: 220px;
     }
 
     @media(min-width: 960px) {
-        background-image: url('../img/header-background.svg');
-        background-repeat: no-repeat;
-        background-size: 680px;
-        background-position: calc(50vw + 71px) -123px;
+        background: linear-gradient(0deg, #C9005D 38%, #315BBC 130%);
+        &:before {
+            content: none;
+            background-image: none;
+        }
+        &:after {
+            /** Perfect alignment: width: of this element, width of the element above */
+            width: 80px;
+            right: calc((980px / -2) + calc(100% / 2));
+        }
+    }
+}
+
+.header-yellow--statement {
+    min-height: 160px;
+}
+
+.header-yellow__title {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 30px;
+
+    @media (min-width: 740px) {
+        font-size: 40px;
+        padding-left: 55px;
+    }
+
+    @media (min-width: 960px) {
+        padding-left: 155px;
     }
 }
 
@@ -51,19 +114,15 @@
     }
 }
 
-.header-yellow__language-picker {
-
-}
-
 .header-yellow__text {
-    color: #154273 /* RO blauw */;
+    color: $color-RO_donkerblauw;
     // See .content with negative margin-top
     padding: 0 0 2em 1.38em;
     position: relative;
     z-index: 2;
 
     @media (min-width: 680px) {
-        padding: 0 0 2em 3em;
+        padding: 0 0 3.5em 3em;
     }
 
     @media (min-width: 960px) {
@@ -71,21 +130,26 @@
         margin-right: 424px;
         min-height: 430px;
     }
-    
+
     h1 {
-        margin: 2em 0 0 0;
+        position: relative;
+        top: 1.5em;
+        margin: 0.5em 0 0 0;
         font-size: 1.62em;
         line-height: 1.16em;
+        width: 50%;
 
         @media (min-width: 680px) {
             font-size: 3em;
+            top: 0.2em;
         }
-        
+
         @media (min-width: 960px) {
+            top: 1.0em;
             margin-right: 9rem;
         }
     }
-        
+
     h2 {
         margin: 0.38em 0 2.3em 0;
         font-size: 1.38em;

@@ -1,0 +1,30 @@
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+{%- assign langSlug = '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = '/' | append: page.lang -%}
+{%- endif -%}
+
+
+<p class="content-center__home breadcrumbs">
+  
+  {% for crumb in crumbs offset: 1 %}
+  {{% assign start_crumb = '' %}}
+    {% if forloop.first %}
+    <a class="breadcrumbs" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+      {{ site.data.translations.layout-template-home[page.lang] }}
+    </a>
+    {% elsif forloop.last == false %}
+      <a class="breadcrumbs" href="{{langSlug}}/faq">
+        {{ site.data.translations.faq[page.lang] | truncate: 40 }}
+      </a>
+    {% else %}
+      <a class="breadcrumbs disabled">{{ include.title | truncate: 40 }}</a>
+    {% endif %}
+    {% if forloop.last == false %}
+      <span class="icon icon-chevron-right"></span>
+    {% endif %}
+  {% endfor %}
+</p>
+
+
+
