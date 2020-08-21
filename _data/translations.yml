@@ -117,6 +117,15 @@ faq-development:
 faq-info-will-be-updated:
   nl: Er komen meer vragen en antwoorden beschikbaar
   en: More questions and answers will be available soon
+faq-category-howtheapphelps:
+  nl: Hoe de app helpt tegen corona
+  en: How the app helps to stop the spread of coronavirus
+faq-category-howtheappworks:
+  nl: Werking van de app
+  en: How the app works
+faq-category-testregions:
+  nl: Testregio's
+  en: Trial regions
 has-been-answered:
   nl: Is je vraag beantwoord?
   en: Has your question been answered?
