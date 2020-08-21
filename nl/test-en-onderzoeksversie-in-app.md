@@ -4,8 +4,6 @@ lang: nl
 title: Onderzoeksversie
 ---
 
-# Onderzoeksversie
-
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
     Je bent een van de eersten in Nederland met CoronaMelder
 </p>

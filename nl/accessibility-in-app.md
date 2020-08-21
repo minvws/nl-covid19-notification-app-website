@@ -4,8 +4,6 @@ lang: nl
 title: Toegankelijkheid
 ---
 
-# Toegankelijkheid
-
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
   De CoronaMelder-app moet toegankelijk zijn voor iedereen. Vanaf het eerste ontwerp is daar met behulp van experts en ervaringsdeskundigen rekening mee gehouden. Toch kan het zo zijn dat de app misschien niet goed toegankelijk is. Kun je de app niet goed gebruiken? Meld dat dan via <a href="mailto:coronamelder@minvws.nl">coronamelder@minvws.nl</a>.
 </p>
