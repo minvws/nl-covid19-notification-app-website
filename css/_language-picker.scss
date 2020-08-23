@@ -66,11 +66,19 @@
     transition: opacity var(--transition-out);
     z-index: 1;
 
+    a {
+        display: none; // stops links from being tabbable-to when dropdown is closed
+    }
+
     [aria-expanded="true"] + & {
         left: -8px;
         opacity: 1;
         transition: opacity var(--transition-in), transform var(--transition-in);
         transform: none;
+
+        a {
+            display: inherit;
+        }
     }
 }
 
