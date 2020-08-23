@@ -27,6 +27,12 @@ header-title:
 header-subtitle:
   nl: 
   en:
+header-appstore:
+  nl: Download on the App Store
+  en: Download on the App Store
+header-googleplaystore:
+  nl: Get it on Google Play
+  en: Get it on Google Play
 header-language-picker-label:
   nl: Huidige taal
   en: Current language
