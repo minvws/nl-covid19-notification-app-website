@@ -212,6 +212,15 @@ info-slider-btn-prev-slide:
 info-slider-btn-next-slide:
   nl: Volgende slide van slider
   en: Next slide of slider
+info-slider-first-slide: 
+  nl: Eerste slide van slider
+  en: First slide of slider
+info-slider-last-slide:
+  nl: Laatste slide van slider
+  en: Last slide of slider
+info-slider-goto-slide:
+  nl: Ga naar slide 
+  en: Go to slide 
 info-slides:
   nl:
     -
