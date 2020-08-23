@@ -9,7 +9,7 @@
             el: '.swiper-pagination',
             clickable: true,
             renderBullet: function (index, className) {
-                return '<a class="' + className + '" href="#swiper-slide-' + index + '"><span class="screen-reader-text">Ga naar slide ' + (index + 1) + '</span></a>';
+                return '<button class="' + className + '"><span class="screen-reader-text">Ga naar slide ' + (index + 1) + '</span></button>';
                 // TODO #91: render vanuit liquid en geef juist taal keys
             }
         },
