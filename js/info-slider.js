@@ -4,6 +4,11 @@
         direction: 'horizontal',
         loop: false,
 
+        keyboard: {
+            enabled: true,
+        },
+
+
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
