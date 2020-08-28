@@ -23,6 +23,18 @@ $color-WARN_rood: #CA005D;
 $color-focus: #008fcd;
 $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 
+// DO NOT COMMIT, for testing line-height, spacing issues
+* { 
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+
+p {
+    margin-bottom: 2em !important;
+}
+// END DO NOT COMMIT BLOCK
+    
 :root {
     --transition-in: 262ms ease;
     --transition-in--fast: 100ms ease;
