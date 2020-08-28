@@ -68,7 +68,7 @@ De met de app verzamelde gegevens worden uitsluitend gebruikt voor de in deze pr
 
 ### 6. Aan wie worden persoonsgegevens verstrekt?
 
-HeHet uitzenden en ontvangen van de RPIs gebeurt lokaal op de smartphones. Als een besmetting is vastgesteld kan de gebruiker ervoor kiezen zijn of haar TEKs, tezamen met een unieke autorisatiecode, naar de centrale server te sturen. De centrale server wordt beheerd door het CIBG met KPN als onderaannemer (verwerker).
+Het uitzenden en ontvangen van de RPIs gebeurt lokaal op de smartphones. Als een besmetting is vastgesteld kan de gebruiker ervoor kiezen zijn of haar TEKs, tezamen met een unieke autorisatiecode, naar de centrale server te sturen. De centrale server wordt beheerd door het CIBG met KPN als onderaannemer (verwerker).
 
 De GGD verwerkt de authenticatiecode, met de datum van de eerste ziektedag, in het GGD-portaal van de app, welk portaal alleen toegankelijk is voor geautoriseerde GGD-medewerkers.
 
