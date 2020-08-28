@@ -3,11 +3,9 @@ layout: content
 lang: en
 showBreadCrumbs: true
 title: Information for the press
-vwsLink: https://www.rijksoverheid.nl/persinformatie-ministerie-van-vws/woordvoerders
+vwsLink: https://www.government.nl/ministries/ministry-of-health-welfare-and-sport/contact/information-for-the-press
 ---
 
-# {{ page.title }}
+Are you a journalist please contact one of our spokespersons, Please check the [website]({{ page.vwsLink }}) of the Ministery of Health, Welfare and Sport.
 
-Are you a journalist please contact our spokesperson on 0031 (0) 6 52641873. If you are not a journalist please contact our contact centre on 0031 (0) 800 – 1280.
-
-Do you have questions about Corona which are not related to the app please check the [website]({{ page.vwsLink }}) of the Ministery of Health, Welfare and Sport for our other spokespersons.
+If you are not a journalist please call our contact centre at 0031 (0)800-1280.

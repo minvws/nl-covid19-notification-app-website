@@ -27,6 +27,12 @@ header-title:
 header-subtitle:
   nl: 
   en:
+header-appstore:
+  nl: Download on the App Store
+  en: Download on the App Store
+header-googleplaystore:
+  nl: Get it on Google Play
+  en: Get it on Google Play
 header-language-picker-label:
   nl: Huidige taal
   en: Current language
@@ -117,6 +123,15 @@ faq-development:
 faq-info-will-be-updated:
   nl: Er komen meer vragen en antwoorden beschikbaar
   en: More questions and answers will be available soon
+faq-category-howtheapphelps:
+  nl: Hoe de app helpt tegen corona
+  en: How the app helps to stop the spread of coronavirus
+faq-category-howtheappworks:
+  nl: Werking van de app
+  en: How the app works
+faq-category-testregions:
+  nl: Testregio's
+  en: Trial regions
 has-been-answered:
   nl: Is je vraag beantwoord?
   en: Has your question been answered?
@@ -197,6 +212,15 @@ info-slider-btn-prev-slide:
 info-slider-btn-next-slide:
   nl: Volgende slide van slider
   en: Next slide of slider
+info-slider-first-slide: 
+  nl: Eerste slide van slider
+  en: First slide of slider
+info-slider-last-slide:
+  nl: Laatste slide van slider
+  en: Last slide of slider
+info-slider-goto-slide:
+  nl: Ga naar slide 
+  en: Go to slide 
 info-slides:
   nl:
     -
@@ -300,6 +324,9 @@ footer-phone-opening-hours-weekend:
   nl: Zaterdag en zondag 10.00 – 16.00 uur 
   en: Saturday and Sunday 10.00 a.m. – 04.00 p.m
 
+footer-colophon: 
+  nl: Colofon
+  en: Colophon
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> en de <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
   en: The CoronaMelder app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is being done in collaboration with the <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> and the <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.

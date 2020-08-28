@@ -63,7 +63,8 @@ p {
 
 @font-face {
     font-family: 'RO Sans';
-    src: url('../fonts/ROsanswebtextregular.woff') format('woff');
+    src: url('../fonts/ROsanswebtextregular.woff2') format('woff2'), 
+         url('../fonts/ROsanswebtextregular.woff') format('woff');
     font-weight: 400;
     font-display: swap;
 }
@@ -71,7 +72,8 @@ p {
 // Currently not in use...
 // @font-face {
 //     font-family: 'RO Sans';
-//     src: url('../fonts/ROsanswebtextitalic.woff') format('woff');
+//     src: url('../fonts/ROsanswebtextitalic.woff2') format('woff2'),
+//          url('../fonts/ROsanswebtextitalic.woff') format('woff');
 //     font-weight: 400;
 //     font-style: italic;
 //     font-display: swap;
@@ -79,7 +81,8 @@ p {
 
 @font-face {
     font-family: 'RO Sans';
-    src: url('../fonts/ROsanswebtextbold.woff') format('woff');
+    src: url('../fonts/ROsanswebtextbold.woff2') format('woff2'), 
+         url('../fonts/ROsanswebtextbold.woff') format('woff');
     font-weight: 600;
     font-display: swap;
 }

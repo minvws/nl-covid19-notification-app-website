@@ -2,8 +2,7 @@
 layout: content
 lang: nl
 showBreadCrumbs: true
+title: Disclaimer
 ---
-
-# Disclaimer
 
 Content volgt

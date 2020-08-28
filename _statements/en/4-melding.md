@@ -10,13 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 You will get a notification if:
 - 	someone changes their status in the CoronaMelder app to positive (this can only be done with the help of the GGD);
 - 	and you have been near that person in the past few days,

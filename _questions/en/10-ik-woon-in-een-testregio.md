@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 You can:
 - download and activate the app;
 - receive a notification if you have been near another app user who has tested positive, if you were near them for long enough;

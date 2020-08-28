@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 1. The app generates a unique code for each phone
 This code does not contain any information about you or your phone. The code is random and changes every 15 minutes.
  

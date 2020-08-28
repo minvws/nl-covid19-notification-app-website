@@ -3,14 +3,13 @@ layout: content
 lang: nl
 showBreadCrumbs: true
 title: Toegankelijkheidsverklaring
-permalink: /toegankelijkheidsverklaring
 ---
 
 # Toegankelijkheidsverklaring
 
 Datum toegankelijkheidsverklaring 10-07-2020
 
-Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden.
+Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden. Deze toegankelijksheidsverklaring wordt binnenkort up to date gemaakt.
 
 ## Wat is een toegankelijke website?
 
@@ -31,13 +30,7 @@ Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijk
 -	De CoronaMelder app wordt nog getest, indien op termijn de app voor iedereen beschikbaar is, wordt deze site ook beschikbaar in meerdere talen.
 -	**gevolg**: De site is nu alleen beschikbaar in de Nederlandse taal. 
 -	**alternatief**: Niet van toepassing
--	**maatregel**: Website in meerdere talen aanbieden indien de CoronaMelder app wordt ingevoerd.    
+-	**maatregel**: Website in meerdere talen aanbieden indien de CoronaMelder app wordt ingevoerd.
 -	**planning**: voor lancering Coronamelder app
 
-## Problemen met toegankelijkheid melden
-
-Heeft u vragen of opmerkingen? Of wilt u een pagina gebruiken die niet toegankelijk is? Dan kunt u contact opnemen via het e-mailadres <liaison@minvws.nl>
-
 Coronamelder.nl wordt geregeld bijgewerkt, dit betekent dat dit item binnen de toegankelijkheidsverklaring ook wordt aangevuld met extra onderwerpen die binnen deze website geconstateerd worden.
-
-

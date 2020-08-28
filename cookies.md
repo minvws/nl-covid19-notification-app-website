@@ -2,11 +2,9 @@
 layout: content
 lang: nl
 showBreadCrumbs: true
-title: Cookies
 permalink: /cookies
+title: Cookies
 ---
-
-# Cookies
 
 Deze website gebruikt geen cookies om webstatistieken te meten. 
 

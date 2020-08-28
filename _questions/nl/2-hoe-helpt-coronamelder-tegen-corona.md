@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 Ben je in de buurt geweest van iemand die corona blijkt te hebben? En laat diegene ook in de app weten dat hij of zij besmet is?
 
 - Dan krijg je daarna een melding. Het kan zijn dat jij ook besmet bent, ook al voel je je misschien (nog) niet ziek.
