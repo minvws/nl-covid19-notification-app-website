@@ -11,5 +11,18 @@ collections:
 sass:
   sass_dir: css
 
-# needed for travis CI
-exclude: [vendor]
+exclude:
+  - vendor 
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README.content-translations.md
+  - README.development.md
+  - README.i18n.md
+  - README.requirements.md
+  - LICENSES.md
+  - LICENSE.txt
+  - LICENSE.pdf
+  - example.content-page.md
+  - .sass-cache
+  - .history
