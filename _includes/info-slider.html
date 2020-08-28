@@ -20,7 +20,7 @@
         <div class="swiper-pagination"></div>
       </nav>
 
-      <button type="button" class="swiper-button-next"><!-- TODO: Aria label (vanuit swiper.JS) moet weg... -->
+      <button type="button" class="swiper-button-next">
         <span class="screen-reader-text">
           {{ site.data.translations.info-slider-btn-next-slide[page.lang] }}:
           {{ site.data.translations.info-slider-title[page.lang] }}
@@ -29,18 +29,23 @@
 
       <div class="swiper-wrapper">
         {% for info-slide in site.data.translations.info-slides[page.lang] %}
+        {% assign firstSlide = '' %}
+        {% if forloop.index == 1  %}
+          {% assign firstSlide = '__first-slide' %}
+        {% endif %}
+       
           <div class="swiper-slide">
-            <div class="info-slide" id="swiper-slide-{{ forloop.index }}" aria-labelledby="info-slide-title-{{ forloop.index }}">
+            <div class="info-slide " id="swiper-slide-{{ forloop.index }}" aria-labelledby="info-slide-title-{{ forloop.index }}">
               <div class="info-slide__graphic">
                 {% comment %}<!-- Note: pro-active lazy-load by Swipe.JS -->{% endcomment %}
                 {% comment %}<!-- Note: image is decorative -->{% endcomment %}
                 <img
                   data-src="{{ relroot }}img/info-slider/{{ info-slide.image }}.svg"
                   alt=""
-                  class="swiper-lazy"
+                  class="swiper-lazy {{ firstSlide }}"
                 >
               </div>
-              <div class="info-slide__text">
+              <div class="info-slide__text {{ firstSlide }}">
                 <h3 id="info-slide-title-{{ forloop.index }}">{{ info-slide.title | markdownify }}</h3>
                 {{ info-slide.content | markdownify }}
               </div>
@@ -50,13 +55,12 @@
       </div>
     </div>
   </div>
-  {% comment %}
-  <!-- TODO: temp disabled, waiting for CSS styling <button
+  {% comment %}<!-- TODO #91: temp disabled, waiting for CSS styling <button
     type="button"
     class="info-slider__btn-pause"
   >
     {{ site.data.translations.info-slider-btn-pause[page.lang] }}:
     {{ site.data.translations.info-slider-title[page.lang] }}
-  </button> -->
-  {% endcomment %}
+  </button>
+  -->{% endcomment %}
 </div>

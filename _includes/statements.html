@@ -3,91 +3,22 @@
   {% assign statements = site.statements | where:"lang", page.lang | sort: "index" %}
   {% for statement in statements %}
 
-    <article class="statements__statement" id="statement-{{ forloop.index }}">
+    <article class="statements__statement" id="statement-{{ statements.index }}">
       <div class="statement-summary">
         <div class="statement-summary__icon">
           {% include graphics/{{ statement.icon }}.svg %}
         </div>
         <div class="statement__content">
           <h2>{{ statement.title }}</h2>
-          <!-- TODO: timeline progress, may note be used for first version
-            <span><strong>{{ statement.timeline.completed.size }} {{ site.data.translations.x-of-y[page.lang] }} {{ statement.timeline.completed.size | plus: statement.timeline.working-on.size }}</strong> </span>
-          -->
           <p>{{ statement.summary }}</p>
         </div>
-        <button type="button" class="statement-summary__btn-expand" data-js-btn-open-statement="{{ forloop.index }}">
+        <a  href="{{ statement.url }}" class="statement-summary__btn-expand">
           <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
           <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader[page.lang] }}: {{ statement.title }}</span>
-        </button>
+        </a>
       </div>
 
-      <div class="details__summary__expanded-box-background" data-js-btn-close-statement></div>
-      <div
-        class="details__expanded-box"
-        tabindex="0"  role="dialog" aria-modal="true" aria-labelledby="statement-{{ forloop.index }}-title"
-      >
-        <div role="document">
-          <button type="button" class="expanded-box__btn-collapse expanded-box__btn-collapse--above-header" data-js-btn-close-statement>
-            {{ site.data.translations.readless[page.lang] }} <span class="icon icon-chevron-right"></span>
-          </button>
-          <div class="expanded-box__header">
-            <div class="expanded-box__header__icon" aria-hidden="true">{% include graphics/{{ statement.icon }}.svg %}</div>
-            <h2 class="expanded-box__header__title" id="statement-{{ forloop.index }}-title">{{ statement.title }}</h2>
-          </div>
-          <div class="expanded-box__content">
-            <div class="content-block">
-              {{ statement.content }}
-            </div>
-            <div class="timeline">
-              {% if statement.timeline.completed.size > 0 %}
-                <ul class="completed">
-                  {% for item in statement.timeline.completed %}
-                    <li>{{ item }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-              {% if statement.timeline.working-on.size > 0 %}
-                <ul class="working-on">
-                  {% for item in statement.timeline.working-on %}
-                    <li>{{ item }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          </div>
-          <div class="expanded-box__want-to-know-more">
-            <h3>
-              {{ site.data.translations.want-to-known-more[page.lang] }}
-            </h3>
-            <p data-js-btn-close-statement>{{ site.data.translations.see-the-faq[page.lang] }}</p>
-          </div>
-          <button type="button" class="expanded-box__btn-collapse" data-js-btn-close-statement>
-            {{ site.data.translations.readless[page.lang] }}
-            <span class="screen-reader-text">{{ site.data.translations.readless--under[page.lang] }}</span>
-            <span class="icon icon-chevron-right"></span>
-          </button>
-        </div>
-      </div>
-      {% comment %}
-      <!-- TODO: This is a feature that will not be implemented in the first version
-      <div class="respond">
-        <a href="#">{{ site.data.translations.respond[page.lang] }}</a>
-      </div> -->
-      <!-- TODO: not available yet in first version <div class="share">
-        <h4>{{ site.data.translations.share[page.lang] }}</h4>
-        <ul>
-          <li><a href="#" class="icon-twitter">{{ site.data.translations.share-on-twitter[page.lang] }}</a></li>
-          <li><a href="#" class="icon-facebook">{{ site.data.translations.share-on-facebook[page.lang] }}</a></li>
-          <li><a href="#" class="icon-linkedin">{{ site.data.translations.share-on-linkedin[page.lang] }}</a></li>
-        </ul>
-      </div> -->
-      {% endcomment %}
+     
     </article>
   {% endfor %}
-  </div>
-  {% comment %}
-  <!-- TODO: not available in first version
-    <ul><li><a href="{{ site.data.translations.principles-href[page.lang] }}">{{ site.data.translations.principles[page.lang] }}</a></li></ul> 
-  -->
-  {% endcomment %}
 </div>

@@ -1,7 +1,7 @@
 <header>
   <div class="skiplinks">
     <a href="#content">
-      {{ site.data.translation.header-skip-to-content[page.lang] }}
+      {{ site.data.translations.header-skip-to-content[page.lang] }}
     </a>
   </div>
   {%- if (site.data.translations.development[page.lang] && site.data.translations.development[page.lang] != '') -%}
@@ -11,26 +11,21 @@
   {%- endif -%}
   <div class="logobar">
     <div class="logo">
-      <a href="{{ relroot }}">
+      <a href="{{ langSlug }}">
         <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
       </a>
-      {% comment %}<!-- TODO: <span class="wordmark">
-        <span class="sender">{{ site.data.translations.minvws[page.lang] }}</span>
-      </span> -->{% endcomment %}
     </div>
   </div>
   <div class="header-yellow">
     <div class="container">
       <div class="header-yellow__text">
-        <div class="header-yellow__language-picker">
-          {% include language-picker.html %}
-        </div>
+        {% include language-picker.html %}
         <h1>
           {{ site.data.translations.header-title[page.lang] }}
         </h1>
         <h2 class="subtitle">{{ site.data.translations.header-subtitle[page.lang] }}</h2>
       </div>
-      {% comment %}<!-- TODO <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->{% endcomment %}
+      {% comment %}<!-- TODO See #61 <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->{% endcomment %}
     </div>
   </div>
 </header>

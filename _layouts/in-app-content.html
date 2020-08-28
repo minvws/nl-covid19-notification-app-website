@@ -1,0 +1,30 @@
+{%- assign relroot = '/' -%}
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+{%- assign langSlug = '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = '/' | append: page.lang -%}
+{%- endif -%}
+
+
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+<!--
+  This website is generated at {{ site.time }}.
+  The code is open source. You are welcome to contribute. Go to git: 
+  https://github.com/minvws/nl-covid19-notification-app-website
+-->
+{% include head.html %}
+<body>
+  <main class="content-center content-center__in_app" id="content">
+    <div class="content-block">
+      {{ content }}
+    </div>
+  </main>
+
+  {% if page.redirectToApp %}
+    <script type="text/javascript" src="{{ relroot }}js/redirect-app.js?v={{ timeslug }}"></script>
+  {% endif %}
+
+</body>
+</html>
+

@@ -1,8 +1,11 @@
-{%- assign relroot = './' -%}
-{%- if page.lang != 'nl' -%}
-  {%- assign relroot = '../' -%}
-{%- endif -%}
+{%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+{%- assign langSlug = '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = '/' | append: page.lang -%}
+{%- endif -%}
+
+
 <!DOCTYPE html>
 <!--
   This website is generated at {{ site.time }}.

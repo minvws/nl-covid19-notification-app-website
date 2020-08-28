@@ -10,7 +10,7 @@
             clickable: true,
             renderBullet: function (index, className) {
                 return '<a class="' + className + '" href="#swiper-slide-' + index + '"><span class="screen-reader-text">Ga naar slide ' + (index + 1) + '</span></a>';
-                // TODO: render vanuit liquid en geef juist taal keys
+                // TODO #91: render vanuit liquid en geef juist taal keys
             }
         },
 
@@ -24,16 +24,5 @@
         lazy: {
             loadPrevNext: true
         },
-
-        autoplay: {
-            delay: 3500
-        },
     });
-
-    // WCAG SC 2.2.2: Pause, Stop, Hide
-    // https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html
-    // TODO, also see html...
-    // document.querySelector('.info-slider__btn-pause').addEventListener('click', function() {
-    //     mySwiper.autoplay.stop();
-    // });
 })();
