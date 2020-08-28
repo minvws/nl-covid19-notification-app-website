@@ -13,7 +13,7 @@
             el: '.swiper-pagination',
             clickable: true,
             renderBullet: function (index, className) {
-                return '<button class="' + className + '"><span class="screen-reader-text">' + bulletSlide + (index + 1) + '</span></button>';
+                return '<button role="button" class="' + className + '"><span class="screen-reader-text">' + bulletSlide + (index + 1) + '</span></button>';
             }
         },
 
