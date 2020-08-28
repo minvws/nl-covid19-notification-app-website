@@ -1,25 +1,10 @@
 About
 ---------------------
 
-This site is the project website of the notification-app by the Dutch Ministry of Health.
+This repository contains the source files of the official website for the Dutch COVID-19 Notification App CoronaMelder and is available at [coronamelder.nl](https://coronamelder.nl)
 
-[![Build Status](https://travis-ci.org/minvws/nl-covid19-notification-app-website.svg?branch=master)](https://travis-ci.org/minvws/nl-covid19-notification-app-website)
 
-### **Status: work in progress**
-
-### **Target audience:**
-
-Ordinary citizens, the general public
-
-### **Links:**
-
-1. [UX design in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=0%3A1)
-1. [To do kanban board](https://github.com/minvws/nl-covid19-notification-app-website/projects/1) 
-1. [Latest HTML implementation](https://minvws.github.io/nl-covid19-notification-app-website/) 
-1. Discuss this website via the Code for NL Slack [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/))
-1. Also see the [Community website](https://github.com/minvws/nl-covid19-notification-app-community-website/blob/master/README.md) that is aimed specifically at (potential) community members.
-
-How to help
+Goals of the website
 ---------------------
 Please join the Slack channel and check out the kanban board for the latest status. 
 
@@ -80,88 +65,35 @@ Please ping any of the people involved via Slack if you are interested in writin
 ## Honorable mentions and gratitude 
 Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people and interaction design feedback website), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw, Joost Soeterbroek. 
 
-Harrie and Bart have later been asked to finish the project on a paid basis. 
+The main objective of coronamelder.nl is to activate Dutch citizens to download and use CoronaMelder to reduce COVID-19 infections. Therefore, the site meets the information needs of visitors. Mainly:
 
-Technical setup
-------------------------------------
+- Explain why the app is needed, what the app does and how CoronaMelder works
+- Give answers to frequently asked questions about CoronaMelder and debunk misconceptions
+- Provide the current privacy statement, accessibility statement, colophon and version information of CoronaMelder
+- Refer to the iOS App Store and Android Google Play Store to install CoronaMelder on a smartphone
+- Offer contact channels for other questions about CoronaMelder
 
-### GitHub Pages
+See also the [Requirements and design principles](https://github.com/minvws/nl-covid19-notification-app-website/blob/master/README.requirements.md) for the website.
 
-[GitHub Pages](https://pages.github.com/) are public webpages hosted directly through the GitHub repository.
 
-### Jekyll
 
-GitHub Pages support the static site generator [Jekyll](https://jekyllrb.com/).
-Jekyll supports [Markdown](https://daringfireball.net/projects/markdown/), [Liquid](https://github.com/Shopify/liquid/wiki), HTML and CSS to create a complete static website.
-By using the Liquid templating language, content can be stored in Markdown.
+Disclaimer
+-----------
 
-### How to add a statement
+The design and development of the website started as a volunteering project [in the community](https://minvws.github.io/nl-covid19-notification-app-community-website/). The Ministry of Health, Welfare and Sport has built the current website on the foundation created by community members.
 
-To add a feature, create a Markdown file in `_statement` with the following template:
-```md
----
-index: 7
-title: Is this statement true?
-icon: thumbs-ub
-summary: Short summary
-timeline:
-  completed:
-    - Something that is completed
-    - More stuff already done
-  working-on:
-    - Still working on X
-    - Also need to check Y
----
-There is optional Markdown content goes here, this can contain <code>HTML</code>.
-```
-For the `icon` field the values `book`, `lock`, `privacy` and `thumbs-up` can be used for now.
+Do you want to get in touch with the people involved in designing and building the website? Join the [CodeForNL Slack](https://doemee.codefor.nl/) and go to the `#coronamelder-website` channel. Although the primary language used on the channel is Dutch you should feel free to join the conversation in English.
 
-### How to add a question
 
-To add a feature, create a Markdown file in `_questions` with the following template:
-```md
----
-set: 3-app
-index: 6
-title: Question about X
-lang: nl
----
-The answer in Markdown goes here, this can contain <code>HTML</code>.
-```
-For the `set` field the values `1-top5`, `2-opensource`, `3-app` and `4-development` can be used.
-Please also include the name part as prefix of your file, e.g. `app-X.md`.
+## Honorable mentions and gratitude 
 
-### Content formatting
+Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw, Joost Soeterbroek. 
 
-Take a look at this [example content page](https://minvws.github.io/nl-covid19-notification-app-website/en/example-content-page) ([source in markdown](./example-content-page.md)) which displays all possible content formatting options. These display options are also available in: statement, question
+Harrie, Bart, Cas and Laura have later been asked to finish the project on a paid basis. 
 
-### Translation
-
-Please give your file a short English name without spaces (you can use dash `-` instead).
-You should at least provide the base file with `lang: nl`.
-The translations should have the same name with a `-lang` suffix, where `lang` is the language keyword e.g. `en`.
-
-See file [README.i18n.md](README.i18n.md) for details.
-
-### How to test GitHub Pages locally
-
-To build Jekyll, you could [install Jekyll locally](https://jekyllrb.com/docs/installation/) or probably the easier route: use a Docker image.
-To use a Docker image you should have Docker engine installed, see [how to install Docker enginge](https://docs.docker.com/engine/install/).
-
-[`starefossen/github-pages`](https://hub.docker.com/r/starefossen/github-pages) is a small Alpine Docker image for running GitHub Pages / Jekyll projects locally.
-You only need to mount the pages in a volume under `/usr/src/app` like this:
-```bash
-docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
-```
-*Note: for Windows users we advise Powershell or another shell that supports `$PWD`, for `cmd` you can replace `$PWD` with `%cd%`.*
-
-The Jekyll page will be available on [`http://localhost:4000`](http://localhost:4000/).
-
-To test locally with htmlproofer (to test validity of html-code):
-```bash
-bundle exec htmlproofer ./_site --checks-to-ignore=LinkCheck
-```
-
-### Vendors
-
+## Development & Contribution process 
 Note: rather than rely on a third party CDN or dependencies that are not part of this repository; all assets and dependencies are part of this build. Please go to [the vendor licenses directory](./vendor-licenses) for the vendor licenses.
+
+The development team works directly from this open-source repository. If you plan to propose changes, we recommend opening an issue beforehand where we can discuss your planned changes. This increases the chance that we’re able to use your contribution (or it avoids doing work if there are reasons why we wouldn't be able to use it).
+See also [Develop with us (contribute and review)](README.development.md) and [i18n (internationalization)](README.i18n.md)
+

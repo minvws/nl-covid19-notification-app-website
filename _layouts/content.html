@@ -1,8 +1,10 @@
-{%- assign relroot = './' -%}
-{%- if page.lang != 'nl' -%}
-  {%- assign relroot = '../' -%}
-{%- endif -%}
+{%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+{%- assign langSlug = '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = '/' | append: page.lang -%}
+{%- endif -%}
+
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
 <!--
@@ -14,17 +16,31 @@
 <body>
   {% include header-slim.html %}
   <main class="content-center" id="content">
+    {% if page.showBreadCrumbs %}
+      {% include breadcrumbs.html title=page.title collection=page.collection %}
+    {% endif %}
+
     {% if page.showHomeBtn %}
-      <p class="content-center__home">
-        <a href="{{ relroot }}">
+      <p class="content-center__home return_link">
+        <a href="{{ langSlug }}">
           <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
         </a>
       </p>
     {% endif %}
-
+    
     <div class="content-block">
       {{ content }}
     </div>
+
+    {% if page.collection == 'questions' %}
+      <p class="content-center__home return_link">
+        <a href="{{ langSlug }}/faq">
+          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-faq[page.lang] }} 
+        </a>
+      </p>
+    {% endif %}
+
+
   </main>
   {% include footer.html %}
 </body>

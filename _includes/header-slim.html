@@ -1,20 +1,29 @@
 <header>
   <div class="skiplinks">
-    <a href="#content">Ga direct naar inhoud</a>
+    <a href="#content">
+      {{ site.data.translations.header-skip-to-content[page.lang] }}
+    </a>
   </div>
-  <div class="badge"><span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}</div>
+  {%- if (site.data.translations.development[page.lang] && site.data.translations.development[page.lang] != '') -%}
+    <div class="badge">
+      <span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}
+    </div>
+  {%- endif -%}
   <div class="logobar">
     <div class="logo">
-      <a href="{{ relroot }}">
+      <a href="{{ langSlug }}">
         <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
       </a>
     </div>
   </div>
   <div class="header-yellow header-yellow--slim">
     <div class="header-yellow__center">
-      <div class="header-yellow__language-picker">
-        {% include language-picker.html %}
+      {% include language-picker.html %}
+      <div class="header-yellow__title">
+        {{ site.data.translations.head-app-name[page.lang] }}
       </div>
     </div>
   </div>
 </header>
+
+

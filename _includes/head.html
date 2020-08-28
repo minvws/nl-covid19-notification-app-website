@@ -1,15 +1,35 @@
 <head>
     <meta charset="UTF-8">
     <title>{% if page.title != '' %}{{ page.title }} - {% endif %}{{ site.data.translations.page-title[page.lang] }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.data.translations.description[page.lang]}}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
-    <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    {% comment %}<!-- <link rel="preload" href="{{ relroot }}fonts/RO-SerifWeb-Regular.woff2" as="font" type="font/woff2" crossorigin> -->{% endcomment %}
-    <link rel="preload" href="{{ relroot }}fonts/RO-SansWebText-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextregular.woff" as="font" type="font/woff" crossorigin>
+    {% comment %}<!-- <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextitalic.woff" as="font" type="font/woff" crossorigin> -->{% endcomment %}
+    <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextbold.woff" as="font" type="font/woff" crossorigin>
     <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.css" crossorigin="anonymous">
     <script src="{{ relroot }}js/vendors/swiper-bundle.5.4.5.min.js" crossorigin="anonymous"></script>
+    <script src="{{ relroot }}js/vendors/focus-visible.5.1.0.min.js" crossorigin="anonymous" async></script>
+    {%- comment -%}
     <script src="{{ relroot }}js/piwik.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
-    <script src="{{ relroot }}js/stats.js?v={{ timeslug }}" crossorigin="anonymous" async></script>    
+    <script src="{{ relroot }}js/stats.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
+    {%- endcomment -%}
+
+    <meta name="description" content="{{ site.data.translations.head-social-og-description[page.lang]}}">
+
+    <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name[page.lang] }}">
+    <meta property="og:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
+    <meta property="og:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}"/>
+    <meta property="og:image" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-url[page.lang]}}">
+    <meta property="og:updated_time" content="{{ site.time | date: "%s" }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coronamelder.nl">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
+    <meta name="twitter:description" content="{{ site.data.translations.head-social-og-description[page.lang]}}" />
+    <meta name="twitter:image" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-url[page.lang]}}" />
+    <meta name="twitter:image:alt" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-alt[page.lang]}}" />
 </head>
