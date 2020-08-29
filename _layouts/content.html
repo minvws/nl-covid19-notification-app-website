@@ -29,6 +29,7 @@
     {% endif %}
     
     <div class="content-block">
+      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
       {{ content }}
     </div>
 

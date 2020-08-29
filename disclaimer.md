@@ -3,8 +3,7 @@ layout: content
 lang: nl
 showBreadCrumbs: true
 permalink: /disclaimer
+title: Disclaimer
 ---
-
-# Disclaimer
 
 Content volgt

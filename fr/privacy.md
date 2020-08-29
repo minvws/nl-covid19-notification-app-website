@@ -6,4 +6,4 @@ title: Privacyverklaring
 
 ---
 
-{% include privacy-text-en.md %}
+

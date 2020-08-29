@@ -10,13 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
  
 Als je thuisblijft, is de kans klein dat je dan ook anderen besmet.
