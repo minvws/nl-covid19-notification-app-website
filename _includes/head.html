@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
+
+    {%- if page.lang == 'ar' -%}
+        <link href="{{ relroot }}arabic/main-ar.css?v={{ timeslug }}" rel="stylesheet">
+    {% endif %}
+
     <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextregular.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextregular.woff" type="font/woff2" crossorigin="anonymous">
     {% comment %}
