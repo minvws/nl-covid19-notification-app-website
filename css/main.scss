@@ -455,7 +455,7 @@ header .watch > a:hover {
 
 .statements details > summary > div.expand,
 .statements details > summary > .collapse.bottom {
-    color: #154273 /* RO blauw */;
+    color: $color-RO_donkerblauw;
     border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
     position: absolute;
     left: 0;
@@ -621,7 +621,7 @@ header .watch > a:hover {
 .timeline > h3.working-on::after,
 .timeline > ul.working-on > li::before,
 .timeline > ul.working-on > li::after {
-   border-color: #154273 /* RO blauw */;
+   border-color: $color-RO_donkerblauw;
 }
 
 .timeline > ul.completed > li,
@@ -751,7 +751,7 @@ a.explainer > h2 {
     margin-top: -6rem;
 }
 .faq > label {
-    color: #154273 /* RO blauw */;
+    color: $color-RO_donkerblauw;
     cursor: pointer;
     display: block;
     float: left;
