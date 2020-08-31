@@ -307,7 +307,9 @@ footer-logos-info_md:
 footer-more-info-title:
   nl: Meer informatie?
   en: More information?
-footer-more-info-url: https://rijksoverheid.nl
+footer-more-info-url:
+  nl: https://rijksoverheid.nl
+  en: https://www.government.nl/topics/coronavirus-covid-19
 footer-more-info:
   nl: Kijk op rijksoverheid.nl
   en: Go to government.nl
