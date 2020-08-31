@@ -124,7 +124,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: #002783 /* RO donker link2 */;
+    color: $color-RO_donkerblauw--interaction;
     text-decoration: underline;
 }
 
@@ -155,7 +155,7 @@ a:hover {
         border: none;
         border-radius: 0;
         color: #fff;
-        background-color: #002783;
+        background-color: $color-RO_donkerblauw--interaction;
         position: absolute;
         top: -100vh;
         left: -100vw;
