@@ -25,7 +25,7 @@ In deze GGD-regio’s wordt de app al in de praktijk getest:
 -  	Noord- en Oost-Gelderland
 -  	Twente
  
-Bekijk of je in een gemeente woont binnen de [testregio’s](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s). 
+Bekijk of je in een gemeente woont binnen de <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">testregio’s</a>.
  
 Alleen in deze regio’s kun je:
 -   	je laten testen nadat je een melding hebt gekregen.
