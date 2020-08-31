@@ -8,6 +8,6 @@ vwsLink: https://www.government.nl/ministries/ministry-of-health-welfare-and-spo
 
 # {{ page.title }}
 
-Are you a journalist please contact one of our spokespersons, Please check the [website]({{ page.vwsLink }}) of the Ministery of Health, Welfare and Sport.
+Journalists are kindly asked to contact one of our spokespersons from the Ministry of Health, Welfare and Sport through the [website]({{ page.vwsLink }}).
 
-If you are not a journalist please call our contact centre at {{ site.data.translations.phone-action[page.lang] }}.
+Otherwise, please call our contact centre at {{ site.data.translations.phone-action[page.lang] }}.
