@@ -122,13 +122,13 @@
 .footer-phone_action_text {
     display: block;
     font-weight: 800;
-    color: #CA005D /* RO pink */;
+    color: $color-WARN_rood;
     font-size: 32px;
     margin-bottom: 0.5em;
     line-height: 1.4;
 
     a {
-        color: #CA005D /* RO pink */;
+        color: $color-WARN_rood;
     }
 }
 
