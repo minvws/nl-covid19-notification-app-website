@@ -328,13 +328,15 @@ footer-colophon:
   nl: Colofon
   en: Colophon
 footer-logos-info_md:
-  nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> en de <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
-  en: The CoronaMelder app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is being done in collaboration with the <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> and the <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
+  nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <a href="https://www.rivm.nl/" target="_blank" rel="noopener" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> en de <a href="https://www.ggd.nl/" target="_blank" rel="noopener" noreferrer><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
+  en: The CoronaMelder app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is being done in collaboration with the <a href="https://www.rivm.nl/" target="_blank" rel="noopener" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> and the <a href="https://www.ggd.nl/" target="_blank" rel="noopener" noreferrer><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
 
 footer-more-info-title:
   nl: Meer informatie?
   en: More information?
-footer-more-info-url: https://rijksoverheid.nl
+footer-more-info-url: 
+  nl: https://rijksoverheid.nl
+  en: https://government.nl
 footer-more-info:
   nl: Kijk op rijksoverheid.nl
   en: Go to government.nl
