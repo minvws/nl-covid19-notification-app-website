@@ -4,8 +4,6 @@ lang: en
 title: Research version
 ---
 
-# Research version
-
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
     You're one of the first people in The Netherlands to use CoronaMelder
 </p>

@@ -10,14 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
-
 In deze GGD-regio’s wordt de app al in de praktijk getest:
 -  	Drenthe
 -  	Gelderland-Zuid

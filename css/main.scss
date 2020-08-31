@@ -22,7 +22,7 @@ $color-WARN_rood: #CA005D;
 
 $color-focus: #008fcd;
 $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
-
+    
 :root {
     --transition-in: 262ms ease;
     --transition-in--fast: 100ms ease;
@@ -51,7 +51,8 @@ $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 
 @font-face {
     font-family: 'RO Sans';
-    src: url('../fonts/ROsanswebtextregular.woff') format('woff');
+    src: url('../fonts/ROsanswebtextregular.woff2') format('woff2'), 
+         url('../fonts/ROsanswebtextregular.woff') format('woff');
     font-weight: 400;
     font-display: swap;
 }
@@ -59,7 +60,8 @@ $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 // Currently not in use...
 // @font-face {
 //     font-family: 'RO Sans';
-//     src: url('../fonts/ROsanswebtextitalic.woff') format('woff');
+//     src: url('../fonts/ROsanswebtextitalic.woff2') format('woff2'),
+//          url('../fonts/ROsanswebtextitalic.woff') format('woff');
 //     font-weight: 400;
 //     font-style: italic;
 //     font-display: swap;
@@ -67,7 +69,8 @@ $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 
 @font-face {
     font-family: 'RO Sans';
-    src: url('../fonts/ROsanswebtextbold.woff') format('woff');
+    src: url('../fonts/ROsanswebtextbold.woff2') format('woff2'), 
+         url('../fonts/ROsanswebtextbold.woff') format('woff');
     font-weight: 600;
     font-display: swap;
 }
@@ -83,6 +86,10 @@ html {
         body {
             overflow-y: scroll; // Prevent scrollbar jitter
         }
+    }
+
+    &[ar] {
+        direction: rtl;
     }
 }
 
