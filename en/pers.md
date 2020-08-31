@@ -10,4 +10,4 @@ vwsLink: https://www.government.nl/ministries/ministry-of-health-welfare-and-spo
 
 Are you a journalist please contact one of our spokespersons, Please check the [website]({{ page.vwsLink }}) of the Ministery of Health, Welfare and Sport.
 
-If you are not a journalist please call our contact centre at 0031 (0)800-1280.
+If you are not a journalist please call our contact centre at {{ site.data.translations.phone-action[page.lang] }}.
