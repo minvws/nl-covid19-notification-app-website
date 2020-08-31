@@ -17,37 +17,32 @@ your privacy. And that helps to get —&nbsp;and keep&nbsp;— the coronavirus u
 ## Source code
 
 The app's source code and its backend systems are all publicly available. You
-can find all code on [GitHub](https://github.com/minvws). This way, the precise
+can find all code on <a href="https://github.com/minvws" target="_blank" ref="noopener">GitHub</a>. This way, the precise
 way the app works is verifiable and controllable by many people, who can also
 help discover any potential vulnerabilities.
 
 ## Contributions
 
 - Aside from the authors of the various open source, 3rd-party libraries, we
-  have received contributions from
-  [many others](https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F).
+  have received contributions from <a href="https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F" target="_blank" ref="noopener">many others</a>.
+  
 
 ## Application Licences, Terms & Conditions and Disclaimers
 
-- CoronaMelder
-  [iOS Application's open source licence](https://github.com/minvws/nl-covid19-notification-app-ios/blob/master/LICENSES.md)
-  and the Open Source
-  [iOS 3rd-party](https://github.com/minvws/nl-covid19-notification-app-ios/tree/master/licenses)
-  libraries used in the application.
-- CoronaMelder on
-  [Android's open source licence](https://github.com/minvws/nl-covid19-notification-app-android/blob/master/LICENSES.md).
-
+- CoronaMelder <a href="https://github.com/minvws/nl-covid19-notification-app-ios/blob/master/LICENSES.md" target="_blank" ref="noopener">iOS Application's open source licence</a>
+  and the Open Source <a href="https://github.com/minvws/nl-covid19-notification-app-ios/tree/master/licenses" target="_blank" ref="noopener">iOS 3rd-party</a> libraries used in the application.
+- CoronaMelder on <a href="https://github.com/minvws/nl-covid19-notification-app-android/blob/master/LICENSES.md" target="_blank" ref="noopener">Android's open source licence</a>.
 These licences, terms & conditions and disclaimers are an integral part of both
 the iOS and Android distribution and the Mobile Application.
 
 ## Server Licences, Terms & Conditions and Disclaimers
 
-- [Backend licence](https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md)
+- <a href="https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md" target="_blank" ref="noopener">Backend license</a>
   and the
-  [3rd-party](https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE)
+  <a href="https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE" target="_blank" ref="noopener">3rd party</a> 
   backend libraries.
 
 ## Reporting vulnerabilities
 
 Any vulnerabilities can be confidentially (or anonymously) reported to the
-[National Cyber Security Center of the Dutch Government](https://www.ncsc.nl/contact/kwetsbaarheid-melden).
+<a href="https://www.ncsc.nl/contact/kwetsbaarheid-melden" target="_blank" ref="noopener">National Cyber Security Center of the Dutch Government</a>.
