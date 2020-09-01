@@ -11,7 +11,7 @@ collections:
 sass:
   load_paths:
     - css
-    - arabic
+    - css-arabic
     
 
 exclude:

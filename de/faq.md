@@ -1,6 +1,6 @@
 ---
 layout: faq-overview
-lang: de
+lang: en
 showBreadCrumbs: true
 title: ''
 ---
