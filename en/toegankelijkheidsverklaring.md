@@ -5,8 +5,6 @@ showBreadCrumbs: true
 title: Accessibility
 ---
 
-# Accessibility
-
 English version coming soon!
 
 Datum toegankelijkheidsverklaring 10-07-2020
