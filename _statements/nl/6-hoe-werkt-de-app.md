@@ -10,13 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 **De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
 
 <div class="md-timeline" markdown="1">
@@ -39,8 +32,6 @@ Bekijk hier of je in een gemeente woont van deze testregio's:
 - GGD IJsselland
 - GGD Noord- en Oost-Gelderland
 - GGD Twente
-
- 
 </div>
 </details>
 

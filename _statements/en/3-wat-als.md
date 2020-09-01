@@ -11,13 +11,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 If you get a notification, it means you have been near someone who has tested positive for coronavirus. Don’t panic: this does not mean for sure that you have coronavirus too. It means you have been in a high-risk situation and that you could have been infected with coronavirus. 
 
 By staying at home, you can reduce the chance of infecting other people.

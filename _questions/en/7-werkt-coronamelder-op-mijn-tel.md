@@ -11,6 +11,4 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 The app works on Apple iPhones running the operating system iOS 13.5 or higher, and on most Android phones running version 6 or higher.

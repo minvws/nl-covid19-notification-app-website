@@ -5,8 +5,6 @@ showBreadCrumbs: true
 title: Cookies
 ---
 
-# Cookies
-
 Deze website gebruikt geen cookies om webstatistieken te meten. 
 
 ## Geen trackingcookies

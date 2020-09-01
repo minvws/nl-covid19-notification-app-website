@@ -10,13 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
  
 Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
