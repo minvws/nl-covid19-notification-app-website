@@ -22,7 +22,7 @@ $color-WARN_rood: #CA005D;
 
 $color-focus: #008fcd;
 $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
-
+    
 :root {
     --transition-in: 262ms ease;
     --transition-in--fast: 100ms ease;
@@ -51,7 +51,8 @@ $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 
 @font-face {
     font-family: 'RO Sans';
-    src: url('../fonts/ROsanswebtextregular.woff') format('woff');
+    src: url('../fonts/ROsanswebtextregular.woff2') format('woff2'), 
+         url('../fonts/ROsanswebtextregular.woff') format('woff');
     font-weight: 400;
     font-display: swap;
 }
@@ -59,7 +60,8 @@ $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 // Currently not in use...
 // @font-face {
 //     font-family: 'RO Sans';
-//     src: url('../fonts/ROsanswebtextitalic.woff') format('woff');
+//     src: url('../fonts/ROsanswebtextitalic.woff2') format('woff2'),
+//          url('../fonts/ROsanswebtextitalic.woff') format('woff');
 //     font-weight: 400;
 //     font-style: italic;
 //     font-display: swap;
@@ -67,7 +69,8 @@ $color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
 
 @font-face {
     font-family: 'RO Sans';
-    src: url('../fonts/ROsanswebtextbold.woff') format('woff');
+    src: url('../fonts/ROsanswebtextbold.woff2') format('woff2'), 
+         url('../fonts/ROsanswebtextbold.woff') format('woff');
     font-weight: 600;
     font-display: swap;
 }
@@ -83,6 +86,10 @@ html {
         body {
             overflow-y: scroll; // Prevent scrollbar jitter
         }
+    }
+
+    &[ar] {
+        direction: rtl;
     }
 }
 
@@ -124,7 +131,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: #002783 /* RO donker link2 */;
+    color: $color-RO_donkerblauw--interaction;
     text-decoration: underline;
 }
 
@@ -155,7 +162,7 @@ a:hover {
         border: none;
         border-radius: 0;
         color: #fff;
-        background-color: #002783;
+        background-color: $color-RO_donkerblauw--interaction;
         position: absolute;
         top: -100vh;
         left: -100vw;
@@ -455,7 +462,7 @@ header .watch > a:hover {
 
 .statements details > summary > div.expand,
 .statements details > summary > .collapse.bottom {
-    color: #154273 /* RO blauw */;
+    color: $color-RO_donkerblauw;
     border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
     position: absolute;
     left: 0;
@@ -621,7 +628,7 @@ header .watch > a:hover {
 .timeline > h3.working-on::after,
 .timeline > ul.working-on > li::before,
 .timeline > ul.working-on > li::after {
-   border-color: #154273 /* RO blauw */;
+   border-color: $color-RO_donkerblauw;
 }
 
 .timeline > ul.completed > li,
@@ -751,7 +758,7 @@ a.explainer > h2 {
     margin-top: -6rem;
 }
 .faq > label {
-    color: #154273 /* RO blauw */;
+    color: $color-RO_donkerblauw;
     cursor: pointer;
     display: block;
     float: left;

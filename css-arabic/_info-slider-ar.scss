@@ -1,0 +1,18 @@
+.info-slide {
+    @media (min-width: 740px) and (max-width: 959px) {
+        padding: 2.4rem 5rem 0 4.4rem;
+    }
+}
+
+.info-slide__text {
+    padding: 0.2em 1.2em 0 0.8em;
+
+    @media (min-width: 740px) and (max-width: 959px) {
+        padding: 0.2em 0 0 0.8em;
+
+        &.__first-slide {
+            right: -25px;
+            left: auto;
+        }
+    }
+}

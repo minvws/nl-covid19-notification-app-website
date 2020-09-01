@@ -1,0 +1,100 @@
+{%- assign relroot = '/' -%}
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+{%- assign langSlug = '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = '/' | append: page.lang -%}
+{%- endif -%}
+
+<!DOCTYPE html>
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
+<!--
+  This website is generated at {{ site.time }}.
+  The code is open source. You are welcome to contribute. Go to git: 
+  https://github.com/minvws/nl-covid19-notification-app-website
+-->
+{% include head.html %}
+<body>
+  {% include header-slim.html %}
+  <main class="content-center" id="content">
+    {% if page.showBreadCrumbs %}
+      {% include breadcrumbs.html title=page.title collection=page.collection %}
+    {% endif %}
+
+    {% if page.showHomeBtn %}
+      <p class="content-center__home return_link">
+        <a href="{{ langSlug }}">
+          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-home[page.lang] }}
+        </a>
+      </p>
+    {% endif %}
+    
+    <div class="content-block">
+
+      <h1 id="frequently-asked-questions">{{ site.data.translations.faq[page.lang] }}</h1>
+
+      {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
+
+      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
+
+      <div class="faq-layout__contents __overview">
+          <ul class="faq-layout-contents__list">
+          {% for question in questions %}
+              {% if question.set == 1 %}
+                  <li>
+                      <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
+                          {{ question.title }}
+                      </a>
+                  </li>
+                {% endif %}
+          {% endfor %}
+          </ul>
+      </div>
+
+
+      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheappworks[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheappworks[page.lang] }}</h2>
+
+      <div class="faq-layout__contents __overview">
+          <ul class="faq-layout-contents__list">
+          {% for question in questions %}
+              {% if question.set == 2 %}
+                  <li>
+                      <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
+                          {{ question.title }}
+                      </a>
+                  </li>
+                {% endif %}
+          {% endfor %}
+          </ul>
+      </div>
+
+      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-testregions[page.lang]|slugify }}">{{ site.data.translations.faq-category-testregions[page.lang] }}</h2>
+
+      <div class="faq-layout__contents __overview">
+          <ul class="faq-layout-contents__list">
+          {% for question in questions %}
+              {% if question.set == 3 %}
+                  <li>
+                      <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
+                          {{ question.title }}
+                      </a>
+                  </li>
+                {% endif %}
+          {% endfor %}
+          </ul>
+      </div>
+
+    </div>
+
+    {% if page.collection == 'questions' %}
+      <p class="content-center__home return_link">
+        <a href="{{ langSlug }}/faq">
+          <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-faq[page.lang] }} 
+        </a>
+      </p>
+    {% endif %}
+
+
+  </main>
+  {% include footer.html %}
+</body>
+</html>

@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 Je kunt CoronaMelder:
 
 - downloaden en activeren,

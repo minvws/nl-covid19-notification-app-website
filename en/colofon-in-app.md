@@ -4,8 +4,6 @@ lang: en
 title: Colophon
 ---
 
-# Colophon
-
 The CoronaMelder app has been developed by the Ministry of Public Health,
 Welfare and Sport in collaboration with the RIVM and the national GGD
 institutions. The app could not have been realised without the help of dozens of

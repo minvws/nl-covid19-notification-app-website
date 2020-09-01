@@ -6,7 +6,7 @@
     {% if page.showTogether  %}
     <div class="footer-samen {{ small }}">
         <a class="footer-samen__logo" href="{{ site.data.translations.footer-samen-logo-url }}">
-            <img src="{{ relroot }}img/logo-alleen-samen.svg?v=2020-07-17" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
+            <img src="{{ relroot }}img/logo-alleen-samen.svg?v={{ timeslug }}" alt="{{ site.data.translations.footer-samen-logo[page.lang] }}" />
         </a>
     </div>
     {% endif %}
@@ -15,7 +15,9 @@
         <div class="footer-inner">
             <div class="footer-links">
                 <div class="footer-links-col ___desktop-50">
-                    <div class="footer-logos-info">{{ site.data.translations.footer-logos-info_md[page.lang] | markdownify }}</div>
+                    <div class="footer-logos-info">
+                        <h2 class="screen-reader-text">{{ site.data.translations.footer-colophon[page.lang] | markdownify }}</h2>
+                        {{ site.data.translations.footer-logos-info_md[page.lang] | markdownify }}</div>
                 </div>
                 <div class="footer-links-col ___desktop-25">
                     <h3>{{ site.data.translations.footer-misc-title[page.lang] }}</h3>
@@ -55,7 +57,7 @@
                 <div class="footer-links-col ___desktop-25">
                     <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
                     <ul>
-                        <li><a href="{{ site.data.translations.footer-more-info-url }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
+                        <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
                     </ul>
                 </div>
     

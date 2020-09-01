@@ -11,7 +11,5 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 You can download and activate CoronaMelder but you can’t use all functionalities.  
 It is possible that you will receive a notification from someone in the test region, but you can’t warn other people via the app that you have Corona.  
