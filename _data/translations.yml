@@ -27,6 +27,12 @@ header-title:
 header-subtitle:
   nl: 
   en:
+header-appstore:
+  nl: Download on the App Store
+  en: Download on the App Store
+header-googleplaystore:
+  nl: Get it on Google Play
+  en: Get it on Google Play
 header-language-picker-label:
   nl: Huidige taal
   en: Current language
@@ -117,6 +123,15 @@ faq-development:
 faq-info-will-be-updated:
   nl: Er komen meer vragen en antwoorden beschikbaar
   en: More questions and answers will be available soon
+faq-category-howtheapphelps:
+  nl: Hoe de app helpt tegen corona
+  en: How the app helps to stop the spread of coronavirus
+faq-category-howtheappworks:
+  nl: Werking van de app
+  en: How the app works
+faq-category-testregions:
+  nl: Testregio's
+  en: Trial regions
 has-been-answered:
   nl: Is je vraag beantwoord?
   en: Has your question been answered?
@@ -197,22 +212,33 @@ info-slider-btn-prev-slide:
 info-slider-btn-next-slide:
   nl: Volgende slide van slider
   en: Next slide of slider
+info-slider-first-slide: 
+  nl: Eerste slide van slider
+  en: First slide of slider
+info-slider-last-slide:
+  nl: Laatste slide van slider
+  en: Last slide of slider
+info-slider-goto-slide:
+  nl: Ga naar slide 
+  en: Go to slide 
 info-slides:
   nl:
     -
       image: graphic-app-logo
       title: CoronaMelder
+      alt: CoronaMelder
     -
       image: graphic-outside-bicycle
       title: Bescherm je vrienden, familie en de rest van Nederland
       content: |
         De app waarschuwt nadat je in de buurt bent geweest van iemand met corona. Zo kun jij voorkomen dat je de mensen in je omgeving besmet.
+      alt: Bescherm je vrienden, familie en de rest van Nederland
     -
       image: graphic-app-notification
-      title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen
+      title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen.
       content: |
        Dit gebeurt als je minstens 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
-
+      alt: Je krijgt een melding nadat je extra kans op besmetting hebt gelopen
     -
       image: graphic-app-bluetooth
       title: CoronaMelder gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
@@ -220,11 +246,13 @@ info-slides:
         De app ziet via Bluetooth of je dicht bij iemand was.
         Hoe dichterbij, hoe sterker het Bluetooth-signaal.
         De app weet niet waar je was en wie je bent.
+      alt: CoronaMelder gebruikt Bluetooth, geen locatiegegevens.
     -
       image: graphic-bicycle
       title: <span class="md-highlight">Voorbeeld</span><br> Fietste iemand voorbij? Dan krijg je later geen melding
       content: |
         Het Bluetooth-signaal was sterk genoeg omdat jullie dicht bij elkaar waren. Dit duurde alleen zo kort dat de kans op besmetting heel laag is.
+      alt: Fietste iemand voorbij? Dan krijg je later geen melding
     -
       image: graphic-train
       title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
@@ -234,16 +262,19 @@ info-slides:
     -
       image: graphic-app-logo
       title: CoronaMelder
+      alt: CoronaMelder
     -
       image: graphic-outside-bicycle
       title: Help protect your friends, your family and the whole community
       content: |
         The app will warn you if you have been near someone with coronavirus. This means you can stop yourself from infecting the people around you.
+      alt: Help protect your friends, your family and the whole community
     -
       image: graphic-app-notification
       title: You will get a notification if there is a risk that you have been exposed to the virus
       content: |
         If you have been near someone who later tests positive for coronavirus, and you were near them for at least 15 minutes, you will get a notification. But only if that person is also using the app.
+      alt: You will get a notification if there is a risk that you have been exposed to the virus
     -
       image: graphic-app-bluetooth
       title: The CoronaMelder app uses Bluetooth, <br> <u>not</u> location data
@@ -251,17 +282,19 @@ info-slides:
         Using Bluetooth, the app sees if you've been near someone. 
         The closer you've been, the stronger the Bluetooth signal. 
         The app doesn't know who you are or where you've been.
+      alt: The CoronaMelder app uses Bluetooth,not location data
     -
       image: graphic-bicycle
       title: <span class="md-highlight">Example</span><br> Did someone cycle past you? Then you will not get a notification later.
-
       content: |
         The Bluetooth signal was strong because you were near each other. But only for a very short time. This means your risk of infection is very low.
+      alt: Did someone cycle past you? Then you will not get a notification later.
     -
       image: graphic-train
       title: <span class="md-highlight">Example</span><br> Did you sit near someone on the train? You could get a notification later.
       content: |
         The Bluetooth signal was strong enough and you were near each other for a longer period of time.
+      alt:  Did you sit near someone on the train? You could get a notification later
 
 # Footer translations
 
@@ -300,13 +333,16 @@ footer-phone-opening-hours-weekend:
   nl: Zaterdag en zondag 10.00 – 16.00 uur 
   en: Saturday and Sunday 10.00 a.m. – 04.00 p.m
 
+footer-colophon: 
+  nl: Colofon
+  en: Colophon
 footer-logos-info_md:
   nl: De corona-app wordt ontwikkeld in opdracht van Het ministerie van Volksgezondheid, Welzijn en Sport. Dat gebeurt in samenwerking met het <a href="https://www.rivm.nl/" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> en de <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
   en: The CoronaMelder app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is being done in collaboration with the <a href="https://www.rivm.nl/en" target="_blank" noreferrer><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> and the <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
 
 footer-more-info-title:
   nl: Meer informatie?
-  en: More information?
+  en: More information? 
 footer-more-info-url:
   nl: https://rijksoverheid.nl
   en: https://www.government.nl/topics/coronavirus-covid-19

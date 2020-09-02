@@ -7,7 +7,7 @@
 
 
 <!DOCTYPE html>
-<html lang="{{page.lang}}">
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
 <!--
   This website is generated at {{ site.time }}.
   The code is open source. You are welcome to contribute. Go to git: 
@@ -26,6 +26,20 @@
     <div class="content-center content-center--error">
       {% include language-picker.html %}
       <div class="content-block">
+
+        <img src="/img/404-logo.svg" alt="404-coronamelder" />
+
+        <h1 id="{{ site.data.translations.error-title[page.lang] | slugify }}">{{ site.data.translations.error-title[page.lang] }}</h1>
+
+        <p>
+          <a href="{{ langSlug }}" class="faq__link">{{ site.data.translations.error-back-to-home-page[page.lang] }}</a> 
+        </p>
+
+        <p>
+          <a href="{{ langSlug }}/faq" class="faq__link">{{ site.data.translations.error-back-to-faq[page.lang] }}</a>
+        </p>
+
+
         {{ content }}
       </div>
     </div>

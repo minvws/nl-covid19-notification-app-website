@@ -12,7 +12,7 @@
   The code is open source. You are welcome to contribute. Go to git: 
   https://github.com/minvws/nl-covid19-notification-app-website
 -->
-<html lang="{{page.lang}}">
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
 {% include head.html %}
 <body>
   {% include header.html %}
@@ -22,6 +22,21 @@
       <div class="lead">
         <div class="lead__text">
           <div class="content-block">
+            <div class="md-block-lead" markdown="1">
+                <p>{{ site.data.translations.info-lead[page.lang] }}</p>
+                <h2>
+                  {{ site.data.translations.info-lead-title[page.lang] }}
+                </h2>
+                <div class="lead__app_badges">
+                  <a class="app_badge_column__left" href="{{ site.data.translations.info-app-store-url[page.lang] }}">
+                    <img src="/img/{{ site.data.translations.info-app-store-img[page.lang] }}" alt="{{ site.data.translations.header-appstore[page.lang] }}" />
+                  </a>
+                  <a class="app_badge_column__right" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
+                    <img src="/img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" />
+                  </a>
+                </div>
+              </div>
+
             {{ content }}
           </div>
         </div>

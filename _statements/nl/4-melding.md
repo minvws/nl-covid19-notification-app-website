@@ -10,13 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 Je krijgt een waarschuwing nadat:
 - iemand via CoronaMelder samen met de GGD aangeeft het coronavirus te hebben,
 - én jij in de afgelopen dagen in de buurt bent geweest van die persoon,

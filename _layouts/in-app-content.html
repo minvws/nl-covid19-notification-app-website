@@ -7,7 +7,7 @@
 
 
 <!DOCTYPE html>
-<html lang="{{page.lang}}">
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
 <!--
   This website is generated at {{ site.time }}.
   The code is open source. You are welcome to contribute. Go to git: 
@@ -17,12 +17,13 @@
 <body>
   <main class="content-center content-center__in_app" id="content">
     <div class="content-block">
+      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
       {{ content }}
     </div>
   </main>
 
   {% if page.redirectToApp %}
-    <script type="text/javascript" src="{{ relroot }}js/redirect-app.js?v={{ timeslug }}"></script>
+    <script src="{{ relroot }}js/redirect-app.js?v={{ timeslug }}"></script>
   {% endif %}
 
 </body>
