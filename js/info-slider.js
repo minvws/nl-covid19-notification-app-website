@@ -1,4 +1,9 @@
 (function () {
+    if( typeof prevSlide == "undefined") var prevSlide = 'Previous slide';
+    if( typeof nextSlide  == "undefined") var nextSlide = 'Next slide';
+    if( typeof firstSlide  == "undefined") var firstSlide = 'This is the first slide';
+    if( typeof lastSlide  == "undefined") var lastSlide = 'This is the last slide';
+
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
         direction: 'horizontal',
