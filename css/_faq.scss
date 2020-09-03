@@ -2,9 +2,9 @@
 
 .faq {
     display: block;
-    background-color: #F5F5F5 /* lichtgrijs */;
+    // background-color: #F5F5F5 /* lichtgrijs */;
     margin: 50px auto 22px auto;
-    padding: 20px;
+    // padding: 20px;
     max-width: 1190px;
     position: relative;
 
@@ -35,16 +35,25 @@
     margin-top: -6px; // Compensate for line-height
     margin-bottom: 17px;
     color: $color-RO_donkerblauw;
+    text-align: center;
 
     @media (min-width: 960px) {
-        margin-bottom: 42px;
+        margin-bottom: 0;
     }
 }
 
-.faq input[name=faq] {
-    display: none;
-}
+.faq-homepage__more {
+    margin: 20px 0;
+    text-align: center;
 
+    @media (min-width: 740px) {
+        margin-top: 20px 0;
+    }
+
+    @media (min-width: 960px) {
+        margin: 40px 0;
+    }
+}
 
 //
 // Faq layout

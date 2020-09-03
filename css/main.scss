@@ -135,6 +135,7 @@ a:hover {
     text-decoration: underline;
 }
 
+@import "components/btn";
 @import "header-yellow";
 @import "language-picker";
 @import "content-block";
@@ -233,16 +234,16 @@ a:hover {
 }
 
 /* .logo .wordmark {
-   font-size: 14px;
-   line-height: 14px;
-   margin-left: 9px;
-   margin-right: 21px;
-   width: 210px;
-   letter-spacing: 0.001em;
-   font-family: 'RO Serif', 'Times New Roman',Times, serif;
-   float: right;
-   padding-top: 34px;
-   display: block;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 9px;
+    margin-right: 21px;
+    width: 210px;
+    letter-spacing: 0.001em;
+    font-family: 'RO Serif', 'Times New Roman',Times, serif;
+    float: right;
+    padding-top: 34px;
+    display: block;
 } */
 
 
@@ -591,7 +592,7 @@ header .watch > a:hover {
 .timeline > h3.working-on::after,
 .timeline > ul.working-on > li::before,
 .timeline > ul.working-on > li::after {
-   border-color: $color-RO_donkerblauw;
+    border-color: $color-RO_donkerblauw;
 }
 
 .timeline > ul.completed > li,

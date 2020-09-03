@@ -1,0 +1,15 @@
+
+.btn {
+    padding: 10px 16px;
+    background: #fff;
+    border: 1px solid $color-RO_donkerblauw;
+    border-radius: 4px;
+
+    &:hover {
+        color: $color-RO_donkerblauw--interaction;
+    }
+
+    &:focus {
+        text-decoration: underline;
+    }
+}

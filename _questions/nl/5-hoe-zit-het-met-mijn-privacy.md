@@ -1,16 +1,20 @@
 ---
-layout: content-statements
+layout: content
 index: 5
+set: 2
 title: Hoe zit het met mijn privacy?
-icon: privacy
-summary: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
 lang: nl
 categories:
 - nl
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
+featuredHome: true
+featuredHomeIndex: 5
+featuredHomeIcon: privacy
+featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 ---
 
 De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
  
 Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
-

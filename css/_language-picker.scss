@@ -1,5 +1,5 @@
 .language-picker {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.84);
     color: #090C0E;
     position: relative;
     padding: 12px;
@@ -64,6 +64,7 @@
     width: 100%;
     z-index: 2;
     box-sizing: content-box;
+    cursor: pointer;
 
     &[aria-expanded="true"] + .language-picker__chevron::after {
         color: #000;

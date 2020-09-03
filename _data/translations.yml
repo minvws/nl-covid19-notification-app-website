@@ -135,21 +135,6 @@ faq-category-testregions:
 has-been-answered:
   nl: Is je vraag beantwoord?
   en: Has your question been answered?
-feedback-answer-yes:
-  nl: Wel beantwoord
-  en: Answered
-feedback-answer-no:
-  nl: Niet beantwoord
-  en: Not answered
-feedback-answer-submitted-title:
-  nl: Dank je wel voor je reactie!
-  en: Thank you for your reaction
-feedback-answer-submitted-yes_md:
-  nl: Heb je andere vragen over de app? Stel die via [de contactpagina van Rijksoverheid.nl](https://www.rijksoverheid.nl/contact).
-  en: Do you have other questions about the app? Ask them via [the contact page of Government.nl](https://www.government.nl/contact).
-feedback-answer-submitted-no_md:
-  nl: We verzamelen alle reacties om de informatie op deze website te verbeteren. 
-  en: We use your feedback to improve the information on this website.
 question-not-listed:
   nl: Staat je vraag er niet bij?
   en: Is your question not listed?

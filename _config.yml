@@ -33,3 +33,4 @@ exclude:
 
 plugins:
   - "jekyll-github-metadata"
+incremental: true

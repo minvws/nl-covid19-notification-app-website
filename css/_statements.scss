@@ -1,11 +1,13 @@
 
+// Featured faq on homepage
+
 .statements {
-    margin: 30px auto 22px auto;
+    margin: 10px auto 22px auto;
     padding: 0 10px;
     max-width: 1190px;
 
     @media (min-width: 740px) {
-        margin: 30px auto 22px auto;
+        margin: 10px auto 22px auto;
         display: flex;
         flex-wrap: wrap;
         margin-bottom: -16px; // Compensate for statement tile margins
@@ -133,120 +135,4 @@
             color: $color-RO_donkerblauw--interaction;
         }
     }
-}
-
-.details__expanded-box {
-    visibility: hidden;
-    overflow: hidden;
-    background: #fff;
-    position: fixed;
-    z-index: 11;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    max-width: 480px;
-    width: calc(100% - 42px);
-    border-radius: 10px 0 0 10px;
-    transform: translate(110%, 0);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
-    transition: 162ms ease-out;
-    overflow-y: scroll;
-    
-    &:focus,
-    &:focus-within {
-        outline: 0;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
-    }
-
-    .statements__statement--expanded & {
-        visibility: visible;
-        transform: translate(0, 0);
-        transition: 262ms ease-out;
-    }
-}
-
-//
-//
-//
-
-.details__summary__expanded-box-background {
-    opacity: 0;
-    visibility: hidden;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.4);
-    transition: 162ms ease-out;
-
-    .statements__statement--expanded & {
-        opacity: 1; 
-        visibility: visible;
-        transition: 262ms ease-out;
-    }
-}
-
-.expanded-box__btn-collapse {
-    display: block;
-    padding: 15px 16px 10px 32px;
-    width: 100%;
-    border: 0;
-    cursor: pointer;
-    color: $color-RO_donkerblauw;
-    background: transparent;
-    font-family: inherit;
-    font-size: 18px;
-    text-align: left;
-    outline-offset: -2px;
-
-    .icon {
-        position: relative;
-        top: 3px;
-    }
-}
-
-.expanded-box__btn-collapse--above-header {
-    border-bottom: 1px solid rgba(21, 66, 115, 0.2);
-    background-color: #F5F5F5 /* lichtgrijs */;
-}
-
-.expanded-box__header__icon {
-    position: relative;
-    display: block;
-    float: left;
-    margin-right: 25px;
-    
-    svg {
-        max-width: 70px;
-        color: $color-WARN_rood;
-
-        details:hover & {
-            color: $color-RO_donkerblauw;
-        }
-    }
-}
-
-.expanded-box__header__title {
-    padding-top: 0.2em;
-}
-
-.expanded-box__want-to-know-more {
-    margin: 1.5em 0em 2em;
-    padding: 3.0em 2em;
-    background-color: $color-RO_lichtblauw;
-
-    > h3 {
-        font-size: 26px;
-        margin-bottom: 0.5em;
-    }
-    
-    > p {
-        margin-bottom: 0;
-    }
-}
-
-.expanded-box__close {
-    padding-top: 0.2em;
 }
