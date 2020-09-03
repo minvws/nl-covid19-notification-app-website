@@ -69,6 +69,7 @@
 }
 
 .stories__story-title-small {
+  opacity: 0;
   color: $color-WARN_rood;
   font-size: 16px;
   padding: 0.5em 0 0;
@@ -79,6 +80,7 @@
 }
 
 .stories__story-title {
+  opacity: 0;
   color: $color-RO_donkerblauw;
   font-size: 24px;
   padding: 0.1em 0 0.4em;
@@ -89,12 +91,28 @@
   }
 }
 
-.fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 2s;
+.stories__story-text {
+  opacity: 0;
+}
+
+.stories-image__animate {
+  -webkit-animation-fill-mode: forwards;
+  animation: fadeInOpacity 1s ease-in 0s 1 normal forwards;
+}
+
+.stories-title-small__animate {
+  -webkit-animation-fill-mode: forwards;
+  animation: fadeInOpacity 0.5s ease-in 0.8s 1 normal forwards;
+}
+
+.stories-title__animate {
+  -webkit-animation-fill-mode: forwards;
+  animation: fadeInOpacity 0.5s ease-in 1.2s 1 normal forwards;
+}
+
+.stories-text__animate {
+  -webkit-animation-fill-mode: forwards;
+  animation: fadeInOpacity 0.5s ease-in 1.8s 1 normal forwards;
 }
 
 @keyframes fadeInOpacity {
