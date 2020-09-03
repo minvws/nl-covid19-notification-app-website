@@ -20,7 +20,7 @@
             <h2>{{ question.title }}</h2>
             <p>{{ question.featuredHomeText }}</p>
           </div>
-          <a  href="{{ statement.url }}" class="statement-summary__btn-expand">
+          <a href="{{ question.url }}" class="statement-summary__btn-expand">
             <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
             <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader[page.lang] }}: {{ question.title }}</span>
           </a>
