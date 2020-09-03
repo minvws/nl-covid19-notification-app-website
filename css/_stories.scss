@@ -44,7 +44,6 @@
 
 .stories__story:nth-child(2n) {
   flex-direction: row;
-
   .stories__story-column-left {
     @media (min-width: 740px) {
       margin-right: 2.5em;
@@ -65,11 +64,9 @@
   width: 100%;
   padding-top: 0.8em;
   padding-bottom: 0.5em;
-  opacity: 0;
 }
 
 .stories__story-title-small {
-  opacity: 0;
   color: $color-WARN_rood;
   font-size: 16px;
   padding: 0.5em 0 0;
@@ -80,7 +77,6 @@
 }
 
 .stories__story-title {
-  opacity: 0;
   color: $color-RO_donkerblauw;
   font-size: 24px;
   padding: 0.1em 0 0.4em;
@@ -91,8 +87,13 @@
   }
 }
 
-.stories__story-text {
-  opacity: 0;
+.js-enabled {
+  .stories__story-image,
+  .stories__story-title,
+  .stories__story-title-small,
+  .stories__story-text {
+    opacity: 0;
+  }
 }
 
 .stories-image__animate {
