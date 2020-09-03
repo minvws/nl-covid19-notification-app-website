@@ -1,4 +1,8 @@
 (function() {
+  document.querySelector('.stories__story-image').classList.add('stories-image__animate');;
+  document.querySelector('.stories__story-title-small').classList.add('stories-title-small__animate');
+  document.querySelector('.stories__story-title').classList.add('stories-title__animate');;
+  document.querySelector('.stories__story-text').classList.add('stories-text__animate');;
   window.addEventListener('scroll', animateStory);
 })();
 
@@ -15,7 +19,7 @@ function animateStory() {
     var titleSmall = story.querySelector('.stories__story-title-small');
     var title = story.querySelector('.stories__story-title');
     var text = story.querySelector('.stories__story-text');
-    if (isInViewport(story)) {
+    if (isInViewport(story) && !story.classList.contains('stories-image__animate') ) {
       image.classList.add('stories-image__animate');
       titleSmall.classList.add('stories-title-small__animate');
       title.classList.add('stories-title__animate');
@@ -27,10 +31,9 @@ function animateStory() {
 
 function isInViewport(elem) {
     var bounding = elem.getBoundingClientRect();
+    var clientHeight = window.innerHeight || document.documentElement.clientHeight;
     return (
         bounding.top >= 0 &&
-        bounding.left >= 0 &&
-        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+        bounding.bottom - 400 <= clientHeight
     );
 };
