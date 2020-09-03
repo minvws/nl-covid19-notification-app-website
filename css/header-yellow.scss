@@ -1,42 +1,71 @@
 .header-yellow {
     position: relative;
-    background: #eaf4f9 url('../img/logo-app.svg') no-repeat;
+    //background: #eaf4f9 url('../img/logo-app.svg') no-repeat;
+    background: linear-gradient(180deg, #EFF7F9 0%, #EFF7F9 100%);
     background-size: 120px;
     background-position: right 20px top 80px;
     min-height: 300px;
 
     @media(min-width: 680px) {
-        background-size: 200px;
-        background-position: right 40px top 40px;
+      
     }
 
     @media(min-width: 960px) {
-        background-image: none;
+        background: linear-gradient(180deg, #EFF7F9 0%, #EFF7F9 100%);
+    }
+   
 
-        &::before {
-            bottom: 0;
-            content: '';
-            background: transparent url('../img/header-background.svg?v=2') no-repeat;
-            background-size: 100%;
-            background-position: center 23px;
-            position: absolute;
-            right: calc((1300px / -2) + calc(100% / 2));
-            top: -100px;
+    
+    &::before {
+        content: '';
+        background: transparent url(../img/background-left.svg?v=1) no-repeat;
+        background-size: 100%;
+        background-position: center 23px;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 200px;
+        height: 204px;
+
+        @media(min-width: 680px) {
+            width: 460px;
+            height: 344px;
+        }
+
+        @media(min-width: 960px) {
+            left: calc((1300px / -2) + calc(100% / 2));
             width: 600px;
-            z-index: 0;
+            height: 366px;
+        }
+    
+    }
 
-            .browser-ie-11 & {
-                right: calc(((100% - 1200px)/2) - 1px);
-            }
+    &::after {
+        content: '';
+        background: transparent url(../img/background-right.svg?v=1) no-repeat;
+        background-size: 100%;
+        background-position: center 23px;
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+        width: 120px;
+        height: 190px;
+
+        @media(min-width: 680px) {
+            width: 200px;
+            height: 236px;
         }
-    }
-    @media(min-width: 1080px) {
-            &::before {
-                .browser-ie-11 & {
-                right: calc(((100% - 1300px)/2) - 1px);
-            }
+
+        @media(min-width: 960px) {
+            right: calc((1100px / -2) + calc(100% / 2));
+            width: 300px;
+            height: 255px;
         }
+       
     }
+
+
+  
 }
 
 .header-yellow--slim {
@@ -114,51 +143,78 @@
     }
 }
 
-.header-yellow__text {
+.header-yellow__layout {
     color: $color-RO_donkerblauw;
     // See .content with negative margin-top
-    padding: 0 0 2em 1.38em;
+    padding: 0 0 10em 1.38em;
     position: relative;
     z-index: 2;
 
     @media (min-width: 680px) {
-        padding: 0 0 3.5em 3em;
+        padding: 0 0 15em 4.0em;
     }
 
     @media (min-width: 960px) {
-        padding: 0 0 5em 2.6em;
-        margin-right: 424px;
+        padding: 0 0 10em 2.6em;
+        margin-right: 200px;
         min-height: 430px;
     }
+}
 
-    h1 {
+.header-yellow__layout__middle {
+    @media (min-width: 960px) {
         position: relative;
-        top: 1.5em;
-        margin: 0.5em 0 0 0;
-        font-size: 1.62em;
-        line-height: 1.16em;
-        width: 50%;
+        padding: 20px 0 0 200px;
+    }
+}
 
-        @media (min-width: 680px) {
-            font-size: 3em;
-            top: 0.2em;
-        }
+.header-yellow__text {
+    position: relative;
+    margin-bottom: 1.5em;
+    font-size: 28px;
+    line-height: 1.16em;
 
-        @media (min-width: 960px) {
-            top: 1.0em;
-            margin-right: 9rem;
+    @media (min-width: 680px) {
+        width: 90%;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+}
+
+.header-yellow__logo-badge {
+    width: 100px;
+    margin: 1.5em 0;
+
+    @media (min-width: 960px) {
+        width: 132px;
+        position: relative;
+        float: left;
+    }
+}
+
+.header-yellow__app_badges{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0.5em;
+
+    img{
+      height: 65px;
+    }
+    .app_badge_column__left {
+        flex-direction: column;
+        flex-basis: 100%;
+        @media (min-width: 740px) {
+            flex-basis: auto;
+            margin-right: 0.5em;
         }
     }
-
-    h2 {
-        margin: 0.38em 0 2.3em 0;
-        font-size: 1.38em;
-        line-height: 1.2em;
-        font-weight: 400;
-
-        @media (min-width: 680px) {
-            margin-bottom: 1.62em;
-            font-size: 2em;
+    .app_badge_column__right {
+        flex-direction: column;
+        flex-basis: 100%;
+        @media (min-width: 740px) {
+            flex-basis: auto;
         }
-    }
+     }
 }

@@ -1,6 +1,12 @@
-<div class="language-picker">
+{% if page.layout == 'home' %}
+{% assign home = 'language-picker--home' %}
+{% endif %}
+
+<div class="language-picker {{home}}">
   <span class="language-picker__current">
-    {{ site.data.translations.header-language-picker-label[page.lang] }}:
+    <span class="language-picker__label">
+      {{ site.data.translations.header-language-picker-label[page.lang] }}:
+    </span>
     <strong>{{ site.data.languages[page.lang].label }}</strong>
   </span>
   <button type="button" class="language-picker__toggle" aria-controls="language-picker__dropdown" aria-expanded="false">

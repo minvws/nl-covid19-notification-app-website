@@ -140,7 +140,6 @@ a:hover {
 @import "content-block";
 @import "footer";
 @import "statements";
-@import "info-slider";
 @import "faq";
 
 /* Skip links */
@@ -197,7 +196,6 @@ a:hover {
 
 .logobar {
     padding: 0 0 20px 0;
-    background-color: #ffffff;
     z-index: 1;
     position: relative;
 
@@ -246,11 +244,6 @@ a:hover {
 } */
 
 
-
-/* Yellow header bar */
-
-.headerbar {
-}
 
 /* Watch button */
 
@@ -303,52 +296,15 @@ header .watch > a:hover {
     }
 
     @media (min-width: 960px) {
-        max-width: calc(100% - 382px);
+        max-width: calc(100% - 300px);
     }
 }
 
 .lead__text {
     @media (min-width: 960px) {
-        min-height: 16rem;
+        padding: 0 0 0 1em;
+        min-height: 12rem;
     }
-
-    h2 {
-        margin: 0 0 0.7em;
-        font-size: 1.2em;
-        line-height: 1;
-    }
-}
-
-.lead__app_badges{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 0.5em;
-
-    img{
-      height: 65px;
-
-      .browser-ie-11 & {
-          width: 100%;
-      }
-    }
-
-    .app_badge_column__left {
-        flex-direction: column;
-        flex-basis: 100%;
-        @media (min-width: 740px) {
-            flex-basis: auto;
-            margin-right: 0.5em;
-        }
-    }
-    .app_badge_column__right {
-        flex-direction: column;
-        flex-basis: 100%;
-        @media (min-width: 740px) {
-            flex-basis: auto;
-        }
-     }
 }
 
 .lead__preview {
@@ -665,9 +621,6 @@ header .watch > a:hover {
 }
 
 /* Statement More information */
-
-.card-content > .more {
-}
 
 .card-content > .more > h3 {
     font-size: 1.625rem;

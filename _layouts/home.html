@@ -23,37 +23,9 @@
           <div class="content-block">
             <div class="md-block-lead" markdown="1">
                 <p>{{ site.data.translations.info-lead[page.lang] }}</p>
-                <h2>
-                  {{ site.data.translations.info-lead-title[page.lang] }}
-                </h2>
-                <div class="lead__app_badges">
-                  <a class="app_badge_column__left" href="{{ site.data.translations.info-app-store-url[page.lang] }}">
-                    <img src="{{ site.baseurl }}/img/{{ site.data.translations.info-app-store-img[page.lang] }}" 
-                         alt="{{ site.data.translations.header-appstore[page.lang] }}" 
-                         height="65" width="196"
-                         />
-                  </a>
-                  <a class="app_badge_column__right" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
-                    <img src="{{ site.baseurl }}/img/{{site.data.translations.info-google-play-img[page.lang]}}" 
-                         alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" 
-                         height="65" width="216"
-                         />
-                  </a>
-                </div>
-              </div>
+            </div>
 
             {{ content }}
-          </div>
-        </div>
-      
-        <div class="lead__preview">
-          <img
-            src="{{ site.baseurl }}/img/phone.svg"
-            aria-hidden="true"
-            class="app-preview"
-          >
-          <div class="lead__preview__slider">
-            {% include info-slider.html %}
           </div>
         </div>
       </div>

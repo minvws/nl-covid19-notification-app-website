@@ -149,3 +149,41 @@
         color: $color-RO_donkerblauw--interaction;
     }
 }
+
+.language-picker--home {
+    position: absolute;
+    top: 38px;
+    right: 15px;
+    min-width: 118px;
+
+    .language-picker__current {
+        color: $color-RO_donkerblauw;
+    }
+    
+    .language-picker__label {
+        display: none;
+    }
+
+    &:hover .language-picker__current {
+        color: #fff;
+    }
+
+    [aria-expanded="true"] ~ .language-picker__dropdown{
+        left: -97px;
+    }
+
+    @media(min-width: 680px) {
+        top: 30px;
+        right: 30px;
+        .language-picker__label {
+            display: inline;
+            min-width: 216px;
+        }
+
+        [aria-expanded="true"] ~ .language-picker__dropdown{
+            left: -50px;
+        }
+    }
+
+}
+
