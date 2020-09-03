@@ -7,13 +7,14 @@ collections:
   questions:
     output: true
     permalink: /:categories/:name/
+  stories:
+    output: false
 
 sass:
   load_paths:
     - css
     - css-arabic
     
-
 exclude:
   - vendor 
   - Gemfile

@@ -1,0 +1,32 @@
+.stories {
+  margin: 30px auto 22px auto;
+  padding: 0 10px;
+  max-width: 1100px;
+
+  @media (min-width: 740px) {
+      margin: 30px auto 22px auto;
+      // display: flex;
+      // flex-wrap: wrap;
+  }
+
+  @media (min-width: 960px) {
+    padding: 0 0 0 5em;
+  }
+}
+
+.stories__story {
+  margin: 16px;
+  padding-bottom: 16px;
+}
+
+.stories__story-title-small {
+  color: $color-WARN_rood;
+  font-size: 16px;
+  padding: 0.5em 0;
+}
+
+.stories__story-title {
+  color: $color-RO_donkerblauw;
+  font-size: 32px;
+  padding: 0.4em 0;
+}
