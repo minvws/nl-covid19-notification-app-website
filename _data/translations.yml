@@ -337,3 +337,31 @@ error-back-to-faq:
 accessibility-in-app-email-subject:
   nl: Probleem bij het gebruik van de app
   en: Problem with using the app
+  
+information-title:
+  nl: Zo gaan we om met jouw gegevens
+  en: Zo gaan we om met jouw gegevens
+information-privacy:
+  nl: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
+  en: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
+information-bluetooth:
+  nl: Je Bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
+  en: Je Bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
+information-naw:
+  nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
+  en: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
+information-gps:
+  nl: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
+  en: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
+information-privacy-alt:
+  nl: privacy
+  en: privacy
+information-bluetooth-alt:
+  nl: bluetooth
+  en: bluetooth
+information-naw-alt:
+  nl: naam, e-mailadres en telefoonnummer
+  en: naam, e-mailadres en telefoonnummer
+information-gps-alt:
+  nl: gps.
+  en: gps.

@@ -193,7 +193,7 @@
     }
 }
 
-.header-yellow__app_badges{
+.layout-app-badges{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -218,4 +218,29 @@
             flex-basis: auto;
         }
      }
+}
+
+.layout-app-badges--stories-wrap {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 2.5rem 1rem 2.5em;
+
+    h2 {
+        font-size: 24px;
+        color: #333333;
+        margin-bottom: 0.5em;
+    }
+
+    @media (min-width: 740px) {
+        padding: 4rem 1.4rem 4rem 1.4em;
+        h2 {
+            font-size: 32px;
+        }
+        .app_badge_column__left, 
+        .app_badge_column__right{
+            margin-right: 0em;
+            width: 50%;
+        }
+    }
+
 }
