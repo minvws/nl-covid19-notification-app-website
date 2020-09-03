@@ -4,7 +4,7 @@ show: true
 graphic: graphic-train
 title: Voorbeeld
 summary: Zat je dicht bij iemand in de bioscoop? Dan kun je later wel een melding krijgen
-alt: -
+alt: TBD
 lang: nl
 ---
 
