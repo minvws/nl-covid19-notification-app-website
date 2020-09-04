@@ -159,6 +159,9 @@ layout-all-faq:
 layout-template-close:
   nl: Sluiten
   en: Close
+layout-faq-btn:
+  nl: Bekijk alle veelgestelde vragen
+  en: All frequently asked questions
 
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
