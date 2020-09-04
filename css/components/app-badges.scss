@@ -1,7 +1,4 @@
 .layout-app-badges{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 0.5em;
 
@@ -9,44 +6,49 @@
     height: 65px;
   }
   .app_badge_column__left {
-    flex-direction: column;
-    flex-basis: 100%;
     @media (min-width: 740px) {
-      flex-basis: auto;
       margin-right: 0.5em;
     }
   }
   .app_badge_column__right {
-    flex-direction: column;
-    flex-basis: 100%;
     @media (min-width: 740px) {
-        flex-basis: auto;
+        
     }
   }
 }
 
-.layout-app-badges--stories-wrap {
+.layout-app-badges--center-wrap {
+  margin: 50px auto 22px auto;
+  padding: 20px;
+  position: relative;
   text-align: center;
-  margin: auto;
-  padding: 1rem 2.5rem 1rem 2.5em;
 
   h2 {
     font-size: 24px;
     color: #333333;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.0em;
   }
 
   @media (min-width: 740px) {
-    padding: 4rem 1.4rem 4rem 1.4em;
+    width: calc(100% - 48px);
+    padding: 50px 80px;
     h2 {
         font-size: 32px;
     }
     .app_badge_column__left, 
     .app_badge_column__right{
-        margin-right: 0em;
-        width: 50%;
+        
     }
   }
+
+  @media (min-width: 960px) {
+    max-width: 1190px;
+  }
+
+}
+
+.layout-app-badges--background {
+  background-color: #EFF7F9 /* lightblauw */;
 }
 
 .iOS {
