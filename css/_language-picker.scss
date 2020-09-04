@@ -2,15 +2,23 @@
     background-color: rgba(255, 255, 255, 0.84);
     color: #090C0E;
     position: relative;
-    padding: 12px;
+    padding: 12px 8px;
     transition: background-color var(--transition-out), color var(--transition-out);
     min-width: 216px;
 
     display: -ms-inline-grid; display: inline-grid;
-    -ms-grid-columns: -webkit-max-content 32px;
-    -ms-grid-columns: max-content 32px;
-    grid-template-columns: -webkit-max-content 32px;
-    grid-template-columns: max-content 32px;
+    -ms-grid-columns: -webkit-max-content 16px;
+    -ms-grid-columns: max-content 16px;
+    grid-template-columns: -webkit-max-content 16px;
+    grid-template-columns: max-content 16px;
+
+    @media (min-width: 360px) {
+        padding: 12px;
+        -ms-grid-columns: -webkit-max-content 32px;
+        -ms-grid-columns: max-content 32px;
+        grid-template-columns: -webkit-max-content 32px;
+        grid-template-columns: max-content 32px;
+    }
 
     .language-picker__current,
     .language-picker__toggle {
@@ -35,6 +43,8 @@
         -ms-grid-row: 1;
         -ms-grid-row-span: 1;
         grid-row: 1 / 2;
+
+        position: relative;
     }
 
     &:hover {
@@ -74,10 +84,10 @@
 }
 
 .language-picker__chevron::after {
-    content: ' ';
+    content: '';
     position: absolute;
     top: 50%;
-    right: 16px;
+    right: 0;
     border: solid currentColor;
     border-width: 0 1px 1px 0;
     padding: 3px;
@@ -85,7 +95,6 @@
     color: currentColor;
     transition: transform var(--transition-out);
 }
-
 
 .language-picker__dropdown {
     background: #fff;
@@ -109,6 +118,11 @@
         opacity: 1;
         transition: opacity var(--transition-in), transform var(--transition-in);
         transform: none;
+
+        .language-picker--right-orientation & {
+            right: -5px;
+            left: auto;
+        }
 
         a {
             display: inherit;
@@ -151,11 +165,18 @@
     }
 }
 
+// Temporary
+
 .language-picker--home {
     position: absolute;
     top: 38px;
     right: 15px;
-    min-width: 118px;
+    min-width: 112px;
+    border-radius: 6px;
+    
+    @media (min-width: 360px) {
+        min-width: 118px;
+    }
 
     .language-picker__current {
         color: $color-RO_donkerblauw;
@@ -169,20 +190,12 @@
         color: #fff;
     }
 
-    [aria-expanded="true"] ~ .language-picker__dropdown{
-        left: -97px;
-    }
-
     @media(min-width: 680px) {
         top: 30px;
         right: 30px;
         .language-picker__label {
             display: inline;
             min-width: 216px;
-        }
-
-        [aria-expanded="true"] ~ .language-picker__dropdown{
-            left: -50px;
         }
     }
 

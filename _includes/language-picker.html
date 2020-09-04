@@ -1,8 +1,4 @@
-{% if page.layout == 'home' %}
-{% assign home = 'language-picker--home' %}
-{% endif %}
-
-<div class="language-picker {{home}}">
+<div class="language-picker{% if page.layout == 'home' %} language-picker--home language-picker--right-orientation{% endif %}">
   <span class="language-picker__current">
     <span class="language-picker__label">
       {{ site.data.translations.header-language-picker-label[page.lang] }}:
@@ -14,7 +10,7 @@
       {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}
     </span>
   </button>
-  <div class="language-picker__chevron">&nbsp;</div>
+  <div class="language-picker__chevron"></div>
   <div class="language-picker__dropdown" id="language-dropdown">
     <h3 class="language-picker__title">
       {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}:

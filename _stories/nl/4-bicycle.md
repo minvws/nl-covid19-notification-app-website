@@ -2,7 +2,7 @@
 index: 4
 show: true
 graphic: graphic-bicycle.svg
-title: Voorbeeld?
+title: Voorbeeld
 summary: Fietste iemand voorbij? Dan krijg je later geen melding
 alt: TBD
 lang: nl
