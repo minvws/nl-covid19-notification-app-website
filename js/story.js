@@ -1,8 +1,13 @@
 (function() {
-  document.querySelector('.stories__story-image').classList.add('stories-image__animate');;
+  // make IE9+ support forEach:
+  if (window.NodeList && !NodeList.prototype.forEach) 
+    NodeList.prototype.forEach = Array.prototype.forEach;
+
+  document.querySelector('.stories__story-image').classList.add('stories-image__animate');
   document.querySelector('.stories__story-title-small').classList.add('stories-title-small__animate');
-  document.querySelector('.stories__story-title').classList.add('stories-title__animate');;
-  document.querySelector('.stories__story-text').classList.add('stories-text__animate');;
+  document.querySelector('.stories__story-title').classList.add('stories-title__animate');
+  document.querySelector('.stories__story-text').classList.add('stories-text__animate');
+  
   window.addEventListener('scroll', animateStory);
 })();
 
