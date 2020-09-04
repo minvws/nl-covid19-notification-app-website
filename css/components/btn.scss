@@ -1,18 +1,18 @@
 
 .btn {
-    padding: 10px 10px;
-    background: #fff;
-    border: 1px solid $color-RO_donkerblauw;
-    border-radius: 6px;
-    display: inline-block;
+  padding: 10px 10px;
+  background: #fff;
+  border: 1px solid $color-RO_donkerblauw;
+  border-radius: 6px;
+  display: inline-block;
 
-    &:hover {
-        color: $color-RO_donkerblauw--interaction;
-    }
+  &:hover {
+      color: $color-RO_donkerblauw--interaction;
+  }
 
-    &:focus {
-        text-decoration: underline;
-    }
+  &:focus {
+      text-decoration: underline;
+  }
 }
 
 .btn--btn-faq {
@@ -37,11 +37,9 @@
     max-width: 330px;
   }
 
-
   &:focus {
       text-decoration: none;
       color: #ffffff;
       background: $color-RO_donkerblauw--interaction;
   }
-
 }
