@@ -2,44 +2,43 @@
 .btn {
   padding: 10px 10px;
   background: #fff;
+  color: $color-RO_donkerblauw;
   border: 1px solid $color-RO_donkerblauw;
   border-radius: 6px;
   display: inline-block;
-
-  &:hover {
-      color: $color-RO_donkerblauw--interaction;
-  }
-
-  &:focus {
-      text-decoration: underline;
-  }
-}
-
-.btn--btn-faq {
-  color: #0E6999;
-  border: 1px solid #0E6999;
-  font-size: 20px;
-  width: 100%;
-  font-weight: 800;
   transition: var(--transition-in);
-  
-  &:visited {
-    color: #0E6999;
-  }
-
   .icon {
     position: relative;
     top: 2px;
     margin-left: 2px;
   }
 
-  @media (min-width: 740px) {
-    max-width: 330px;
+  &:visited {
+    color: #0E6999;
+  }
+
+  &:hover {
+    color: $color-RO_donkerblauw--interaction;
   }
 
   &:focus {
-      text-decoration: none;
-      color: #ffffff;
-      background: $color-RO_donkerblauw--interaction;
+    text-decoration: none;
+    color: #ffffff;
+    background: $color-RO_donkerblauw--interaction;
+  }
+}
+
+.btn--color-secondary {
+  color: #0E6999;
+  border: 1px solid #0E6999;
+}
+
+.btn--large {
+  font-size: 20px;
+  width: 100%;
+  font-weight: 800;
+
+  @media (min-width: 740px) {
+    max-width: 330px;
   }
 }
