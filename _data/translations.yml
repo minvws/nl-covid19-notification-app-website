@@ -327,11 +327,8 @@ footer-phone-opening:
   nl: Openingstijden
   en: Opening hours
 footer-phone-opening-hours:
-  nl: Maandag t/m vrijdag 08.00 – 20.00 uur  
-  en: Monday till Friday 08.00 a.m. - 08.00 p.m.
-footer-phone-opening-hours-weekend:
-  nl: Zaterdag en zondag 10.00 – 16.00 uur 
-  en: Saturday and Sunday 10.00 a.m. – 04.00 p.m
+  nl: Maandag t/m zondag 08.00 – 20.00 uur  
+  en: Monday till Sunday 08.00 a.m. - 08.00 p.m.
 
 footer-colophon: 
   nl: Colofon
