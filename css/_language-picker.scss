@@ -14,10 +14,10 @@
 
     @media (min-width: 360px) {
         padding: 12px;
-        -ms-grid-columns: -webkit-max-content 32px;
-        -ms-grid-columns: max-content 32px;
-        grid-template-columns: -webkit-max-content 32px;
-        grid-template-columns: max-content 32px;
+        -ms-grid-columns: -webkit-auto 32px;
+        -ms-grid-columns: auto 32px;
+        grid-template-columns: -webkit-auto 32px;
+        grid-template-columns: auto 32px;
     }
 
     .language-picker__current,

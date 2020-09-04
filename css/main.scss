@@ -306,10 +306,6 @@ header .watch > a:hover {
 }
 
 .lead__text {
-    @media (min-width: 960px) {
-        padding: 0 0 0 1em;
-        min-height: 12rem;
-    }
 }
 
 .lead__preview {
@@ -757,10 +753,6 @@ a.explainer > h2 {
 
 /* Tablet layout */
 @media only screen and (max-width: 1024px) {
-
-    header h1 {
-        width: 80%;
-    }
 
     header .watch {
         width: 90%;

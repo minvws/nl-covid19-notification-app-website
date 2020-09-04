@@ -167,8 +167,6 @@
 
     @media (min-width: 960px) {
         padding: 0 0 10em 2.6em;
-        margin-right: 200px;
-        min-height: 430px;
     }
 }
 
@@ -184,18 +182,27 @@
     margin-bottom: 1.5em;
     font-size: 28px;
     line-height: 1.16em;
+    max-width: 350px;
 
     @media (min-width: 680px) {
-        width: 100%;
+        max-width: 700px;
         padding-right: 0.5em;
         font-size: 3em;
         margin-bottom: 0.5em;
+    }
+
+    @media (min-width: 960px) {
+        width: 100%;
     }
 }
 
 .header-yellow__logo-badge {
     width: 100px;
-    margin: 1.5em 0;
+    margin: 0 0 1.5em;
+    
+    @media (min-width: 680px) {
+        margin: 1.5em 0;
+    }
 
     @media (min-width: 960px) {
         width: 132px;
