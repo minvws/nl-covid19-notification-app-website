@@ -1,3 +1,13 @@
+.js-enabled {
+  .stories__story-image,
+  .stories__story-title,
+  .stories__story-title-small,
+  .stories__story-text {
+    opacity: 0;
+  }
+}
+
+
 .stories {
   margin: 30px auto 22px auto;
   padding: 0 10px;
@@ -61,6 +71,7 @@
 }
 
 .stories__story-image {
+  display: block;
   width: 100%;
   max-height: 410px; //IE11 png fix
   padding-top: 0.8em;
@@ -88,33 +99,24 @@
   }
 }
 
-.js-enabled {
-  .stories__story-image,
-  .stories__story-title,
-  .stories__story-title-small,
-  .stories__story-text {
-    opacity: 0;
-  }
-}
-
 .stories-image__animate {
   -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 1s ease-in 0s 1 normal forwards;
+  animation: fadeInOpacity 0.3s ease-in 0.3s 1 normal forwards;
 }
 
 .stories-title-small__animate {
   -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.5s ease-in 0.8s 1 normal forwards;
+  animation: fadeInOpacity 0.2s ease-in 0.5s 1 normal forwards;
 }
 
 .stories-title__animate {
   -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.5s ease-in 1.2s 1 normal forwards;
+  animation: fadeInOpacity 0.2s ease-in 0.7s 1 normal forwards;
 }
 
 .stories-text__animate {
   -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.5s ease-in 1.8s 1 normal forwards;
+  animation: fadeInOpacity 0.2s ease-in 0.9s 1 normal forwards;
 }
 
 @keyframes fadeInOpacity {
