@@ -11,7 +11,7 @@ showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 4
-featuredHomeIcon: todo
+featuredHomeIcon: battery
 featuredHomeText: De app werkt met Bluetooth Low Energy. Hoeveel dat van je telefoonbatterij vraagt, verschilt per telefoon.
 ---
 

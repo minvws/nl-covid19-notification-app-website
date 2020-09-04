@@ -9,6 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+featuredHome: true
+featuredHomeIndex: 5
+featuredHomeIcon: todo
+featuredHomeText: TBA
 ---
 
 CoronaMelder cannot measure the exact distance to other people who are using the app. But it can estimate whether you are close to them or not.

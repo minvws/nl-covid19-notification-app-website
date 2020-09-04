@@ -9,6 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+featuredHome: true
+featuredHomeIndex: 6
+featuredHomeIcon: todo
+featuredHomeText: TBA
 ---
 
 1. The app generates a unique code for each phone

@@ -7,8 +7,7 @@
   <h2 class="faq-homepage__title" id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
   <div class="statements">
-    {% assign questions = site.questions | where:"lang", page.lang | where:"featuredHome", true  | sort: "
-    featuredHomeIndex" %}
+    {% assign questions = site.questions | where:"lang", page.lang | where:"featuredHome", true  | sort: "featuredHomeIndex" %}
     {% for question in questions %}
   
       <article class="statements__statement">

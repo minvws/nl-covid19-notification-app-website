@@ -9,6 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+featuredHome: true
+featuredHomeIndex: 2
+featuredHomeIcon: connect
+featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
 ---
 
 Nee, dat kan nog niet. We werken met de andere landen samen aan uitwisseling tussen de apps. Binnenkort gaan we deze uitwisseling testen. Daarna kan iedereen app uit zijn eigen land blijven gebruiken. Je krijgt dan in de Nederlandse CoronaMelder een waarschuwing als je langere tijd dicht bij een Duitser bent geweest die positief is getest in Duitsland.
