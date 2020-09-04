@@ -193,6 +193,20 @@
     }
 }
 
+.yellow__layout__faq-link {
+  position: absolute;
+  top: 38px;
+  right: 230px;
+  min-width: 118px;
+  font-weight: 800;
+  font-size: 20px;
+  display: none;
+
+  @media (min-width: 960px) {
+    display: inline-block;
+  }
+}
+
 .layout-app-badges{
     display: flex;
     flex-direction: row;
