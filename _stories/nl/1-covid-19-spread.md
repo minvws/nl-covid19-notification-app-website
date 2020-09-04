@@ -1,7 +1,7 @@
 ---
 index: 1
 show: true
-graphic: graphic-outside-bicycle
+graphic: graphic-spread.png
 title: Waarom is de app belangrijk?
 summary: Help de verspreiding van het coronavirus te stoppen
 alt: Verspreiding van het coronavirus
