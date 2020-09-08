@@ -329,6 +329,9 @@ footer-phone-opening:
 footer-phone-opening-hours:
   nl: Maandag t/m zondag 08.00 – 20.00 uur  
   en: Monday till Sunday 08.00 a.m. - 08.00 p.m.
+footer-phone-mail:
+  nl: 'Of stuur een e-mail naar: <a href="mailto:helpdesk@coronamelder.nl">helpdesk@coronamelder.nl</a>'
+  en: 'Or send an e-mail to: <a href="mailto:helpdesk@coronamelder.nl">helpdesk@coronamelder.nl</a>'
 
 footer-colophon: 
   nl: Colofon
