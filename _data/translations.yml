@@ -52,8 +52,8 @@ development:
   nl: 
   en: 
 govlogo:
-  nl: Logo Rijksoverheid home
-  en: Logo Government home
+  nl: Home
+  en: Home
 phone-action:
   nl: <a href="tel:0800-1280">0800-1280</a>
   en: <a href="tel:0800-1280">0800-1280</a>
