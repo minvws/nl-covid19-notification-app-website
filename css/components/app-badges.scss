@@ -1,18 +1,21 @@
 .layout-app-badges{
   width: 100%;
   margin-bottom: 0.5em;
+  list-style-type:none;
 
   img{
     height: 65px;
   }
   .app_badge_column__left {
+    display: inline-block;
     @media (min-width: 740px) {
-      margin-right: 0.5em;
+      margin-right: 0.25em;
     }
   }
   .app_badge_column__right {
+    display: inline-block;
     @media (min-width: 740px) {
-        
+      margin-left: 0.25em;
     }
   }
 }
