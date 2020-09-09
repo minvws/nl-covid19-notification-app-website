@@ -8,14 +8,23 @@
   document.querySelector('.stories__story-title').classList.add('stories-title__animate');
   document.querySelector('.stories__story-text').classList.add('stories-text__animate');
   
-  window.addEventListener('scroll', animateStory);
+  window.addEventListener('scroll', onScroll);
 })();
+
+var ticking = false;
+
+function onScroll() {
+  if(!ticking) {
+    requestAnimationFrame(animateStory);
+  }
+  ticking = true;
+}
 
 function animateStory() {
   var stories = document.querySelectorAll('.stories__story');
   var storiesShown = document.querySelectorAll('.stories-image__animate');
   if(storiesShown.length >= stories.length) {
-    window.removeEventListener('scroll', animateStory);
+    window.removeEventListener('scroll', onScroll);
     return;
   }
 
@@ -30,8 +39,10 @@ function animateStory() {
       title.classList.add('stories-title__animate');
       text.classList.add('stories-text__animate');
     }
-
   });
+
+  // Ready for next tick
+  ticking = false;
 }
 
 function isInViewport(elem) {
