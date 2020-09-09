@@ -135,6 +135,10 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+  cursor: pointer;
+}
+
 @import "components/btn";
 @import "components/app-badges";
 @import "header";
