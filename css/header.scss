@@ -1,6 +1,5 @@
 .header {
   position: relative;
-  //background: #eaf4f9 url('../img/logo-app.svg') no-repeat;
   background: linear-gradient(180deg, #EFF7F9 0%, #EFF7F9 100%);
   background-size: 120px;
   background-position: right 20px top 80px;
@@ -156,7 +155,7 @@
 }
 
 .header__layout {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     // See .content with negative margin-top
     padding: 0 0 10em 1.38em;
     position: relative;

@@ -12,16 +12,16 @@ Breakpoints:
 960px (desktop)
 */
 
-$color-RO_donkerblauw: #154273 /* RO blauw */;
+$color-RO_darkblue: #154273 /* RO blauw */;
 
-$color-RO_donkerblauw--interaction: #002783;
+$color-RO_darkblue--interaction: #002783;
 
-$color-RO_lichtblauw: #EFF7F9;
+$color-RO_lightblue: #EFF7F9;
 
-$color-WARN_rood: #CA005D;
+$color-WARN_red: #CA005D;
 
 $color-focus: #008fcd;
-$color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
+$color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
     
 :root {
     --transition-in: 262ms ease;
@@ -126,12 +126,12 @@ abbr {
 }
 
 a, a:visited {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     text-decoration: none;
 }
 
 a:hover {
-    color: $color-RO_donkerblauw--interaction;
+    color: $color-RO_darkblue--interaction;
     text-decoration: underline;
 }
 
@@ -170,7 +170,7 @@ button {
         border: none;
         border-radius: 0;
         color: #fff;
-        background-color: $color-RO_donkerblauw--interaction;
+        background-color: $color-RO_darkblue--interaction;
         position: absolute;
         top: -100vh;
         left: -100vw;
@@ -433,7 +433,7 @@ header .watch > a:hover {
 
 .statements details > summary > div.expand,
 .statements details > summary > .collapse.bottom {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
     position: absolute;
     left: 0;
@@ -599,7 +599,7 @@ header .watch > a:hover {
 .timeline > h3.working-on::after,
 .timeline > ul.working-on > li::before,
 .timeline > ul.working-on > li::after {
-    border-color: $color-RO_donkerblauw;
+    border-color: $color-RO_darkblue;
 }
 
 .timeline > ul.completed > li,
@@ -726,7 +726,7 @@ a.explainer > h2 {
     margin-top: -6rem;
 }
 .faq > label {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     cursor: pointer;
     display: block;
     float: left;

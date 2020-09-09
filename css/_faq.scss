@@ -34,7 +34,7 @@
     color: #333;
     margin-top: -6px; // Compensate for line-height
     margin-bottom: 17px;
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     text-align: center;
 
     @media (min-width: 960px) {
@@ -45,7 +45,7 @@
 .faq-homepage__more {
     margin: 30px 0;
     text-align: center;
-    padding: 0px 22px;
+    padding: 0 22px;
 
     @media (min-width: 740px) {
         margin-top: 20px 0;
@@ -61,8 +61,8 @@
 //
 
 .faq-layout__title {
-    color: $color-RO_donkerblauw;
-    background: $color-RO_lichtblauw;
+    color: $color-RO_darkblue;
+    background: $color-RO_lightblue;
     padding: 0.6em 20px;
 }
 .content-block .faq-layout__title{
@@ -88,7 +88,7 @@
 .faq-layout__item {
     display: block;
     position: relative;
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     border-top: 1px solid rgba(21, 66, 115, 0.5);
     padding: 0.8em 0.5em;
     font-size: 21px;

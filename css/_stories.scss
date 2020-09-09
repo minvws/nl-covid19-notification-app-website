@@ -7,45 +7,50 @@
   }
 }
 
-
 .stories {
-  margin: 30px auto 22px auto;
-  padding: 0 10px;
+  margin: 1em auto 2em;
   max-width: 1100px;
 
   @media (min-width: 740px) {
-    margin: 30px auto 22px auto;
     padding: 0 2em;
     display: flex;
     flex-direction: column;
   }
 
   @media (min-width: 960px) {
-    padding: 0 5em;
+    padding: 0 2em;
   }
 }
 
 .stories__story {
-  margin: 16px;
-  padding-bottom: 16px;
- 
+  padding: 0em 1.6em 2em;
+  
   @media (min-width: 740px) {
-    margin: 16px 8px;
+    padding: 2em 0.5em;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
   }
+
+  @media (min-width: 960px) {
+    padding: 2em 2.5em;
+  }
 }
 
-.stories__story-column-left {
+.stories__story-column-image {
+  margin-bottom: 1.0em;
+
   @media (min-width: 740px) {
     width: 50%;
     margin-left: 2.5em;
     text-align: right;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0em;
   }
 }
 
-.stories__story-column-right {
+.stories__story-column-content {
   @media (min-width: 740px) {
     width: 50%;
     margin-right: 2.5em;
@@ -54,7 +59,7 @@
 
 .stories__story:nth-child(2n) {
   flex-direction: row;
-  .stories__story-column-left {
+  .stories__story-column-image {
     @media (min-width: 740px) {
       margin-right: 2.5em;
       margin-left: 0;
@@ -62,7 +67,7 @@
     }
   }
   
-  .stories__story-column-right {
+  .stories__story-column-content {
     @media (min-width: 740px) {
       margin-right: 0;
       margin-left: 2.5em;
@@ -71,17 +76,18 @@
 }
 
 .stories__story-image {
-  display: block;
+  display: inline-block;
   width: 100%;
-  max-height: 410px; //IE11 png fix
-  padding-top: 0.8em;
-  padding-bottom: 0.5em;
+
+  @media (min-width: 740px) {
+    max-width: 380px;
+  }
 }
 
 .stories__story-title-small {
-  color: $color-WARN_rood;
+  color: $color-WARN_red;
   font-size: 16px;
-  padding: 0.5em 0 0;
+  padding: 0.6em 0 0;
   
   @media (min-width: 740px) {
     padding: 0.8em 0;
@@ -89,7 +95,7 @@
 }
 
 .stories__story-title {
-  color: $color-RO_donkerblauw;
+  color: $color-RO_darkblue;
   font-size: 24px;
   padding: 0.1em 0 0.4em;
   font-weight: 800;

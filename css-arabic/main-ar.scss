@@ -1,13 +1,13 @@
 ---
 ---
 
-$color-RO_donkerblauw: #154273 /* RO blauw */;
-$color-RO_donkerblauw--interaction: #002783;
-$color-RO_lichtblauw: #EFF7F9;
-$color-WARN_rood: #CA005D;
+$color-RO_darkblue: #154273 /* RO blauw */;
+$color-RO_darkblue--interaction: #002783;
+$color-RO_lightblue: #EFF7F9;
+$color-WARN_red: #CA005D;
 
 $color-focus: #008fcd;
-$color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
+$color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
 
 :root {
     --transition-in: 262ms ease;

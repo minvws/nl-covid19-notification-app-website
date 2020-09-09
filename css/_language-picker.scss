@@ -48,7 +48,7 @@
     }
 
     &:hover {
-        background-color: rgba($color-RO_donkerblauw--interaction, 1);
+        background-color: rgba($color-RO_darkblue--interaction, 1);
         color: #fff;
         transition: background-color var(--transition-in), color var(--transition-in);
     }
@@ -156,11 +156,11 @@
     font-weight: normal;
     margin: -6px -18px;
     padding: 6px 18px;
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
 
     &:hover {
         text-decoration: underline;
-        color: $color-RO_donkerblauw--interaction;
+        color: $color-RO_darkblue--interaction;
     }
 }
 
@@ -178,7 +178,7 @@
     }
 
     .language-picker__current {
-        color: $color-RO_donkerblauw;
+        color: $color-RO_darkblue;
     }
     
     .language-picker__label {

@@ -2,8 +2,8 @@
 .btn {
   padding: 10px 10px;
   background: #fff;
-  color: $color-RO_donkerblauw;
-  border: 1px solid $color-RO_donkerblauw;
+  color: $color-RO_darkblue;
+  border: 1px solid $color-RO_darkblue;
   border-radius: 6px;
   display: inline-block;
   transition: var(--transition-in);
@@ -18,13 +18,13 @@
   }
 
   &:hover {
-    color: $color-RO_donkerblauw--interaction;
+    color: $color-RO_darkblue--interaction;
   }
 
   &:focus {
     text-decoration: none;
     color: #ffffff;
-    background: $color-RO_donkerblauw--interaction;
+    background: $color-RO_darkblue--interaction;
   }
 }
 

@@ -65,7 +65,7 @@
         font-size: 1.5em;
         line-height: 1.26em;
         margin-bottom: 0.45rem;
-        color: $color-RO_donkerblauw;
+        color: $color-RO_darkblue;
     }
 
     p {
@@ -85,7 +85,7 @@
     width: 100%;
     padding: 0.8em 0.5em 1em 85px;
     margin: 0;
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     background: transparent;
     font-size: 1.1em;
     font-family: inherit;
@@ -106,7 +106,7 @@
 
     &:focus {
         color: #fff;
-        background-color: $color-RO_donkerblauw--interaction;
+        background-color: $color-RO_darkblue--interaction;
         transition: var(--transition-in--fast);
         outline: 0;
     }
@@ -129,10 +129,10 @@
     
     svg {
         max-width: 42px;
-        color: $color-WARN_rood;
+        color: $color-WARN_red;
 
         .statement-summary:hover & {
-            color: $color-RO_donkerblauw--interaction;
+            color: $color-RO_darkblue--interaction;
         }
     }
 }
