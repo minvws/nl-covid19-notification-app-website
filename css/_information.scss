@@ -1,13 +1,13 @@
 .information {
   display: block;
   background-color: #EFF7F9 /* lightblauw */;
-  margin: 50px auto 22px auto;
-  padding: 20px;
+  margin: 0 auto 1em;
+  padding: 1em 1.6em;
   position: relative;
 
   @media (min-width: 740px) {
     width: calc(100% - 48px);
-    padding: 50px 80px;
+    padding: 3.2em;
   }
 
   @media (min-width: 960px) {

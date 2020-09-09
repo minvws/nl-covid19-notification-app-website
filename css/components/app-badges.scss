@@ -21,8 +21,8 @@
 }
 
 .layout-app-badges--center-wrap {
-  margin: 50px auto 22px auto;
-  padding: 20px;
+  margin: 0 auto 1em;
+  padding: 1em 1.6em;
   position: relative;
   text-align: center;
 
@@ -34,7 +34,7 @@
 
   @media (min-width: 740px) {
     width: calc(100% - 48px);
-    padding: 50px 80px;
+    padding: 3.2em;
     h2 {
         font-size: 32px;
     }
@@ -43,7 +43,6 @@
   @media (min-width: 960px) {
     max-width: 1190px;
   }
-
 }
 
 .layout-app-badges--background {

@@ -8,17 +8,13 @@
 }
 
 .stories {
-  margin: 1em auto 2em;
+  margin: 1em auto;
   max-width: 1100px;
 
   @media (min-width: 740px) {
     padding: 0 2em;
     display: flex;
     flex-direction: column;
-  }
-
-  @media (min-width: 960px) {
-    padding: 0 2em;
   }
 }
 
