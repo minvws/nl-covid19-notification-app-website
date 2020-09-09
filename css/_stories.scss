@@ -43,9 +43,10 @@
   @media (min-width: 740px) {
     width: 50%;
     margin-left: 2.5em;
-    text-align: right;
     display: flex;
+    text-align: right;
     align-items: center;
+    justify-content: flex-end;
     margin-bottom: 0em;
   }
 }
@@ -64,6 +65,7 @@
       margin-right: 2.5em;
       margin-left: 0;
       text-align: left;
+      justify-content: flex-start;
     }
   }
   
