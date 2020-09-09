@@ -9,23 +9,24 @@
       <span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}
     </div>
   {%- endif -%}
-  <div class="header-yellow">
+
+  <div class="header">
     <div class="logobar">
       <div class="logo">
         <a href="{{ langSlug }}">
           <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
         </a>
       </div>
-      <a href="{{ langSlug }}/faq" class="yellow__layout__faq-link">
+      <a href="{{ langSlug }}/faq" class="header__layout__faq-link">
         {{ site.data.translations.faq[page.lang] }}
       </a>
       {% include language-picker.html %}
     </div>
     <div class="container">
-      <div class="header-yellow__layout">
-        <img src="{{ relroot }}img/logo-app.svg" class="header-yellow__logo-badge"></img>
-        <div class="header-yellow__layout__middle">
-          <h1 class="header-yellow__text">
+      <div class="header__layout">
+        <img src="{{ relroot }}img/logo-app.svg" class="header__logo-badge"></img>
+        <div class="header__layout__middle">
+          <h1 class="header__text">
             {{ site.data.translations.header-title[page.lang] }}
           </h1>
           {% include badges.html %}

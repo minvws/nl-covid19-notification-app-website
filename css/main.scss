@@ -137,7 +137,7 @@ a:hover {
 
 @import "components/btn";
 @import "components/app-badges";
-@import "header-yellow";
+@import "header";
 @import "language-picker";
 @import "content-block";
 @import "footer";
@@ -250,6 +250,11 @@ a:hover {
 
 
 
+/* header header bar */
+
+.headerbar {
+}
+
 /* Watch button */
 
 header .watch {
@@ -327,7 +332,7 @@ header .watch > a:hover {
         width: 262px;
         margin: 0;
         min-height: 670px;
-        // Position depends on .header-yellow
+        // Position depends on .header
 
         > img {
             position: absolute;
@@ -339,7 +344,7 @@ header .watch > a:hover {
             z-index: 1;
         }
 
-        // Graphic with circles moved to header-yellow for overflow: hidden
+        // Graphic with circles moved to header for overflow: hidden
 
 
         // Shadow under phone image

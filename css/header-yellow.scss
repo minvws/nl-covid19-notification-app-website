@@ -1,4 +1,4 @@
-.header-yellow {
+.header {
   position: relative;
   //background: #eaf4f9 url('../img/logo-app.svg') no-repeat;
   background: linear-gradient(180deg, #EFF7F9 0%, #EFF7F9 100%);
@@ -57,7 +57,7 @@
   }
 }
 
-.browser-ie-11 .header-yellow{
+.browser-ie-11 .header{
   @media(min-width: 960px) {
     &::before {
       width: 1480px;
@@ -76,7 +76,7 @@
 }
 
 
-.header-yellow--slim {
+.header--slim {
     min-height: 180px;
     padding: 0 0 50px 0;
     color: #ffffff;
@@ -122,11 +122,11 @@
     }
 }
 
-.header-yellow--statement {
+.header--statement {
     min-height: 160px;
 }
 
-.header-yellow__title {
+.header__title {
     font-size: 30px;
     font-weight: 800;
     padding-top: 30px;
@@ -141,7 +141,7 @@
     }
 }
 
-.header-yellow__center {
+.header__center {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
@@ -155,7 +155,7 @@
     }
 }
 
-.header-yellow__layout {
+.header__layout {
     color: $color-RO_donkerblauw;
     // See .content with negative margin-top
     padding: 0 0 10em 1.38em;
@@ -170,14 +170,14 @@
     }
 }
 
-.header-yellow__layout__middle {
+.header__layout__middle {
     @media (min-width: 960px) {
         position: relative;
         padding: 20px 0 0 200px;
     }
 }
 
-.header-yellow__text {
+.header__text {
     position: relative;
     margin-bottom: 1.5em;
     font-size: 28px;
@@ -196,7 +196,7 @@
     }
 }
 
-.header-yellow__logo-badge {
+.header__logo-badge {
     width: 100px;
     margin: 0 0 1.5em;
     
@@ -211,7 +211,7 @@
     }
 }
 
-.yellow__layout__faq-link {
+.header__layout__faq-link {
   position: absolute;
   top: 38px;
   right: 230px;

@@ -1,4 +1,4 @@
-.header-yellow {
+.header {
 
     @media(min-width: 960px) {
 
@@ -23,7 +23,7 @@
     }
 }
 
-.header-yellow--slim {
+.header--slim {
     padding: 0 0 50px 0;
 
     &:after {
@@ -46,7 +46,7 @@
     }
 }
 
-.header-yellow__title {
+.header__title {
     @media (min-width: 740px) {
         padding-right: 55px;
         padding-left: inherit;
@@ -58,7 +58,7 @@
     }
 }
 
-.header-yellow__text {
+.header__text {
     padding: 0 1.38em 2em 0;
 
     @media (min-width: 680px) {
