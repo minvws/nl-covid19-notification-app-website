@@ -102,21 +102,41 @@
 .stories-image__animate {
   -webkit-animation-fill-mode: forwards;
   animation: fadeInOpacity 0.3s ease-in 0.3s 1 normal forwards;
+  
+  @media (prefers-reduced-motion) {
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
 }
 
 .stories-title-small__animate {
   -webkit-animation-fill-mode: forwards;
   animation: fadeInOpacity 0.2s ease-in 0.5s 1 normal forwards;
+  
+  @media (prefers-reduced-motion) {
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
 }
 
 .stories-title__animate {
   -webkit-animation-fill-mode: forwards;
   animation: fadeInOpacity 0.2s ease-in 0.7s 1 normal forwards;
+  
+  @media (prefers-reduced-motion) {
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
 }
 
 .stories-text__animate {
   -webkit-animation-fill-mode: forwards;
   animation: fadeInOpacity 0.2s ease-in 0.9s 1 normal forwards;
+  
+  @media (prefers-reduced-motion) {
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
 }
 
 @keyframes fadeInOpacity {
