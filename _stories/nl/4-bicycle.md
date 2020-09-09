@@ -4,7 +4,6 @@ show: true
 graphic: graphic-bicycle.svg
 title: Voorbeeld
 summary: Fietste iemand voorbij? Dan krijg je later geen melding
-alt: TBD
 lang: nl
 ---
 

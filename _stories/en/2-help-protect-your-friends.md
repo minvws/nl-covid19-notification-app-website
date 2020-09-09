@@ -4,7 +4,6 @@ show: true
 graphic: graphic-app-notification.svg
 title: Hoe werkt het?
 summary: Je krijgt een melding nadat je extra kans op besmetting hebt gelopen
-alt: TBD
 lang: en
 ---
 
