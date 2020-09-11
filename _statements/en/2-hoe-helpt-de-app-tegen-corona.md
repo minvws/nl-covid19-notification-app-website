@@ -12,5 +12,6 @@ categories:
 
 You can pass coronavirus on to other people even if you do not have symptoms. The earlier you find out that you have (or could have) coronavirus, the easier it is to make sure you do not pass it on to other people. The CoronaMelder app helps you do this. 
 
-If you receive a notification through the app, you are advised to stay at home. That will stop you from passing coronavirus on to your parents or grandparents, for example. And that you will not spread the virus in crowded places, such as at a market or a sports event.  
+If you receive a warning through the app, stay at home for 10 days after the date of contact with an infected person. This way, you can avoid infecting your (grand) parents, for example. Or that you spread the virus in a busy place, such as the market or a sporting event.
 
+Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
