@@ -10,14 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
-
 Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:
 -	Drenthe
 -	Gelderland-Zuid
@@ -25,6 +17,6 @@ Anybody can download the CoronaMelder app now. If you live in one of the followi
 -	Noord- en Oost-Gelderland
 -	Twente
 
-The CoronaMelder app is being trialled in these GGD regions. If you live in one of these regions, you can use the app to warn other people if you test positive for coronavirus. 
+The CoronaMelder app is being trialled in these GGD regions. Only if you live in one of these regions, you can use the app to warn other people if you test positive for coronavirus. Both acquaintances and strangers: people who otherwise might not receive a warning.
 
-Click [here](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) to find out if you live in one of these regions. 
+[Find out](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) if you live in one of these regions. 

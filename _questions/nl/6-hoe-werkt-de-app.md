@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 1. De app maakt voor elke telefoon een eigen code
 In deze code staat geen informatie over jou of je telefoon. De code is willekeurig en verandert elk kwartier.
 

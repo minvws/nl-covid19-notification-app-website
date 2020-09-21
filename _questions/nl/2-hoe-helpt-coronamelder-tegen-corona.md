@@ -11,13 +11,16 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 Ben je in de buurt geweest van iemand die corona blijkt te hebben? En laat diegene ook in de app weten dat hij of zij besmet is?
 
-- Dan krijg je daarna een melding. Het kan zijn dat jij ook besmet bent, ook al voel je je misschien (nog) niet ziek.
-- Je kunt je dan tijdens deze proefperiode in de testregio’s laten testen bij de GGD en thuis blijven tot je de uitslag weet. Zo voorkom je dat je onbewust anderen besmet.
- 
+Dan krijg je daarna een melding. Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
+
+Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+
+Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
+
+Bel <a href="tel:08001202">0800-1202</a> om gratis een coronatest aan te vragen.
+
 Blijk je zelf corona te hebben?
 
 - Dan vraagt de GGD bij wie je in de buurt bent geweest, en belt de GGD deze mensen op.

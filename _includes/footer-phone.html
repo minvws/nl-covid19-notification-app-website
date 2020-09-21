@@ -1,4 +1,4 @@
-{% if page.layout == 'content' or page.layout == 'content-statements'  %}
+{% if page.layout == 'content' or page.layout == 'content-statements' or page.layout == 'faq-overview' %}
 {% assign small = 'small' %}
 {% endif %}
 
@@ -15,10 +15,12 @@
     </p>
 
     <h3 class="screen-reader-text">{{ site.data.translations.footer-phone-opening[page.lang] }}</h3>
+    <p class="footer-phonetimes">
+      <span class="footer-opening-hours">{{ site.data.translations.footer-phone-opening[page.lang] }}</span> <br/>
+      {{ site.data.translations.footer-phone-opening-hours[page.lang] }}
+    </p>
     <p>
-      <span class="footer-opening-hours">{{ site.data.translations.footer-phone-opening[page.lang] }}</span> </br>
-      {{ site.data.translations.footer-phone-opening-hours[page.lang] }} </br>
-      {{ site.data.translations.footer-phone-opening-hours-weekend[page.lang] }} </br>
+      {{ site.data.translations.footer-phone-mail[page.lang] }}
     </p>
   </div>
 </div> 

@@ -10,13 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
 **The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it..** 
 
 <div class="md-timeline" markdown="1">
@@ -39,8 +32,6 @@ option the receiver can’t see who you are or on which location you were near e
 - GGD IJsselland
 - GGD Noord- en Oost-Gelderland
 - GGD Twente
-
- 
 </div>
 </details>
 

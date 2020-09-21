@@ -1,0 +1,41 @@
+.statement-summary {
+    background-position: right 25px top 25px;
+    background-size: 42px;
+    box-shadow: 0 -2px 9px -2px rgba(0, 0, 0, 0.2);
+
+    html.browser-ie-11 & {
+        box-shadow: 0 -2px 20px -2px rgba(0, 0, 0, 0.26);
+    }
+}
+
+.statement__content {
+    padding: 18px 85px 0 20px;
+}
+
+.statement-summary__btn-expand {
+    padding: 0.8em 85px 1em 0.5em;
+    text-align: right;
+}
+
+.statement-summary__icon {
+    right: 23px;
+    left: auto;
+}
+
+.details__expanded-box {
+    right: auto;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    transform: translate(-110%, 0);
+}
+
+.expanded-box__btn-collapse {
+    padding: 15px 32px 10px 16px;
+    text-align: right;
+}
+
+.expanded-box__header__icon {
+    float: right;
+    margin-left: 25px;
+    margin-right: 0;
+}

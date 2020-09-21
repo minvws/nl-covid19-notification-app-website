@@ -10,14 +10,6 @@ categories:
 - statements
 ---
 
-<div class="expanded-box__header__icon">
-  {% include graphics/{{ page.icon }}.svg %}
-</div>
-
-# {{ page.title }}
-{: .expanded-box__header__title}
-
-
 In deze GGD-regio’s wordt de app al in de praktijk getest:
 -  	Drenthe
 -  	Gelderland-Zuid
@@ -27,6 +19,4 @@ In deze GGD-regio’s wordt de app al in de praktijk getest:
  
 Bekijk of je in een gemeente woont binnen de [testregio’s](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s). 
  
-Alleen in deze regio’s kun je:
--   	je laten testen nadat je een melding hebt gekregen.
--   	via de app anderen waarschuwen als je corona blijkt te hebben. Bekenden én onbekenden: mensen die anders misschien geen waarschuwing zouden krijgen.
+Alleen in deze regio’s kun je via de app anderen waarschuwen als je corona blijkt te hebben. Bekenden én onbekenden: mensen die anders misschien geen waarschuwing zouden krijgen.

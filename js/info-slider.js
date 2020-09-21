@@ -1,16 +1,26 @@
 (function () {
+    if( typeof prevSlide == "undefined") var prevSlide = 'Previous slide';
+    if( typeof nextSlide  == "undefined") var nextSlide = 'Next slide';
+    if( typeof firstSlide  == "undefined") var firstSlide = 'This is the first slide';
+    if( typeof lastSlide  == "undefined") var lastSlide = 'This is the last slide';
+    if( typeof bulletSlide  == "undefined") var bulletSlide = 'Go to slide';
+    
+
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
         direction: 'horizontal',
-        loop: true,
+        loop: false,
+
+        keyboard: {
+            enabled: true,
+        },
 
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
             renderBullet: function (index, className) {
-                return '<a class="' + className + '" href="#swiper-slide-' + index + '"><span class="screen-reader-text">Ga naar slide ' + (index + 1) + '</span></a>';
-                // TODO #91: render vanuit liquid en geef juist taal keys
+                return '<button role="button" class="' + className + '"><span class="screen-reader-text">' + bulletSlide + (index + 1) + '</span></button>';
             }
         },
 
@@ -23,6 +33,14 @@
         // Lazy load images
         lazy: {
             loadPrevNext: true
+        },
+
+        a11y: {
+            enabled: true,
+            prevSlideMessage: prevSlide,
+            nextSlideMessage: nextSlide,
+            firstSlideMessage: firstSlide,
+            lastSlideMessage: lastSlide,
         },
     });
 })();

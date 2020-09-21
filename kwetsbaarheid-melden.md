@@ -2,11 +2,9 @@
 layout: content
 lang: nl
 showBreadCrumbs: true
-title: Kwetsbaarheid melden
 permalink: /kwetsbaarheid-melden
+title: Kwetsbaarheid melden
 ---
-
-# Kwetsbaarheid melden
 
 Ontdekt u een zwakke plek of kwetsbaarheid op deze website, meld dit dan aan het Nationaal Cyber Security Centrum (NCSC). Het maken van zo'n melding heet Coordinated Vulnerability Disclosure (CVD).
 

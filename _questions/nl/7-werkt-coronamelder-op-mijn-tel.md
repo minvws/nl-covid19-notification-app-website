@@ -11,8 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-# {{ page.title }}
-
 **Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
 
 **iPhone:** CoronaMelder werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer. iOS 13.5 kan geïnstalleerd worden op de iPhone 6s , iPhone SE en nieuwer.
