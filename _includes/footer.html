@@ -1,3 +1,8 @@
+{%- assign langSlug = site.baseurl | append: '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang | append: '/' -%}
+{%- endif -%}
+
 <footer>
     {% if page.showContact  %}
         {% include footer-phone.html %}
