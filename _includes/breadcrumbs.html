@@ -1,7 +1,7 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: page.lang -%}
 {%- endif -%}
 
 

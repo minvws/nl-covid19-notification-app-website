@@ -1,4 +1,5 @@
 repo: minvws/nl-covid19-notification-app-website
+baseurl: '/'
 
 collections:
   statements:
@@ -29,3 +30,6 @@ exclude:
   - example.content-page.md
   - .sass-cache
   - .history
+
+plugins:
+  - "jekyll-github-metadata"
