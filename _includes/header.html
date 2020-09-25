@@ -1,4 +1,9 @@
 <header>
+  <h1>{{site.url}}</h1>
+  <h1>{{ site.baseurl }}/</h1>
+  <h1>{{ 'faq' | relative_url }}</h1>
+  <h1>{{ 'faq' | absolute_url }}</h1>
+
   <div class="skiplinks">
     <a href="#content">
       {{ site.data.translations.header-skip-to-content[page.lang] }}

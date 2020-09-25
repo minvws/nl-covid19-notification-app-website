@@ -1,5 +1,4 @@
 repo: minvws/nl-covid19-notification-app-website
-baseurl: ''
 
 collections:
   statements:
