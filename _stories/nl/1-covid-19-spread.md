@@ -2,8 +2,8 @@
 index: 1
 show: true
 graphic: graphic-spread.png
-title: Waarom is de app belangrijk?
-summary: Help de verspreiding van het coronavirus te stoppen
+title-highlight: Waarom is de app belangrijk?
+title: Help de verspreiding van het coronavirus te stoppen
 lang: nl
 ---
 

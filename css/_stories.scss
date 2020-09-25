@@ -1,7 +1,7 @@
 .js-enabled {
   .stories__story-image,
   .stories__story-title,
-  .stories__story-title-small,
+  .stories__story-title__highlight,
   .stories__story-text {
     opacity: 0;
   }
@@ -82,10 +82,11 @@
   }
 }
 
-.stories__story-title-small {
+.stories__story-title__highlight {
   color: $color-WARN_red;
   font-size: 16px;
   padding: 0.6em 0 0;
+  display: block;
   
   @media (min-width: 740px) {
     padding: 0.8em 0;
@@ -97,6 +98,7 @@
   font-size: 24px;
   padding: 0.1em 0 0.4em;
   font-weight: 800;
+  display: block;
 
   @media (min-width: 740px) {
     font-size: 32px;

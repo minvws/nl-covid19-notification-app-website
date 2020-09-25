@@ -2,8 +2,8 @@
 index: 3
 show: true
 graphic: graphic-app-bluetooth.svg
-title: Hoe werkt het?
-summary: CoronaMelder gebruikt Bluetooth, geen locatiegegevens
+title-highlight: Hoe werkt het?
+title: CoronaMelder gebruikt Bluetooth, geen locatiegegevens
 lang: nl
 ---
 

@@ -4,7 +4,7 @@
     NodeList.prototype.forEach = Array.prototype.forEach;
 
   document.querySelector('.stories__story-image').classList.add('stories-image__animate');
-  document.querySelector('.stories__story-title-small').classList.add('stories-title-small__animate');
+  document.querySelector('.stories__story-title__highlight').classList.add('stories-title-small__animate');
   document.querySelector('.stories__story-title').classList.add('stories-title__animate');
   document.querySelector('.stories__story-text').classList.add('stories-text__animate');
   
@@ -30,7 +30,7 @@ function animateStory() {
 
   stories.forEach(function(story) {
     var image = story.querySelector('.stories__story-image');
-    var titleSmall = story.querySelector('.stories__story-title-small');
+    var titleSmall = story.querySelector('.stories__story-title__highlight');
     var title = story.querySelector('.stories__story-title');
     var text = story.querySelector('.stories__story-text');
     if (isInViewport(story) && !story.classList.contains('stories-image__animate') ) {

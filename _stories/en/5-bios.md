@@ -2,8 +2,8 @@
 index: 5
 show: true
 graphic: graphic-bios.png
-title: Voorbeeld
-summary: Zat je dicht bij iemand in de bioscoop? Dan kun je later wel een melding krijgen
+title-highlight: Voorbeeld
+title: Zat je dicht bij iemand in de bioscoop? Dan kun je later wel een melding krijgen
 lang: en
 ---
 
