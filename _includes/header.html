@@ -1,4 +1,8 @@
 <header>
+  <h1>{{site.url}}</h1>
+  <h1>{{ site.baseurl }}</h1>
+  <h1>{{ 'test' | relative_url }}</h1>
+  <h1>{{ 'test' | absolute_url }}</h1>
   <div class="skiplinks">
     <a href="#content">
       {{ site.data.translations.header-skip-to-content[page.lang] }}
