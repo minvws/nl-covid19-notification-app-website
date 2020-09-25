@@ -12,7 +12,7 @@
           <h2>{{ statement.title }}</h2>
           <p>{{ statement.summary }}</p>
         </div>
-        <a href="{{ site.url }}/{{ statement.url }}" class="statement-summary__btn-expand">
+        <a href="{{ site.url }}{{ statement.url }}" class="statement-summary__btn-expand">
           <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
           <span class="screen-reader-text">{{ site.data.translations.readmore-about_screen-reader[page.lang] }}: {{ statement.title }}</span>
         </a>

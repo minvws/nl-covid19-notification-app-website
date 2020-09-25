@@ -1,6 +1,6 @@
 {%- assign langSlug = site.baseurl | append: '/'  -%}
 {%- if page.lang -%}
-  {%- assign langSlug = site.baseurl | append: '/' || append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: page.lang -%}
 {%- endif -%}
 
 <div class="faq">
@@ -12,7 +12,7 @@
       <ul class="faq-layout-contents__list">
         {% for question in questions %}
           <li>
-            <a class="faq-layout__item" href="{{ site.url }}/{{ question.url }}" id="faq-{{ question.index }}">
+            <a class="faq-layout__item" href="{{ site.url }}{{ question.url }}" id="faq-{{ question.index }}">
               {{ question.title }}
             </a>
           </li>
