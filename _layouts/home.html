@@ -1,7 +1,7 @@
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
-{%- assign langSlug = site.baseurl -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = site.baseurl | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 
@@ -28,10 +28,10 @@
                 </h2>
                 <div class="lead__app_badges">
                   <a class="app_badge_column__left" href="{{ site.data.translations.info-app-store-url[page.lang] }}">
-                    <img src="{{ site.baseurl }}img/{{ site.data.translations.info-app-store-img[page.lang] }}" alt="{{ site.data.translations.header-appstore[page.lang] }}" />
+                    <img src="{{ site.baseurl }}/img/{{ site.data.translations.info-app-store-img[page.lang] }}" alt="{{ site.data.translations.header-appstore[page.lang] }}" />
                   </a>
                   <a class="app_badge_column__right" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
-                    <img src="{{ site.baseurl }}img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" />
+                    <img src="{{ site.baseurl }}/img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" />
                   </a>
                 </div>
               </div>
@@ -42,7 +42,7 @@
       
         <div class="lead__preview">
           <img
-            src="{{ site.baseurl }}img/phone.svg"
+            src="{{ site.baseurl }}/img/phone.svg"
             aria-hidden="true"
             class="app-preview"
           >

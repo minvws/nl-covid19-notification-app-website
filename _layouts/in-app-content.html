@@ -1,7 +1,7 @@
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
-{%- assign langSlug = site.baseurl -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = site.baseurl | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 
@@ -22,7 +22,7 @@
   </main>
 
   {% if page.redirectToApp %}
-    <script src="{{ site.baseurl }}js/redirect-app.js?v={{ timeslug }}"></script>
+    <script src="{{ site.baseurl }}/js/redirect-app.js?v={{ timeslug }}"></script>
   {% endif %}
 
 </body>

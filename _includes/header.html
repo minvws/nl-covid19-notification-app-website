@@ -1,8 +1,4 @@
 <header>
-  <h1>{{site.url}}</h1>
-  <h1>{{ site.baseurl }}</h1>
-  <h1>{{ 'test' | relative_url }}</h1>
-  <h1>{{ 'test' | absolute_url }}</h1>
   <div class="skiplinks">
     <a href="#content">
       {{ site.data.translations.header-skip-to-content[page.lang] }}
@@ -16,7 +12,7 @@
   <div class="logobar">
     <div class="logo">
       <a href="{{ langSlug }}">
-        <img src="{{ site.baseurl }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
+        <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
       </a>
     </div>
   </div>
