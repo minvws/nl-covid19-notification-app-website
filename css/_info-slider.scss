@@ -27,7 +27,7 @@
         transition: var(--transition-out--fast);
         background: transparent;
         border: 0;
-        z-index: 3;
+        z-index: 4;
         color: $color-RO_donkerblauw;
 
         &:hover {
@@ -79,6 +79,7 @@
             width: 20px;
             height: 20px;
             transform: rotate(-45deg);
+            display: block;
         }
     }
 
@@ -107,6 +108,7 @@
             z-index: 2;
             width: 100%;
         }
+
     }
 
     .swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -141,6 +143,7 @@
             background: #{$color-RO_donkerblauw--interaction};
             transition: var(--transition-in);
             transform: scale(1.38);
+
         }
     }
 }
@@ -265,4 +268,25 @@
     @media (min-width: 960px) {
         padding: 1.4em;
     }
+}
+
+.browser-ie-11 .swiper-pagination {
+  width: 100%;
+  bottom: 9px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 1.0rem 0.3rem;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 16px;
+    height: 16px;
+  }
 }
