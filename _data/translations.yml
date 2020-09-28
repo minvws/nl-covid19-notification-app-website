@@ -54,6 +54,9 @@ development:
 govlogo:
   nl: Logo Rijksoverheid home
   en: Logo Government home
+phone-action:
+  nl: <a href="tel:0800-1280">0800-1280</a>
+  en: <a href="tel:0800-1280">0800-1280</a>
 minvws:
   nl: Ministerie van Volksgezondheid,<br>Welzijn en Sport
   en: Ministry of Health,<br>Welfare and Sport
