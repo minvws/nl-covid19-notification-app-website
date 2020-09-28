@@ -1,7 +1,7 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 
@@ -10,7 +10,7 @@
   {% for crumb in crumbs offset: 1 %}
   {{% assign start_crumb = '' %}}
     {% if forloop.first %}
-    <a class="breadcrumbs" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+    <a class="breadcrumbs" href="{{langSlug}}">
       {{ site.data.translations.layout-template-home[page.lang] }}
     </a>
     {% elsif forloop.last == false %}
