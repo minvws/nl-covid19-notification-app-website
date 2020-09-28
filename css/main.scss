@@ -328,7 +328,12 @@ header .watch > a:hover {
 
     img{
       height: 65px;
+
+      .browser-ie-11 & {
+          width: 100%;
+      }
     }
+
     .app_badge_column__left {
         flex-direction: column;
         flex-basis: 100%;
