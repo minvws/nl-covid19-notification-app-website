@@ -16,7 +16,7 @@ head-social-og-image-url:
   en: head-social-og-image--nl.png?v=2
 head-social-og-image-alt:
   nl: Impressie van website waarop toelichting te vinden is
-  en: TBD
+  en: Impression of website on which more information can be found
 
 page-title:
   nl: CoronaMelder wordt getest in de praktijk
@@ -75,12 +75,6 @@ readmore:
 readmore-about_screen-reader:
   nl: over
   en: about
-readless:
-  nl: Verberg uitleg
-  en: Hide explanation
-readless--under:
-  nl: onderaan
-  en: onderaan
 respond:
   nl: Reageren op dit onderwerp?
   en: Respond to this subject?
@@ -209,9 +203,6 @@ info-google-play-alt:
 info-slider-title:
   nl: Dit is wat je kunt verwachten van de app
   en: This is what you can expect from the app
-info-slider-btn-pause:
-  nl: Pauzeer slider
-  en: Pauzeer slider
 info-slider-btn-prev-slide:
   nl: Vorige slide van slider
   en: Previous slide of slider
@@ -366,15 +357,15 @@ footer-contact-title:
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
   nl: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
-  en: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
+  en: Logo of the Ministry of Health, Welfare and Sport
 footer-logos-rivm-url: https://www.rivm.nl/
 footer-logos-rivm-img-alt: 
   nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
-  en: Logo Rijksinstituut voor Volksgezondheid en Milieu
+  en: Logo of the National Institute for Public Health and the Environment
 footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
-  en: Logo GGD Nederland
+  en: Logo of the Municipal Health Service (GGD)
 footer-misc-privacy-url: privacy
 footer-misc-privacy:
   nl: Privacy
@@ -434,4 +425,7 @@ error-back-to-home-page:
 error-back-to-faq:
   nl: Ga naar veelgestelde vragen
   en: Go to frequently asked questions
-  
+
+accessibility-in-app-email-subject:
+  nl: Probleem bij het gebruik van de app
+  en: Problem with using the app
