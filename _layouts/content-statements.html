@@ -1,8 +1,7 @@
-{%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 
