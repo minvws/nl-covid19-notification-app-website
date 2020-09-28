@@ -1,6 +1,9 @@
 head-app-name:
   nl: CoronaMelder
   en: CoronaMelder
+head-social-og-site_name:
+  nl: CoronaMelder
+  en: CoronaMelder
 head-social-og-title:
   nl: CoronaMelder wordt getest in de praktijk
   en: CoronaMelder is being tested in the field
