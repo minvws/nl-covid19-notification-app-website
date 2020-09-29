@@ -1,8 +1,7 @@
-{%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 <!DOCTYPE html>
@@ -41,7 +40,7 @@
           {% for question in questions %}
               {% if question.set == 1 %}
                   <li>
-                      <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
+                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" id="faq-{{ question.index }}">
                           {{ question.title }}
                       </a>
                   </li>
@@ -58,7 +57,7 @@
           {% for question in questions %}
               {% if question.set == 2 %}
                   <li>
-                      <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
+                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" id="faq-{{ question.index }}">
                           {{ question.title }}
                       </a>
                   </li>
@@ -74,7 +73,7 @@
           {% for question in questions %}
               {% if question.set == 3 %}
                   <li>
-                      <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
+                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" id="faq-{{ question.index }}">
                           {{ question.title }}
                       </a>
                   </li>

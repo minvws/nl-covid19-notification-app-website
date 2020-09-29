@@ -29,3 +29,6 @@ exclude:
   - example.content-page.md
   - .sass-cache
   - .history
+
+plugins:
+  - "jekyll-github-metadata"
