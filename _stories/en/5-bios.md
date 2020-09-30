@@ -2,9 +2,8 @@
 index: 5
 show: true
 graphic: graphic-bios.png
-title-highlight: Voorbeeld
-title: Zat je dicht bij iemand in de bioscoop? Dan kun je later wel een melding krijgen
+title-highlight: Example
+title: Did you sit close to someone in the cinema? Then you can receive notification later.
 lang: en
 ---
-
-Het bluetoothsignaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
+The Bluetooth signal was strong enough, and you were close to each other for a longer time

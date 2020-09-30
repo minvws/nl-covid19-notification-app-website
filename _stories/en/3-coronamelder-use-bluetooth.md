@@ -2,9 +2,8 @@
 index: 3
 show: true
 graphic: graphic-app-bluetooth.svg
-title-highlight: Hoe werkt het?
-title: CoronaMelder gebruikt Bluetooth, geen locatiegegevens
+title-highlight: How does it work?
+title: CoronaMelder uses Bluetooth, not location data or GPS.
 lang: en
 ---
-
-De app ziet via bluetooth of je dicht bij iemand was. Hoe dichterbij, hoe sterker het bluetoothsignaal. De app weet niet waar je was en wie je bent.
+The app detects via Bluetooth whether you were close to someone. The closer, the stronger the bluetooth signal. The app does not know where you were or who you are.

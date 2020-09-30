@@ -2,9 +2,8 @@
 index: 1
 show: true
 graphic: graphic-spread.png
-title-highlight: Waarom is de app belangrijk?
-title: Help de verspreiding van het coronavirus te stoppen
+title-highlight: Why is the CoronaMelder app needed?
+title: The app is designed to support the contact tracing work being done by the GGD.
 lang: en
 ---
-
-CoronaMelder waarschuwt je nadat je in de buurt bent geweest van iemand met corona. Zo kun jij voorkomen dat je de mensen in je omgeving besmet.
+It allows people with no symptoms to be warned that they could have been infected. This means that users of the app can avoid passing the virus on to other people.
