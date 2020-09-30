@@ -1,8 +1,7 @@
 ---
 layout: content
 index: 6
-set: 2
-title: Hoe werkt de app technisch precies?
+title: Hoe werkt de app?
 lang: nl
 categories:
 - nl
@@ -15,26 +14,51 @@ featuredHomeIcon: app-touch
 featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 ---
 
-1. De app maakt voor elke telefoon een eigen code.
-In deze code staat geen informatie over jou of je telefoon. De code is willekeurig en verandert elk kwartier.
+**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
 
-2. Telefoons delen hun codes als ze bij elkaar in de buurt zijn.
-Heeft de persoon die je tegenkomt ook de app? Dan delen jullie telefoons hun codes met elkaar via Bluetooth Low Energy (lage energie-bluetooth). Zo weet de app welke telefoons in de buurt waren. De app weet niet van wie de telefoons zijn en ook niet waar jullie waren.
+<div class="md-timeline" markdown="1">
+1. De app ziet via bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
+2. Hoe sterker het signaal, hoe dichterbij je was.
+3. De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens. De app weet niet wie jij bent, wie de ander is of waar jullie zijn.
+4. Als je in de buurt bent geweest van iemand met het coronavirus en die de app heeft, krijg je later een melding van de app.
+5. Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. **In deze melding staat alleen wanneer ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.**
+</div>
 
+<details>
+   <summary>Wanneer krijg ik een melding?</summary>
+   <div markdown="1">
+Als je positief getest bent op corona in een testregio, dan kun je dit vrijwillig aangeven in de app, samen met de GGD. Als een GGD-medewerker je belt met de testuitslag, vraagt deze jou dan ook of je anderen wilt waarschuwen via de app. Als je hiervoor kiest, ziet de ontvanger niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
 
-3. Als iemand corona heeft, kan deze persoon zijn of haar codes op een server zetten.
-Deze server bevat alleen codes van besmette personen. Om de codes toe te voegen, moet een besmet persoon eerst een GGD-sleutel doorgeven aan de GGD. Dit kan nu nog alleen als je in een testregio woont. Kijk op [RegioAtlas](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) of je in een gemeente woont van deze testregio's: 
-
+Bekijk hier of je in een gemeente woont van deze <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">testregio's</a>:
 - GGD Drenthe
 - GGD Gelderland-Zuid
 - GGD IJsselland
 - GGD Noord- en Oost-Gelderland
 - GGD Twente
+</div>
+</details>
 
-Met de GGD-sleutel is altijd zeker dat de toegevoegde codes ook echt horen bij iemand die corona heeft. Alle codes ouder dan 14 dagen worden automatisch van de server verwijderd.
+<details>
+<summary>Wat staat er in de waarschuwing?</summary>
+<div markdown="1">
 
-4. Elke telefoon controleert of het de codes op de server eerder is tegengekomen.
-De app kijkt een paar keer per dag naar de server met codes van besmette personen. Hij vergelijkt deze server met de codes die op jouw telefoon zijn bewaard. Zo ziet de app of je extra kans op besmetting hebt gelopen.
+In de melding staat hoeveel dagen geleden je dicht bij iemand was die later corona bleek te hebben. Het is niet bekend wie dat was, waar of wanneer precies.
 
-5. Jij krijgt een melding als de codes van een besmet persoon op je telefoon staan.
-In deze melding lees je wanneer je in de buurt van de besmette persoon bent geweest. Niet wie het is of waar het was. Ook vertelt de app wat je nu zelf het beste kunt doen. Je eigen codes staan niet op de server met besmette codes, maar worden 14 dagen op je telefoon bewaard.
+**Je krijgt ook advies over wat je het beste kunt doen tijdens deze proefperiode in de testregio’s**
+
+-   	Heb je geen klachten? Doe een coronatest en blijf thuis tot je de uitslag weet
+-   	Heb je (lichte)klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet
+-   	Heb je ernstige klachten of zit je in een risicogroep? Bel je huisarts.
+
+</div>
+</details>
+
+<details>
+<summary>Ik ben positief getest op corona, wat nu?</summary>
+<div markdown="1">
+
+Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. Zo kun je anderen waarschuwen. De ontvanger ziet niet wie je bent of waar er contact  is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
+
+</div>
+</details>
+

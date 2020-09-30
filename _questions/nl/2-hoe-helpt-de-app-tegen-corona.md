@@ -1,13 +1,17 @@
 ---
-layout: content-statements
+layout: content
 index: 2
 title: Hoe helpt de app tegen corona?
-icon: heart
-summary: CoronaMelder waarschuwt nadat je in de buurt bent geweest van iemand die corona heeft.
 lang: nl
 categories:
 - nl
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
+featuredHome: true
+featuredHomeIndex: 2
+featuredHomeIcon: heart
+featuredHomeText: CoronaMelder waarschuwt nadat je in de buurt bent geweest van iemand die corona heeft.
 ---
 
 Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.

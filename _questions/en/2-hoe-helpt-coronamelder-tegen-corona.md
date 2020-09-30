@@ -9,10 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHome: true
-featuredHomeIndex: 2
-featuredHomeIcon: todo
-featuredHomeText: TBA
+# featuredHome: true
+# featuredHomeIndex: 2
+# featuredHomeIcon: todo
+# featuredHomeText: TBA
 ---
 
 Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?

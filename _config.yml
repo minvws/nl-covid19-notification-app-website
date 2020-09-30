@@ -1,9 +1,6 @@
 repo: minvws/nl-covid19-notification-app-website
 
 collections:
-  statements:
-    output: true
-    permalink: /:categories/:name/
   questions:
     output: true
     permalink: /:categories/:name/

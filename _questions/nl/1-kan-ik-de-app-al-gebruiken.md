@@ -1,13 +1,17 @@
 ---
-layout: content-statements
+layout: content
 index: 1
 title: Kan ik de app al gebruiken?
-icon: calendar
-summary: Ja, in een aantal regio’s kun je met de app ook anderen waarschuwen als je corona hebt.
 lang: nl
 categories:
 - nl
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
+featuredHome: true
+featuredHomeIndex: 1
+featuredHomeIcon: calendar
+featuredHomeText: Ja, in een aantal regio’s kun je met de app ook anderen waarschuwen als je corona hebt.
 ---
 
 In deze GGD-regio’s wordt de app al in de praktijk getest:

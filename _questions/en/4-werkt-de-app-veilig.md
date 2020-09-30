@@ -9,10 +9,6 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHome: true
-featuredHomeIndex: 4
-featuredHomeIcon: todo
-featuredHomeText: TBA
 ---
 
 Yes, the app is secure. We make sure that:

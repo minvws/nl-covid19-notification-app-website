@@ -1,14 +1,19 @@
 ---
-layout: content-statements
+layout: content
 index: 3
-title: What should I do if I get a notification?
-icon: mobile-check
+set: 2
 summary: You are advised to stay at home until 10 days after the date of contact. Do you have complaints? Then make sure you are tested.
+title: "What should I do if I get a notification? *"
 lang: en
-showContact: true
 categories:
 - en
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
+featuredHome: true
+featuredHomeIndex: 3
+featuredHomeIcon: mobile-check
+featuredHomeText: If you get a notification, you are advised to stay at home and get tested for coronavirus.
 ---
 
 If you get a notification, it means you have been near someone who has tested positive for coronavirus. Don’t panic: this does not mean for sure that you have coronavirus too. It means you have been in a high-risk situation and that you could have been infected with coronavirus. 

@@ -9,10 +9,6 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHome: true
-featuredHomeIndex: 3
-featuredHomeIcon: bell
-featuredHomeText: TBA
 ---
 
 CoronaMelder kan niet de precieze afstand meten tot andere mensen die de app gebruiken. Maar kan wel inschatten of je dichtbij bent of niet.

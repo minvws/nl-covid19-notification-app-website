@@ -1,13 +1,18 @@
 ---
-layout: content-statements
+layout: content
 index: 4
-title: When will I get a notification?
-icon: bell
-summary: If you have been near someone who has tested positive for coronavirus since you were near them, you will get a notification.
+set: 2
+title: "When will I get a notification? *"
 lang: en
 categories:
 - en
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
+featuredHome: true
+featuredHomeIndex: 4
+featuredHomeIcon: bell
+featuredHomeText: If you have been near someone who has tested positive for coronavirus since you were near them, you will get a notification.
 ---
 
 You will get a notification if:

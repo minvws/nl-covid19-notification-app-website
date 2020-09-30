@@ -9,10 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHome: true
-featuredHomeIndex: 5
-featuredHomeIcon: privacy
-featuredHomeText: TBA
+# featuredHome: true
+# featuredHomeIndex: 5
+# featuredHomeIcon: privacy
+# featuredHomeText: TBA
 ---
 
 TBA

@@ -1,13 +1,17 @@
 ---
-layout: content-statements
+layout: content
 index: 4
 title: Wanneer krijg ik een melding?
-icon: bell
-summary: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
 lang: nl
 categories:
 - nl
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
+featuredHome: true
+featuredHomeIndex: 4
+featuredHomeIcon: bell
+featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
 ---
 
 Je krijgt een waarschuwing nadat:

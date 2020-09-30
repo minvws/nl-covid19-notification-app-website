@@ -9,10 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHome: true
-featuredHomeIndex: 1
-featuredHomeIcon: privacy
-featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
+# featuredHome: true
+# featuredHomeIndex: 1
+# featuredHomeIcon: privacy
+# featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
 ---
 
 **Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.

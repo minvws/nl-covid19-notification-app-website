@@ -1,13 +1,14 @@
 ---
-layout: content-statements
+layout: content
 index: 6
-title: Hoe werkt de app
-icon: app-touch
-summary: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
+set: 2
+title: Hoe werkt de app technisch precies?
 lang: nl
 categories:
 - nl
-- statements
+- faq
+showBreadCrumbs: true
+showContact: true
 ---
 
 **De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
@@ -21,8 +22,8 @@ categories:
 </div>
 
 <details>
-   <summary>Wanneer krijg ik een melding?</summary>
-   <div markdown="1">
+<summary>Wanneer krijg ik een melding?</summary>
+<div markdown="1">
 Als je positief getest bent op corona in een testregio, dan kun je dit vrijwillig aangeven in de app, samen met de GGD. Als een GGD-medewerker je belt met de testuitslag, vraagt deze jou dan ook of je anderen wilt waarschuwen via de app. Als je hiervoor kiest, ziet de ontvanger niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
 
 Bekijk hier of je in een gemeente woont van deze testregio's:
