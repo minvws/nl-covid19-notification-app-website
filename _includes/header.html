@@ -14,7 +14,7 @@
     <div class="logobar">
       <div class="logo">
         <a href="{{ langSlug }}">
-          <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
+          <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
         </a>
       </div>
       <a href="{{ langSlug }}/faq" class="header__layout__faq-link">
@@ -24,7 +24,7 @@
     </div>
     <div class="container">
       <div class="header__layout">
-        <img src="{{ relroot }}img/logo-app.svg" class="header__logo-badge" alt=""></img>
+        <img src="{{ site.baseurl }}/img/logo-app.svg" class="header__logo-badge" alt=""></img>
         <div class="header__layout__middle">
           <h1 class="header__text">
             {{ site.data.translations.header-title[page.lang] }}
