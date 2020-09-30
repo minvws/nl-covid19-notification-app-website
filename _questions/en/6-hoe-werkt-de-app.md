@@ -2,7 +2,7 @@
 layout: content
 index: 6
 set: 2
-title: "How does the app work *"
+title: How does the app work 
 summary: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period
 lang: en
 categories:
@@ -11,9 +11,9 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 6
+featuredHomeIndex: 1
 featuredHomeIcon: app-touch
-featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period
+featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
 ---
 
 **The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it..** 

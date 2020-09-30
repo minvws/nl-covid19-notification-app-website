@@ -2,7 +2,7 @@
 layout: content
 index: 5
 set: 2
-title: "What about my privacy? *"
+title: What about my privacy? 
 icon: privacy
 lang: en
 categories:
@@ -16,7 +16,7 @@ featuredHomeIcon: todo
 featuredHomeText: The app does not know your location, name, e-mail address, phone number or other contact details. The app does not need this information in order to work.
 ---
 
-The app exchanges random codes with other phones. These codes do not contain any personal information about you, or any information about your location. The app does not know where you are, or who you are.
+The app exchanges random codes with other phones. These codes do not contain any personal information about you or your location. The app therefore does not know who you are or where you are.
 
-Even if you test positive for coronavirus and you report this in the app, this information can never be linked to your name or contact details. And you are also completely free to choose whether you want to use the app or not.
+Even if you are infected with the corona virus and you report this via the app, this cannot be linked to your name or contact details. Moreover, you use the app completely voluntarily."
 

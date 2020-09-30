@@ -9,7 +9,7 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 4
+featuredHomeIndex: 3
 featuredHomeIcon: bell
 featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
 ---

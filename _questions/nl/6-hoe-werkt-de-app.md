@@ -9,7 +9,7 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 6
+featuredHomeIndex: 1
 featuredHomeIcon: app-touch
 featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 ---

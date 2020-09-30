@@ -11,9 +11,9 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 3
+featuredHomeIndex: 4
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd thuis te blijven en je te laten testen tijdens deze proefperiode in de testregio’s.
+featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
 ---
 
 Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
