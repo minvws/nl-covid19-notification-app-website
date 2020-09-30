@@ -327,17 +327,17 @@ accessibility-in-app-email-subject:
   en: Problem with using the app
   
 information-title:
-  nl: Zo gaan we om met jouw gegevens
-  en: Zo gaan we om met jouw gegevens
+  nl: 'Zo gaan we om met jouw gegevens:'
+  en: 'This is how we handle your data:'
 information-alert:
   nl: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
-  en: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
+  en: Do you test positive on corona? Then you can warn others by sharing your codes.
 information-bluetooth:
   nl: Je Bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
-  en: Je Bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
+  en: Your Bluetooth data is stored on your phone for 14 days. You can always delete them yourself.
 information-naw:
   nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
-  en: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
+  en: Your name, email address and telephone number will not be used or stored.
 information-gps:
   nl: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
-  en: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
+  en: Your GPS or location data will not be used or stored.
