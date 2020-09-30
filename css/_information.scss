@@ -6,8 +6,8 @@
   position: relative;
 
   @media (min-width: 740px) {
-    width: calc(100% - 48px);
-    padding: 3.2em;
+    width: calc(100% - (54px * 2));
+    padding: 50px 80px;
   }
 
   @media (min-width: 960px) {

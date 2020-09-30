@@ -104,7 +104,7 @@ body {
     margin: auto;
 
     @media(min-width: 960px) {
-        padding: 0 0 0 2em;
+
     }
 }
 
@@ -306,11 +306,12 @@ header .watch > a:hover {
     color: #333333; /* RO tekst */;
 
     @media (min-width: 740px) {
-        padding: 2em 2.4em 0 2.4em;
+        padding: 2em 2.4em 0 54px;
     }
 
     @media (min-width: 960px) {
-        max-width: calc(100% - 300px);
+        margin-left: 90px;
+        max-width: 740px;
     }
 }
 

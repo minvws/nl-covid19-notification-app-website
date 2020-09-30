@@ -165,14 +165,15 @@
     }
 
     @media (min-width: 960px) {
-        padding: 0 0 10em 2.6em;
+        padding: 0 0 10em 0;
+        margin-left: 90px;
     }
 }
 
 .header__layout__middle {
     @media (min-width: 960px) {
         position: relative;
-        padding: 20px 0 0 200px;
+        padding: 20px 0 0 180px;
     }
 }
 
