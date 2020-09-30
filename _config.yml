@@ -10,7 +10,7 @@ collections:
 sass:
   load_paths:
     - css
-    - css-arabic
+    - css-rtl
     
 exclude:
   - vendor 

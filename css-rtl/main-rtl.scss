@@ -19,12 +19,12 @@ $color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
 html[dir="rtl"] {
     text-align: right;
 
-    @import "header-ar";
-    @import "language-picker-ar";
-    @import "content-block-ar";
-    @import "footer-ar";
-    @import "statements-ar";
-    @import "faq-ar";
+    @import "header-rtl";
+    @import "language-picker-rtl";
+    @import "content-block-rtl";
+    @import "footer-rtl";
+    @import "statements-rtl";
+    @import "faq-rtl";
 
     .container {
         @media(min-width: 960px) {
