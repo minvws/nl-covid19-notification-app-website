@@ -2,7 +2,8 @@
 layout: content
 index: 5
 set: 2
-title: What about my privacy? 
+title: What about my privacy?
+summary: The app works without your location, name, email address, phone number, or other contact details.
 icon: privacy
 lang: en
 categories:
@@ -13,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: todo
-featuredHomeText: The app does not know your location, name, e-mail address, phone number or other contact details. The app does not need this information in order to work.
+featuredHomeText: The app works without your location, name, email address, phone number, or other contact details.
 ---
 
 The app exchanges random codes with other phones. These codes do not contain any personal information about you or your location. The app therefore does not know who you are or where you are.

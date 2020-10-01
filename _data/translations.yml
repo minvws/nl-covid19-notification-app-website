@@ -5,8 +5,8 @@ head-social-og-site_name:
   nl: CoronaMelder
   en: CoronaMelder
 head-social-og-title:
-  nl: Voorkom verspreiding, download de CoronaMelder
-  en: CoronaMelder is being tested in the field
+  nl: Voorkom verspreiding, download CoronaMelder
+  en: CoronaMelder is being&br; tested in the field
 head-social-og-description:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions.
@@ -19,13 +19,13 @@ head-social-og-image-alt:
   en: Impression of website on which more information can be found
 
 page-title:
-  nl: Voorkom verspreiding, download de CoronaMelder
+  nl: Voorkom verspreiding, download CoronaMelder
   en: CoronaMelder is being tested in the field
 header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: Voorkom verspreiding, download de CoronaMelder
+  nl: Voorkom verspreiding, download CoronaMelder
   en: CoronaMelder is being tested in the field
 header-subtitle:
   nl: 
@@ -167,7 +167,7 @@ info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions.
 info-lead-title:
-  nl: Download de CoronaMelder app
+  nl: Download de CoronaMelder-app
   en: Download the CoronaMelder app
 info-app-store-url:
   nl: https://apps.apple.com/nl/app/id1517652429
@@ -333,7 +333,7 @@ information-alert:
   nl: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
   en: Do you test positive on corona? Then you can warn others by sharing your codes.
 information-bluetooth:
-  nl: Je Bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
+  nl: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
   en: Your Bluetooth data is stored on your phone for 14 days. You can always delete them yourself.
 information-naw:
   nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.

@@ -12,7 +12,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: privacy
-featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
+featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
 ---
 
 De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
