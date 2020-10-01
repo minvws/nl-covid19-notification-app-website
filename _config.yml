@@ -30,4 +30,9 @@ exclude:
 
 plugins:
   - "jekyll-github-metadata"
+  - "jekyll-sitemap"
+  # - "jekyll-seo-tag"
+
 incremental: true
+
+url: "https://www.coronamelder.nl"
