@@ -2,7 +2,7 @@
 layout: content
 index: 6
 set: 2
-title: How does the app work 
+title: How does the app work? 
 summary: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period
 lang: en
 categories:
