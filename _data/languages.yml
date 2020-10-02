@@ -5,3 +5,19 @@ nl:
   label: Nederlands
 en:
   label: English
+ar:
+  label: العربية
+bg: 
+  label: български език
+de: 
+  label: Deutsch
+fr: 
+  label: Français
+sp:
+  label: Español
+pl:
+  label: Polski
+ro:
+  label: Română
+tu:
+  label: Türkçe
