@@ -1,0 +1,38 @@
+
+2020-07-08-video-campaign:
+  mp4-src:
+    default: media/2020-07-08-video-campaign/video.mp4
+  mp3-voiceover-src: 
+    default: media/2020-07-08-video-campaign/audio.mp3
+  video-preview-image:
+    default: media/2020-07-08-video-campaign/video-preview-image.png
+  subtitles:
+    - 
+      lang: nl
+      src: media/2020-07-08-video-campaign/ondertiteling-nl.srt
+  transcript_md:
+    nl: |
+      (Een animatie. Voice-over:)
+
+      STILTE
+
+      VOICE-OVER: Met de notificatie-app help je de verspreiding van het coronavirus in Nederland te stoppen, veilig en anoniem, voor jezelf en anderen.
+      Elke vijftien minuten maakt de app een willekeurige code.
+      Je kunt het vergelijken met het gooien van een dobbelsteen maar dan met miljoenen zijden.
+      Als je iemand anders met de app ontmoet wisselen jullie telefoons via bluetooth deze willekeurige codes uit.
+      De codes vertellen jullie telefoons alleen dat deze twee mensen elkaar hebben ontmoet hoelang dat duurde en hoe groot de afstand ongeveer was.
+      De app weet dus niet wie jullie zijn en waar jullie waren.
+      Codes worden slechts veertien dagen op je telefoon bewaard.
+      Als iemand positief is getest op corona door de GGD kan deze persoon dit aangeven in de app.
+      Dit is vrijwillig.
+      De app stuurt daarna alle gemaakte codes van de afgelopen veertien dagen naar een server.
+      Jouw app kijkt een paar keer per dag naar de codes op deze server en vergelijkt ze met de codes die je telefoon ontvangen heeft van anderen.
+      Herkent je app de codes, dan ben je in de afgelopen veertien dagen in de buurt geweest van iemand met het virus.
+      Je krijgt meteen een melding waarin staat op welke dag dat was.
+      Je weet niet wie de persoon is en waar jullie elkaar hebben ontmoet.
+      Verder legt de app je uit welke stappen je het beste kunt nemen zoals het uit voorzorg thuisblijven om anderen niet te besmetten of het aanvragen van een coronatest.
+      Zo krijgen we samen sneller corona onder controle.
+
+      (Het Nederlandse wapenschild met daarnaast: Rijksoverheid.)
+    en: |
+      TBD
