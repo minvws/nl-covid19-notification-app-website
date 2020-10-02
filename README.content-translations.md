@@ -1,27 +1,6 @@
 Content & Translations
 ---------------------
 
-## How to add a statement
-
-To add a feature, create a Markdown file in `_statement` with the following template:
-```md
----
-index: 7
-title: Is this statement true?
-icon: thumbs-ub
-summary: Short summary
-timeline:
-  completed:
-    - Something that is completed
-    - More stuff already done
-  working-on:
-    - Still working on X
-    - Also need to check Y
----
-There is optional Markdown content goes here, this can contain <code>HTML</code>.
-```
-For the `icon` field the values `book`, `lock`, `privacy` and `thumbs-up` can be used for now.
-
 ## How to add a question
 
 To add a feature, create a Markdown file in `_questions` with the following template:

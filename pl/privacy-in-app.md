@@ -1,6 +1,6 @@
 ---
 layout: in-app-content
-lang: en
+lang: pl
 title: Privacy in app
 ---
 

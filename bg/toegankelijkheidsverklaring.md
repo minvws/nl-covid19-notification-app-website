@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: bg
 showBreadCrumbs: true
 title: Accessibility
 ---
