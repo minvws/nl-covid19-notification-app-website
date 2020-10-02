@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: es
 showBreadCrumbs: true
 title: Contact
 ---

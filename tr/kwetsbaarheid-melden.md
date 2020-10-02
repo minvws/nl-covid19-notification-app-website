@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: tr
 showBreadCrumbs: true
 title: Reporting a vulnerability
 ---

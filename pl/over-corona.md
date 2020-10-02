@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: pl
 showBreadCrumbs: true
 title: About Corona
 ---

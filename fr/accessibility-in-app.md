@@ -1,6 +1,6 @@
 ---
 layout: in-app-content
-lang: en
+lang: fr
 title: Accessibility
 ---
 

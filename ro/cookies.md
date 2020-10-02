@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: ro
 showBreadCrumbs: true
 title: Cookies
 ---
