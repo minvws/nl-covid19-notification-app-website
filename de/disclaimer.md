@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: de
 showBreadCrumbs: true
 ---
 
