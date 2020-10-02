@@ -1,0 +1,226 @@
+.header {
+  position: relative;
+  background: linear-gradient(180deg, #EFF7F9 0%, #EFF7F9 100%);
+  background-size: 120px;
+  background-position: right 20px top 80px;
+  min-height: 300px;
+  @media(min-width: 960px) {
+    background: linear-gradient(180deg, #EFF7F9 0%, #EFF7F9 100%);
+  }
+
+  &::before {
+    content: '';
+    background: transparent url(../img/background-left.svg?v=1) no-repeat;
+    background-size: 100%;
+    background-position: center 23px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 200px;
+    height: 218px;
+
+    @media(min-width: 680px) {
+      width: 460px;
+      height: 344px;
+    }
+
+    @media(min-width: 960px) {
+      left: calc((1300px / -2) + calc(100% / 2));
+      width: 600px;
+      height: 366px;
+    }
+  }
+
+  &::after {
+    content: '';
+    background: transparent url(../img/background-right.svg?v=1) no-repeat;
+    background-size: 100%;
+    background-position: center 23px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 120px;
+    height: 200px;
+
+    @media(min-width: 680px) {
+      width: 200px;
+      height: 236px;
+    }
+
+    @media(min-width: 960px) {
+      right: calc((1100px / -2) + calc(100% / 2));
+      width: 300px;
+      height: 255px;
+    }
+      
+  }
+}
+
+.browser-ie-11 .header{
+  @media(min-width: 960px) {
+    &::before {
+      width: 1480px;
+      height: 460px;
+      left: 0; 
+      right: 0;
+      margin-left: auto; 
+      margin-right: auto; 
+      background-image: url('../img/background-full.svg');
+    }
+
+    &::after {
+      content: none;
+    }
+  }
+}
+
+
+.header--slim {
+    min-height: 180px;
+    padding: 0 0 50px 0;
+    color: #ffffff;
+    background: linear-gradient(0deg, #C9005D 38%, #315BBC 130%);
+
+    &:before {
+      content: none;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        bottom: 0;
+        z-index: 0;
+        background-image: url('../img/logo-badge.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center 23px;
+        width: 80px;
+
+        .browser-ie-11 & {
+            right: 166px;
+        }
+    }
+
+    @media(min-width: 740px) {
+        min-height: 220px;
+    }
+
+    @media(min-width: 960px) {
+        background: linear-gradient(0deg, #C9005D 38%, #315BBC 130%);
+        &:before {
+            content: none;
+            background-image: none;
+        }
+        &:after {
+            /** Perfect alignment: width: of this element, width of the element above */
+            width: 80px;
+            right: calc((980px / -2) + calc(100% / 2));
+        }
+    }
+}
+
+.header--statement {
+    min-height: 160px;
+}
+
+.header__title {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 30px;
+
+    @media (min-width: 740px) {
+        font-size: 40px;
+        padding-left: 55px;
+    }
+
+    @media (min-width: 960px) {
+        padding-left: 155px;
+    }
+}
+
+.header__center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media (min-width: 740px) {
+        padding: 0 40px;
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 40px;
+    }
+}
+
+.header__layout {
+    color: $color-RO_darkblue;
+    // See .content with negative margin-top
+    padding: 0 0 10em 1.38em;
+    position: relative;
+
+    @media (min-width: 680px) {
+        padding: 0 0 15em 4.0em;
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 0 10em 0;
+        margin-left: 90px;
+    }
+}
+
+.header__layout__middle {
+    @media (min-width: 960px) {
+        position: relative;
+        padding: 20px 0 0 180px;
+    }
+}
+
+.header__text {
+    position: relative;
+    margin-bottom: 1.5em;
+    font-size: 28px;
+    line-height: 1.16em;
+    max-width: 350px;
+
+    @media (min-width: 680px) {
+        max-width: 700px;
+        padding-right: 0.5em;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    @media (min-width: 960px) {
+        width: 100%;
+    }
+}
+
+.header__logo-badge {
+    width: 100px;
+    margin: 0 0 1.5em;
+    
+    @media (min-width: 680px) {
+        margin: 1.5em 0;
+    }
+
+    @media (min-width: 960px) {
+        width: 132px;
+        position: relative;
+        float: left;
+    }
+}
+
+.header__layout__faq-link {
+  position: absolute;
+  top: 38px;
+  right: 230px;
+  min-width: 118px;
+  font-weight: 800;
+  font-size: 20px;
+  display: none;
+
+  @media (min-width: 960px) {
+    display: inline-block;
+  }
+}

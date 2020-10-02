@@ -2,13 +2,17 @@
 layout: content
 index: 2
 set: 1
-title: How will the CoronaMelder app help to stop the spread of coronavirus?
+title: How will the app help to stop coronavirus?
 lang: en
 categories:
 - en
 - faq
 showBreadCrumbs: true
 showContact: true
+featuredHome: true
+featuredHomeIndex: 2
+featuredHomeIcon: heart
+featuredHomeText: With CoronaMelder, you will know sooner whether you have a higher chance of contamination.
 ---
 
 Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?

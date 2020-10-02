@@ -9,6 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+featuredHome: true
+featuredHomeIndex: 2
+featuredHomeIcon: heart
+featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
 ---
 
 Ben je in de buurt geweest van iemand die corona blijkt te hebben? En laat diegene ook in de app weten dat hij of zij besmet is?

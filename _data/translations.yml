@@ -5,7 +5,7 @@ head-social-og-site_name:
   nl: CoronaMelder
   en: CoronaMelder
 head-social-og-title:
-  nl: CoronaMelder wordt getest in de praktijk
+  nl: Voorkom verspreiding, download CoronaMelder
   en: CoronaMelder is being tested in the field
 head-social-og-description:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
@@ -19,17 +19,14 @@ head-social-og-image-alt:
   en: Impression of website on which more information can be found
 
 page-title:
-  nl: CoronaMelder wordt getest in de praktijk
+  nl: Voorkom verspreiding, download CoronaMelder
   en: CoronaMelder is being tested in the field
 header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: CoronaMelder wordt getest in de praktijk
-  en: CoronaMelder is being tested in the field
-header-subtitle:
-  nl: 
-  en:
+  nl: Voorkom verspreiding, download CoronaMelder
+  en: "CoronaMelder is being<br /> tested in the field"
 header-appstore:
   nl: Download on the App Store
   en: Download on the App Store
@@ -37,8 +34,8 @@ header-googleplaystore:
   nl: Get it on Google Play
   en: Get it on Google Play
 header-language-picker-label:
-  nl: Huidige taal
-  en: Current language
+  nl: Taal
+  en: Language
 header-language-picker-switch-lang:
   nl: Wissel van taal
   en: Switch language
@@ -52,8 +49,8 @@ development:
   nl: 
   en: 
 govlogo:
-  nl: Logo Rijksoverheid home
-  en: Logo Government home
+  nl: Home
+  en: Home
 phone-action:
   nl: <a href="tel:0800-1280">0800-1280</a>
   en: <a href="tel:0800-1280">0800-1280</a>
@@ -135,21 +132,6 @@ faq-category-testregions:
 has-been-answered:
   nl: Is je vraag beantwoord?
   en: Has your question been answered?
-feedback-answer-yes:
-  nl: Wel beantwoord
-  en: Answered
-feedback-answer-no:
-  nl: Niet beantwoord
-  en: Not answered
-feedback-answer-submitted-title:
-  nl: Dank je wel voor je reactie!
-  en: Thank you for your reaction
-feedback-answer-submitted-yes_md:
-  nl: Heb je andere vragen over de app? Stel die via [de contactpagina van Rijksoverheid.nl](https://www.rijksoverheid.nl/contact).
-  en: Do you have other questions about the app? Ask them via [the contact page of Government.nl](https://www.government.nl/contact).
-feedback-answer-submitted-no_md:
-  nl: We verzamelen alle reacties om de informatie op deze website te verbeteren. 
-  en: We use your feedback to improve the information on this website.
 question-not-listed:
   nl: Staat je vraag er niet bij?
   en: Is your question not listed?
@@ -174,12 +156,15 @@ layout-all-faq:
 layout-template-close:
   nl: Sluiten
   en: Close
+layout-faq-btn:
+  nl: Bekijk alle veelgestelde vragen
+  en: All frequently asked questions
 
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Die wordt nu al getest in een aantal regio’s.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions.
 info-lead-title:
-  nl: Download de CoronaMelder app
+  nl: Download de CoronaMelder-app
   en: Download the CoronaMelder app
 info-app-store-url:
   nl: https://apps.apple.com/nl/app/id1517652429
@@ -199,100 +184,6 @@ info-app-store-alt:
 info-google-play-alt:
   nl: Download in de Google play store
   en: Download from the Google play store
-
-info-slider-title:
-  nl: Dit is wat je kunt verwachten van de app
-  en: This is what you can expect from the app
-info-slider-btn-prev-slide:
-  nl: Vorige slide van slider
-  en: Previous slide of slider
-info-slider-btn-next-slide:
-  nl: Volgende slide van slider
-  en: Next slide of slider
-info-slider-first-slide: 
-  nl: Eerste slide van slider
-  en: First slide of slider
-info-slider-last-slide:
-  nl: Laatste slide van slider
-  en: Last slide of slider
-info-slider-goto-slide:
-  nl: Ga naar slide 
-  en: Go to slide 
-info-slides:
-  nl:
-    -
-      image: graphic-app-logo
-      title: CoronaMelder
-      alt: 
-    -
-      image: graphic-outside-bicycle
-      title: Bescherm je vrienden, familie en de rest van Nederland
-      content: |
-        De app waarschuwt nadat je in de buurt bent geweest van iemand met corona. Zo kun jij voorkomen dat je de mensen in je omgeving besmet.
-      alt: 
-    -
-      image: graphic-app-notification
-      title: Je krijgt een melding <u>nadat</u> je extra kans op besmetting hebt gelopen.
-      content: |
-       Dit gebeurt als je minstens 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
-      alt: 
-    -
-      image: graphic-app-bluetooth
-      title: CoronaMelder gebruikt Bluetooth,<br> <u>geen</u> locatiegegevens
-      content: |
-        De app ziet via Bluetooth of je dicht bij iemand was.
-        Hoe dichterbij, hoe sterker het Bluetooth-signaal.
-        De app weet niet waar je was en wie je bent.
-      alt: 
-    -
-      image: graphic-bicycle
-      title: <span class="md-highlight">Voorbeeld</span><br> Fietste iemand voorbij? Dan krijg je later geen melding
-      content: |
-        Het Bluetooth-signaal was sterk genoeg omdat jullie dicht bij elkaar waren. Dit duurde alleen zo kort dat de kans op besmetting heel laag is.
-      alt: 
-    -
-      image: graphic-train
-      title: <span class="md-highlight">Voorbeeld</span><br> Zat je dicht bij iemand in de trein? Dan kun je later wel een melding krijgen
-      content: |
-       Het bluetooth-signaal was sterk genoeg en jullie waren langere tijd dicht bij elkaar in de buurt.
-      alt: 
-  en:
-    -
-      image: graphic-app-logo
-      title: CoronaMelder
-      alt: 
-    -
-      image: graphic-outside-bicycle
-      title: Help protect your friends, your family and the whole community
-      content: |
-        The app will warn you if you have been near someone with coronavirus. This means you can stop yourself from infecting the people around you.
-      alt: 
-    -
-      image: graphic-app-notification
-      title: You will get a notification if there is a risk that you have been exposed to the virus
-      content: |
-        If you have been near someone who later tests positive for coronavirus, and you were near them for at least 15 minutes, you will get a notification. But only if that person is also using the app.
-      alt:
-    -
-      image: graphic-app-bluetooth
-      title: The CoronaMelder app uses Bluetooth, <br> <u>not</u> location data
-      content: |
-        Using Bluetooth, the app sees if you've been near someone. 
-        The closer you've been, the stronger the Bluetooth signal. 
-        The app doesn't know who you are or where you've been.
-      alt: 
-    -
-      image: graphic-bicycle
-      title: <span class="md-highlight">Example</span><br> Did someone cycle past you? Then you will not get a notification later.
-      content: |
-        The Bluetooth signal was strong because you were near each other. But only for a very short time. This means your risk of infection is very low.
-      alt: 
-    -
-      image: graphic-train
-      title: <span class="md-highlight">Example</span><br> Did you sit near someone on the train? You could get a notification later.
-      content: |
-        The Bluetooth signal was strong enough and you were near each other for a longer period of time.
-      alt: 
 
 # Footer translations
 
@@ -431,3 +322,19 @@ error-back-to-faq:
 accessibility-in-app-email-subject:
   nl: Probleem bij het gebruik van de app
   en: Problem with using the app
+  
+information-title:
+  nl: 'Zo gaan we om met jouw gegevens:'
+  en: 'This is how we handle your data:'
+information-alert:
+  nl: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
+  en: Do you test positive on corona? Then you can warn others by sharing your codes.
+information-bluetooth:
+  nl: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
+  en: Your Bluetooth data is stored on your phone for 14 days. You can always delete them yourself.
+information-naw:
+  nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
+  en: Your name, email address and telephone number will not be used or stored.
+information-gps:
+  nl: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
+  en: Your GPS or location data will not be used or stored.
