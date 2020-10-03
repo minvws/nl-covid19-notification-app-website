@@ -1,9 +1,25 @@
 head-app-name:
   nl: CoronaMelder
   en: CoronaMelder
+  ar: CoronaMelder
+  bg: CoronaMelder
+  de: CoronaMelder
+  fr: CoronaMelder
+  sp: CoronaMelder
+  pl: CoronaMelder
+  ro: CoronaMelder
+  tu: CoronaMelder
 head-social-og-site_name:
   nl: CoronaMelder
   en: CoronaMelder
+  ar: CoronaMelder
+  bg: CoronaMelder
+  de: CoronaMelder
+  fr: CoronaMelder
+  sp: CoronaMelder
+  pl: CoronaMelder
+  ro: CoronaMelder
+  tu: CoronaMelder
 head-social-og-title:
   nl: CoronaMelder vanaf 10 oktober te gebruiken in heel Nederland
   en: CoronaMelder can be used throughout the Netherlands from October 10th
@@ -12,11 +28,27 @@ head-social-og-description:
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions and can be used throughout the Netherlands from October 10th.
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
-  nl: head-social-og-image--nl.png?v=3
-  en: head-social-og-image--nl.png?v=3
+  nl: head-social-og-image--nl.png?v=2
+  en: head-social-og-image--nl.png?v=2
+  ar: head-social-og-image--nl.png?v=2
+  bg: head-social-og-image--nl.png?v=2
+  de: head-social-og-image--nl.png?v=2
+  fr: head-social-og-image--nl.png?v=2
+  sp: head-social-og-image--nl.png?v=2
+  pl: head-social-og-image--nl.png?v=2
+  ro: head-social-og-image--nl.png?v=2
+  tu: head-social-og-image--nl.png?v=2
 head-social-og-image-alt:
   nl: Impressie van website waarop toelichting te vinden is
   en: Impression of website on which more information can be found
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 
 page-title:
   nl: CoronaMelder vanaf 10 oktober te gebruiken in heel Nederland
@@ -24,24 +56,72 @@ page-title:
 header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 header-title:
   nl: "CoronaMelder vanaf<br /> 10 oktober te gebruiken<br /> in heel Nederland"
   en: "CoronaMelder can be<br /> used throughout the Netherlands<br /> from October 10th"
 header-appstore:
   nl: Download on the App Store
   en: Download on the App Store
+  ar: Download on the App Store
+  bg: Download on the App Store
+  de: Download on the App Store
+  fr: Download on the App Store
+  sp: Download on the App Store
+  pl: Download on the App Store
+  ro: Download on the App Store
+  tu: Download on the App Store
 header-googleplaystore:
   nl: Get it on Google Play
   en: Get it on Google Play
+  ar: Get it on Google Play
+  bg: Get it on Google Play
+  de: Get it on Google Play
+  fr: Get it on Google Play
+  sp: Get it on Google Play
+  pl: Get it on Google Play
+  ro: Get it on Google Play
+  tu: Get it on Google Play
 header-language-picker-label:
   nl: Taal
   en: Language
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 header-language-picker-switch-lang:
   nl: Wissel van taal
   en: Switch language
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 header-language-picker-current-lang:
   nl: huidige taal
   en: current language
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 # note:
 #   nl: "Let op:"
 #   en: "Please note:"
@@ -51,76 +131,218 @@ header-language-picker-current-lang:
 govlogo:
   nl: Home
   en: Home
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 phone-action:
   nl: <a href="tel:0800-1280">0800-1280</a>
   en: <a href="tel:0800-1280">0800-1280</a>
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 minvws:
   nl: Ministerie van Volksgezondheid,<br>Welzijn en Sport
   en: Ministry of Health,<br>Welfare and Sport
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 watch:
   nl: Bekijk de film
   en: Watch the movie
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 app-preview:
   nl: App preview
   en: App preview
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 x-of-y:
   nl: van
   en: of
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 readmore:
   nl: Meer uitleg
   en: More information
+  ar: مزيد من التوضيح
+  bg: Допълнителна информация
+  de: Nähere Erläuterung
+  fr: Plus d’explications 
+  sp: Más información
+  pl: Więcej informacji
+  ro: Mai multe explicații
+  tu: Daha fazla açıklama
 readmore-about_screen-reader:
   nl: over
   en: about
-respond:
-  nl: Reageren op dit onderwerp?
-  en: Respond to this subject?
-want-to-known-more:
-  nl: Wil je meer weten?
-  en: Want to know more?
-see-the-faq:
-  nl: Bekijk de <a href="#faq">veelgestelde vragen</a>
-  en: See the <a href="#faq">frequently asked questions</a>
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 faq:
   nl: Veelgestelde vragen
   en: Frequently asked questions
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 faq-category-howtheapphelps:
   nl: Hoe de app helpt tegen corona
   en: How the app helps to stop the spread of coronavirus
+  ar: كيف يساعد التطبيق ضد كورونا  
+  bg: Как приложението помага в борбата с коронавируса?
+  de: Wie hilft die App im Kampf gegen Corona?
+  fr: En quoi l’application contribue-t-elle à lutter contre le coronavirus ?
+  sp: Cómo ayuda la app contra el coronavirus
+  pl: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
+  ro: Cum ajută aplicația împotriva coronavirus-ului?
+  tu: Uygulama Koronaya karşı nasıl yardımcı olur?
 faq-category-howtheappworks:
   nl: Werking van de app
   en: How the app works
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 faq-category-testregions:
   nl: Testregio's
   en: Trial regions
 layout-template-home:
   nl: Home
   en: Home
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 layout-template-faq:
   nl: Terug naar veelgestelde vragen
   en: Back to frequently asked questions
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 layout-faq-btn:
   nl: Bekijk alle veelgestelde vragen
   en: All frequently asked questions
-
+  ar: جميع الأسئلة المتكررة ( الانجليزية) 
+  bg: Всички често задавани въпроси (на английски език) 
+  de: Lesen Sie die häufig gestellten Fragen (Englisch)
+  fr: Consultez les questions fréquemment posées (Anglais)
+  sp: Preguntas frecuentes  (English)
+  pl: Najczęściej zadawane pytania (j. angielski)
+  ro: Toate întrebările frecvente (engleză)
+  tu: Bütün sık sorulan sorular
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Deze <a href="https://coronamelder.nl/nl/faq/9-hoe-weet-ik-of-ik-in-een-testregio-woon/">wordt momenteel getest in een aantal regio’s</a> en is vanaf 10 oktober te gebruiken in heel Nederland. Je kunt CoronaMelder nu alvast installeren op je telefoon.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is <a href="https://coronamelder.nl/en/faq/9-hoe-weet-ik-of-ik-in-een-testregio-woon/">currently being trialled in several regions</a> and can be used throughout the Netherlands from October 10th. You can already install CoronaMelder on your phone.
 info-lead-title:
   nl: Download de CoronaMelder-app
   en: Download the CoronaMelder app
+  ar: قم بتنزيل تطبيق CoronaMelder
+  bg: Изтегли приложението CoronaMelder.
+  de: Laden Sie die CoronaMelder-App herunter
+  fr: Téléchargez l’appli CoronaMelder
+  sp: Descárgate la app CoronaMelder
+  pl: Pobierz aplikację CoronaMelder
+  ro: Descărcați aplicația CoronaMelder
+  tu: CoronaMelder uygulamasını indirin
 info-app-store-url:
   nl: https://apps.apple.com/nl/app/id1517652429
   en: https://apps.apple.com/gb/app/id1517652429
+  ar: https://apps.apple.com/gb/app/id1517652429
+  bg: https://apps.apple.com/gb/app/id1517652429 
+  de: https://apps.apple.com/gb/app/id1517652429 
+  fr: https://apps.apple.com/gb/app/id1517652429
+  sp: https://apps.apple.com/gb/app/id1517652429
+  pl: https://apps.apple.com/gb/app/id1517652429
+  ro: https://apps.apple.com/gb/app/id1517652429
+  tu: https://apps.apple.com/gb/app/id1517652429
 info-google-play-url:
   nl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   en: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  ar: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  bg: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
+  de: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
+  fr: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
+  sp: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  pl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  ro: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  tu: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
 info-app-store-img:
   nl: app-store-badge-nl.svg
   en: app-store-badge-eng.svg
+  ar: app-store-badge-eng.svg
+  bg: app-store-badge-eng.svg
+  de: app-store-badge-eng.svg 
+  fr: app-store-badge-eng.svg 
+  sp: app-store-badge-eng.svg
+  pl: app-store-badge-eng.svg
+  ro: app-store-badge-eng.svg
+  tu: app-store-badge-eng.svg
 info-google-play-img:
   nl: google-play-badge-nl.svg
   en: google-play-badge-eng.svg
+  ar: google-play-badge-eng.svg
+  bg: google-play-badge-eng.svg 
+  de: google-play-badge-eng.svg 
+  fr: google-play-badge-eng.svg
+  sp: google-play-badge-eng.svg
+  pl: google-play-badge-eng.svg
+  ro: google-play-badge-eng.svg
+  tu: google-play-badge-eng.svg
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
@@ -143,22 +365,70 @@ footer-samen-logo:
 footer-phone:
   nl: Heb je vragen over de CoronaMelder?
   en: Do you have any questions about the CoronaMelder app?
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-phone-action:
   nl: Bel <a href="tel:0800-1280">0800-1280</a> (gratis)
   en: Call <a href="tel:0800-1280">0800-1280</a> (free)
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-phone-opening:
   nl: Openingstijden
   en: Opening hours
+  ar: ساعات العمل
+  bg: Работно време
+  de: Öffnungszeiten
+  fr: Horaires d’ouverture
+  sp: Horarios
+  pl: Godziny pracy
+  ro: Orele de lucru
+  tu: Açılış saatleri
 footer-phone-opening-hours:
   nl: Maandag t/m zondag 08.00 – 20.00 uur  
   en: Monday till Sunday 08.00 a.m. - 08.00 p.m.
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-phone-mail:
   nl: 'Of stuur een e-mail naar: <a href="mailto:helpdesk@coronamelder.nl">helpdesk@coronamelder.nl</a>'
   en: 'Or send an e-mail to: <a href="mailto:helpdesk@coronamelder.nl">helpdesk@coronamelder.nl</a>'
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 
 footer-colophon: 
   nl: Colofon
   en: Colophon
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-logos-info_md:
   nl: De CoronaMelder-app is ontwikkeld door het Ministerie van Volksgezondheid, Welzijn en Sport in samenwerking met het <a href="https://www.rivm.nl/" target="_blank" rel="noopener noreferrer"><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> en de landelijke <a href="https://www.ggd.nl/" target="_blank" rel="noopener noreferrer"><abbr title="Gemeentelijke gezondheidsdienst">GGD'en</abbr></a>. De app had niet tot stand kunnen komen zonder de hulp van tientallen experts, ervaringsdeskundigen en een grote open source community van burgers die heeft meegekeken en getest tijdens de ontwikkeling. Er is alles aan gedaan om te zorgen voor een privacyvriendelijke, veilige, toegankelijke en gebruiksvriendelijke app die helpt corona onder controle te krijgen en houden.
   en: The CoronaMelder app is being developed on behalf of the Ministry of Health, Welfare and Sport. This is being done in collaboration with the <a href="https://www.rivm.nl/en" target="_blank" rel="noopener noreferrer"><abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr></a> and the <a href="https://www.ggd.nl/" target="_blank"><abbr title="Gemeentelijke gezondheidsdienst">GGD</abbr></a>.
@@ -166,121 +436,401 @@ footer-logos-info_md:
 footer-more-info-title:
   nl: Meer informatie?
   en: More information? 
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-more-info-url:
   nl: https://rijksoverheid.nl
   en: https://www.government.nl/topics/coronavirus-covid-19
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-more-info:
   nl: Kijk op rijksoverheid.nl
   en: Go to government.nl
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-title:
   nl: Over CoronaMelder
   en: About CoronaMelder
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-contact-title:
   nl: Contact
   en: Contact
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 
 footer-logos-minvws-url: https://minvws.nl/
 footer-logos-minvws-img-alt: 
   nl: Logo Het ministerie van Volksgezondheid, Welzijn en Sport
   en: Logo of the Ministry of Health, Welfare and Sport
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-logos-rivm-url:
   nl: https://www.rivm.nl/
   en: https://www.rivm.nl/en
 footer-logos-rivm-img-alt: 
   nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
   en: Logo of the National Institute for Public Health and the Environment
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-logos-ggd-url: https://www.ggd.nl/
 footer-logos-ggd-img-alt: 
   nl: Logo GGD Nederland
   en: Logo of the Municipal Health Service (GGD)
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-privacy-url: privacy
 footer-misc-privacy:
   nl: Privacy
   en: Privacy
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-disclaimer-url: disclaimer
 footer-misc-disclaimer:
   nl: Disclaimer
   en: Disclaimer
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-report-vulnerability-url: 
   nl: kwetsbaarheid-melden
   en: kwetsbaarheid-melden
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-report-vulnerability:
   nl: Kwetsbaarheid melden
   en: Report vulnerability
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-contact-url: 
   nl: contact
   en: contact
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-contact:
   nl: Contact
   en: Contact
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-cookies-url: cookies
 footer-misc-cookies:
   nl: Cookies
   en: Cookies
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-colofon-url: 
   nl: colofon
   en: colofon
+  ar: colofon
+  bg: colofon
+  de: colofon
+  fr: colofon
+  sp: colofon
+  pl: colofon
+  ro: colofon
+  tu: colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-pers-url: 
   nl: pers
   en: pers
+  ar: pers
+  bg: pers
+  de: pers
+  fr: pers
+  sp: pers
+  pl: pers
+  ro: pers
+  tu: pers
 footer-misc-pers:
   nl: Pers
   en: Press
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 
 footer-misc-accessibility-statement-url:
   nl: toegankelijkheidsverklaring
   en: toegankelijkheidsverklaring
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
   en: Accessibility statement
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 
 error-title:
-    nl: Deze pagina kan helaas niet worden gevonden
-    en: This page can't be found
+  nl: Deze pagina kan helaas niet worden gevonden
+  en: This page can't be found
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 error-back-to-home-page:
   nl: Ga terug naar de hoofdpagina coronamelder.nl
   en: Go back to homepage coronamelder.nl
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 error-back-to-faq:
   nl: Ga naar veelgestelde vragen
   en: Go to frequently asked questions
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 
 accessibility-in-app-email-subject:
   nl: Probleem bij het gebruik van de app
   en: Problem with using the app
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
   
 information-title:
   nl: 'Zo gaan we om met jouw gegevens:'
   en: 'This is how we handle your data:'
+  ar: ''
+  bg: ''
+  de: ''
+  fr: ''
+  sp: ''
+  pl: ''
+  ro: ''
+  tu: ''
 information-alert:
   nl: Heb je corona? Dan kun je anderen waarschuwen zonder dat zij weten wie je bent.
   en: Do you test positive on corona? Then you can warn others by sharing your codes.
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 information-bluetooth:
   nl: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
   en: Your Bluetooth data is stored on your phone for 14 days. You can always delete them yourself.
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 information-naw:
   nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
   en: Your name, email address and telephone number will not be used or stored.
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 information-gps:
   nl: De app weet nooit waar je bent en gebruikt geen gps- en locatiegegevens
   en: Your GPS or location data will not be used or stored.
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 # Media element (used for videos)
 # See _includes/components/mediaplayer.html
 
 mediaelement-download-title:
   nl: Download deze video
   en: Download this video
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 mediaelement-download-mp4-video:
   nl: MP4-video
   en: MP4-video
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 mediaelement-download-mp3-voiceover:
   nl: MP3-audiospoor (voiceover)
   en: MP3-audio (voiceover)
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 mediaelement-download-subtitle:
   nl: Ondertitelingsbestand
   en: Subtitle
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
 mediaelement-transcript-title:
   nl: Uitgeschreven tekst van de video
   en: Written out text of the video
+  ar:
+  bg:
+  de:
+  fr:
+  sp:
+  pl:
+  ro:
+  tu:
