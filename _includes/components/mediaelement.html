@@ -1,15 +1,16 @@
 <figure class="component-mediaelement">
     <video
-        width="100%" height="340"
+        width="{{ include.width }}" 
+        height="{{ include.height }}"
         controls="controls"
         preload="none"
-        poster="{{relroot}}{{ site.data.videos[include.key].video-preview-image['default'] }}"
-        data-audio-description='[{"src": "{{relroot}}{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}", "type": "audio/mp3"}]'
+        poster="{{ site.url }}/{{ site.data.videos[include.key].video-preview-image['default'] }}"
+        data-audio-description='[{"src": "{{ site.url }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}", "type": "audio/mp3"}]'
         data-audio-description-voiceover="true"
     >
-        <source type="video/mp4" src="{{relroot}}{{ site.data.videos[include.key].mp4-src['default'] }}" />
+        <source type="video/mp4" src="{{ site.url }}/{{ site.data.videos[include.key].mp4-src['default'] }}" />
         {% for subtitle in site.data.videos[include.key].subtitles %}
-            <track src="{{ subtitle.src }}" kind="subtitles" srclang="{{ subtitle.lang }}" label="{{ site.data.languages[subtitle.lang].label }}" {% if subtitle.lang == page.lang %}default{% endif %}>
+            <track src="{{ site.url }}/{{ subtitle.src }}" kind="subtitles" srclang="{{ subtitle.lang }}" label="{{ site.data.languages[subtitle.lang].label }}" {% if subtitle.lang == page.lang %}default{% endif %}>
         {% endfor %}
     </video>
     <details>
@@ -17,18 +18,18 @@
         <div>
             <ul>
                 <li>
-                    <a href="{{relroot}}{{ site.data.videos[include.key].mp4-src['default'] }}" target="_blank">
+                    <a href="{{ site.url }}/{{ site.data.videos[include.key].mp4-src['default'] }}" target="_blank">
                         {{ site.data.translations.mediaelement-download-mp4-video[page.lang] }}
                     </a>
                 </li>
                 <li>
-                    <a href="{{relroot}}{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}" target="_blank">
+                    <a href="{{ site.url }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}" target="_blank">
                         {{ site.data.translations.mediaelement-download-mp3-voiceover[page.lang] }}
                     </a>
                 </li>
                 {% for subtitle in site.data.videos[include.key].subtitles %}
                     <li>
-                        <a href="{{relroot}}{{ subtitle.src }}">
+                        <a href="{{ site.url }}/{{ subtitle.src }}">
                             {{ site.data.translations.mediaelement-download-subtitle[page.lang] }} ({{ site.data.languages[subtitle.lang].label }})
                         </a>
                     </li>

@@ -3,6 +3,7 @@
     padding: 0 10px;
     max-width: 910px;
     border: 1px solid #E6E6E6;
+    align-items: center;
 
     @media (min-width: 740px) {
         margin: 30px auto 42px auto;
@@ -19,16 +20,16 @@
 
 .video__description {
     flex: 1 1 50%;
+    padding: 2em;
 }
 
 .video__description__title {
-    
-}
-
-.video__description__content {
-    
+    color: $color-RO_darkblue;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .video__player {
     flex: 1 1 50%;
+    padding: 2em;
 }
