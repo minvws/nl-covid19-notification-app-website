@@ -28,16 +28,16 @@ head-social-og-description:
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions and can be used throughout the Netherlands from October 10th.
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
-  nl: head-social-og-image--nl.png?v=2
-  en: head-social-og-image--nl.png?v=2
-  ar: head-social-og-image--nl.png?v=2
-  bg: head-social-og-image--nl.png?v=2
-  de: head-social-og-image--nl.png?v=2
-  fr: head-social-og-image--nl.png?v=2
-  sp: head-social-og-image--nl.png?v=2
-  pl: head-social-og-image--nl.png?v=2
-  ro: head-social-og-image--nl.png?v=2
-  tu: head-social-og-image--nl.png?v=2
+  nl: head-social-og-image--nl.png?v=3
+  en: head-social-og-image--nl.png?v=3
+  ar: head-social-og-image--nl.png?v=3
+  bg: head-social-og-image--nl.png?v=3
+  de: head-social-og-image--nl.png?v=3
+  fr: head-social-og-image--nl.png?v=3
+  sp: head-social-og-image--nl.png?v=3
+  pl: head-social-og-image--nl.png?v=3
+  ro: head-social-og-image--nl.png?v=3
+  tu: head-social-og-image--nl.png?v=3
 head-social-og-image-alt:
   nl: Impressie van website waarop toelichting te vinden is
   en: Impression of website on which more information can be found
@@ -288,6 +288,14 @@ layout-faq-btn:
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Deze <a href="https://coronamelder.nl/nl/faq/9-hoe-weet-ik-of-ik-in-een-testregio-woon/">wordt momenteel getest in een aantal regio’s</a> en is vanaf 10 oktober te gebruiken in heel Nederland. Je kunt CoronaMelder nu alvast installeren op je telefoon.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is <a href="https://coronamelder.nl/en/faq/9-hoe-weet-ik-of-ik-in-een-testregio-woon/">currently being trialled in several regions</a> and can be used throughout the Netherlands from October 10th. You can already install CoronaMelder on your phone.
+  # ar: لا يزال فيروس كورونا موجودًا لحد الآن. من المهم إذًا أن تظل يقظًا الآن. لذلك فإن CoronaMelder متاحًا لجميع المتواجدين في هولندا.
+  # bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
+  # de: Das Coronavirus ist immer noch unter uns. Deshalb ist es wichtig, gerade jetzt wachsam zu bleiben. Deshalb ist CoronaMelder nun für die gesamten Niederlande verfügbar.
+  # fr: Le coronavirus est toujours là. Il est donc important justement maintenant de rester vigilant. C’est pour cela que l’application CoronaMelder est disponible pour tous aux Pays-Bas.
+  # sp: El coronavirus sigue entre nosotros. En estos momentos es muy importante no bajar la guardia. Para eso tenemos la app CoronaMelder, disponible ya para todos los Países Bajos.
+  # pl: 
+  # ro: Coronavirus este încă activ. Deci, tocmai acum este important ca să fim alterți. De aceea, CoronaMelder este acum disponibilă pentru întreaga Olandă.
+  # tu: Korona virüsü hala aramızda. Yani şu anda tetikte olmak önemlidir. Bu nedenle CoronaMelder artık tüm Hollanda için kullanılabilir durumda.
 info-lead-title:
   nl: Download de CoronaMelder-app
   en: Download the CoronaMelder app
