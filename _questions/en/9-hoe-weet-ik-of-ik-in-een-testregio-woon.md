@@ -11,9 +11,6 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-
-# {{ page.title }}
-
 Click <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">here</a> to find out if you live in one of the trial regions: 
 
 -	GGD Drenthe
