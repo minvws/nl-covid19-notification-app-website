@@ -25,7 +25,7 @@ header-skip-to-content:
   nl: Ga direct naar inhoud
   en: Skip to content
 header-title:
-  nl: CoronaMelder wordt getest in de praktijk
+  nl: "CoronaMelder wordt<br /> getest in de praktijk"
   en: "CoronaMelder is being<br /> tested in the field"
 header-appstore:
   nl: Download on the App Store
@@ -42,12 +42,12 @@ header-language-picker-switch-lang:
 header-language-picker-current-lang:
   nl: huidige taal
   en: current language
-note:
-  nl: "Let op:"
-  en: "Please note:"
-development:
-  nl: 
-  en: 
+# note:
+#   nl: "Let op:"
+#   en: "Please note:"
+# development:
+#   nl: 
+#   en: 
 govlogo:
   nl: Home
   en: Home
@@ -81,45 +81,9 @@ want-to-known-more:
 see-the-faq:
   nl: Bekijk de <a href="#faq">veelgestelde vragen</a>
   en: See the <a href="#faq">frequently asked questions</a>
-share:
-  nl: "Delen:"
-  en: "Share:"
-share-on-twitter:
-  nl: Deel op Twitter
-  en: Share on Twitter
-share-on-facebook:
-  nl: Deel op Facebook
-  en: Share on Facebook
-share-on-linkedin:
-  nl: Deel op LinkedIn
-  en: Share on LinkedIn
-principles:
-  nl: Bekijk meer uitgangspunten en principes
-  en: View more starting points and principles
-principles-href:
-  nl: "#"
-  en: "#"
-explainer:
-  nl: Zo gaat de app werken
-  en: This is how the app will work
 faq:
   nl: Veelgestelde vragen
   en: Frequently asked questions
-faq-top5:
-  en: General
-  nl: Algemeen
-faq-opensource:
-  nl: Open Source
-  en: Open Source
-faq-app:
-  nl: De app
-  en: The app
-faq-development:
-  nl: Werking van de app
-  en: How the app works
-faq-info-will-be-updated:
-  nl: Er komen meer vragen en antwoorden beschikbaar
-  en: More questions and answers will be available soon
 faq-category-howtheapphelps:
   nl: Hoe de app helpt tegen corona
   en: How the app helps to stop the spread of coronavirus
@@ -129,33 +93,12 @@ faq-category-howtheappworks:
 faq-category-testregions:
   nl: Testregio's
   en: Trial regions
-has-been-answered:
-  nl: Is je vraag beantwoord?
-  en: Has your question been answered?
-question-not-listed:
-  nl: Staat je vraag er niet bij?
-  en: Is your question not listed?
-send-question:
-  nl: Verstuur vraag
-  en: Send question
-description:
-  nl: Website om de status van de CoronaMelder app te volgen
-  en: Website to follow the status of the COVID-19 notification app
-differentlanguage:
-  nl: Lees in andere taal
-  en: Read in different language
 layout-template-home:
   nl: Home
   en: Home
 layout-template-faq:
   nl: Terug naar veelgestelde vragen
   en: Back to frequently asked questions
-layout-all-faq:
-  nl: Alle veelgestelde vragen
-  en: All frequently asked questions
-layout-template-close:
-  nl: Sluiten
-  en: Close
 layout-faq-btn:
   nl: Bekijk alle veelgestelde vragen
   en: All frequently asked questions
@@ -178,34 +121,25 @@ info-app-store-img:
 info-google-play-img:
   nl: google-play-badge-nl.svg
   en: google-play-badge-eng.svg
-info-app-store-alt:
-  nl: Download in de App Store
-  en: Download from the App Store
-info-google-play-alt:
-  nl: Download in de Google play store
-  en: Download from the Google play store
-
-# Footer translations
-
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
   en: Only together we can control corona. Go to the campagne website
-footer-samen-follow:
-  nl: Meer op social media
-  en: More on social media
-footer-follow-facebook-url: TBD
-footer-follow-facebook:
-  nl: Volg ons op Facebook
-  en: Follow us on Facebook
-footer-follow-twitter-url: TBD
-footer-follow-twitter:
-  nl: Volg ons op Twitter
-  en: Follow us on Twitter
-footer-follow-instagram-url: TBD
-footer-follow-instagram:
-  nl: Volg ons op Instagram
-  en: Follow us on Instagram
+# footer-samen-follow:
+#   nl: Meer op social media
+#   en: More on social media
+# footer-follow-facebook-url: TBD
+# footer-follow-facebook:
+#   nl: Volg ons op Facebook
+#   en: Follow us on Facebook
+# footer-follow-twitter-url: TBD
+# footer-follow-twitter:
+#   nl: Volg ons op Twitter
+#   en: Follow us on Twitter
+# footer-follow-instagram-url: TBD
+# footer-follow-instagram:
+#   nl: Volg ons op Instagram
+#   en: Follow us on Instagram
 footer-phone:
   nl: Heb je vragen over de CoronaMelder?
   en: Do you have any questions about the CoronaMelder app?
@@ -279,12 +213,6 @@ footer-misc-contact-url:
 footer-misc-contact:
   nl: Contact
   en: Contact
-footer-misc-about-corona-url: 
-  nl: over-corona
-  en: over-corona
-footer-misc-about-corona:
-  nl: Over Corona
-  en: About coronavirus
 footer-misc-cookies-url: cookies
 footer-misc-cookies:
   nl: Cookies

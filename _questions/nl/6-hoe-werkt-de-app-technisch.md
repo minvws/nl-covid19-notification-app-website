@@ -9,6 +9,7 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+published: false
 ---
 
 **De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
