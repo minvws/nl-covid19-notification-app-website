@@ -255,7 +255,7 @@ information-title:
   nl: 'Zo gaan we om met jouw gegevens:'
   en: 'This is how we handle your data:'
 information-alert:
-  nl: Heb je corona? Dan kun je anderen waarschuwen door jouw codes te delen.
+  nl: Heb je corona? Dan kun je anderen waarschuwen zonder dat zij weten wie je bent.
   en: Do you test positive on corona? Then you can warn others by sharing your codes.
 information-bluetooth:
   nl: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
@@ -264,7 +264,7 @@ information-naw:
   nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
   en: Your name, email address and telephone number will not be used or stored.
 information-gps:
-  nl: Je gps- of locatiegegevens worden niet gebruikt of bewaard.
+  nl: De app weet nooit waar je bent en gebruikt geen gps- en locatiegegevens
   en: Your GPS or location data will not be used or stored.
 # Media element (used for videos)
 # See _includes/components/mediaplayer.html
