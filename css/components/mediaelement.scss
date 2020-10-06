@@ -1,6 +1,9 @@
 .component-mediaelement {
-    background-color: $color-RO_lichtblauw;
-
+    background-color: $color-RO_darkblue;
+    margin-bottom: 3.5em;
+    video {
+      max-width: 100%;
+    }
     details {
         padding-left: 14px;
         padding-right: 14px;
@@ -17,7 +20,7 @@
         ul {
             margin: 14px 0 14px 20px;
         }
-    }
+    }  
 }
 
 .mejs__container {
@@ -32,19 +35,27 @@
 }
 
 .component-mediaelement .mejs__controls {
-    background: #154273;
-    bottom: -40px;
-    display: flex;
-    height: 40px;
-    left: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0 2px;
-    position: absolute;
-    width: 100%;
-    z-index: 3;
+  background: $color-RO_darkblue;
+  bottom: -40px;
+  display: flex;
+  height: 40px;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 2px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
 
-    &:not([style*="display: none"]) {
-        background: #154273;
-    }
+  &:not([style*="display: none"]) {
+    background: $color-RO_darkblue;
+  }
 }
+
+.mejs__time-slider:focus,
+.mejs__volume-slider:focus, 
+.mejs__button > button:focus {
+  outline: 2px solid yellow;
+  outline-offset: 4px;
+}
+

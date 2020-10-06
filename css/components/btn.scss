@@ -1,6 +1,7 @@
 
 .btn {
   padding: 10px 10px;
+  margin-bottom: 5px;
   background: #fff;
   color: $color-RO_darkblue;
   border: 1px solid $color-RO_darkblue;
@@ -41,4 +42,8 @@
   @media (min-width: 740px) {
     max-width: 330px;
   }
+}
+
+.btn--expand {
+  width: 100%;
 }
