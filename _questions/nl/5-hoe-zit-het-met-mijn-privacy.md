@@ -10,7 +10,7 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 5
+featuredHomeIndex: 4
 featuredHomeIcon: privacy
 featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
 ---

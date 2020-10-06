@@ -8,10 +8,6 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-# featuredHome: true
-# featuredHomeIndex: 1
-# featuredHomeIcon: calendar
-# featuredHomeText: Ja, in een aantal regio’s kun je met de app ook anderen waarschuwen als je corona hebt.
 ---
 
 In deze GGD-regio’s wordt de app al in de praktijk getest:

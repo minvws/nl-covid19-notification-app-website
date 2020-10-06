@@ -10,10 +10,6 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-# featuredHome: true
-# featuredHomeIndex: 2
-# featuredHomeIcon: connect
-# featuredHomeText: TBA
 ---
 
 TBA

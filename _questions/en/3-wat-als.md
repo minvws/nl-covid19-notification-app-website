@@ -11,7 +11,7 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 4
+featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
 featuredHomeText: You are advised to stay at home until 10 days after the date of the contact. Do you have complaints? Then make sure you are tested.
 ---

@@ -12,7 +12,7 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 5
+featuredHomeIndex: 4
 featuredHomeIcon: todo
 featuredHomeText: The app works without your location, name, email address, phone number, or other contact details.
 ---

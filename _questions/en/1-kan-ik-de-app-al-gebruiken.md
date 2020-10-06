@@ -8,10 +8,6 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-# featuredHome: true
-# featuredHomeIndex: 1
-# featuredHomeIcon: calendar
-# featuredHomeText: Yes, and in some regions of the Netherlands you can already use the app to warn other people if you test positive for coronavirus.
 ---
 
 Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:

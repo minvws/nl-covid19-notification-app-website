@@ -9,6 +9,11 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+featuredHome: true
+featuredHomeIndex: 5
+featuredHomeIcon: app-touch
+featuredHomeText: The app sends you a notification if you have been around someone for some time, who has been infected with the coronavirus.
+
 ---
 
 **The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it..** 
