@@ -29,7 +29,7 @@ featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt ben
    <div markdown="1">
 Als je positief getest bent op corona in een testregio, dan kun je dit vrijwillig aangeven in de app, samen met de GGD. Als een GGD-medewerker je belt met de testuitslag, vraagt deze jou dan ook of je anderen wilt waarschuwen via de app. Als je hiervoor kiest, ziet de ontvanger niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
 
-Bekijk hier of je in een gemeente woont van deze <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">testregio's</a>:
+Bekijk hier of je in een gemeente woont van deze <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">testregio's</a>:
 - GGD Drenthe
 - GGD Gelderland-Zuid
 - GGD IJsselland
