@@ -39,11 +39,13 @@
           <ul class="faq-layout-contents__list">
           {% for question in questions %}
               {% if question.set == 1 %}
+                {% if question.published != false  %}
                   <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" id="faq-{{ question.index }}">
+                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
                           {{ question.title }}
                       </a>
                   </li>
+                  {% endif %}
                 {% endif %}
           {% endfor %}
           </ul>
@@ -56,11 +58,13 @@
           <ul class="faq-layout-contents__list">
           {% for question in questions %}
               {% if question.set == 2 %}
+              {% if question.published != false  %}
                   <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" id="faq-{{ question.index }}">
+                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
                           {{ question.title }}
                       </a>
                   </li>
+                  {% endif %}
                 {% endif %}
           {% endfor %}
           </ul>
@@ -72,11 +76,13 @@
           <ul class="faq-layout-contents__list">
           {% for question in questions %}
               {% if question.set == 3 %}
+              {% if question.published != false  %}
                   <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" id="faq-{{ question.index }}">
+                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
                           {{ question.title }}
                       </a>
                   </li>
+                  {% endif %}
                 {% endif %}
           {% endfor %}
           </ul>
