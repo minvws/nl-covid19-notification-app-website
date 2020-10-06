@@ -13,7 +13,7 @@ showContact: true
 
 
 
-Bekijk <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">hier</a> of je in een gemeente woont van deze testregio’s:
+Bekijk <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">hier</a> of je in een gemeente woont van deze testregio’s:
 
 - GGD Drenthe
 - GGD Gelderland-Zuid

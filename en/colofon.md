@@ -22,25 +22,25 @@ help discover any potential vulnerabilities.
 ## Contributions
 
 - Aside from the authors of the various open source, 3rd-party libraries, we
-  have received contributions from <a href="https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F" target="_blank" ref="noopener">many others</a>.
+  have received contributions from <a href="https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F" target="_blank" rel="noopener noreferrer">many others</a>.
   
 
 ## Application Licences, Terms & Conditions and Disclaimers
 
-- CoronaMelder <a href="https://github.com/minvws/nl-covid19-notification-app-ios/blob/master/LICENSES.md" target="_blank" ref="noopener">iOS Application's open source licence</a>
-  and the Open Source <a href="https://github.com/minvws/nl-covid19-notification-app-ios/tree/master/licenses" target="_blank" ref="noopener">iOS 3rd-party</a> libraries used in the application.
-- CoronaMelder on <a href="https://github.com/minvws/nl-covid19-notification-app-android/blob/master/LICENSES.md" target="_blank" ref="noopener">Android's open source licence</a>.
+- CoronaMelder <a href="https://github.com/minvws/nl-covid19-notification-app-ios/blob/master/LICENSES.md" target="_blank" rel="noopener noreferrer">iOS Application's open source licence</a>
+  and the Open Source <a href="https://github.com/minvws/nl-covid19-notification-app-ios/tree/master/licenses" target="_blank" rel="noopener noreferrer">iOS 3rd-party</a> libraries used in the application.
+- CoronaMelder on <a href="https://github.com/minvws/nl-covid19-notification-app-android/blob/master/LICENSES.md" target="_blank" rel="noopener noreferrer">Android's open source licence</a>.
 These licences, terms & conditions and disclaimers are an integral part of both
 the iOS and Android distribution and the Mobile Application.
 
 ## Server Licences, Terms & Conditions and Disclaimers
 
-- <a href="https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md" target="_blank" ref="noopener">Backend license</a>
+- <a href="https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md" target="_blank" rel="noopener noreferrer">Backend license</a>
   and the
-  <a href="https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE" target="_blank" ref="noopener">3rd party</a> 
+  <a href="https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE" target="_blank" rel="noopener noreferrer">3rd party</a> 
   backend libraries.
 
 ## Reporting vulnerabilities
 
 Any vulnerabilities can be confidentially (or anonymously) reported to the
-<a href="https://www.ncsc.nl/contact/kwetsbaarheid-melden" target="_blank" ref="noopener">National Cyber Security Center of the Dutch Government</a>.
+<a href="https://www.ncsc.nl/contact/kwetsbaarheid-melden" target="_blank" rel="noopener noreferrer">National Cyber Security Center of the Dutch Government</a>.

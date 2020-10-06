@@ -28,7 +28,7 @@ showContact: true
 If you have tested positive for coronavirus in one of the trial regions, you can add this information to the app,together with the GGD. . If an employee of the GGD calls you with the test result, they will ask you if want to warn other people via the app. If you choose this 
 option the receiver can’t see who you are or on which location you were near each other.You can decide whether these notifications are sent. This is not compulsory, and it is not automatic.
 
-<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">Find out if you live in one of the trial regions</a>:
+<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">Find out if you live in one of the trial regions</a>:
 - GGD Drenthe
 - GGD Gelderland-Zuid
 - GGD IJsselland
