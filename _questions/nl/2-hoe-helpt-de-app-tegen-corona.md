@@ -8,10 +8,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-# featuredHome: true
-# featuredHomeIndex: 2
-# featuredHomeIcon: heart
-# featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
+featuredHome: true
+featuredHomeIndex: 1
+featuredHomeIcon: heart
+featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
 ---
 
 Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.

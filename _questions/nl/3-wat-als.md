@@ -11,7 +11,7 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 4
+featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
 featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
 ---

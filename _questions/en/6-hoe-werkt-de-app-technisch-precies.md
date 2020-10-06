@@ -10,10 +10,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHome: true
-featuredHomeIndex: 1
-featuredHomeIcon: app-touch
-featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
+# featuredHome: true
+# featuredHomeIndex: 1
+# featuredHomeIcon: app-touch
+# featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
 ---
 
 1. The app generates a unique code for each phone
