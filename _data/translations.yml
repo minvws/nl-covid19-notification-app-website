@@ -8,8 +8,8 @@ head-social-og-title:
   nl: CoronaMelder wordt getest in de praktijk
   en: CoronaMelder is being tested in the field
 head-social-og-description:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Deze wordt momenteel getest in een aantal regio’s en is vanaf 10 oktober beschikbaar in heel Nederland.
-  en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions and from 10 October onward avalaible throughout the Netherlands.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Deze wordt momenteel getest in een aantal regio’s en is vanaf 10 oktober te gebruiken in heel Nederland.
+  en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions and can be used throughout the Netherlands from 10 October.
 head-social-og-image-url:
   # Relative url e.g.: img/social.png
   nl: head-social-og-image--nl.png?v=2
@@ -104,8 +104,8 @@ layout-faq-btn:
   en: All frequently asked questions
 
 info-lead:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Deze wordt momenteel getest in een aantal regio’s en is vanaf 10 oktober beschikbaar in heel Nederland. 
-  en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is currently being trialled in several regions and from 10 October onward avalaible throughout the Netherlands.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom bestaat de app CoronaMelder. Deze <a href="https://coronamelder.nl/nl/faq/9-hoe-weet-ik-of-ik-in-een-testregio-woon/">wordt momenteel getest in een aantal regio’s</a> en is vanaf 10 oktober te gebruiken in heel Nederland. 
+  en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this. It is <a href="https://coronamelder.nl/en/faq/9-hoe-weet-ik-of-ik-in-een-testregio-woon/">currently being trialled in several regions</a> and can be used throughout the Netherlands from 10 October.
 info-lead-title:
   nl: Download de CoronaMelder-app
   en: Download the CoronaMelder app
