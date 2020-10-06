@@ -3,12 +3,17 @@ layout: content
 index: 6
 set: 2
 title: What technology does the app use?
+summary: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period
 lang: en
 categories:
 - en
 - faq
 showBreadCrumbs: true
 showContact: true
+# featuredHome: true
+# featuredHomeIndex: 1
+# featuredHomeIcon: app-touch
+# featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
 ---
 
 1. The app generates a unique code for each phone
@@ -34,3 +39,4 @@ The app will contact the server to check for the codes of infected persons sever
 
 5. You will be alerted if codes from an infected person are on your phone.
 The notification will tell you when you were near the infected person. It will not tell you who that person was or where you were near them. The app will also advise you what to do next. Your own codes will not be uploaded to the server, but they will be stored on your phone for next 14 days.
+

@@ -2,8 +2,7 @@
 layout: content
 index: 6
 set: 2
-title: How does the app work? 
-summary: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period
+title: How does the app work?
 lang: en
 categories:
 - en
@@ -11,9 +10,10 @@ categories:
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
-featuredHomeIndex: 1
+featuredHomeIndex: 5
 featuredHomeIcon: app-touch
-featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
+featuredHomeText: The app sends you a notification if you have been around someone for some time, who has been infected with the coronavirus.
+
 ---
 
 **The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it..** 
@@ -33,7 +33,7 @@ featuredHomeText: The app sends you a notification if you have been near someone
 If you have tested positive for coronavirus in one of the trial regions, you can add this information to the app,together with the GGD. . If an employee of the GGD calls you with the test result, they will ask you if want to warn other people via the app. If you choose this 
 option the receiver can’t see who you are or on which location you were near each other.You can decide whether these notifications are sent. This is not compulsory, and it is not automatic.
 
-<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener">Find out if you live in one of the trial regions</a>:
+<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">Find out if you live in one of the trial regions</a>:
 - GGD Drenthe
 - GGD Gelderland-Zuid
 - GGD IJsselland

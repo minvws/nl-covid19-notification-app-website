@@ -1,11 +1,11 @@
-<div class="language-picker{% if page.layout == 'home' %} language-picker--home language-picker--right-orientation{% endif %}">
+<div class="language-picker {% if page.layout == 'home' %} language-picker--home language-picker--right-orientation{% endif %}">
   <span class="language-picker__current">
     <span class="language-picker__label">
       {{ site.data.translations.header-language-picker-label[page.lang] }}:
     </span>
     <strong>{{ site.data.languages[page.lang].label }}</strong>
   </span>
-  <button type="button" class="language-picker__toggle" aria-controls="language-picker__dropdown" aria-expanded="false">
+  <button type="button" class="language-picker__toggle" aria-controls="language-dropdown" aria-expanded="false">
     <span class="screen-reader-text">
       {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}
     </span>

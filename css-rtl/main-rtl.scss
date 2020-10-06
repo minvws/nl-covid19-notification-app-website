@@ -24,6 +24,7 @@ html[dir="rtl"] {
     @import "content-block-rtl";
     @import "footer-rtl";
     @import "statements-rtl";
+    @import "stories-rtl";
     @import "faq-rtl";
 
     .container {
@@ -55,6 +56,19 @@ html[dir="rtl"] {
     header .watch a, header .watch > a:visited {
         padding: 15px 50px 15px 0;
     }
+
+
+    .lead {
+        @media (min-width: 740px) {
+            padding: 2em 54px 0 2.4em;
+        }
+
+        @media (min-width: 960px) {
+            margin-right: 90px;
+            margin-left: 0;
+        }
+    }
+
 
     .lead__app_badges {
         .app_badge_column__left {

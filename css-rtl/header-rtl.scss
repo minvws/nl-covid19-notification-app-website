@@ -1,24 +1,37 @@
 .header {
-
     @media(min-width: 960px) {
-
         &::before {
             position: absolute;
-            left: calc((1300px / -2) + calc(100% / 2));
-            right: auto;
+            left: auto;
+            right: calc((1300px / -2) + calc(100% / 2));
+            transform: scaleX(-1);
 
             .browser-ie-11 & {
-                left: calc(((100% - 1200px)/2) - 1px);
-                right: auto;
+                left: auto;
+                right: calc(((100% - 1200px)/2) - 1px);
             }
         }
     }
+
     @media(min-width: 1080px) {
-            &::before {
-                .browser-ie-11 & {
-                left: calc(((100% - 1300px)/2) - 1px);
-                right: auto;
+        &::before {
+            .browser-ie-11 & {
+                left: auto;
+                right: calc(((100% - 1300px)/2) - 1px);
             }
+        }
+    }
+
+
+    &::after {
+        transform: scaleX(-1);
+        background-position: center -23px;
+        left: 20px;
+        right: auto;
+
+        @media(min-width: 960px) {
+            left: calc((1100px / -2) + calc(100% / 2));
+            right: auto;
         }
     }
 }
@@ -59,22 +72,31 @@
 }
 
 .header__text {
-    padding: 0 1.38em 2em 0;
-
     @media (min-width: 680px) {
-        padding: 0 3em 3.5em 0;
+        padding-right: 0;
     }
 
     @media (min-width: 960px) {
-        padding: 0 2.6em 5em 0;
         margin-left: 424px;
-        margin-right: 0;;
+        margin-right: 0;
     }
 
     h1 {
         @media (min-width: 960px) {
             margin-left: 9rem;
-            margin-right: 0;;
+            margin-right: 0;
         }
+    }
+}
+
+.header__layout__middle {
+    @media (min-width: 960px) {
+        padding: 20px 180px 0 0;
+    }
+}
+
+.header__logo-badge {
+    @media (min-width: 960px) {
+        float: right;
     }
 }

@@ -20,18 +20,18 @@
   <div>
       <ul>
           <li>
-              <a href="{{ site.url }}/{{ site.data.videos[include.key].mp4-src['default'] }}" target="_blank">
+              <a href="{{ site.url }}/{{ site.data.videos[include.key].mp4-src['default'] }}" target="_blank" rel="noopener noreferrer">
                   {{ site.data.translations.mediaelement-download-mp4-video[page.lang] }}
               </a>
           </li>
           <li>
-              <a href="{{ site.url }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}" target="_blank">
+              <a href="{{ site.url }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}" target="_blank" rel="noopener noreferrer">
                   {{ site.data.translations.mediaelement-download-mp3-voiceover[page.lang] }}
               </a>
           </li>
           {% for subtitle in site.data.videos[include.key].subtitles %}
               <li>
-                  <a href="{{ site.url }}/{{ subtitle.src }}">
+                  <a href="{{ site.url }}/{{ subtitle.src }}" rel="noopener noreferrer">
                       {{ site.data.translations.mediaelement-download-subtitle[page.lang] }} ({{ site.data.languages[subtitle.lang].label }})
                   </a>
               </li>

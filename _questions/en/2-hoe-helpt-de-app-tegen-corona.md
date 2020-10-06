@@ -9,10 +9,10 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-# featuredHome: true
-# featuredHomeIndex: 2
-# featuredHomeIcon: heart
-# featuredHomeText: With CoronaMelder, you will know sooner whether you have a higher chance of contamination.
+featuredHome: true
+featuredHomeIndex: 1
+featuredHomeIcon: heart
+featuredHomeText: With CoronaMelder, you will know sooner whether you have a higher chance of contamination.
 ---
 
 You can pass coronavirus on to other people even if you do not have symptoms. The earlier you find out that you have (or could have) coronavirus, the easier it is to make sure you do not pass it on to other people. The CoronaMelder app helps you do this. 

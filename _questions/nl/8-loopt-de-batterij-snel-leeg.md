@@ -9,10 +9,6 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-# featuredHome: true
-# featuredHomeIndex: 4
-# featuredHomeIcon: battery
-# featuredHomeText: De app werkt met Bluetooth Low Energy. Hoeveel dat van je telefoonbatterij vraagt, verschilt per telefoon.
 ---
 
 De app verbruikt weinig energie. De app gebruikt Bluetooth Low Energy (lage energie-bluetooth). Dit is een speciale vorm van bluetooth die weinig stroom gebruikt.
