@@ -1,0 +1,24 @@
+<div class="stories">
+  {% assign stories = site.stories | where:"lang", page.lang | where:"show", true | sort: "index" %}
+  {% for story in stories %}
+  <article class="stories__story" id="story-{{ story.index }}">
+    <div class="stories__story-column-image">
+      <img
+        src="{{ site.baseurl }}/img/story-images/{{ story.graphic }}"
+        alt=""
+        class="stories__story-image"
+      >
+    </div>
+    <div class="stories__story-column-content">
+      <h2>
+        <span class="stories__story-title__highlight">{{story.title-highlight}}</span>
+        <span class="stories__story-title">{{story.title}}</span>
+      </h2>
+      <p class="stories__story-text">
+        {{ story.content | remove: '<p>' | remove: '</p>'  }}
+      </p>
+    </div>
+  </article>
+  {% endfor %}
+
+</div>

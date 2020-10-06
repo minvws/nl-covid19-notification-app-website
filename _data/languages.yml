@@ -1,3 +1,6 @@
+# Note: when adding a language check availability in:
+# - mediaelement.js
+
 nl:
   label: Nederlands
 en:

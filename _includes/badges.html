@@ -1,0 +1,22 @@
+
+<div class="{{ include.class }}">
+  
+  {% if include.class %}
+    <h2> {{ site.data.translations.info-lead-title[page.lang] }}:</h2>
+  {% endif %}
+  <ul class="layout-app-badges">
+    <li class="app_badge_column__left">
+      <a class=" app-store" href="{{ site.data.translations.info-app-store-url[page.lang] }}">
+        <img src="{{ site.baseurl }}/img/{{ site.data.translations.info-app-store-img[page.lang] }}" 
+        alt="{{ site.data.translations.header-appstore[page.lang] }}" 
+        height="65" width="196"
+        />
+      </a>
+    </li>
+    <li class="app_badge_column__right">
+      <a class="play-store" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
+        <img src="{{ site.baseurl }}/img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" height="65" width="216" />
+      </a>
+    </li>
+  </ul>
+</div>

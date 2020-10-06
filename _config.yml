@@ -1,19 +1,17 @@
 repo: minvws/nl-covid19-notification-app-website
 
 collections:
-  statements:
-    output: true
-    permalink: /:categories/:name/
   questions:
     output: true
     permalink: /:categories/:name/
+  stories:
+    output: false
 
 sass:
   load_paths:
     - css
-    - css-arabic
+    - css-rtl
     
-
 exclude:
   - vendor 
   - Gemfile
@@ -29,3 +27,12 @@ exclude:
   - example.content-page.md
   - .sass-cache
   - .history
+
+plugins:
+  - "jekyll-github-metadata"
+  - "jekyll-sitemap"
+  # - "jekyll-seo-tag"
+
+incremental: true
+
+url: "https://www.coronamelder.nl"

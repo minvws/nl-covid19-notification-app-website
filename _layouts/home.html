@@ -1,8 +1,7 @@
-{%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 
@@ -22,41 +21,22 @@
       <div class="lead">
         <div class="lead__text">
           <div class="content-block">
-            <div class="md-block-lead" markdown="1">
+            <div class="md-block-lead">
                 <p>{{ site.data.translations.info-lead[page.lang] }}</p>
-                <h2>
-                  {{ site.data.translations.info-lead-title[page.lang] }}
-                </h2>
-                <div class="lead__app_badges">
-                  <a class="app_badge_column__left" href="{{ site.data.translations.info-app-store-url[page.lang] }}">
-                    <img src="/img/{{ site.data.translations.info-app-store-img[page.lang] }}" alt="{{ site.data.translations.header-appstore[page.lang] }}" />
-                  </a>
-                  <a class="app_badge_column__right" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
-                    <img src="/img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" />
-                  </a>
-                </div>
-              </div>
+            </div>
 
             {{ content }}
-          </div>
-        </div>
-      
-        <div class="lead__preview">
-          <img
-            src="{{ relroot }}img/phone.svg"
-            aria-hidden="true"
-            class="app-preview"
-          >
-          <div class="lead__preview__slider">
-            {% include info-slider.html %}
           </div>
         </div>
       </div>
       
     </div>
-    {% include statements.html %}
-    <!-- {% include explainer.html %} -->
+    {% include stories.html %}
+    {% include badges.html class="layout-app-badges--center-wrap" %}
+    {% include information.html %}
+    {% comment %} {% include video.html %} {% endcomment %}
     {% include faq.html %}
+    {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--background" %}
   </main>
   {% include footer.html %}
 </body>

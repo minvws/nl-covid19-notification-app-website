@@ -1,26 +1,38 @@
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl | append: '/'  -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang | append: '/' -%}
 {%- endif -%}
 
-<div class="faq">
+<section class="faq-homepage">
   <h2 class="faq-homepage__title" id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
-  <div class="faq-layout">
-    {% assign questions = site.questions | where:"lang", page.lang | sort: "index" | slice: 0, 3 %}
-    <div class="faq-layout__contents">
-      <ul class="faq-layout-contents__list">
-        {% for question in questions %}
-          <li>
-            <a class="faq-layout__item" href="{{ question.url }}" id="faq-{{ question.index }}">
-              {{ question.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="statements">
+    {% assign questions = site.questions | where:"lang", page.lang | where:"featuredHome", true  | sort: "featuredHomeIndex" %}
+    {% for question in questions %}
+  
+      <article class="statements__statement">
+        <div class="statement-summary">
+          <div class="statement-summary__icon">
+            {% include graphics/{{ question.featuredHomeIcon }}.svg  %}
+          </div>
+          <div class="statement__content">
+            <h2>{{ question.title }}</h2>
+            <p>{{ question.featuredHomeText }}</p>
+          </div>
+          <a href="{{ site.baseurl }}{{ question.url }}" class="statement-summary__btn-expand">
+            <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
+            <span class="screen-reader-text"> {{ site.data.translations.readmore-about_screen-reader[page.lang] }}: {{ question.title }}</span>
+          </a>
+        </div>
+      
+      </article>
+    {% endfor %}
   </div>
 
-    <a href="{{ langSlug }}/faq" class="faq__link">{{ site.data.translations.layout-all-faq[page.lang] }}</a>
-    
-</div>
+  <p class="faq-homepage__more">
+    <a href="{{ langSlug }}faq" class="btn btn--color-secondary btn--large">
+      {{ site.data.translations.layout-faq-btn[page.lang] }}<span class="icon icon-chevron-right"></span>
+    </a>
+  </p>
+
+</section>
