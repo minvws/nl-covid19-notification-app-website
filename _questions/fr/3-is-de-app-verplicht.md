@@ -2,13 +2,14 @@
 layout: content
 index: 3
 set: 2
-title: Is de app verplicht?
-lang: nl
+title: Is the app compulsory?
+lang: fr
 categories:
-- nl
+- fr
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+No, you are free to choose whether or not you want to use the app. This is your decision. Nobody can force you to use the app. That includes your employer, or staff in a café or restaurant, for example.

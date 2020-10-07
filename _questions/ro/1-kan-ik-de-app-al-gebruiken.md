@@ -1,26 +1,24 @@
 ---
 layout: content
 index: 1
-title: Pot folosi aplicația deja?
+title: Can I use the app already? 
 lang: ro
 categories:
 - ro
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
-FeaturedHomeText: "Da, CoronaMelder este acum disponibilă tuturor în Olanda.
->  Mai multe explicații 
-"
+
 ---
 
-"Pot folosi aplicația deja?
-Da, CoronaMelder este disponibilă tuturor în Olanda.
- 
-Asta înseamnă că:
-•        CoronaMelder poate ține evidența contactelor cu alți utilizatori ai aplicației
-•        Veți primi o notificare după ce v-ați aflat în apropierea cuiva care, după întâlnirea voastră, a fost testat pozitiv pentru corona.
-•        Prin intermediul aplicației îi puteți avertiza pe ceilalți dacă se dovedește că aveți coronavirus. Aceste persoane pot fi cunoscute sau necunoscute, persoane care altfel nu ar primi un avertisment.
+Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:
+-	Drenthe
+-	Gelderland-Zuid
+-	IJsselland
+-	Noord- en Oost-Gelderland
+-	Twente
 
-Doriți mai multe explicații?
->  Toate întrebările frecvente (engleză)
-"
+The CoronaMelder app is being trialled in these GGD regions. Only if you live in one of these regions, you can use the app to warn other people if you test positive for coronavirus. Both acquaintances and strangers: people who otherwise might not receive a warning.
+
+<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">Find out</a> if you live in one of these regions. 

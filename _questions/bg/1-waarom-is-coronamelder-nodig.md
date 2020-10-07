@@ -2,14 +2,14 @@
 layout: content
 index: 1
 set: 1
-title: Waarom is CoronaMelder nodig?
-lang: nl
+title: Why is the CoronaMelder app needed?
+lang: bg
 categories:
-- nl
+- bg
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-De app is een aanvulling op het bron- en contactonderzoek van de GGD. Hierdoor kunnen mensen die nog geen klachten hebben eerder gewaarschuwd worden. Zo voorkom je dat je het virus onbewust op anderen overdraagt.
- 
+The app is designed to support the contact tracing work being done by the GGD. It allows people with no symptoms to be warned that they could have been infected. This means that users of the app can avoid passing the virus on to other people.

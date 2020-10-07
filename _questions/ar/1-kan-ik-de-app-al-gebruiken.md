@@ -1,27 +1,24 @@
 ---
 layout: content
 index: 1
-title: هل يمكنني الآن استخدام التطبيق؟
+title: Can I use the app already? 
 lang: ar
 categories:
 - ar
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
-# featuredHomeText: "نعم، CoronaMelder  متاح الآن للجميع في هولندا.
-# <مزيد من التوضيح
-# "
+
 ---
 
-"هل يمكنني الآن استخدام التطبيق؟
-نعم،CoronaMelder  متاح للجميع في هولندا.
+Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:
+-	Drenthe
+-	Gelderland-Zuid
+-	IJsselland
+-	Noord- en Oost-Gelderland
+-	Twente
 
-هذا يعني أنه:
-• يمكن لـ CoronaMelder تتبع ما إذا تواجدت بالقرب  من المستخدمين الآخرين للتطبيق.
-• تتلقى أشعارًا بعد أن تواجدت بالقرب من شخص ثبتت إصابته بكورونا بعد مصادفتكم.
-• تحذير الآخرين عبر التطبيق بعد أن تبين أنك مصاب بكورونا. كل من المعارف والأشخاص الذين لا تعرفهم: الأشخاص الذين قد لا يتلقون تحذيرًا.
+The CoronaMelder app is being trialled in these GGD regions. Only if you live in one of these regions, you can use the app to warn other people if you test positive for coronavirus. Both acquaintances and strangers: people who otherwise might not receive a warning.
 
-هل تريد معرفة المزيد؟
-
-< جميع الأسئلة المتكررة (الانجليزية)
-"
+<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">Find out</a> if you live in one of these regions. 

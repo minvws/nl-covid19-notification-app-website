@@ -2,13 +2,15 @@
 layout: content
 index: 11
 set: 3
-title: Ik woon niet in een testregio kan ik CoronaMelder dan toch gebruiken?
+title: I don’t live in the trial region how can I start using the CoronaMelder app?
 lang: ar
 categories:
 - ar
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-Je kunt CoronaMelder wel downloaden en activeren, maar nog niet alle functionaliteiten gebruiken. Zo kun je je wel een melding krijgen van iemand uit een testregio, maar kun je niet via de app anderen waarschuwen als je corona hebt.
+You can download and activate CoronaMelder but you can’t use all functionalities.  
+It is possible that you will receive a notification from someone in the test region, but you can’t warn other people via the app that you have Corona.  

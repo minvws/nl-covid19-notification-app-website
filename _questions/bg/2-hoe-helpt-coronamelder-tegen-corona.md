@@ -2,37 +2,37 @@
 layout: content
 index: 2
 set: 1
-title: Hoe helpt CoronaMelder tegen corona?
-lang: nl
+title: How will the app help to stop coronavirus?
+lang: bg
 categories:
-- nl
+- bg
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-Ben je in de buurt geweest van iemand die corona blijkt te hebben? En laat diegene ook in de app weten dat hij of zij besmet is?
+Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?
 
-Dan krijg je daarna een melding. Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
+Then you will receive a notification. When you get a notification, you have been close to someone who later turned out to have corona. Don't panic: it is not certain that you also have corona. You have an additional risk of contamination: you _may_ have corona.
 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Therefore, stay at home for up to 10 days from the date of contact with an infected person. This prevents you from infecting others as well.
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
+Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
 
-Bel <a href="tel:08001202">0800-1202</a> om gratis een coronatest aan te vragen.
+Call <a href="tel:08001202">0800-1202</a> to request a corona test free of charge.
 
-Blijk je zelf corona te hebben?
+If you test positive for coronavirus yourself:
+- The GGD will ask you who you have been near to, and the GGD will also call these people.	
+- Together with an employee of the GGD you can enter your coronavirus status in the app. When a GGD- employee calls you with the test result, they will also ask you if you want to sent out a notification in the app. Coronamelder warns everybody who has been near you and who may have been infected.
+- This includes people you know, but also people you do not know: people who otherwise would not have been contacted. This is how the app supports the contact tracing work being done by the GGD.
+- In this way, users of the app can avoid infecting other people, even before they feel unwell. By staying at home, for example.
+- The notification only tells them that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
 
-- Dan vraagt de GGD bij wie je in de buurt bent geweest, en belt de GGD deze mensen op.
-- Samen met de GGD kun je jouw besmetting in de app melden. Als een GGD-medewerker je belt met de testuitslag, vraagt deze dan ook of je dit wilt melden in de app. CoronaMelder waarschuwt dan tegelijkertijd iedereen die bij jou in de buurt is geweest en kans op besmetting heeft gelopen.
-- Dat zijn bekenden, maar ook onbekenden: mensen die anders misschien geen waarschuwing zouden krijgen. Zo vult de app het bron- en contactonderzoek van de GGD aan.
-- Zo kunnen zij voorkomen weer anderen te besmetten, nog voor ze ziek voelen. Bijvoorbeeld door thuis te blijven.
-- In deze melding staat alleen op welke dag ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.
 
-Zo helpt de app om elkaar te beschermen tegen corona. Dit kan nu in vijf GGD-regio’s:
-
+The app helps to protect us from the Coronavirus. You can test the app in five GGD regions:
 - Drenthe
 - Gelderland-Zuid
 - IJsselland
 - Noord- en Oost-Gelderland
-- Twente
+- Twente 

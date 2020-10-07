@@ -2,14 +2,16 @@
 layout: content
 index: 5
 set: 2
-title: Hoe meet CoronaMelder de afstand tot andere gebruikers van de app?
-lang: nl
+title: How does the CoronaMelder app measure the distance to other users of the app?
+lang: tr
 categories:
-- nl
+- tr
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-CoronaMelder kan niet de precieze afstand meten tot andere mensen die de app gebruiken. Maar kan wel inschatten of je dichtbij bent of niet.
-De app gebruikt daarvoor een bepaalde vorm van bluetooth, Bluetooth Low Energy (lage energie-bluetooth). Hoe sterker het signaal, hoe dichterbij je bent.
+CoronaMelder cannot measure the exact distance to other people who are using the app. But it can estimate whether you are close to them or not.
+The app uses a special type of Bluetooth, called Bluetooth Low Energy. The closer you are to the other person, the stronger the Bluetooth signal is.
+

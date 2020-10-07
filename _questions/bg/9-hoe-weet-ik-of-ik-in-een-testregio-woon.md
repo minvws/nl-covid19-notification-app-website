@@ -2,24 +2,22 @@
 layout: content
 index: 9
 set: 3
-title: Hoe weet ik of ik in een testregio woon?
-lang: nl
+title: How do I know if I live in a trial region?
+lang: bg
 categories:
-- nl
+- bg
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
+Click <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">here</a> to find out if you live in one of the trial regions: 
 
+-	GGD Drenthe
+-	GGD Gelderland-Zuid
+-	GGD IJsselland
+-	GGD Noord- en Oost-Gelderland
+-	GGD Twente
 
-Bekijk <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">hier</a> of je in een gemeente woont van deze testregio’s:
-
-- GGD Drenthe
-- GGD Gelderland-Zuid
-- GGD IJsselland
-- GGD Noord- en Oost-Gelderland
-- GGD Twente
-
-Woon je in een van deze testregio’s? Dan kun je anderen via CoronaMelder laten weten dat je corona hebt.
- 
+If you live in one of these trial regions, you can warn other people if you test positive for coronavirus using the CoronaMelder app.

@@ -2,14 +2,15 @@
 layout: content
 index: 8
 set: 2
-title: Hoeveel stroom gebruikt de app?
-lang: nl
+title: Will the app drain my phone battery?
+lang: fr
 categories:
-- nl
+- fr
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-De app verbruikt weinig energie. De app gebruikt Bluetooth Low Energy (lage energie-bluetooth). Dit is een speciale vorm van bluetooth die weinig stroom gebruikt.
-Hoeveel procent van je batterij de app precies gebruikt, verschilt per telefoon.
+The app does not use much energy. The app uses a special type of Bluetooth, called Bluetooth Low Energy. This form of Bluetooth consumes very little power.
+The exact percentage of your battery used by the app will depend on your phone.

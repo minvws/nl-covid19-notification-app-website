@@ -2,15 +2,16 @@
 layout: content
 index: 12
 set: 3
-title: Wanneer heb ik contact met de GGD als ik CoronaMelder op mijn telefoon heb?
-lang: nl
+title: When do I need to contact the GGD if I have the CoronaMelder app on my phone?
+lang: de
 categories:
-- nl
+- de
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-Heb je een coronatest gedaan, en blijk je corona te hebben? Dan neemt een GGD-medewerker contact met je op.
-Wil je ook anderen waarschuwen? Dan deel je vrijwillig je GGD-sleutel. Deze vind je in de app. Zo kunnen alleen mensen die écht besmet zijn een melding versturen.
- 
+If you have had a coronavirus test and the result is positive, a GGD employee will contact you.
+If you also want to warn other people, you can choose to share your GGD key in the app. You can find this in the app. The use of the key means that only people who really have tested positive can send a notification.
+  

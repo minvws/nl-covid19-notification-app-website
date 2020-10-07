@@ -1,28 +1,24 @@
 ---
 layout: content
 index: 1
-title: Bir bildirim alırsam ne yapmalıyım?
-lang: nl
+title: Can I use the app already? 
+lang: tr
 categories:
-- nl
+- tr
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
-featuredHomeText: "Temas tarihinden 10 gün sonrasına kadar evde kalmanız tavsiye edilir. Şikayetiniz mi var? O halde kendinizi test ettirin.
-> Daha fazla açıklama
-"
+
 ---
 
-"Bir bildirim alırsam ne yapmalıyım?
+Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:
+-	Drenthe
+-	Gelderland-Zuid
+-	IJsselland
+-	Noord- en Oost-Gelderland
+-	Twente
 
-Bir bildirim  aldığınızda, daha sonra Korona olduğu ortaya çıkan birinin yakınında bulundunuz. O zaman panik yapmayın: Sizde de Korona olduğu kesin değildir. Ekstra bir kontaminasyon riskiniz var: sizde Korona olabilir.
+The CoronaMelder app is being trialled in these GGD regions. Only if you live in one of these regions, you can use the app to warn other people if you test positive for coronavirus. Both acquaintances and strangers: people who otherwise might not receive a warning.
 
-Bu nedenle, enfekte bir kişi ile temas tarihinden itibaren 10 güne kadar evde kalın. Bu, başkalarına da bulaştırmanızı engeller.
-
-Bu 10 gün içinde veya sonrasında şikayetleriniz mi var? Daha sonra test yaptırmak için GGD ile iletişime geçin.
-
-Ücretsiz bir Korona testi talep etmek için 0800-1202'yi arayın.
-
-Daha fazlasını bilmek ister misiniz?
->Bütün sık sorulan sorular
-"
+<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">Find out</a> if you live in one of these regions. 

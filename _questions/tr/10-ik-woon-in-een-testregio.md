@@ -2,18 +2,17 @@
 layout: content
 index: 10
 set: 3
-title: Ik woon in een testregio. Hoe kan ik CoronaMelder nu al gebruiken?
-lang: nl
+title: I live in a trial region. How can I start using the CoronaMelder app?
+lang: tr
 categories:
-- nl
+- tr
 - faq
+published: true
 showBreadCrumbs: true
 showContact: true
 ---
 
-Je kunt CoronaMelder:
-
-- downloaden en activeren,
-- zelf een melding krijgen als je lang genoeg in de buurt bent geweest van iemand die later corona blijkt te hebben.
-
-Ook kun je via de app aan anderen laten weten dat je corona hebt. Dit doe je samen met een GGD-medewerker als deze jou belt met de testuitslag.
+You can:
+- download and activate the app;
+- receive a notification if you have been near another app user who has tested positive, if you were near them for long enough;
+you can also let other people know that you have Corona. You will do this together with an employee of the GGD when he or she calls you with the test result.
