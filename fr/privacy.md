@@ -2,106 +2,105 @@
 layout: content
 lang: fr
 showBreadCrumbs: true
-title: Privacyverklaring
+title: Déclaration de protection de la vie privée concernant l’application CoronaMelder
 ---
 
-## About CoronaMelder
+## À propos de l’application CoronaMelder
+L'application CoronaMelder est un outil qui contribue à limiter la propagation du virus COVID-19. Si vous avez installé CoronaMelder sur votre smartphone, vous recevrez un message si vous avez été pendant un moment à proximité d'une personne qui a été testée positive à la COVID-19, si cette personne a également installé CoronaMelder. Si vous êtes potentiellement contaminé(e) par un autre utilisateur de CoronaMelder, l'application vous conseillera de vous faire tester si vous ne vous sentez pas bien. Vous trouverez ci-après une courte explication du fonctionnement de l’application CoronaMelder.
 
-CoronaMelder (app) is a technical tool that helps limit the spread of the COVID-19 virus. If you have installed CoronaMelder on your smartphone, you will receive a message if you have been in the proximity (for some time) of a person who has tested positive for COVID-19, and this person has also installed CoronaMelder. If you may have been infected by another CoronaMelder user, the app recommends that you have yourself tested if you have any symptoms. Below we will briefly explain how CoronaMelder works.
+L'application reconnaît les autres smartphones sur lesquels elle est installée via Bluetooth Low Energy. Les autres smartphones sont identifiés au moyen de codes aléatoires (séries de chiffres) appelés « Rolling Proximity Indicators » (RPI). Ces codes sont actualisés toutes les 10 à 20 minutes et sont dérivés des clés dites Temporary Exposure Keys (TEK). Les TEK sont également des codes aléatoires, mais ces codes sont régénérés quotidiennement et stockés sur le téléphone de l'utilisateur pendant 14 jours. 
 
-The app recognises other smartphones on which the app is installed via Bluetooth Low Energy. The other smartphones are recognised using random codes (series of numbers) known as Rolling Proximity Indicators (RPIs). These codes are updated every 10 to 20 minutes, and are derived from Temporary Exposure Keys (TEKs). TEKs are also random codes, but are regenerated on a daily basis to be stored on the user's phone for 14 days. 
+Si votre smartphone est proche d'un autre smartphone sur lequel l'application est installée, les différents RPI sont échangés entre ces smartphones, et stockés localement sur ceux-ci. Si un utilisateur de l'application a été testé positif à la COVID-19, il peut volontairement choisir de le signaler dans l'application. Si cette option est retenue, l'application envoie les TEK créées au cours des 14 derniers jours, et stockées localement sur le smartphone, à un serveur dorsal. Le serveur dorsal n'accepte les TEK envoyées que si l'utilisateur et le GGD (service municipal de santé) ont confirmé la transmission avec un code de validation. Sur le serveur dorsal, les TEK reçues sont converties en d'autres codes appelés Diagnosis Keys (DK). 
 
-If your smartphone is in proximity to another smartphone on which the app is installed, their respective RPIs are exchanged and stored locally on those phones. If an app user has tested positive for COVID-19, the user may voluntarily choose to report this in the app. If the user chooses to do so, the app will send the TEKs created in the past 14 days and stored locally on the smartphone to a central server. The central server will only accept transmitted TEKs if the user and the Dutch Municipal Health Service (GGD) have confirmed such transmission with an authorisation code. On the central server, the TEKs received are converted into other codes known as Diagnosis Keys (DKs). 
+Le serveur dorsal met ensuite les DK à disposition pour qu'elles soient automatiquement récupérées par les smartphones sur lesquels l'application est installée. Si votre smartphone a récupéré les DK sur le serveur, la connexion au serveur est coupée. Ce processus automatisé se répète plusieurs fois par jour afin de tenir à jour les éventuels risques de contamination. Votre smartphone utilise ensuite les DK collectées pour calculer s'il y a une correspondance avec les différents RPI des autres smartphones dont votre smartphone s'est rapproché. Les DK sont ensuite directement supprimées de votre smartphone. 
 
-The central server then makes the DKs available for automatic download by the smartphones on which the app is installed. After your smartphone has downloaded the DKs from the server, the phone will be disconnected from the server. This automated process is repeated several times per day to keep any contamination risks up-to-date. Your smartphone then calculates on the basis of the downloaded DKs whether there is a match with the various RPIs of other smartphones that have been in proximity to your smartphone. Immediately thereafter, the DKs will be removed from your smartphone. 
+En cas de concordance, un certain nombre de facteurs de pondération sont utilisés pour déterminer s'il y a eu un contact à risque. Si tel est le cas, en d'autres termes, si vous avez récemment été proche d'une personne atteinte de COVID-19, vous recevrez un rapport sur votre risque accru de contamination. L'application vous conseille également de vous faire tester si vous ne vous sentez pas bien.
 
-If there is a match, an assessment is made using a number of weighting factors as to whether there has been high-risk contact. If that is the case — in other words, if you have recently been in close proximity to a person infected with COVID-19 — you will be notified that there is an increased risk of contamination. The app also recommends having yourself tested for contamination with the virus if you have any symptoms.
+### 1. Qui est responsable du traitement des données à caractère personnel ? 
+Le ministère de la Santé, du Bien-être et des Sports est responsable du traitement dans la mesure où des données à caractère personnel sont traitées dans le cadre de la création et de la gestion de l’application CoronaMelder.
 
-## The field test
+Dans la mesure où le service municipal de santé (GGD) utilise les données à caractère personnel obtenues via l'application pour la recherche des sources et des contacts, le GGD de votre région est le responsable du traitement. Sur le site www.GGD.nl, découvrez de quel GGD vous relevez en saisissant le code postal de votre domicile. Si vous n’avez pas d’adresse aux Pays-Bas, vous pouvez saisir le code postal de votre lieu de résidence.
 
-The field test will start on 17 August and will be conducted in collaboration with the Twente, Drenthe, Gelderland Zuid, Noord-Oost Gelderland and IJsselland GGD offices. Other GGD offices do not yet work with CoronaMelder at the time of the field test. CoronaMelder is available to all users in the app stores. You can therefore also download CoronaMelder even if you do not live in the geographical area of these field test regions. Only users living in the geographical area of the participating GGD regions can successfully upload the TEKs to the central server, because this requires an authorisation code from the GGD office. CoronaMelder's other functions remain the same.
+### 2. À quelle fin les données à caractère personnel sont-elles traitées ? 
+Cette application a été développée pour compléter la recherche des sources et des contacts du GGD. Son objectif est d'informer rapidement et facilement les utilisateurs présentant un risque accru de contamination, tout en préservant au maximum leur anonymat. 
 
-### 1. Who is responsible for the processing of the personal data?
+### 3. Fondement du traitement des données à caractère personnel 
+Des données à caractère personnel peuvent être traitées dans l'application. Le traitement des données à caractère personnel repose sur l'accomplissement, en bref, d'une mission publique. Pour le ministère de la Santé, du Bien-être et des Sports, il s'agit de la mission publique de mener la lutte contre la COVID-19 et d'assurer le maintien et l'amélioration de la structure nationale de soutien. 
 
-To the extent personal data are processed in the design and management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
+Pour les GGD, il s’agit de retrouver la source et le contact en cas de signalement d'une contamination par la COVID-19.  
 
-In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](https://www.ggd.nl) to find your GGD by entering the postal code of your home address.
+L'introduction de l'application CoronaMelder comme outil de soutien à la localisation des sources et des contacts permet donc de mener à bien les missions publiques susmentionnées du ministère de la Santé, du Bien-être et du Sport et des GGD. 
 
-### 2. For what purpose are personal data processed?
+Le CoronaMelder s’utilise sur une base volontaire. L’application vous demande donc votre consentement avant de pouvoir l’utiliser. Si vous ne donnez pas votre consentement, vous ne pouvez utiliser l’application CoronaMelder. Votre consentement est également demandé avant que vous ne puissiez communiquer vos données au GGD en cas de test positif.
 
-This app has been developed as an addition to source and contact tracing by the GGD. Its purpose is to quickly and easily inform users who have an increased risk of infection, while ensuring a high degree of anonymity. 
 
-### 3. Basis for processing personal data
+### 4. Quelles sont les données à caractère personnel traitées ? 
+L'application traite les données suivantes :
 
-Personal data can be processed in the app. The basis for the processing of personal data is the explicit consent given by users for the processing of their personal data. Users must give explicit consent before the app can be used, and before users — when they have tested positive — can share their data with the GGD. The app cannot be used unless such consent is given. 
+* Rolling proximity indicators (RPI)
+* Temporary Exposure Keys (TEK)
+* Diagnosis Keys (DK)
+* Pseudo adresse MAC
+* Puissance du signal et durée du contact
+* Premier jour de maladie
+* Code de validation
+* Exposure Risk Value (high, mid, low)
+* Adresse IP
 
-### 4. What personal data are processed?
+Ces données peuvent être des données à caractère personnel. 
 
-The following data are processed in the app:
+Une TEK est une séquence de chiffres aléatoire générée par cryptographie qui sert de référence temporaire. Sur le serveur dorsal, les TEK sont converties en DK. En outre, un RPI est généré toutes les 10 à 20 minutes, c'est-à-dire une séquence de chiffres temporaire, également générée par cryptographie. Cette séquence de chiffres est un dérivé d'une TEK et est échangée avec d'autres smartphones sur lesquels l'application est installée, et qui se trouvent à proximité du smartphone en question pendant une période déterminée. La réception et la transmission des RPI se font via Bluetooth Low energy. Le RPI est donc utilisé en combinaison avec la puissance du signal émis et reçu (pour déterminer la distance entre les utilisateurs), et la durée du contact (Bluetooth). Les RPI reçus sont retirés des smartphones après 14 jours. 
 
-- Rolling Proximity Indicators (RPIs)
-- Temporary Exposure Keys (TEKs)
-- Diagnosis Keys (DKs)
-- pseudo MAC address
-- signal strength and duration of contact
-- authorisation code
-- Exposure Risk Value (high, mid, low)
-- IP address
+Les TEK, DK et RPI sont des clés d'identification pseudonymisées.
 
-These data may be personal data.
+Pour minimiser le risque d'identification des utilisateurs, lors de l'échange de RPI, l'adresse MAC (un numéro de matériel unique de l'émetteur Bluetooth) du smartphone est remplacée par un code généré aléatoirement, une pseudo adresse MAC, qui, comme les RPI, change toutes les 10 à 20 minutes. 
 
-A TEK is a randomly, cryptographically generated series of numbers serving as a temporary reference. TEKs are converted into DKs on the central server. In addition, an RPI is generated every 10 to 20 minutes, which is a temporary series of numbers that are also cryptographically generated. This series of numbers is a derivative of a TEK, and is exchanged with other smartphones on which the app is installed, and which have been in close proximity to the smartphone concerned for a specific period of time. The RPIs are transmitted and received via Bluetooth Low Energy and are thus used in combination with the signal strengths of both transmission and reception (to determine the distance between users), and the duration of the (Bluetooth) contact. The RPIs received are removed from the smartphones after 14 days. 
+Le code ’de validation est généré à l'aide d'une fonctionnalité offerte dans l'application et affichée dans l'application. Le code de validation est utilisé par le GGD pour valider les TEK envoyées au GGD. Le GGD place ce code de validation, avec la date du premier jour de maladie, dans le portail GGD. Ce portail GGD est uniquement accessible aux collaborateurs du GGD. Le serveur dorsal n'acceptera les TEK des utilisateurs que si un code de validation est proposé et validé de cette manière par le GGD. Pendant la phase de validation, les adresses IP sont traitées à des fins de gestion et de sécurité.
 
-TEKs, DKs and RPIs are all pseudonymised identification keys.
 
-In order to minimise the risk of users being identified, when TEKs are exchanged, the MAC address (a unique hardware number of the Bluetooth transmitter) of the smartphone is replaced by a randomly generated code, a pseudo MAC address, which, like the TEKs, changes every 10 to 20 minutes. 
+En plus des DK, du premier jour de maladie et du code de validation, l'adresse IP est également envoyée au serveur dorsal. Ceci est inhérent à l'utilisation de l'Internet et de la technologie IP. L'adresse IP est stockée séparément des autres données, de sorte qu'aucune adresse IP n'est stockée sur le serveur dorsal. Il est donc impossible de savoir qui a envoyé quelle information.
 
-The authorisation code is generated through a functionality provided by the app and is shown in the app. The authorisation code is used by the GGD to validate the TEKs sent to the GGD. The GGD places this authorisation code, with the date of the first day of illness, in the GGD portal. This GGD portal is only accessible to GGD employees. The central server only accepts user TEKs if an authorisation code is provided that has been validated by the GGD in this manner. During the validation phase, IP addresses are processed for administration and security purposes.
+### 5 Informations statistiques 
+Les données collectées avec l'application ne seront utilisées qu'aux fins mentionnées dans la présente déclaration de protection de la vie privée. Aucune information statistique n'est générée. 
 
-After validation, for each DK the date of the first day of illness is compared with the date of the newly received TEKs. On that basis, the central server determines the Exposure Risk Value (high, mid, low).
+### 6 À qui sont fournies les données à caractère personnel ?
+L'émission et la réception des RPI se font localement sur les smartphones. En cas de détection d'une contamination, l'utilisateur peut choisir d'envoyer ses TEK, accompagnées d'un code de validation unique, au serveur dorsal. Le serveur dorsal est géré par le CIBG avec KPN comme sous-traitant.
 
-In addition to the DKs, the first day of illness and authorisation code, the IP address of the user's smartphone is sent to the central server. This is inherent to the use of Internet and IP technology. The IP address is stored separately from the other data, so that no IP addresses are stored on the central server. As a result, it is impossible to trace who sent which information.
+Le GGD traite le code de validation, avec la date du premier jour de maladie, dans le portail GGD de l'application, qui n'est accessible qu'au personnel autorisé du GGD.
 
-### 5. Statistical information
+Les smartphones des autres utilisateurs récupèrent périodiquement, plusieurs fois par jour, les DK stockées sur ce serveur dorsal. 
 
-The data collected with the app will only be used for the purposes stated in this privacy statement. No statistical information is generated. 
+### 7. Conservation des données à caractère personnel
+Les données stockées localement sur votre smartphone sont conservées pendant 14 jours. Après ces 14 jours, ces données sont automatiquement et définitivement supprimées. Vous pouvez également supprimer vous-même à tout moment les données stockées. 
 
-### 6. Who is provided with personal data?
+Dans la mesure où vos données sont stockées sur le serveur dorsal, elles seront conservées pendant 14 jours à partir du moment où elles sont téléchargées. Après ces 14 jours, ces données sont supprimées. 
 
-The sending and receiving of RPIs takes place locally on users' smartphones. Once an infection has been detected, the user can choose to send his or her TEKs, along with a unique authorisation code, to the central server. The central server is administered by the CIBG with KPN as subcontractor (processor).
+Les adresses IP traitées à des fins de gestion et de sécurité sont supprimées après 7 jours au maximum.
 
-The GGD processes the authentication code, with the date of the first day of illness, in the app's GGD portal, which is only accessible to authorised GGD employees.
+### 8. Vos droits en ce qui concerne vos données à caractère personnel 
+Vous disposez d'un certain nombre de droits pour contrôler vos données à caractère personnel. Vous les trouverez ici, sur le site du Conseil néerlandais pour la protection des données à caractère personnel (Autoriteit Persoonsgegevens).
 
-The smartphones of other users periodically – a few times a day – retrieve the data stored on this central server. 
+Comme l'application CoronaMelder a été conçue selon les principes de minimisation des données et de respect de la vie privée dès la conception (« privacy by design »), vous ne pourrez compter sur vos droits en vertu du RGPD que dans une mesure limitée. Après tout, les données ne sont traitées que de manière limitée. Les données sont également pratiquement introuvables et ne sont stockées que pendant une courte période. Il résulte de l'article 11 du RGPD que les droits énoncés aux articles 15 à 20 inclus du RGPD ne s'appliquent pas si le responsable du traitement ne peut pas (ou plus) identifier la personne concernée. 
 
-### 7. Retention of personal data
+Dans la première phase - avant que les utilisateurs ne téléchargent les TEK sur le serveur dorsal - seules des données sont traitées sur les smartphones des utilisateurs de CoronaMelder. Le ministère de la Santé, du Bien-être et du Sport et les GGD n'y ont pas accès. À ce stade, il n'est donc pas possible, par exemple, de donner suite à une demande de modification ou de suppression de données, bien que ces données soient bien entendu automatiquement supprimées du smartphone après un délai maximum de quatorze jours.
 
-The data stored locally on your smartphone will be retained for 14 days. After these 14 days, these data are automatically and permanently deleted. In addition, you are able to delete the stored data yourself at any time. 
+En raison de la nature « privacy by design » de l'application, il n'est pas possible non plus, après avoir téléchargé les TEK (puis les DK), de savoir quels codes concernent l'utilisateur contaminé. Il est techniquement impossible pour le ministère du Bien-être, de la Santé et des Sports et les GGD de relier les codes (temporairement) stockés sur le serveur dorsal à l'utilisateur qui a téléchargé ses TEK.
 
-In so far as your data are stored on the central server, they will be retained for 14 days from the time of uploading. After these 14 days, the data will be permanently deleted. 
+Comme il est impossible d'identifier l'utilisateur au moyen des codes, les droits en vertu des articles 15 à 20 inclus du RGPD ne sont donc pas applicables.
 
-IP addresses processed for administration and security purposes will be deleted after a maximum of 7 days.
+Les droits en vertu du RGPD n’auront donc en règle générale qu’à être appliqués de manière limitée, tout simplement parce que les données ne peuvent pas ou ne peuvent permettre de remonter à des personnes que de manière très limitée, ou parce que ces données n’existent plus dans la mesure où elles ne sont conservées que pour des courtes périodes. Ceci permet de respecter l’article 11 du RGPD, en vertu duquel les droits figurant aux articles 15 à 20 inclus de ce règlement ne sont plus applicables lorsque les personnes concernées ne peuvent plus être identifiées.
 
-### 8. Your rights with regard to your personal data
+Il est toutefois toujours possible de présenter un recours en invoquant votre droit à la protection de la vie privée. Vous pouvez adresser votre demande au GGD compétent de votre lieu de résidence. Vous pouvez compléter le code postal de votre domicile sur [www.GGD.nl](https://www.ggd.nl) pour identifier le GGD compétent pour votre lieu de résidence. Si vous n’avez pas d’adresse de résidence aux Pays-Bas, vous pouvez saisir le code postal de votre lieu de résidence.
 
-You have a number of rights to maintain control over your personal data. You can
-find them [here](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen) on the website of the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+Vous êtes toujours en droit de déposer une réclamation à propos du traitement de vos données à caractère personnel auprès du Conseil néerlandais pour la protection des données à caractère personnel (Autoriteit Persoonsgegevens) ou auprès des tribunaux. Vous trouverez plus d’informations  ici. 
 
-It is important to know in this respect that as long as you as a user have not come into contact with an infected person or have not agreed to provide data to the back-end server, the Ministry of Health, Welfare and Sport nor the GGD offices will process (personal) data of you as a user, because in that case the data will only be stored on the user's telephone. At that stage, therefore, the rights mentioned above cannot yet be exercised towards the Ministry of Health, Welfare and Sport and the GGD offices. 
+Vous trouverez les coordonnées du Responsable de protection des données du GGD pour votre lieu de résidence sur le site Web du GGD compétent.
 
-Owing to the privacy-by-design nature of the app, it is impossible to trace which codes belong to the infected user after uploading the TEKs (and subsequently DKs). It is technically impossible for the Ministry of Health, Welfare and Sport and the GGD offices to link the codes stored (temporarily) on the central server to users who uploaded their TEKs.
-This is also technically impossible for the user, as no insight is given into the data and calculations on which the alert is based. In addition, the user's TEKs are removed automatically and periodically (after 14 days). Because it is impossible to identify the user through the codes, Article 11(2) GDPR contains no reason to give effect to the data subject's rights as referred to in Articles 15 through 20 GDPR after the TEKs have been uploaded to the central server. 
+Vous trouverez les coordonnées du Responsable de protection des données du ministère de la Santé, du Bien-être et des Sports sur le site Web de ce ministère.
 
-However, it is still possible to make a request invoking your privacy rights. You may send your request to the GGD responsible in your place of residence. On 
-[www.GGD.nl](https://www.ggd.nl) you can enter the postal code of your home address to see which GGD is responsible in your place of residence.
+### 9. Sécurisation de vos données à caractère personnel
+Le ministère de la Santé, du Bien-être et des Sports et les GGD prennent la protection de vos données au sérieux et adoptent des mesures appropriées pour prévenir les abus, les pertes, les accès non autorisés, les divulgations non souhaitées et les modifications non autorisées.
 
-You always have the right to lodge a complaint about the processing of your personal data with the Dutch Data Protection Authority or before the courts. More information about this can be found [here](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
-
-### 9. Protection of your personal data
-
-The Minister of Health, Welfare and Sport and the GGD take the protection of your data seriously and take appropriate measures to prevent any abuse, loss, unauthorised access, undesired disclosures and unauthorised changes.
-
-### 10. Amendment of privacy statement
-
-This privacy statement is subject to amendment. In that case, we will publish the amended privacy statement on our website, after it will have immediate effect. You will be informed of any amendments relevant to you via the notifications in the app. 
-Most recent update: 12 August 2020
+### 10. Modification de la déclaration de protection de la vie privée
+La présente Déclaration de protection de la vie privée peut être modifiée. Dans ce cas, nous publierons la déclaration de protection de la vie privée modifiée sur notre site web, après quoi, cette déclaration de confidentialité sera immédiatement applicable.. 
+Dernière mise à jour : 10 septembre 2020

@@ -2,107 +2,102 @@
 layout: content
 lang: ar
 showBreadCrumbs: true
-title: Privacyverklaring
+title: بيان خصوصيه تطبيق التحذير من كورونا CoronaMelder
 ---
 
-## About CoronaMelder
+## نبذه عن CoronaMelder
 
-CoronaMelder (app) is a technical tool that helps limit the spread of the COVID-19 virus. If you have installed CoronaMelder on your smartphone, you will receive a message if you have been in the proximity (for some time) of a person who has tested positive for COVID-19, and this person has also installed CoronaMelder. If you may have been infected by another CoronaMelder user, the app recommends that you have yourself tested if you have any symptoms. Below we will briefly explain how CoronaMelder works.
+تطبيق التحذير من كورونا  CoronaMelder هو عبارة عن وسيلة تقنية للحدّ من انتشار فيروس كوفيد-19. بعد أن قمت بتنزيل تطبيق CoronaMelder على هاتفك، سوف تصلك رسالة فى حالة تواجدك لفتره زمنية معينة بالقرب من شخص قام بإجراء اختبار كوفيد-19 وتبين أن نتيجة الاختبار إيجابية وقام هذا الشخص أيضًا بتنزيل تطبيق CoronaMelder على هاتفه. فى حالة احتمال إصابتك عن طريق مستخدم آخر لـ CoronaMelder، سينصحك التطبيق بإجراء اختبار عند وجود أعراض. 
 
-The app recognises other smartphones on which the app is installed via Bluetooth Low Energy. The other smartphones are recognised using random codes (series of numbers) known as Rolling Proximity Indicators (RPIs). These codes are updated every 10 to 20 minutes, and are derived from Temporary Exposure Keys (TEKs). TEKs are also random codes, but are regenerated on a daily basis to be stored on the user's phone for 14 days. 
+فيما يلى، سنشرح باختصار كيفية عملCoronaMelder .
 
-If your smartphone is in proximity to another smartphone on which the app is installed, their respective RPIs are exchanged and stored locally on those phones. If an app user has tested positive for COVID-19, the user may voluntarily choose to report this in the app. If the user chooses to do so, the app will send the TEKs created in the past 14 days and stored locally on the smartphone to a central server. The central server will only accept transmitted TEKs if the user and the Dutch Municipal Health Service (GGD) have confirmed such transmission with an authorisation code. On the central server, the TEKs received are converted into other codes known as Diagnosis Keys (DKs). 
+يقوم التطبيق عن طريق Bluetooth Low Energy بالتعرّف على الهواتف الاخرى التي  تستخدم التطبيق. يتم التعرّف على الهواتف الذكية الأخرى عن طريق رموز عشوائية (سلسلة من الأرقام) تسمى بـ (RPIs) Rolling Proximity Indicators . يتم تحديث هذه الرموز كل 10 إلى 20 دقيقة وهي مشتقة مما يسمى بـ Temorary Exposure Keys (TEKs). تعد TEKs أيضًا رموزًا عشوائية، إلا أنه يتم تجديد هذه الرموز كل يوم والاحتفاظ  بها على هاتف المستخدم لمدة 14 يومًا. 
 
-The central server then makes the DKs available for automatic download by the smartphones on which the app is installed. After your smartphone has downloaded the DKs from the server, the phone will be disconnected from the server. This automated process is repeated several times per day to keep any contamination risks up-to-date. Your smartphone then calculates on the basis of the downloaded DKs whether there is a match with the various RPIs of other smartphones that have been in proximity to your smartphone. Immediately thereafter, the DKs will be removed from your smartphone. 
+عندما يكون هاتفك بالقرب من هاتف آخر تم تثبيت التطبيق عليه، فسيتم تبادل رموزالـ RPIs بين الهواتف وتخزينها على هذه الهواتف. إذا كانت نتيجة اختباركوفيد-19 لمستخدم التطبيق إيجابية،  فمن الممكن  للمستخدم أن يقوم بإنشاء تبليغ لهذه الإصابة طواعية عن طريق التطبيق. إذا تم اختيار ذلك، فسيرسل التطبيق الـ TEKs التى تم إنشاؤها فى آخر 14 يوم  وتخزينها على الهاتف في الواجهة الخلفية للخادم. تقبل الواجهة الخلفية للخادم الـ TEKs المرسلة إذا قام كل من المستخدم وخدمة الصحة البلدية (الـGGD) تأكيد الإرسال من خلال رمز التحقق. يتم في الواجهة الخلفية للخادم تحويل الـ TEKs الى رمز آخر يسمى بـ  Diagnosis Keys (DKs) .
 
-If there is a match, an assessment is made using a number of weighting factors as to whether there has been high-risk contact. If that is the case — in other words, if you have recently been in close proximity to a person infected with COVID-19 — you will be notified that there is an increased risk of contamination. The app also recommends having yourself tested for contamination with the virus if you have any symptoms.
+بعدها تقوم الواجهة الخلفية للخادم بتوفير الـ DKs للاستخدام، بحيث يتم تحميلها بشكل أوتوماتيكي عن طريق الهواتف التى تم تثبيت التطبيق عليها. عندما يقوم هاتفك باسترداد الـ DKs من الخادم، سيتم فقدان الاتصال بالخادم. تتكررهذه العمليه الآلية عدة مرات فى اليوم لمتابعة احتمالية خطر العدوى. بعدها يقوم هاتفك على أساس الـ DKs المستحضرة حساب ما إذا كان هناك تطابق مع الـ RPIs المختلفه القادمة من الهواتف الأخرى والتي كانت متواجدة بالقرب من هاتفك. بعدها مباشرة يتم حذف الـ DKs من على هاتفك.
 
-## The field test
+في حالة وجود تطابق، يتم تحديد ما إذا كان هناك احتكاك محفوف بالمخاطرعلى أساس عدد من عوامل الترجيح. إذا كان الأمر كذلك, بعبارة أخرى، إذا كنت قريبًا من شخص مصاب بـ كوفيد-19، فسيتم إبلاغك بزيادة خطر الإصابة. ينصحك التطبيق أيضًا بإجراء اختبار الإصابة بالفيروس في حالة وجود أعراض. 
 
-The field test will start on 17 August and will be conducted in collaboration with the Twente, Drenthe, Gelderland Zuid, Noord-Oost Gelderland and IJsselland GGD offices. Other GGD offices do not yet work with CoronaMelder at the time of the field test. CoronaMelder is available to all users in the app stores. You can therefore also download CoronaMelder even if you do not live in the geographical area of these field test regions. Only users living in the geographical area of the participating GGD regions can successfully upload the TEKs to the central server, because this requires an authorisation code from the GGD office. CoronaMelder's other functions remain the same.
+### 01. من المسؤول عن معالجة البيانات الشخصية؟
+وزير الصحة والرفاهية والرياضة هو المسؤول عن المعالجة طالما يتم معالجة البيانات الشخصية في تصميم وإدارة CoronaMelder.
 
-### 1. Who is responsible for the processing of the personal data?
+طالما  تقوم الـ GGD باستخدام البيانات الشخصية التي تم الحصول عليها عبر التطبيق لتتبع المصدر والاحتكاك، فإن الـ GGD في منطقتك هي المتحكمة. من خلال الموقع [www.GGD.nl](https://www.ggd.nl) يمكنك العثور على الـ GGD التي تخضع لها وذلك من خلال إدخال الرمز البريدي لعنوان منزلك. إذا لم يكن لديك عنوان سكني في هولندا، يمكنك إدخال الرمز البريدي لمكان إقامتك.
 
-To the extent personal data are processed in the design and management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
+### 02.	 ما الهدف من معالجة البيانات الشخصيه؟
+تم تطوير هذا التطبيق كتكملة لتتبع مصدر العدوى والاحتكاك الخاص بـالـ GGD. والغرض منه هو إعلام المستخدمين الذين هم أكثر عرضة للإصابة بطريقة سريعة وسهلة، مع الحرص الشديد على عدم  الكشف عن هويتهم.
 
-In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](https://www.ggd.nl) to find your GGD by entering the postal code of your home address.
+### 03.	 أساس معالجة البيانات الشخصيه
+يمكن معالجة البيانات الشخصية في التطبيق. إن أساس معالجة البيانات الشخصية هو باختصار تأدية خدمة عامة. بالنسبة لوزير الصحة والرفاهية والرياضة، فإن هذا ينطوي على الخدمة العامة، وهي باختصار إدارة مكافحة COVID-19 والحفاظ على بنية الدعم على صعيد الوطن وتحسينها.
 
-### 2. For what purpose are personal data processed?
+بالنسبة لـلـ GGD، يتعلق الأمر بمهمة تتبع المصدر والاحتكاك من خلال الإشعارات عند التعرض للإصابة بـ COVID-19.
 
-This app has been developed as an addition to source and contact tracing by the GGD. Its purpose is to quickly and easily inform users who have an increased risk of infection, while ensuring a high degree of anonymity. 
+وبالتالي فإنه من خلال استخدام CoronaMelder كوسيلة دعم لتتبع المصدر والاحتكاك، يتم تأدية الخدمات العامة المذكورة أعلاه لكل من وزير الصحة والرفاهية والرياضة و الـ GGD.
+أن استخدام CoronaMelder  طوعي. لذلك يطلب CoronaMelder موافقتك قبل أن تتمكن من استخدام التطبيق. إذا لم تقم بمنح الإذن ،فلن تتمكن من استخدام CoronaMelder. سيُطلب موافقتك أيضًا قبل أن تتمكن -إذا كان الاختبار إيجابي- من مشاركة بياناتك مع الـ GGD.
 
-### 3. Basis for processing personal data
+### 04.	 ما هي البيانات الشخصية التي يتم معالجتها؟
+فى التطبيق يتم التعامل مع البيانات التاليه :
 
-Personal data can be processed in the app. The basis for the processing of personal data is the explicit consent given by users for the processing of their personal data. Users must give explicit consent before the app can be used, and before users — when they have tested positive — can share their data with the GGD. The app cannot be used unless such consent is given. 
+* Rolling Proximity indicators (RPIs)
+* Temporary Exposure Keys (TEKs)
+* Diagnosis Keys (DKs)
+* عنوان وهمى للتعرف على الهاتف
+* شدة الإشارة و مدة الاتصال
+* أول يوم مرض
+* رمز التحقق 
+* نسبة خطر التعرض (عالية ، متوسطة ، منخفضة)
+* IP-adresعنوان بروتوكول الانترنت 
 
-### 4. What personal data are processed?
+قد تكون هذه البيانات بيانات شخصية.
 
-The following data are processed in the app:
+TEK هو عبارة عن سلسله من الارقام العشوائية المشفّرة تستخدم كمرجع مؤقت وهى تتحول في الواجهة الخلفية للخادم من TEKs إلى DKs. بالإضافة إلى ذلك، يتم كل 10 إلى 20 دقيقة إنشاء RPI, أي سلسلة أرقام مؤقته يتم إنشاؤها أيضًا بشكل مشفّر. يُشتق هذا التسلسل الرقمي من الـ TEK، ويتم تبادله مع الهواتف الأخرى التي تم تثبيت التطبيق عليها والتي كانت موجودة بالقرب من الهاتف المعني لفترة زمنية محددة. يتم تلقي الـ RPIs وإرسالها عبر الـ Bluetooth منخفض الطاقة. لذلك يتم استخدام الـ RPI بالتوافق مع شدة الإشارة، سواء المرسلة أم المستقبلة (لتحديد المسافة بين المستخدمين)، ومدة الاتصال (Bluetooth). سيتم حذف الـ RPIs المستلمة من الهواتف بعد 14 يومًا.
 
-- Rolling Proximity Indicators (RPIs)
-- Temporary Exposure Keys (TEKs)
-- Diagnosis Keys (DKs)
-- pseudo MAC address
-- signal strength and duration of contact
-- authorisation code
-- Exposure Risk Value (high, mid, low)
-- IP address
+TEKs, DKs, RPIs عبارة عن مفاتيح تعريف ذات أسماء مستعارة.
 
-These data may be personal data.
+للحد من مخاطر التعرف على هوية المستخدمين قدر الإمكان، يتم عند تبادل الارقام العشوائية المشفرة RPIs استبدال عنوان التعرف على الهاتف MAC-adres (وهو عبارة عن رقم جهاز فريد لناقل الـ Bluetooth)، برمز وهمي تم إنشاؤه عشوائيًا, وهو  MAC-adresمزيف. يتم تغيير هذا الرمز كما هو الحال مع الـ RPIs، كل 10 إلى 20 دقيقه .
 
-A TEK is a randomly, cryptographically generated series of numbers serving as a temporary reference. TEKs are converted into DKs on the central server. In addition, an RPI is generated every 10 to 20 minutes, which is a temporary series of numbers that are also cryptographically generated. This series of numbers is a derivative of a TEK, and is exchanged with other smartphones on which the app is installed, and which have been in close proximity to the smartphone concerned for a specific period of time. The RPIs are transmitted and received via Bluetooth Low Energy and are thus used in combination with the signal strengths of both transmission and reception (to determine the distance between users), and the duration of the (Bluetooth) contact. The RPIs received are removed from the smartphones after 14 days. 
+يتم إنشاء رمز التحقق باستخدام وظيفة متوفرة ومعروضة في التطبيق. يتم استخدام رمز التحقق من قبل الـ GGD للتحقق من صحة الـ TEKs المرسلة إلى الـ GGD. تضع الـ GGD رمز التحقق هذا، مع تاريخ اليوم الأول للمرض، في بوابة الـ GGD. بوابة الـ GGD هذه متاحة فقط لموظفي الـ GGD. لا تقبل الواجهة الخلفية للخادم TEKs من المستخدمين إلا إذا تم توفير رمز تحقق تم التحقق من صحته بهذه الطريقة من قبل الـ GGD. أثناء مرحلة التحقق من الصحة، يتم معالجة الـ IP-adres  لأغراض التحكم والحماية.
 
-TEKs, DKs and RPIs are all pseudonymised identification keys.
+بالإضافة إلى الـ DKs واليوم الأول للمرض ورمز التحقق، يتم أيضًا إرسال الـ IP-adres إلى الواجهة الخلفية للخادم. هذا مرتبط بالضرورة باستخدام الإنترنت وتكنولوجيا IP. يتم تخزين الـ IP-adres بشكل منفصل عن البيانات الأخرى، بحيث لا يتم تخزين الـ IP-adres في الواجهة الخلفية للخادم. نتيجة لذلك، لا يمكن معرفة من قام بإرسال المعلومات ولا محتوى المعلومات التي قام بإرسالها . 
 
-In order to minimise the risk of users being identified, when TEKs are exchanged, the MAC address (a unique hardware number of the Bluetooth transmitter) of the smartphone is replaced by a randomly generated code, a pseudo MAC address, which, like the TEKs, changes every 10 to 20 minutes. 
+### 05.	 البيانات الإحصائية
+تستخدم البيانات التى تم الحصول عليها عن طريق التطبيق فقط للاغراض المذكورة في بيان الخصوصية هذا. لا يتم إنشاء معلومات إحصائية.
 
-The authorisation code is generated through a functionality provided by the app and is shown in the app. The authorisation code is used by the GGD to validate the TEKs sent to the GGD. The GGD places this authorisation code, with the date of the first day of illness, in the GGD portal. This GGD portal is only accessible to GGD employees. The central server only accepts user TEKs if an authorisation code is provided that has been validated by the GGD in this manner. During the validation phase, IP addresses are processed for administration and security purposes.
+### 06.	 لمن يتم اعطاء البيانات الشخصية؟
+يتم إرسال و استقبال الـ RPIs محليًا على الهواتف. إذا تبين أن هناك إصابة، يمكن للمستخدم أن يختار إرسال الـ TEKs الخاصة به مع رمز التحقق الفريد من نوعه الى  الواجهة الخلفية للخادم. يتم التحكم بالواجهة الخلفية للخادم بواسطة CIBG مع KPN كمقاول فرعي (معالج).
 
-After validation, for each DK the date of the first day of illness is compared with the date of the newly received TEKs. On that basis, the central server determines the Exposure Risk Value (high, mid, low).
+تقوم الـ GGD بمعالجة رمز التحقق في بوابة الـ GGD الالكترونية في التطبيق ، مع تاريخ اليوم الأول للمرض. يستطيع فقط موظفي الـ GGD المصرّح لهم بدخول البوابة.
 
-In addition to the DKs, the first day of illness and authorisation code, the IP address of the user's smartphone is sent to the central server. This is inherent to the use of Internet and IP technology. The IP address is stored separately from the other data, so that no IP addresses are stored on the central server. As a result, it is impossible to trace who sent which information.
+تقوم الهواتف الذكية للمستخدمين الآخرين عدة مرات في اليوم باستحضار الـ DKs  الموجودة في الواجهة الخلفية للخادم.
 
-### 5. Statistical information
+### 07.	 حفظ البيانات الشخصيه
+يتم تخزين البيانات المخزنة محليًا على هاتفك الذكي لمدة 14 يومًا. يتم حذف هذه البيانات تلقائيًا وبشكل نهائي بعد 14 يومًا. يمكنك أيضًا حذف البيانات المحفوظة بنفسك في أي وقت.
 
-The data collected with the app will only be used for the purposes stated in this privacy statement. No statistical information is generated. 
+طالما يتم تخزين البيانات الخاصة بك على الجهة الحلفية للخادم، فسيتم تخزين البيانات لمدة 14 يومًا من وقت التحميل. سيتم حذف البيانات بعد 14 يومًا.
 
-### 6. Who is provided with personal data?
+يتم حذف الـ  IP-adressenالتي تم معالجتها لأغراض التحكم والحماية بعد مدة أقصاها 7 أيام.
 
-The sending and receiving of RPIs takes place locally on users' smartphones. Once an infection has been detected, the user can choose to send his or her TEKs, along with a unique authorisation code, to the central server. The central server is administered by the CIBG with KPN as subcontractor (processor).
+### 08.	 حقوقك بخصوص بياناتك الشخصية
+ لديك عدة حقوق من أجل التحكم في بياناتك الشخصية. يمكنك أن تجدها هنا على الصفحه الخاصة بالتحكم في البيانات الشخصية.
 
-The GGD processes the authentication code, with the date of the first day of illness, in the app's GGD portal, which is only accessible to authorised GGD employees.
+نظرًا لأن CoronaMelder مصمم وفقًا لمبادئ تقليل البيانات والخصوصية في التصميم، ستتمكن من المطالبة بحقوقك وفقًا للقانون العام لحماية البيانات (AVG) على نطاق محدود. فتتم معالجة نسبة محدودة من البيانات فقط. علاوة على ذلك، يكاد يكون من المستحيل تتبع البيانات ويتم تخزينها فقط لفترة قصيرة. يترتب على المادة 11 من القانون العام لحماية البيانات (AVG) بأن الحقوق الواردة في المواد 15 لغاية 20 من القانون العام لحماية البيانات (AVG) لا تنطبق إذا لم يتمكن المتحكم (بعد الآن) من تحديد هوية المعني بالأمر.
 
-The smartphones of other users periodically – a few times a day – retrieve the data stored on this central server. 
+في المرحلة الأولى - وقبل تحميل المستخدمين TEK إلى الواجهة الخلفية للخادم - تتم معالجة البيانات فقط على الهواتف الذكية لمستخدمي CoronaMelder. ليس لدى وزير الصحة والرفاهية والرياضة والـ GGD حق الدخول إلى هذه البيانات. لا يمكن في هذه المرحلة على سبيل المثال تلبية طلب تغيير البيانات أو حذفها، على الرغم من أن هذه البيانات ستختفي بالطبع تلقائيًا من الهاتف بعد أربعة عشر يومًا كحد أقصى.
+ 
+بسبب تصميم التطبيق على أساس مبدأ "الخصوصية عن طريق التصميم")   (privacy by design ،لا يمكن معرفة الرموز المتعلقة بالمستخدم المصاب  حتى عند إدخال الـ TEKs ( فيما بعد DKs (. لا يمكن لوزارة الصحه والرفاهية والرياضة VWS والـ GGD من الناحية التقنية ربط الرموز المحفوظة (مؤقتًا) على الواجهة الخلفية من الخادم، بالمستخدم الذي قام بتحميل TEKs الخاصة به. نظرًا لاستحالة التعرف على هوية المستخدم عن طريق الرموز، فإن  المواد 15 لغاية 20 من قانون حماية البيانات الشخصية لا تنطبق.
 
-### 7. Retention of personal data
+وبشكل عام، ضرورة تنفيذ حقوق حماية البيانات الشخصية سيكون محدودًا، لأنه ببساطة لا يمكن تتبع بيانات المستخدم أو يمكن فقط تتبع بيانات المستخدم على نطاق محدود للغاية أو لأن هذه البيانات لم تعد متاحة بسبب فترات الاحتفاظ القصيرة الأمد. يتماشى هذا مع المادة 11 من قانون حماية البيانات الشخصية، والتي يترتب عليها أن الحقوق المدرجة في المواد 15 لغاية 20 من القانون العام لحماية البيانات لا تنطبق إذا لم يعد من الممكن تحديد هوية المعنيين بالأمر.
 
-The data stored locally on your smartphone will be retained for 14 days. After these 14 days, these data are automatically and permanently deleted. In addition, you are able to delete the stored data yourself at any time. 
+إلا أن إمكانية تقديم طلب للمطالبة بحقوقك المتعلقة بالخصوصية تظل قائمة. يمكنك إرسال طلبك إلى الـ GGD المسؤولة في مكان سكنك. يمكنك من خلال الموقع [www.GGD.nl](https://www.ggd.nl) إدخال الرمز البريدي لعنوان سكنك لمعرفة من هي الـ GGD المسؤولة في مكان سكنك. إذا لم يكن لديك عنوان سكني في هولندا، فيمكنك إدخال الرمز البريدي لمكان إقامتك.
 
-In so far as your data are stored on the central server, they will be retained for 14 days from the time of uploading. After these 14 days, the data will be permanently deleted. 
+لديك دائمًا الحق في تقديم شكوى بخصوص معالجة بياناتك الشخصية إلى هيئة حماية البيانات الهولندية أو إلى المحكمة. يمكنك العثورعلى المزيد من المعلومات حول هذا هنا.
 
-IP addresses processed for administration and security purposes will be deleted after a maximum of 7 days.
+يمكن العثور على تفاصيل الاتصال الخاصة بمسؤول حماية البيانات لدى الـ GGD المسؤولة في مكان إقامتك عبر الموقع الالكتروني  لمكتب الـ GGD هذا.
 
-### 8. Your rights with regard to your personal data
+يمكن العثور على تفاصيل الاتصال بمسؤول حماية البيانات في وزارة الصحة والرعاية والرياضة على الموقع الإلكتروني لهذه الوزارة.
 
-You have a number of rights to maintain control over your personal data. You can
-find them [here](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen) on the website of the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+### 09.	 حماية بياناتك الشخصية
+يأخذ كل من وزير الصحة والرفاهية والرياضة والـGGD  حماية بياناتك على محمل الجد ويتخذان التدابير المناسبة لمنع سوء الاستخدام والضياع  والوصول غير المصرح به إلى هذه البيانات والنشر غير المرغوب فيه أو إدخال التعديلات غير المصرّح بها.
 
-It is important to know in this respect that as long as you as a user have not come into contact with an infected person or have not agreed to provide data to the back-end server, the Ministry of Health, Welfare and Sport nor the GGD offices will process (personal) data of you as a user, because in that case the data will only be stored on the user's telephone. At that stage, therefore, the rights mentioned above cannot yet be exercised towards the Ministry of Health, Welfare and Sport and the GGD offices. 
-
-Owing to the privacy-by-design nature of the app, it is impossible to trace which codes belong to the infected user after uploading the TEKs (and subsequently DKs). It is technically impossible for the Ministry of Health, Welfare and Sport and the GGD offices to link the codes stored (temporarily) on the central server to users who uploaded their TEKs.
-This is also technically impossible for the user, as no insight is given into the data and calculations on which the alert is based. In addition, the user's TEKs are removed automatically and periodically (after 14 days). Because it is impossible to identify the user through the codes, Article 11(2) GDPR contains no reason to give effect to the data subject's rights as referred to in Articles 15 through 20 GDPR after the TEKs have been uploaded to the central server. 
-
-However, it is still possible to make a request invoking your privacy rights. You may send your request to the GGD responsible in your place of residence. On 
-[www.GGD.nl](https://www.ggd.nl) you can enter the postal code of your home address to see which GGD is responsible in your place of residence.
-
-You always have the right to lodge a complaint about the processing of your personal data with the Dutch Data Protection Authority or before the courts. More information about this can be found [here](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
-
-### 9. Protection of your personal data
-
-The Minister of Health, Welfare and Sport and the GGD take the protection of your data seriously and take appropriate measures to prevent any abuse, loss, unauthorised access, undesired disclosures and unauthorised changes.
-
-### 10. Amendment of privacy statement
-
-This privacy statement is subject to amendment. In that case, we will publish the amended privacy statement on our website, after it will have immediate effect. You will be informed of any amendments relevant to you via the notifications in the app. 
-Most recent update: 12 August 2020
-
+### 10 .	 تغيير فى البيانات الشخصيه 
+أن بيان الخصوصية هذا عرضة للتغيير. سنقوم في هذه الحالة بنشر بيان الخصوصية المعدّل على موقعنا، وسيصبح بيان الخصوصية هذا بعدها مباشرة ساري المفعول. آخر تحديث: 10 سبتمبر/أيلول 2020
