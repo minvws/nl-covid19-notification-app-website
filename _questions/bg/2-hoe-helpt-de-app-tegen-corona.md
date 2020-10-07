@@ -1,22 +1,23 @@
 ---
 layout: content
 index: 2
-title: Hoe helpt de app tegen corona?
-lang: nl
+title: Как приложението помага в борбата с коронавируса?
+summary: "CoronaMelder изпраща предупреждение, след като си бил близо до някого с коронавирус."
+lang: bg
 categories:
-- nl
+- bg
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
+featuredHomeText: "CoronaMelder изпраща предупреждение, след като си бил близо до някого с коронавирус."
 ---
 
-Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.
- 
-Als je via de app een waarschuwing krijgt, blijf dan thuis tot 10 dagen na de datum van het contact met een besmette persoon. Zo voorkom je dat je bijvoorbeeld je (groot)ouders besmet. Of dat je het virus verspreidt op een drukke plek, zoals de markt of een sportevenement. 
+Още преди да почувстваш някакви симптоми, е възможно да предадеш вируса на други хора. Колкото по-бързо се разбере дали някой има коноравирус, толкова по-ефективно ще бъде предотвратяването на нови заразявания. CoronaMelder помага за това. 
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
+Затова остани вкъщи до 10 дни след датата на контакта със заразоносител.
+Така ще попречиш например на заразяването на твоите родители или баба и дядо. Или на разпространението на вируса на оживени места като пазар или спортно събитие.  
+Имал си симптоми през тези 10 дни или след това? Свържи се с Общинската здравна инспекция (GGD), за да си направиш тест.
 

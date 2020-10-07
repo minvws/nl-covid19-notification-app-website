@@ -1,26 +1,24 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: Какво трябва да правя, ако получа известие?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: Съветваме те да си останеш вкъщи до 10 дни след датата на контакта. Имаш ли симптоми? Направи си тест.  
+lang: bg
 categories:
-- nl
+- bg
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Съветваме те да си останеш вкъщи до 10 дни след датата на контакта. Имаш ли симптоми? Направи си тест.  
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Ако получиш известие, значи си бил близо до някого, при когото по-късно е установено инфектиране с коронавирус. Не изпадай в паника, все още не е напълно сигурно, че си инфектиран с коронавирус. Бил си изложен на повишен риск от заразяване, възможно е да си се заразил. 
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Затова си остани вкъщи до 10 дни след датата на контакта със заразоносителя. Така ще предотвратиш заразяване на други хора.
 
+Имал си симптоми през тези 10 дни или след това? Свържи се с Общинската здравна инспекция (GGD), за да си направиш тест.
+Обади се на 0800-1202, за да заявиш безплатен тест за коронавирус.

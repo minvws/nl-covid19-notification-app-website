@@ -2,19 +2,20 @@
 layout: content
 index: 5
 set: 2
-title: Hoe zit het met mijn privacy?
-lang: nl
+title: Как се защитават моите лични данни?
+summary: Приложението работи, без да използва данни за местоположението ти, имейл адреса, телефонния номер или други данни за контакт с теб.
+lang: bg
 categories:
-- nl
+- bg
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+featuredHomeText: Приложението работи, без да използва данни за местоположението ти, имейл адреса, телефонния номер или други данни за контакт с теб.
 ---
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+Приложението обменя произволни кодове с други телефони. В тези кодове не се съдържат лични данни или данни за местонахождението ти. Така че приложението не знае кой си, нито къде си бил.
+
+Дори ако се заразиш с коронавирус и уведомиш за това чрез приложението, това няма да се обвърже с твоето име и данните ти за контакт. Освен това използваш приложението напълно доброволно. 

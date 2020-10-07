@@ -1,7 +1,8 @@
 ---
 layout: content
 index: 4
-title: Wanneer krijg ik een melding?
+title: Кога ще получа известие?
+summary: Когато си бил близо до някого, който след срещата ви си е направил тест и има коронавирус.
 lang: nl
 categories:
 - nl
@@ -11,23 +12,23 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
-featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
+featuredHomeText: Когато си бил близо до някого, който след срещата ви си е направил тест и има коронавирус.
 ---
 
-Je krijgt een waarschuwing nadat:
-- iemand via CoronaMelder samen met de GGD aangeeft het coronavirus te hebben,
-- én jij in de afgelopen dagen in de buurt bent geweest van die persoon,
-- én jullie toen minstens 15 minuten dicht bij elkaar waren.
+Ще получиш предупреждение, след като:
+* някой през CoronaMelder заедно с GGD се е регистрирал като заразоносител
+* и ти през изминалите дни си се намирал в близост до този човек,
+* и двамата в продължение на поне 15 минути сте били близо един до друг.
  
-Je was bijvoorbeeld:
-- bij een borrel of etentje,
-- in een winkel,
-- in een rij aan het wachten,
-- aan het reizen,
-- aan het sporten,
-- aan het werk,
-- op school,
-en krijgt dan later een melding.
- 
-Maar fietste iemand voorbij? Dan krijg je geen melding: jullie waren maar kort bij elkaar in de buurt.
 
+Бил си например:
+* навън за питие или хапване,
+* в магазин,
+* на опашка,
+* в превозно средство,
+* на място за спорт,
+* на работа,
+* на училище,
+така че в последствие ще получиш известие.
+ 
+Но ако някой само е минал покрай теб на велосипед? Тогава няма да получиш известие: двамата сте били само за кратко близо един до друг.
