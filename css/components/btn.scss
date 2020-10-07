@@ -42,3 +42,9 @@
     max-width: 330px;
   }
 }
+
+@media (min-width: 740px) {
+  [lang="bg"] .btn--large {
+    max-width: 700px;
+  }
+}
