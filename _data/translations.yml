@@ -5,7 +5,7 @@ head-app-name:
   bg: CoronaMelder
   de: CoronaMelder
   fr: CoronaMelder
-  sp: CoronaMelder
+  es: CoronaMelder
   pl: CoronaMelder
   ro: CoronaMelder
   tr: CoronaMelder
@@ -16,7 +16,7 @@ head-social-og-site_name:
   bg: CoronaMelder
   de: CoronaMelder
   fr: CoronaMelder
-  sp: CoronaMelder
+  es: CoronaMelder
   pl: CoronaMelder
   ro: CoronaMelder
   tr: CoronaMelder
@@ -28,7 +28,7 @@ head-social-og-title:
   de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
   es: Evita la propagación del coronavirus, descárgate CoronaMelder
   fr: Évitez la diffusion du coronavirus, téléchargez CoronaMelder
-  po: Zapobiegaj rozprzestrzenianiu, pobierz CoronaMelder
+  pl: Zapobiegaj rozprzestrzenianiu, pobierz CoronaMelder
   ro: Evitați răspândirea, descărcați CoronaMelder
   tr: Yayılmayı önleyin, CoronaMelder'ı indirin
   
@@ -39,7 +39,7 @@ head-social-og-description:
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
   de: Das Coronavirus ist immer noch unter uns. Deshalb ist es wichtig, gerade jetzt wachsam zu bleiben. Deshalb ist CoronaMelder nun für die gesamten Niederlande verfügbar.
   fr: Le coronavirus est toujours là. Il est donc important justement maintenant de rester vigilant. C’est pour cela que l’application CoronaMelder est disponible pour tous aux Pays-Bas.
-  sp: El coronavirus sigue entre nosotros. En estos momentos es muy importante no bajar la guardia. Para eso tenemos la app CoronaMelder, disponible ya para todos los Países Bajos.
+  es: El coronavirus sigue entre nosotros. En estos momentos es muy importante no bajar la guardia. Para eso tenemos la app CoronaMelder, disponible ya para todos los Países Bajos.
   pl: 
   ro: Coronavirus este încă activ. Deci, tocmai acum este important ca să fim alterți. De aceea, CoronaMelder este acum disponibilă pentru întreaga Olandă.
   tr: Korona virüsü hala aramızda. Yani şu anda tetikte olmak önemlidir. Bu nedenle CoronaMelder artık tüm Hollanda için kullanılabilir durumda.
@@ -51,7 +51,7 @@ head-social-og-image-url:
   bg: head-social-og-image--nl.png?v=3
   de: head-social-og-image--nl.png?v=3
   fr: head-social-og-image--nl.png?v=3
-  sp: head-social-og-image--nl.png?v=3
+  es: head-social-og-image--nl.png?v=3
   pl: head-social-og-image--nl.png?v=3
   ro: head-social-og-image--nl.png?v=3
   tu: head-social-og-image--nl.png?v=3
@@ -64,7 +64,7 @@ head-social-og-image-alt:
   de: Eindruck der Website mit Erläuterungen
   es: Impresión del sitio web en el que se puede encontrar más información
   fr: Impression du site Web où l'on peut trouver des explications
-  po: Podgląd strony internetowej, na której można znaleźć wyjaśnienie
+  pl: Podgląd strony internetowej, na której można znaleźć wyjaśnienie
   ro: Impresia site-ului web unde se pot găsi informații
   tr: Açıklamanın bulunabileceği web sitesinin izlenimi
   
@@ -76,7 +76,7 @@ page-title:
   de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
   es: Evita la propagación del coronavirus, descárgate CoronaMelder
   fr: Évitez la diffusion du coronavirus, téléchargez CoronaMelder
-  po: Zapobiegaj rozprzestrzenianiu, pobierz CoronaMelder
+  pl: Zapobiegaj rozprzestrzenianiu, pobierz CoronaMelder
   ro: Evitați răspândirea, descărcați CoronaMelder
   tr: Yayılmayı önleyin, CoronaMelder'ı indirin
   
@@ -88,7 +88,7 @@ header-skip-to-content:
   de: Direkt zum Inhalt
   es: Saltar al contenido
   fr: Passez directement au contenu
-  po: Przejdź do zawartości
+  pl: Przejdź do zawartości
   ro: Accesați direct cuprinsul
   tr: Doğrudan içeriğe gidin
   
@@ -100,7 +100,7 @@ header-title:
   de: " Verhindern Sie die<br /> Ausbreitung des Virus.<br /> Laden Sie CoronaMelder herunter."
   es: " Evita la propagación del<br /> coronavirus, descárgate CoronaMelder"
   fr: " Évitez la diffusion du<br /> coronavirus, téléchargez CoronaMelder"
-  po: " Zapobiegaj rozprzestrzenianiu,<br /> pobierz CoronaMelder"
+  pl: " Zapobiegaj rozprzestrzenianiu,<br /> pobierz CoronaMelder"
   ro: " Evitați răspândirea,<br /> descărcați CoronaMelder"
   tr: " Yayılmayı önleyin,<br /> CoronaMelder'ı indirin"
   
@@ -112,7 +112,7 @@ header-appstore:
   de: Vom App Store herunterladen
   es: Descargar de la App Store
   fr: Téléchargez dans l'App Store
-  po: Pobierz w App Store
+  pl: Pobierz w App Store
   ro: Descărcați din App Store
   tr: App Store'dan indirin
   
@@ -124,7 +124,7 @@ header-googleplaystore:
   de: Über Google Play herunterladen
   es: Descargar de Google Play
   fr: Téléchargez dans la Google Play
-  po: Pobierz w Google Play
+  pl: Pobierz w Google Play
   ro: Descărcați din Google play
   tr: Google Play'den indirin  
   
@@ -136,7 +136,7 @@ header-language-picker-label:
   de: Sprache
   es: Idioma
   fr: Langue
-  po: Język
+  pl: Język
   ro: Limbă
   tr: Dil
   
@@ -148,7 +148,7 @@ header-language-picker-switch-lang:
   de: Sprache ändern
   es: Cambiar idioma
   fr: Changer de langue
-  po: Zmiana języka
+  pl: Zmiana języka
   ro: Schimbați limba
   tr: Dili değiştir
   
@@ -160,7 +160,7 @@ header-language-picker-current-lang:
   de: jetzige Sprache
   es: Idioma actual
   fr: Langue actuelle
-  po: Aktualny język
+  pl: Aktualny język
   ro: Limba actuală
   tr: mevcut dil
   
@@ -179,7 +179,7 @@ govlogo:
   de: Home
   es: Inicio
   fr: Accueil
-  po: Strona główna
+  pl: Strona główna
   ro: Pagina inițială
   tr: Anasayfa
   
@@ -190,7 +190,7 @@ phone-action:
   bg: <a href="tel:0800-1280">0800-1280</a>
   de: <a href="tel:0800-1280">0800-1280</a>
   fr: <a href="tel:0800-1280">0800-1280</a>
-  sp: <a href="tel:0800-1280">0800-1280</a>
+  es: <a href="tel:0800-1280">0800-1280</a>
   pl: <a href="tel:0800-1280">0800-1280</a>
   ro: <a href="tel:0800-1280">0800-1280</a>
   tu: <a href="tel:0800-1280">0800-1280</a>
@@ -203,7 +203,7 @@ minvws:
   de: "Ministerium für Gesundheit,<br/>Gemeinwohl und Sport"
   es: "Ministerio de Salud,<br/>Bienestar y Deporte"
   fr: "Ministère de la Santé, <br/> du Bien-être et des Sports"
-  po: "Ministerstwo Zdrowia,<br/>Opieki Społecznej i Sportu"
+  pl: "Ministerstwo Zdrowia,<br/>Opieki Społecznej i Sportu"
   ro: "Ministerul Sănătății Publice, <br/> Bunăstării și Sportului"
   tr: "Sağlık,<br/>Refah ve Spor Bakanlığı"
   
@@ -215,7 +215,7 @@ watch:
   de: Film anschauen
   es: Ver el vídeo
   fr: Regarder la vidéo
-  po: Obejrzyj film
+  pl: Obejrzyj film
   ro: Vizionați filmul
   tr: Filmi seyret
   
@@ -227,7 +227,7 @@ watch:
 #   de: von
 #   es: de
 #   fr: de
-#   po: z
+#   pl: z
 #   ro: din
 #   tr: itibaren
   
@@ -239,7 +239,7 @@ x-of-y:
   de: von
   es: de
   fr: de
-  po: z
+  pl: z
   ro: din
   tr: itibaren
       
@@ -251,7 +251,7 @@ readmore:
   de: Mehr Infos
   es: Más información
   fr: Plus d’explications
-  po: Więcej informacji
+  pl: Więcej informacji
   ro: Mai multe explicații
   tr: Daha fazla açıklama
 
@@ -263,7 +263,7 @@ readmore-about_screen-reader:
   de: über
   es: sobre
   fr: à propos
-  po: o
+  pl: o
   ro: despre
   tr: hakkında
 
@@ -275,7 +275,7 @@ faq:
   de: Häufig gestellte Fragen
   es: Preguntas frecuentes
   fr: Questions fréquemment posées
-  po: Najczęściej zadawane pytania
+  pl: Najczęściej zadawane pytania
   ro: Întrebări frecvente
   tr: Bütün sık sorulan sorular
 
@@ -287,7 +287,7 @@ faq-category-howtheapphelps:
   de: Wie hilft die App im Kampf gegen Corona?
   es: Cómo ayuda la app contra el coronavirus
   fr: En quoi l’application contribue-t-elle à lutter contre le coronavirus ?
-  po: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
+  pl: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
   ro: Cum ajută aplicația împotriva coronavirus-ului?
   tr: Uygulama Koronaya karşı nasıl yardımcı olur?
 
@@ -299,7 +299,7 @@ faq-category-howtheappworks:
   de: Funktion der App
   es: Funcionamiento de la app
   fr: Fonctionnement de l'application
-  po: Działanie aplikacji
+  pl: Działanie aplikacji
   ro: Funcționarea aplicației
   tr: Uygulama nasıl çalışır
 
@@ -314,7 +314,7 @@ layout-template-home:
   de: Home
   es: Inicio
   fr: Accueil
-  po: Strona główna
+  pl: Strona główna
   ro: Pagina inițială
   tr: Anasayfa
 
@@ -326,7 +326,7 @@ layout-template-faq:
   de: Zurück zu den häufig gestellten Fragen
   es: Volver a preguntas frecuentes
   fr: Revenir aux questions fréquentes
-  po: Powrót do najczęściej zadawanych pytań
+  pl: Powrót do najczęściej zadawanych pytań
   ro: Înapoi la întrebări frecvente
   tr: Sık sorulan sorulara dön
 
@@ -338,7 +338,7 @@ layout-faq-btn:
   de: Lesen Sie alle häufig gestellten Fragen (Englisch)
   es: Consulta todas las preguntas frecuentes (Inglés)
   fr: Consultez les questions fréquemment posées (Anglais)
-  po: Najczęściej zadawane pytania (j. angielski)
+  pl: Najczęściej zadawane pytania (j. angielski)
   ro: Toate întrebările frecvente (engleză)
   tr: Bütün sık sorulan sorular (ingilizce)
 
@@ -350,7 +350,7 @@ info-lead:
   de: Das Coronavirus ist immer noch unter uns. Es ist wichtig, gerade jetzt wachsam zu bleiben. Deshalb ist CoronaMelder nun landesweit in den Niederlanden verfügbar.
   es: El coronavirus sigue entre nosotros. En estos momentos es muy importante no bajar la guardia. Para eso tenemos la app CoronaMelder, disponible ya para todos los Países Bajos.
   fr: Le coronavirus est toujours là. Il est donc important justement maintenant de rester vigilant. C’est pour cela que l’application CoronaMelder est disponible pour tous aux Pays-Bas.
-  po: Koronawirus wciąż się rozprzestrzenia. To ważne, aby właśnie teraz pozostać czujnym. Dlatego właśnie CoronaMelder jest teraz dostępny w całej Holandii.
+  pl: Koronawirus wciąż się rozprzestrzenia. To ważne, aby właśnie teraz pozostać czujnym. Dlatego właśnie CoronaMelder jest teraz dostępny w całej Holandii.
   ro: Coronavirus este încă activ. Deci, tocmai acum este important ca să fim alterți. De aceea, CoronaMelder este acum disponibilă pentru întreaga Olandă.
   tr: Korona virüsü hala aramızda. Yani şu anda tetikte olmak önemlidir. Bu nedenle CoronaMelder artık tüm Hollanda için kullanılabilir durumda.
 
@@ -362,7 +362,7 @@ info-lead-title:
   de: Laden Sie die CoronaMelder-App herunter
   es: Descárgate la app CoronaMelder
   fr: Téléchargez l’appli CoronaMelder
-  po: Pobierz aplikację CoronaMelder
+  pl: Pobierz aplikację CoronaMelder
   ro: Descărcați aplicația CoronaMelder
   tr: CoronaMelder uygulamasını indirin
 
@@ -373,7 +373,7 @@ info-app-store-url:
   bg: https://apps.apple.com/gb/app/id1517652429 
   de: https://apps.apple.com/gb/app/id1517652429 
   fr: https://apps.apple.com/gb/app/id1517652429
-  sp: https://apps.apple.com/gb/app/id1517652429
+  es: https://apps.apple.com/gb/app/id1517652429
   pl: https://apps.apple.com/gb/app/id1517652429
   ro: https://apps.apple.com/gb/app/id1517652429
   tu: https://apps.apple.com/gb/app/id1517652429
@@ -385,7 +385,7 @@ info-google-play-url:
   bg: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
   de: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
   fr: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
-  sp: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  es: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   pl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   ro: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   tu: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
@@ -397,7 +397,7 @@ info-app-store-img:
   bg: app-store-badge-eng.svg
   de: app-store-badge-eng.svg 
   fr: app-store-badge-eng.svg 
-  sp: app-store-badge-eng.svg
+  es: app-store-badge-eng.svg
   pl: app-store-badge-eng.svg
   ro: app-store-badge-eng.svg
   tu: app-store-badge-eng.svg
@@ -409,7 +409,7 @@ info-google-play-img:
   bg: google-play-badge-eng.svg 
   de: google-play-badge-eng.svg 
   fr: google-play-badge-eng.svg
-  sp: google-play-badge-eng.svg
+  es: google-play-badge-eng.svg
   pl: google-play-badge-eng.svg
   ro: google-play-badge-eng.svg
   tu: google-play-badge-eng.svg
@@ -423,7 +423,7 @@ footer-samen-logo:
   de: Nur gemeinsam bekommen wir Corona unter Kontrolle.
   es: Solo juntos podremos controlar el coronavirus.
   fr: Ce n'est qu'ensemble que nous pourrons contrôler le coronavirus.
-  po: Tylko wspólnymi siłami możemy uzyskać kontrolę nad koronawirusem.
+  pl: Tylko wspólnymi siłami możemy uzyskać kontrolę nad koronawirusem.
   ro: Doar împreună putem controla coronavirus.
   tr: Koronayı ancak birlikte kontrol altına alabiliriz.
   
@@ -435,7 +435,7 @@ footer-phone:
   de: Haben Sie Fragen zu CoronaMelder?
   es: ¿Tienes preguntas sobre CoronaMelder?
   fr: Avez-vous des questions sur CoronaMelder?
-  po: Masz pytania odnośnie do aplikacji CoronaMelder?
+  pl: Masz pytania odnośnie do aplikacji CoronaMelder?
   ro: Aveți întrebări în legătură cu CoronaMelder?
   tr: CoronaMelder hakkında sorularınız mı var?
 footer-phone-action:
@@ -446,7 +446,7 @@ footer-phone-action:
   de: Rufen Sie an unter <a href="tel:0800-1280">0800-1280</a> (kostenlos)
   es: Llama gratis al <a href="tel:0800-1280">0800-1280</a>
   fr: CoronaMelder? Appelez le <a href="tel:0800-1280">0800-1280</a> (gratuit)
-  po: Zadzwoń pod (bezpłatny) numer <a href="tel:0800-1280">0800-1280</a>
+  pl: Zadzwoń pod (bezpłatny) numer <a href="tel:0800-1280">0800-1280</a>
   ro: Sunați la <a href="tel:0800-1280">0800-1280</a> (număr gratuit)
   tr: <a href="tel:0800-1280">0800-1280</a> numaralı telefonu arayın (ücretsiz)
 footer-phone-opening:
@@ -457,7 +457,7 @@ footer-phone-opening:
   de: Öffnungszeiten
   es: Horarios
   fr: Horaires d’ouverture
-  po: Godziny pracy
+  pl: Godziny pracy
   ro: Orele de lucru
   tr: Açılış saatleri
 
@@ -469,7 +469,7 @@ footer-phone-opening-hours:
   de: "Mo-So 8–20 Uhr "
   es: "De lunes a domingo 8.00 h - 20.00 h "
   fr: "Du lundi au dimanche 8.00 h - 20.00 h "
-  po: "Od poniedziałku do piątku w godz. 08:00 - 20:00 "
+  pl: "Od poniedziałku do piątku w godz. 08:00 - 20:00 "
   ro: "De luni până vineri: 08.00 - 20.00"
   tr: "Pazartesi - Pazar 08:00 - 20:00 "
 
@@ -481,7 +481,7 @@ footer-phone-mail:
   de: "Oder schicken Sie eine E-Mail an: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   es: "O envía un correo a: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   fr: "Ou envoyez un courriel à : <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
-  po: "Lub wyślij wiadomość e-mail na adres: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
+  pl: "Lub wyślij wiadomość e-mail na adres: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   ro: "Sau trimiteți un mesaj prin email la: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   tr: "Veya şu adrese bir e-posta gönderin: <a href='mailto:helpdesk@coronamelder.nl'> helpdesk@coronamelder.nl </a>"
   
@@ -493,7 +493,7 @@ footer-colophon:
   de: Impressum
   es: Colofón
   fr: Colophon
-  po: Stopka
+  pl: Stopka
   ro: Colofon
   tr: Kolofon
       
@@ -505,7 +505,7 @@ footer-logos-info_md:
   de: Die App CoronaMelder wurde vom Ministerie van Volksgezondheid, Welzijn en Sport (Ministerium für Gesundheit, Gemeinwohl und Sport) entwickelt. Dies erfolgte in Zusammenarbeit mit dem RIVM und dem GGD. Die App wäre nicht möglich gewesen ohne die Hilfe von zahlreichen Fachleuten, Erfahrungsexperten und einer großen Open Source Community. Zu ihr gehören Bürger, die die Entwicklung mitverfolgt und die App getestet haben. Wir haben alles getan, um für eine datenschutzgerechte, sichere, zugängliche und benutzerfreundliche App zu sorgen, die hilft, Corona unter Kontrolle zu bekommen und zu halten.
   es: La app CoronaMelder ha sido diseñada por el Ministerio de Salud, Bienestar y Deporte con la colaboración del RIVM (Instituto Nacional de Salud Pública y Medio Ambiente) y los GGD (servicios de salud municipales). La app no hubiera llegado a desarrollarse sin la ayuda de decenas de expertos y especialistas, y una gran comunidad de código abierto de ciudadanos que la han estado observando y probando durante su diseño. Se ha hecho todo lo posible para conseguir una app que respete la privacidad y sea segura, accesible y de uso fácil, para ayudar a controlar y contener la propagación del coronavirus.
   fr: L’application CoronaMelder est développée par le Ministère de la Santé publique, du Bien-être et des Sports, en collaboration avec le RIVM (l’Institut national de la santé publique et de l'environnement néerlandais) et les GGD nationaux. L’application n’aurait pas pu voir le jour sans l’aide de dizaines de spécialistes, experts du vécu et une grande communauté open source de citoyens qui ont réfléchi au projet et l’ont testé durant ses phases de développement. Tout a été mis en œuvre pour garantir une application préservant la vie privée de ses utilisateurs, sûre, accessible et conviviale et qui aide à stopper la propagation du Covid-19.
-  po: Aplikacja CoronaMelder została stworzona przez holenderskie Ministerstwo Zdrowia, Opieki Społecznej i Sportu we współpracy z Narodowym Instytutem Zdrowia Publicznego i Środowiska (RIVM) oraz krajowymi oddziałami GGD. Aplikacja nie powstałaby bez pomocy dziesiątek doświadczonych ekspertów oraz dużej, obywatelskiej społeczności open source, która obserwowała i testowała ją podczas procesu tworzenia. Dołożono wszelkich starań, aby zapewnić bezpieczną, dostępną oraz przyjazną dla prywatności i użytkownika aplikację, która pomoże uzyskać i utrzymać kontrolę nad koronawirusem.
+  pl: Aplikacja CoronaMelder została stworzona przez holenderskie Ministerstwo Zdrowia, Opieki Społecznej i Sportu we współpracy z Narodowym Instytutem Zdrowia Publicznego i Środowiska (RIVM) oraz krajowymi oddziałami GGD. Aplikacja nie powstałaby bez pomocy dziesiątek doświadczonych ekspertów oraz dużej, obywatelskiej społeczności open source, która obserwowała i testowała ją podczas procesu tworzenia. Dołożono wszelkich starań, aby zapewnić bezpieczną, dostępną oraz przyjazną dla prywatności i użytkownika aplikację, która pomoże uzyskać i utrzymać kontrolę nad koronawirusem.
   ro: Aplicația CoronaMelder-app este creată de către Ministerul olandez al Sănătății Publice, Bunăstării și Sportului în colaborare cu RIVM (Institutul Național olandez pentru sănătate publică și mediu) și GGD (Serviciul de Sănătate Municipal). Nu ar fi fost posibilă construcția aplicației fără ajutorul zecilor de experți, specialiști și o mare comunitate de cetățeni care au participat prin testări în timpul construcției aplicației. S-au depus toate eforturile pentru a crea o aplicație sigură, accesibilă, ușor de folosit, care respectă datele cu caracter personal, care ajută la ținerea sub control a coronavirusului.
   tr: CoronaMelder uygulaması, Sağlık, Refah ve Spor Bakanlığı tarafından RIVM ve ulusal GGD'ler ile işbirliği içinde geliştirilmiştir. Uygulama, onlarca uzmanın, alan uzmanının ve geliştirme sırasında izleyen ve test eden büyük bir açık kaynak vatandaş topluluğunun yardımı olmadan oluşturulamazdı. Korona’yı kontrol etmeye ve kontrol altında tutmaya yardımcı olan, gizlilik dostu, güvenli, erişilebilir ve kullanıcı dostu bir uygulama sağlamak için her türlü çaba gösterildi.
   
@@ -517,7 +517,7 @@ footer-more-info-title:
   de: Mehr Infos?
   es: ¿Quieres más información?
   fr: Vous souhaitez obtenir de plus amples informations ?
-  po: Więcej informacji?
+  pl: Więcej informacji?
   ro: Doriți mai multe informații?
   tr: Daha fazla bilgi?
 
@@ -529,7 +529,7 @@ footer-more-info-url:
   de: https://rijksoverheid.nl
   es: https://rijksoverheid.nl
   fr: https://rijksoverheid.nl
-  po: https://rijksoverheid.nl
+  pl: https://rijksoverheid.nl
   ro: https://rijksoverheid.nl
   tr: https://rijksoverheid.nl
 
@@ -541,7 +541,7 @@ footer-more-info:
   de: Schauen Sie unter rijksoverheid.nl
   es: Consulta en rijksoverheid.nl
   fr: Visitez rijksoverheid.nl
-  po: Wejdź na stronę rijksoverheid.nl
+  pl: Wejdź na stronę rijksoverheid.nl
   ro: Vizitați rijksoverheid.nl
   tr: https://rijksoverheid.nl'e bakın
 
@@ -553,7 +553,7 @@ footer-misc-title:
   de: Über CoronaMelder
   es: Sobre CoronaMelder
   fr: À propos de CoronaMelder
-  po: O CoronaMelder
+  pl: O CoronaMelder
   ro: Despre CoronaMelder
   tr: CoronaMelder hakkında
 
@@ -565,7 +565,7 @@ footer-contact-title:
   de: Kontakt
   es: Contacto
   fr: Contact
-  po: Kontakt
+  pl: Kontakt
   ro: Contact
   tr: İletişim
   
@@ -578,7 +578,7 @@ footer-logos-minvws-img-alt:
   de: Logo Ministerium für Gesundheit, Gemeinwohl und Sport
   es: Logo del Ministerio de Salud, Bienestar y Deporte
   fr: Logo du Ministère de la Santé, du Bien-être et des Sports
-  po: Logo Ministerstwa Zdrowia, Opieki Społecznej i Sportu
+  pl: Logo Ministerstwa Zdrowia, Opieki Społecznej i Sportu
   ro: Sigla Ministerului Sănătății publice, Bunăstării și Sportului
   tr: Sağlık, Refah ve Spor Bakanlığı logosu
 
@@ -593,7 +593,7 @@ footer-logos-rivm-img-alt:
   de: Logo RIVM (Rijksinstituut voor Volksgezondheid en Milieu)
   es: Logo del Ministerio de Salud, Bienestar y Deporte
   fr: Logo du Ministère de la Santé, du Bien-être et des Sports
-  po: Logo Narodowego Instytutu Zdrowia Publicznego i Środowiska
+  pl: Logo Narodowego Instytutu Zdrowia Publicznego i Środowiska
   ro: Sigla Institutului Național pentru Sănătate Publică și Mediu (RIVM)
   tr: Ulusal Halk Sağlığı ve Çevre Enstitüsü logosu
 
@@ -606,7 +606,7 @@ footer-logos-ggd-img-alt:
   de: Logo GGD Nederland
   es: Logo del servicio de salud municipal (GGD)
   fr: Logo du service de santé municipal (GGD)
-  po: Logo GGD Holandia
+  pl: Logo GGD Holandia
   ro: Sigla Serviciului de Sănătate Municipal (GGD)
   tr: GGD Hollanda logosu
 
@@ -619,7 +619,7 @@ footer-misc-privacy:
   de: Datenschutz
   es: Privacidad
   fr: Confidentialité
-  po: Prywatność
+  pl: Prywatność
   ro: Confidențialitate
   tr: Gizlilik
 
@@ -632,7 +632,7 @@ footer-misc-disclaimer:
   de: Haftungsausschluss
   es: Exención de responsabilidad
   fr: Clause de non-responsabilité
-  po: Zrzeczenie się odpowiedzialności
+  pl: Zrzeczenie się odpowiedzialności
   ro: Clauză de exonerare a răspunderii
   tr: Feragatname
 
@@ -645,7 +645,7 @@ footer-misc-report-vulnerability:
   de: Schwachstellen melden
   es: Informar sobre una vulnerabilidad
   fr: Signaler une vulnérabilité
-  po: Zgłaszanie uwag
+  pl: Zgłaszanie uwag
   ro: Raportați o vulnerabilitate
   tr: Güvenlik açığını bildirin
 
@@ -656,7 +656,7 @@ footer-misc-contact-url:
   bg: contact
   de: contact
   fr: contact
-  sp: contact
+  es: contact
   pl: contact
   ro: contact
   tu: contact
@@ -668,7 +668,7 @@ footer-misc-contact:
   de: Kontakt
   es: Contacto
   fr: Contact
-  po: Kontakt
+  pl: Kontakt
   ro: Contact
   tr: İletişim
 
@@ -681,7 +681,7 @@ footer-misc-cookies:
   de: Cookies
   es: Cookies
   fr: Cookies
-  po: Cookies
+  pl: Cookies
   ro: Cookies
   tr: Çerezler
 
@@ -692,7 +692,7 @@ footer-misc-colofon-url:
   bg: colofon
   de: colofon
   fr: colofon
-  sp: colofon
+  es: colofon
   pl: colofon
   ro: colofon
   tu: colofon
@@ -704,7 +704,7 @@ footer-misc-colofon:
   de: Impressum
   es: Colofón
   fr: Colophon
-  po: Stopka
+  pl: Stopka
   ro: Colofon
   tr: Kolofon
 
@@ -715,7 +715,7 @@ footer-misc-pers-url:
   bg: pers
   de: pers
   fr: pers
-  sp: pers
+  es: pers
   pl: pers
   ro: pers
   tu: pers
@@ -727,7 +727,7 @@ footer-misc-pers:
   de: Presse
   es: Prensa
   fr: Presse
-  po: Prasa
+  pl: Prasa
   ro: Presă
   tr: Basın
   
@@ -740,7 +740,7 @@ footer-misc-accessibility-statement:
   de: Zugänglichkeitserklärung
   es: Declaración de accesibilidad
   fr: Déclaration d'accessibilité
-  po: Oświadczenie o dostępności
+  pl: Oświadczenie o dostępności
   ro: Desclarația de accesabilitate
   tr: Erişilebilirlik bildirimi
   
@@ -752,7 +752,7 @@ error-title:
   de: Diese Seite wurde nicht gefunden.
   es: No se encontró la página
   fr: Impossible de trouver cette page
-  po: Niestety, nie można nie można odnaleźć tej strony
+  pl: Niestety, nie można nie można odnaleźć tej strony
   ro: Această pagină nu poate fi găsită
   tr: Üzgünüz, bu sayfa bulunamıyor
 
@@ -764,7 +764,7 @@ error-back-to-home-page:
   de: Zurück zur Homepage coronamelder.nl
   es: Volver a la página de inicio coronamelder.nl
   fr: Revenir à la page d'accueil coronamelder.nl
-  po: Powróc do strony głównej coronamelder.nl
+  pl: Powróc do strony głównej coronamelder.nl
   ro: Reveniți la pagina inițială coronamelder.nl
   tr: Coronamelder.nl ana sayfasına geri dön
 
@@ -776,7 +776,7 @@ error-back-to-faq:
   de: Zurück zu den häufig gestellten Fragen
   es: Ir a preguntas frecuentes
   fr: Allez aux questions fréquentes
-  po: Przejdź do najczęściej zadawanych pytań
+  pl: Przejdź do najczęściej zadawanych pytań
   ro: Mergeți la întrebări frecvente
   tr: Sık sorulan sorulara gidin
   
@@ -788,7 +788,7 @@ accessibility-in-app-email-subject:
   de: Problem bei der Verwendung der App
   es: Problemas con el uso de la app
   fr: Problèmes d'utilisation de l'application
-  po: Problem związany z korzystaniem z aplikacji
+  pl: Problem związany z korzystaniem z aplikacji
   ro: Probleme la utilizarea aplicației
   tr: Uygulamayı kullanırken sorun
     
@@ -800,7 +800,7 @@ information-title:
   de: 'So verwenden wir Ihre Daten:'
   es: 'Así es como gestionamos tus datos:'
   fr: 'Nous utilisons vos données de la manière suivante:'
-  po: 'W ten sposób przetwarzamy Twoje dane:'
+  pl: 'W ten sposób przetwarzamy Twoje dane:'
   ro: 'Folosim datele dvs. în felul următor:'
   tr: 'Verilerinizi şu şekilde ele alıyoruz:'
 
@@ -812,7 +812,7 @@ information-alert:
   de: Haben Sie Corona? Dann können Sie andere warnen, ohne dass die anderen wissen, wer Sie sind.
   es: ¿Tienes coronavirus? En ese caso, puedes avisar a otros sin que sepan quién eres.
   fr: Avez-vous le coronavirus ? Alors vous pouvez avertir les autres sans qu'ils ne sachent qui vous êtes.
-  po: Masz koronawirusa? W takim razie możesz ostrzec innych bez podawania informacji kim jesteś.
+  pl: Masz koronawirusa? W takim razie możesz ostrzec innych bez podawania informacji kim jesteś.
   ro: Sunteți infectat cu coronavirus? Atunci îi puteți avertiza pe ceilalți fără ca aceștia să știe cine sunteți.
   tr: Sizde Korona mı var? O zaman, kim olduğunuz bilinmeden başkalarını uyarabilirsiniz.
 
@@ -824,7 +824,7 @@ information-bluetooth:
   de: Ihre Bluetooth-Daten werden 14 Tage auf Ihrem Telefon gespeichert. Sie können Sie jederzeit selbst löschen.
   es: Tus datos de Bluetooth se mantienen guardados 14 días en tu teléfono. Siempre puedes borrarlos tú.
   fr: Vos données Bluetooth sont conservées pendant 14 jours sur votre téléphone. Vous pouvez toujours les supprimer vous-même.
-  po: Twoje dane Bluetooth są przechowywane w telefonie przez 14 dni. Zawsze możesz samodzielnie je usunąć.
+  pl: Twoje dane Bluetooth są przechowywane w telefonie przez 14 dni. Zawsze możesz samodzielnie je usunąć.
   ro: Datele dvs. Bluetooth sunt stocate pe telefonul dvs. timp de 14 zile. Le puteți șterge oricând.
   tr: Bluetooth verileriniz 14 gün boyunca telefonunuzda saklanır. Bunları her zaman kendiniz silebilirsiniz.
 
@@ -836,7 +836,7 @@ information-naw:
   de: Ihr Name, Ihre E-Mail-Adresse und Telefonnummer werden nicht verwendet oder gespeichert.
   es: No se guardarán ni usarán tu nombre, tu correo electrónico ni tu número de teléfono.
   fr: Votre nom, votre adresse de courrier électronique et votre numéro de téléphone ne sont ni utilisés ni conservés.
-  po: Twoje imię i nazwisko, adres e-mail i numer telefonu nie będą używane ani przechowywane.
+  pl: Twoje imię i nazwisko, adres e-mail i numer telefonu nie będą używane ani przechowywane.
   ro: Numele, adresa e-mail și numărul dvs. de telefon nu sunt folosite sau stocate.
   tr: Adınız, e-posta adresiniz ve telefon numaranız kullanılmayacak veya saklanmayacaktır.
 
@@ -848,7 +848,7 @@ information-gps:
   de: Die App weiß nie, wo Sie sind, und verwendet keine GPS- oder Standortdaten.
   es: La app no sabe nunca dónde estás ni tampoco utiliza ningún dato GPS o de localización.
   fr: L'application ne sait jamais où vous êtes et n'utilise pas de données GPS ou de localisation.
-  po: Aplikacja nigdy nie wie gdzie się znajdujesz i nie korzysta z danych lokalizacyjnych i GPS.
+  pl: Aplikacja nigdy nie wie gdzie się znajdujesz i nie korzysta z danych lokalizacyjnych i GPS.
   ro: Aplicația nu știe niciodată cine sunteți și nu folosește datele dvs. de locație GPS
   tr: Uygulama nerede olduğunuzu asla bilmez ve GPS ve konum verilerini kullanmaz
 
@@ -863,7 +863,7 @@ mediaelement-download-title:
   de: Dieses Video herunterladen
   es: Descargar este vídeo
   fr: Téléchargez cette vidéo
-  po: Pobierz ten film
+  pl: Pobierz ten film
   ro: Descărcați acest video
   tr: Bu videoyu indir
 
@@ -875,7 +875,7 @@ mediaelement-download-mp4-video:
   de: MP4-Video
   es: Vídeo MP4
   fr: Vídéo MP4
-  po: Plik MP4
+  pl: Plik MP4
   ro: Video MP4
   tr: MP4 video
 
@@ -887,7 +887,7 @@ mediaelement-download-mp3-voiceover:
   de: MP3-Audio (Voice-over)
   es: Audio MP3 (doblaje)
   fr: Audio MP3 (voix off)
-  po: Ścieżka dźwiękowa MP3 (lektor)
+  pl: Ścieżka dźwiękowa MP3 (lektor)
   ro: Audio MP3 (dublat)
   tr: MP3 ses parçası (seslendirme)
 
@@ -899,7 +899,7 @@ mediaelement-download-subtitle:
   de: Untertitel
   es: Subtítulos
   fr: Fichier sous-titres
-  po: Plik z napisami
+  pl: Plik z napisami
   ro: Subtitrări
   tr: Altyazı dosyası
 
@@ -911,7 +911,7 @@ mediaelement-transcript-title:
   de: Videotext
   es: Transcripción del vídeo
   fr: Transcription de la vidéo
-  po: Transkrybcja filmu
+  pl: Transkrybcja filmu
   ro: Transcripția video-ului
   tr: Videodan yazılan metin
   
