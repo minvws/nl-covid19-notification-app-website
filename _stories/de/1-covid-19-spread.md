@@ -2,9 +2,9 @@
 index: 1
 show: true
 graphic: graphic-spread.png
-title-highlight: Waarom is de app belangrijk?
-title: Help de verspreiding van het coronavirus te stoppen
+title-highlight: Warum ist die App wichtig? 
+title: Helfen Sie, die Verbreitung des Coronavirus zu stoppen.
 lang: de
 ---
 
-CoronaMelder waarschuwt je nadat je in de buurt bent geweest van iemand met corona. Zo kun jij voorkomen dat je mensen in je omgeving besmet.
+CoronaMelder warnt Sie, wenn Sie in der Nähe einer Person mit Corona waren. So können Sie verhindern, dass Sie Personen in Ihrer Umgebung unbewusst anstecken. Das Herunterladen der App ist immer freiwillig.
