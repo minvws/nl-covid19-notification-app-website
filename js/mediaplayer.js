@@ -1,7 +1,9 @@
 (function() {
     'use strict';
     
-    window.addEventListener('load', init);
+    setTimeout(function() { 
+      window.addEventListener('load', init);
+    }, 50);
 
     function init () {
         mejs.i18n.language(document.documentElement.lang);
