@@ -3,9 +3,9 @@ layout: content
 index: 12
 set: 3
 title: Wanneer heb ik contact met de GGD als ik CoronaMelder op mijn telefoon heb?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true

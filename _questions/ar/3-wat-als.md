@@ -1,26 +1,30 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: ما الذي يجب عليّ القيام به بعد أن تلقيت إشعارًا؟
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: "يُنصح بالبقاء في المنزل حتى 10 أيام بعد تاريخ الاحتكاك. هل لديك أعراض؟ قم بإجراء الاختبار."
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: "يُنصح بالبقاء في المنزل حتى 10 أيام بعد تاريخ الاحتكاك. هل لديك أعراض؟ قم بإجراء الاختبار."
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+ما الذي يتوجب عليّ القيام به بعد أن تلقيت إشعارًا؟
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+عندما تتلقى إشعارًا، يعني ذلك أنك تواجدت بالقرب من شخص تبين لاحقًا أنه مصاب بكورونا. لا داعي للذعر: فليس من المؤكد على الإطلاق أنك مصاب بكورونا بالفعل. أصبحت أكثر عرضة للإصابة: قد يكون لديك كورونا.
 
+ابق في المنزل لمدة تصل إلى 10 أيام من تاريخ الاحتكاك بشخص مصاب. فأنت تتفادى بهذه الطريقة نقل العدوى إلى الآخرين.
+
+هل لديك أعراض خلال تلك الأيام العشرة أو بعدها؟ اتصل بالـ GGDلإجراء الاختبار.
+
+اتصل ب0800-1202  لطلب إجراء اختبار كورونا مجانًا.
+
+
+هل تريد معرفة المزيد؟

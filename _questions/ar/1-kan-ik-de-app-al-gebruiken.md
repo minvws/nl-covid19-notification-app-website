@@ -8,10 +8,9 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
-featuredHomeText: "نعم، CoronaMelder  متاح الآن للجميع في هولندا.
-<مزيد من التوضيح
-
-"
+# featuredHomeText: "نعم، CoronaMelder  متاح الآن للجميع في هولندا.
+# <مزيد من التوضيح
+# "
 ---
 
 "هل يمكنني الآن استخدام التطبيق؟

@@ -3,9 +3,9 @@ layout: content
 index: 8
 set: 2
 title: Hoeveel stroom gebruikt de app?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true

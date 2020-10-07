@@ -2,21 +2,22 @@
 layout: content
 index: 7
 set: 2
-title: Werkt CoronaMelder ook op mijn telefoon?
-lang: nl
+title: هل يعمل CoronaMelder على هاتفي أيضًا؟
+summary: يعمل CoronaMelder على معظم هواتف Android مع الإصدار 6 أو أحدث وعلى أجهزة iPhone التي تعمل بنظام iOS 13.5 أو أحدث
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
+featuredHomeText: يعمل CoronaMelder على معظم هواتف Android مع الإصدار 6 أو أحدث وعلى أجهزة iPhone التي تعمل بنظام iOS 13.5 أو أحدث
 ---
 
-**Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
+**Android:**  يعمل CoronaMelder على معظم هواتف Android التي تعمل بالإصدار 6 أو أحدث.
 
-**iPhone:** CoronaMelder werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer. iOS 13.5 kan geïnstalleerd worden op de iPhone 6s , iPhone SE en nieuwer.
+**iPhone:** يعمل CoronaMelder على أجهزة Apple iPhone مع نظام التشغيل iOS 13.5 أو الأحدث. يمكن تثبيت iOS 13.5 على iPhone 6s و iPhone SE والإصدارات الأحدث.
 
-Apple en Google hebben hun besturingssystemen aangepast zodat CoronaMelder kan werken met Bluetooth Low Energy. Apple biedt dit alleen aan vanaf versie iOS 13.5 (iPhone 6s en nieuwer). iOS 12 ontvangt wel beveiligingsupdates, maar geen functionele updates. De Nederlandse overheid heeft geen invloed op het updatebeleid van Apple.
+قامت كل من Apple وGoogle بتكييف أنظمة التشغيل الخاصة بهما بحيث يمكن لـ CoronaMelder أن يعمل من خلال Bluetooth Low Energy. تقدم Apple هذه الخدمة فقط من الإصدار iOS 13.5 (iPhone 6s والإصدارات الأحدث). سيتلقى iOS 12 تحديثات أمنية، ولكن ليس تحديثات وظيفية. ليس لدى الحكومة الهولندية أي تأثير على سياسة التحديث الخاصة بشركة Apple.

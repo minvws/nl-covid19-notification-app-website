@@ -3,9 +3,9 @@ layout: content
 index: 11
 set: 3
 title: Ik woon niet in een testregio kan ik CoronaMelder dan toch gebruiken?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true

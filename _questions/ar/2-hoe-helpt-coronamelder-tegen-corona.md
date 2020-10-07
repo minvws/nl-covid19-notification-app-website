@@ -3,9 +3,9 @@ layout: content
 index: 2
 set: 1
 title: Hoe helpt CoronaMelder tegen corona?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true

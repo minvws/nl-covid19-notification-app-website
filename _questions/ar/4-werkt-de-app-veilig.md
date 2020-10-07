@@ -3,9 +3,9 @@ layout: content
 index: 4
 set: 2
 title: Werkt de app veilig?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true

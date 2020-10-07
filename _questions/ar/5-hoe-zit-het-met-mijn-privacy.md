@@ -2,19 +2,24 @@
 layout: content
 index: 5
 set: 2
-title: Hoe zit het met mijn privacy?
-lang: nl
+title: ماذا عن خصوصيتي؟
+summary: يعمل التطبيق بدون الحاجة إلى معرفة موقعك الجغرافي أو اسمك أو عنوان بريدك الإلكتروني أو رقم هاتفك أو بيانات الاتصال الأخرى.< مزيد من التوضيح
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+featuredHomeText: يعمل التطبيق بدون الحاجة إلى معرفة موقعك الجغرافي أو اسمك أو عنوان بريدك الإلكتروني أو رقم هاتفك أو بيانات الاتصال الأخرى.< مزيد من التوضيح
 ---
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+ماذا عن خصوصيتي؟
+يقوم التطبيق بتبادل الرموز العشوائية مع الهواتف الأخرى. لا تحتوي هذه الرموز على أي معلومات شخصية أو معلومات عن موقعك الجغرافي. لذلك لا يعرف التطبيق من أنت أو مكان تواجدك.
+
+ حتى إذا أصبت بفيروس كورونا وقمت بالإبلاغ عن ذلك عبر التطبيق، فلا يمكن ربط هذا باسمك أو بتفاصيل الاتصال الخاصة بك. علاوة على ذلك، أنت تقوم باستخدام التطبيق طواعية تمامًا.
+
+هل تريد معرفة المزيد؟
+جميع الأسئلة المتكررة ( الانجليزية)

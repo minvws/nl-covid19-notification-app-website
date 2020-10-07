@@ -3,9 +3,9 @@ layout: content
 index: 1
 set: 1
 title: Waarom is CoronaMelder nodig?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true

@@ -3,9 +3,9 @@ layout: content
 index: 9
 set: 3
 title: Hoe weet ik of ik in een testregio woon?
-lang: nl
+lang: ar
 categories:
-- nl
+- ar
 - faq
 showBreadCrumbs: true
 showContact: true
