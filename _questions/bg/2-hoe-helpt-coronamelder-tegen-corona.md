@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 1
 title: How will the app help to stop coronavirus?
-lang: bg
+lang: en
 categories:
 - bg
 - faq

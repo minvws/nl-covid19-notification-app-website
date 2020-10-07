@@ -6,7 +6,7 @@ title: Ik gebruik al de Duitse Corona Warn app. Kan ik beide apps tegelijkertijd
 lang: en
 published: false
 categories:
-- en
+- de
 - faq
 showBreadCrumbs: true
 showContact: true

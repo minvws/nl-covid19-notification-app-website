@@ -3,7 +3,7 @@ layout: content
 index: 4
 set: 2
 title: Is the app secure?
-lang: tr
+lang: en
 categories:
 - tr
 - faq

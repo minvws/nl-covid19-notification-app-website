@@ -3,7 +3,7 @@ layout: content
 index: 2
 title: Как приложението помага в борбата с коронавируса?
 summary: "CoronaMelder изпраща предупреждение, след като си бил близо до някого с коронавирус."
-lang: bg
+lang: en
 categories:
 - bg
 - faq

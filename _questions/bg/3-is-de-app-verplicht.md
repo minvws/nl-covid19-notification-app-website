@@ -3,7 +3,7 @@ layout: content
 index: 3
 set: 2
 title: Is the app compulsory?
-lang: bg
+lang: en
 categories:
 - bg
 - faq

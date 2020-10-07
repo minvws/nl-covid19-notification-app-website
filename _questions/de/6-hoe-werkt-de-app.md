@@ -3,7 +3,7 @@ layout: content
 index: 6
 title: Wie funktioniert die App?
 summary: Die App schickt Ihnen eine Nachricht, wenn Sie eine Weile in der Nähe einer Person mit Corona waren.
-lang: de
+lang: en
 categories:
 - de
 - faq

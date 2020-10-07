@@ -6,7 +6,7 @@ title: Waarom moeten mijn locatie-instellingen aan staan op mijn Android-telefoo
 lang: en
 published: false
 categories:
-- en
+- de
 - faq
 showBreadCrumbs: true
 showContact: true

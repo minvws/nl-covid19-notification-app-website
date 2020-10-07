@@ -1,8 +1,9 @@
 ---
 layout: content
 index: 1
+set: 1
 title: Can I use the app already? 
-lang: de
+lang: en
 categories:
 - de
 - faq

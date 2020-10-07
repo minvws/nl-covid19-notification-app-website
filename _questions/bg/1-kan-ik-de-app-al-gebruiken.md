@@ -2,7 +2,7 @@
 layout: content
 index: 1
 title: Can I use the app already? 
-lang: bg
+lang: en
 categories:
 - bg
 - faq

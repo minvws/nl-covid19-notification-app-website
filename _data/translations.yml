@@ -306,14 +306,14 @@ faq-category-howtheappworks:
 faq-category-lessAskedQuestions:
   nl: Extra categorie
   en: Extra category
-  ar: 
-  bg: 
-  de: 
-  es: 
-  fr: 
-  pl: 
-  ro: 
-  tr: 
+  ar: Extra category 
+  bg: Extra category 
+  de: Extra category 
+  es: Extra category 
+  fr: Extra category 
+  pl: Extra category 
+  ro: Extra category
+  tr: Extra category 
 
 layout-template-home:
   nl: Home

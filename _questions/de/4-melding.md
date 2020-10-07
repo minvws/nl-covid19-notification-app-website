@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 4
+set: 1
 title: Nachdem Sie in der Nähe einer Person waren, die nach Ihrer Begegnung getestet wurde und Corona hat.
 lang: de
 categories:
