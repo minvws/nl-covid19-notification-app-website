@@ -4,6 +4,6 @@ lang: es
 showBreadCrumbs: true
 ---
 
-# Disclaimer
+
 
 Content volgt

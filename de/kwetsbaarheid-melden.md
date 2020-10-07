@@ -5,7 +5,7 @@ showBreadCrumbs: true
 title: Reporting a vulnerability
 ---
 
-# Reporting a vulnerability
+
 
 If you have discovered a weakness or a vulnerability on this website, please report this to the National Cyber Security Centre (NCSC). A report like this is called a Coordinated Vulnerability Disclosure (CVD).
 

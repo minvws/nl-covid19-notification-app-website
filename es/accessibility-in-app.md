@@ -4,7 +4,7 @@ lang: es
 title: Accessibility
 ---
 
-# Accessibility
+
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
   The CoronaMelder app should be accessible to everyone. From its very first design, accessibility has been taken into account, with the help of experts and experience experts. Yet the app might not be as accessible to you. Are you unable to use the app well? Let us know by emailing <a href="mailto:coronamelder@minvws.nl">coronamelder@minvws.nl</a>.

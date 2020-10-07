@@ -5,7 +5,7 @@ showBreadCrumbs: true
 title: Accessibility
 ---
 
-# Accessibility
+
 
 English version coming soon!
 
