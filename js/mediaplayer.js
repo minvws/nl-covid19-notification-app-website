@@ -11,7 +11,7 @@
             features: ['playpause', 'current', 'progress', 'duration', 'tracks', 'volume', 'a11y', 'fullscreen'],
             alwaysShowControls: true,
             success: function(mediaElement, originalNode, instance) {
-              console.log(mediaElement);
+              
             }
         });
     }
