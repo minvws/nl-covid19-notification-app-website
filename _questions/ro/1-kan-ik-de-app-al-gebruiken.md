@@ -6,7 +6,7 @@ lang: ro
 categories:
 - ro
 - faq
-published: false
+published: true
 showBreadCrumbs: true
 showContact: true
 

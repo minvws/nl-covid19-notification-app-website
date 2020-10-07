@@ -8,7 +8,7 @@ lang: tr
 categories:
 - tr
 - faq
-published: false
+published: true
 showBreadCrumbs: true
 showContact: true
 # featuredHome: true

@@ -7,7 +7,7 @@ lang: es
 categories:
 - es
 - faq
-published: false
+published: true
 showBreadCrumbs: true
 showContact: true
 ---

@@ -6,7 +6,7 @@ lang: ar
 categories:
 - ar
 - faq
-published: false
+published: true
 showBreadCrumbs: true
 showContact: true
 
