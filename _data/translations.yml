@@ -303,9 +303,18 @@ faq-category-howtheappworks:
   ro: Funcționarea aplicației
   tr: Uygulama nasıl çalışır
 
-# faq-category-testregions:
-#   nl: Testregio's
-#   en: Trial regions
+faq-category-lessAskedQuestions:
+  nl: Extra categorie
+  en: Extra category
+  ar: 
+  bg: 
+  de: 
+  es: 
+  fr: 
+  pl: 
+  ro: 
+  tr: 
+
 layout-template-home:
   nl: Home
   en: Home

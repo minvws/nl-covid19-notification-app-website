@@ -70,12 +70,12 @@
           </ul>
       </div>
 
-      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-testregions[page.lang]|slugify }}">{{ site.data.translations.faq-category-testregions[page.lang] }}</h2>
+      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-lessAskedQuestions[page.lang]|slugify }}">{{ site.data.translations.faq-category-lessAskedQuestions[page.lang] }}</h2>
 
       <div class="faq-layout__contents __overview">
           <ul class="faq-layout-contents__list">
           {% for question in questions %}
-              {% if question.set == 3 %}
+              {% if question.set == 4 %}
               {% if question.published != false  %}
                   <li>
                       <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
