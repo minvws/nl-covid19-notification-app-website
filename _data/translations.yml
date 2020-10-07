@@ -21,8 +21,8 @@ head-social-og-site_name:
   ro: CoronaMelder
   tr: CoronaMelder
 head-social-og-title:
-  nl: CoronaMelder vanaf 10 oktober te gebruiken in heel Nederland
-  en: CoronaMelder can be used throughout the Netherlands from October 10th
+  nl: Voorkom verspreiding, download CoronaMelder
+  en: Prevent the spread of the coronavirus, download CoronaMelder
   ar: تجنب انتشار العدوى، قم بتحميل CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
   de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
@@ -70,7 +70,7 @@ head-social-og-image-alt:
   
 page-title:
   nl: Voorkom verspreiding, download CoronaMelder
-  en: CoronaMelder can be used throughout the Netherlands from 10 October
+  en: Prevent the spread of the coronavirus, download CoronaMelder
   ar: أوقف انتشار العدوى، قم بتنزيل تطبيق CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
   de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
@@ -94,7 +94,7 @@ header-skip-to-content:
   
 header-title:
   nl: "Voorkom verspreiding,<br /> download CoronaMelder"
-  en: "CoronaMelder is being<br /> tested in the field"
+  en: "Prevent the spread of<br /> the coronavirus, download CoronaMelder"
   ar: " تجنب انتشار العدوى، قم بتحميل CoronaMelder"
   bg: " Предотврати<br /> разпространението,<br /> свали CoronaMelder"
   de: " Verhindern Sie die<br /> Ausbreitung des Virus.<br /> Laden Sie CoronaMelder herunter."
