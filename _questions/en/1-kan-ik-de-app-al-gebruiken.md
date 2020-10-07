@@ -8,6 +8,7 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+
 ---
 
 Anybody can download the CoronaMelder app now. If you live in one of the following GGD regions, you can also use the app to warn other people if you test positive for coronavirus:
