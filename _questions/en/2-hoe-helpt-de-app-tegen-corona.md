@@ -19,4 +19,4 @@ You can pass coronavirus on to other people even if you do not have symptoms. Th
 
 If you receive a warning through the app, stay at home for 10 days after the date of contact with an infected person. This way, you can avoid infecting your (grand) parents, for example. Or that you spread the virus in a busy place, such as the market or a sporting event.
 
-Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
+Do you have complaints within those 10 days or after? Then call <a href="tel:0800-1202">0800-1202</a> or go to <a href="https://www.coronatest.nl" target="_blank" rel="noopener noreferrer">coronatest.nl</a> to arrange a coronavirus test, free of charge.
