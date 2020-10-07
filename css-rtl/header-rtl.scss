@@ -39,8 +39,10 @@
 .header--slim {
     padding: 0 0 50px 0;
 
-    &:after {
+    &::after {
         left: 30px;
+        transform: none;
+        background-position: center 23px;
         right: auto;
 
         .browser-ie-11 & {
@@ -50,7 +52,7 @@
     }
 
     @media(min-width: 960px) {
-        &:after {
+        &::after {
             /** Perfect alignment: width: of this element, width of the element above */
             width: 80px;
             left: calc((980px / -2) + calc(100% / 2));
