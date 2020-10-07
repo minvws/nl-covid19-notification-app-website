@@ -7,7 +7,7 @@ lang: ar
 categories:
 - ar
 - faq
-published: true
+published: false
 showBreadCrumbs: true
 showContact: true
 ---

@@ -6,7 +6,7 @@ lang: bg
 categories:
 - bg
 - faq
-published: true
+published: false
 showBreadCrumbs: true
 showContact: true
 

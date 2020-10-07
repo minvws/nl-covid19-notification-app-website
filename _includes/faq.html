@@ -30,9 +30,14 @@
   </div>
 
   <p class="faq-homepage__more">
-    <a href="{{ langSlug }}faq" class="btn btn--color-secondary btn--large">
-      {{ site.data.translations.layout-faq-btn[page.lang] }}<span class="icon icon-chevron-right"></span>
-    </a>
+    {% if page.lang == 'nl' %}
+      <a href="{{ langSlug }}faq" class="btn btn--color-secondary btn--large">
+        {{ site.data.translations.layout-faq-btn[page.lang] }}<span class="icon icon-chevron-right"></span>
+      </a>
+    {% else %}
+      <a href="/en/faq" class="btn btn--color-secondary btn--large">
+        {{ site.data.translations.layout-faq-btn[page.lang] }}<span class="icon icon-chevron-right"></span>
+      </a>
+    {% endif %}
   </p>
-
 </section>
