@@ -15,7 +15,7 @@
     </video>
 </figure>
 
-<details>
+<details class="component-mediaelement__details">
   <summary class="btn btn--expand">{{ site.data.translations.mediaelement-download-title[page.lang] }}</summary>
   <div>
       <ul>
@@ -40,7 +40,7 @@
   </div>
 </details>
 
-<details>
+<details class="component-mediaelement__details">
   <summary class="btn btn--expand">{{ site.data.translations.mediaelement-transcript-title[page.lang] }}</summary>
   <div>
       {{ site.data.videos[include.key].transcript_md[page.lang] | markdownify }}

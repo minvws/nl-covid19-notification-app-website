@@ -11,5 +11,14 @@
             features: ['playpause', 'current', 'progress', 'duration', 'tracks', 'volume', 'a11y', 'fullscreen'],
             alwaysShowControls: true
         });
+
+        var playPromise = player.play();
+        if (playPromise !== undefined) {
+          playPromise.then(_ => {
+            video.pause();
+          })
+          .catch(error => {});
+        }
+        player.pause();
     }
 })();
