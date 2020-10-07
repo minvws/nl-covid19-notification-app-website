@@ -1,26 +1,26 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: ¿Qué tengo que hacer si recibo una notificación?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: Te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto. ¿Muestras síntomas? Hazte un test.
+lang: es
 categories:
-- nl
+- es
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto. ¿Muestras síntomas? Hazte un test.
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Si recibes una notificación, significa que has estado cerca de alguien que luego resultó tener el coronavirus. No te asustes: eso no significa necesariamente que tú también tengas el coronavirus. Has corrido un riesgo de contagio: quizá tengas el coronavirus.
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Por eso te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto con la persona contagiada. Así evitarás contagiar a otros.
 
+¿Muestras síntomas dentro del plazo de 10 días o después? Ponte en contacto con el GGD (servicio de salud municipal) para hacerte un test.
+
+Llama al [0800-1202](tel:+318001202) para solicitar un test gratis.
+ 

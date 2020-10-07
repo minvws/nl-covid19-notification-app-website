@@ -2,19 +2,20 @@
 layout: content
 index: 5
 set: 2
-title: Hoe zit het met mijn privacy?
-lang: nl
+title: Cum stau lucrurile cu confidențialitatea datelor mele?
+summary: Aplicația funcționează fără locația, numele, adresa de email, numărul dvs. de telefon sau alte date de contact.
+lang: ro
 categories:
-- nl
+- ro
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+featuredHomeText: Aplicația funcționează fără locația, numele, adresa de email, numărul dvs. de telefon sau alte date de contact.
 ---
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+Aplicația schimbă coduri aleatorii cu alte telefoane. Aceste coduri nu conțin informații personale sau informații despre locația dvs. Prin urmare, aplicația nu știe cine sunteți sau unde sunteți.
+
+Chiar dacă vă infectați cu coronavirus și raportați acest lucru prin aplicație, acest lucru nu poate fi cuplat la numele sau de datele dvs. de contact. Mai mult de atât, utilizați aplicația doar dacă doriți.

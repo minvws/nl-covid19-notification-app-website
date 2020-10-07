@@ -2,21 +2,22 @@
 layout: content
 index: 7
 set: 2
-title: Werkt CoronaMelder ook op mijn telefoon?
-lang: nl
+title: Funktioniert CoronaMelder auch auf meinem Telefon?
+summary: CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher sowie auf iPhones mit iOS 13.5 oder höher.
+lang: de
 categories:
-- nl
+- de
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
+featuredHomeText: CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher sowie auf iPhones mit iOS 13.5 oder höher.
 ---
 
-**Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
+**Android:** CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher.
 
-**iPhone:** CoronaMelder werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer. iOS 13.5 kan geïnstalleerd worden op de iPhone 6s , iPhone SE en nieuwer.
+**iPhone:** CoronaMelder funktioniert auf Apple iPhones mit iOS 13.5 oder höher. iOS 13.5 kann auf iPhone 6s, iPhone SE und neuer installiert werden.
 
-Apple en Google hebben hun besturingssystemen aangepast zodat CoronaMelder kan werken met Bluetooth Low Energy. Apple biedt dit alleen aan vanaf versie iOS 13.5 (iPhone 6s en nieuwer). iOS 12 ontvangt wel beveiligingsupdates, maar geen functionele updates. De Nederlandse overheid heeft geen invloed op het updatebeleid van Apple.
+Apple und Google haben ihre Betriebssysteme angepasst, damit CoronaMelder Bluetooth Low Energy nutzen kann. Apple bietet dies nur an ab Version iOS 13.5 (iPhone 6s und neuer). iOS 12 erhält zwar Sicherheitsupdates, aber keine funktionellen Updates. Der niederländische Staat hat keinen Einfluss auf die Update-Strategie von Apple.

@@ -2,21 +2,22 @@
 layout: content
 index: 7
 set: 2
-title: Werkt CoronaMelder ook op mijn telefoon?
-lang: nl
+title: Est-ce que CoronaMelder fonctionne sur mon téléphone?
+summary: CoronaMelder fonctionne sur la plupart des téléphones Android ayant la version 6 ou plus récente et sur les iPhones ayant iOS 13.5 ou plus récent.
+lang: fr
 categories:
-- nl
+- fr
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
+featuredHomeText: CoronaMelder fonctionne sur la plupart des téléphones Android ayant la version 6 ou plus récente et sur les iPhones ayant iOS 13.5 ou plus récent.
 ---
 
-**Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
+**Android**: CoronaMelder fonctionne sur la plupart des téléphones Android ayant la version 6 ou plus récente. 
 
-**iPhone:** CoronaMelder werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer. iOS 13.5 kan geïnstalleerd worden op de iPhone 6s , iPhone SE en nieuwer.
-
-Apple en Google hebben hun besturingssystemen aangepast zodat CoronaMelder kan werken met Bluetooth Low Energy. Apple biedt dit alleen aan vanaf versie iOS 13.5 (iPhone 6s en nieuwer). iOS 12 ontvangt wel beveiligingsupdates, maar geen functionele updates. De Nederlandse overheid heeft geen invloed op het updatebeleid van Apple.
+**iPhone**: CoronaMelder fonctionne surt les iPhones Apple ayant le système d'exploitation iOS 13.5 ou plus récent. iOS 13.5 peut être installé sur l'iPhone 6s, l'iPhone SE et les appareils plus récents. 
+ 
+ Apple et Google ont adapté leurs systèmes d'exploitation pour que CortonaMelder puisse fonctionner avec le Bluetooth Low Energy. Apple n'offre cette possibilité qu'à partir de la version iOS 13.5, iPhone 6s et plus récent). iOS 12 reçoit toutefois les mises à jour de sécurité, mais pas les mises à jour fonctionnelles. Les autorités néerlandaises n'exercent pas d'influence sur la politique d'Apple quant aux mises à jour.

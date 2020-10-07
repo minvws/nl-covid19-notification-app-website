@@ -1,26 +1,25 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: Que faire si je reçois une notification?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: Il est vous conseillé de rester à la maison jusqu’à 10 jours après la date du contact. Vous avez des symptômes? Faites-vous tester.
+lang: fr
 categories:
-- nl
+- fr
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Il est vous conseillé de rester à la maison jusqu’à 10 jours après la date du contact. Vous avez des symptômes? Faites-vous tester.
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Si vous recevez une notification, cela veut dire que vous avez été proche de quelqu’un qui s’avère par la suite avoir le coronavirus. Pas de panique : cela ne veut pas forcément dire que vous avez également le coronavirus. Vous avez couru plus de risques d'être contaminé(e) : vous avez peut-être le coronavirus. 
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Restez alors à la maison jusqu’à 10 jours après la date du contact avec la personne contaminée. Vous éviterez ainsi de contaminer d’autres personnes.
 
+Vous avez des symptômes dans les 10 jours qui suivent ? Contactez alors le GGD pour vous faire tester.
+
+Appelez le [0800-1202](tel:+318001202) pour demander à faire un test gratuit. 

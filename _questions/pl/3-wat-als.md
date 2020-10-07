@@ -1,26 +1,25 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: Otrzymałem powiadomienie. Co należy zrobić?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: Zaleca się pozostanie w domu do 10 dni po kontakcie z osobą zarażoną. Masz dolegliwości? Wykonaj więc test na obecność koronawirusa.
+lang: pl
 categories:
-- nl
+- pl
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Zaleca się pozostanie w domu do 10 dni po kontakcie z osobą zarażoną. Masz dolegliwości? Wykonaj więc test na obecność koronawirusa.
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Otrzymasz powiadomienie, jeśli znajdowałeś się w pobliżu osoby, u której wykryto koronawirusa. Nie wpadaj w panikę: nie wiadomo z całą pewnością, czy Ty również masz koronawirusa. Byłeś narażony na szczególne ryzyko zarażenia: możliwe, że masz koronawirusa. 
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Pozostań w domu do 10 dni od momentu, kiedy miałeś kontakt z osobą zarażoną. W ten sposób możesz uniknąć zarażenia innych osób.
 
+W przeciągu tych 10 dni lub później pojawiły się dolegliwości? Skontaktuj się z GGD, aby wykonać test na obecność koronawirusa..
+
+Zadzwoń pod numer [0800-1202](tel:+318001202), aby zapytać o bezpłatny test na obecność koronawirusa.

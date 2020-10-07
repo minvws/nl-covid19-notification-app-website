@@ -1,22 +1,22 @@
 ---
 layout: content
 index: 2
-title: Hoe helpt de app tegen corona?
-lang: nl
+title: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
+summary: CoronaMelder ostrzega Cię w przypadku, gdy znalazłeś się w pobliżu osoby z koronawirusem.
+lang: pl
 categories:
-- nl
+- pl
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
+featuredHomeText: CoronaMelder ostrzega Cię w przypadku, gdy znalazłeś się w pobliżu osoby z koronawirusem.
 ---
 
-Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.
- 
-Als je via de app een waarschuwing krijgt, blijf dan thuis tot 10 dagen na de datum van het contact met een besmette persoon. Zo voorkom je dat je bijvoorbeeld je (groot)ouders besmet. Of dat je het virus verspreidt op een drukke plek, zoals de markt of een sportevenement. 
+Jeszcze zanim poczujesz się chory, możesz przekazywać koronawirusa innym. Im szybciej wiadomo, czy dana osoba ma koronawirusa, tym skuteczniej można zapobiegać nowym zarażeniom. Pomaga w tym CoronaMelder. 
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
+Pozostań w domu do 10 dni od momentu, kiedy miałeś kontakt z osobą zarażoną. W ten sposób możesz uniknąć zarażenia na przykład swoich rodziców lub dziadków. Unikniesz również rozprzestrzenienia wirusa w miejscach, gdzie znajduje się dużo ludzi, na przykład w sklepie lub podczas imprezy sportowej.
 
+W przeciągu tych 10 dni lub później pojawiły się dolegliwości? Skontaktuj się z GGD, aby wykonać test na obecność koronawirusa.

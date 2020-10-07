@@ -1,33 +1,31 @@
 ---
 layout: content
 index: 4
-title: Wanneer krijg ik een melding?
-lang: nl
+title: Nachdem Sie in der Nähe einer Person waren, die nach Ihrer Begegnung getestet wurde und Corona hat.
+lang: de
 categories:
-- nl
+- de
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
-featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
+featuredHomeText: Nachdem Sie in der Nähe einer Person waren, die nach Ihrer Begegnung getestet wurde und Corona hat.
 ---
+Sie erhalten eine Warnung, nachdem:
+* jemand über CoronaMelder zusammen mit dem GGD angegeben hat, Corona zu haben,
+* und Sie in den letzten Tagen in der Nähe dieser Person waren,
+* und Sie und diese Person mindestens 15 Minuten dicht beieinander waren.
 
-Je krijgt een waarschuwing nadat:
-- iemand via CoronaMelder samen met de GGD aangeeft het coronavirus te hebben,
-- én jij in de afgelopen dagen in de buurt bent geweest van die persoon,
-- én jullie toen minstens 15 minuten dicht bij elkaar waren.
- 
-Je was bijvoorbeeld:
-- bij een borrel of etentje,
-- in een winkel,
-- in een rij aan het wachten,
-- aan het reizen,
-- aan het sporten,
-- aan het werk,
-- op school,
-en krijgt dan later een melding.
- 
-Maar fietste iemand voorbij? Dan krijg je geen melding: jullie waren maar kort bij elkaar in de buurt.
+Sie waren zum Beispiel:
+- auf einem Empfang oder bei einem gemeinsamen Essen,
+- in einem Geschäft,
+- in einer Warteschlange,
+- auf Reisen,
+- beim Sport,
+- an der Arbeit,
+- in der Schule
+und bekommen später eine Nachricht.
 
+Aber fuhr jemand mit dem Rad vorbei? Dann erhalten Sie keine Nachricht: Sie und die andere Person waren nicht lange genug dicht beieinander.

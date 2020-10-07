@@ -1,26 +1,26 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: Was muss ich tun, wenn ich eine Nachricht erhalte?
+summary: Sie sollten bis 10 Tage nach dem Kontaktdatum zu Hause bleiben. Haben Sie Beschwerden? Dann lassen Sie sich testen.
 icon: mobile-check
 summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+lang: de
 categories:
-- nl
+- de
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Sie sollten bis 10 Tage nach dem Kontaktdatum zu Hause bleiben. Haben Sie Beschwerden? Dann lassen Sie sich testen.
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Haben Sie eine Nachricht erhalten? Dann waren Sie in der Nähe einer Person, bei der später Corona festgestellt wurde. Keine Panik: Es ist nämlich nicht sicher, dass Sie auch Corona haben. Für Sie bestand eine zusätzliche Ansteckungsgefahr. Das bedeutet: Vielleicht haben Sie Corona. 
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Bleiben Sie deshalb bis 10 Tage nach dem Kontakt mit einer infizierten Person zu Hause. Damit vermeiden Sie, dass Sie auch andere anstecken.
 
+Haben Sie in diesen 10 Tagen oder danach Beschwerden? Dann kontaktieren Sie den GGD und lassen Sie sich testen.
+
+Rufen Sie [0800-1202](tel:+318001202) an, um kostenlos einen Coronatest anzufordern.

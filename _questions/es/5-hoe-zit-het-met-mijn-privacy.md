@@ -2,19 +2,20 @@
 layout: content
 index: 5
 set: 2
-title: Hoe zit het met mijn privacy?
-lang: nl
+title: ¿Y qué hay de mi privacidad?
+summary: La app funciona sin localización, correo electrónico, número de teléfono u otros datos de contacto.
+lang: es
 categories:
-- nl
+- es
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+featuredHomeText: La app funciona sin localización, correo electrónico, número de teléfono u otros datos de contacto.
 ---
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+La app intercambia códigos aleatorios con otros teléfonos.Estos códigos no incluyen ninguno de tus datos personales o de localización.La app no sabe quién eres ni tampoco dónde estás.
+
+Incluso si te contagias y lo notificas con la app, eso no se vincula a tu nombre ni a tus datos de contacto. Además, el uso de la app es totalmente voluntario.

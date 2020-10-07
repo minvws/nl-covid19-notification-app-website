@@ -1,26 +1,25 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: Bir bildirim alırsam ne yapmalıyım?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: Temas tarihinden 10 gün sonrasına kadar evde kalmanız tavsiye edilir. Şikayetiniz mi var? O halde kendinizi test ettirin.
+lang: tr
 categories:
-- nl
+- tr
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Temas tarihinden 10 gün sonrasına kadar evde kalmanız tavsiye edilir. Şikayetiniz mi var? O halde kendinizi test ettirin.
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Bir bildirim aldığınızda, daha sonra Korona olduğu ortaya çıkan birinin yakınında bulundunuz. O zaman panik yapmayın: Sizde de Korona olduğu kesin değildir. Ekstra bir kontaminasyon riskiniz var: sizde Korona olabilir.
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Bu nedenle, enfekte bir kişi ile temas tarihinden itibaren 10 güne kadar evde kalın. Bu, başkalarına da bulaştırmanızı engeller.
 
+Bu 10 gün içinde veya sonrasında şikayetleriniz mi var? Daha sonra test yaptırmak için GGD ile iletişime geçin.
+
+Ücretsiz bir Korona testi talep etmek için [0800-1202](tel:+318001202)'yi arayın.

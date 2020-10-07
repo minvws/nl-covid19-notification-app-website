@@ -1,26 +1,27 @@
 ---
 layout: content
 index: 3
-title: Wat moet ik doen als ik een melding krijg?
+title: Ce trebuie să fac dacă primesc o notificare?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
-lang: nl
+summary: Vi se recomandă să stați acasă 10 zile de la data contactului. Aveți simptome? Testați-vă.
+lang: ro
 categories:
-- nl
+- ro
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Vi se recomandă să stați acasă 10 zile de la data contactului. Aveți simptome? Testați-vă.
 ---
 
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
- 
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
+Când primiți o notificare înseamnă că ați fost aproape de cineva care ulterior s-a dovedit a avea coronavirus. Nu intrați în panică: nu este sigur că aveți coronavirus. Aveți fost expus unui risc mai mare de infectare: este posibil să aveți coronavirus.
 
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
- 
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
+Stați acasă timp de 10 zile de la data contactului cu persoana infectată. În acest fel preveniți infectarea altora.
 
+Aveți simptome în timpul acestor 10 zile sau în zilele următoare? Luați legătura cu GGD (Serviciul Municipal de Sănătate) pentru a vă testa.
+
+Sunați la [0800-1202](tel:+318001202)  (număr gratuit) pentru a solicita un test pentru coronavirus.
+
+ 

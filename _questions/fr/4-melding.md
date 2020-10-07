@@ -1,33 +1,33 @@
 ---
 layout: content
 index: 4
-title: Wanneer krijg ik een melding?
-lang: nl
+title: Quand vais-je recevoir une notification?
+summary: Après que vous avez été proche de quelqu’un qui, après votre rencontre, fait le test et a le coronavirus.
+lang: fr
 categories:
-- nl
+- fr
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
-featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
+featuredHomeText: Après que vous avez été proche de quelqu’un qui, après votre rencontre, fait le test et a le coronavirus.
 ---
 
-Je krijgt een waarschuwing nadat:
-- iemand via CoronaMelder samen met de GGD aangeeft het coronavirus te hebben,
-- én jij in de afgelopen dagen in de buurt bent geweest van die persoon,
-- én jullie toen minstens 15 minuten dicht bij elkaar waren.
- 
-Je was bijvoorbeeld:
-- bij een borrel of etentje,
-- in een winkel,
-- in een rij aan het wachten,
-- aan het reizen,
-- aan het sporten,
-- aan het werk,
-- op school,
-en krijgt dan later een melding.
- 
-Maar fietste iemand voorbij? Dan krijg je geen melding: jullie waren maar kort bij elkaar in de buurt.
+Vous recevez une notification après que :
+* quelqu’un indique, en collaboration avec le GGD, avoir le coronavirus via CoronaMelder,
+* et vous avez été en contact avec cette personne les jours qui ont précédé,
+* et vous avez été proches l’un(e) de l’autre au moins pendant 15 minutes.
 
+Vous étiez par exemple :
+- à un apéritif ou un repas,
+- dans un magasin,
+- en train de faire la file,
+- en voyage,
+- en train de faire du sport,
+- au travail,
+- à l’école,
+et vous recevez une notification par la suite.
+
+Mais quelqu’un vous a dépassé à vélo ? Vous ne recevrez alors aucune notification : vous n’avez été que très brièvement proches l’un de l’autre.

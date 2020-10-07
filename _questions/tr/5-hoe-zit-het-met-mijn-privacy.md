@@ -2,19 +2,20 @@
 layout: content
 index: 5
 set: 2
-title: Hoe zit het met mijn privacy?
-lang: nl
+title: Benim gizliliğim ne olacak?
+summary: Uygulama konumunuz, adınız, e-posta adresiniz, telefon numaranız veya diğer iletişim bilgileriniz olmadan çalışır.
+lang: tr
 categories:
-- nl
+- tr
 - faq
 showBreadCrumbs: true
 showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+featuredHomeText: Uygulama konumunuz, adınız, e-posta adresiniz, telefon numaranız veya diğer iletişim bilgileriniz olmadan çalışır.
 ---
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+Uygulama, diğer telefonlarla rastgele kod değişimi yapar. Bu kodlar, sizinle ilgili herhangi bir kişisel veya konum bilgisi içermez. Bu nedenle uygulama, kim olduğunuzu veya nerede olduğunuzu bilmez.
+
+Size Korona virüsü bulaşsa ve bunu uygulama aracılığıyla bildirseniz bile, bu adınıza veya iletişim bilgilerinize bağlanamaz. Üstelik uygulamayı tamamen gönüllü olarak kullanıyorsunuz.
