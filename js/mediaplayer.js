@@ -1,9 +1,7 @@
 (function() {
     'use strict';
     
-    setTimeout(function() { 
-      window.addEventListener('load', init);
-    }, 50);
+    window.addEventListener('load', init);
 
     function init () {
         mejs.i18n.language(document.documentElement.lang);
@@ -11,16 +9,10 @@
         var player = new MediaElementPlayer(mediaElem, {
             shimScriptAccess: 'always',
             features: ['playpause', 'current', 'progress', 'duration', 'tracks', 'volume', 'a11y', 'fullscreen'],
-            alwaysShowControls: true
+            alwaysShowControls: true,
+            success: function(mediaElement, originalNode, instance) {
+              console.log(mediaElement);
+            }
         });
-
-        var playPromise = player.play();
-        if (playPromise !== undefined) {
-          playPromise.then(_ => {
-            video.pause();
-          })
-          .catch(error => {});
-        }
-        player.pause();
     }
 })();
