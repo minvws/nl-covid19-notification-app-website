@@ -16,7 +16,7 @@
 <body>
   <main class="content-center content-center__in_app" id="content">
     <div class="content-block">
-      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+      {% if page.title %}<h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>{% endif %}
       {{ content }}
     </div>
   </main>
