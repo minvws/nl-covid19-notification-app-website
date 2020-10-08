@@ -2,6 +2,7 @@
 layout: in-app-content
 lang: ro
 title: Accessibility
+contentLang: en
 ---
 
 

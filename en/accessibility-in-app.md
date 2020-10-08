@@ -2,6 +2,7 @@
 layout: in-app-content
 lang: en
 title: Accessibility
+contentLang: en
 ---
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
