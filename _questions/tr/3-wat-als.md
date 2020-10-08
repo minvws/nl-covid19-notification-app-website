@@ -21,6 +21,4 @@ Bir bildirim aldığınızda, daha sonra Korona olduğu ortaya çıkan birinin y
 
 Bu nedenle, enfekte bir kişi ile temas tarihinden itibaren 10 güne kadar evde kalın. Bu, başkalarına da bulaştırmanızı engeller.
 
-Bu 10 gün içinde veya sonrasında şikayetleriniz mi var? Daha sonra test yaptırmak için GGD ile iletişime geçin.
-
-Ücretsiz bir Korona testi talep etmek için [0800-1202](tel:+318001202)'yi arayın.
+Bu 10 gün içinde veya sonrasında şikayetleriniz mi var? Ücretsiz bir Korona testi talep etmek için [0800-1202](tel:+318001202)'yi arayın veya [www.coronatest.nl](https://www.coronatest.nl) adresine gidin.

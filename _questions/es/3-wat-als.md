@@ -21,7 +21,4 @@ Si recibes una notificación, significa que has estado cerca de alguien que lueg
 
 Por eso te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto con la persona contagiada. Así evitarás contagiar a otros.
 
-¿Muestras síntomas dentro del plazo de 10 días o después? Ponte en contacto con el GGD (servicio de salud municipal) para hacerte un test.
-
-Llama al [0800-1202](tel:+318001202) para solicitar un test gratis.
- 
+¿Muestras síntomas dentro del plazo de 10 días o después? Llama al [0800-1202](tel:+318001202) o visita [www.coronatest.nl](https://www.coronatest.nl) para solicitar un test gratis.

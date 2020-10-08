@@ -21,8 +21,5 @@ Când primiți o notificare înseamnă că ați fost aproape de cineva care ulte
 
 Stați acasă timp de 10 zile de la data contactului cu persoana infectată. În acest fel preveniți infectarea altora.
 
-Aveți simptome în timpul acestor 10 zile sau în zilele următoare? Luați legătura cu GGD (Serviciul Municipal de Sănătate) pentru a vă testa.
-
-Sunați la [0800-1202](tel:+318001202)  (număr gratuit) pentru a solicita un test pentru coronavirus.
-
- 
+Sunați la [0800-1202](tel:+318001202) (număr gratuit) pentru a solicita un test pentru coronavirus.
+Aveți simptome în timpul acestor 10 zile sau în zilele următoare? Sunați la 0800-1202 sau vizitați [www.coronatest.nl](https://www.coronatest.nl) pentru a solicita gratuit un test pentru coronavirus.

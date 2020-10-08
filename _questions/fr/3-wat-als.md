@@ -21,6 +21,4 @@ Si vous recevez une notification, cela veut dire que vous avez été proche de q
 
 Restez alors à la maison jusqu’à 10 jours après la date du contact avec la personne contaminée. Vous éviterez ainsi de contaminer d’autres personnes.
 
-Vous avez des symptômes dans les 10 jours qui suivent ? Contactez alors le GGD pour vous faire tester.
-
-Appelez le [0800-1202](tel:+318001202) pour demander à faire un test gratuit. 
+Vous avez des symptômes dans les 10 jours qui suivent ? Appelez le [0800-1202](tel:+318001202) ou rendez-vous sur [www.coronatest.nl](https://www.coronatest.nl) pour demander à faire un test gratuit. 
