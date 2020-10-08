@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 3
+set: 2
 title: Otrzymałem powiadomienie. Co należy zrobić?
 icon: mobile-check
 summary: Zaleca się pozostanie w domu do 10 dni po kontakcie z osobą zarażoną. Masz dolegliwości? Wykonaj więc test na obecność koronawirusa.

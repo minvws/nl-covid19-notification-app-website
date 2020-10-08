@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 3
+set: 2
 title: Ce trebuie să fac dacă primesc o notificare?
 icon: mobile-check
 summary: Vi se recomandă să stați acasă 10 zile de la data contactului. Aveți simptome? Testați-vă.

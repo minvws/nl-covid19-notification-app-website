@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 3
+set: 2
 title: ¿Qué tengo que hacer si recibo una notificación?
 icon: mobile-check
 summary: Te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto. ¿Muestras síntomas? Hazte un test.

@@ -1,5 +1,6 @@
 ---
 layout: content
+set: 3
 index: 1
 title: Kan ik de app al gebruiken?
 lang: nl

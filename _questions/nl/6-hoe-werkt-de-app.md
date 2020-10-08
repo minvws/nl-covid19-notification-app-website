@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 6
+set: 2
 title: Hoe werkt de app?
 lang: nl
 categories:

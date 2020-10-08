@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 2
+set: 2
 title: Cum ajută aplicația împotriva coronavirus-ului?
 summary: CoronaMelder vă avertizează după ce ați fost în apropierea cuiva infectat cu coronavirus.
 lang: ro

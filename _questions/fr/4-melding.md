@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 4
+set: 2
 title: Quand vais-je recevoir une notification?
 summary: Après que vous avez été proche de quelqu’un qui, après votre rencontre, fait le test et a le coronavirus.
 lang: fr

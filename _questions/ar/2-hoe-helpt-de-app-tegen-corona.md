@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 2
+set: 2
 title: كيف يساعد التطبيق ضد كورونا?
 lang: ar
 categories:

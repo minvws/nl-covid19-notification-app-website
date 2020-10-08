@@ -1,6 +1,5 @@
 ---
 layout: content
-index: 2
 title: Hoe helpt de app tegen corona?
 lang: nl
 categories:

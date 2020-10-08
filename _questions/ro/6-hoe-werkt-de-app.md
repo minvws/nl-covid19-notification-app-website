@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 6
+set: 2
 title: Cum funcționează aplicația?
 summary: Aplicația vă trimite un mesaj dacă ați fost pentru un timp în apropierea unei persoane care este infectată cu coronavirus.
 lang: ro

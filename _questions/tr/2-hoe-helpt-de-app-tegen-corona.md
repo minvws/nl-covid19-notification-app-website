@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 2
+set: 2
 title: Uygulama Koronaya karşı nasıl yardımcı olur?
 summary: CoronaMelder, Korona olan birinin yakınında bulunduktan sonra sizi uyarır.
 lang: tr

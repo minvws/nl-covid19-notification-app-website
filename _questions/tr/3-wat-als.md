@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 3
+set: 2
 title: Bir bildirim alırsam ne yapmalıyım?
 icon: mobile-check
 summary: Temas tarihinden 10 gün sonrasına kadar evde kalmanız tavsiye edilir. Şikayetiniz mi var? O halde kendinizi test ettirin.

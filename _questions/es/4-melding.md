@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 4
+set: 2
 title: ¿Cuándo recibo una notificación?
 summary: Tras haber estado cerca de alguien que después de vuestro encuentro se hizo un test y resultó tener el coronavirus.
 lang: es

@@ -282,26 +282,42 @@ faq:
 faq-category-howtheapphelps:
   nl: Hoe de app helpt tegen corona
   en: How the app helps to stop the spread of coronavirus
-  ar: كيف يساعد التطبيق ضد كورونا
-  bg: Как приложението помага в борбата с коронавируса?
-  de: Wie hilft die App im Kampf gegen Corona?
-  es: Cómo ayuda la app contra el coronavirus
-  fr: En quoi l’application contribue-t-elle à lutter contre le coronavirus ?
-  pl: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
-  ro: Cum ajută aplicația împotriva coronavirus-ului?
-  tr: Uygulama Koronaya karşı nasıl yardımcı olur?
+  ar: How the app helps to stop the spread of coronavirus 
+  bg: How the app helps to stop the spread of coronavirus 
+  de: How the app helps to stop the spread of coronavirus 
+  es: How the app helps to stop the spread of coronavirus 
+  fr: How the app helps to stop the spread of coronavirus 
+  pl: How the app helps to stop the spread of coronavirus 
+  ro: How the app helps to stop the spread of coronavirus 
+  tr: How the app helps to stop the spread of coronavirus 
+  # ar: كيف يساعد التطبيق ضد كورونا
+  # bg: Как приложението помага в борбата с коронавируса?
+  # de: Wie hilft die App im Kampf gegen Corona?
+  # es: Cómo ayuda la app contra el coronavirus
+  # fr: En quoi l’application contribue-t-elle à lutter contre le coronavirus ?
+  # pl: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
+  # ro: Cum ajută aplicația împotriva coronavirus-ului?
+  # tr: Uygulama Koronaya karşı nasıl yardımcı olur?
 
 faq-category-howtheappworks:
   nl: Werking van de app
-  en: How the app works
-  ar: طريقة عمل التطبيق
-  bg: Функциониране на приложението
-  de: Funktion der App
-  es: Funcionamiento de la app
-  fr: Fonctionnement de l'application
-  pl: Działanie aplikacji
-  ro: Funcționarea aplicației
-  tr: Uygulama nasıl çalışır
+  en: How the app works  
+  ar: How the app works 
+  bg: How the app works 
+  de: How the app works 
+  es: How the app works 
+  fr: How the app works 
+  pl: How the app works 
+  ro: How the app works 
+  tr: How the app works 
+  # ar: طريقة عمل التطبيق
+  # bg: Функциониране на приложението
+  # de: Funktion der App
+  # es: Funcionamiento de la app
+  # fr: Fonctionnement de l'application
+  # pl: Działanie aplikacji
+  # ro: Funcționarea aplicației
+  # tr: Uygulama nasıl çalışır
 
 faq-category-lessAskedQuestions:
   nl: Extra categorie

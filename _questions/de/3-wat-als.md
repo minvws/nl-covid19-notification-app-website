@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 3
-set: 1
+set: 2
 title: Was muss ich tun, wenn ich eine Nachricht erhalte?
 summary: Sie sollten bis 10 Tage nach dem Kontaktdatum zu Hause bleiben. Haben Sie Beschwerden? Dann lassen Sie sich testen.
 icon: mobile-check

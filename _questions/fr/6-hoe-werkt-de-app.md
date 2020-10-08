@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 6
+set: 2
 title: Comment fonctionne l’application?
 summary: L’application vous envoie un message si vous avez été pendant un certain temps proche de quelqu’un qui a le coronavirus.
 lang: fr

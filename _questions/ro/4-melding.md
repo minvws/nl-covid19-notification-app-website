@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 4
+set: 2
 title: Când primesc o notificare?
 summary: După ce ați fost în apropierea cuiva care a fost testat după întâlnirea dvs. și are coronavirus.
 lang: ro

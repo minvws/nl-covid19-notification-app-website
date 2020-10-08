@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 2
+set: 2
 title: En quoi l’application contribue-t-elle à lutter contre le coronavirus ?
 summary: CoronaMelder vous avertit lorsque vous avez été à proximité d’une personne qui a le coronavirus.
 lang: fr
