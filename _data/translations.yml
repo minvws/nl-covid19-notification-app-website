@@ -358,7 +358,7 @@ layout-template-faq:
 layout-faq-btn:
   nl: Bekijk alle veelgestelde vragen
   en: All frequently asked questions
-  ar: جميع الأسئلة المتكررة ( الانجليزية)
+  ar: جميع الأسئلة المتكررة (الانجليزية)
   bg: Виж всички често задавани въпроси (на английски език)
   de: Lesen Sie alle häufig gestellten Fragen (Englisch)
   es: Consulta todas las preguntas frecuentes (Inglés)
@@ -366,6 +366,16 @@ layout-faq-btn:
   pl: Najczęściej zadawane pytania (j. angielski)
   ro: Toate întrebările frecvente (engleză)
   tr: Bütün sık sorulan sorular (ingilizce)
+
+english: 
+  ar: (الانجليزية)
+  bg: (на английски език)
+  de: (Englisch)
+  es: (Inglés)
+  fr: (Anglais)
+  pl: (j. angielski)
+  ro: (engleză)
+  tr: (ingilizce)
 
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu beschikbaar voor heel Nederland.
