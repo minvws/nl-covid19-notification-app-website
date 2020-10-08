@@ -54,7 +54,7 @@ head-social-og-image-url:
   es: head-social-og-image--nl.png?v=3
   pl: head-social-og-image--nl.png?v=3
   ro: head-social-og-image--nl.png?v=3
-  tu: head-social-og-image--nl.png?v=3
+  tr:  head-social-og-image--nl.png?v=3
   
 head-social-og-image-alt:
   nl: Impressie van website waarop toelichting te vinden is
@@ -193,7 +193,7 @@ phone-action:
   es: <a href="tel:0800-1280">0800-1280</a>
   pl: <a href="tel:0800-1280">0800-1280</a>
   ro: <a href="tel:0800-1280">0800-1280</a>
-  tu: <a href="tel:0800-1280">0800-1280</a>
+  tr:  <a href="tel:0800-1280">0800-1280</a>
   
 minvws:
   nl: "Ministerie van Volksgezondheid,<br>Welzijn en Sport"
@@ -385,7 +385,7 @@ info-app-store-url:
   es: https://apps.apple.com/gb/app/id1517652429
   pl: https://apps.apple.com/gb/app/id1517652429
   ro: https://apps.apple.com/gb/app/id1517652429
-  tu: https://apps.apple.com/gb/app/id1517652429
+  tr:  https://apps.apple.com/gb/app/id1517652429
 
 info-google-play-url:
   nl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
@@ -397,7 +397,7 @@ info-google-play-url:
   es: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   pl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
   ro: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  tu: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+  tr:  https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
 
 info-app-store-img:
   nl: app-store-badge-nl.svg
@@ -409,7 +409,7 @@ info-app-store-img:
   es: app-store-badge-eng.svg
   pl: app-store-badge-eng.svg
   ro: app-store-badge-eng.svg
-  tu: app-store-badge-eng.svg
+  tr:  app-store-badge-eng.svg
 
 info-google-play-img:
   nl: google-play-badge-nl.svg
@@ -421,7 +421,7 @@ info-google-play-img:
   es: google-play-badge-eng.svg
   pl: google-play-badge-eng.svg
   ro: google-play-badge-eng.svg
-  tu: google-play-badge-eng.svg
+  tr:  google-play-badge-eng.svg
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
@@ -668,7 +668,7 @@ footer-misc-contact-url:
   es: contact
   pl: contact
   ro: contact
-  tu: contact
+  tr:  contact
 footer-misc-contact:
   nl: Contact
   en: Contact
@@ -704,7 +704,7 @@ footer-misc-colofon-url:
   es: colofon
   pl: colofon
   ro: colofon
-  tu: colofon
+  tr:  colofon
 footer-misc-colofon:
   nl: Colofon
   en: Colophon
@@ -727,7 +727,7 @@ footer-misc-pers-url:
   es: pers
   pl: pers
   ro: pers
-  tu: pers
+  tr:  pers
 footer-misc-pers:
   nl: Pers
   en: Press

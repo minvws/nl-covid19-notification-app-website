@@ -44,7 +44,12 @@
 }
 
 @media (min-width: 740px) {
-  [lang="bg"] .btn--large {
+  [lang="bg"] .btn--large,
+  [lang="fr"] .btn--large,
+  [lang="ro"] .btn--large,
+  [lang="pl"] .btn--large,
+  [lang="de"] .btn--large,
+  [lang="tr"] .btn--large {
     max-width: 700px;
   }
 }

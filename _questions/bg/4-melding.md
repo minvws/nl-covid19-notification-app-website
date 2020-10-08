@@ -3,9 +3,9 @@ layout: content
 index: 4
 title: Кога ще получа известие?
 summary: Когато си бил близо до някого, който след срещата ви си е направил тест и има коронавирус.
-lang: nl
+lang: bg
 categories:
-- nl
+- bg
 - faq
 showBreadCrumbs: true
 showContact: true
