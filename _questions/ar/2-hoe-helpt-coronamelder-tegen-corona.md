@@ -19,7 +19,7 @@ Then you will receive a notification. When you get a notification, you have been
 Therefore, stay at home for up to 10 days from the date of contact with an infected person. This prevents you from infecting others as well.
 
 Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
-
+ 
 Call <a href="tel:08001202">0800-1202</a> to request a corona test free of charge.
 
 If you test positive for coronavirus yourself:
@@ -30,9 +30,4 @@ If you test positive for coronavirus yourself:
 - The notification only tells them that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
 
 
-The app helps to protect us from the Coronavirus. You can test the app in five GGD regions:
-- Drenthe
-- Gelderland-Zuid
-- IJsselland
-- Noord- en Oost-Gelderland
-- Twente 
+

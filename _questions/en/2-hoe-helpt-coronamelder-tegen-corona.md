@@ -29,9 +29,4 @@ If you test positive for coronavirus yourself:
 - The notification only tells them that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
 
 
-The app helps to protect us from the Coronavirus. You can test the app in five GGD regions:
-- Drenthe
-- Gelderland-Zuid
-- IJsselland
-- Noord- en Oost-Gelderland
-- Twente 
+
