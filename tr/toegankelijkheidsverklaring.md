@@ -1,11 +1,11 @@
 ---
 layout: content
-lang: en
+lang: tr
 showBreadCrumbs: true
 title: Accessibility
 ---
 
-# Accessibility
+
 
 English version coming soon!
 

@@ -1,9 +1,10 @@
 ---
 layout: content
-lang: en
+lang: bg
 showBreadCrumbs: true
+title: Disclaimer
 ---
 
-# Disclaimer
+
 
 Content volgt

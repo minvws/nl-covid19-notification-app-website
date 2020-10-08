@@ -1,11 +1,9 @@
 ---
 layout: content
-lang: en
+lang: tr
 showBreadCrumbs: true
 title: Cookies
 ---
-
-# Cookies
 
 This website doesn’t use cookies to measure webstatistics. 
 

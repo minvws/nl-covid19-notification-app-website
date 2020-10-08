@@ -1,6 +1,6 @@
 (function() {
 	var languagePicker = document.querySelector('.language-picker');
-	var button = document.querySelector('[aria-controls="language-picker__dropdown"]');
+	var button = document.querySelector('[aria-controls="language-dropdown"]');
 	var firstInteractive = document.querySelector('.language-picker__link');
 	var ariaExpanded;
 

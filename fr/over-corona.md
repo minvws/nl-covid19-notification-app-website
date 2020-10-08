@@ -1,10 +1,10 @@
 ---
 layout: content
-lang: en
+lang: fr
 showBreadCrumbs: true
 title: About Corona
 ---
 
-# About Corona
+
 
 Would like to know more the Coronavirus please check [government.nl](https://www.government.nl/) or the [coronadashboard](https://coronadashboard.rijksoverheid.nl).

@@ -1,0 +1,34 @@
+.video {
+    margin: 10px auto 22px auto;
+    padding: 0 10px;
+    max-width: 910px;
+    border: 1px solid #E6E6E6;
+
+    @media (min-width: 740px) {
+        margin: 30px auto 42px auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -16px; // Compensate for statement tile margins
+    }
+
+    @media (min-width: 960px) {
+        margin: 70px auto;
+        padding: 0 0;
+    }
+}
+
+.video__description {
+    flex: 1 1 50%;
+}
+
+.video__description__title {
+    
+}
+
+.video__description__content {
+    
+}
+
+.video__player {
+    flex: 1 1 50%;
+}

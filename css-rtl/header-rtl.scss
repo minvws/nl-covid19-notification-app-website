@@ -1,0 +1,104 @@
+.header {
+    @media(min-width: 960px) {
+        &::before {
+            position: absolute;
+            left: auto;
+            right: calc((1300px / -2) + calc(100% / 2));
+            transform: scaleX(-1);
+
+            .browser-ie-11 & {
+                left: auto;
+                right: calc(((100% - 1200px)/2) - 1px);
+            }
+        }
+    }
+
+    @media(min-width: 1080px) {
+        &::before {
+            .browser-ie-11 & {
+                left: auto;
+                right: calc(((100% - 1300px)/2) - 1px);
+            }
+        }
+    }
+
+
+    &::after {
+        transform: scaleX(-1);
+        background-position: center -23px;
+        left: 20px;
+        right: auto;
+
+        @media(min-width: 960px) {
+            left: calc((1100px / -2) + calc(100% / 2));
+            right: auto;
+        }
+    }
+}
+
+.header--slim {
+    padding: 0 0 50px 0;
+
+    &::after {
+        left: 30px;
+        transform: none;
+        background-position: center 23px;
+        right: auto;
+
+        .browser-ie-11 & {
+            left: 166px;
+            right: auto;
+        }
+    }
+
+    @media(min-width: 960px) {
+        &::after {
+            /** Perfect alignment: width: of this element, width of the element above */
+            width: 80px;
+            left: calc((980px / -2) + calc(100% / 2));
+            right: auto;
+        }
+    }
+}
+
+.header__title {
+    @media (min-width: 740px) {
+        padding-right: 55px;
+        padding-left: inherit;
+    }
+
+    @media (min-width: 960px) {
+        padding-right: 155px;
+        padding-left: inherit;
+    }
+}
+
+.header__text {
+    @media (min-width: 680px) {
+        padding-right: 0;
+    }
+
+    @media (min-width: 960px) {
+        margin-left: 424px;
+        margin-right: 0;
+    }
+
+    h1 {
+        @media (min-width: 960px) {
+            margin-left: 9rem;
+            margin-right: 0;
+        }
+    }
+}
+
+.header__layout__middle {
+    @media (min-width: 960px) {
+        padding: 20px 180px 0 0;
+    }
+}
+
+.header__logo-badge {
+    @media (min-width: 960px) {
+        float: right;
+    }
+}
