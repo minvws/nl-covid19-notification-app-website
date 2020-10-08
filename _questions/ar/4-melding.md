@@ -3,7 +3,7 @@ layout: content
 index: 4
 set: 2
 title: متى سأتلقى إشعارًا؟
-summary: بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.< مزيد من التوضيح
+summary:  بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.
 lang: ar
 categories:
 - ar
@@ -13,7 +13,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
-featuredHomeText: بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.< مزيد من التوضيح
+featuredHomeText:  بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.
 ---
 
 متى سأتلقى إشعارًا؟ :
