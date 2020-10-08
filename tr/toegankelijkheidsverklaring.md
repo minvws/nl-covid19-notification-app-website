@@ -3,9 +3,8 @@ layout: content
 lang: tr
 showBreadCrumbs: true
 title: Accessibility
+contentLang: en
 ---
-
-
 
 English version coming soon!
 

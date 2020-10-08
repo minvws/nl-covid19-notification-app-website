@@ -3,6 +3,7 @@ layout: content
 lang: ar
 showBreadCrumbs: true
 title: Cookies
+contentLang: en
 ---
 
 This website doesn’t use cookies to measure webstatistics. 

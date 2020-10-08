@@ -3,6 +3,7 @@ layout: content
 lang: es
 showBreadCrumbs: true
 title: Accessibility
+contentLang: en
 ---
 
 

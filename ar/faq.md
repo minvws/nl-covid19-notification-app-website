@@ -4,4 +4,5 @@ lang: ar
 showBreadCrumbs: true
 showContact: true
 title: ''
+contentLang: en
 ---
