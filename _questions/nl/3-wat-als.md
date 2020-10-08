@@ -23,5 +23,4 @@ Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette per
 
 Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
  
-Bel [0800-1202](tel:+318001202) om gratis een coronatest aan te vragen.
-
+Bel [0800-1202](tel:+318001202) of ga naar [coronatest.nl](https://www.coronatest.nl) om een gratis coronatest aan te vragen.

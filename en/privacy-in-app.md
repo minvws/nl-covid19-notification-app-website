@@ -15,8 +15,6 @@ The backend server then makes the DKs available for automatic download by the sm
 
 If there is a match, an assessment is made using a number of weighting factors as to whether there has been high-risk contact. If that is the case — in other words, if you have recently been in close proximity to a person infected with COVID-19 — you will be notified that there is an increased risk of contamination. The app also recommends having yourself tested for contamination with the virus if you have any symptoms.
 
-You can also watch the video 'Hoe werkt CoronaMelder? | How does CoronaMelder app work?' on YouTube.
-
 ### 1. Who is responsible for the processing of the personal data? 
 To the extent personal data are processed in the design and management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
 
