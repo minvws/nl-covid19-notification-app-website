@@ -22,4 +22,4 @@ The app exchanges random codes with other phones. These codes do not contain any
 Even if you are infected with coronavirus and you report this using the app, this information cannot be linked to your name or contact details. Using the app is also completely voluntary.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394" %}
