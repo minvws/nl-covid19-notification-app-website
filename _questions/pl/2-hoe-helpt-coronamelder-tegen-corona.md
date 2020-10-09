@@ -3,11 +3,12 @@ layout: content
 index: 2
 set: 1
 title: How will the app help to stop coronavirus?
-lang: en
+lang: pl
+contentLang: en
 categories:
 - pl
 - faq
-published: true
+
 showBreadCrumbs: true
 showContact: true
 ---

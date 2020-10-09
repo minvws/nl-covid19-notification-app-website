@@ -3,11 +3,12 @@ layout: content
 index: 8
 set: 2
 title: Will the app drain my phone battery?
-lang: en
+lang: ro
+contentLang: en
 categories:
 - ro
 - faq
-published: true
+
 showBreadCrumbs: true
 showContact: true
 ---

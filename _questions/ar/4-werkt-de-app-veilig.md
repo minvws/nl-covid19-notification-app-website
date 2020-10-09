@@ -3,11 +3,12 @@ layout: content
 index: 4
 set: 2
 title: Is the app secure?
-lang: en
+lang: ar
+contentLang: en
 categories:
 - ar
 - faq
-published: true
+
 showBreadCrumbs: true
 showContact: true
 ---

@@ -2,10 +2,12 @@
 layout: content
 index: 2
 set: 4
+published: false
 title: Is the app 100% secure?
-lang: en
+lang: tr
+contentLang: en
 categories:
-- en
+- tr
 - faq
 showBreadCrumbs: true
 showContact: true

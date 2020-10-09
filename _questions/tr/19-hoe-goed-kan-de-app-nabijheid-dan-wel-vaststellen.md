@@ -2,10 +2,12 @@
 layout: content
 index: 5
 set: 4
+published: false
 title: How well can the app detect proximity?
-lang: en
+lang: tr
+contentLang: en
 categories:
-- en
+- tr
 - faq
 showBreadCrumbs: true
 showContact: true

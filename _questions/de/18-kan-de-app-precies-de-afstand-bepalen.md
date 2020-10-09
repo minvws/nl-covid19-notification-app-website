@@ -2,10 +2,12 @@
 layout: content
 index: 4
 set: 4
+published: false
 title: Can the app determine the exact distance?
-lang: en
+lang: de
+contentLang: en
 categories:
-- en
+- de
 - faq
 showBreadCrumbs: true
 showContact: true

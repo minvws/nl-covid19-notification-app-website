@@ -2,10 +2,12 @@
 layout: content
 index: 3
 set: 4
+published: false
 title: Is the app 100% reliable?
-lang: en
+lang: ro
+contentLang: en
 categories:
-- en
+- ro
 - faq
 showBreadCrumbs: true
 showContact: true

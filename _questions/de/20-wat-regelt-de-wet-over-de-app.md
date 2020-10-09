@@ -2,10 +2,12 @@
 layout: content
 index: 6
 set: 4
+published: false
 title: What does the law regulate about the app?
-lang: en
+lang: de
+contentLang: en
 categories:
-- en
+- de
 - faq
 showBreadCrumbs: true
 showContact: true

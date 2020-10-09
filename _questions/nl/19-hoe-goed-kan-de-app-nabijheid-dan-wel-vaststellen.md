@@ -2,6 +2,7 @@
 layout: content
 index: 5
 set: 4
+published: false
 title: Hoe goed kan de app nabijheid dan wel vaststellen?
 summary: 
 lang: nl

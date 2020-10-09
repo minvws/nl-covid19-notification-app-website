@@ -3,11 +3,12 @@ layout: content
 index: 5
 set: 2
 title: How does the CoronaMelder app measure the distance to other users of the app?
-lang: en
+lang: pl
+contentLang: en
 categories:
 - pl
 - faq
-published: true
+
 showBreadCrumbs: true
 showContact: true
 ---

@@ -2,10 +2,12 @@
 layout: content
 index: 1
 set: 4
+published: false
 title: What are the results of the regional trials?
-lang: en
+lang: tr
+contentLang: en
 categories:
-- en
+- tr
 - faq
 showBreadCrumbs: true
 showContact: true
