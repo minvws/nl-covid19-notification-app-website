@@ -2,7 +2,7 @@
 layout: content
 lang: nl
 showBreadCrumbs: true
-title: Toegankelijkheidsverklaring
+title: Toegankelijkheid
 ---
 
 Datum toegankelijkheidsverklaring 09-10-2020

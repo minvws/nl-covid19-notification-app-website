@@ -2,7 +2,7 @@
 layout: content
 lang: nl
 showBreadCrumbs: true
-title: Toegankelijkheidsverklaring
+title: Toegankelijkheid
 ---
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
