@@ -3,11 +3,12 @@ layout: content
 index: 3
 set: 2
 title: Is the app compulsory?
-lang: en
+lang: ro
+contentLang: en
 categories:
 - ro
 - faq
-published: true
+
 showBreadCrumbs: true
 showContact: true
 ---

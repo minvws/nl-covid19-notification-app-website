@@ -31,27 +31,21 @@
 
       <h1 id="frequently-asked-questions">{{ site.data.translations.faq[page.lang] }}</h1>
 
-      {% if page.lang == 'nl' %}
-        {% assign questions = site.questions | where:"lang", 'nl' | sort: "index" %}
-      {% else %}
-        {% assign questions = site.questions | where:"lang", 'en' | sort: "index"  %}
-      {% endif %}
+      {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
       <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
 
       <div class="faq-layout__contents __overview">
           <ul class="faq-layout-contents__list">
             {% for question in questions %}
-            {% if question.categories contains page.lang %}
             {% if question.set == 1 %}
-            {% if question.published != false  %}
+              {% if question.featuredHome != true %}
                   <li>
                       <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
                           {{ question.title }}
                       </a>
                   </li>
                   {% endif %}
-                {% endif %}
                 {% endif %}
           {% endfor %}
           </ul>
@@ -63,42 +57,37 @@
       <div class="faq-layout__contents __overview">
           <ul class="faq-layout-contents__list">
           {% for question in questions %}
-          {% if question.categories contains page.lang %}
               {% if question.set == 2 %}
-              {% if question.published != false  %} 
+                {% if question.featuredHome != true %}
                   <li>
                       <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
                           {{ question.title }}
                       </a>
                   </li>
-                  {% endif %}
                 {% endif %}
-                {% endif %}
+              {% endif %}
           {% endfor %}
           </ul>
       </div>
 
-      {% if page.lang == 'nl' %}
+
+      {% comment %}
       <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-lessAskedQuestions[page.lang]|slugify }}">{{ site.data.translations.faq-category-lessAskedQuestions[page.lang] }}</h2>
 
       <div class="faq-layout__contents __overview" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
           <ul class="faq-layout-contents__list">
             {% for question in questions %}
-            {% if question.categories contains page.lang %}
             {% if question.set == 4 %}
-            {% if question.published != false  %}
                   <li>
                       <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
                           {{ question.title }}
                       </a>
                   </li>
                   {% endif %}
-                {% endif %}
-                {% endif %}
           {% endfor %}
           </ul>
       </div>
-      {% endif %}
+      {% endcomment %}
     </div>
 
     {% if page.collection == 'questions' %}

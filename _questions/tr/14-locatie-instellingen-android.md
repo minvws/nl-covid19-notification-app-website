@@ -3,10 +3,11 @@ layout: content
 index: 14
 set: 2
 title: Waarom moeten mijn locatie-instellingen aan staan op mijn Android-telefoon?
-lang: en
+lang: tr
+contentLang: en
 published: false
 categories:
-- en
+- tr
 - faq
 showBreadCrumbs: true
 showContact: true

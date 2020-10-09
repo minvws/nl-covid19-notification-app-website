@@ -3,11 +3,12 @@ layout: content
 index: 1
 set: 1
 title: Why is the CoronaMelder app needed?
-lang: en
+lang: bg
+contentLang: en
 categories:
 - bg
 - faq
-published: true
+
 showBreadCrumbs: true
 showContact: true
 ---
