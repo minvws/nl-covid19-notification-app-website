@@ -320,16 +320,16 @@ faq-category-howtheappworks:
   # tr: Uygulama nasıl çalışır
 
 faq-category-lessAskedQuestions:
-  nl: Extra categorie
-  en: Extra category
-  ar: Extra category 
-  bg: Extra category 
-  de: Extra category 
-  es: Extra category 
-  fr: Extra category 
-  pl: Extra category 
-  ro: Extra category
-  tr: Extra category 
+  nl: Overige vragen
+  en: Miscellaneous
+  ar: Miscellaneous
+  bg: Miscellaneous
+  de: Miscellaneous 
+  es: Miscellaneous
+  fr: Miscellaneous
+  pl: Miscellaneous 
+  ro: Miscellaneous
+  tr: Miscellaneous 
 
 layout-template-home:
   nl: Home

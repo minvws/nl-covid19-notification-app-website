@@ -78,7 +78,7 @@
           </ul>
       </div>
 
-      {% comment %}
+      {% if page.lang == 'nl' %}
       <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-lessAskedQuestions[page.lang]|slugify }}">{{ site.data.translations.faq-category-lessAskedQuestions[page.lang] }}</h2>
 
       <div class="faq-layout__contents __overview" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
@@ -98,7 +98,7 @@
           {% endfor %}
           </ul>
       </div>
-      {% endcomment %}
+      {% endif %}
     </div>
 
     {% if page.collection == 'questions' %}
