@@ -16,8 +16,6 @@ featuredHomeIcon: app-touch
 featuredHomeText: La app envía un mensaje si has estado demasiado tiempo cerca de alguien contagiado con el coronavirus.
 ---
 
-"¿Cómo funciona la app?
-
 La app envía un mensaje si has estado demasiado tiempo cerca de alguien contagiado con el coronavirus. Si quieres saber si estás contagiado, llama gratis al GGD (servicio de salud municipal) y solicita un test. Así evitaras transmitir el virus sin querer a otras personas.
 
 * La app puede ver mediante Bluetooth si has estado cerca de alguien que también tiene la app.
@@ -26,5 +24,3 @@ La app envía un mensaje si has estado demasiado tiempo cerca de alguien contagi
 * Si has estado cerca de alguien contagiado y que tenga la app, recibirás una notificación más adelante.
 * Si al final te has contagiado con el coronavirus, puedes avisar voluntariamente a otros con la app. La app avisará a las personas con las que has estado en contacto. En el aviso, solo pone cuándo han estado cerca de una persona contagiada.No dice nada sobre quién es ni dónde se encontró con esa persona.
 
-¿Quieres más información?
-> Preguntas frecuentes"

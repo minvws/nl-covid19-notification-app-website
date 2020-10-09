@@ -16,7 +16,7 @@ featuredHomeIcon: bell
 featuredHomeText: Tras haber estado cerca de alguien que después de vuestro encuentro se hizo un test y resultó tener el coronavirus.
 ---
 
-Recibirás un aviso si:
+Recibirás una notificación si:
 * alguien informa mediante CoronaMelder al GGD (servicio de salud municipal) que tiene el coronavirus,
 * tú has estado cerca de esa persona en los últimos días,
 * y has estado en contacto con ella al menos 15 minutos.
