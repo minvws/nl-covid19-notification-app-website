@@ -33,6 +33,6 @@ plugins:
   - "jekyll-sitemap"
   # - "jekyll-seo-tag"
 
-incremental: true
+incremental: false
 
 url: "https://www.coronamelder.nl"

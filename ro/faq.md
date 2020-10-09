@@ -1,7 +1,8 @@
 ---
 layout: faq-overview
-lang: en
+lang: ro
 showBreadCrumbs: true
 showContact: true
 title: ''
+contentLang: en
 ---

@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 4
+set: 2
 title: Wanneer krijg ik een melding?
 lang: nl
 categories:

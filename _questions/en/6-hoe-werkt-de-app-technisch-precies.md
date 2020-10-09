@@ -9,11 +9,7 @@ categories:
 - en
 - faq
 showBreadCrumbs: true
-showContact: true
-# featuredHome: true
-# featuredHomeIndex: 1
-# featuredHomeIcon: app-touch
-# featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
+showContact: true 
 ---
 
 1. The app generates a unique code for each phone
@@ -23,14 +19,7 @@ This code does not contain any information about you or your phone. The code is 
 If someone around you also has the app installed, your phones will share codes using Bluetooth Low Energy. This enables the app to know which phones have been nearby. The app does not know who owns the phones, or where you were at the time.
  
 3. If an app user tests positive for coronavirus, that person can upload his/her codes to a server
-The server only stores the codes of infected people. To add the codes to the server, the user needs to provide a GGD key to the GGD. At the moment, this is only possible if you live in a trial region . 
-
-Click [here](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) to find out if you live in one of the trial regions:
-- GGD Drenthe
--	GGD Gelderland-Zuid
--	GGD IJsselland
--	GGD Noord- en Oost-Gelderland
--	GGD Twente
+The server only stores the codes of infected people. To add the codes to the server, the user needs to provide a GGD key to the GGD. 
 
 The GGD key ensures that the codes added to the server really do belong to someone who has tested positive for coronavirus. All codes older than 14 days are deleted from the server automatically.
  

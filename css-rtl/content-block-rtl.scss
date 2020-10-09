@@ -41,72 +41,77 @@
     color: #333;
     margin-bottom: 20px;
 
-
-    ul {
-        margin-right: 1em;
-        margin-left: 0;
-
+    &:not([dir="ltr"]) {
         ul {
-            margin-right: 1.1em;
+            margin-right: 1em;
+            margin-left: 0;
+
+            ul {
+                margin-right: 1.1em;
+                margin-left: 0;
+            }
+        }
+
+        ol {
+            margin-right: 15px;
             margin-left: 0;
         }
-    }
-
-    ol {
-        margin-right: 15px;
-        margin-left: 0;
-    }
 
 
-    table {
-        tr {
-            th, td {
-                text-align: right;
+        table {
+            tr {
+                th, td {
+                    text-align: right;
+                }
+            }
+        }
+
+        .md-timeline {
+            padding: 1em 0;
+
+            ul,
+            ol {
+                margin-right: 0;
+
+                li {
+                    padding-right: 33px;
+                    padding-left: 0;
+
+                    // Round item
+                    &::before {
+                        right: 0;
+                        left: auto;
+                    }
+
+                    // Line
+                    &::after {
+                        border-left-width: 0;
+                        border-left-style: none;
+                        border-right-width: 4px;
+                        border-right-style: solid;
+                        left: auto;
+                        right: 8px;
+                    }
+                }
+            }
+        }
+
+        details {
+            summary:after {
+                right: auto;
+                left: 5px;
+            }
+        }
+
+
+        .md-block-lead {
+            @media (min-width: 960px) {
+                margin: -13px 0 40px 50px;
             }
         }
     }
 
-    .md-timeline {
-        padding: 1em 0;
-
-        ul,
-        ol {
-            margin-right: 0;
-
-            li {
-                padding-right: 33px;
-                padding-left: 0;
-
-                // Round item
-                &::before {
-                    right: 0;
-                    left: auto;
-                }
-
-                // Line
-                &::after {
-                    border-left-width: 0;
-                    border-left-style: none;
-                    border-right-width: 4px;
-                    border-right-style: solid;
-                    left: auto;
-                    right: 8px;
-                }
-            }
-        }
-    }
-
-    details {
-        summary:after {
-            right: auto;
-            left: 5px;
-        }
-    }
-
-
-    .md-block-lead {
-        @media (min-width: 960px) {
-            margin: -13px 0 40px 50px;
-        }
+    &[dir="ltr"] {
+        text-align: left;
     }
 }

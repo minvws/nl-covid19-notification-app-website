@@ -1,6 +1,6 @@
 ---
 layout: home
-lang: en
+lang: de
 title: ''
 showTogether : true
 showContact: true

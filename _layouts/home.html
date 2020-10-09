@@ -32,7 +32,8 @@
     {% include stories.html %}
     {% include badges.html class="layout-app-badges--center-wrap" %}
     {% include information.html %}
-    {% comment %} {% include video.html %} {% endcomment %}
+    {% if page.lang == 'en' %}{% include video.html %}{% endif %}
+    {% if page.lang == 'nl' %}{% include video.html %}{% endif %}
     {% include faq.html %}
     {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--background" %}
   </main>

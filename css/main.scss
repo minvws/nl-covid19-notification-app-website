@@ -675,29 +675,6 @@ ul.share > li > a {
     background-image: url('../img/linkedin.svg');
 }
 
-/* Explainer */
-
-.explainer {
-    display: block;
-    margin: 32px;
-    background: url('../img/play.svg') 33% center no-repeat, url('../img/illustration.svg') right top no-repeat, linear-gradient(180deg, #EEF7F9 /* illustratie blauw */ 0%, #FFFFFF 100%);
-    background-size: 93px, auto, auto;
-    height: 317px;
-    padding: 2rem 4rem;
-}
-.explainer:hover {
-    background-image: url('../img/play-hover.svg'), url('../img/illustration.svg'), linear-gradient(180deg, #EEF7F9 /* illustratie blauw */ 0%, #FFFFFF 100%);
-}
-
-a.explainer, a.explainer:hover, a.explainer:visited {
-    color: #333333 /* donkergrijs */;
-    text-decoration: none;
-}
-
-a.explainer > h2 {
-    font-size: 2rem;
-}
-
 /* FAQ */
 
 #radio-faq-top5:checked ~ .tab-faq-top5,
