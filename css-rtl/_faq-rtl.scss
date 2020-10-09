@@ -1,26 +1,26 @@
-.faq-layout__item {
-    &:after {
-        right: auto;
-        left: 5px;
-        top: 10px;
-        background: url(../img/chevron-left-darkblue.svg) no-repeat 50% 50%;
-    }
-} 
+// .faq-layout__item {
+//     &:after {
+//         right: auto;
+//         left: 5px;
+//         top: 10px;
+//         background: url(../img/chevron-left-darkblue.svg) no-repeat 50% 50%;
+//     }
+// } 
 
-.faq-layout__contents.__overview {
-    .faq-layout-contents__list {
-        margin-right: 0em;
-        margin-left: 0;
-    }
+// .faq-layout__contents.__overview {
+//     .faq-layout-contents__list {
+//         margin-right: 0em;
+//         margin-left: 0;
+//     }
     
-    .faq-layout__item {
-        padding: 14px 20px 14px 35px; 
+//     .faq-layout__item {
+//         padding: 14px 20px 14px 35px; 
 
-        &:after {
-            background: url(../img/chevron-left.svg) center center no-repeat;
-        }
-    }
-}
+//         &:after {
+//             background: url(../img/chevron-left.svg) center center no-repeat;
+//         }
+//     }
+// }
 
 .faq__link {
     position: relative;
