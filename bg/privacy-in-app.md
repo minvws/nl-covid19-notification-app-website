@@ -1,106 +1,112 @@
 ---
 layout: in-app-content
-lang: en
-title: Privacy in app
+lang: bg
+title: Декларация за поверителност за CoronaMelder
 ---
 
-## About CoronaMelder
+## Относно CoronaMelder
 
-CoronaMelder (app) is a technical tool that helps limit the spread of the COVID-19 virus. If you have installed CoronaMelder on your smartphone, you will receive a message if you have been in the proximity (for some time) of a person who has tested positive for COVID-19, and this person has also installed CoronaMelder. If you may have been infected by another CoronaMelder user, the app recommends that you have yourself tested if you have any symptoms. Below we will briefly explain how CoronaMelder works.
+CoronaMelder (приложение) е технически инструмент, който помага да се ограничи разпространението на вируса COVID-19. Ако сте инсталирали CoronaMelder на Вашия смартфон, ще получите съобщение, ако известно време сте били в близост до някой, който е дал положителен тест за COVID-19, и този човек също е инсталирал CoronaMelder. Ако има вероятностда сте били заразени от друг потребител на CoronaMelder, приложението  препоръчва да се тествате в случай на оплаквания. По-долу следва кратко разяснение как работи CoronaМelder.
 
-The app recognises other smartphones on which the app is installed via Bluetooth Low Energy. The other smartphones are recognised using random codes (series of numbers) known as Rolling Proximity Indicators (RPIs). These codes are updated every 10 to 20 minutes, and are derived from Temporary Exposure Keys (TEKs). TEKs are also random codes, but are regenerated on a daily basis to be stored on the user's phone for 14 days. 
+Приложението разпознава чрез Bluetooth Low Energy други смартфони, на които е инсталирано приложението. Останалите смартфони се разпознават въз основа на произволни кодове (серия от числа), наречени Rolling Proximity Indicators (RPI). Тези кодове се обновяват на всеки 10 до 20 минути и се извличат от така наречените ключове за временна експозиция (TEKs). TEK също са случайни кодове, но тези кодове се регенерират всеки ден и се съхраняват на телефона на потребителя в продължение на 14 дни.
 
-If your smartphone is in proximity to another smartphone on which the app is installed, their respective RPIs are exchanged and stored locally on those phones. If an app user has tested positive for COVID-19, the user may voluntarily choose to report this in the app. If the user chooses to do so, the app will send the TEKs created in the past 14 days and stored locally on the smartphone to a central server. The central server will only accept transmitted TEKs if the user and the Dutch Municipal Health Service (GGD) have confirmed such transmission with an authorisation code. On the central server, the TEKs received are converted into other codes known as Diagnosis Keys (DKs). 
+Ако Вашият смартфон е близо до друг смартфон, на който е инсталирано приложението, различните RPI се обменят между тези смартфони и се съхраняват локално върху тях. В случай че потребител на приложението е дал положителен тест за COVID-19, потребителят може доброволно да избере да докладва това в приложението. Ако направи такъв избор, приложението изпраща до бекенд сървър създадените през последните 14 дни и съхранявани локално на смартфона TEK. Бекенд сървърът ще приема изпратени TEK само ако потребителят и Общинската здравна служба (GGD) са потвърдили изпращането с код за потвърждение. На бекенд сървъра получените TEK се преобразуват в други кодове, наречени диагностични ключове (DК).
 
-The central server then makes the DKs available for automatic download by the smartphones on which the app is installed. After your smartphone has downloaded the DKs from the server, the phone will be disconnected from the server. This automated process is repeated several times per day to keep any contamination risks up-to-date. Your smartphone then calculates on the basis of the downloaded DKs whether there is a match with the various RPIs of other smartphones that have been in proximity to your smartphone. Immediately thereafter, the DKs will be removed from your smartphone. 
+След това бекенд сървърът предоставя на разположение диагностичните ключове, така че те могат да бъдат автоматично извлечени от смартфоните, на които е инсталирано приложението. Когато Вашият смартфон извлече диагностичните ключове от сървъра, връзката със сървъра ще бъде прекратена. Този автоматизиран процес се повтаря няколко пъти на ден, за да се актуализират евентуални рискове от заразяване. След това Вашият смартфон изчислява въз основа на изтеглените DК дали има съвпадение с различните RPI на други смартфони, до които е бил в близост Вашият смартфон. Веднага след това DК ще бъдат изтрити от Вашия смартфон.
 
-If there is a match, an assessment is made using a number of weighting factors as to whether there has been high-risk contact. If that is the case — in other words, if you have recently been in close proximity to a person infected with COVID-19 — you will be notified that there is an increased risk of contamination. The app also recommends having yourself tested for contamination with the virus if you have any symptoms.
+Ако има съвпадение, въз основа на редица коефициенти се определя дали е имало рискован контакт. Ако е така, с други думи, ако наскоро сте били близо до човек, заразен с COVID-19, ще бъдете уведомени за Вашия повишен риск от заразяване. Приложението също така препоръчва в случай на оплаквания да се тествате за заразяване с вируса.
 
-## The field test
+### 1. Кой е отговорен за обработката на лични данни?
 
-The field test will start on 17 August and will be conducted in collaboration with the Twente, Drenthe, Gelderland Zuid, Noord-Oost Gelderland and IJsselland GGD offices. Other GGD offices do not yet work with CoronaMelder at the time of the field test. CoronaMelder is available to all users in the app stores. You can therefore also download CoronaMelder even if you do not live in the geographical area of these field test regions. Only users living in the geographical area of the participating GGD regions can successfully upload the TEKs to the central server, because this requires an authorisation code from the GGD office. CoronaMelder's other functions remain the same.
+Министърът на здравеопазването, благосъстоянието и спорта е отговорен за обработката, доколкото при проектирането и управлението на CoronaMelder се обработват лични данни.
 
-### 1. Who is responsible for the processing of the personal data?
+Доколкото при проследяването на източници и контакти Общинската здравна служба (ОЗС) използва лични данни, получавани чрез приложението, ОЗС на Вашия регион е отговорникът за обработката. На [www.GGD.nl](https://www.ggd.nl) можете да намерите към коя ОЗС спадате, като въведете пощенския код на домашния си адрес. Ако нямате адрес на местоживеене в Нидерландия, може да въведете пощенския код на местопребиваването си.
 
-To the extent personal data are processed in the design and management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
+### 2. С каква цел се обработват личните данни?
 
-In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](https://www.ggd.nl) to find your GGD by entering the postal code of your home address.
+Това приложение е разработено като допълнение към проследяването на източници и контакти на ОЗС. Целта му е да информира потребителите с повишен риск от заразяване бързо и лесно, с висока степен на анонимност.
 
-### 2. For what purpose are personal data processed?
+### 3. Обосновка за обработка на лични данни
 
-This app has been developed as an addition to source and contact tracing by the GGD. Its purpose is to quickly and easily inform users who have an increased risk of infection, while ensuring a high degree of anonymity. 
+В приложението могат да бъдат обработвани лични данни. Обосновката за обработка на лични данни е изпълнението на – накратко казано, една обществена задача. За министъра на здравеопазването, благосъстоянието и спорта това е обусловено от обществената задача – накратко казано, да стои начело на борбата срещу COVID-19 и да гарантира поддържането и подобряването на националната структура за подкрепа.
 
-### 3. Basis for processing personal data
+При ОЗС това е обусловено от задачата да се извършва проследяване на източници и контакти при известия за заразяване с COVID-19.
 
-Personal data can be processed in the app. The basis for the processing of personal data is the explicit consent given by users for the processing of their personal data. Users must give explicit consent before the app can be used, and before users — when they have tested positive — can share their data with the GGD. The app cannot be used unless such consent is given. 
+Следователно с въвеждането на CoronaMelder като помощен инструмент за проследяване на източници и контакти се изпълняват гореспоменатите обществени задачи на министъра на здравеопазването, благосъстоянието и спорта и на ОЗС.
 
-### 4. What personal data are processed?
+Използването на CoronaMelder е доброволно. Поради това CoronaMelder иска разрешението Ви, преди да можете да използвате приложението. Ако не дадете разрешението си, не може да използвате CoronaMelder. Вашето разрешение се изисква и преди –  да може да споделите данните си с ОЗС при положителен тест. 
 
-The following data are processed in the app:
+### 4. Кои лични данни се обработват?
 
-- Rolling Proximity Indicators (RPIs)
-- Temporary Exposure Keys (TEKs)
-- Diagnosis Keys (DKs)
-- pseudo MAC address
-- signal strength and duration of contact
-- authorisation code
-- Exposure Risk Value (high, mid, low)
-- IP address
+В приложението се обработват следните данни:
 
-These data may be personal data.
+* Подвижни индикатори за близост (RPI)
+* Ключове за временна експозиция (TEK)
+* Диагностични ключове (DK)
+* Псевдо MAC-адрес
+* Сила на сигнала и продължителност на контакта 
+* Първи ден на заболяване
+* Код за потвърждение
+* Стойност на риска от експозиция (висока, средна, ниска)
+* IP адрес
 
-A TEK is a randomly, cryptographically generated series of numbers serving as a temporary reference. TEKs are converted into DKs on the central server. In addition, an RPI is generated every 10 to 20 minutes, which is a temporary series of numbers that are also cryptographically generated. This series of numbers is a derivative of a TEK, and is exchanged with other smartphones on which the app is installed, and which have been in close proximity to the smartphone concerned for a specific period of time. The RPIs are transmitted and received via Bluetooth Low Energy and are thus used in combination with the signal strengths of both transmission and reception (to determine the distance between users), and the duration of the (Bluetooth) contact. The RPIs received are removed from the smartphones after 14 days. 
+Тези данни могат да бъдат лични данни.
 
-TEKs, DKs and RPIs are all pseudonymised identification keys.
+TEK е произволна, криптографски генерирана последователност от числа, която служи като временна справка. На бекенд сървъра TEK се преобразуват в DK. В допълнение, на всеки 10 до 20 минути се генерира RPI, т.е. временна, също криптографски генерирана серия от числа. Тази серия от числа се извлича от TEK и се обменя с други смартфони, на които е инсталирано приложението и които са били в близост до съответния смартфон за определен период от време. RPI се приемат и предават чрез Bluetooth Low energy. RPI се използва и в комбинация със силата на сигнала, както предаван, така и получаван (за определяне на разстоянието между потребителите), и продължителността на (Bluetooth) контакта. Получените RPI ще бъдат изтрити от смартфоните след 14 дни.
 
-In order to minimise the risk of users being identified, when TEKs are exchanged, the MAC address (a unique hardware number of the Bluetooth transmitter) of the smartphone is replaced by a randomly generated code, a pseudo MAC address, which, like the TEKs, changes every 10 to 20 minutes. 
+Както TEK и DK, така и RPI са псевдонимизирани идентификационни ключове.
 
-The authorisation code is generated through a functionality provided by the app and is shown in the app. The authorisation code is used by the GGD to validate the TEKs sent to the GGD. The GGD places this authorisation code, with the date of the first day of illness, in the GGD portal. This GGD portal is only accessible to GGD employees. The central server only accepts user TEKs if an authorisation code is provided that has been validated by the GGD in this manner. During the validation phase, IP addresses are processed for administration and security purposes.
+За да се елиминира максимално рискът за идентифициране на потребителите, при размяна на RPI  MAC адресът (уникален хардуерен номер на Bluetooth предавателя) на смартфона се заменя с произволно генериран код, псевдо MAC адрес, който както и RPI се променя на всеки 10 до 20 минути.
 
-After validation, for each DK the date of the first day of illness is compared with the date of the newly received TEKs. On that basis, the central server determines the Exposure Risk Value (high, mid, low).
+Кодът за потвърждение се генерира с помощта на функционалност, предлагана в приложението, и се показва в приложението. Кодът за потвърждение се използва от ОЗС за валидиране на TEK, изпратени към ОЗС. ОЗС въвежда този код на потвърждение, заедно с датата на първия ден на заболяване, в портала на ОСЗ. Този портал на ОЗС е достъпен само за служители на ОЗС. Бекенд сървърът приема TEK от потребители само ако е представен код за потвърждение, който е валидиран по този начин от ОСЗ. По време на фазата на валидиране IP адресите се обработват за целите на управлението и сигурността.
 
-In addition to the DKs, the first day of illness and authorisation code, the IP address of the user's smartphone is sent to the central server. This is inherent to the use of Internet and IP technology. The IP address is stored separately from the other data, so that no IP addresses are stored on the central server. As a result, it is impossible to trace who sent which information.
+В допълнение към DK, първия ден на заболяването и кода за потвърждение, и IP адресът се изпраща до бекенд сървъра. Това е присъщо за използването на интернет и IP технологията. IP адресът се съхранява отделно от останалите данни, така че на бекенд сървъра не се съхраняват IP адреси. В резултат на това не може да се проследи кой коя информация е изпратил.
 
-### 5. Statistical information
+### 5. Статистическа информация
 
-The data collected with the app will only be used for the purposes stated in this privacy statement. No statistical information is generated. 
+Данните, събрани с приложението, ще бъдат използвани само за целите, посочени в тази декларация за поверителност. Не се генерира статистическа информация.
 
-### 6. Who is provided with personal data?
+### 6. На кого се предоставят лични данни?
 
-The sending and receiving of RPIs takes place locally on users' smartphones. Once an infection has been detected, the user can choose to send his or her TEKs, along with a unique authorisation code, to the central server. The central server is administered by the CIBG with KPN as subcontractor (processor).
+Изпращането и получаването на RPI се извършва локално на смартфоните. Ако бъде установено заразяване, потребителят може да избере да изпрати своите TEK, заедно с уникален код за потвърждение, на бакенд сървъра. Бакенд сървърът се управлява от CIBG с KPN като подизпълнител (обработчик).
 
-The GGD processes the authentication code, with the date of the first day of illness, in the app's GGD portal, which is only accessible to authorised GGD employees.
+ОЗС обработва кода за потвърждение, с датата на първия ден на заболяване, в портала на ОЗС на приложението, който портал е достъпен само за оторизирани служители на ОЗС.
 
-The smartphones of other users periodically – a few times a day – retrieve the data stored on this central server. 
+Смартфоните на други потребители периодично, няколко пъти на ден, извличат DK-тата, които са на този централен сървър.
 
-### 7. Retention of personal data
+### 7. Съхраняване на лични данни
 
-The data stored locally on your smartphone will be retained for 14 days. After these 14 days, these data are automatically and permanently deleted. In addition, you are able to delete the stored data yourself at any time. 
+Данните, които са запазени локално на Вашия смартфон, се съхраняват 14 дни. След тези 14 дни тези данни ще бъдат автоматично и окончателно изтрити. Можете и сами по всяко време да изтриете съхранените данни.
 
-In so far as your data are stored on the central server, they will be retained for 14 days from the time of uploading. After these 14 days, the data will be permanently deleted. 
+Доколкото Вашите данни се съхраняват на бекенд сървъра, данните ще се съхраняват в продължение на 14 дни от момента на качването. След тези 14 дни данните ще бъдат изтрити.
 
-IP addresses processed for administration and security purposes will be deleted after a maximum of 7 days.
+IP адреси, които се обработват с цел управление и сигурност, ще бъдат изтрити след максимум 7 дни.
 
-### 8. Your rights with regard to your personal data
+### 8. Вашите права по отношение на личните Ви данни
 
-You have a number of rights to maintain control over your personal data. You can
-find them [here](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen) on the website of the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+Имате редица права за осъществяване на контрол на личните си данни. Можете да ги откриете тук на уебсайта на Нидерландския орган за защита на данните.
 
-It is important to know in this respect that as long as you as a user have not come into contact with an infected person or have not agreed to provide data to the back-end server, the Ministry of Health, Welfare and Sport nor the GGD offices will process (personal) data of you as a user, because in that case the data will only be stored on the user's telephone. At that stage, therefore, the rights mentioned above cannot yet be exercised towards the Ministry of Health, Welfare and Sport and the GGD offices. 
+Тъй като CoronaMelder е проектиран в съответствие с принципите на минимизиране на данните и „защита на личните данни още при проектирането“, само в ограничена степен можете да са позовете на Вашите права по Общия регламент за защита на личните данни (GDPR). В крайна сметка се обработват само ограничени данни. Освен това данните са практически непроследими и се съхраняват само за кратко. От член 11 от GDPR следва, че правата от членове 15 до 20 от GDPR не са приложими, ако отговорникът за обработката не може (вече) да идентифицира субекта на данните.
 
-Owing to the privacy-by-design nature of the app, it is impossible to trace which codes belong to the infected user after uploading the TEKs (and subsequently DKs). It is technically impossible for the Ministry of Health, Welfare and Sport and the GGD offices to link the codes stored (temporarily) on the central server to users who uploaded their TEKs.
-This is also technically impossible for the user, as no insight is given into the data and calculations on which the alert is based. In addition, the user's TEKs are removed automatically and periodically (after 14 days). Because it is impossible to identify the user through the codes, Article 11(2) GDPR contains no reason to give effect to the data subject's rights as referred to in Articles 15 through 20 GDPR after the TEKs have been uploaded to the central server. 
+В първата фаза – преди потребителите да качат ТЕК на  бекенд сървъра, се обработват данни единствено на смартфоните на потребителите на CoronaMelder. Министерството на здравеопазването, благосъстоянието и спорта и ОЗС нямат достъп до тях. Следователно в тази фаза не може да бъде изпълнена молба за промяна или изтриване на данни, като, разбира се, остава валидно, че след най-много четиринадесет дни тези данни се изтриват автоматично от смартфона.
 
-However, it is still possible to make a request invoking your privacy rights. You may send your request to the GGD responsible in your place of residence. On 
-[www.GGD.nl](https://www.ggd.nl) you can enter the postal code of your home address to see which GGD is responsible in your place of residence.
+Поради принципа на „защита на личните данни още при проектирането“, заложен в приложението, и след качване на TEK-тата (по-късни DK) не е възможно да се проследи кои кодове са свързани със заразения потребител. За МЗБС и ОЗС технически не е възможно да свържат кодовете, които (временно) се съхраняват на бекенд сървъра, с потребителя, който е качил своите TEK.
+Поради невъзможността да се идентифицира потребителят въз основа на кодовете, не са приложими правата по смисъла на членове 15 до 20 от GDPR.
 
-You always have the right to lodge a complaint about the processing of your personal data with the Dutch Data Protection Authority or before the courts. More information about this can be found [here](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
+Общо взето, прилагането на правата по GDPR ще бъде необходимо само в ограничена степен, просто защото данните не могат или само в много ограничена степен могат да бъдат проследени до лица, или пък защото тези данни вече не са налични поради кратките срокове на съхранение. Това е в съответствие с изискванията на член 11 от GDPR, от което следва, че правата, включени в членове 15 до 20 от GDPR, не са приложими, ако субектите на данни вече не могат да бъдат идентифицирани.
 
-### 9. Protection of your personal data
+Остава обаче възможността да изпратите молба, в която се позовавате на правата си за защита на личните данни. Можете да изпратите молбата си до отговорната ОЗС по адреса Ви на местоживеене. На [www.GGD.nl](https://www.ggd.nl) можете да въведете пощенския код на адреса си на местоживеене, за да видите коя ОЗС е отговорна във Вашето населено място. Ако нямате адрес на местоживеене в Нидерландия, може да въведете пощенския код на местопребиваването си.
+Винаги имате право да подадете жалба относно обработването на личните Ви данни пред Нидерландския орган за защита на данните или пред съда. Повече информация за това ще откриете тук.
 
-The Minister of Health, Welfare and Sport and the GGD take the protection of your data seriously and take appropriate measures to prevent any abuse, loss, unauthorised access, undesired disclosures and unauthorised changes.
+Данните за връзка с длъжностното лице по защита на данните на ОЗС, което отговаря за Вашето населено място, може да откриете през уебсайта на съответната ОЗС.
 
-### 10. Amendment of privacy statement
+Данни за контакт на длъжностното лице по защита на данните на Министерството на здравеопазването, благосъстоянието и спорта ще откриете на уебсайта на това министерство.
 
-This privacy statement is subject to amendment. In that case, we will publish the amended privacy statement on our website, after it will have immediate effect. You will be informed of any amendments relevant to you via the notifications in the app. 
-Most recent update: 12 August 2020
+
+### 9. Защита на Вашите лични данни
+
+Министърът на здравеопазването, благосъстоянието и спорта и ОЗС се отнасят сериозно към защитата на Вашите данни и предприемат подходящи мерки за предотвратяване на злоупотреба, загуба, неоторизиран достъп, нежелано разкриване и неразрешени промени.
+
+### 10. Промяна на декларацията за поверителност
+
+Тази декларация за поверителност подлежи на промяна. В този случай ние ще публикуваме изменената декларация за поверителност на нашия уебсайт, след което тази декларация за поверителност незабавно влиза в сила. Последна актуализация: 10 септември 2020 г.

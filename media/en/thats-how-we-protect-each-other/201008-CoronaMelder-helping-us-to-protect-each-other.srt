@@ -1,0 +1,132 @@
+1
+00:00:03,560 --> 00:00:06,520
+Here it is: the CoronaMelder app.
+
+2
+00:00:06,520 --> 00:00:09,960
+The Netherlands’ official coronavirus app.
+
+3
+00:00:09,960 --> 00:00:13,880
+The app helps us to protect each other against coronavirus.
+
+4
+00:00:13,880 --> 00:00:19,160
+You can pass on coronavirus to other people even before you have any symptoms.
+
+5
+00:00:19,160 --> 00:00:22,720
+This means you can unknowingly infect many people.
+
+6
+00:00:22,720 --> 00:00:25,320
+So it’s important to know as early as possible 
+
+7
+00:00:25,320 --> 00:00:28,400
+if there is a higher risk that you have been infected...
+
+8
+00:00:28,400 --> 00:00:31,880
+Then you can avoid passing on the virus to other people.
+
+9
+00:00:31,880 --> 00:00:34,800
+The CoronaMelder app helps you to do this.
+
+10
+00:00:34,800 --> 00:00:36,720
+It works like this...
+
+11
+00:00:36,720 --> 00:00:40,480
+If you’ve been near someone who later tests positive for coronavirus,
+
+12
+00:00:40,480 --> 00:00:42,680
+you will receive a notification.
+
+13
+00:00:42,680 --> 00:00:44,560
+The app does not know who you are,
+
+14
+00:00:44,560 --> 00:00:48,160
+who the other person is, or where you came near to each other.
+
+15
+00:00:48,160 --> 00:00:51,160
+It only tells you which day it was.
+
+16
+00:00:51,160 --> 00:00:56,280
+The app will tell you what you can do next and whether you should get tested.
+
+17
+00:00:56,280 --> 00:00:59,880
+If you get a test and find out that you have the coronavirus,
+
+18
+00:00:59,880 --> 00:01:04,0
+the GGD, the Regional Public Health authority in the Netherlands,
+
+19
+00:01:04,0 --> 00:01:08,800
+will ask you who you have been near to and then call those people.
+
+20
+00:01:08,800 --> 00:01:12,360
+But you don’t always know everyone you’ve been near to.
+
+21
+00:01:12,360 --> 00:01:17,640
+You can add your coronavirus status to the app together with the GGD.
+
+22
+00:01:17,640 --> 00:01:20,440
+The CoronaMelder app will then immediately warn
+
+23
+00:01:20,440 --> 00:01:22,880
+everyone who has been near you.
+
+24
+00:01:22,880 --> 00:01:25,240
+Whether you know them or not.
+
+25
+00:01:25,240 --> 00:01:26,800
+This only happens if:
+
+26
+00:01:26,800 --> 00:01:32,120
+they are also using the app and they were near you for more than 15 minutes.
+
+27
+00:01:32,120 --> 00:01:38,960
+This means we can warn more people more quickly.
+
+28
+00:01:38,960 --> 00:01:41,760
+So each download of the CoronaMelder app
+
+29
+00:01:41,760 --> 00:01:44,800
+helps to stop the spread of the virus.
+
+30
+00:01:44,800 --> 00:01:48,600
+Downloading the app is voluntary at all times.
+
+31
+00:01:48,600 --> 00:01:52,200
+This is how we can protect each other.
+
+32
+00:01:52,200 --> 00:01:56,240
+We can only get coronavirus under control together.
+
+33
+00:01:56,240 --> 00:02:00,200
+More information? Visit coronamelder.nl
+

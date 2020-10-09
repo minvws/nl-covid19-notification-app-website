@@ -1,0 +1,148 @@
+1
+00:00:03,520 --> 00:00:04,680
+CoronaMelder. 
+
+2
+00:00:04,680 --> 00:00:09,120
+The app that helps you to avoid unknowingly infecting other people.
+
+3
+00:00:09,120 --> 00:00:10,680
+How does it work?
+
+4
+00:00:10,680 --> 00:00:12,80
+After you downloading it, 
+
+5
+00:00:12,80 --> 00:00:15,720
+the app exchanges codes with other phones that are nearby.
+
+6
+00:00:15,720 --> 00:00:19,160
+The app generates codes for every phone. 
+
+7
+00:00:19,160 --> 00:00:23,680
+These codes are random and change several times per hour. 
+
+8
+00:00:23,680 --> 00:00:28,200
+If you are near to someone else - for longer than 15 minutes - who also has the app, 
+
+9
+00:00:28,200 --> 00:00:31,640
+your phones will exchange codes using bluetooth.
+
+10
+00:00:31,640 --> 00:00:34,440
+But not if someone cycles past you in the street... 
+
+11
+00:00:34,440 --> 00:00:38,680
+only if you are near to each other for more than 15 minutes.
+
+12
+00:00:38,680 --> 00:00:42,240
+CoronaMelder collects these codes in the app. 
+
+13
+00:00:42,240 --> 00:00:46,280
+Codes older than 14 days are deleted automatically.
+
+14
+00:00:46,280 --> 00:00:48,920
+So CoronaMelder has a list of random codes
+
+15
+00:00:48,920 --> 00:00:53,680
+ from other users who have been near to you in the past two weeks. 
+
+16
+00:00:53,680 --> 00:00:57,120
+But when and how do you receive a notification?
+
+17
+00:00:57,120 --> 00:01:01,80
+Let’s imagine that a week after you went out, another app user 
+
+18
+00:01:01,80 --> 00:01:05,280
+– let's call him Max – tests positive for coronavirus. 
+
+19
+00:01:05,280 --> 00:01:09,920
+Together with the GGD, the Regional Public Health authority in the Netherlands,
+
+20
+00:01:09,920 --> 00:01:13,440
+Max can add his coronavirus status to the app. 
+
+21
+00:01:13,440 --> 00:01:17,0
+There is a special GGD key in the app. 
+
+22
+00:01:17,0 --> 00:01:20,920
+Max passes this key on to the GGD health worker.
+
+23
+00:01:20,920 --> 00:01:23,760
+The GGD health worker enters the key. 
+
+24
+00:01:23,760 --> 00:01:28,320
+Now Max can activate the list of codes on his phone.
+
+25
+00:01:28,320 --> 00:01:32,80
+The app users belonging to those codes – including you! –   
+
+26
+00:01:32,80 --> 00:01:34,480
+will then get a notification. 
+
+27
+00:01:34,480 --> 00:01:37,920
+What’s in the notification? And what should you do next? 
+
+28
+00:01:37,920 --> 00:01:41,200
+The notification tells you which day you came near to someone 
+
+29
+00:01:41,200 --> 00:01:43,960
+who has tested positive for coronavirus. 
+
+30
+00:01:43,960 --> 00:01:48,280
+It does not say who that person was, or where it happened. 
+
+31
+00:01:48,280 --> 00:01:53,800
+If you get a notification, it means there’s a chance that you also have coronavirus.
+
+32
+00:01:53,800 --> 00:01:58,560
+The app will tell you what you can do next and whether you should get tested.
+
+33
+00:01:58,560 --> 00:02:02,320
+In this way, new infections can be discovered faster, 
+
+34
+00:02:02,320 --> 00:02:06,400
+which helps you to avoid spreading  coronavirus to others.
+
+35
+00:02:06,400 --> 00:02:09,800
+Downloading the app is voluntary at all times.
+
+36
+00:02:09,800 --> 00:02:14,680
+We can only get coronavirus under control together.
+
+37
+00:02:14,680 --> 00:02:18,400
+More information? Visit coronamelder.nl
+

@@ -1,6 +1,7 @@
 ---
 layout: faq-overview
-lang: en
+lang: de
 showBreadCrumbs: true
 title: ''
+contentLang: en
 ---

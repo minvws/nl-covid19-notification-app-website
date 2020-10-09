@@ -15,8 +15,8 @@
 {% include head.html %}
 <body>
   <main class="content-center content-center__in_app" id="content">
-    <div class="content-block">
-      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+    <div class="content-block" {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% endif %}>
+      {% if page.title %}<h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>{% endif %}
       {{ content }}
     </div>
   </main>

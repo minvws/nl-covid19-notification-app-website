@@ -176,9 +176,6 @@ html[dir="rtl"] {
             margin-right: auto;
             margin-left: 16px;
         }
-        .explainer {
-            background-position: center center, top left, center center;
-        }
     }
 
     /* Mobile layout */
@@ -190,9 +187,7 @@ html[dir="rtl"] {
         .faq .tab {
             margin-left: 0;
         }
-        .explainer {
-            background-position: center center, bottom left, center center;
-        }
+
     }
 
     .icon-chevron-right {
