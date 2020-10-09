@@ -27,7 +27,7 @@ ve en az 15 dakika boyunca birbirinizin yakınında kaldıysanız.
 * seyahatte
 * spor yaparken,
 * Çalışırken,
-* okulda idiniz ve daha sonra bildirim aldınız.
+* okulda idiniz, ve daha sonra bir bildirim aldınız.
 
 Ama bisikletle biri yakınınızdan mı geçti?
 O zaman sonrasında bir bildirim almazsınız: birbirinizin etrafında çok kısa süre kaldınız.

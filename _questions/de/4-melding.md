@@ -26,7 +26,7 @@ Sie waren zum Beispiel:
 - auf Reisen,
 - beim Sport,
 - an der Arbeit,
-- in der Schule
+- in der Schule,
 und bekommen später eine Nachricht.
 
 Aber fuhr jemand mit dem Rad vorbei? Dann erhalten Sie keine Nachricht: Sie und die andere Person waren nicht lange genug dicht beieinander.

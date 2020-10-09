@@ -559,14 +559,14 @@ footer-more-info-title:
 footer-more-info-url:
   nl: https://rijksoverheid.nl
   en: https://www.government.nl/topics/coronavirus-covid-19
-  ar: https://rijksoverheid.nl
-  bg: https://rijksoverheid.nl
-  de: https://rijksoverheid.nl
-  es: https://rijksoverheid.nl
-  fr: https://rijksoverheid.nl
-  pl: https://rijksoverheid.nl
-  ro: https://rijksoverheid.nl
-  tr: https://rijksoverheid.nl
+  ar: https://www.government.nl/topics/coronavirus-covid-19
+  bg: https://www.government.nl/topics/coronavirus-covid-19
+  de: https://www.government.nl/topics/coronavirus-covid-19
+  es: https://www.government.nl/topics/coronavirus-covid-19
+  fr: https://www.government.nl/topics/coronavirus-covid-19
+  pl: https://www.government.nl/topics/coronavirus-covid-19
+  ro: https://www.government.nl/topics/coronavirus-covid-19
+  tr: https://www.government.nl/topics/coronavirus-covid-19
 
 footer-more-info:
   nl: Kijk op rijksoverheid.nl
@@ -856,7 +856,7 @@ information-bluetooth:
   en: Your Bluetooth data is stored on your phone for 14 days. You can always delete them yourself.
   ar: يتم تخزين بيانات البلوتوث على هاتفك لمدة 14 يومًا. يمكنك حذفها بنفسك دائمًا.
   bg: Твоите bluetooth данни се съхраняват 14 дни на телефона ти. Винаги можеш да ги премахнеш сам.
-  de: Ihre Bluetooth-Daten werden 14 Tage auf Ihrem Telefon gespeichert. Sie können Sie jederzeit selbst löschen.
+  de: Ihre Bluetooth-Daten werden 14 Tage auf Ihrem Telefon gespeichert. Sie können sie jederzeit selbst löschen.
   es: Tus datos de Bluetooth se mantienen guardados 14 días en tu teléfono. Siempre puedes borrarlos tú.
   fr: Vos données Bluetooth sont conservées pendant 14 jours sur votre téléphone. Vous pouvez toujours les supprimer vous-même.
   pl: Twoje dane Bluetooth są przechowywane w telefonie przez 14 dni. Zawsze możesz samodzielnie je usunąć.

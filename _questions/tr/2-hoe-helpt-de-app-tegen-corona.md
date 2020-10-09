@@ -20,4 +20,4 @@ Kendinizi hasta hissetmeden önce bile, başka birine Korona bulaştırabilirsin
 
 Bu nedenle, enfekte bir kişi ile temas tarihinden itibaren 10 güne kadar evde kalın. Bu şekilde, örneğin (büyük) ebeveynlerinize bulaştırmaktan kaçınırsınız. Veya virüsü pazar yeri veya spor etkinliği gibi yoğun bir yere yaymayı önlersiniz.
 
-Bu 10 gün içinde veya sonrasında şikayetleriniz mi var? O zaaman test yaptırmak için GGD ile iletişime geçin.
+Bu 10 gün içinde veya sonrasında şikayetleriniz mi var? O zaman test yaptırmak için GGD ile iletişime geçin.
