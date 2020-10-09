@@ -1,8 +1,9 @@
 ---
 layout: content
-lang: nl
+lang: bg
 showBreadCrumbs: true
 title: Toegankelijkheid
+contentLang: en
 ---
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
@@ -23,7 +24,7 @@ Een toegankelijke website is voor alle doelgroepen beter te gebruiken. Daarom ge
 Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijkse) processen:
 
 -   Toegankelijkheid is vanaf de start onderdeel van alle stappen in het ontwerp-, bouw en redactionele proces van deze website.
--   Deze website is gevalideerd met een geautomatiseerde toegankelijkheidstool en de bevindingen hieruit zijn opgelost. 
+-   Deze website is gevalideerd met een geautomatiseerde toegankelijkheidstool en de bevindingen hieruit zijn opgelost.
 -   Bij de borging van de toegankelijkheid zijn 2 experts betrokken die geen onderdeel uitmaakten van het bouwteam.
 -   Er zal een formeel toegankelijkheidsonderzoek plaatsvinden volgens de WCAG-EM standaard. Hierbij wordt getoetst op zowel functioneel-technische onderdelen als de redactionele aspecten. Gevonden knelpunten lossen wij duurzaam op.
 -   Planning onderzoek: Dit onderzoek wordt uitgevoerd op 15 oktober 2020.

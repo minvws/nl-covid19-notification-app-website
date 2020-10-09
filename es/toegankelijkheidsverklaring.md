@@ -1,8 +1,9 @@
 ---
 layout: content
-lang: nl
+lang: es
 showBreadCrumbs: true
 title: Toegankelijkheid
+contentLang: en
 ---
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
