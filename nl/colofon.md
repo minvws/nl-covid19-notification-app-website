@@ -15,9 +15,15 @@ De broncode van de app en de achterliggende systemen zijn volledig openbaar. Je 
 
 - Naast de auteurs van de diverse open source, 3rd party bibliotheken hebben we bijdragen ontvangen van heel veel andere <a href="https://raw.githubusercontent.com/minvws/nl-covid19-notification-app-design/master/%E2%9D%A4%EF%B8%8F" target="_blank" rel="noopener noreferrer">mensen</a>.
 
-## Licenties, Condities en Disclaimers applicatie
+## Applicatie licenties, Condities en Disclaimers applicatie
+- De CoronaMelder <a href="https://github.com/minvws/nl-covid19-notification-app-ios/blob/master/LICENSES.md" target="_blank" rel="noopener noreferrer">iOS applicatie open source licentie</a> en de open source <a href="https://github.com/minvws/nl-covid19-notification-app-ios/tree/master/licenses" target="_blank"  rel="noopener noreferrer">iOS bibliotheken van derden</a> gebruikt in de applicatie.
+- De CoronaMelder <a href="https://github.com/minvws/nl-covid19-notification-app-android/blob/master/LICENSES.md" target="_blank" rel="noopener noreferrer">Android applicatie open source licentie</a>.
 
-- <a href="https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md" target="_blank" rel="noopener noreferrer">Backend licentie</a> en de <a href="https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE" target="_blank" rel="noopener noreferrer">3rd party</a> bibliotheken voor het backend.
+Deze licenties, voorwaarden en disclaimers vormen een integraal onderdeel van zowel de iOS- en Android distributie als de mobiele applicatie.
+
+## Backend licenties, Condities en Disclaimers 
+
+- <a href="https://github.com/minvws/nl-covid19-notification-app-backend/blob/master/LICENSES.md" target="_blank"  rel="noopener noreferrer">Backend licentie</a> en de <a href="https://github.com/minvws/nl-covid19-notification-app-backend/tree/master/LICENSE" target="_blank"  rel="noopener noreferrer">3rd party</a> bibliotheken voor de backend.
 
 ## Melden van kwetsbaarheden
 

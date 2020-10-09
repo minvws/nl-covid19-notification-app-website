@@ -223,4 +223,8 @@
   @media (min-width: 960px) {
     display: inline-block;
   }
+
+  [lang="bg"] & {
+    right: 300px;
+  }
 }

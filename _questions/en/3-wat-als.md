@@ -22,5 +22,4 @@ Therefore, stay at home for up to 10 days from the date of contact with an infec
 
 Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
 
-Call [0800-1202](tel:+318001202) to arrange a coronavirus test, free of charge.
-
+Call [0800-1202](tel:+318001202) or visit [www.coronatest.nl](https://www.coronatest.nl) to arrange a coronavirus test, free of charge.
