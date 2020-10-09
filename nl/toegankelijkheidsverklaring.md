@@ -5,35 +5,30 @@ showBreadCrumbs: true
 title: Toegankelijkheid
 ---
 
-Accessibility Statement, dated 9 October 2020
+Datum toegankelijkheidsverklaring 09-10-2020
 
-<p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-  The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please et us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] }}">helpdesk@coronamelder.nl</a>. <br />
-  This accessibility statement will shortly be brought up to date.
-</p>
+Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden. Deze toegankelijksheidsverklaring wordt binnenkort up to date gemaakt.
 
 [Toegankelijkheidsverklaring CoronaMelder.nl](https://www.toegankelijkheidsverklaring.nl/register/3214)
 
+## Wat is een toegankelijke website?
 
-## What is an accessible website?
+Een toegankelijke website is voor alle doelgroepen beter te gebruiken. Daarom gelden er functioneel-technische en redactionele[  toegankelijkheidseisen](https://www.digitoegankelijk.nl/) of (voorheen: webrichtlijnen) voor websites van de overheid. Deze zijn vastgelegd in de[  toegankelijkheidsstandaard Digitoegankelijk EN 301 549](https://www.forumstandaardisatie.nl/open-standaarden/digitoegankelijk-en-301-549-met-wcag-21).
 
-An accessible website is better usable for all groups it is aimed at. This is why governmental websites must meet functional, technical and editorial [accessibility requirements](https://www.digitoegankelijk.nl/, earlier webrichtlijnen, 'web guidelines').
+## Borging van toegankelijkheid
+Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijkse) processen:
 
-The CoronaMelder app follows the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2018/REC-WCAG21-20180605/) on level AA as set out in the European standard EN 301 549. If this European standard is updated with specific guidelines for mobile applications, we will follow them.
+-   Toegankelijkheid is vanaf de start onderdeel van alle stappen in het ontwerp-, bouw en redactionele proces van deze website.
+-   Deze website is gevalideerd met een geautomatiseerde toegankelijkheidstool en de bevindingen hieruit zijn opgelost. 
+-   Bij de borging van de toegankelijkheid zijn 2 experts betrokken die geen onderdeel uitmaakten van het bouwteam.
+-   Er zal een formeel toegankelijkheidsonderzoek plaatsvinden volgens de WCAG-EM standaard. Hierbij wordt getoetst op zowel functioneel-technische onderdelen als de redactionele aspecten. Gevonden knelpunten lossen wij duurzaam op.
+-   Planning onderzoek: Dit onderzoek wordt uitgevoerd op 15 oktober 2020.
+-   Kennis medewerkers: onze medewerkers houden hun kennis over toegankelijkheid op peil en passen dit toe waar nodig.
 
+## Onderdelen waarop de site verbeterd wordt
 
-## Guarantee of Accessibility
+Momenteel zijn geen problemen op het gebied van toegankelijkheid bekend.
 
-We guarantee good accessibility by various measures in our daily processes:
+## Accessibility 
 
-- From day one accessibility has been kept in mind during the design, implementation and editorial stages of this website.
-- The website has been validated using an automated accessibility tool, and any problems it turned up have been resolved.
-- Two experts were involved to verify accessibility, neither of whom were part of the building team.
-- Accessibility will be submitted to a formal investigation to ensure WCAG-EM standards are met. This will involve an examination of functional and technical features as well as editorial aspects. Should there be any difficulties these will be resolved once and for all.
-- Planning for investigation to be conducted on 15 October 2020.
-- Expert knowledge of accessibility will be kept up to standard and applied when needed by our staff.
-
-
-## Parts of the site to be improved 
-
-Presently no accessibility problems are known.
+An English version of this statement will be available shortly.
