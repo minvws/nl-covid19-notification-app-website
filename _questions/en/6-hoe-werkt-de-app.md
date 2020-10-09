@@ -50,3 +50,6 @@ The notification will say how many days ago you were around somebody who has tes
 </details>
 
 **It also includes a summary of the symptoms that coronavirus can cause, and information about the test. You can make an appointment for a test directly from the app.**
+
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="20201008-how-the-app-works" width="100%" height="394" %}
