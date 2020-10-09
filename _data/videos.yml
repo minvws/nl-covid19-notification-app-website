@@ -133,7 +133,7 @@
       Meer weten? 
       Kijk op CoronaMelder.nl
 
-20201008-how-the-app-works:
+20201008-video-how-the-app-works:
   mp4-src:
     default: media/en/how-the-app-works/201008-CoronaMelder-how-does-the-app-work.mp4
   mp3-voiceover-src: 
@@ -178,3 +178,34 @@
       We can only get coronavirus under control - together.
       More information? 
       Visit coronamelder.nl
+
+201008-video-your-privacy:
+  mp4-src:
+    default: media/en/your-privacy/201008-CoronaMelder-Your-privacy.mp4
+  mp3-voiceover-src: 
+    default: media/en/your-privacy/201008-CoronaMelder-Your-privacy.mp3
+  video-preview-image:
+    default: media/en/your-privacy/201008-CoronaMelder-Your-privacy.jpg
+  subtitles:
+    - 
+      lang: en
+      src: media/en/your-privacy/201008-CoronaMelder-Your-privacy.srt
+  transcript_md:
+    en: |
+      CoronaMelder - Your privacy
+
+      The CoronaMelder app sends you a notification if you have been near someone who later tests positive for coronavirus.
+      But does the app always know where you are? 
+      No. 
+      The app does not know where you are, or who you are.
+      This is how it works: when your phone is near another phone that has the app, the phones exchange a random code using bluetooth.
+      The app remembers those codes... 
+      but it doesn’t know which phones they came from... 
+      or where you were.
+      The app only knows if you were close to another phone that also had the app, and on which day it was.
+      So if you receive a notification, it won’t tell you who it came from. 
+      And if you test positive for the virus yourself, you can choose whether to add your coronavirus status to the app together with the GGD, the Regional Public Health authority in the Netherlands.
+      Downloading the app is voluntary at all times.
+      We can only get coronavirus under control together
+      More information? 
+      Visit CoronaMelder.nl
