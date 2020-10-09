@@ -1,0 +1,27 @@
+Here it is: the CoronaMelder app.
+The Netherlands’ official coronavirus app.
+The app helps us to protect each other against coronavirus.
+You can pass on coronavirus to other people even before you have any symptoms.
+This means you can unknowingly infect many people.
+So it’s important to know as early as possible if there is a higher risk that you have been infected...
+Then you can avoid passing on the virus to other people.
+The CoronaMelder app helps you to do this.
+It works like this...
+If you’ve been near someone who later tests positive for coronavirus, you will receive a notification.
+The app does not know who you are, who the other person is, or where you came near to each other.
+It only tells you which day it was.
+The app will tell you what you can do next and whether you should get tested.
+If you get a test and find out that you have the coronavirus, the GGD, the Regional Public Health authority in the Netherlands, will ask you who you have been near to and then call those people.
+But you don’t always know everyone you’ve been near to.
+You can add your coronavirus status to the app together with the GGD.
+The CoronaMelder app will then immediately warn everyone who has been near you.
+Whether you know them or not.
+This only happens if: they are also using the app and they were near you for more than 15 minutes.
+This means we can warn more people more quickly.
+So each download of the CoronaMelder app helps to stop the spread of the virus.
+Downloading the app is voluntary at all times.
+This is how we can protect each other.
+We can only get coronavirus under control together.
+More information? 
+Visit coronamelder.nl
+
