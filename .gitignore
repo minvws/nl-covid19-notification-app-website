@@ -2,7 +2,4 @@
 _site/
 Gemfile.lock
 .jekyll-cache/
-.jekyll-metadata 
-
-media/*/*.mp3
-media/*/*.mp4
+.jekyll-metadata
