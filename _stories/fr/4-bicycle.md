@@ -3,7 +3,7 @@ index: 4
 show: true
 graphic: graphic-bicycle.svg
 title-highlight: Exemple
-title: "Quelqu’un vous a dépassé à vélo ?
+title: "Quelqu’un vous a dépassé à vélo?
 Vous ne recevez alors pas de notification par la suite
 "
 lang: fr

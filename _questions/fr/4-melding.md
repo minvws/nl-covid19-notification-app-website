@@ -31,4 +31,4 @@ Vous étiez par exemple :
 - à l’école,
 et vous recevez une notification par la suite.
 
-Mais quelqu’un vous a dépassé à vélo ? Vous ne recevrez alors aucune notification : vous n’avez été que très brièvement proches l’un de l’autre.
+Mais quelqu’un vous a dépassé à vélo? Vous ne recevrez alors aucune notification : vous n’avez été que très brièvement proches l’un de l’autre.

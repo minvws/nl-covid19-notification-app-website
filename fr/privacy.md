@@ -21,7 +21,7 @@ Le ministère de la Santé, du Bien-être et des Sports est responsable du trait
 
 Dans la mesure où le service municipal de santé (GGD) utilise les données à caractère personnel obtenues via l'application pour la recherche des sources et des contacts, le GGD de votre région est le responsable du traitement. Sur le site www.GGD.nl, découvrez de quel GGD vous relevez en saisissant le code postal de votre domicile. Si vous n’avez pas d’adresse aux Pays-Bas, vous pouvez saisir le code postal de votre lieu de résidence.
 
-### 2. À quelle fin les données à caractère personnel sont-elles traitées ? 
+### 2. À quelle fin les données à caractère personnel sont-elles traitées? 
 Cette application a été développée pour compléter la recherche des sources et des contacts du GGD. Son objectif est d'informer rapidement et facilement les utilisateurs présentant un risque accru de contamination, tout en préservant au maximum leur anonymat. 
 
 ### 3. Fondement du traitement des données à caractère personnel 

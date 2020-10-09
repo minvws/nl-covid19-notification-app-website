@@ -2,7 +2,7 @@
 index: 1
 show: true
 graphic: graphic-spread.png
-title-highlight: Pourquoi l'application est-elle importante ?
+title-highlight: Pourquoi l'application est-elle importante?
 title: Contribuez à stopper la diffusion du coronavirus
 lang: fr
 ---

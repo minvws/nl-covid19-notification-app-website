@@ -3,7 +3,7 @@ index: 5
 show: true
 graphic: graphic-bios.png
 title-highlight: Exemple
-title: Vous étiez assis(e) près de quelqu’un au cinéma ? Dans ce cas, vous pourriez bien recevoir une notification par la suite
+title: Vous étiez assis(e) près de quelqu’un au cinéma? Dans ce cas, vous pourriez bien recevoir une notification par la suite
 lang: fr
 ---
 

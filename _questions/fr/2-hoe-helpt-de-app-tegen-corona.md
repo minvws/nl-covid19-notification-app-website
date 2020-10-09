@@ -2,7 +2,7 @@
 layout: content
 index: 2
 set: 2
-title: En quoi l’application contribue-t-elle à lutter contre le coronavirus ?
+title: En quoi l’application contribue-t-elle à lutter contre le coronavirus?
 summary: CoronaMelder vous avertit lorsque vous avez été à proximité d’une personne qui a le coronavirus.
 lang: fr
 categories:
@@ -20,5 +20,5 @@ Avant même que vous ne vous sentiez mal, vous pouvez transmettre le coronavirus
 
 Restez alors à la maison jusqu’à 10 jours après la date du contact avec la personne contaminée. De cette manière, vous éviterez de contaminer vos (grands-) parents par exemple. Ou de propager le virus dans un endroit très fréquenté comme le marché ou un événement sportif. 
 
-Vous avez des symptômes dans les 10 jours qui suivent ?
+Vous avez des symptômes dans les 10 jours qui suivent?
 Contactez alors le GGD pour vous faire tester.
