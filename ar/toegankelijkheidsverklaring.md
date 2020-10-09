@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: bg
+lang: ar
 showBreadCrumbs: true
 title: Toegankelijkheid
 contentLang: en
