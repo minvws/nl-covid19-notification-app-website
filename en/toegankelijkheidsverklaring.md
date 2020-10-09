@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: nl
+lang: en
 showBreadCrumbs: true
 title: Toegankelijkheid
 ---
