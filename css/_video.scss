@@ -99,6 +99,10 @@
   }
 }
 
+.mejs__overlay-play {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 .mejs__overlay-button {
   background-image: url('../img/play.svg');
   background-position: center center;
@@ -115,6 +119,7 @@
   outline: 2px solid yellow;
   outline-offset: 4px;
 }
+
 
 
 details.component-mediaelement__details {
