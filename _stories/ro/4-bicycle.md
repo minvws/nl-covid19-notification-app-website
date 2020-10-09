@@ -8,4 +8,4 @@ Nu veți primi nicio notificare
 "
 lang: ro
 ---
-Semnalul Bluetooth a fost suficient de puternic pentru că ați fost aproape unul de altul. Dar a durat așa de puțin încât șansa de infectare este foarte mică.
+Semnalul Bluetooth a fost suficient de puternic pentru că ați fost aproape unul de altul. Dar a durat așa de puțin încât riscul de infectare este foarte mic.

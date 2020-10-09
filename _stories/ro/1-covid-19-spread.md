@@ -3,7 +3,7 @@ index: 1
 show: true
 graphic: graphic-spread.png
 title-highlight: De ce este aplicația importantă?
-title: Contribuiți la oprirea răspândirii coronavirus-ului.
+title: Contribuie la oprirea răspândirii coronavirus-ului.
 lang: ro
 ---
 

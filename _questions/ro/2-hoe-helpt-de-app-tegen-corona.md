@@ -16,7 +16,7 @@ featuredHomeIcon: heart
 featuredHomeText: CoronaMelder vă avertizează după ce ați fost în apropierea cuiva infectat cu coronavirus.
 ---
 
-Chiar înainte de a vă simțiți rău, puteți contagia pe ceilalți cu coronavirus. Cu cât se știe mai curând dacă cineva are coronavirus, cu atât mai bine pot fi prevenite infectările. CoronaMelder ajută în acest sens.
+Chiar înainte de a vă simți rău, puteți contagia pe ceilalți cu coronavirus. Cu cât se știe mai curând dacă cineva are coronavirus, cu atât mai bine pot fi prevenite infectările. CoronaMelder ajută în acest sens.
 
 De aceea, stați acasă 10 zile de la data contactului cu persoana infectată.
 În acest fel preveniți, de exemplu, infectarea părinților sau a bunicilor dvs. sau preveniți răspândirea virusului într-un loc aglomerat cum ar fi piața sau un eveniment sportiv. 
