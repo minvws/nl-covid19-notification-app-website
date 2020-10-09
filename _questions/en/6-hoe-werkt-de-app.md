@@ -12,33 +12,25 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
-featuredHomeText: The app sends you a notification if you have been around someone for some time, who has been infected with the coronavirus.
+featuredHomeText: The app sends you a notification if you have been around someone who later tests positive for coronavirus, and you were near them for more than 15 minutes.
+summary: The app sends you a notification if you have been around someone who later tests positive for coronavirus, and you were near them for more than 15 minutes.
 
 ---
 
-**The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it..** 
+**The app sends you a notification if you have been near someone who has tested positive for coronavirus, as long as you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it.** 
 
 <div class="md-timeline" markdown="1">
-1. The app uses Bluetooth to detect other people who are around you, as long as they have the app too.
-2. The closer you are to the other person, the stronger the Bluetooth signal is.
-3. You do not need to enter your location, name, e-mail address, telephone number or any other contact details in order for the app to work. The app does not know who youare, who the other person is, or your location.
-4. If you have been near someone with the app who later tests positive for coronavirus, the app will alert you of this.
-5. If you test positive for coronavirus yourself, you can also choose to add this information to the app. This is voluntary. If you do this, the app will then alert all the other app users you have been near. The alert will only tell them the day on which they were near somebody who has tested positive. It does not tell them who that person was, or where they were at the time
+   1. The app uses Bluetooth to detect other people around you, as long as they have the app too.
+   2. The closer you are to the other person, the stronger the Bluetooth signal is.
+   3. You do not need to enter your location, name, e-mail address, telephone number or any other contact details in order for the app to work. The app does not know who you are, who the other person is, or your location.
+   4. If you have been near someone with the app who later tests positive for coronavirus, the app will alert you of this.
+   5. If you test positive for coronavirus yourself, you can choose to add this information to the app. This is voluntary. If you do this, the app will then alert all the other app users you have been near. The alert will only tell them the day on which they were near somebody who has tested positive. It does not tell them who that person was, or where they were at the time.
 </div>
 
 <details>
    <summary>My coronavirus test is positive. What happens now?</summary>
    <div markdown="1">
-
-If you have tested positive for coronavirus in one of the trial regions, you can add this information to the app,together with the GGD. . If an employee of the GGD calls you with the test result, they will ask you if want to warn other people via the app. If you choose this 
-option the receiver can’t see who you are or on which location you were near each other.You can decide whether these notifications are sent. This is not compulsory, and it is not automatic.
-
-<a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">Find out if you live in one of the trial regions</a>:
-- GGD Drenthe
-- GGD Gelderland-Zuid
-- GGD IJsselland
-- GGD Noord- en Oost-Gelderland
-- GGD Twente
+You can add this information to the app,together with the GGD. If an employee of the GGD calls you with the test result, they will ask you if want to warn other people via the app. If you choose this option the receiver can’t see who you are or on which location you were near each other. You can decide whether these notifications are sent. This is not compulsory, and it is not automatic.
 </div>
 </details>
 

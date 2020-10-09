@@ -841,7 +841,7 @@ information-title:
 
 information-alert:
   nl: Heb je corona? Dan kun je anderen waarschuwen zonder dat zij weten wie je bent.
-  en: Do you test positive on corona? Then you can warn others by sharing your codes.
+  en: If you test positive for coronavirus, you can warn others by sharing your codes via the app.
   ar: هل لديك كورونا؟ يمكنك تحذير الآخرين دون أن يعرفوا من تكون.
   bg: Имаш ли коронавирус? Тогава можеш да предупредиш други хора, без да знаят кой си.
   de: Haben Sie Corona? Dann können Sie andere warnen, ohne dass die anderen wissen, wer Sie sind.
@@ -853,7 +853,7 @@ information-alert:
 
 information-bluetooth:
   nl: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
-  en: Your Bluetooth data is stored on your phone for 14 days. You can always delete them yourself.
+  en: Your Bluetooth data is stored on your phone for 14 days. You can always delete this data yourself.
   ar: يتم تخزين بيانات البلوتوث على هاتفك لمدة 14 يومًا. يمكنك حذفها بنفسك دائمًا.
   bg: Твоите bluetooth данни се съхраняват 14 дни на телефона ти. Винаги можеш да ги премахнеш сам.
   de: Ihre Bluetooth-Daten werden 14 Tage auf Ihrem Telefon gespeichert. Sie können sie jederzeit selbst löschen.
@@ -865,7 +865,7 @@ information-bluetooth:
 
 information-naw:
   nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
-  en: Your name, email address and telephone number will not be used or stored.
+  en: Your name, email address and telephone number are not used or stored.
   ar: لن يتم استخدام أو تخزين اسمك وعنوان بريدك الإلكتروني ورقم هاتفك
   bg: Името, имейлът и телефонният ти номер не се използват или съхраняват.
   de: Ihr Name, Ihre E-Mail-Adresse und Telefonnummer werden nicht verwendet oder gespeichert.
@@ -877,7 +877,7 @@ information-naw:
 
 information-gps:
   nl: De app weet nooit waar je bent en gebruikt geen gps- en locatiegegevens
-  en: Your GPS or location data will not be used or stored.
+  en: Your GPS or location data is not used or stored.
   ar: لن يتعرف التطبيق على مكانك أبدًا ولا يقوم باستخدام الـ GPS وبيانات موقعك الجغرافي
   bg: Приложението никога не знае кой си и не използва gps данни и данни за местоположение
   de: Die App weiß nie, wo Sie sind, und verwendet keine GPS- oder Standortdaten.
