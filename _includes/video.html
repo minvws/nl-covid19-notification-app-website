@@ -4,8 +4,14 @@
     <p class="video__description__content">{{ site.data.translations.home-video-content_md[page.lang] | markdownify }}</p>
   </div>
   <div class="video__player">
-  
-    {% include components/mediaelement.html key="2020-10-07-video-beschermen" width="100%" height="220" %}
- 
+
+    {% if page.lang == 'nl' %}
+      {% include components/mediaelement.html key="2020-10-07-video-beschermen" width="100%" height="220" %}
+    {% endif %}
+
+    {% if page.lang == 'en' %}
+      {% include components/mediaelement.html key="201008-video-protect" width="100%" height="220" %}
+    {% endif %}
+
   </div>
 </div>
