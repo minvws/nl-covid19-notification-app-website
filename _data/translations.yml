@@ -684,28 +684,28 @@ footer-misc-report-vulnerability:
   ro: Raportați o vulnerabilitate
   tr: Güvenlik açığını bildirin
 
-footer-misc-contact-url: 
-  nl: contact
-  en: contact
-  ar: contact
-  bg: contact
-  de: contact
-  fr: contact
-  es: contact
-  pl: contact
-  ro: contact
-  tr:  contact
-footer-misc-contact:
-  nl: Contact
-  en: Contact
-  ar: اتصال
-  bg: Контакт
-  de: Kontakt
-  es: Contacto
-  fr: Contact
-  pl: Kontakt
-  ro: Contact
-  tr: İletişim
+# footer-misc-contact-url: 
+#   nl: contact
+#   en: contact
+#   ar: contact
+#   bg: contact
+#   de: contact
+#   fr: contact
+#   es: contact
+#   pl: contact
+#   ro: contact
+#   tr:  contact
+# footer-misc-contact:
+#   nl: Contact
+#   en: Contact
+#   ar: اتصال
+#   bg: Контакт
+#   de: Kontakt
+#   es: Contacto
+#   fr: Contact
+#   pl: Kontakt
+#   ro: Contact
+#   tr: İletişim
 
 footer-misc-cookies-url: cookies
 footer-misc-cookies:

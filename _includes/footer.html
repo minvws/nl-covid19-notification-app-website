@@ -44,13 +44,11 @@
                                 {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
-                        {% if page.lang == 'nl' %}
                         <li>
                             <a href="{{ langSlug }}{{ site.data.translations.footer-misc-accessibility-statement-url }}">
-                                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}
+                                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}  {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
-                        {% endif %}
                         <li>
                             <a href="{{ langSlug }}{{ site.data.translations.footer-misc-report-vulnerability-url }}">
                                 {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
