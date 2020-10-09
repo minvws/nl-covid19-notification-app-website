@@ -2,7 +2,8 @@
     margin: 10px auto 22px auto;
     padding: 0 10px;
     max-width: 910px;
-    border: 1px solid #E6E6E6;
+    border: 2px solid #E6E6E6;
+    border-radius: 3px;
     align-items: center;
 
     @media (min-width: 740px) {
@@ -22,6 +23,7 @@
 
 .video__description {
     flex: 1 1 50%;
+    align-self: flex-start;
     padding: 2em;
 }
 
