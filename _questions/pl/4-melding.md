@@ -12,7 +12,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
-featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
+featuredHomeText: Jeśli znajdowałeś się w pobliżu osoby, u której po waszym spotkaniu wykryto koronawirusa.
 summary: Jeśli znajdowałeś się w pobliżu osoby, u której po waszym spotkaniu, wykryto koronawirusa. 
 ---
 
