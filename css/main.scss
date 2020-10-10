@@ -12,16 +12,13 @@ Breakpoints:
 960px (desktop)
 */
 
-$color-RO_donkerblauw: #154273 /* RO blauw */;
-
-$color-RO_donkerblauw--interaction: #002783;
-
-$color-RO_lichtblauw: #EFF7F9;
-
-$color-WARN_rood: #CA005D;
+$color-RO_darkblue: #154273 /* RO blauw */;
+$color-RO_darkblue--interaction: #002783;
+$color-RO_lightblue: #EFF7F9;
+$color-WARN_red: #CA005D;
 
 $color-focus: #008fcd;
-$color-focus-background: rgba($color-RO_donkerblauw--interaction, 0.1);
+$color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
     
 :root {
     --transition-in: 262ms ease;
@@ -104,7 +101,7 @@ body {
     margin: auto;
 
     @media(min-width: 960px) {
-        padding: 0 0 0 2em;
+
     }
 }
 
@@ -126,22 +123,30 @@ abbr {
 }
 
 a, a:visited {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     text-decoration: none;
 }
 
 a:hover {
-    color: $color-RO_donkerblauw--interaction;
+    color: $color-RO_darkblue--interaction;
     text-decoration: underline;
 }
 
-@import "header-yellow";
+button {
+  cursor: pointer;
+}
+
+@import "components/btn";
+@import "components/app-badges";
+@import "header";
 @import "language-picker";
 @import "content-block";
 @import "footer";
 @import "statements";
-@import "info-slider";
 @import "faq";
+@import "stories";
+@import "information";
+@import "video";
 
 /* Skip links */
 
@@ -162,7 +167,7 @@ a:hover {
         border: none;
         border-radius: 0;
         color: #fff;
-        background-color: $color-RO_donkerblauw--interaction;
+        background-color: $color-RO_darkblue--interaction;
         position: absolute;
         top: -100vh;
         left: -100vw;
@@ -197,7 +202,6 @@ a:hover {
 
 .logobar {
     padding: 0 0 20px 0;
-    background-color: #ffffff;
     z-index: 1;
     position: relative;
 
@@ -233,21 +237,21 @@ a:hover {
 }
 
 /* .logo .wordmark {
-   font-size: 14px;
-   line-height: 14px;
-   margin-left: 9px;
-   margin-right: 21px;
-   width: 210px;
-   letter-spacing: 0.001em;
-   font-family: 'RO Serif', 'Times New Roman',Times, serif;
-   float: right;
-   padding-top: 34px;
-   display: block;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 9px;
+    margin-right: 21px;
+    width: 210px;
+    letter-spacing: 0.001em;
+    font-family: 'RO Serif', 'Times New Roman',Times, serif;
+    float: right;
+    padding-top: 34px;
+    display: block;
 } */
 
 
 
-/* Yellow header bar */
+/* header header bar */
 
 .headerbar {
 }
@@ -299,51 +303,16 @@ header .watch > a:hover {
     color: #333333; /* RO tekst */;
 
     @media (min-width: 740px) {
-        padding: 2em 2.4em 0 2.4em;
+        padding: 2em 2.4em 0 54px;
     }
 
     @media (min-width: 960px) {
-        max-width: calc(100% - 382px);
+        margin-left: 90px;
+        max-width: 740px;
     }
 }
 
 .lead__text {
-    @media (min-width: 960px) {
-        min-height: 16rem;
-    }
-
-    h2 {
-        margin: 0 0 0.7em;
-        font-size: 1.2em;
-        line-height: 1;
-    }
-}
-
-.lead__app_badges{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 0.5em;
-
-    img{
-      height: 65px;
-    }
-    .app_badge_column__left {
-        flex-direction: column;
-        flex-basis: 100%;
-        @media (min-width: 740px) {
-            flex-basis: auto;
-            margin-right: 0.5em;
-        }
-    }
-    .app_badge_column__right {
-        flex-direction: column;
-        flex-basis: 100%;
-        @media (min-width: 740px) {
-            flex-basis: auto;
-        }
-     }
 }
 
 .lead__preview {
@@ -365,7 +334,7 @@ header .watch > a:hover {
         width: 262px;
         margin: 0;
         min-height: 670px;
-        // Position depends on .header-yellow
+        // Position depends on .header
 
         > img {
             position: absolute;
@@ -377,7 +346,7 @@ header .watch > a:hover {
             z-index: 1;
         }
 
-        // Graphic with circles moved to header-yellow for overflow: hidden
+        // Graphic with circles moved to header for overflow: hidden
 
 
         // Shadow under phone image
@@ -462,7 +431,7 @@ header .watch > a:hover {
 
 .statements details > summary > div.expand,
 .statements details > summary > .collapse.bottom {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     border-top: 1px solid rgba(21, 66, 115, 0.2) /* RO blauw */;
     position: absolute;
     left: 0;
@@ -628,7 +597,7 @@ header .watch > a:hover {
 .timeline > h3.working-on::after,
 .timeline > ul.working-on > li::before,
 .timeline > ul.working-on > li::after {
-   border-color: $color-RO_donkerblauw;
+    border-color: $color-RO_darkblue;
 }
 
 .timeline > ul.completed > li,
@@ -660,9 +629,6 @@ header .watch > a:hover {
 }
 
 /* Statement More information */
-
-.card-content > .more {
-}
 
 .card-content > .more > h3 {
     font-size: 1.625rem;
@@ -709,29 +675,6 @@ ul.share > li > a {
     background-image: url('../img/linkedin.svg');
 }
 
-/* Explainer */
-
-.explainer {
-    display: block;
-    margin: 32px;
-    background: url('../img/play.svg') 33% center no-repeat, url('../img/illustration.svg') right top no-repeat, linear-gradient(180deg, #EEF7F9 /* illustratie blauw */ 0%, #FFFFFF 100%);
-    background-size: 93px, auto, auto;
-    height: 317px;
-    padding: 2rem 4rem;
-}
-.explainer:hover {
-    background-image: url('../img/play-hover.svg'), url('../img/illustration.svg'), linear-gradient(180deg, #EEF7F9 /* illustratie blauw */ 0%, #FFFFFF 100%);
-}
-
-a.explainer, a.explainer:hover, a.explainer:visited {
-    color: #333333 /* donkergrijs */;
-    text-decoration: none;
-}
-
-a.explainer > h2 {
-    font-size: 2rem;
-}
-
 /* FAQ */
 
 #radio-faq-top5:checked ~ .tab-faq-top5,
@@ -758,7 +701,7 @@ a.explainer > h2 {
     margin-top: -6rem;
 }
 .faq > label {
-    color: $color-RO_donkerblauw;
+    color: $color-RO_darkblue;
     cursor: pointer;
     display: block;
     float: left;
@@ -794,10 +737,6 @@ a.explainer > h2 {
 
 /* Tablet layout */
 @media only screen and (max-width: 1024px) {
-
-    header h1 {
-        width: 80%;
-    }
 
     header .watch {
         width: 90%;

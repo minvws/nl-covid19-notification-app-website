@@ -1,0 +1,49 @@
+<figure class="component-mediaelement">
+    <video
+        class="mejs__player"
+        width="{{ include.width }}" 
+        height="{{ include.height }}"
+        controls="controls"
+        preload="none"
+        poster="{{ site.baseurl }}/{{ site.data.videos[include.key].video-preview-image['default'] }}"
+        data-audio-description='[{"src": "{{ site.baseurl }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}", "type": "audio/mp3"}]'
+        data-audio-description-voiceover="true"
+    >
+        <source type="video/mp4" src="{{ site.baseurl }}/{{ site.data.videos[include.key].mp4-src['default'] }}" />
+        {% for subtitle in site.data.videos[include.key].subtitles %}
+            <track src="{{ site.baseurl }}/{{ subtitle.src }}" kind="subtitles" srclang="{{ subtitle.lang }}" label="{{ site.data.languages[subtitle.lang].label }}" {% if subtitle.lang == page.lang %}default{% endif %}>
+        {% endfor %}
+    </video>
+</figure>
+
+<details class="component-mediaelement__details">
+    <summary class="btn btn--expand">{{ site.data.translations.mediaelement-download-title[page.lang] }}</summary>
+    <div>
+        <ul>
+            <li>
+                <a href="{{ site.baseurl }}/{{ site.data.videos[include.key].mp4-src['default'] }}" target="_blank" rel="noopener noreferrer">
+                    {{ site.data.translations.mediaelement-download-mp4-video[page.lang] }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ site.baseurl }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}" target="_blank" rel="noopener noreferrer">
+                    {{ site.data.translations.mediaelement-download-mp3-voiceover[page.lang] }}
+                </a>
+            </li>
+            {% for subtitle in site.data.videos[include.key].subtitles %}
+                <li>
+                    <a href="{{ site.baseurl }}/{{ subtitle.src }}" rel="noopener noreferrer">
+                        {{ site.data.translations.mediaelement-download-subtitle[page.lang] }} ({{ site.data.languages[subtitle.lang].label }})
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</details>
+
+<details class="component-mediaelement__details">
+    <summary class="btn btn--expand">{{ site.data.translations.mediaelement-transcript-title[page.lang] }}</summary>
+    <div>
+        {{ site.data.videos[include.key].transcript_md[page.lang] | markdownify }}
+    </div>
+</details>

@@ -1,11 +1,11 @@
-{% if page.layout == 'content' or page.layout == 'content-statements'  %}
+{% if page.layout == 'content' or page.layout == 'faq-overview' %}
 {% assign small = 'small' %}
 {% endif %}
 
 <div class="footer-phone {{ small }} phone__row">
   
   <div class="footer-phone__column-left">
-    <img src="{{relroot}}img/phone-icon.svg" alt="">
+    <img src="{{ site.baseurl }}/img/phone-icon.svg" alt="">
   </div>
   <div class="footer-phone__column-right"> 
     <h2 class="screen-reader-text">{{ site.data.translations.footer-contact-title[page.lang] }}</h2>
@@ -15,10 +15,12 @@
     </p>
 
     <h3 class="screen-reader-text">{{ site.data.translations.footer-phone-opening[page.lang] }}</h3>
-    <p>
+    <p class="footer-phonetimes">
       <span class="footer-opening-hours">{{ site.data.translations.footer-phone-opening[page.lang] }}</span> <br/>
-      {{ site.data.translations.footer-phone-opening-hours[page.lang] }} <br/>
-      {{ site.data.translations.footer-phone-opening-hours-weekend[page.lang] }} <br/>
+      {{ site.data.translations.footer-phone-opening-hours[page.lang] }}
+    </p>
+    <p>
+      {{ site.data.translations.footer-phone-mail[page.lang] }}
     </p>
   </div>
 </div> 

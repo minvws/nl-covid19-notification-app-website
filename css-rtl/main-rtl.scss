@@ -1,0 +1,197 @@
+---
+---
+
+$color-RO_darkblue: #154273 /* RO blauw */;
+$color-RO_darkblue--interaction: #002783;
+$color-RO_lightblue: #EFF7F9;
+$color-WARN_red: #CA005D;
+
+$color-focus: #008fcd;
+$color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
+
+:root {
+    --transition-in: 262ms ease;
+    --transition-in--fast: 100ms ease;
+    --transition-out: 162ms ease;
+    --transition-out--fast: 62ms ease;
+}
+
+html[dir="rtl"] {
+    text-align: right;
+
+    @import "header-rtl";
+    @import "language-picker-rtl";
+    @import "content-block-rtl";
+    @import "footer-rtl";
+    @import "statements-rtl";
+    @import "stories-rtl";
+    @import "faq-rtl";
+
+    .container {
+        @media(min-width: 960px) {
+            padding: 0 2em 0 0;
+        }
+    }
+
+    /* Skip links */
+
+    .skiplinks {
+        a {
+            right: -100vw;
+            left: auto;
+
+            &:focus {
+                right: 15px;
+                left: auto;
+            }
+        }
+    }
+
+    /* Header */
+    .badge {
+        right: 19px;
+        left: auto;
+    }
+
+    header .watch a, header .watch > a:visited {
+        padding: 15px 50px 15px 0;
+    }
+
+
+    .lead {
+        @media (min-width: 740px) {
+            padding: 2em 54px 0 2.4em;
+        }
+
+        @media (min-width: 960px) {
+            margin-right: 90px;
+            margin-left: 0;
+        }
+    }
+
+
+    .lead__app_badges {
+        .app_badge_column__left {
+            @media (min-width: 740px) {
+                margin-left: 0.5em;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .lead__preview {
+
+        @media (min-width: 960px) {
+            left: -316px;
+            right: auto;
+
+            > img {
+                right: auto;
+                left: -22px;
+            }
+    
+            &:after {
+                left: -19px;
+                right: auto;
+            }
+        }
+    }
+    
+
+    .statements details > summary > div.expand,
+    .statements details > summary > .collapse.bottom {
+        right: 0;
+        left: auto;
+    }
+
+    .statements details > summary > .collapse.top {
+        right: auto;
+        left: 0;
+    }
+    
+    /* Statement Timeline */
+
+    .timeline ul.completed,
+    .timeline ul.working-on {
+        margin-right: 64px;
+        margin-left: 0;
+    }
+
+    .timeline > h3.completed,
+    .timeline > h3.working-on {
+        margin-right: 64px;
+        margin-left: 0;
+    }
+
+    .timeline > h3.completed::before,
+    .timeline > h3.working-on::before,
+    .timeline > ul.completed > li::before,
+    .timeline > ul.working-on > li::before {
+        left: auto;
+        right: 23px;
+    }
+
+    .timeline > h3.completed::before,
+    .timeline > h3.working-on::before {
+        left: auto;
+        right: 16px;
+    }
+
+    .timeline > h3.completed::after,
+    .timeline > h3.working-on::after,
+    .timeline > ul.completed > li::after,
+    .timeline > ul.working-on > li::after {
+        right: 31px;
+        left: auto;
+    }
+
+    /* Statement Share */
+
+    ul.share  > li {
+        float: right;
+        margin-left: 10px;
+        margin-right: 0;;
+    }
+
+    /* FAQ */
+
+    #radio-faq-top5:checked ~ label[for=radio-faq-top5],
+    #radio-faq-opensource:checked ~ label[for=radio-faq-opensource],
+    #radio-faq-app:checked ~ label[for=radio-faq-app],
+    #radio-faq-development:checked ~ label[for=radio-faq-development] {
+        border-left: 0;
+        border-right: 2px solid #1F529B /* Lichter app blauw */;
+        padding-right: 0.5rem;
+        padding-left: inherit;
+    }
+
+    .faq > label {
+        float: right;
+        clear: right;
+    }
+
+    /* Tablet layout */
+    @media only screen and (max-width: 1024px) {
+        .faq .tab {
+            margin-right: auto;
+            margin-left: 16px;
+        }
+    }
+
+    /* Mobile layout */
+    @media only screen and (max-width: 400px) {
+        .faq > label {
+            padding-right: 0 !important;
+            border-right: none !important;
+        }
+        .faq .tab {
+            margin-left: 0;
+        }
+
+    }
+
+    .icon-chevron-right {
+        background-image: url('../img/chevron-up.svg');
+        transform: rotate(-90deg);
+    }
+}

@@ -1,0 +1,34 @@
+CoronaMelder - How does the app work
+
+CoronaMelder. 
+The app that helps you to avoid unknowingly infecting other people.
+How does it work?
+After you downloading it, the app exchanges codes with other phones that are nearby.
+The app generates codes for every phone. 
+These codes are random and change several times per hour. 
+If you are near to someone else - for longer than 15 minutes - who also has the app, your phones will exchange codes using bluetooth.
+But not if someone cycles past you in the street... only if you are near to each other for more than 15 minutes.
+CoronaMelder collects these codes in the app. 
+Codes older than 14 days are deleted automatically.
+So CoronaMelder has a list of random codes from other users who have been near to you in the past two weeks. 
+But when and how do you receive a notification?
+Let’s imagine that a week after you went out, another app user – let's call him Max – tests positive for coronavirus. 
+Together with the GGD, the Regional Public Health authority in the Netherlands, Max can add his coronavirus status to the app. 
+There is a special GGD key in the app. 
+Max passes this key on to the GGD health worker.
+The GGD health worker enters the key. 
+Now Max can activate the list of codes on his phone.
+The app users belonging to those codes – including you! – will then get a notification. 
+What’s in the notification? 
+And what should you do next? 
+The notification tells you which day you came near to someone who has tested positive for coronavirus. 
+It does not say who that person was, or where it happened. 
+If you get a notification, it means there’s a chance that you also have coronavirus.
+The app will tell you what you can do next and whether you should get tested.
+In this way, new infections can be discovered faster, which helps you to avoid spreading  coronavirus to others.
+Downloading the app is voluntary at all times.
+We can only get coronavirus under control - together.
+More information? 
+Visit coronamelder.nl
+
+  

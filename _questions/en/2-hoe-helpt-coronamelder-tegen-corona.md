@@ -2,7 +2,7 @@
 layout: content
 index: 2
 set: 1
-title: How will the CoronaMelder app help to stop the spread of coronavirus?
+title: How will the app help to stop coronavirus?
 lang: en
 categories:
 - en
@@ -11,9 +11,15 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-If you have been near someone who later tests positive for coronavirus, and if that person adds their positive status to the app:
-- You will receive a notification. It is possible that you have been infected too, even if you do not feel unwell (yet).
-- You can then arrange a test at the GGD and stay at home until you know the result. This means you can avoid passing coronavirus on to other people.  
+Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?
+
+Then you will receive a notification. When you get a notification, you have been close to someone who later turned out to have corona. Don't panic: it is not certain that you also have corona. You have an additional risk of contamination: you _may_ have corona.
+
+Therefore, stay at home for up to 10 days from the date of contact with an infected person. This prevents you from infecting others as well.
+
+Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
+
+Call <a href="tel:08001202">0800-1202</a> to request a corona test free of charge.
 
 If you test positive for coronavirus yourself:
 - The GGD will ask you who you have been near to, and the GGD will also call these people.	
@@ -23,9 +29,4 @@ If you test positive for coronavirus yourself:
 - The notification only tells them that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
 
 
-The app helps to protect us from the Coronavirus. You can test the app in five GGD regions:
-- Drenthe
-- Gelderland-Zuid
-- IJsselland
-- Noord- en Oost-Gelderland
-- Twente 
+

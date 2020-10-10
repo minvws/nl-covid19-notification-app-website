@@ -8,29 +8,34 @@
 
     <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="{{ baseurl }}/js/vendors/mediaelement.4.2.16/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="{{ baseurl }}/js/vendors/mediaelement-plugins.2.5.1/a11y/a11y.min.css" />
+    <link href="{{ site.baseurl }}/css/main.css?v={{ timeslug }}" rel="stylesheet">
+
     {%- if page.lang == 'ar' -%}
-        <link href="{{ relroot }}css-arabic/main-ar.css?v={{ timeslug }}" rel="stylesheet">
+        <link href="{{ site.baseurl }}/css-rtl/main-rtl.css?v={{ timeslug }}" rel="stylesheet">
     {% endif %}
 
-    <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextregular.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextregular.woff" type="font/woff2" crossorigin="anonymous">
-    {% comment %}
-        <!-- <link rel="preload" as="font" href="{{ relroot }}fonts/ROsanswebtextitalic.woff" as="font" type="font/woff" crossorigin="anonymous"> -->
-    {% endcomment %}
-    <link rel="preload" href="{{ relroot }}fonts/ROsanswebtextbold.woff" as="font" type="font/woff" crossorigin>
-    <link href="{{ relroot }}img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="stylesheet" href="{{ relroot }}js/vendors/swiper-bundle.6.1.2.min.css" crossorigin="anonymous">
-    <script src="{{ relroot }}js/vendors/swiper-bundle.6.1.2.min.js" crossorigin="anonymous"></script>
-    <script src="{{ relroot }}js/vendors/focus-visible.5.1.0.min.js" crossorigin="anonymous" async></script>
-    {%- comment -%}
-    <script src="{{ relroot }}js/piwik.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
-    <script src="{{ relroot }}js/stats.js?v={{ timeslug }}" crossorigin="anonymous" async></script>
-    {%- endcomment -%}
+    <link rel="preload" as="font" href="{{ site.baseurl }}/fonts/ROsanswebtextregular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="{{ site.baseurl }}/fonts/ROsanswebtextregular.woff" type="font/woff2" crossorigin="anonymous">
+    
+    <link rel="preload" href="{{ site.baseurl }}/fonts/ROsanswebtextbold.woff" as="font" type="font/woff" crossorigin>
+    <link href="{{ site.baseurl }}/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="{{ site.baseurl }}/js/vendors/focus-visible.5.1.0.min.js" crossorigin="anonymous" async></script>
 
     <meta name="description" content="{{ site.data.translations.head-social-og-description[page.lang] }}">
+    <meta name="theme-color" content="#154273">
 
     <link rel="alternate" hreflang="nl-NL" href="https://coronamelder.nl" />
     <link rel="alternate" hreflang="en-GB" href="https://coronamelder.nl/en" />
+
+    <link rel="alternate" hreflang="ar" href="https://coronamelder.nl/ar" />
+    <link rel="alternate" hreflang="bg" href="https://coronamelder.nl/bg" />
+    <link rel="alternate" hreflang="de" href="https://coronamelder.nl/de" />
+    <link rel="alternate" hreflang="es" href="https://coronamelder.nl/es" />
+    <link rel="alternate" hreflang="fr" href="https://coronamelder.nl/fr" />
+    <link rel="alternate" hreflang="ro" href="https://coronamelder.nl/ro" />
+    <link rel="alternate" hreflang="tr" href="https://coronamelder.nl/tr" />
 
     <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name[page.lang] }}">
     <meta property="og:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />

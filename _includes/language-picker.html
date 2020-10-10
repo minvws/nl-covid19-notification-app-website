@@ -1,18 +1,20 @@
-<div class="language-picker">
+<div class="language-picker {% if page.layout == 'home' %} language-picker--home language-picker--right-orientation{% endif %}">
   <span class="language-picker__current">
-    {{ site.data.translations.header-language-picker-label[page.lang] }}:
+    <span class="language-picker__label">
+      {{ site.data.translations.header-language-picker-label[page.lang] }}:
+    </span>
     <strong>{{ site.data.languages[page.lang].label }}</strong>
   </span>
-  <button type="button" class="language-picker__toggle" aria-controls="language-picker__dropdown" aria-expanded="false">
+  <button type="button" class="language-picker__toggle" aria-controls="language-dropdown" aria-expanded="false">
     <span class="screen-reader-text">
       {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}
     </span>
+    <span class="language-picker__chevron"></span>
   </button>
-  <div class="language-picker__chevron">&nbsp;</div>
   <div class="language-picker__dropdown" id="language-dropdown">
-    <h3 class="language-picker__title">
+    <span class="language-picker__title">
       {{ site.data.translations.header-language-picker-switch-lang[page.lang] }}:
-    </h3>
+    </span>
     <ul class="language-picker__languages">
       {% for lang in site.data.languages %}
         {% assign language = lang[1] %}
@@ -32,7 +34,7 @@
           {% endif %}
 
           <a class="language-picker__link"
-            href="/{{ lang_prefix }}{{ slug }}"
+            href="{{ site.baseurl }}/{{ lang_prefix }}{{ slug }}"
             hreflang="{{ lang[0] }}"
             lang="{{ lang[0] }}"
           >

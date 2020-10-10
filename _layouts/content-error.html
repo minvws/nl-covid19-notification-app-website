@@ -1,8 +1,7 @@
-{%- assign relroot = '/' -%}
 {%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
-{%- assign langSlug = '/' -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
 {%- if page.lang -%}
-  {%- assign langSlug = '/' | append: page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
 
@@ -18,7 +17,7 @@
   <div class="logobar">
     <div class="logo">
       <a href="{{ langSlug }}">
-        <img src="{{ relroot }}img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
+        <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
       </a>
     </div>
   </div>
@@ -27,7 +26,7 @@
       {% include language-picker.html %}
       <div class="content-block">
 
-        <img src="/img/404-logo.svg" alt="404-coronamelder" />
+        <img src="{{ site.baseurl }}/img/404-logo.svg" alt="404-coronamelder" />
 
         <h1 id="{{ site.data.translations.error-title[page.lang] | slugify }}">{{ site.data.translations.error-title[page.lang] }}</h1>
 
