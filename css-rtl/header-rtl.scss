@@ -91,6 +91,19 @@
     }
 }
 
+.header__layout {
+    padding: 0 1.38em 10em 0;
+
+    @media (min-width: 680px) {
+        padding: 0 4.0em 15em 0;
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 0 10em 0;
+        margin-right: 90px;
+    }
+}
+
 .header__layout__middle {
     @media (min-width: 960px) {
         padding: 20px 180px 0 0;
