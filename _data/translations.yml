@@ -427,27 +427,27 @@ info-google-play-url:
 
 info-app-store-img:
   nl: app-store-badge-nl.svg
-  en: app-store-badge-eng.svg
-  ar: app-store-badge-eng.svg
-  bg: app-store-badge-eng.svg
-  de: app-store-badge-eng.svg 
-  fr: app-store-badge-eng.svg 
-  es: app-store-badge-eng.svg
-  pl: app-store-badge-eng.svg
-  ro: app-store-badge-eng.svg
-  tr:  app-store-badge-eng.svg
+  en: app-store-badge-en.svg
+  ar: app-store-badge-ar.svg
+  bg: app-store-badge-bg.svg
+  de: app-store-badge-de.svg 
+  fr: app-store-badge-fr.svg 
+  es: app-store-badge-es.svg
+  pl: app-store-badge-pl.svg
+  ro: app-store-badge-ro.svg
+  tr:  app-store-badge-tr.svg
 
 info-google-play-img:
   nl: google-play-badge-nl.svg
-  en: google-play-badge-eng.svg
-  ar: google-play-badge-eng.svg
-  bg: google-play-badge-eng.svg 
-  de: google-play-badge-eng.svg 
-  fr: google-play-badge-eng.svg
-  es: google-play-badge-eng.svg
-  pl: google-play-badge-eng.svg
-  ro: google-play-badge-eng.svg
-  tr:  google-play-badge-eng.svg
+  en: google-play-badge-en.svg
+  ar: google-play-badge-ar.svg
+  bg: google-play-badge-bg.svg 
+  de: google-play-badge-de.svg 
+  fr: google-play-badge-fr.svg
+  es: google-play-badge-es.svg
+  pl: google-play-badge-pl.svg
+  ro: google-play-badge-ro.svg
+  tr:  google-play-badge-tr.svg
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
