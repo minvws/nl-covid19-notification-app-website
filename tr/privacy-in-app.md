@@ -18,7 +18,7 @@ Eşleştirme olduğunda birkaç ölçme etkenlerine esasen, riskli bir temas sö
 ### 1. Kişisel verilerin işlenmesinden kim sorumludur? 
 Halk Sağlığı, Refah ve Spor Bakanı kişisel verilerin CoronaMelder’in kurulumunda ve idaresinde işlendiği kadarıyla işleme sorumlusudur.
 
-Belediye Sağlık Hizmetleri (GGD) kaynak ve temas takibinde uygulamadan edinilen kişisel verileri kullandığı kadarıyla, bölgenizin GGD’si işleme sorumlusudur. [www.ggd.nl](https://www.ggd.nl) adlı sayfada ikamet adresinizin posta kodunu girerek sizin hangi GGD’ye dahil olduğunu bulabilirsiniz. Hollanda’da ikamet adresiniz yoksa kaldığınız yerin posta kodunu da girebilirsiniz.
+Belediye Sağlık Hizmetleri (GGD) kaynak ve temas takibinde uygulamadan edinilen kişisel verileri kullandığı kadarıyla, bölgenizin GGD’si işleme sorumlusudur. [www.GGD.nl](https://www.ggd.nl) adlı sayfada ikamet adresinizin posta kodunu girerek sizin hangi GGD’ye dahil olduğunu bulabilirsiniz. Hollanda’da ikamet adresiniz yoksa kaldığınız yerin posta kodunu da girebilirsiniz.
 
 ### 2. Kişisel veriler ne amaçla işlenir? 
 Bu uygulama GGD’nin kaynak ve temas takibine ek olarak geliştirilmiştir. Bunun amacı yüksek bulaşma riski olan kullanıcıları, yüksek  bir gizlilik oranıyla, hızlı ve basit bir şekilde bilgilendirmektir. 
@@ -87,7 +87,7 @@ Kullanıcıyı kodları yardımıyla teşhis etmenin imkansızlığından dolay�
 
 AVG haklarının ifası özetle ancak kısıtlı olarak gerekli olacaktır. Bu da basitçe söylemek gerekirse kişilerin verilerden teşhis edilmesi ancak hiç ya da çok kısıtlı mümkündür veya bu verilerin çok kısa saklanma müddetleri nedeniyle artık mevcut değildir. Bu da AVG’nin 11. maddesine uygundur, çünkü bundan AVG’nin 15. maddesinden 20. maddesine kadar içeren hakların, ilgili kişilerin artık teşhis edilememesi durumunda uygulanmamasından kaynaklanmaktadır. 
 
-Gizlilik haklarınızdan birini kullanmaya yönelik başvuru imkanı mevcut kalacaktır. Talebinizi ikamet ettiğiniz yerden sorumlu olan GGD’e gönderebilirsiniz. [www.ggd.nl](https://www.ggd.nl) adlı web sitesinde ikamet ettiğiniz yerden hangi GGD’nin sorumlu olduğunu öğrenmek için ikamet adresinizin posta kodunu girebilirsiniz. Hollanda’da ikamet adresiniz yoksa kaldığınız yerin posta kodunu da girebilirsiniz.
+Gizlilik haklarınızdan birini kullanmaya yönelik başvuru imkanı mevcut kalacaktır. Talebinizi ikamet ettiğiniz yerden sorumlu olan GGD’e gönderebilirsiniz. [www.GGD.nl](https://www.ggd.nl) adlı web sitesinde ikamet ettiğiniz yerden hangi GGD’nin sorumlu olduğunu öğrenmek için ikamet adresinizin posta kodunu girebilirsiniz. Hollanda’da ikamet adresiniz yoksa kaldığınız yerin posta kodunu da girebilirsiniz.
 
 
 Kişisel verilerinizin işlenmesi hakkında Autoriteit Persoonsgegevens’e veya mahkemeye şikayette bulunma hakkınız her zaman bulunmaktadır. Konuyla ilgili bilgiyi burada bulabilirsiniz. 
