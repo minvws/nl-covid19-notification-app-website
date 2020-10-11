@@ -735,6 +735,22 @@ ul.share > li > a {
     height: 16px;
 }
 
+/* 404 pagina */
+
+.link__404 {
+    font-size: 21px;
+
+    &:before {
+        content: '';
+        position: relative;
+        height: 10px;
+        width: 10px;
+        background: url(../img/chevron-right-darkblue.svg) no-repeat 50% 50%;
+        transition: var(--transition-out);
+        padding: 10px;
+    }
+}
+
 /* Tablet layout */
 @media only screen and (max-width: 1024px) {
 

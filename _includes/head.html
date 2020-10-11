@@ -3,6 +3,11 @@
     <title>{% if page.title != '' %}{{ page.title }} - {% endif %}{{ site.data.translations.page-title[page.lang] }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="apple-itunes-app" content="app-id=1517652429">
+
+    <link href="{{ relroot }}css/main.css?v={{ timeslug }}" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ baseurl }}/js/vendors/mediaelement.4.2.16/mediaelementplayer.min.css" />
     <link rel="stylesheet" href="{{ baseurl }}/js/vendors/mediaelement-plugins.2.5.1/a11y/a11y.min.css" />
     <link href="{{ site.baseurl }}/css/main.css?v={{ timeslug }}" rel="stylesheet">

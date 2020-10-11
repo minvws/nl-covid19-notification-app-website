@@ -28,7 +28,3 @@ Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijk
 ## Onderdelen waarop de site verbeterd wordt
 
 Momenteel zijn geen problemen op het gebied van toegankelijkheid bekend.
-
-## Accessibility 
-
-An English version of this statement will be available shortly.
