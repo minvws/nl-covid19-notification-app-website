@@ -29,10 +29,4 @@ Blijk je zelf corona te hebben?
 - Zo kunnen zij voorkomen weer anderen te besmetten, nog voor ze ziek voelen. Bijvoorbeeld door thuis te blijven.
 - In deze melding staat alleen op welke dag ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.
 
-Zo helpt de app om elkaar te beschermen tegen corona. Dit kan nu in vijf GGD-regio’s:
-
-- Drenthe
-- Gelderland-Zuid
-- IJsselland
-- Noord- en Oost-Gelderland
-- Twente
+Zo helpt de app om elkaar te beschermen tegen corona. Dit kan nu in heel Nederland.
