@@ -60,6 +60,13 @@
                                 {{ site.data.translations.footer-misc-pers[page.lang] }} {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
+                        {% if page.lang == 'nl' or page.lang == 'en' %}
+                        <li>
+                            <a href="{{ site.data.translations.footer-misc-partnertoolkit-url }}" target="_blank" rel="noopener noreferrer">
+                                {{ site.data.translations.footer-misc-partnertoolkit[page.lang] }} {% if page.lang == 'en' %}(Dutch){% endif %}
+                            </a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="footer-links-col ___desktop-25">
@@ -68,7 +75,6 @@
                         <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}" target="_blank" rel="noopener noreferrer">{{ site.data.translations.footer-more-info[page.lang] }} {{ site.data.translations.english[page.lang] }}</a></li>
                     </ul>
                 </div>
-    
             
             </div>
         
