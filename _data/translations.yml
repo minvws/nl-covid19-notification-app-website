@@ -779,6 +779,12 @@ footer-misc-accessibility-statement:
   ro: Desclarația de accesabilitate
   tr: Erişilebilirlik bildirimi
   
+
+footer-misc-partnertoolkit-url: https://news.pressmailings.com/hvdm/partnertoolkit
+footer-misc-partnertoolkit:
+  nl: Partnertoolkit
+  en: Partner toolkit
+
 error-title:
   nl: Deze pagina kan helaas niet worden gevonden
   en: This page can't be found
