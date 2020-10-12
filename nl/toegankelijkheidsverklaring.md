@@ -13,7 +13,7 @@ Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze webs
 
 ## Wat is een toegankelijke website?
 
-Een toegankelijke website is voor alle doelgroepen beter te gebruiken. Daarom gelden er functioneel-technische en redactionele[  toegankelijkheidseisen](https://www.digitoegankelijk.nl/) of (voorheen: webrichtlijnen) voor websites van de overheid. Deze zijn vastgelegd in de[  toegankelijkheidsstandaard Digitoegankelijk EN 301 549](https://www.forumstandaardisatie.nl/open-standaarden/digitoegankelijk-en-301-549-met-wcag-21).
+Een toegankelijke website is voor alle doelgroepen beter te gebruiken. Daarom gelden er functioneel-technische en redactionele [toegankelijkheidseisen](https://www.digitoegankelijk.nl/) of (voorheen: webrichtlijnen) voor websites van de overheid. Deze zijn vastgelegd in de[  toegankelijkheidsstandaard Digitoegankelijk EN 301 549](https://www.forumstandaardisatie.nl/open-standaarden/digitoegankelijk-en-301-549-met-wcag-21).
 
 ## Borging van toegankelijkheid
 Wij borgen goede toegankelijkheid door diverse maatregelen binnen onze (dagelijkse) processen:
