@@ -53,3 +53,5 @@ Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de 
 </div>
 </details>
 
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="2020-10-07-video-hoe-werkt-het" height="394" %}
