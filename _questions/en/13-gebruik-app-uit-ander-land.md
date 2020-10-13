@@ -11,5 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-
-TBA
+{% include content/13-gebruik-app-uit-ander-land.md %}

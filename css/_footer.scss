@@ -149,6 +149,14 @@
 
 .footer {
     background: #0E6999;
+
+    *:focus {
+        outline-color: $color-focus-footer;
+    }
+
+    *:focus-within:focus {
+        outline-color: $color-focus-footer;
+    }
 }
 
 .footer-inner {

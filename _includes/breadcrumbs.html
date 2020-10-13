@@ -18,7 +18,11 @@
         {{ site.data.translations.faq[page.lang] | truncate: 40 }}
       </a>
     {% else %}
-      <a class="breadcrumbs disabled">{{ include.title | truncate: 40 }}</a>
+      {% if page.contentLang == 'en' %}
+        <a class="breadcrumbs disabled" dir="ltr" lang="en">{{ include.title | truncate: 40 }}</a>
+      {% else %}
+        <a class="breadcrumbs disabled">{{ include.title | truncate: 40 }}</a>
+      {% endif %}
     {% endif %}
     {% if forloop.last == false %}
       <span class="icon icon-chevron-right"></span>

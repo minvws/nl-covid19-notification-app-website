@@ -12,4 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-When developing CoronaMelder, security, privacy and accessibility of the app have always been leading. 
+{% include content/16-is-de-app-100procent-veilig.md %}
