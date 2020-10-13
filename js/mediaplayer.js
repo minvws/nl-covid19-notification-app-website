@@ -10,8 +10,9 @@
             shimScriptAccess: 'always',
             features: ['playpause', 'current', 'progress', 'duration', 'tracks', 'volume', 'a11y', 'fullscreen'],
             alwaysShowControls: true,
+            toggleCaptionsButtonWhenOnlyOne: true,
             success: function(mediaElement, originalNode, instance) {
-              
+                
             }
         });
     }
