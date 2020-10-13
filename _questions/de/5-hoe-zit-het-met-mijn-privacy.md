@@ -19,3 +19,6 @@ featuredHomeText: Die App funktioniert ohne Ihre Kontaktdaten, wie Standort, Nam
 Die App tauscht willkürliche Codes mit anderen Telefonen aus. Diese Codes enthalten keine persönlichen Daten oder Standortdaten von Ihnen. Die App weiß also nicht, wer und wo Sie sind.
 
 Bekommen Sie Corona und melden dies über die App? Auch dann gibt es keine Verbindung mit Ihrem Namen oder Ihren Kontaktdaten. Außerdem verwenden Sie die App völlig freiwillig. 
+
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="201008-video-your-privacy" height="394" %}
