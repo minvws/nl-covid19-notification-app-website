@@ -173,3 +173,11 @@ details.component-mediaelement__details[open] {
     background-image: url(../img/chevron-right-white.svg);
   }
 }
+
+.mejs__captions-button { 
+  opacity: 0.7;
+
+  &.mejs__captions-enabled {
+    opacity: 1;
+  }
+}
