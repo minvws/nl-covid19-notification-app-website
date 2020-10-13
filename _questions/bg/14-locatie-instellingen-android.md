@@ -12,5 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-
-TBA
+{% include content/14-locatie-instellingen-android.md %}
