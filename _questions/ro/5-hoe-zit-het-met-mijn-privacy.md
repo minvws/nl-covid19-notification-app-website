@@ -21,4 +21,4 @@ Aplicația schimbă coduri aleatorii cu alte telefoane. Aceste coduri nu conțin
 Chiar dacă vă infectați cu coronavirus și raportați acest lucru prin aplicație, acest lucru nu poate fi cuplat la numele sau de datele dvs. de contact. Mai mult de atât, utilizați aplicația doar dacă doriți.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="201008-video-your-privacy" height="394" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394" %}

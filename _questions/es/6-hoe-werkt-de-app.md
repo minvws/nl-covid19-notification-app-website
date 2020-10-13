@@ -25,4 +25,4 @@ La app envía un mensaje si has estado demasiado tiempo cerca de alguien contagi
 * Si al final te has contagiado con el coronavirus, puedes avisar voluntariamente a otros con la app. La app avisará a las personas con las que has estado en contacto. En el aviso, solo pone cuándo han estado cerca de una persona contagiada.No dice nada sobre quién es ni dónde se encontró con esa persona.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}

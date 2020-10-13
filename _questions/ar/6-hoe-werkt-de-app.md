@@ -29,4 +29,4 @@ featuredHomeText: يرسل لك التطبيق رسالة عند تواجدك ل
 * إذا أصبت بفيروس كورونا، يمكنك الإبلاغ عن ذلك (طواعية) من خلال التطبيق. يحذر التطبيق بعد ذلك الأشخاص الذين كنت على اتصال بهم. يذكر هذا الإشعار فقط متى تواجدت بالقرب من شخص مصاب. ليس من يكون هذا الشخص وأين التقيت به.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}
