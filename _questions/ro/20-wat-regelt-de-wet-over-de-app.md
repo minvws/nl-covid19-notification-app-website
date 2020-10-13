@@ -12,4 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-Use of CoronaMelder is now regulated by law. It states that use of the app is voluntary.
+{% include content/20-wat-regelt-de-wet-over-de-app.md %}

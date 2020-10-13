@@ -18,7 +18,7 @@ summary: The app sends you a notification if you have been around someone who la
 
 ---
 
-**The app sends you a notification if you have been near someone who has tested positive for coronavirus, as long as you were near them for more than 15 minutes. If you want to know whether you were infected, you can arrange a test with the GGD by telephone, free of charge. This can help you avoid passing the virus on to other people without knowing it.** 
+**The app sends you a notification if you have been near someone who has tested positive for coronavirus, as long as you were near them for more than 15 minutes. This can help you avoid passing the virus on to other people without knowing it.** 
 
 <div class="md-timeline" markdown="1">
    1. The app uses Bluetooth to detect other people around you, as long as they have the app too.
@@ -43,7 +43,6 @@ The notification will say how many days ago you were around somebody who has tes
 
 **The notification also includes advice on what to do next**
 
--   	If you have no symptoms: arrange a coronavirus test and stay at home until you get the result
 -   	If you have mild symptoms of coronavirus: arrange a coronavirus test and stay at home until you get the resul
 -   	If you have serious symptoms, or you are in a higher-risk group: call your doctor. 
 

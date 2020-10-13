@@ -12,4 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-No, the app cannot determine the exact distance, and it is not necessary. The app uses Bluetooth to determine that you are close to other users of the app. If you receive a notification, you were close to someone who turned out to be infected, for more than 15 minutes.
+{% include content/18-kan-de-app-precies-de-afstand-bepalen.md %}
