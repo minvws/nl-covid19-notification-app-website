@@ -16,7 +16,8 @@ featuredHomeIcon: app-touch
 featuredHomeText: L’application vous envoie un message si vous avez été pendant un certain temps proche de quelqu’un qui a le coronavirus.
 ---
 
-L’application vous envoie un message si vous avez été au moins pendant 15 minutes près de quelqu’un qui a été contaminé par le coronavirus. Si vous voulez savoir si vous êtes également contaminé(e), vous pouvez demander un test gratuit par téléphone au GGD. Vous évitez ainsi de transmettre involontairement le virus à d’autres.
+L’application vous envoie un message si vous avez été au moins pendant 15 minutes près de quelqu’un qui a été contaminé par le coronavirus. Vous évitez ainsi de transmettre involontairement le virus à d’autres.
+
 * Via la fonction Bluetooth, l’application voit si vous avez été proche de quelqu’un ayant le coronavirus qui a également l’application.
 * Plus le signal est puissant, plus vous étiez proche. 
 * L’application fonctionne sans indiquer votre localisation ni votre nom, adresse e-mail, numéro de téléphone ou autres coordonnées. L’application ne sait pas qui vous êtes, qui est l’autre ni où vous étiez. 

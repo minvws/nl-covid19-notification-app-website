@@ -16,7 +16,7 @@ featuredHomeIcon: app-touch
 featuredHomeText: Aplicația vă trimite un mesaj dacă ați fost pentru un timp în apropierea unei persoane care este infectată cu coronavirus. 
 ---
 
-Aplicația vă trimite un mesaj dacă ați fost un timp în apropierea unei persoane care este infectată cu coronavirus. Dacă doriți să știți dacă sunteți infectat, vă puteți testa gratuit. În acest fel, nu veți infecta cu acest virus, în mod involuntar, alte persoane. 
+Aplicația vă trimite un mesaj dacă ați fost un timp în apropierea unei persoane care este infectată cu coronavirus. În acest fel, nu veți infecta cu acest virus, în mod involuntar, alte persoane. 
 
 * Aplicația vede prin Bluetooth dacă ați fost în apropierea unei persoane care și ea folosește aplicația.
 * Cu cât este mai puternic semnalul cu atât ați fost mai aproape.

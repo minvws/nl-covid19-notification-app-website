@@ -16,7 +16,7 @@ featuredHomeIcon: app-touch
 featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 ---
 
-**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
+**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
 
 <div class="md-timeline" markdown="1">
 1. De app ziet via bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
@@ -40,8 +40,7 @@ Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de 
 
 In de melding staat hoeveel dagen geleden je dicht bij iemand was die later corona bleek te hebben. Het is niet bekend wie dat was, waar of wanneer precies.
 
--   	Heb je geen klachten? Doe een coronatest en blijf thuis tot je de uitslag weet
--   	Heb je (lichte)klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet
+-   	Heb je (lichte) klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet
 -   	Heb je ernstige klachten of zit je in een risicogroep? Bel je huisarts.
 
 </div>

@@ -16,8 +16,7 @@ featuredHomeIcon: app-touch
 featuredHomeText: Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir.
 ---
 
-Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir.
-Size de virüs bulaşıp bulaşmadığını öğrenmek istiyorsanız, o zaman kendinizi ücretsiz test ettirebilirsiniz. Bu, virüsü bilmeden başkalarına bulaştırmanızı engeller.
+Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir. Bu, virüsü bilmeden başkalarına bulaştırmanızı engeller.
 
 * Uygulama, Bluetooth aracılığıyla, uygulamaya sahip olan birine yakın olup olmadığınızı görür.
 * Sinyal ne kadar güçlüyse o kadar yakındaydınız.

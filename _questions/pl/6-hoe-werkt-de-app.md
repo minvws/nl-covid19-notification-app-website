@@ -14,8 +14,7 @@ featuredHomeIndex: 5
 featuredHomeIcon: app-touch
 featuredHomeText: Aplikacja przysyła Ci wiadomość, jeśli przez pewien czas znajdowałeś się w pobliżu osoby zarażonej koronawirusem.
 ---
-
-Aplikacja przysyła Ci wiadomość, jeśli znajdowałeś się w pobliżu osoby, u której wykryto koronawirusa. Jeśli chciałbyś dowiedzieć się, czy Ty również jesteś zarażony, możesz wykonać bezpłatny test na obecność koronawirusa. W ten sposób unikasz nieświadomego zarażenia innych.
+Aplikacja przysyła Ci wiadomość, jeśli znajdowałeś się w pobliżu osoby, u której wykryto koronawirusa. W ten sposób unikasz nieświadomego zarażenia innych.
 
 * Dzięki Bluetooth aplikacja widzi, czy znajdowałeś się blisko osoby, która również korzysta z CoronaMelder.
 * Im silniejszy sygnał, tym bliżej się znajdowałeś.
