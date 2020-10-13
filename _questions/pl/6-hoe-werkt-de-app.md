@@ -21,3 +21,6 @@ Aplikacja przysyła Ci wiadomość, jeśli znajdowałeś się w pobliżu osoby, 
 * Aplikacja nie korzysta z Twojej lokalizacji, imienia i nazwiska, adresu e-mail, numeru telefonu, czy innych danych kontaktowych. Aplikacja nie wie kim jesteś, kim jest ta inna osoba, ani gdzie się znajdujecie. 
 * Jeśli znajdowałeś się w pobliżu osoby posiadającej aplikację oraz u której wykryto koronawirusa, otrzymasz powiadomienie z aplikacji.
 * Jeśli sam zostaniesz zarażony koronawirusem, możesz (dobrowolnie) przekazać tę informację aplikacji. W takim przypadku aplikacja ostrzeże ludzi, z którymi miałeś kontakt. Powiadomienie zawiera informację wyłącznie o tym, kiedy miały one kontakt z osobą zarażoną. Nie o tym, kto to jest, ani gdzie ją spotkali.
+
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" height="394" %}

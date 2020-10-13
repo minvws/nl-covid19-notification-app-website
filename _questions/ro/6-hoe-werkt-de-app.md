@@ -23,3 +23,6 @@ Aplicația vă trimite un mesaj dacă ați fost un timp în apropierea unei pers
 * Aplicația funcționează fără locația, numele, adresa de e-mail, numărul dvs. de telefon sau alte date de contact. Aplicația nu știe cine sunteți, cine este cealaltă persoană sau unde vă aflați.
 * Dacă ați fost în apropierea cuiva cu coronavirus și acea persoană folosește aplicația, veți primi ulterior o notificare prin aplicație.
 * Dacă sunteți infectat cu coronavirus, puteți (de bunăvoie) să menționați acest lucru în aplicație. Aplicația va avertiza persoanele cu care ați fost în contact. În această notificare se menționează doar când s-au aflat în apropierea unei persoane infectate. Nu cine este sau unde au întâlnit acea persoană.
+
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" height="394" %}

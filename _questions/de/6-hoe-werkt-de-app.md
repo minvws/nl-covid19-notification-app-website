@@ -23,3 +23,6 @@ Die App schickt Ihnen eine Nachricht, wenn Sie mindestens 15 Minuten in der Näh
 * Die App funktioniert ohne Ihre Kontaktdaten, wie Standort, Name, E-Mail-Adresse oder Telefonnummer. Die App weiß nicht, wer Sie sind, wer die andere Person ist oder wo Sie beide sind. 
 * Waren Sie in der Nähe einer Person mit Corona? Und hat diese Person auch die App? Dann bekommen Sie später eine App-Nachricht.
 * Haben Sie selbst Corona? Dann können Sie das (freiwillig) über die App melden. Die App warnt danach Personen, mit denen Sie Kontakt hatten. In dieser Nachricht steht nur, wann sie in der Nähe einer Person mit Corona waren. In der Nachricht steht nicht, wer das ist und wo sie der Person begegneten.
+
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" height="394" %}
