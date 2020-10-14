@@ -14,7 +14,8 @@
     <div class="logobar">
       <div class="logo">
         <a href="{{ langSlug }}">
-          <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}: {{ page.title }}">
+          <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }} 
+          {% if page.title %}: {{ page.title }}{% endif %">
         </a>
       </div>
       <a href="{{ langSlug }}/faq" class="header__layout__faq-link">
