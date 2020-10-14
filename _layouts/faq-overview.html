@@ -27,75 +27,76 @@
       </p>
     {% endif %}
     
-    <div class="content-block" {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% endif %}>
-
+    <div class="content-block">
       <h1 id="frequently-asked-questions">{{ site.data.translations.faq[page.lang] }}</h1>
 
       {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
-      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
+      <div {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% endif %}>
+        <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
 
-      <div class="faq-layout__contents __overview">
-          <ul class="faq-layout-contents__list">
-            {% for question in questions %}
-              {% if question.set == 1 %}
-                {% if question.featuredHome != true %}
-                  <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
-                          {{ question.title }}
-                      </a>
-                  </li>
-                {% elsif question.featuredHome == true and question.showOnFAQoverview %}
-                  <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
-                          {{ question.title }}
-                      </a>
-                  </li>
-                {% endif %}
-              {% endif %}
-          {% endfor %}
-          </ul>
-      </div>
-
-
-      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheappworks[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheappworks[page.lang] }}</h2>
-
-      <div class="faq-layout__contents __overview">
-          <ul class="faq-layout-contents__list">
-          {% for question in questions %}
-              {% if question.set == 2 %}
-                {% if question.featuredHome != true %}
-                  <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
-                          {{ question.title }}
-                      </a>
-                  </li>
-                {% elsif question.featuredHome == true and question.showOnFAQoverview %}
-                  <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
-                          {{ question.title }}
-                      </a>
-                  </li>
-                {% endif %}
-              {% endif %}
-          {% endfor %}
-          </ul>
-      </div>
-
-      <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-lessAskedQuestions[page.lang]|slugify }}">{{ site.data.translations.faq-category-lessAskedQuestions[page.lang] }}</h2>
-
-      <div class="faq-layout__contents __overview" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
-          <ul class="faq-layout-contents__list">
-            {% for question in questions %}
-            {% if question.set == 4 %}
-                  <li>
-                      <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
-                          {{ question.title }}
-                      </a>
-                  </li>
+        <div class="faq-layout__contents __overview">
+            <ul class="faq-layout-contents__list">
+              {% for question in questions %}
+                {% if question.set == 1 %}
+                  {% if question.featuredHome != true %}
+                    <li>
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
+                            {{ question.title }}
+                        </a>
+                    </li>
+                  {% elsif question.featuredHome == true and question.showOnFAQoverview %}
+                    <li>
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
+                            {{ question.title }}
+                        </a>
+                    </li>
                   {% endif %}
-          {% endfor %}
-          </ul>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+
+
+        <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheappworks[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheappworks[page.lang] }}</h2>
+
+        <div class="faq-layout__contents __overview">
+            <ul class="faq-layout-contents__list">
+            {% for question in questions %}
+                {% if question.set == 2 %}
+                  {% if question.featuredHome != true %}
+                    <li>
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
+                            {{ question.title }}
+                        </a>
+                    </li>
+                  {% elsif question.featuredHome == true and question.showOnFAQoverview %}
+                    <li>
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
+                            {{ question.title }}
+                        </a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+
+        <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-lessAskedQuestions[page.lang]|slugify }}">{{ site.data.translations.faq-category-lessAskedQuestions[page.lang] }}</h2>
+
+        <div class="faq-layout__contents __overview" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
+            <ul class="faq-layout-contents__list">
+              {% for question in questions %}
+              {% if question.set == 4 %}
+                    <li>
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}>
+                            {{ question.title }}
+                        </a>
+                    </li>
+                    {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
       </div>
     </div>
 
@@ -106,7 +107,6 @@
         </a>
       </p>
     {% endif %}
-
 
   </main>
   {% include footer.html %}
