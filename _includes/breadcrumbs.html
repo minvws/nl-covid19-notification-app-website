@@ -27,14 +27,10 @@
     {% else %}
       <li class="breadcrumbs-item"> 
         {% if page.contentLang == 'en' %}
-          <a class="breadcrumbs disabled" dir="ltr" lang="en">{{ include.title | truncate: 40 }}</a>
+          <span class="breadcrumbs disabled" dir="ltr" lang="en" aria-current="page">{{ include.title | truncate: 40 }}</span>
         {% else %}
-          <a class="breadcrumbs disabled">{{ include.title | truncate: 40 }}</a>
+          <span class="breadcrumbs disabled" aria-current="page">{{ include.title | truncate: 40 }}</span>
         {% endif %}
-
-        <!-- {% if forloop.last == false %}
-          <span class="icon icon-chevron-right"></span>
-        {% endif %}  -->
       </li> 
     {% endif %} 
     {% endfor %}
