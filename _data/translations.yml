@@ -172,8 +172,8 @@ header-language-picker-current-lang:
 #   en: 
   
 govlogo:
-  nl: Home
-  en: Home
+  nl: Logo Rijksoverheid, homepage
+  en: Logo Dutch Government, homepage
   ar: الصفحة الرئيسية
   bg: Начална страница
   de: Home
@@ -182,6 +182,18 @@ govlogo:
   pl: Strona główna
   ro: Pagina inițială
   tr: Anasayfa
+
+header__logo-badge:
+  nl: Logo CoronaMelder app
+  en: Logo CoronaMelder app
+  ar: CoronaMelder شعار تطبيق 
+  bg: Лого на приложението CoronaMelder
+  de: Logo CoronaMelder-App
+  es: Logo del app CoronaMelder
+  fr: Logo du l’appli CoronaMelder
+  pl: Logo aplikację CoronaMelder
+  ro: Siglă aplicația CoronaMelder
+  tr: CoronaMelder uygulamasını logosu
   
 phone-action:
   nl: <a href="tel:0800-1280">0800-1280</a>

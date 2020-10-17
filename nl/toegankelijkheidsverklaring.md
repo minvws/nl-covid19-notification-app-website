@@ -9,7 +9,7 @@ Datum toegankelijkheidsverklaring 09-10-2020
 
 Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden. Deze toegankelijksheidsverklaring wordt binnenkort up to date gemaakt.
 
-[Toegankelijkheidsverklaring CoronaMelder.nl](https://www.toegankelijkheidsverklaring.nl/register/3214)
+<a href="https://www.toegankelijkheidsverklaring.nl/register/3214" lang="nl" rel="noreferrer noopener">Toegankelijkheidsverklaring CoronaMelder.nl</a>
 
 ## Wat is een toegankelijke website?
 

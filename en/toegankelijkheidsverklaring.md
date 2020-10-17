@@ -12,7 +12,7 @@ Accessibility Statement, dated 9 October 2020
   This accessibility statement will shortly be brought up to date.
 </p>
 
-[Toegankelijkheidsverklaring CoronaMelder.nl](https://www.toegankelijkheidsverklaring.nl/register/3214)
+<a href="https://www.toegankelijkheidsverklaring.nl/register/3214" lang="nl" rel="noreferrer noopener">Toegankelijkheidsverklaring CoronaMelder.nl</a>
 
 
 ## What is an accessible website?
