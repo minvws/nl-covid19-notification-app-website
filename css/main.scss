@@ -34,17 +34,17 @@ $color-focus-footer: #ffffff;
     box-sizing: border-box;
     outline-offset: 8px;
     outline: 2px solid transparent;
+
+    &:focus {
+        outline: 2px solid $color-focus;
+        outline-offset: 4px;
+        transition: 100ms ease-out;
+    }
 }
 
 .browser-ie-11 * {
     outline-offset: 0;
     outline: 0;
-}
-
-*:focus {
-    outline: 2px solid $color-focus;
-    outline-offset: 4px;
-    transition: 100ms ease-out;
 }
 
 @font-face {

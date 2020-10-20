@@ -70,10 +70,10 @@ Allerdings bietet sich dennoch auch weiterhin die Möglichkeit, einen Antrag auf
 Sie sind jederzeit berechtigt, bei der niederländischen Datenschutzbehörde oder bei einem Gericht eine Beschwerde im Zusammenhang mit der Verarbeitung Ihrer personenbezogenen Daten einzureichen. Weitere Informationen zu diesem Thema finden Sie hier.
 
 Kontaktangaben zu dem in Ihrem Wohnort zuständigen Datenschutzverantwortlichen der kommunalen Gesundheitsbehörde (GGD) können Sie der GGD-Website entnehmen.
- <a href="https://www.ggd.nl" target="_blank" rel="noopener noreferrer">https://www.ggd.nl</a>
+ [www.GGD.nl](https://www.ggd.nl)
 
 Kontaktangaben zu dem Datenschutzverantwortlichen des niederländischen Ministeriums für Gesundheit, Gemeinwohl und Sport finden Sie auf der Website des Ministeriums.
- <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/avg/contact/functionaris-gegevensbescherming" target="_blank" rel="noopener noreferrer">Functionaris voor Gegevensbescherming</a>
+ [Functionaris voor Gegevensbescherming](https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/avg/contact/functionaris-gegevensbescherming)
 
 ### 9. Schutz Ihrer personenbezogenen Daten
 Das niederländische Ministerium für Gesundheit, Gemeinwohl und Sport sowie die kommunalen Gesundheitsbehörden (GGD) nehmen den Schutz Ihrer Daten ernst und ergreifen geeignete Maßnahmen, um dem Missbrauch beziehungsweise Verlust, dem unbefugten Zugriff, der unerwünschten Veröffentlichung und der unzulässigen Änderung dieser Daten entgegenzuwirken.

@@ -55,14 +55,17 @@
     } 
 }
 
+.breadcrumbs-item {
+    list-style-image: none;
+    display: inline-block; 
+}
 .breadcrumbs {
     line-height: 1.6;
+
     &.disabled {
         color: #333;
     }
 }
-
-
 
 .content-error {
     border-radius: 0;
