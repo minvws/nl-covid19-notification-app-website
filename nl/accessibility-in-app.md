@@ -5,7 +5,7 @@ title: Toegankelijkheid
 ---
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-  De CoronaMelder-app moet toegankelijk zijn voor iedereen. Vanaf het eerste ontwerp is daar met behulp van experts en ervaringsdeskundigen rekening mee gehouden. Toch kan het zo zijn dat de app misschien niet goed toegankelijk is. Kun je de app niet goed gebruiken? Meld dat dan via <a href="mailto:coronamelder@minvws.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] }}">coronamelder@minvws.nl</a>.
+  De CoronaMelder-app moet toegankelijk zijn voor iedereen. Vanaf het eerste ontwerp is daar met behulp van experts en ervaringsdeskundigen rekening mee gehouden. Toch kan het zo zijn dat de app misschien niet goed toegankelijk is. Kun je de app niet goed gebruiken? Meld dat dan via <a href="mailto:coronamelder@minvws.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] | url_encode | replace: "+", "%20"}}">helpdesk@coronamelder.nl</a>.
 </p>
 
 De CoronaMelder-app volgt de Web Content Accessibility Guidelines (WCAG) 2.1 op niveau AA zoals opgenomen in Europese standaard EN 301 549. Als deze Europese standaard wordt bijgewerkt met specifieke richtlijnen voor mobiele applicaties, zullen we deze volgen.

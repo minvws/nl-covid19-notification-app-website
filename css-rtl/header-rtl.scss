@@ -39,8 +39,10 @@
 .header--slim {
     padding: 0 0 50px 0;
 
-    &:after {
+    .header__logo-badge {
         left: 30px;
+        top: 28px;
+        transform: none;
         right: auto;
 
         .browser-ie-11 & {
@@ -50,7 +52,7 @@
     }
 
     @media(min-width: 960px) {
-        &:after {
+        .header__logo-badge {
             /** Perfect alignment: width: of this element, width of the element above */
             width: 80px;
             left: calc((980px / -2) + calc(100% / 2));
@@ -89,6 +91,19 @@
     }
 }
 
+.header__layout {
+    padding: 0 1.38em 10em 0;
+
+    @media (min-width: 680px) {
+        padding: 0 4.0em 15em 0;
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 0 10em 0;
+        margin-right: 90px;
+    }
+}
+
 .header__layout__middle {
     @media (min-width: 960px) {
         padding: 20px 180px 0 0;
@@ -99,4 +114,28 @@
     @media (min-width: 960px) {
         float: right;
     }
+}
+
+.language-picker {
+    display: -ms-inline-grid; display: inline-grid;
+    -ms-grid-columns: -webkit-max-content 32px;
+    -ms-grid-columns: max-content 32px;
+    grid-template-columns: -webkit-max-content 32px;
+    grid-template-columns: max-content 32px;
+}
+
+
+.language-picker__chevron::after {
+    right: auto;
+    left: 16px;
+}
+
+[aria-expanded="true"] ~ .language-picker__dropdown {
+    right: -8px;
+    left: auto;
+}
+
+.language-picker__dropdown {
+    right: -9999px;
+    left: auto;
 }

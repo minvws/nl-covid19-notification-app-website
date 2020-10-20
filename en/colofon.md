@@ -2,6 +2,7 @@
 layout: content
 lang: en
 title: Colophon
+contentLang: en
 ---
 
 The CoronaMelder app has been developed by the Ministry of Public Health,
@@ -15,7 +16,7 @@ your privacy. And that helps to get —&nbsp;and keep&nbsp;— the coronavirus u
 ## Source code
 
 The app's source code and its backend systems are all publicly available. You
-can find all code on <a href="https://github.com/minvws" target="_blank" ref="noopener">GitHub</a>. This way, the precise
+can find all code on <a href="https://github.com/minvws" target="_blank" rel="noopener noreferrer">GitHub</a>. This way, the precise
 way the app works is verifiable and controllable by many people, who can also
 help discover any potential vulnerabilities.
 

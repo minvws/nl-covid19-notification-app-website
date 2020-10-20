@@ -1,106 +1,104 @@
 ---
 layout: in-app-content
-lang: en
-title: Privacy in app
+lang: tr
+title: CoronaMelder Gizlilik Beyanı 
 ---
 
-## About CoronaMelder
+## CoronaMelder hakkında 
+CoronaMelder (uygulama), COVID-19 virüsünün yayılmasını sınırlandırmak için teknik bir yardımcı araçtır. CoronaMelder’i akıllı telefonunuza yüklediğinizde, COVİD-19 test sonucu pozitif çıkan ve CoronaMelder’i yüklemiş olan bir kişinin yakınında bir süre bulunmuş olmanız durumunda bir mesaj alırsınız. CoronaMelder’i kullanan ve size virüsü olası bulaştırmış bir kişi söz konusu ise uygulama, size şikayetleriniz olduğunda “test olun” diye tavsiyede bulunur. Aşağıda CoronaMelder’in nasıl çalıştığı kısaca izah edilmektedir. 
 
-CoronaMelder (app) is a technical tool that helps limit the spread of the COVID-19 virus. If you have installed CoronaMelder on your smartphone, you will receive a message if you have been in the proximity (for some time) of a person who has tested positive for COVID-19, and this person has also installed CoronaMelder. If you may have been infected by another CoronaMelder user, the app recommends that you have yourself tested if you have any symptoms. Below we will briefly explain how CoronaMelder works.
+Uygulama, Bluetooth Low Energy vasıtasıyla uygulamanın yüklenmiş olduğu diğer akıllı telefonları tanımaktadır. Diğer akıllı telefonların tanınması Rolling Proximity Indicators (RPS’ler) denilen rastgele kodlar (rakam sıraları) yardımıyla gerçekleşir. Bu kodlar her 10 ile 20 dakikada bir yenilenir ve Temporary Exposure Keys (TEK’ler) denilen şifrelerin türevleridir. TEK’ler de rastgele kodlar olup her gün yeniden oluşturulur ve 14 gün boyunca kullanıcının telefonunda saklanır.  
 
-The app recognises other smartphones on which the app is installed via Bluetooth Low Energy. The other smartphones are recognised using random codes (series of numbers) known as Rolling Proximity Indicators (RPIs). These codes are updated every 10 to 20 minutes, and are derived from Temporary Exposure Keys (TEKs). TEKs are also random codes, but are regenerated on a daily basis to be stored on the user's phone for 14 days. 
+Akıllı telefonunuz uygulamanın yüklü olduğu başka bir akıllı telefona yakın olduğunda bu akıllı telefonlar arasında farklı RPIdeğiş tokuşu yapılır ve üzerine yerel olarak kaydedilir. Uygulama kullanıcısının COVID-19 testi pozitif çıktığında kullanıcı bunu uygulamada gönüllü olarak bildirmeyi seçebilir. Böyle bir tercih yapıldığında uygulama, son 14 gün için oluşturulan ve akıllı telefonda yerel olarak saklanan TEK’leri bir backend sunucusuna gönderir. Backend sunucusu, gönderilen TEK’leri ancak hem kullanıcının hem de GGD’nin gönderdiği bir yetki koduyla teyit etmeleri halinde kabul eder. Backend sunucusunda alınan TEK’ler, Diagnosis Keys (DK’ler) denilen başka kodlara dönüştürülür. 
 
-If your smartphone is in proximity to another smartphone on which the app is installed, their respective RPIs are exchanged and stored locally on those phones. If an app user has tested positive for COVID-19, the user may voluntarily choose to report this in the app. If the user chooses to do so, the app will send the TEKs created in the past 14 days and stored locally on the smartphone to a central server. The central server will only accept transmitted TEKs if the user and the Dutch Municipal Health Service (GGD) have confirmed such transmission with an authorisation code. On the central server, the TEKs received are converted into other codes known as Diagnosis Keys (DKs). 
+Akabinde backend sunucu DK’leri uygulamanın yüklendiği akıllı telefonlar tarafından otomatikman indirilebilsin diye hazır bulundurur. Akıllı telefonunuz DK’leri sunucudan indirdikten sonra sunucu ile olan bağlantı kesilir. Bu otomatikleşmiş işlem, olası bulaşma risklerini güncelleştirme açısından günde birkaç kez tekrarlanır. Sonrasında akıllı telefonunuz, indirilen DK’ler yardımıyla akıllı telefonunuzun yakınlarında bulunan diğer akıllı telefonların çeşitli RPI’leriyle eşleştirme olup olmadığını hesaplar. Bundan hemen sonra DK’ler akıllı telefonunuzdan silinir. 
 
-The central server then makes the DKs available for automatic download by the smartphones on which the app is installed. After your smartphone has downloaded the DKs from the server, the phone will be disconnected from the server. This automated process is repeated several times per day to keep any contamination risks up-to-date. Your smartphone then calculates on the basis of the downloaded DKs whether there is a match with the various RPIs of other smartphones that have been in proximity to your smartphone. Immediately thereafter, the DKs will be removed from your smartphone. 
+Eşleştirme olduğunda birkaç ölçme etkenlerine esasen, riskli bir temas söz konusu olup olmadığı belirlenir. Riskli temas söz konusuysa, yani başka bir deyişle geçmiş süre içinde COVID-19’un bulaştığı bir kişinin yakınında bulunmuşsanız, bulaşma riskinizin yüksek olduğu konusunda bir bildiri alırsınız. Uygulama ayrıca, şikayetleriniz olduğunda virüsün size bulaşması konusunda kendinizi test ettirme tavsiyesinde bulunur.
 
-If there is a match, an assessment is made using a number of weighting factors as to whether there has been high-risk contact. If that is the case — in other words, if you have recently been in close proximity to a person infected with COVID-19 — you will be notified that there is an increased risk of contamination. The app also recommends having yourself tested for contamination with the virus if you have any symptoms.
+### 1. Kişisel verilerin işlenmesinden kim sorumludur? 
+Halk Sağlığı, Refah ve Spor Bakanı kişisel verilerin CoronaMelder’in kurulumunda ve idaresinde işlendiği kadarıyla işleme sorumlusudur.
 
-## The field test
+Belediye Sağlık Hizmetleri (GGD) kaynak ve temas takibinde uygulamadan edinilen kişisel verileri kullandığı kadarıyla, bölgenizin GGD’si işleme sorumlusudur. [www.GGD.nl](https://www.ggd.nl) adlı sayfada ikamet adresinizin posta kodunu girerek sizin hangi GGD’ye dahil olduğunu bulabilirsiniz. Hollanda’da ikamet adresiniz yoksa kaldığınız yerin posta kodunu da girebilirsiniz.
 
-The field test will start on 17 August and will be conducted in collaboration with the Twente, Drenthe, Gelderland Zuid, Noord-Oost Gelderland and IJsselland GGD offices. Other GGD offices do not yet work with CoronaMelder at the time of the field test. CoronaMelder is available to all users in the app stores. You can therefore also download CoronaMelder even if you do not live in the geographical area of these field test regions. Only users living in the geographical area of the participating GGD regions can successfully upload the TEKs to the central server, because this requires an authorisation code from the GGD office. CoronaMelder's other functions remain the same.
+### 2. Kişisel veriler ne amaçla işlenir? 
+Bu uygulama GGD’nin kaynak ve temas takibine ek olarak geliştirilmiştir. Bunun amacı yüksek bulaşma riski olan kullanıcıları, yüksek  bir gizlilik oranıyla, hızlı ve basit bir şekilde bilgilendirmektir. 
 
-### 1. Who is responsible for the processing of the personal data?
+### 3. Kişisel verilerin işlenmesinin temeli 
+Uygulamada kişisel veriler işlenebilir. Kişisel verilerin işlenmesi esası, kısacası kamu görevinin yerine getirilmesidir. Halk Sağlığı, Refah ve Spor Bakanı için bu kamu görevi,COVID-19 mücadelesini yönetmek ve ülkesel destek yapısını korumayı ve düzeltmeyi sağlamaktan ibarettir. 
 
-To the extent personal data are processed in the design and management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
+GGD’ler için bu görev COVID-19 bulaşmalarının ihbarlarında kaynak ve temas takibi demektir. 
 
-In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](https://www.ggd.nl) to find your GGD by entering the postal code of your home address.
+CoronaMelder’in kaynak ve temas takibinin destekleyici aracı olarak devreye girmesiyle, yukarıda belirtilen Halk Sağlığı, Refah ve Spor Bakanının ve GGD’lerin kamu görevleri icra edilmektedir. 
 
-### 2. For what purpose are personal data processed?
+CoronaMelder’in kullanımı gönüllüdür. CoronaMelder bu nedenle uygulamayı kullanmadan önce izninizi istemektedir. İzin vermediğiniz durumda CoronaMelder’i kullanamazsınız. Ayrıca pozitif test sonucunda verileriniz GGD ile paylaşılmasından önce yine izniniz istenilir.
 
-This app has been developed as an addition to source and contact tracing by the GGD. Its purpose is to quickly and easily inform users who have an increased risk of infection, while ensuring a high degree of anonymity. 
+### 4. Hangi kişisel veriler işlenir? 
+Uygulamada aşağıdaki veriler işlenmektedir:
 
-### 3. Basis for processing personal data
+* Rolling proximity indicators (Dönen Yakınlık Belirteçleri – RPI’ler)
+* Temporary Exposure Keys (Geçici Maruz Kalma Anahtarları – TEK’ler)
+* Diagnosis Keys (Tanı Anahtarları – DK’ler)
+* Gerçek olmayan MAC-adresi
+* İşaret gücü ve temas süresi
+* Hastalığın ilk günü
+* Doğrulama kodu
+* Exposure Risk Value (Maruz Kalma Risk Değeri) (yüksek, orta, düşük)
+* IP-adresi
 
-Personal data can be processed in the app. The basis for the processing of personal data is the explicit consent given by users for the processing of their personal data. Users must give explicit consent before the app can be used, and before users — when they have tested positive — can share their data with the GGD. The app cannot be used unless such consent is given. 
+Bu veriler kişisel veri olabilir. 
 
-### 4. What personal data are processed?
+Bir TEK, geçici referans olarak kullanılan rastgele şifrelemeyle oluşturulan rakam sırasıdır. Backend sunucusunda TEK’ler DK’lere dönüştürülür. Bunun yanısıra  her 10 ile 20 dakikada bir RPI oluşturulur, yani bu da geçici, şifrelemeli oluşturulan bir rakam sırasıdır. Bu rakam sırası bir TEK’in türevi olup uygulamanın yüklendiği ve belirli bir süre boyunca ilgili akıllı telefonun yakınında bulunan diğer akıllı telefonlarla değiş tokuş edilir. RPI’lerin alınması ve yayınlaması Bluetooth Low energy vasıtasıyla gerçekleşir. RPI aynı zamanda hem yayınlanan hem de alınan işaret gücüyle birlikte (kullanıcıların arasındaki mesafeyi belirlemek için) ve (Bluetooth) temasın süresi için de kullanılır. Alınan RPI’ler 14 gün sonra akıllı telefonlardan silinir. 
 
-The following data are processed in the app:
+Hem TEK’ler, DK’ler hem de RPI’ler bulanıklaştırılmış tanımlama anahtarıdırlar.
 
-- Rolling Proximity Indicators (RPIs)
-- Temporary Exposure Keys (TEKs)
-- Diagnosis Keys (DKs)
-- pseudo MAC address
-- signal strength and duration of contact
-- authorisation code
-- Exposure Risk Value (high, mid, low)
-- IP address
+Kullanıcıları teşhis riskinden mümkün olabildiğince  korumak için RPI’lerin değiş tokuşunda akıllı telefonun MAC adresi (Bluetooth-vericinin eşsiz donanım numarası) yerine, RPI’lerde de olduğu gibi her 10 ile 20 dakikada bir değişen, rastgele oluşturulan bir kod, yani gerçek olmayan bir MAC adresi konulur. 
 
-These data may be personal data.
+Doğrulama kodu uygulama içinde sunulan işlevsellik yardımıyla oluşturulur ve uygulamada gösterilir. Doğrulama kodu GGD’ye gönderilen TEK’leri doğrulamak için GGD tarafından kullanılır. GGD bu doğrulama kodunu, ilk hastalık günü tarihiyle birlikte GGD portaline koyar. Bu GGD portali sadece GGD elemanına açıktır. Backend sunucusu ancak bununla birlikte belirtildiği şekilde GGD tarafından doğrulanan bir doğrulama kodu sunulduğunda kullanıcıların TEK’lerini kabul eder. Doğrulama aşaması sırasında yönetim ve güvenlik amaçları için IP adresleri işlenir.
 
-A TEK is a randomly, cryptographically generated series of numbers serving as a temporary reference. TEKs are converted into DKs on the central server. In addition, an RPI is generated every 10 to 20 minutes, which is a temporary series of numbers that are also cryptographically generated. This series of numbers is a derivative of a TEK, and is exchanged with other smartphones on which the app is installed, and which have been in close proximity to the smartphone concerned for a specific period of time. The RPIs are transmitted and received via Bluetooth Low Energy and are thus used in combination with the signal strengths of both transmission and reception (to determine the distance between users), and the duration of the (Bluetooth) contact. The RPIs received are removed from the smartphones after 14 days. 
+DK’lere, ilk hastalık gününe ve doğrulama koduna ek olarak, backend sunucusuna IP adresi de gönderilir. Bu da internet ve IP teknolojisinin kullanımının özündedir. IP adresi diğer verilerden ayrı olarak saklanır, böylece backend sunucusunda IP adresleri saklanmaz. Bu nedenle kimin hangi bilgiyi gönderdiği anlaşılamaz.
 
-TEKs, DKs and RPIs are all pseudonymised identification keys.
+### 5. İstatistik bilgi 
+Uygulamayla toplanan veriler sadece bu gizlilik beyanında belirtilen amaçlar için kullanılır. İstatistik bilgi üretilmez. 
 
-In order to minimise the risk of users being identified, when TEKs are exchanged, the MAC address (a unique hardware number of the Bluetooth transmitter) of the smartphone is replaced by a randomly generated code, a pseudo MAC address, which, like the TEKs, changes every 10 to 20 minutes. 
+### 6. Kişisel veriler kime tedarik edilir?
+RPI’lerin yayınlanması ve alınması yerel olarak akıllı telefonlarda yapılır. Bulaşma tespit edildiğinde kullanıcı TEK’lerini eşsiz doğrulama koduyla birlikte backend sunucusuna göndermeyi seçebilir. Backend sunucusu taşeron (işleyici) olarak KPN ile CIBG tarafından yönetilir.
 
-The authorisation code is generated through a functionality provided by the app and is shown in the app. The authorisation code is used by the GGD to validate the TEKs sent to the GGD. The GGD places this authorisation code, with the date of the first day of illness, in the GGD portal. This GGD portal is only accessible to GGD employees. The central server only accepts user TEKs if an authorisation code is provided that has been validated by the GGD in this manner. During the validation phase, IP addresses are processed for administration and security purposes.
+GGD, ilk hastalık gününün tarihiyle birlikte doğrulama kodunu, sadece yetkili GGD elemanlarına açık olan uygulamanın GGD portalinde işler.
 
-After validation, for each DK the date of the first day of illness is compared with the date of the newly received TEKs. On that basis, the central server determines the Exposure Risk Value (high, mid, low).
+Diğer kullanıcıların akıllı telefonları periyodik olarak, günde birkaç kez, bu backend sunucusunda bulunan DK’leri indirirler. 
 
-In addition to the DKs, the first day of illness and authorisation code, the IP address of the user's smartphone is sent to the central server. This is inherent to the use of Internet and IP technology. The IP address is stored separately from the other data, so that no IP addresses are stored on the central server. As a result, it is impossible to trace who sent which information.
+### 7. Kişisel verilerin saklanması
+Akıllı telefonunuzda yerel olarak saklanan veriler 14 gün muhafaza edilir. Bu 14 günlük süre sonrası veriler otomatikman olarak silinir. Siz de istediğiniz an saklanan verileri silebilirsiniz. 
 
-### 5. Statistical information
+Verilerinizin backend sunucusunda saklandığı kadarıyla o veriler yükleme anından itibaren 14 gün saklanır. Bu 14 günden sonra veriler silinir. 
 
-The data collected with the app will only be used for the purposes stated in this privacy statement. No statistical information is generated. 
+Yönetim ve güvenlik amaçları için işlenen IP adresleri en fazla 7 gün sonra silinir.
 
-### 6. Who is provided with personal data?
+### 8. Kişisel verileriniz açısından haklarınız 
+Kişisel verileriniz üzerindeki kontrolü sağlamak için bazı haklarınız vardır. Bunları Autoriteit Persoonsgegevens (Kişisel Veriler Makamı) sitesinde, burada bulabilirsiniz.
 
-The sending and receiving of RPIs takes place locally on users' smartphones. Once an infection has been detected, the user can choose to send his or her TEKs, along with a unique authorisation code, to the central server. The central server is administered by the CIBG with KPN as subcontractor (processor).
 
-The GGD processes the authentication code, with the date of the first day of illness, in the app's GGD portal, which is only accessible to authorised GGD employees.
+CoronaMelder’in veri minimizasyonu ve privacy by design’in (tasarlanmış gizlilik) çıkış noktalarına göre şekillendirilmiş olması nedeniyle, AVG haklarınıza ancak kısıtlı olarak başvurabilirsiniz. Zira veriler ancak kısıtlı olarak işlenmektedir. Ayrıca verilerin kime ait olduğu neredeyse belirlenemez ve kısa süreli saklanır. AVG’in 11. maddesinden, işleme sorumlusu ilgili kişiyi (artık) teşhis edemezse AVG’nin 15. ila 20. maddelerinden kaynaklanan hakların artık uygulanamayacağı sonucu çıkar.
 
-The smartphones of other users periodically – a few times a day – retrieve the data stored on this central server. 
+İlk aşamada – kullanıcılar TEK’lerini backend sunucusuna yüklemeden önce – veriler sadece CoronaMelder kullanıcılarının akıllı telefonlarında işlenmektedir. VWS Bakanı ve GGD’ler buna erişemez. Bu aşamada örneğin, verilerin değiştirilmesi veya kaldırılması istemi yerine getirilemez, ancak bu verilerin en fazla ondört gün sonra otomatik olarak bu akılı telefondan silinecekleri bir gerçektir.
 
-### 7. Retention of personal data
+Uygulamanın privacy by design özelliği sebebiyle TEK’leri (sonradan DK’leri) yükledikten sonra bile hangi kodların bulaşmış kullanıcıya ait olduğu ortaya çıkartılamaz. VWS ve GGD’ler için (geçici) olarak backend sunucusunda kaydedilen kodları TEK’lerini yükleyen kullanıcıya bağlatmak teknik yönden imkansızdır.
+Kullanıcıyı kodları yardımıyla teşhis etmenin imkansızlığından dolayı AVG’nin 15. maddesinden 20. maddesine kadar olan haklar uygulanamaz. 
 
-The data stored locally on your smartphone will be retained for 14 days. After these 14 days, these data are automatically and permanently deleted. In addition, you are able to delete the stored data yourself at any time. 
+AVG haklarının ifası özetle ancak kısıtlı olarak gerekli olacaktır. Bu da basitçe söylemek gerekirse kişilerin verilerden teşhis edilmesi ancak hiç ya da çok kısıtlı mümkündür veya bu verilerin çok kısa saklanma müddetleri nedeniyle artık mevcut değildir. Bu da AVG’nin 11. maddesine uygundur, çünkü bundan AVG’nin 15. maddesinden 20. maddesine kadar içeren hakların, ilgili kişilerin artık teşhis edilememesi durumunda uygulanmamasından kaynaklanmaktadır. 
 
-In so far as your data are stored on the central server, they will be retained for 14 days from the time of uploading. After these 14 days, the data will be permanently deleted. 
+Gizlilik haklarınızdan birini kullanmaya yönelik başvuru imkanı mevcut kalacaktır. Talebinizi ikamet ettiğiniz yerden sorumlu olan GGD’e gönderebilirsiniz. [www.GGD.nl](https://www.ggd.nl) adlı web sitesinde ikamet ettiğiniz yerden hangi GGD’nin sorumlu olduğunu öğrenmek için ikamet adresinizin posta kodunu girebilirsiniz. Hollanda’da ikamet adresiniz yoksa kaldığınız yerin posta kodunu da girebilirsiniz.
 
-IP addresses processed for administration and security purposes will be deleted after a maximum of 7 days.
 
-### 8. Your rights with regard to your personal data
+Kişisel verilerinizin işlenmesi hakkında Autoriteit Persoonsgegevens’e veya mahkemeye şikayette bulunma hakkınız her zaman bulunmaktadır. Konuyla ilgili bilgiyi burada bulabilirsiniz. 
 
-You have a number of rights to maintain control over your personal data. You can
-find them [here](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen) on the website of the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+GGD’nin Veri Koruma Görevlisinin ikamet yerinizden sorumlu kişinin irtibat bilgileri o GGD’nin web sayfası vasıtasıyla bulabilirsiniz.
 
-It is important to know in this respect that as long as you as a user have not come into contact with an infected person or have not agreed to provide data to the back-end server, the Ministry of Health, Welfare and Sport nor the GGD offices will process (personal) data of you as a user, because in that case the data will only be stored on the user's telephone. At that stage, therefore, the rights mentioned above cannot yet be exercised towards the Ministry of Health, Welfare and Sport and the GGD offices. 
+Halk Sağlığı, Refah ve Spor Bakanlığının Veri Koruma Görevlisinin irtibat bilgilerini ise o bakanlığın web sayfasında bulabilirsiniz.
 
-Owing to the privacy-by-design nature of the app, it is impossible to trace which codes belong to the infected user after uploading the TEKs (and subsequently DKs). It is technically impossible for the Ministry of Health, Welfare and Sport and the GGD offices to link the codes stored (temporarily) on the central server to users who uploaded their TEKs.
-This is also technically impossible for the user, as no insight is given into the data and calculations on which the alert is based. In addition, the user's TEKs are removed automatically and periodically (after 14 days). Because it is impossible to identify the user through the codes, Article 11(2) GDPR contains no reason to give effect to the data subject's rights as referred to in Articles 15 through 20 GDPR after the TEKs have been uploaded to the central server. 
+### 9. Kişisel verilerinizin korunması
+Halk Sağlığı, Refah ve Spor Bakanı ve de GGD’ler verilerinizin korunmasını ciddiye almakta ve suiistimal, kayıp, yetkisiz giriş, kamuya istek dışı duyurma ve izinsiz değişiklikleri önlemek için uygun tedbirleri almaktadır.
 
-However, it is still possible to make a request invoking your privacy rights. You may send your request to the GGD responsible in your place of residence. On 
-[www.GGD.nl](https://www.ggd.nl) you can enter the postal code of your home address to see which GGD is responsible in your place of residence.
-
-You always have the right to lodge a complaint about the processing of your personal data with the Dutch Data Protection Authority or before the courts. More information about this can be found [here](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
-
-### 9. Protection of your personal data
-
-The Minister of Health, Welfare and Sport and the GGD take the protection of your data seriously and take appropriate measures to prevent any abuse, loss, unauthorised access, undesired disclosures and unauthorised changes.
-
-### 10. Amendment of privacy statement
-
-This privacy statement is subject to amendment. In that case, we will publish the amended privacy statement on our website, after it will have immediate effect. You will be informed of any amendments relevant to you via the notifications in the app. 
-Most recent update: 12 August 2020
+### 10. Gizlilik beyanının değiştirilmesi
+İşbu  gizlilik beyanı değiştirilebilir. Bu durumda değiştirilmiş gizlilik beyanını web sitemizde yayınlarız ve  hemen akabinde yeni gizlilik beyanı da yürürlüğe girer. 
+Son güncellenme: 10 Eylül 2020

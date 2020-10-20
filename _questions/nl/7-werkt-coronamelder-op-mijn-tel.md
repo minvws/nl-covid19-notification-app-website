@@ -9,13 +9,14 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
 featuredHomeText: CoronaMelder werkt op (bijna) alle Android en iOS devices die vanaf 2015 geproduceerd zijn.
 ---
 
-**Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
+**Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer. Er is een versie voor de Google Play store en de Huawei App Gallery.
 
 **iPhone:** CoronaMelder werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer. iOS 13.5 kan geïnstalleerd worden op de iPhone 6s , iPhone SE en nieuwer.
 

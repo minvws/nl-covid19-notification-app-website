@@ -4,7 +4,6 @@
     position: relative;
     padding: 12px 8px;
     transition: background-color var(--transition-out), color var(--transition-out);
-    min-width: 216px;
 
     display: -ms-inline-grid; display: inline-grid;
     -ms-grid-columns: -webkit-max-content 16px;
@@ -18,6 +17,10 @@
         -ms-grid-columns: auto 32px;
         grid-template-columns: -webkit-auto 32px;
         grid-template-columns: auto 32px;
+    }
+
+    @media (min-width: 680px) {
+        min-width: 216px;
     }
 
     .language-picker__current,
@@ -43,7 +46,7 @@
         -ms-grid-row: 1;
         -ms-grid-row-span: 1;
         grid-row: 1 / 2;
-
+        display: block;
         position: relative;
     }
 

@@ -17,14 +17,12 @@
   {% include header.html %}
   <main id="content">
     <div class="container">
-
       <div class="lead">
         <div class="lead__text">
           <div class="content-block">
             <div class="md-block-lead">
                 <p>{{ site.data.translations.info-lead[page.lang] }}</p>
             </div>
-
             {{ content }}
           </div>
         </div>
@@ -34,7 +32,8 @@
     {% include stories.html %}
     {% include badges.html class="layout-app-badges--center-wrap" %}
     {% include information.html %}
-    {% comment %} {% include video.html %} {% endcomment %}
+    {% if page.lang == 'en' %}{% include video.html %}{% endif %}
+    {% if page.lang == 'nl' %}{% include video.html %}{% endif %}
     {% include faq.html %}
     {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--background" %}
   </main>

@@ -1,12 +1,11 @@
 ---
 layout: content
-lang: en
+lang: de
 showBreadCrumbs: true
 title: Information for the press
 vwsLink: https://www.government.nl/ministries/ministry-of-health-welfare-and-sport/contact/information-for-the-press
+contentLang: en
 ---
-
-
 
 Are you a journalist please contact one of our spokespersons, Please check the [website]({{ page.vwsLink }}) of the Ministery of Health, Welfare and Sport.
 

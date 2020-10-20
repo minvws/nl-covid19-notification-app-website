@@ -55,14 +55,17 @@
     } 
 }
 
+.breadcrumbs-item {
+    list-style-image: none;
+    display: inline-block; 
+}
 .breadcrumbs {
     line-height: 1.6;
+
     &.disabled {
         color: #333;
     }
 }
-
-
 
 .content-error {
     border-radius: 0;
@@ -71,7 +74,7 @@
     height: calc(100vh - 150px);
     position: relative;
 
-    &:after {
+    &:before {
         content: '';
         position: absolute;
         top: 100px;
@@ -93,8 +96,6 @@
     
     .content-block {
         padding-top: 1.0em;
-        position: relative;
-        z-index: 1;
 
         @media (min-width: 740px) {
             padding-top: 5em;

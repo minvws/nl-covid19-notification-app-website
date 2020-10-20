@@ -1,11 +1,17 @@
 <div class="video">
   <div class="video__description">
-    <h2>{{ site.data.translations.home-video-title[page.lang] }}</h2>
-    <p>{{ site.data.translations.home-video-content_md[page.lang] | markdownify }}</p>
+    <h2 class="video__description__title">{{ site.data.translations.home-video-title[page.lang] }}</h2>
+    <div class="video__description__content">{{ site.data.translations.home-video-content_md[page.lang] | markdownify }}</div>
   </div>
   <div class="video__player">
-    <div class="explainer">
-      <!-- TODO: Add video -->
-    </div>
+
+    {% if page.lang == 'nl' %}
+      {% include components/mediaelement.html key="2020-10-07-video-beschermen" width="100%" height="220" %}
+    {% endif %}
+
+    {% if page.lang == 'en' %}
+      {% include components/mediaelement.html key="201008-video-protect" width="100%" height="220" %}
+    {% endif %}
+
   </div>
 </div>

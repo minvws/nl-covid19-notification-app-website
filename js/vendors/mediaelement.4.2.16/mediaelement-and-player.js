@@ -3738,7 +3738,6 @@ var MediaElementPlayer = function () {
 				t.getElement(t.container).id = t.id;
 				t.getElement(t.container).className = t.options.classPrefix + 'container ' + t.options.classPrefix + 'container-keyboard-inactive ' + t.media.className;
 				t.getElement(t.container).tabIndex = 0;
-				t.getElement(t.container).setAttribute('role', 'application');
 				t.getElement(t.container).setAttribute('aria-label', videoPlayerTitle);
 				t.getElement(t.container).innerHTML = '<div class="' + t.options.classPrefix + 'inner">' + ('<div class="' + t.options.classPrefix + 'mediaelement"></div>') + ('<div class="' + t.options.classPrefix + 'layers"></div>') + ('<div class="' + t.options.classPrefix + 'controls"></div>') + '</div>';
 				t.getElement(t.container).addEventListener('focus', function (e) {

@@ -19,6 +19,7 @@ $color-WARN_red: #CA005D;
 
 $color-focus: #008fcd;
 $color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
+$color-focus-footer: #ffffff;
     
 :root {
     --transition-in: 262ms ease;
@@ -33,17 +34,17 @@ $color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
     box-sizing: border-box;
     outline-offset: 8px;
     outline: 2px solid transparent;
+
+    &:focus {
+        outline: 2px solid $color-focus;
+        outline-offset: 4px;
+        transition: 100ms ease-out;
+    }
 }
 
 .browser-ie-11 * {
     outline-offset: 0;
     outline: 0;
-}
-
-*:focus {
-    outline: 2px solid $color-focus;
-    outline-offset: 4px;
-    transition: 100ms ease-out;
 }
 
 @font-face {
@@ -675,29 +676,6 @@ ul.share > li > a {
     background-image: url('../img/linkedin.svg');
 }
 
-/* Explainer */
-
-.explainer {
-    display: block;
-    margin: 32px;
-    background: url('../img/play.svg') 33% center no-repeat, url('../img/illustration.svg') right top no-repeat, linear-gradient(180deg, #EEF7F9 /* illustratie blauw */ 0%, #FFFFFF 100%);
-    background-size: 93px, auto, auto;
-    height: 317px;
-    padding: 2rem 4rem;
-}
-.explainer:hover {
-    background-image: url('../img/play-hover.svg'), url('../img/illustration.svg'), linear-gradient(180deg, #EEF7F9 /* illustratie blauw */ 0%, #FFFFFF 100%);
-}
-
-a.explainer, a.explainer:hover, a.explainer:visited {
-    color: #333333 /* donkergrijs */;
-    text-decoration: none;
-}
-
-a.explainer > h2 {
-    font-size: 2rem;
-}
-
 /* FAQ */
 
 #radio-faq-top5:checked ~ .tab-faq-top5,
@@ -756,6 +734,22 @@ a.explainer > h2 {
 .github img {
     width: 16px;
     height: 16px;
+}
+
+/* 404 pagina */
+
+.link__404 {
+    font-size: 21px;
+
+    &:before {
+        content: '';
+        position: relative;
+        height: 10px;
+        width: 10px;
+        background: url(../img/chevron-right-darkblue.svg) no-repeat 50% 50%;
+        transition: var(--transition-out);
+        padding: 10px;
+    }
 }
 
 /* Tablet layout */

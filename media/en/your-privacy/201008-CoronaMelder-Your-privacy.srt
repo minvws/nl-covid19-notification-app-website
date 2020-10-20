@@ -1,0 +1,76 @@
+1
+00:00:03,560 --> 00:00:06,320
+The CoronaMelder app sends you a notification 
+
+2
+00:00:06,320 --> 00:00:10,600
+if you have been near someone who later tests positive for coronavirus.
+
+3
+00:00:10,600 --> 00:00:13,320
+But does the app always know where you are? 
+
+4
+00:00:13,320 --> 00:00:18,0
+No. The app does not know where you are, or who you are.
+
+5
+00:00:18,0 --> 00:00:19,600
+This is how it works: 
+
+6
+00:00:19,600 --> 00:00:23,0
+when your phone is near another phone that has the app, 
+
+7
+00:00:23,0 --> 00:00:28,560
+the phones exchange a random code using bluetooth.
+
+8
+00:00:28,560 --> 00:00:31,400
+The app remembers those codes... 
+
+9
+00:00:31,400 --> 00:00:35,680
+but it doesn’t know which phones they came from... or where you were.
+
+10
+00:00:35,680 --> 00:00:40,400
+The app only knows if you were close to another phone that also had the app, 
+
+11
+00:00:40,400 --> 00:00:42,560
+and on which day it was.
+
+12
+00:00:42,560 --> 00:00:46,880
+So if you receive a notification, it won’t tell you who it came from.
+
+13
+00:00:46,880 --> 00:00:49,440
+And if you test positive for the virus yourself, 
+
+14
+00:00:49,440 --> 00:00:52,960
+you can choose whether to add your coronavirus status to the app
+
+15
+00:00:52,960 --> 00:00:54,960
+together with the GGD,
+
+16
+00:00:54,960 --> 00:00:58,160
+the Regional Public Health authority in the Netherlands.
+
+17
+00:00:58,160 --> 00:01:01,560
+Downloading the app is voluntary at all times.
+
+18
+00:01:01,560 --> 00:01:05,640
+We can only get coronavirus under control together.
+
+19
+00:01:05,640 --> 00:01:09,320
+More information? Visit CoronaMelder.nl
+

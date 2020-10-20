@@ -14,7 +14,7 @@
 -->
 {% include head.html %}
 <body>
-  <div class="logobar">
+  <div class="logobar" role="banner">
     <div class="logo">
       <a href="{{ langSlug }}">
         <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
@@ -31,11 +31,11 @@
         <h1 id="{{ site.data.translations.error-title[page.lang] | slugify }}">{{ site.data.translations.error-title[page.lang] }}</h1>
 
         <p>
-          <a href="{{ langSlug }}" class="faq__link">{{ site.data.translations.error-back-to-home-page[page.lang] }}</a> 
+          <a href="{{ langSlug }}" class="link__404">{{ site.data.translations.error-back-to-home-page[page.lang] }}</a> 
         </p>
 
         <p>
-          <a href="{{ langSlug }}/faq" class="faq__link">{{ site.data.translations.error-back-to-faq[page.lang] }}</a>
+          <a href="{{ langSlug }}/faq" class="link__404">{{ site.data.translations.error-back-to-faq[page.lang] }}</a>
         </p>
 
 
@@ -45,7 +45,7 @@
   </main>
 
 
-</body>
 {% include footer-js.html %}
+</body>
 </html>
 

@@ -81,26 +81,22 @@
     color: #ffffff;
     background: linear-gradient(0deg, #C9005D 38%, #315BBC 130%);
 
-    &:before {
+    &::before,
+    &::after {
       content: none;
     }
 
-    &:after {
-        content: '';
-        position: absolute;
-        top: 5px;
-        right: 30px;
-        bottom: 0;
-        z-index: 0;
-        background-image: url('../img/logo-badge.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center 23px;
-        width: 80px;
+    .header__logo-badge {
+      position: absolute;
+      top: 5px;
+      right: 30px;
+      bottom: 0;
+      z-index: 0;
+      width: 80px;
 
-        .browser-ie-11 & {
-            right: 166px;
-        }
+      .browser-ie-11 & {
+          right: 166px;
+      }
     }
 
     @media(min-width: 740px) {
@@ -113,7 +109,7 @@
             content: none;
             background-image: none;
         }
-        &:after {
+        .header__logo-badge {
             /** Perfect alignment: width: of this element, width of the element above */
             width: 80px;
             right: calc((980px / -2) + calc(100% / 2));
@@ -222,5 +218,9 @@
 
   @media (min-width: 960px) {
     display: inline-block;
+  }
+
+  [lang="bg"] & {
+    right: 300px;
   }
 }

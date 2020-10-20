@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 4
+set: 2
 title: Wanneer krijg ik een melding?
 lang: nl
 categories:
@@ -8,6 +9,7 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

@@ -1,6 +1,7 @@
 ---
 layout: content
 index: 6
+set: 2
 title: Hoe werkt de app?
 lang: nl
 categories:
@@ -8,13 +9,14 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
 featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
 ---
 
-**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Wil je weten of je ook besmet bent, dan kun je je gratis laten testen. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
+**De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
 
 <div class="md-timeline" markdown="1">
 1. De app ziet via bluetooth of je dicht bij iemand bent geweest die ook de app heeft.
@@ -27,14 +29,8 @@ featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt ben
 <details>
    <summary>Wanneer krijg ik een melding?</summary>
    <div markdown="1">
-Als je positief getest bent op corona in een testregio, dan kun je dit vrijwillig aangeven in de app, samen met de GGD. Als een GGD-medewerker je belt met de testuitslag, vraagt deze jou dan ook of je anderen wilt waarschuwen via de app. Als je hiervoor kiest, ziet de ontvanger niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
+Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met de GGD. Als een GGD-medewerker je belt met de testuitslag, vraagt deze jou dan ook of je anderen wilt waarschuwen via de app. Als je hiervoor kiest, ziet de ontvanger niet wie je bent of waar er contact is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
 
-Bekijk hier of je in een gemeente woont van deze <a href="https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s" target="_blank" rel="noopener noreferrer">testregio's</a>:
-- GGD Drenthe
-- GGD Gelderland-Zuid
-- GGD IJsselland
-- GGD Noord- en Oost-Gelderland
-- GGD Twente
 </div>
 </details>
 
@@ -44,10 +40,7 @@ Bekijk hier of je in een gemeente woont van deze <a href="https://www.regioatlas
 
 In de melding staat hoeveel dagen geleden je dicht bij iemand was die later corona bleek te hebben. Het is niet bekend wie dat was, waar of wanneer precies.
 
-**Je krijgt ook advies over wat je het beste kunt doen tijdens deze proefperiode in de testregio’s**
-
--   	Heb je geen klachten? Doe een coronatest en blijf thuis tot je de uitslag weet
--   	Heb je (lichte)klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet
+-   	Heb je (lichte) klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet
 -   	Heb je ernstige klachten of zit je in een risicogroep? Bel je huisarts.
 
 </div>
@@ -56,9 +49,9 @@ In de melding staat hoeveel dagen geleden je dicht bij iemand was die later coro
 <details>
 <summary>Ik ben positief getest op corona, wat nu?</summary>
 <div markdown="1">
-
 Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. Zo kun je anderen waarschuwen. De ontvanger ziet niet wie je bent of waar er contact  is geweest. Over de melding beslis je zelf, het is niet verplicht en gaat niet automatisch.
-
 </div>
 </details>
 
+[comment]: <> This include below is a video.
+{% include components/mediaelement.html key="2020-10-07-video-hoe-werkt-het" width="100%" height="394" %}

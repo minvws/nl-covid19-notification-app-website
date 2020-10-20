@@ -35,37 +35,46 @@
                         <li>
                             <a href="{{ langSlug }}{{ site.data.translations.footer-misc-cookies-url }}">
                                 {{ site.data.translations.footer-misc-cookies[page.lang] }}
+                                {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
                         <li>
                             <a href="{{ langSlug}}{{ site.data.translations.footer-misc-colofon-url[page.lang] }}">
                                 {{ site.data.translations.footer-misc-colofon[page.lang] }}
+                                {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
                         <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-accessibility-statement-url[page.lang] }}">
-                                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}
+                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-accessibility-statement-url }}">
+                                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}  {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
                         <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-report-vulnerability-url[page.lang] }}">
+                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-report-vulnerability-url }}">
                                 {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
+                                {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
                         <li>
                             <a href="{{ langSlug }}{{ site.data.translations.footer-misc-pers-url[page.lang] }}">
-                                {{ site.data.translations.footer-misc-pers[page.lang] }}
+                                {{ site.data.translations.footer-misc-pers[page.lang] }} {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
+                        {% if page.lang == 'nl' or page.lang == 'en' %}
+                        <li>
+                            <a href="{{ site.data.translations.footer-misc-partnertoolkit-url }}" target="_blank" rel="noopener noreferrer">
+                                {{ site.data.translations.footer-misc-partnertoolkit[page.lang] }} {% if page.lang == 'en' %}(Dutch){% endif %}
+                            </a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="footer-links-col ___desktop-25">
                     <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
                     <ul>
-                        <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}" rel="noopener noreferrer">{{ site.data.translations.footer-more-info[page.lang] }}</a></li>
+                        <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}" target="_blank" rel="noopener noreferrer">{{ site.data.translations.footer-more-info[page.lang] }} {{ site.data.translations.english[page.lang] }}</a></li>
                     </ul>
                 </div>
-    
             
             </div>
         

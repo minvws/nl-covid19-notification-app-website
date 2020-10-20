@@ -2,6 +2,7 @@
 layout: in-app-content
 lang: en
 title: Colophon
+contentLang: en
 ---
 
 The CoronaMelder app has been developed by the Ministry of Public Health,

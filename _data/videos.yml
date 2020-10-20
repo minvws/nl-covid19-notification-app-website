@@ -1,38 +1,253 @@
 
-2020-07-08-video-campaign:
+2020-10-07-video-beschermen:
   mp4-src:
-    default: media/2020-07-08-video-campaign/video.mp4
+    default: media/2020-10-07-video-beschermen/201007_CoronaMelder-ZoBeschermenWeElkaar.mp4
   mp3-voiceover-src: 
-    default: media/2020-07-08-video-campaign/audio.mp3
+    default: media/2020-10-07-video-beschermen/201007_CoronaMelder-ZoBeschermenWeElkaar_audiodescr.mp3
   video-preview-image:
-    default: media/2020-07-08-video-campaign/video-preview-image.png
+    default: media/2020-10-07-video-beschermen/201007_CoronaMelder-ZoBeschermenWeElkaar_Still.jpg
   subtitles:
     - 
       lang: nl
-      src: media/2020-07-08-video-campaign/ondertiteling-nl.srt
+      src: media/2020-10-07-video-beschermen/201007_CoronaMelder-ZoBeschermenWeElkaar_ondertitels.srt
   transcript_md:
     nl: |
-      (Een animatie. Voice-over:)
+      CoronaMelder - Zo beschermen we elkaar
 
-      STILTE
+      Dit is 'm: CoronaMelder.
+      De officiële corona-app van Nederland.
+      De app helpt om elkaar te beschermen tegen corona.
+      Je kunt corona doorgeven aan een ander, ook al voordat je je ziek voelt.
+      Zo kun je ongemerkt veel mensen besmetten.
+      Het is dus belangrijk snel te weten of je meer kans hebt besmet te zijn.
+      Zodat je kunt zorgen dat je het virus niet verder verspreidt.
+      CoronaMelder helpt hierbij.
 
-      VOICE-OVER: Met de notificatie-app help je de verspreiding van het coronavirus in Nederland te stoppen, veilig en anoniem, voor jezelf en anderen.
-      Elke vijftien minuten maakt de app een willekeurige code.
-      Je kunt het vergelijken met het gooien van een dobbelsteen maar dan met miljoenen zijden.
-      Als je iemand anders met de app ontmoet wisselen jullie telefoons via bluetooth deze willekeurige codes uit.
-      De codes vertellen jullie telefoons alleen dat deze twee mensen elkaar hebben ontmoet hoelang dat duurde en hoe groot de afstand ongeveer was.
-      De app weet dus niet wie jullie zijn en waar jullie waren.
-      Codes worden slechts veertien dagen op je telefoon bewaard.
-      Als iemand positief is getest op corona door de GGD kan deze persoon dit aangeven in de app.
-      Dit is vrijwillig.
-      De app stuurt daarna alle gemaakte codes van de afgelopen veertien dagen naar een server.
-      Jouw app kijkt een paar keer per dag naar de codes op deze server en vergelijkt ze met de codes die je telefoon ontvangen heeft van anderen.
-      Herkent je app de codes, dan ben je in de afgelopen veertien dagen in de buurt geweest van iemand met het virus.
-      Je krijgt meteen een melding waarin staat op welke dag dat was.
-      Je weet niet wie de persoon is en waar jullie elkaar hebben ontmoet.
-      Verder legt de app je uit welke stappen je het beste kunt nemen zoals het uit voorzorg thuisblijven om anderen niet te besmetten of het aanvragen van een coronatest.
-      Zo krijgen we samen sneller corona onder controle.
+      Dat werkt zo.
 
-      (Het Nederlandse wapenschild met daarnaast: Rijksoverheid.)
+      Ben je in de buurt geweest van iemand die achteraf corona blijkt te hebben?
+      Dan krijg je een melding.
+      De app weet niet wie jullie zijn of waar jullie elkaar hebben ontmoet.
+      Je hoort alleen op welke dag het was.
+      In de app lees je wat je kunt doen en of je je moet laten testen.
+      Ben je getest en blijk je besmet?
+      Dan vraagt de GGD bij wie je in de buurt bent geweest... en belt deze mensen op.
+      Maar je kent niet altijd iedereen bij wie je in de buurt was.
+      Samen met de GGD kun je daarom jouw besmetting melden in de app.
+      CoronaMelder waarschuwt dan in één keer alle mensen die bij je in de buurt zijn geweest.
+      Bekenden en onbekenden.
+      Zij moeten dan wel de app hebben... en langer dan 15 minuten dicht bij jou in de buurt zijn geweest.
+      Op die manier bereiken we eerder meer mensen.
+      Elke download van CoronaMelder helpt dus mee de verspreiding van corona te stoppen.
+      Het downloaden van de app is altijd vrijwillig.
+      Zo beschermen we elkaar.
+      Alleen samen krijgen we corona onder controle.
+
+      Meer weten?
+      Kijk op CoronaMelder.nl of bel 0800-1280
+
+2020-10-07-video-privacy:
+  mp4-src:
+    default: media/2020-10-07-video-privacy/201007_CoronaMelder-Privacy.mp4
+  mp3-voiceover-src: 
+    default: media/2020-10-07-video-privacy/201007_CoronaMelder-Privacy_audiodescr.mp3
+  video-preview-image:
+    default: media/2020-10-07-video-privacy/201007_CoronaMelder-HoeWerktHet_Still.jpg
+  subtitles:
+    - 
+      lang: nl
+      src: media/2020-10-07-video-privacy/201007_CoronaMelder-Privacy_ondertitels.srt
+  transcript_md:
+    nl: |
+      CoronaMelder - Jouw Privacy
+
+      De CoronaMelder-app stuurt je een melding als je in de buurt bent geweest van iemand die corona blijkt te hebben.
+      Maar weet de app dan altijd waar je bent?
+      Nee. CoronaMelder weet niet waar je bent.
+      Ook niet wie je bent.
+
+      Zo zit het: is jouw telefoon dicht bij een andere telefoon met CoronaMelder?
+      Dan wisselen de telefoons via bluetooth een willekeurige code uit.
+      CoronaMelder onthoudt wel de uitgewisselde code... maar niet van welke telefoon die kwam... of waar je was.
+      De app weet dus alleen of je dicht bij een andere telefoon met CoronaMelder bent geweest.
+      En op welke dag dat was.
+
+      Krijg je een melding?
+
+      Dan weet je dus niet van wie die is.
+      En ben je zelf besmet met corona?
+      Dan is het jouw keuze of je jouw besmetting samen met de GGD wilt melden in de app.
+      Het downloaden van de app is altijd vrijwillig.
+      Alleen samen krijgen we corona onder controle
+
+      Meer weten?
+      Kijk op coronamelder.nl of bel 0800-1280
     en: |
       TBD
+2020-10-07-video-hoe-werkt-het:
+  mp4-src:
+    default: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet.mp4
+  mp3-voiceover-src: 
+    default: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet_audiodescr.mp3
+  video-preview-image:
+    default: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet_Still.jpg
+  subtitles:
+    - 
+      lang: nl
+      src: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet_Ondertiteling.srt
+  transcript_md:
+    nl: |
+      CoronaMelder - Hoe werkt CoronaMelder?
+
+      CoronaMelder, de app waarmee je kunt voorkomen dat je onbewust een ander besmet.
+      Hoe werkt het?
+      Na het downloaden begint de app met het uitwisselen van codes.
+      CoronaMelder maakt voor elke telefoon codes aan.
+      De code is willekeurig en verandert een paar keer per uur
+      Als je meer dan 15 minuten dicht in de buurt bent van iemand ie ook CoronaMelder heeft wisselen jullie telefoons de code uit via bleutooth.
+      Niet als je bijvoorbeeld snel langs iemand fietst.
+      Wel als je langer bij elkaar in de buurt bent geweest.
+      Zo verzamelt CoronaMelder codes in de app.
+      Codes ouder dan 14 dagen worden automatisch gewist.
+      CoronaMelder heeft zo een lijst met willekeurige codes die de afgelopen 2 weken dicht bij jou in de buurt zijn geweest.
+
+      Maar wanneer en hoe krijg je dan een melding?
+      Stel, een week na je uitje blijkt een andere bezoeker - laten we hem Max noemen - corona te hebben.
+
+      Samen met de GGD kan Max zijn besmetting melden in de app.
+      Hier staat een speciale GGD sleutel klaar.
+      Max geeft deze sleutel door aan de GGD-medewerker.
+      De GGD-medewerker voert de sleutel in.
+      Nu kan Max met een druk op de knop de lijst met codes activeren.
+      De app-gebruikers die horen bij deze codes - waaronder jij dus! - krijgen daarna een melding.
+      Wat staat er in een melding, en wat moet je dan doen?
+      In de melding staat op welke dag je in de buurt was van iemand die corona blijkt te hebben.
+      Er staat niet wie of waar dat was.
+      Als je een melding krijgt, is er een kans dat je ook bent besmet met corona.
+      In de app lees je wat je kunt doen en of je je moet laten testen.
+      Zo worden nieuwe besmettingen sneller ontdekt.
+      En voorkom je dat het virus zich verder verspreidt.
+      Het downloaden van de app is altijd vrijwillig.
+      Alleen samen krijgen we corona onder controle.
+
+      Meer weten? 
+      Kijk op CoronaMelder.nl of bel 0800-1280
+
+20201008-video-how-the-app-works:
+  mp4-src:
+    default: media/en/how-the-app-works/201008-CoronaMelder-how-does-the-app-work.mp4
+  mp3-voiceover-src: 
+    default: media/en/how-the-app-works/201008-CoronaMelder-how-does-the-app-work.mp3
+  video-preview-image:
+    default: media/en/how-the-app-works/201008-CoronaMelder-how-does-the-app-work.jpg
+  subtitles:
+    - 
+      lang: en
+      src: media/en/how-the-app-works/201008-CoronaMelder-how-does-the-app-work.srt
+  transcript_md:
+    en: |
+      CoronaMelder - How does the app work
+
+      CoronaMelder. 
+      The app that helps you to avoid unknowingly infecting other people.
+      How does it work?
+      After you downloading it, the app exchanges codes with other phones that are nearby.
+      The app generates codes for every phone. 
+      These codes are random and change several times per hour. 
+      If you are near to someone else - for longer than 15 minutes - who also has the app, your phones will exchange codes using bluetooth.
+      But not if someone cycles past you in the street... only if you are near to each other for more than 15 minutes.
+      CoronaMelder collects these codes in the app. 
+      Codes older than 14 days are deleted automatically.
+      So CoronaMelder has a list of random codes from other users who have been near to you in the past two weeks. 
+      But when and how do you receive a notification?
+      Let’s imagine that a week after you went out, another app user – let's call him Max – tests positive for coronavirus. 
+      Together with the GGD, the Regional Public Health authority in the Netherlands, Max can add his coronavirus status to the app. 
+      There is a special GGD key in the app. 
+      Max passes this key on to the GGD health worker.
+      The GGD health worker enters the key. 
+      Now Max can activate the list of codes on his phone.
+      The app users belonging to those codes – including you! – will then get a notification. 
+      What’s in the notification? 
+      And what should you do next? 
+      The notification tells you which day you came near to someone who has tested positive for coronavirus. 
+      It does not say who that person was, or where it happened. 
+      If you get a notification, it means there’s a chance that you also have coronavirus.
+      The app will tell you what you can do next and whether you should get tested.
+      In this way, new infections can be discovered faster, which helps you to avoid spreading  coronavirus to others.
+      Downloading the app is voluntary at all times.
+      We can only get coronavirus under control - together.
+      More information? 
+      Visit coronamelder.nl
+
+201008-video-your-privacy:
+  mp4-src:
+    default: media/en/your-privacy/201008-CoronaMelder-Your-privacy.mp4
+  mp3-voiceover-src: 
+    default: media/en/your-privacy/201008-CoronaMelder-Your-privacy.mp3
+  video-preview-image:
+    default: media/en/your-privacy/201008-CoronaMelder-Your-privacy.jpg
+  subtitles:
+    - 
+      lang: en
+      src: media/en/your-privacy/201008-CoronaMelder-Your-privacy.srt
+  transcript_md:
+    en: |
+      CoronaMelder - Your privacy
+
+      The CoronaMelder app sends you a notification if you have been near someone who later tests positive for coronavirus.
+      But does the app always know where you are? 
+      No. 
+      The app does not know where you are, or who you are.
+      This is how it works: when your phone is near another phone that has the app, the phones exchange a random code using bluetooth.
+      The app remembers those codes... 
+      but it doesn’t know which phones they came from... 
+      or where you were.
+      The app only knows if you were close to another phone that also had the app, and on which day it was.
+      So if you receive a notification, it won’t tell you who it came from. 
+      And if you test positive for the virus yourself, you can choose whether to add your coronavirus status to the app together with the GGD, the Regional Public Health authority in the Netherlands.
+      Downloading the app is voluntary at all times.
+      We can only get coronavirus under control together
+      More information? 
+      Visit CoronaMelder.nl
+
+201008-video-protect:
+  mp4-src:
+    default: media/en/thats-how-we-protect-each-other/201008-CoronaMelder-helping-us-to-protect-each-other.mp4
+  mp3-voiceover-src: 
+    default: media/en/thats-how-we-protect-each-other/201008-CoronaMelder-helping-us-to-protect-each-other.mp3
+  video-preview-image:
+    default: media/en/thats-how-we-protect-each-other/201008-CoronaMelder-helping-us-to-protect-each-other.jpg
+  subtitles:
+    - 
+      lang: en
+      src: media/en/thats-how-we-protect-each-other/201008-CoronaMelder-helping-us-to-protect-each-other.srt
+  transcript_md:
+    en: |
+      Here it is: the CoronaMelder app.
+      The Netherlands’ official coronavirus app.
+      The app helps us to protect each other against coronavirus.
+      You can pass on coronavirus to other people even before you have any symptoms.
+      This means you can unknowingly infect many people.
+      So it’s important to know as early as possible if there is a higher risk that you have been infected...
+      Then you can avoid passing on the virus to other people.
+      The CoronaMelder app helps you to do this.
+      It works like this...
+      If you’ve been near someone who later tests positive for coronavirus, you will receive a notification.
+      The app does not know who you are, who the other person is, or where you came near to each other.
+      It only tells you which day it was.
+      The app will tell you what you can do next and whether you should get tested.
+      If you get a test and find out that you have the coronavirus, the GGD, the Regional Public Health authority in the Netherlands, will ask you who you have been near to and then call those people.
+      But you don’t always know everyone you’ve been near to.
+      You can add your coronavirus status to the app together with the GGD.
+      The CoronaMelder app will then immediately warn everyone who has been near you.
+      Whether you know them or not.
+      This only happens if: they are also using the app and they were near you for more than 15 minutes.
+      This means we can warn more people more quickly.
+      So each download of the CoronaMelder app helps to stop the spread of the virus.
+      Downloading the app is voluntary at all times.
+      This is how we can protect each other.
+      We can only get coronavirus under control together.
+      More information? 
+      Visit coronamelder.nl
+    
+    

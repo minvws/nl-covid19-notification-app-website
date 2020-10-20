@@ -18,13 +18,7 @@ In deze code staat geen informatie over jou of je telefoon. De code is willekeur
 Heeft de persoon die je tegenkomt ook de app? Dan delen jullie telefoons hun codes met elkaar via Bluetooth Low Energy (lage energie-bluetooth). Zo weet de app welke telefoons in de buurt waren. De app weet niet van wie de telefoons zijn en ook niet waar jullie waren.
 
 3. Als iemand corona heeft, kan deze persoon zijn of haar codes op een server zetten.
-Deze server bevat alleen codes van besmette personen. Om de codes toe te voegen, moet een besmet persoon eerst een GGD-sleutel doorgeven aan de GGD. Dit kan nu nog alleen als je in een testregio woont. Kijk op [RegioAtlas](https://www.regioatlas.nl/indelingen/indelingen_indeling/t/ggd_s) of je in een gemeente woont van deze testregio's: 
-
-- GGD Drenthe
-- GGD Gelderland-Zuid
-- GGD IJsselland
-- GGD Noord- en Oost-Gelderland
-- GGD Twente
+Deze server bevat alleen codes van besmette personen. Om de codes toe te voegen, moet een besmet persoon eerst een GGD-sleutel doorgeven aan de GGD. 
 
 Met de GGD-sleutel is altijd zeker dat de toegevoegde codes ook echt horen bij iemand die corona heeft. Alle codes ouder dan 14 dagen worden automatisch van de server verwijderd.
 

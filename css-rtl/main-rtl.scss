@@ -17,15 +17,12 @@ $color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
 }
 
 html[dir="rtl"] {
-    text-align: right;
 
     @import "header-rtl";
-    @import "language-picker-rtl";
     @import "content-block-rtl";
     @import "footer-rtl";
     @import "statements-rtl";
     @import "stories-rtl";
-    @import "faq-rtl";
 
     .container {
         @media(min-width: 960px) {
@@ -176,9 +173,6 @@ html[dir="rtl"] {
             margin-right: auto;
             margin-left: 16px;
         }
-        .explainer {
-            background-position: center center, top left, center center;
-        }
     }
 
     /* Mobile layout */
@@ -190,13 +184,33 @@ html[dir="rtl"] {
         .faq .tab {
             margin-left: 0;
         }
-        .explainer {
-            background-position: center center, bottom left, center center;
-        }
+
     }
 
     .icon-chevron-right {
         background-image: url('../img/chevron-up.svg');
         transform: rotate(-90deg);
     }
+
+    .link__404 {
+        position: relative;
+        padding-right: 20px;
+        display: inline-block;
+
+        &:before {
+            content: none;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            height: 10px;
+            width: 10px;
+            background: url(../img/chevron-left-darkblue.svg) no-repeat 50% 50%;
+            transition: var(--transition-out);
+            padding: 10px;
+        }
+    }
+
 }
