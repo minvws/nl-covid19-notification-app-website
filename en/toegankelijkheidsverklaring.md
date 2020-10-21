@@ -8,7 +8,7 @@ title: Accessibility
 Accessibility Statement, dated 9 October 2020
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-  The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please et us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] }}">helpdesk@coronamelder.nl</a>. <br />
+  The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please let us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] | url_encode | replace: "+", "%20" }}">helpdesk@coronamelder.nl</a>. <br />
   This accessibility statement will shortly be brought up to date.
 </p>
 
