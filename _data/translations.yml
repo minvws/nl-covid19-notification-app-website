@@ -463,11 +463,20 @@ info-google-play-img:
   es: google-play-badge-es.svg
   pl: google-play-badge-pl.svg
   ro: google-play-badge-ro.svg
-  tr:  google-play-badge-tr.svg
+  tr: google-play-badge-tr.svg
 
-
-info-huawei-img: huawei.png
-
+info-huawei-img: 
+  nl: huawei.png
+  en: huawei-en.svg
+  ar: huawei-en.svg
+  bg: huawei-en.svg 
+  de: huawei-en.svg 
+  fr: huawei-en.svg
+  es: huawei-en.svg
+  pl: huawei-en.svg
+  ro: huawei-en.svg
+  tr: huawei-en.svg
+  
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
