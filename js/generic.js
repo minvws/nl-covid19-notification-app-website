@@ -19,6 +19,10 @@
 
       if (userAgent.indexOf('hmscore') > -1) {
         htmlEl.setAttribute('class', htmlEl.getAttribute('class') + ' huawei-app-gallery');
+
+        if (userAgent.indexOf('gmscore') > -1) {
+          htmlEl.setAttribute('class', htmlEl.getAttribute('class') + ' google-play-store');
+        }
       }
     }
     if (userAgent.indexOf('iphone') > -1) {
