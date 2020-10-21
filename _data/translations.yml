@@ -466,7 +466,7 @@ info-google-play-img:
   tr: google-play-badge-tr.svg
 
 info-huawei-img: 
-  nl: huawei.png
+  nl: huawei.svg
   en: huawei-en.svg
   ar: huawei-en.svg
   bg: huawei-en.svg 
