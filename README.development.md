@@ -32,6 +32,19 @@ To test locally with htmlproofer (to test validity of html-code):
 bundle exec htmlproofer ./_site --checks-to-ignore=LinkCheck
 ```
 
+### App store buttons
+
+On a mobile device the appropriate (store) buttons should be shown.
+
+- iOS: Show App Store
+- Android: Show Google Play Store button
+- Android: Show Huawei AppGallery button (for example P40 Lite) [https://github.com/minvws/nl-covid19-notification-app-website/issues/403](See GitHub Issue #403)
+- Android: Show Google Play Store and Huawei AppGallery buttons
+
+Huawei user agent string used to test (see HMSCore): 
+- Android: AppGallery: `Mozilla/5.0 (Linux; Android 10; JNY-LX1; HMSCore 5.0.3.304) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 HuaweiBrowser/11.0.2.303 Mobile Safari/537.36`
+- Android: AppGallery and Google Store: `Mozilla/5.0 (Linux; Android 10; VOG-L29; HMSCore 5.0.1.313; GMSCore 20.30.19) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 HuaweiBrowser/10.1.4.303 Mobile Safari/537.36`
+
 ## Vendors
 
 Note: rather than rely on a third party CDN or dependencies that are not part of this repository we choose to include all assets and dependencies. Please go to [the vendor licenses directory](./vendor-licenses) for the vendor licenses.

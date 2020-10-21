@@ -14,9 +14,17 @@
       </a>
     </li>
     <li class="app_badge_column__right">
-      <a class="play-store" href="{{ site.data.translations.info-google-play-url[page.lang] }}">
-        <img src="{{ site.baseurl }}/img/{{site.data.translations.info-google-play-img[page.lang]}}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" height="65" width="216" />
+      <a class="play-store" href="{{ site.data.translations.info-google-play-url }}">
+        <img src="{{ site.baseurl }}/img/{{site.data.translations.info-google-play-img[page.lang] }}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" height="65" width="216" />
       </a>
     </li>
+    {% if include.huawei %}
+    <li class="app_badge_column__right">
+      <a class="huawei-store" href="{{ site.data.translations.info-huawei-url }}">
+        <img src="{{ site.baseurl }}/img/{{site.data.translations.info-huawei-img[page.lang]  }}" alt="{{ site.data.translations.header-huaweiappgallery[page.lang] }}" height="65" width="216" />
+      </a>
+    </li>
+    {% endif %}
+
   </ul>
 </div>
