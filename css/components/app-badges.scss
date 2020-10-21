@@ -52,7 +52,17 @@
 
 .iOS {
   .play-store { display: none; }
+  .huawei-store { display: none; }
 }
 .android {
   .app-store { display: none; }
+  .play-store { display: none; }
+  .huawei-store { display: none; }
+
+  &.google-play-store {
+    .play-store { display: block; }
+  }
+  &.huawei-app-gallery {
+    .huawei-store { display: block; }
+  }
 }

@@ -2,10 +2,9 @@
 layout: content
 index: 13
 set: 2
-title: Ik gebruik al de Duitse Corona Warn app. Kan ik beide apps tegelijkertijd gebruiken?
+title: I already use a corona app from another European country. Can I use both apps at the same time?
 lang: tr
 contentLang: en
-published: false
 categories:
 - tr
 - faq

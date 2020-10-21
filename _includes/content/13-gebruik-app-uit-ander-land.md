@@ -1,2 +1,3 @@
+No, that is not yet possible. We work with the other countries on interaction between the apps. We will soon be testing this interaction. After that, everyone can keep on using an app from their own country. You will then receive a warning in the Dutch CoronaMelder if, for example, you have been close to a German who has tested positive in Germany for a longer period of time.
 
-TBA
+Until then, switching between the apps is the best choice. The worry of forgetting to change back has been partly resolved. If the Dutch CoronaMelder is not active for a day or more, you will receive a notification that the app is not active.
