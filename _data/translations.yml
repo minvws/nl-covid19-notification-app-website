@@ -128,6 +128,18 @@ header-googleplaystore:
   ro: Descărcați din Google play
   tr: Google Play'den indirin  
   
+header-huaweiappgallery: 
+  nl: Ontdek het op Huawei App Gallery
+  en: Get it on Huawei App Gallery
+  ar: قم بالتحميل من  Huawei App Gallery
+  bg: Изтегли в Huawei App Gallery
+  de: Über Huawei App Gallery herunterladen
+  es: Descargar de Huawei App Gallery
+  fr: Téléchargez dans la Huawei App Gallery
+  pl: Pobierz w Huawei App Gallery
+  ro: Descărcați din Huawei App Gallery
+  tr: Huawei App Gallery'den indirin  
+
 header-language-picker-label:
   nl: Taal
   en: Language
@@ -425,18 +437,10 @@ info-app-store-url:
   ro: https://apps.apple.com/gb/app/id1517652429
   tr:  https://apps.apple.com/gb/app/id1517652429
 
-info-google-play-url:
-  nl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  en: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  ar: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  bg: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
-  de: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
-  fr: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en 
-  es: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  pl: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  ro: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
-  tr:  https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
+info-google-play-url: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
 
+info-huawei-url: ''
+  
 info-app-store-img:
   nl: app-store-badge-nl.svg
   en: app-store-badge-en.svg
@@ -460,6 +464,9 @@ info-google-play-img:
   pl: google-play-badge-pl.svg
   ro: google-play-badge-ro.svg
   tr:  google-play-badge-tr.svg
+
+
+info-huawei-img: huawei.png
 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
