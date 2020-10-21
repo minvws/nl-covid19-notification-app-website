@@ -439,7 +439,7 @@ info-app-store-url:
 
 info-google-play-url: https://play.google.com/store/apps/details?id=nl.rijksoverheid.en
 
-info-huawei-url: ''
+info-huawei-url: https://appgallery.huawei.com/#/app/C103008211
   
 info-app-store-img:
   nl: app-store-badge-nl.svg
