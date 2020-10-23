@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Where do I report abuse of the app?
+title: Where can I report misuse of the app? 
 lang: pl
 contentLang: en
 categories:

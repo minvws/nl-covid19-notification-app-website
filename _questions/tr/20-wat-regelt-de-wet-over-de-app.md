@@ -2,9 +2,7 @@
 layout: content
 index: 6
 set: 4
-published: true
-title: Wat regelt de wet over de app?
-published: false
+title: What does the law say about the app?
 summary: 
 lang: tr
 categories:

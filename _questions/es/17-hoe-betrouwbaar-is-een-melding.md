@@ -3,7 +3,7 @@ layout: content
 index: 3
 set: 4
 published: false
-title: Hoe betrouwbaar is een melding?
+title: How reliable are the notifications?
 lang: es
 categories:
 - es

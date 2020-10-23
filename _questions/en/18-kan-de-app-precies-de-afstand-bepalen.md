@@ -2,8 +2,7 @@
 layout: content
 index: 4
 set: 4
-published: false
-title: Kan de app precies de afstand bepalen?
+title: Can the app tell exactly what the distance was?
 lang: en
 categories:
 - en
