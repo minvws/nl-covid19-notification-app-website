@@ -3,6 +3,7 @@ layout: content
 index: 1
 set: 4
 title: Could the testing advice provided by the app change?
+contentLang: en
 lang: tr
 categories:
 - tr

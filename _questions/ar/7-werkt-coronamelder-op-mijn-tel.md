@@ -15,7 +15,6 @@ featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
 featuredHomeText: يعمل CoronaMelder على معظم هواتف Android مع الإصدار 6 أو أحدث وعلى أجهزة iPhone التي تعمل بنظام iOS 13.5 أو أحدث
 ---
-
 **Android:**  يعمل CoronaMelder على معظم هواتف Android التي تعمل بالإصدار 6 أو أحدث.
 
 **iPhone:** يعمل CoronaMelder على أجهزة Apple iPhone مع نظام التشغيل iOS 13.5 أو الأحدث. يمكن تثبيت iOS 13.5 على iPhone 6s و iPhone SE والإصدارات الأحدث.

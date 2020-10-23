@@ -3,6 +3,7 @@ layout: content
 index: 1
 set: 4
 title: How can I publicise the app within my organisation?
+contentLang: en
 lang: fr
 categories:
 - fr
