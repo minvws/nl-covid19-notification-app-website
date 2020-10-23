@@ -48,7 +48,8 @@
         width: 10px;
         background: url(../img/chevron-left-white.svg) no-repeat 50% 50%;
         transition: var(--transition-out);
-        padding: 10px;
+        display: inline-block;
+        margin-left: 5px;
     }
 }
 
