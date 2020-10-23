@@ -182,18 +182,30 @@ header-language-picker-current-lang:
 # development:
 #   nl: 
 #   en: 
-  
+
 govlogo:
   nl: Logo Rijksoverheid, homepage
   en: Logo Dutch Government, homepage
-  ar: الصفحة الرئيسية
-  bg: Начална страница
-  de: Home
-  es: Inicio
-  fr: Accueil
-  pl: Strona główna
-  ro: Pagina inițială
-  tr: Anasayfa
+  ar: شعار السلطات العامة، الصفحة الرئيسية
+  bg: Лого Държавно управление на Нидерландия, начална страница
+  de: Logo niederländische Regierung, Homepage
+  es: Logo del gobierno neerlandés, inicio
+  fr: Logo Gouvernement national, accueil
+  pl: Logo Rządu Holandii, strona główna
+  ro: Siglă Guvernul Țărilor de Jos, pagina inițială
+  tr: Logo Hollanda Devleti, ana sayfa
+
+header__logo-badge: 
+  nl: Logo CoronaMelder app
+  en: Logo CoronaMelder app
+  ar: شعار تطبيق CoronaMelder
+  bg: Лого приложение CoronaMelder
+  de: Logo CoronaMelder-App
+  es: Logo de la aplicación CoronaMelder
+  fr: Logo appli CoronaMelder
+  pl: Logo aplikacji CoronaMelder
+  ro: Siglă aplicația CoronaMelder
+  tr: Logo CoronaMelder uygulaması
 
 header__logo-badge:
   nl: Logo CoronaMelder app
@@ -314,14 +326,6 @@ faq-category-howtheapphelps:
   pl: How the app helps to stop the spread of coronavirus 
   ro: How the app helps to stop the spread of coronavirus 
   tr: How the app helps to stop the spread of coronavirus 
-  # ar: كيف يساعد التطبيق ضد كورونا
-  # bg: Как приложението помага в борбата с коронавируса?
-  # de: Wie hilft die App im Kampf gegen Corona?
-  # es: Cómo ayuda la app contra el coronavirus
-  # fr: En quoi l’application contribue-t-elle à lutter contre le coronavirus?
-  # pl: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
-  # ro: Cum ajută aplicația împotriva coronavirus-ului?
-  # tr: Uygulama Koronaya karşı nasıl yardımcı olur?
 
 faq-category-howtheappworks:
   nl: Werking van de app
@@ -334,14 +338,6 @@ faq-category-howtheappworks:
   pl: How the app works 
   ro: How the app works 
   tr: How the app works 
-  # ar: طريقة عمل التطبيق
-  # bg: Функциониране на приложението
-  # de: Funktion der App
-  # es: Funcionamiento de la app
-  # fr: Fonctionnement de l'application
-  # pl: Działanie aplikacji
-  # ro: Funcționarea aplicației
-  # tr: Uygulama nasıl çalışır
 
 faq-category-lessAskedQuestions:
   nl: Overige vragen
