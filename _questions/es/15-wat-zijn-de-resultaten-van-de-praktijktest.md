@@ -2,9 +2,8 @@
 layout: content
 index: 1
 set: 4
-published: false
 title: What were the results of the real-life trials with the app?
-summary: 
+contentLang: en
 lang: es
 categories:
 - es

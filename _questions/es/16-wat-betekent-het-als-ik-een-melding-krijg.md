@@ -2,9 +2,9 @@
 layout: content
 index: 2
 set: 4
-published: false
 title: What does a notification mean?
 lang: es
+contentLang: en
 categories:
 - es
 - faq

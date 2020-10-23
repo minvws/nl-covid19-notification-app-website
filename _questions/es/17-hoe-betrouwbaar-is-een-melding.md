@@ -2,8 +2,8 @@
 layout: content
 index: 3
 set: 4
-published: false
 title: How reliable are the notifications?
+contentLang: en
 lang: es
 categories:
 - es
