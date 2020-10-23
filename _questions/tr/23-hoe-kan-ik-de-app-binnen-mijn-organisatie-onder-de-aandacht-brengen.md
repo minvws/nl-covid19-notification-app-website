@@ -2,8 +2,8 @@
 layout: content
 index: 1
 set: 4
-title: Hoe kan ik de app binnen mijn organisatie onder de aandacht brengen?
-published: false
+title: How can I publicise the app within my organisation?
+contentLang: en
 lang: tr
 categories:
 - tr

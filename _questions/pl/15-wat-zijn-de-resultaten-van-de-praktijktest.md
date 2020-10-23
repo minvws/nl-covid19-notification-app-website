@@ -2,9 +2,8 @@
 layout: content
 index: 1
 set: 4
-published: false
-title: Wat zijn de resultaten van de praktijktest?
-summary: 
+title: What were the results of the real-life trials with the app?
+contentLang: en
 lang: pl
 categories:
 - pl

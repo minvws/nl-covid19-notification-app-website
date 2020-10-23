@@ -54,6 +54,11 @@
   .play-store { display: none; }
   .huawei-store { display: none; }
 }
+
+.layout-app-badges .huawei-only-show-mobile {
+  display: none;
+}
+
 .android {
   .app-store { display: none; }
   .play-store { display: none; }
@@ -64,5 +69,6 @@
   }
   &.huawei-app-gallery {
     .huawei-store { display: block; }
+    .layout-app-badges .huawei-only-show-mobile { display: block; }
   }
 }

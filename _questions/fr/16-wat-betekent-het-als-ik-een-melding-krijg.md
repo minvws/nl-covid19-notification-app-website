@@ -1,9 +1,8 @@
 ---
 layout: content
 index: 2
-set: 4
-published: false
-title: Wat betekent het als ik een melding krijg? 
+set: 4 
+title: What does a notification mean?
 lang: fr
 categories:
 - fr
