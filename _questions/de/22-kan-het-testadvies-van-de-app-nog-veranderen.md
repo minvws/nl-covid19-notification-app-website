@@ -2,8 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Kan het testadvies van de app nog veranderen? 
-published: false
+title: Could the testing advice provided by the app change?
 lang: de
 categories:
 - de

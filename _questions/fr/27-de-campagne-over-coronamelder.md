@@ -2,8 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Hoe ziet de campagne over CoronaMelder eruit?
-published: false
+title: Is there a publicity campaign for the CoronaMelder app?
 summary: 
 lang: fr
 categories:

@@ -2,8 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Waar kan ik hulp krijgen bij het installeren van de app?
-published: false
+title: Where can I get help installing the app?
 summary: 
 lang: ar
 categories:

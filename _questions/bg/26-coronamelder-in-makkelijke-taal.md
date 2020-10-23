@@ -2,8 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Waar kan ik in makkelijke taal informatie vinden over de app?
-published: false
+title: Where can I find information about the app in language that is easy to understand?
 summary: 
 lang: bg
 categories:
