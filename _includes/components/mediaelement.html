@@ -8,6 +8,10 @@
         poster="{{ site.baseurl }}/{{ site.data.videos[include.key].video-preview-image['default'] }}"
         data-audio-description='[{"src": "{{ site.baseurl }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}", "type": "audio/mp3"}]'
         data-audio-description-voiceover="true"
+        data-translation-enable-caption="{{ site.data.translations.mediaelement-btn-enable-caption[page.lang] }}"
+        data-translation-disable-caption="{{ site.data.translations.mediaelement-btn-disable-caption[page.lang] }}"
+        data-translation-enable-audio-description="{{ site.data.translations.mediaelement-btn-enable-audio-description[page.lang] }}"
+        data-translation-disable-audio-description="{{ site.data.translations.mediaelement-btn-disable-audio-description[page.lang] }}"
     >
         <source type="video/mp4" src="{{ site.baseurl }}/{{ site.data.videos[include.key].mp4-src['default'] }}" />
         {% for subtitle in site.data.videos[include.key].subtitles %}

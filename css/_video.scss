@@ -69,7 +69,7 @@
     ul {
       margin: 14px 0 14px 20px;
     }
-  }  
+  }
 }
 
 .mejs__container {
@@ -81,6 +81,12 @@
   text-indent: 0;
   vertical-align: top;
   margin-bottom: 40px;
+
+  &.focus-visible {
+    outline: 2px solid $color-focus;
+    outline-offset: 4px;
+    transition: 100ms ease-out;
+  }
 }
 
 .component-mediaelement .mejs__controls {
@@ -108,6 +114,17 @@
 .mejs__overlay-button {
   background-image: url('../img/play.svg');
   background-position: center center;
+  transition: 162ms ease-out;
+
+  .mejs__container.focus-visible &,
+  &:focus {
+    transform: scale(1.26);
+  }
+
+  &:focus {
+    outline: 2px solid yellow;
+    outline-offset: 4px;
+  }
 }
 
 .mejs__overlay:hover > .mejs__overlay-button {
@@ -180,4 +197,8 @@ details.component-mediaelement__details[open] {
   &.mejs__captions-enabled {
     opacity: 1;
   }
+}
+
+.mejs__captions-selector.mejs__offscreen {
+  display: none;
 }

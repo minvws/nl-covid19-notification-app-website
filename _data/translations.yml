@@ -919,7 +919,23 @@ information-gps:
 
 # Media element (used for videos)
 # See _includes/components/mediaplayer.html
-  
+
+mediaelement-btn-enable-caption:
+  nl: Zet ondertiteling (CC) aan
+  en: Enable subtitles (CC)
+
+mediaelement-btn-disable-caption:
+  nl: Zet ondertiteling (CC) uit
+  en: Disable subtitles (CC)
+
+mediaelement-btn-enable-audio-description:
+  nl: Zet audiodescriptie (AD) aan
+  en: Enable audio description (AD)
+
+mediaelement-btn-disable-audio-description:
+  nl: Zet audiodescriptie (AD) uit
+  en: Disable audio description (AD)
+
 mediaelement-download-title:
   nl: Download deze video
   en: Download this video
