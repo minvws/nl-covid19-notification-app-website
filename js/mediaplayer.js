@@ -35,7 +35,7 @@
                 function accessibleCaptionButton() {
                     var btn = instance.controls.querySelector('.mejs__captions-button button');
                     var enabled = btn.parentElement.classList.contains('mejs__captions-enabled');
-                    var btnText = enabled ? translations.btnDisableAudioDescription : translations.btnEnableCaption;
+                    var btnText = enabled ? translations.btnDisableCaption : translations.btnEnableCaption;
                     btn.setAttribute('aria-pressed', enabled);
                     btn.setAttribute('title', btnText);
                     btn.setAttribute('aria-label', btnText);
@@ -63,7 +63,7 @@
                 function accessibleAudioDescriptionButton() {
                     var btn = instance.controls.querySelector('.mejs__audio-description-button button');
                     var enabled = btn.parentElement.classList.contains('audio-description-on');
-                    var btnText = enabled ? translations.btnDisableCaption : translations.btnEnableAudioDescription;
+                    var btnText = enabled ? translations.btnDisableAudioDescription : translations.btnEnableAudioDescription;
                     btn.setAttribute('aria-pressed', enabled);
                     btn.setAttribute('title', btnText);
                     btn.setAttribute('aria-label', btnText);
