@@ -273,7 +273,9 @@ header .watch a, header .watch > a:visited {
     padding: 15px 0 15px 50px;
     margin: auto;
 }
-header .watch > a:hover {
+
+header .watch > a:hover,
+header .watch > a:focus {
     background-image: url('../img/play-hover.svg');
 }
 

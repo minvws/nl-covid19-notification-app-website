@@ -127,6 +127,7 @@
   }
 }
 
+.mejs__overlay:focus > .mejs__overlay-button,
 .mejs__overlay:hover > .mejs__overlay-button {
   background-image: url('../img/play-hover.svg');
   background-position: center center;
