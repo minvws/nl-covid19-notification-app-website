@@ -12,14 +12,17 @@ Breakpoints:
 960px (desktop)
 */
 
-$color-RO_darkblue: #154273 /* RO blauw */;
-$color-RO_darkblue--interaction: #002783;
-$color-RO_lightblue: #EFF7F9;
-$color-WARN_red: #CA005D;
+$color-RO_darkblue: rgba(21,66,115,1) /* RO blauw */;
+$color-RO_darkblue--interaction: rgba(0,39,131,1);
+$color-RO_lightblue: rgba(239,247,249,1);
+$color-WARN_red: rgba(202,0,93,1);
+$color-lighter-app-blue: rgba(31,82,155,1);
+$color-lightgrey: rgba(245,245,245,1);
+$color-mediumgrey: rgba(172,172,172,1);
 
-$color-focus: #008fcd;
-$color-focus-background: rgba($color-RO_darkblue--interaction, 0.1);
-$color-focus-footer: #ffffff;
+$color-focus: rgba(0,143,205,1);
+$color-focus-background: rgba(0,39,131,0.1);
+$color-focus-footer: rgba(255,255,255,1);
     
 :root {
     --transition-in: 262ms ease;
@@ -167,7 +170,7 @@ button {
         cursor: pointer;
         border: none;
         border-radius: 0;
-        color: #fff;
+        color: #FFF;
         background-color: $color-RO_darkblue--interaction;
         position: absolute;
         top: -100vh;
@@ -190,7 +193,7 @@ button {
     padding: 3px 5px;
     background: #F9E11E /* RO geel */;
     border-radius: 5px;
-    color: #000000;
+    color: #000;
 
     font-weight: bold;
     font-size: 1.125rem;
@@ -282,7 +285,7 @@ header .watch > a:hover {
     position: relative;
     margin-top: -1.6em;
     padding: 1.6em;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border-radius: 1.6em;
     max-width: 500px;
 
@@ -299,7 +302,7 @@ header .watch > a:hover {
     position: relative;
     margin: -3.7em 0 0 0;
     padding: 2em 1.6em 0 1.6em;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border-radius: 2em;
     color: #333333; /* RO tekst */;
 
@@ -616,13 +619,13 @@ header .watch > a:hover {
 .card-content > .respond {
     margin: 20px -20px;
     padding: 1.5rem 20px;
-    background-color: #F5F5F5 /* lichtgrijs */;
+    background-color: $color-lightgrey /* lichtgrijs */;
 }
 
 .card-content > .respond > a {
     background: #FFFFFF;
-    color: #000000;
-    border: 1px solid #ACACAC /* grijs */;
+    color: #000;
+    border: 1px solid $color-mediumgrey /* grijs */;
     border-radius: 5px;
     font-weight: bold;
     line-height: 1.375rem;
@@ -688,9 +691,9 @@ ul.share > li > a {
 #radio-faq-opensource:checked ~ label[for=radio-faq-opensource],
 #radio-faq-app:checked ~ label[for=radio-faq-app],
 #radio-faq-development:checked ~ label[for=radio-faq-development] {
-    border-left: 2px solid #1F529B /* Lichter app blauw */;
+    border-left: 2px solid $color-lighter-app-blue /* Lichter app blauw */;
     padding-left: 0.5rem;
-    color: #000000;
+    color: #000;
 }
 .tab-faq-opensource {
     margin-top: -2rem;
@@ -806,7 +809,7 @@ ul.share > li > a {
     .faq > label {
         float: none;
         width: auto;
-        color: #000000;
+        color: #000;
         padding-left: 0 !important;
         border-left: none !important;
         margin-top: 1rem;
