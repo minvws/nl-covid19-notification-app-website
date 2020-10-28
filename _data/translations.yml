@@ -336,7 +336,7 @@ x-of-y:
         
 readmore:
   nl: Meer uitleg
-  fry: Meer uitleg
+  fry: Mear útlis
   en: More information
   ar: للمزيد من التوضيح
   bg: Допълнителна информация
@@ -440,7 +440,7 @@ layout-template-faq:
   
 layout-faq-btn:
   nl: Bekijk alle veelgestelde vragen
-  fry: Bekijk alle veelgestelde vragen
+  fry: alle faakstelde fragen (Nederlands)
   en: All frequently asked questions
   ar: جميع الأسئلة المتكررة (الانجليزية)
   bg: Виж всички често задавани въпроси (на английски език)
@@ -648,7 +648,7 @@ footer-logos-info_md:
     
 footer-more-info-title:
   nl: Meer informatie?
-  fry: Meer informatie?
+  fry: Wolst mear witte?
   en: More information? 
   ar: هل ترغب في المزيد من المعلومات؟
   bg: Допълнителна информация?
@@ -731,7 +731,7 @@ footer-logos-rivm-url:
   en: https://www.rivm.nl/en
 footer-logos-rivm-img-alt: 
   nl: Logo Rijksinstituut voor Volksgezondheid en Milieu
-en: Logo of the National Institute for Public Health and the Environment
+  en: Logo of the National Institute for Public Health and the Environment
   ar: شعار المعهد الوطني للصحة العامة والبيئة
   bg: Лого на Националния институт за здравеопазване и околна среда
   de: Logo RIVM (Rijksinstituut voor Volksgezondheid en Milieu)
@@ -799,7 +799,7 @@ footer-misc-report-vulnerability:
   
 # footer-misc-contact-url: 
 #   nl: contact
-# en: contact
+#   en: contact
 #   ar: contact
 #   bg: contact
 #   de: contact
@@ -810,7 +810,7 @@ footer-misc-report-vulnerability:
 #   tr:  contact
 # footer-misc-contact:
 #   nl: Contact
-# en: Contact
+#   en: Contact
 #   ar: اتصال
 #   bg: Контакт
 #   de: Kontakt
@@ -823,8 +823,8 @@ footer-misc-report-vulnerability:
 footer-misc-cookies-url: cookies
 footer-misc-cookies:
   nl: Cookies
-  fry: contact
-# en: contact
+  fry: Cookies
+#   en: contact
 #   ar: contact
 #   bg: contact
 #   de: contact
@@ -833,17 +833,6 @@ footer-misc-cookies:
 #   pl: contact
 #   ro: contact
 #   tr:  contact
-# footer-misc-contact:
-#   nl: Contact
-# en: Contact
-#   ar: اتصال
-#   bg: Контакт
-#   de: Kontakt
-#   es: Contacto
-#   fr: Contact
-#   pl: Kontakt
-#   ro: Contact
-#   tr: İletişim
   
 footer-misc-cookies-url: cookies
 footer-misc-cookies:
@@ -869,7 +858,8 @@ footer-misc-colofon-url:
   es: colofon
   pl: colofon
   ro: colofon
-  tr:  colofon
+  tr: colofon
+
 footer-misc-colofon:
   nl: Colofon
   fry: Colofon
@@ -894,7 +884,8 @@ footer-misc-pers-url:
   es: pers
   pl: pers
   ro: pers
-  tr:  pers
+  tr: pers
+
 footer-misc-pers:
   nl: Pers
   fry: Pers
@@ -922,7 +913,6 @@ footer-misc-accessibility-statement:
   ro: Desclarația de accesabilitate
   tr: Erişilebilirlik bildirimi
     
-  
 footer-misc-partnertoolkit-url: https://news.pressmailings.com/hvdm/partnertoolkit
 footer-misc-partnertoolkit:
   nl: Partnertoolkit
@@ -931,7 +921,7 @@ footer-misc-partnertoolkit:
   
 error-title:
   nl: Deze pagina kan helaas niet worden gevonden
-en: This page can't be found
+  en: This page can't be found
   ar: للأسف لا يمكن العثور على هذه الصفحة
   bg: За съжаление, тази страница не може да бъде намерена
   de: Diese Seite wurde nicht gefunden.
@@ -1055,19 +1045,20 @@ mediaelement-btn-enable-caption:
   
 mediaelement-btn-disable-caption:
   nl: Zet ondertiteling (CC) uit
-en: Disable subtitles (CC)
+  en: Disable subtitles (CC)
   
 mediaelement-btn-enable-audio-description:
   nl: Zet audiodescriptie (AD) aan
-en: Enable audio description (AD)
+  en: Enable audio description (AD)
   
 mediaelement-btn-disable-audio-description:
   nl: Zet audiodescriptie (AD) uit
-en: Disable audio description (AD)
+  en: Disable audio description (AD)
   
 mediaelement-download-title:
   nl: Download deze video
-en: Download this video
+  fry: Download deze video
+  en: Download this video
   ar: قم بتنزيل الفيديو
   bg: Свали това видео
   de: Dieses Video herunterladen

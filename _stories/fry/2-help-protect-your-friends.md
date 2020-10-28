@@ -2,9 +2,8 @@
 index: 2
 show: true
 graphic: graphic-app-notification.svg
-title-highlight: Hoe werkt het?
-title: Je krijgt een melding nadat je extra kans op besmetting hebt gelopen
+title-highlight: Hoe wurket it?
+title: Do krigest in melding neidatst ekstra kâns op besmetting rûn hast.
 lang: fry
 ---
-
-De app stuurt een melding als je minstens 15 minuten dicht bij iemand bent geweest die later corona blijkt te hebben. Deze persoon moet ook de app gebruiken.
+De app stjoert in melding ast op syn minst 15 minuten ticht by immen west hast dy't letter koroana bliek te hawwen. Dy persoan moat ek de app brûke.
