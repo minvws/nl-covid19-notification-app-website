@@ -2,7 +2,6 @@
 layout: content
 title: Hoe helpt de app tsjin koroana?
 lang: fry
-contentLang: nl
 categories:
 - fry
 - faq

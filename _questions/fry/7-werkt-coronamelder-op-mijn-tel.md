@@ -2,9 +2,8 @@
 layout: content
 index: 7
 set: 2
-title: Werkt CoronaMelder ook op mijn telefoon?
+title: Wurket CoronaMelder ek op myn telefoan?
 lang: fry
-contentLang: nl
 categories:
 - fry
 - faq

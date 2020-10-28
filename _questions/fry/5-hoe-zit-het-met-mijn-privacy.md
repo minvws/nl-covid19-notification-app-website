@@ -2,9 +2,8 @@
 layout: content
 index: 5
 set: 2
-title: Hoe zit het met mijn privacy?
+title: Hoe sit it mei myn privacy?
 lang: fry
-contentLang: nl
 categories:
 - fry
 - faq
@@ -14,12 +13,11 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
+featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
 ---
+De app wikselt net neier útkeazen koades mei oare telefoans út. Yn dy koades steane gjin persoansgegevens of lokaasjegegevens fan dy. De app wit dus net wa'tsto bist en ek net wêr'tsto bist. 
 
-De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. De app weet dus niet wie je bent en ook niet waar je bent.
- 
-Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
+Ek ast it koroanafirus krigest en dat fia de app meldst, is dat net oan dyn namme of kontaktgegevens te keppeljen. Boppedat brûkst de app alhiel frijwillich.
 
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" %}

@@ -2,9 +2,8 @@
 layout: content
 index: 4
 set: 2
-title: Wanneer krijg ik een melding?
+title: Wannear krij ik in melding?
 lang: fry
-contentLang: nl
 categories:
 - fry
 - faq
@@ -14,23 +13,23 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
-featuredHomeText: Nadat je in de buurt bent geweest van iemand die ná jullie ontmoeting getest is en corona heeft.
+featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
 ---
+Wannear krij ik in melding?
 
-Je krijgt een waarschuwing nadat:
-- iemand via CoronaMelder samen met de GGD aangeeft het coronavirus te hebben,
-- én jij in de afgelopen dagen in de buurt bent geweest van die persoon,
-- én jullie toen minstens 15 minuten dicht bij elkaar waren.
- 
-Je was bijvoorbeeld:
-- bij een borrel of etentje,
-- in een winkel,
-- in een rij aan het wachten,
-- aan het reizen,
-- aan het sporten,
-- aan het werk,
-- op school,
-en krijgt dan later een melding.
- 
-Maar fietste iemand voorbij? Dan krijg je geen melding: jullie waren maar kort bij elkaar in de buurt.
+Do krigest in warskôging neidat:
+*  immen fia CoronaMelder yn 'e mande mei de GGD oanjout it koroanafirus te hawwen,
+*  én do yn de ôfrûne dagen yn de buert west hast fan dy persoan,
+*  én jimme doe op syn minst 15 minuten ticht byinoar wiene.
 
+Do wiest bygelyks:
+*  mei wat minsken út te iten of by in buorrel,
+*  yn in winkel,
+*  yn in wachtrige,
+*  oan it reizgjen (iepenbier ferfier),
+*  oan it sporten,
+*  op it wurk,
+*  op skoalle,
+en krigest dan letter in melding.
+
+Mar fytste immen foarby? Dan krigest gjin melding: jimme wiene koart byinoar yn 'e buert.

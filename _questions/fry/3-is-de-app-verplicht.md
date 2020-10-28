@@ -4,7 +4,6 @@ index: 3
 set: 2
 title: Is de app verplicht?
 lang: fry
-contentLang: nl
 categories:
 - fry
 - faq
