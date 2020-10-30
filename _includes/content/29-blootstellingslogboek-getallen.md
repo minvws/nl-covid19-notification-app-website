@@ -1,1 +1,1 @@
-TBA
+The CoronaMelder app checks whether any new infections have been confirmed by the GGD several times a day. Every time it does this, the new codes for those app users are downloaded to your phone, and you will see a new entry in the exposure log. The numbers represent the occasions when CoronaMelder has downloaded new infection codes.
