@@ -251,3 +251,44 @@
       Visit coronamelder.nl
     
     
+2020-10-30-campagne:
+  mp4-src:
+    default: media/2020-10-30-campagne/z8mndoz-web-hd.mp4
+  mp3-voiceover-src: 
+    default: media/2020-10-30-campagne/z8mndoz-audio.mp3
+  video-preview-image:
+    default: media/2020-10-30-campagne/z8mndoz-still-groot.jpg
+  subtitles:
+    - 
+      lang: nl
+      src: media/2020-10-30-campagne/z8mndoz-ondertiteling.srt
+  transcript_md:
+    nl: |
+      (Een vrouw in een bos.)<br />
+      Ik download de CoronaMelder-app om mijn wandelmaatje te beschermen.
+
+      (Het wandelmaatje, op het strand.)<br />
+      En ik om mijn collega te beschermen.
+
+      (De collega, voor een groentewinkel met een krat fruit in zijn handen.)<br />
+      Ik voor mijn medereiziger.
+
+      (De medereiziger, een jongen bij de bushalte.)<br />
+      -En ik voor de jongens.
+
+      (Een jongen, op een basketballveld in de stad.)<br />
+      Ik download hem voor m'n opa.
+
+      (Opa, vanuit zijn huis.)<br />
+      -En ik voor jou. Download jij hem voor mij?
+
+      VOICE-OVER: De CoronaMelder-app stuurt je een melding als je in de buurt bent geweest van iemand die corona blijkt te hebben.
+
+      Zo kun je voorkomen dat jij onbewust weer een ander besmet.
+
+      Voor wie download jij hem?
+
+      (Beeldtekst: coronamelder.nl of bel 0800-1280.)
+    
+    
+      
