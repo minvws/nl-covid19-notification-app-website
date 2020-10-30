@@ -15,4 +15,4 @@ Heel Nederland wordt via radio, tv, buitenreclame en online (social) media opger
 <a href="https://www.youtube.com/watch?v=ZVLzUcWq4ZM" target="_blank" rel="noopener roferrer">Bekijk de CoronaMelder tv-spot.</a>
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="campagnevideo" width="100%" height="394" %}
+{% include components/mediaelement.html key="2020-10-30-campagne" width="100%" height="394" %}
