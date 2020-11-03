@@ -398,7 +398,7 @@ english:
   tr: (ingilizce)
 
 info-lead:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 25 oktober hadden <strong>3.555.602</strong> mensen de app gedownload.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 2 november hadden <strong>3.827.275</strong> mensen de app gedownload.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. لذلك أصبح CoronaMelder متاحًا في هولندا كلها.
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -464,14 +464,14 @@ info-google-play-img:
 info-huawei-img: 
   nl: huawei.svg
   en: huawei-en.svg
-  ar: huawei-en.svg
-  bg: huawei-en.svg 
-  de: huawei-en.svg 
-  fr: huawei-en.svg
-  es: huawei-en.svg
-  pl: huawei-en.svg
+  ar: huawei-ar.svg
+  bg: huawei-bg.svg
+  de: huawei-de.svg
+  fr: huawei-fr.svg
+  es: huawei-es.svg
+  pl: huawei-pl.svg
   ro: huawei-en.svg
-  tr: huawei-en.svg
+  tr: huawei-tr.svg
   
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
