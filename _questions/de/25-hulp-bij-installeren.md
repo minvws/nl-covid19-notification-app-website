@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/25-hulp-bij-installeren.md %}
+{% include content/en/25-hulp-bij-installeren.md %}

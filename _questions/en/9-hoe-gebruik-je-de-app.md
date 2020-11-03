@@ -10,4 +10,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/9-hoe-gebruik-je-de-app.md %}
+{% include content/en/9-hoe-gebruik-je-de-app.md %}

@@ -1,22 +1,23 @@
-1. Download the CoronaMelder app.<br />
-If you have an Android phone, you can find the app in the Google Play Store.<br />
-If you have an iPhone, you’ll find the app in the App Store.<br />
+1. Download de CoronaMelder-app.<br />
+Als je een Android-telefoon hebt, vind je de app in de Google Play Store.<br />
+Heb je een iPhone? Dan vind je de app in de App Store.<br />
 
-2. Install the app.<br />
-Follow the instructions to install the app on your phone.<br />
+2. Installeer de app.<br />
+Op het scherm van je telefoon lees je hoe dit moet.<br />
 
-3. Follow the steps on the introduction screen.<br />
+3. Volg de stappen in de introductieschermen.
 
-4. Turn on Bluetooth in the settings for your phone, and leave it on.<br />
-Bluetooth must be on for the app to know when you are near other phones that are running the app.<br />
+4. Zet in de instellingen van je telefoon bluetooth aan én laat deze aan staan.<br />
+Alleen dan kan de app meten of je bij andere telefoons met CoronaMelder in de buurt bent geweest.<br />
 
-5. If you receive a notification, open the app and read what you can do next and whether you should get yourself tested.<br />
+5. Ontvang je een melding? Open CoronaMelder en lees wat je kunt doen en of je je moet laten testen.<br />
 
-6. If you test positive for coronavirus, it is your choice whether you add this information to the app. The GGD (municipal health service) will help you do this.<br />
+6. Blijk je zelf corona te hebben? Dan is het jouw eigen keuze of je jouw besmetting – samen met de GGD – wilt melden in de app.
 
-## Having problems installing the app?
-Ask a friend or family member to help you.
-Many libraries can also help you to install the app.
 
-Or you can call the CoronaMelder Help Desk on <a href="tel:+318001280">0800-1280</a>.
-You can also call the Help Desk if you have any technical questions about the app.
+## Vind je het installeren van de app lastig?
+Vraag dan een familielid of bekende om te helpen.
+Ook veel bibliotheken kunnen je helpen bij het installeren.
+
+Of bel de Helpdesk CoronaMelder op <a href="tel:08001280">0800-1280</a>.
+Daar kun je ook terecht met technische vragen over de app.

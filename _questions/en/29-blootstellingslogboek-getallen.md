@@ -10,4 +10,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/29-blootstellingslogboek-getallen.md %}
+{% include content/en/29-blootstellingslogboek-getallen.md %}

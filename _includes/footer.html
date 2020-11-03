@@ -30,6 +30,7 @@
                         <li>
                             <a href="{{ langSlug }}{{ site.data.translations.footer-misc-privacy-url }}">
                                 {{ site.data.translations.footer-misc-privacy[page.lang] }}
+                                {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
                         <li>
@@ -60,10 +61,12 @@
                                 {{ site.data.translations.footer-misc-pers[page.lang] }} {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
-                        {% if page.lang == 'nl' or page.lang == 'en' %}
+                        {% if page.lang == 'nl' or page.lang == 'fry' or page.lang == 'en' %}
                         <li>
                             <a href="{{ site.data.translations.footer-misc-partnertoolkit-url }}" target="_blank" rel="noopener noreferrer">
-                                {{ site.data.translations.footer-misc-partnertoolkit[page.lang] }} {% if page.lang == 'en' %}(Dutch){% endif %}
+                                {{ site.data.translations.footer-misc-partnertoolkit[page.lang] }} 
+                                {% if page.lang == 'en' %}(Dutch){% endif %}
+                                {% if page.lang == 'fry' %}(Nederlânsk){% endif %}
                             </a>
                         </li>
                         {% endif %}

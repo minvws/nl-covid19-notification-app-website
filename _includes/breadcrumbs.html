@@ -28,6 +28,8 @@
       <li class="breadcrumbs-item"> 
         {% if page.contentLang == 'en' %}
           <span class="breadcrumbs disabled" dir="ltr" lang="en" aria-current="page">{{ include.title | truncate: 40 }}</span>
+        {% elsif page.contentLang == 'nl' %}
+          <span class="breadcrumbs disabled" lang="nl" aria-current="page">{{ include.title | truncate: 40 }}</span>
         {% else %}
           <span class="breadcrumbs disabled" aria-current="page">{{ include.title | truncate: 40 }}</span>
         {% endif %}

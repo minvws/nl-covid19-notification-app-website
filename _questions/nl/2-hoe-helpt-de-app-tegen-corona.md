@@ -13,7 +13,6 @@ featuredHomeIndex: 1
 featuredHomeIcon: heart
 featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
 ---
-
 Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.
  
 Als je via de app een waarschuwing krijgt, blijf dan thuis tot 10 dagen na de datum van het contact met een besmette persoon. Zo voorkom je dat je bijvoorbeeld je (groot)ouders besmet. Of dat je het virus verspreidt op een drukke plek, zoals de markt of een sportevenement. 

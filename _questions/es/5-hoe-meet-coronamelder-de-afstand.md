@@ -12,5 +12,5 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/5-hoe-meet-coronamelder-de-afstand.md %}
+{% include content/en/5-hoe-meet-coronamelder-de-afstand.md %}
 

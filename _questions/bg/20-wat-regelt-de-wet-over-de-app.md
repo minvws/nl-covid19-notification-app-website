@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/20-wat-regelt-de-wet-over-de-app.md %}
+{% include content/en/20-wat-regelt-de-wet-over-de-app.md %}

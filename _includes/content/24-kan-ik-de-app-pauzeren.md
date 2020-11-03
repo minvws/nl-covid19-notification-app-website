@@ -1,21 +1,21 @@
-Yes, you can pause the app using the settings of your phone. Afterwards, you can reactivate the app, so that it will work again when you are near other people: friends, family and strangers.
+Ja, in de instellingen van de telefoon zelf kun je dit pauzeren. Als je weer klaar bent, kun je CoronaMelder weer activeren, zodat deze werkt als je bij anderen in de buurt bent: vrienden, familie, kennissen, maar ook onbekenden.
 
-If you need to use bluetooth for another purpose, for example for your work, you can also temporarily disable the CoronaMelder app as follows: 
+Heb je bluetooth nodig, bijvoorbeeld voor je werk? Dan kun je CoronaMelder ook op deze manier tijdelijk uitzetten: 
 
 ## iPhone: 
-1. Go to Settings.
-2. Choose Privacy > Health > COVID-19 Exposure Logging > Exposure Logging.
-3. Here you can use the slider to turn exposure logging off.
+1. Ga naar Instellingen.
+2. Kies ‘Privacy’ > ‘Gezondheid’ > ‘Blootstelling aan COVID-19’ > ‘Blootstelling bijhouden’.
+3. Zet vervolgens het schuifje uit.
 
-When you are ready to turn the app back on, you can do this inside the app or using the same location in Settings.
+Wil je de app weer aanzetten? Dan doe je dit binnen de app óf via dezelfde route via Instellingen.
 
-No more than 24 hours after you turn the app off, you will receive a reminder that the app is inactive. 
+Na maximaal 24 uur krijg je een herinnering dat je app uitstaat. 
 
 ## Android: 
-1. Go to Settings.
-2. Choose Google > Exposure Alerts for COVID-19.
-3. Here you can use the slider to turn exposure alerts off.
- 
-When you are ready to turn the app back on, you can do this inside the app or using the same location in Settings.
+1. Ga naar Instellingen.
+2. Kies ‘Google’ > ‘Blootstellingsmeldingen voor COVID-19’.
+3. Zet vervolgens het schuifje uit.
+  
+Wil je de app weer aanzetten? Dan doe je dit binnen de app óf via dezelfde route via Instellingen.
 
-No more than 24 hours after you turn the app off, you will receive a reminder that the app is inactive. 
+Na maximaal 24 uur krijg je een herinnering dat je app uitstaat. 

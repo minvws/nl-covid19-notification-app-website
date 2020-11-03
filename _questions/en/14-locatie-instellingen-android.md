@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/14-locatie-instellingen-android.md %}
+{% include content/en/14-locatie-instellingen-android.md %}

@@ -1,3 +1,6 @@
-The law that regulates the app states that nobody can oblige anybody else to download or use the app. So nobody can insist on this – that includes employers, family members, friends or establishments such as cafés and restaurants. You are completely free to choose whether you want to download and use the CoronaMelder app.
+In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.  
 
-<a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/nieuws/2020/10/06/eerste-kamer-stemt-in-met-tijdelijke-appwet" target="_blank" rel="noopener noreferrer">Read the news article about the adoption of the law on Rijksoverheid.nl</a> (Dutch)
+## Zie ook:
+- [Meld misbruik van CoronaMelder bij Meldpunt Misbruik CoronaMelder](/nl/faq/21-waar-meld-ik-misbruik/) 
+- <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/nieuws/2020/10/06/eerste-kamer-stemt-in-met-tijdelijke-appwet" target="_blank" rel="noopener noreferrer">Lees het nieuwsbericht over de aanname van de wet op Rijksoverheid.nl</a>
+

@@ -11,4 +11,4 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-{% include content/2-hoe-helpt-coronamelder-tegen-corona.md %}
+{% include content/en/2-hoe-helpt-coronamelder-tegen-corona.md %}
