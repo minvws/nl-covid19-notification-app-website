@@ -2,9 +2,9 @@
 layout: content
 index: 3
 set: 2
-title: Wat moet ik doen als ik een melding krijg?
+title: Wat moat ik dwaan as ik in melding krij?
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
+summary: Do krigest it advys om thús te bliuwen oant 10 dagen nei de datum fan kontakt. Hast klachten? Lit dy dan teste.
 lang: fry
 contentLang: nl
 categories:
@@ -16,9 +16,9 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.
+featuredHomeText: Do krigest it advys om thús te bliuwen oant 10 dagen nei de datum fan kontakt. Hast klachten? Lit dy dan teste.
 ---
-Wat moat ik dwaan as ik in melding krij?
+
 
 Ast in melding krigest, dan hast ticht by immen west dy't letter koroana bliek te hawwen. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Do hast ekstra kâns rûn op besmetting: mooglik hast koroana.
 

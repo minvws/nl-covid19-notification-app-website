@@ -1,3 +1,3 @@
-To let as many people as possible know about the CoronaMelder app, there is a publicity toolkit that you can use to publicise it – within your organisation, for example. Downloading the app is always voluntary. 
+Om zoveel mogelijk Nederlanders te informeren over CoronaMelder, is er een toolkit waarmee je de app onder de aandacht kunt brengen bij anderen, bijvoorbeeld binnen je organisatie. Het downloaden van de app is altijd vrijwillig. 
 
-<a href="https://news.pressmailings.com/hvdm/partnertoolkit" target="_blank" rel="noopener noreferrer">Click here for the toolkit for partners. (Dutch)</a>
+Bekijk en download <a href="https://news.pressmailings.com/hvdm/partnertoolkit" rel="noopener noreferrer" target="_blank">de toolkit voor partners</a>

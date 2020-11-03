@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/18-kan-de-app-precies-de-afstand-bepalen.md %}
+{% include content/en/18-kan-de-app-precies-de-afstand-bepalen.md %}

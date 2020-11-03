@@ -1,4 +1,2 @@
-
-CoronaMelder cannot measure the exact distance to other people who are using the app. But it can estimate whether you are close to them or not.
-The app uses a special type of Bluetooth, called Bluetooth Low Energy. The closer you are to the other person, the stronger the Bluetooth signal is.
-
+CoronaMelder kan niet de precieze afstand meten tot andere mensen die de app gebruiken. Maar kan wel inschatten of je dichtbij bent of niet.
+De app gebruikt daarvoor een bepaalde vorm van bluetooth, Bluetooth Low Energy (lage energie-bluetooth). Hoe sterker het signaal, hoe dichterbij je bent.

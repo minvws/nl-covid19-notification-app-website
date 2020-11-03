@@ -1,7 +1,5 @@
-Call the CoronaMelder Support Desk if someone tries to force you to use or show the app, for example.
+Bel Meldpunt Misbruik CoronaMelder als iemand je bijvoorbeeld dwingt de app te gebruiken of te laten zien: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
 
-<a href="tel:+31881205100">088-1205 100</a> (local rate)
-
-**Opening hours:**<br />
-Monday to Friday<br />
-9:00 - 17:00
+**Openingstijden**<br />
+Maandag t/m vrijdag<br />
+9.00 - 17.00 uur

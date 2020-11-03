@@ -13,4 +13,4 @@ showBreadCrumbs: true
 showContact: true
 ---
 
-{% include content/3-is-de-app-verplicht.md %}
+{% include content/en/3-is-de-app-verplicht.md %}

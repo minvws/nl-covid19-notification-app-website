@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/22-kan-het-testadvies-van-de-app-nog-veranderen.md %}
+{% include content/en/22-kan-het-testadvies-van-de-app-nog-veranderen.md %}

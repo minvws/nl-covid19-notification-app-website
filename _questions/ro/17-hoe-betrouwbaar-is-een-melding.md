@@ -10,6 +10,6 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/17-hoe-betrouwbaar-is-een-melding.md %}
+{% include content/en/17-hoe-betrouwbaar-is-een-melding.md %}
 
 [What should I do if I get a notification?](/ro/faq/3-wat-als/)

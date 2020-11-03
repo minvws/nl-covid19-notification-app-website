@@ -180,8 +180,8 @@ header-googleplaystore:
   tr: Google Play'den indirin  
     
 header-huaweiappgallery: 
-  nl: Get it on Huawei App Gallery
-  fry: Get it on Huawei App Gallery
+  nl: Ontdek het op Huawei App Gallery
+  fry: Download yn de Huawei App Gallery
   en: Get it on Huawei App Gallery
   ar: قم بالتحميل من  Huawei App Gallery
   bg: Изтегли в Huawei App Gallery
@@ -455,6 +455,7 @@ layout-faq-btn:
   
 english: 
   ar: (الانجليزية)
+  fry: (Nederlands)
   bg: (на английски език)
   de: (Englisch)
   es: (Inglés)
@@ -826,19 +827,6 @@ footer-misc-cookies-url: cookies
 footer-misc-cookies:
   nl: Cookies
   fry: Cookies
-#   en: contact
-#   ar: contact
-#   bg: contact
-#   de: contact
-#   fr: contact
-#   es: contact
-#   pl: contact
-#   ro: contact
-#   tr:  contact
-  
-footer-misc-cookies-url: cookies
-footer-misc-cookies:
-  nl: Cookies
   en: Cookies
   ar: Cookies
   bg: Бисквитки

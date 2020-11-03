@@ -12,4 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/28-melding-24-uur-geen-controle.md %}
+{% include content/en/28-melding-24-uur-geen-controle.md %}

@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/17-hoe-betrouwbaar-is-een-melding.md %}
+{% include content/en/17-hoe-betrouwbaar-is-een-melding.md %}
