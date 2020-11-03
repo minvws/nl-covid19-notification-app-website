@@ -122,11 +122,13 @@
   }
 
   &:focus {
-    outline: 2px solid yellow;
+    outline: 2px solid rgb(255, 255, 0);
     outline-offset: 4px;
+    background-image: url('../img/play-hover.svg');
   }
 }
 
+.mejs__overlay:focus > .mejs__overlay-button,
 .mejs__overlay:hover > .mejs__overlay-button {
   background-image: url('../img/play-hover.svg');
   background-position: center center;

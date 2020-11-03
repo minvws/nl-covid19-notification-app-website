@@ -537,15 +537,15 @@ info-huawei-img:
   nl: huawei.svg
   fry: huawei.svg
   en: huawei-en.svg
-  ar: huawei-en.svg
-  bg: huawei-en.svg 
-  de: huawei-en.svg 
-  fr: huawei-en.svg
-  es: huawei-en.svg
-  pl: huawei-en.svg
+  ar: huawei-ar.svg
+  bg: huawei-bg.svg
+  de: huawei-de.svg
+  fr: huawei-fr.svg
+  es: huawei-es.svg
+  pl: huawei-pl.svg
   ro: huawei-en.svg
-  tr: huawei-en.svg
-    
+  tr: huawei-tr.svg
+ 
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite

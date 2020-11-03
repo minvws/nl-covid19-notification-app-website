@@ -2,8 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Wat moet ik doen met deze melding over 24 uur geen controle door de app? 
-published: false
+title: What should I do if I receive a notification about 24 hours with no checks by the app?
 lang: en 
 categories:
 - en

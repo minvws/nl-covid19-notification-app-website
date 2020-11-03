@@ -2,8 +2,7 @@
 layout: content
 index: 1
 set: 4
-title: Wat zijn al die getallen die ik zie in het Blootstellingslogboek op mijn telefoon? 
-published: false
+title: What are all these strange codes that I can see in my phone's exposure log?
 lang: tr
 contentLang: en
 categories:
