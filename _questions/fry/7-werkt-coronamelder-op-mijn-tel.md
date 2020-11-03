@@ -15,6 +15,8 @@ featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
 featuredHomeText: CoronaMelder werkt op 95% van alle telefoons.
 ---
+De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net.
+
 De app werkt op 95% van alle telefoons. 
 
 **Android:** CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
