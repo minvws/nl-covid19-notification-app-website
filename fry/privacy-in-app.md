@@ -2,6 +2,7 @@
 layout: in-app-content
 lang: fry
 title: Privacyverklaring CoronaMelder
+contentLang: nl
 ---
 ## Over CoronaMelder
 

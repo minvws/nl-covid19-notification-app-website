@@ -2,6 +2,7 @@
 layout: in-app-content
 lang: fry
 title: Onderzoeksversie
+contentLang: nl
 ---
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">

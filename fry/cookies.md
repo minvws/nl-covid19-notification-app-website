@@ -1,6 +1,7 @@
 ---
 layout: content
 lang: fry
+contentLang: nl
 showBreadCrumbs: true
 title: Cookies
 ---

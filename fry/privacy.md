@@ -3,6 +3,7 @@ layout: content
 lang: fry
 showBreadCrumbs: true
 title: Privacyverklaring CoronaMelder
+contentLang: nl
 ---
 ## Over CoronaMelder
 

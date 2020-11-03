@@ -3,8 +3,8 @@ layout: content
 lang: fry
 showBreadCrumbs: true
 title: Toegankelijkheid
+contentLang: nl
 ---
-
 Datum toegankelijkheidsverklaring 09-10-2020
 
 Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je ondanks dat de site continu in ontwikkeling is toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden. Deze toegankelijksheidsverklaring wordt binnenkort up to date gemaakt.
