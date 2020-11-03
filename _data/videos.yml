@@ -84,17 +84,17 @@
       Kijk op coronamelder.nl of bel 0800-1280
     en: |
       TBD
-2020-10-07-video-hoe-werkt-het:
+2020-10-22-video-hoe-werkt-het:
   mp4-src:
-    default: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet.mp4
+    default: media/2020-10-22-video-hoe-werkt-het/201022_CoronaMelder-HoeWerktHet.mp4
   mp3-voiceover-src: 
-    default: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet_audiodescr.mp3
+    default: media/2020-10-22-video-hoe-werkt-het/201022_CoronaMelder-HoeWerktHet_audiodescr.mp3
   video-preview-image:
-    default: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet_Still.jpg
+    default: media/2020-10-22-video-hoe-werkt-het/201022_CoronaMelder-HoeWerktHet_Still.jpg
   subtitles:
     - 
       lang: nl
-      src: media/2020-10-07-video-hoe-werkt-het/201007_CoronaMelder-HoeWerktHet_Ondertiteling.srt
+      src: media/2020-10-22-video-hoe-werkt-het/201022_CoronaMelder-HoeWerktHet_Ondertiteling.srt
   transcript_md:
     nl: |
       CoronaMelder - Hoe werkt CoronaMelder?
