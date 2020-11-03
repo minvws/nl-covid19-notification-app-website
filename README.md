@@ -3,7 +3,7 @@
 This repository contains the source files of the official website for the Dutch COVID-19 Notification App CoronaMelder and is available at [coronamelder.nl](https://coronamelder.nl)
 
 
-## Goals of the website
+## Status
 
 Please join the Slack channel and check out the kanban board for the latest status. 
 
@@ -62,21 +62,6 @@ The hosting requirements are defined elsewhere.
 
 There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via Github and Slack) from the traffic dashboard to what is now the project website-to-be. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)). 
 Please ping any of the people involved via Slack if you are interested in writing an article about this.
-
-
-## Honorable mentions and gratitude 
-
-Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people and interaction design feedback website), Arian van van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw, Joost Soeterbroek. 
-
-The main objective of coronamelder.nl is to activate Dutch citizens to download and use CoronaMelder to reduce COVID-19 infections. Therefore, the site meets the information needs of visitors. Mainly:
-
-* Explain why the app is needed, what the app does and how CoronaMelder works
-* Give answers to frequently asked questions about CoronaMelder and debunk misconceptions
-* Provide the current privacy statement, accessibility statement, colophon and version information of CoronaMelder
-* Refer to the iOS App Store and Android Google Play Store to install CoronaMelder on a smartphone
-* Offer contact channels for other questions about CoronaMelder
-
-See also the [Requirements and design principles](https://github.com/minvws/nl-covid19-notification-app-website/blob/master/README.requirements.md) for the website.
 
 
 ## Disclaimer
