@@ -26,7 +26,7 @@ head-social-og-site_name:
   
 head-social-og-title:
   nl: Voorkom verspreiding, download CoronaMelder
-  fry: Voorkom verspreiding, download CoronaMelder
+  fry: Foarkom fersprieding, download CoronaMelder
   en: Stop the spread of the coronavirus, download CoronaMelder
   ar: تجنب انتشار العدوى، قم بتحميل CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
@@ -39,7 +39,7 @@ head-social-og-title:
     
 head-social-og-description:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken in heel Nederland.
-  fry: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken in heel Nederland.
+  fry: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. متاحًا في هولندا كلها.CoronaMelder لذلك أصبح
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -64,7 +64,7 @@ head-social-og-site_name:
   tr: CoronaMelder
 head-social-og-title:
   nl: Voorkom verspreiding, download CoronaMelder
-  fry: Voorkom verspreiding, download CoronaMelder
+  fry: Foarkom fersprieding download CoronaMelder
   en: Stop the spread of the coronavirus, download CoronaMelder
   ar: تجنب انتشار العدوى، قم بتحميل CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
@@ -77,6 +77,7 @@ head-social-og-title:
     
 head-social-og-description:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken in heel Nederland.
+  fry: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. متاحًا في هولندا كلها.CoronaMelder لذلك أصبح
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -102,7 +103,7 @@ head-social-og-image-url:
     
 head-social-og-image-alt:
   nl: Impressie van website waarop toelichting te vinden is
-  fry: Impressie van website waarop toelichting te vinden is
+  fry: Ympresje fan webside
   en: Impression of website on which more information can be found
   ar: انطباع عن الموقع حيث يمكن العثور على مزيد من المعلومات
   bg: Впечатление от уебсайт, на който може да се намери обяснение
@@ -115,7 +116,7 @@ head-social-og-image-alt:
     
 page-title:
   nl: Voorkom verspreiding, download CoronaMelder
-  fry: Voorkom verspreiding, download CoronaMelder
+  fry: Foarkom fersprieding download CoronaMelder
   en: Stop the spread of the coronavirus, download CoronaMelder
   ar: أوقف انتشار العدوى، قم بتنزيل تطبيق CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
@@ -128,7 +129,7 @@ page-title:
     
 header-skip-to-content:
   nl: Ga direct naar inhoud
-  fry: Ga direct naar inhoud
+  fry: Gean daliks nei ynhâld
   en: Skip to content
   ar: تخطى الى المحتوى
   bg: Отиди директно на съдържанието
@@ -141,7 +142,7 @@ header-skip-to-content:
     
 header-title:
   nl: "Voorkom verspreiding,<br /> download CoronaMelder"
-  fry: "Voorkom verspreiding,<br /> download CoronaMelder"
+  fry: "Foarkom fersprieding,<br /> download CoronaMelder"
   en: "Stop the spread of<br /> the coronavirus, download CoronaMelder"
   ar: " تجنب انتشار العدوى، قم بتحميل CoronaMelder"
   bg: " Предотврати<br /> разпространението,<br /> свали CoronaMelder"
@@ -154,7 +155,7 @@ header-title:
     
 header-appstore:
   nl: Downloaden in de App Store
-  fry: Downloaden in de App Store
+  fry: Download yn de App Store
   en: Download on the App Store
   ar: قم بالتحميل من App Store
   bg: Изтегли в App Store
@@ -167,7 +168,7 @@ header-appstore:
     
 header-googleplaystore:
   nl: Ontdek het op Google Play
-  fry: Ontdek het op Google Play
+  fry: Download yn de Google play store
   en: Get it on Google Play
   ar: قم بالتحميل من Google Play store
   bg: Изтегли в Google play Store
@@ -179,8 +180,8 @@ header-googleplaystore:
   tr: Google Play'den indirin  
     
 header-huaweiappgallery: 
-  nl: Ontdek het op Huawei App Gallery
-  fry: Ontdek het op Huawei App Gallery
+  nl: Get it on Huawei App Gallery
+  fry: Get it on Huawei App Gallery
   en: Get it on Huawei App Gallery
   ar: قم بالتحميل من  Huawei App Gallery
   bg: Изтегли в Huawei App Gallery
@@ -206,7 +207,7 @@ header-language-picker-label:
     
 header-language-picker-switch-lang:
   nl: Wissel van taal
-  fry: Wissel van taal
+  fry: Wikselje fan taal
   en: Switch language
   ar: غيّر اللغة
   bg: Промени езика
@@ -219,7 +220,7 @@ header-language-picker-switch-lang:
     
 header-language-picker-current-lang:
   nl: huidige taal
-  fry: huidige taal
+  fry: hjoeddeistige taal
   en: current language
   ar: اللغة الحالية
   bg: Настоящ език
@@ -298,7 +299,7 @@ phone-action:
     
 minvws:
   nl: "Ministerie van Volksgezondheid,<br>Welzijn en Sport"
-  fry: "Ministerie van Volksgezondheid,<br>Welzijn en Sport"
+  fry: "Ministearje fan Volksgezondheid,<br>Welzijn en Sport"
   en: "Ministry of Health,<br>Welfare and Sport"
   ar: "وزارة الصحة، <br/> والرفاهية والرياضة"
   bg: "Министерство на здравеопазването,<br/>благосъстоянието и спорта"
@@ -311,7 +312,7 @@ minvws:
     
 watch:
   nl: Bekijk de film
-  fry: Bekijk de film
+  fry: Besjoch de film
   en: Watch the movie
   ar: شاهد الفيديو
   bg: Гледай филма
@@ -324,6 +325,7 @@ watch:
     
 x-of-y:
   nl: van
+  fry: fan
   en: of
   ar: من
   bg: от
@@ -349,7 +351,7 @@ readmore:
   
 readmore-about_screen-reader:
   nl: over
-  fry: over
+  fry: oer
   en: about
   ar: عن
   bg: относно
@@ -362,7 +364,7 @@ readmore-about_screen-reader:
   
 faq:
   nl: Veelgestelde vragen
-  fry: Veelgestelde vragen
+  fry: Faakstelde fragen
   en: Frequently asked questions
   ar: الأسئلة المتكررة
   bg: Често задавани въпроси
@@ -375,7 +377,7 @@ faq:
   
 faq-category-howtheapphelps:
   nl: Hoe de app helpt tegen corona
-  fry: Hoe de app helpt tegen corona
+  fry: Hoe't de app helpt tsjin koroana
   en: How the app helps to stop the spread of coronavirus
   ar: How the app helps to stop the spread of coronavirus 
   bg: How the app helps to stop the spread of coronavirus 
@@ -388,7 +390,7 @@ faq-category-howtheapphelps:
   
 faq-category-howtheappworks:
   nl: Werking van de app
-  fry: Werking van de app
+  fry: Wurking fan de app
   en: How the app works  
   ar: How the app works 
   bg: How the app works 
@@ -427,7 +429,7 @@ layout-template-home:
   
 layout-template-faq:
   nl: Terug naar veelgestelde vragen
-  fry: Terug naar veelgestelde vragen
+  fry: Werom nei faakstelde fragen
   en: Back to frequently asked questions
   ar: الرجوع إلى الأسئلة المتكررة
   bg: Обратно към често задавани въпроси
@@ -440,7 +442,7 @@ layout-template-faq:
   
 layout-faq-btn:
   nl: Bekijk alle veelgestelde vragen
-  fry: alle faakstelde fragen (Nederlands)
+  fry: Besjoch alle faakstelde fragen (Nederlânsk)
   en: All frequently asked questions
   ar: جميع الأسئلة المتكررة (الانجليزية)
   bg: Виж всички често задавани въпроси (на английски език)
@@ -463,7 +465,7 @@ english:
   
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 27 oktober hadden <strong>3.664.276</strong> mensen de app gedownload.
-  fry: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 27 oktober hadden <strong>3.664.276</strong> mensen de app gedownload.
+  fry: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 27 oktober hiene <strong>3.664.276</strong> minsken de app delladen.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. لذلك أصبح CoronaMelder متاحًا في هولندا كلها.
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -546,7 +548,7 @@ info-huawei-img:
 footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
 footer-samen-logo:
   nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
-  fry: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
+  fry: Allinne mei-inoar krije wy koroana ûnder kontrôle. Gean nei de kampanjewebside
   en: Only together we can control corona. Go to the campagne website
   ar: معًا فقط نستطيع السيطرة على كورونا.
   bg: Единствено заедно ще поставим под контрол коронавируса.
@@ -559,7 +561,7 @@ footer-samen-logo:
     
 footer-phone:
   nl: Heb je vragen over de CoronaMelder?
-  fry: Heb je vragen over de CoronaMelder?
+  fry: Hast fragen oer de CoronaMelder?
   en: Do you have any questions about the CoronaMelder app?
   ar: هل لديك أي أسئلة حول CoronaMelder؟
   bg: Имаш ли въпроси относно CoronaMelder?
@@ -571,7 +573,7 @@ footer-phone:
   tr: CoronaMelder hakkında sorularınız mı var?
 footer-phone-action:
   nl: Bel <a href="tel:0800-1280">0800-1280</a> (gratis)
-  fry: Bel <a href="tel:0800-1280">0800-1280</a> (gratis)
+  fry: Belje <a href="tel:0800-1280">0800-1280</a> (fergees)
   en: Call <a href="tel:0800-1280">0800-1280</a> (free)
   ar: اتصل على الرقم <a href="tel:0800-1280" dir="ltr">0800-1280</a> (مجانًا)
   bg: Обади се на <a href="tel:0800-1280">0800-1280</a> (безплатно)
@@ -583,7 +585,7 @@ footer-phone-action:
   tr: <a href="tel:0800-1280">0800-1280</a> numaralı telefonu arayın (ücretsiz)
 footer-phone-opening:
   nl: Openingstijden
-  fry: Openingstijden
+  fry: Iepeningstiden
   en: Opening hours
   ar: ساعات العمل
   bg: Работно време
@@ -596,7 +598,7 @@ footer-phone-opening:
   
 footer-phone-opening-hours:
   nl: "Maandag t/m zondag 08.00 – 20.00 uur   "
-  fry: "Maandag t/m zondag 08.00 – 20.00 uur   "
+  fry: "Moandei o/m snein 08:00 – 20:00 oere   "
   en: "Monday till Sunday 08.00 a.m. - 08.00 p.m. "
   ar: "من الإثنين حتى الأحد 08.00 صباحًا-08.00 مساءً "
   bg: "От понеделник до неделя 08.00 - 20.00 часа "
@@ -609,7 +611,7 @@ footer-phone-opening-hours:
   
 footer-phone-mail: 
   nl: "Of stuur een e-mail naar: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
-  fry: "Of stuur een e-mail naar: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
+  fry: "Of stjoer in e-mail nei: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   en: "Or send an e-mail to: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   ar: "أو ارسل بريدًا الكترونيًا إلى: <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
   bg: "Или изпрати имейл на <a href='mailto:helpdesk@coronamelder.nl'>helpdesk@coronamelder.nl</a>"
@@ -622,7 +624,7 @@ footer-phone-mail:
     
 footer-colophon: 
   nl: Colofon
-  fry: Colofon
+  fry: Kolofon
   en: Colophon
   ar: الكولوفون
   bg: Заключителни печатни бележки
@@ -648,7 +650,7 @@ footer-logos-info_md:
     
 footer-more-info-title:
   nl: Meer informatie?
-  fry: Wolst mear witte?
+  fry: Mear ynformaasje
   en: More information? 
   ar: هل ترغب في المزيد من المعلومات؟
   bg: Допълнителна информация?
@@ -687,7 +689,7 @@ footer-more-info:
   
 footer-misc-title:
   nl: Over CoronaMelder
-  fry: Over CoronaMelder
+  fry: Oer CoronaMelder
   en: About CoronaMelder
   ar: حول CoronaMelder
   bg: За CoronaMelder
@@ -700,7 +702,7 @@ footer-misc-title:
   
 footer-contact-title:
   nl: Contact
-  fry: Contact
+  fry: Kontact
   en: Contact
   ar: اتصال
   bg: Контакт
@@ -786,7 +788,7 @@ footer-misc-disclaimer:
 footer-misc-report-vulnerability-url: kwetsbaarheid-melden
 footer-misc-report-vulnerability:
   nl: Kwetsbaarheid melden
-  fry: Kwetsbaarheid melden
+  fry: Kwetsberens melde
   en: Report vulnerability
   ar: الإبلاغ عن الثغرات
   bg: Докладвай за уязвимост
@@ -862,7 +864,7 @@ footer-misc-colofon-url:
 
 footer-misc-colofon:
   nl: Colofon
-  fry: Colofon
+  fry: Kolofon
   en: Colophon
   ar: الكولوفون
   bg: Заключителни печатни бележки
@@ -888,7 +890,7 @@ footer-misc-pers-url:
 
 footer-misc-pers:
   nl: Pers
-  fry: Pers
+  fry: Parse
   en: Press
   ar: الإعلام
   bg: Преса
@@ -902,7 +904,7 @@ footer-misc-pers:
 footer-misc-accessibility-statement-url: toegankelijkheidsverklaring
 footer-misc-accessibility-statement:
   nl: Toegankelijkheidsverklaring
-  fry: Toegankelijkheidsverklaring
+  fry: Tagonklikheidsferklearring
   en: Accessibility statement
   ar: بيان قابلية الوصول
   bg: Декларация за достъпност
@@ -921,6 +923,7 @@ footer-misc-partnertoolkit:
   
 error-title:
   nl: Deze pagina kan helaas niet worden gevonden
+  fry: Dizze side kin spitigernôch net fûn wurde
   en: This page can't be found
   ar: للأسف لا يمكن العثور على هذه الصفحة
   bg: За съжаление, тази страница не може да бъде намерена
@@ -933,7 +936,7 @@ error-title:
   
 error-back-to-home-page:
   nl: Ga terug naar de hoofdpagina coronamelder.nl
-  fry: Ga terug naar de hoofdpagina coronamelder.nl
+  fry: Gean werom nei de haadside coronamelder.nl
   en: Go back to homepage coronamelder.nl
   ar: إرجع إلى الصفحة الرئيسية coronamelder.nl
   bg: Върни се на началната страница coronamelder.nl
@@ -946,7 +949,7 @@ error-back-to-home-page:
   
 error-back-to-faq:
   nl: Ga naar veelgestelde vragen
-  fry: Ga naar veelgestelde vragen
+  fry: Gean nei faakstelde fragen
   en: Go to frequently asked questions
   ar: انتقل إلى الأسئلة المتكررة
   bg: Отиди на често задавани въпроси
@@ -959,7 +962,7 @@ error-back-to-faq:
     
 accessibility-in-app-email-subject:
   nl: Probleem bij het gebruik van de app
-  fry: Probleem bij het gebruik van de app
+  fry: Probleem by it brûken fan de app
   en: Problem with using the app
   ar: مشكلة في استخدام التطبيق
   bg: Проблем при използване на приложението
@@ -972,7 +975,7 @@ accessibility-in-app-email-subject:
       
 information-title:
   nl: 'Zo gaan we om met jouw gegevens:'
-  fry: 'Zo gaan we om met jouw gegevens:'
+  fry: 'Sa geane wy mei dyn gegevens om:'
   en: 'This is how we handle your data:'
   ar: 'هكذا نتعامل مع بياناتك'
   bg: 'Така обработваме твоите данни'
@@ -985,7 +988,7 @@ information-title:
   
 information-alert:
   nl: Heb je corona? Dan kun je anderen waarschuwen zonder dat zij weten wie je bent.
-  fry: Heb je corona? Dan kun je anderen waarschuwen zonder dat zij weten wie je bent.
+  fry: Hast koroana? Dan kinst oaren warskôgje sûnder dat sy witte wa'tst bist
   en: If you test positive for coronavirus, you can warn others by sharing your codes via the app.
   ar: هل لديك كورونا؟ يمكنك تحذير الآخرين دون أن يعرفوا من تكون.
   bg: Имаш ли коронавирус? Тогава можеш да предупредиш други хора, без да знаят кой си.
@@ -998,7 +1001,7 @@ information-alert:
   
 information-bluetooth:
   nl: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
-  fry: Je bluetooth-gegevens worden 14 dagen op je telefoon bewaard. Je kunt ze altijd zelf verwijderen.
+  fry: Dyn bluetooth-gegevens wurde 14 dagen op dyn telefoan bewarre. Do kinst se altyd sels wiskje.
   en: Your Bluetooth data is stored on your phone for 14 days. You can always delete this data yourself.
   ar: يتم تخزين بيانات البلوتوث على هاتفك لمدة 14 يومًا. يمكنك حذفها بنفسك دائمًا.
   bg: Твоите bluetooth данни се съхраняват 14 дни на телефона ти. Винаги можеш да ги премахнеш сам.
@@ -1011,7 +1014,7 @@ information-bluetooth:
   
 information-naw:
   nl: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
-  fry: Je naam, e-mailadres en telefoonnummer worden niet gebruikt of bewaard.
+  fry: Dyn namme, e-mailadres en telefoannûmer wurde net brûk of bewarre.
   en: Your name, email address and telephone number are not used or stored.
   ar: لن يتم استخدام أو تخزين اسمك وعنوان بريدك الإلكتروني ورقم هاتفك
   bg: Името, имейлът и телефонният ти номер не се използват или съхраняват.
@@ -1024,7 +1027,7 @@ information-naw:
   
 information-gps:
   nl: De app weet nooit waar je bent en gebruikt geen gps- en locatiegegevens
-  fry: De app weet nooit waar je bent en gebruikt geen gps- en locatiegegevens
+  fry: De app wit nea wêr ast bist en brûkt gjin gps- en lokaasjegegevens
   en: Your GPS or location data is not used or stored.
   ar: لن يتعرف التطبيق على مكانك أبدًا ولا يقوم باستخدام الـ GPS وبيانات موقعك الجغرافي
   bg: Приложението никога не знае кой си и не използва gps данни и данни за местоположение
@@ -1040,24 +1043,27 @@ information-gps:
   
 mediaelement-btn-enable-caption:
   nl: Zet ondertiteling (CC) aan
-  fry: Zet ondertiteling (CC) aan
+  fry: Set ûndertiteling (CC) oan
   en: Enable subtitles (CC)
   
 mediaelement-btn-disable-caption:
   nl: Zet ondertiteling (CC) uit
+  fry: Set ûndertiteling (CC) út
   en: Disable subtitles (CC)
   
 mediaelement-btn-enable-audio-description:
   nl: Zet audiodescriptie (AD) aan
+  fry: Set audiodeskripsje (AD) oan
   en: Enable audio description (AD)
   
 mediaelement-btn-disable-audio-description:
   nl: Zet audiodescriptie (AD) uit
+  fry: Set audiodeskripsje (AD) út
   en: Disable audio description (AD)
   
 mediaelement-download-title:
   nl: Download deze video
-  fry: Download deze video
+  fry: Download dizze fideo
   en: Download this video
   ar: قم بتنزيل الفيديو
   bg: Свали това видео
@@ -1070,7 +1076,7 @@ mediaelement-download-title:
   
 mediaelement-download-mp4-video:
   nl: MP4-video
-  fry: MP4-video
+  fry: MP4-fideo
   en: MP4-video
   ar: فيديوMP4
   bg: MP4-видео
@@ -1083,7 +1089,7 @@ mediaelement-download-mp4-video:
   
 mediaelement-download-mp3-voiceover:
   nl: MP3-audiospoor (voiceover)
-  fry: MP3-audiospoor (voiceover)
+  fry: MP3-audiospoar (voiceover)
   en: MP3-audio (voiceover)
   ar: مقطع صوتي MP3 (صوتي)
   bg: MP3-аудио (дублирано)
@@ -1096,7 +1102,7 @@ mediaelement-download-mp3-voiceover:
   
 mediaelement-download-subtitle:
   nl: Ondertitelingsbestand
-  fry: Ondertitelingsbestand
+  fry: Undertitelingsbestân
   en: Subtitle
   ar: ملف الترجمة
   bg: Субтитри
@@ -1109,7 +1115,7 @@ mediaelement-download-subtitle:
   
 mediaelement-transcript-title:
   nl: Uitgeschreven tekst van de video
-  fry: Uitgeschreven tekst van de video
+  fry: Utskreaune tekst fan de fideo
   en: Written out text of the video
   ar: نص مكتوب للفيديو
   bg: Транскрибиран текст на видеото
