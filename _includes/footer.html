@@ -61,12 +61,12 @@
                                 {{ site.data.translations.footer-misc-pers[page.lang] }} {{ site.data.translations.english[page.lang] }}
                             </a>
                         </li>
-                        {% if page.lang == 'nl' or page.lang == 'fry' or page.lang == 'en' %}
+                        {% if page.lang == 'nl' or page.lang == 'fy' or page.lang == 'en' %}
                         <li>
                             <a href="{{ site.data.translations.footer-misc-partnertoolkit-url }}" target="_blank" rel="noopener noreferrer">
                                 {{ site.data.translations.footer-misc-partnertoolkit[page.lang] }} 
                                 {% if page.lang == 'en' %}(Dutch){% endif %}
-                                {% if page.lang == 'fry' %}(Nederlânsk){% endif %}
+                                {% if page.lang == 'fy' %}(Nederlânsk){% endif %}
                             </a>
                         </li>
                         {% endif %}
