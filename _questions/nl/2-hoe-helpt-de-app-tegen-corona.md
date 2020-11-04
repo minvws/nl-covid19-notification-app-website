@@ -21,4 +21,4 @@ Als je via de app een waarschuwing krijgt, blijf dan thuis tot 10 dagen na de da
 Heb je klachten, binnen die 10 dagen of erna? Bel <a href="tel:0800-1202">0800-1202</a> of ga naar <a href="https://www.coronatest.nl" target="_blank" rel="noopener noreferrer">coronatest.nl</a> om een gratis coronatest aan te vragen.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-hoe-werkt-het" width="100%" height="394" %}
+{% include components/mediaelement.html key="2020-10-22-video-hoe-werkt-het" width="100%" height="394" %}
