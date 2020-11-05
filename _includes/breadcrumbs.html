@@ -18,10 +18,9 @@
         {% endif %}
     </li> 
     {% elsif forloop.last == false %}
-      <li  class="breadcrumbs-item">
+      <li class="breadcrumbs-item">
         <a class="breadcrumbs" href="{{langSlug}}/faq">
-          {{ site.data.translations.faq[page.lang] | truncate: 40 }}
-        </a>
+          {{ site.data.translations.faq[page.lang] | truncate: 40 }}</a>
         <span class="icon icon-chevron-right"></span>
       </li>
     {% else %}
