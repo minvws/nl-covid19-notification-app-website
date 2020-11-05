@@ -1,0 +1,34 @@
+CoronaMelder - Hoe werkt het
+CoronaMelder. 
+
+De app waarmee je kunt voorkomen dat je onbewust een ander besmet. 
+Hoe werkt het?
+Na het downloaden begint de app met het uitwisselen van codes.
+CoronaMelder maakt voor elke telefoon codes aan.
+De code is willekeurig en verandert een paar keer per uur.
+Als je dicht in de buurt bent van iemand die ook CoronaMelder heeft dan wisselen jullie telefoons codes uit via bluetooth.
+Zo verzamelt CoronaMelder codes in de app.
+Codes ouder dan 14 dagen worden automatisch gewist.
+CoronaMelder heeft zo een lijst met willekeurige codes die de afgelopen 2 weken dicht bij jou in de buurt zijn geweest.
+Maar wanneer en hoe krijg je dan een melding? 
+Stel, een week na je uitje blijkt een andere bezoeker, laten we hem Max noemen, corona te hebben.
+Samen met de GGD kan Max zijn besmetting melden in de app.
+Hier staat een speciale GGD sleutel klaar. 
+Max geeft deze sleutel door aan de GGD-medewerker.
+De GGD-medewerker voert de sleutel in.
+Nu kan Max met één druk op de knop zijn lijst met codes activeren.
+De app-gebruikers waarvan hun app één van deze codes heeft opgeslagen, �n die langer dan 15 minuten dicht bij Max in de buurt zijn geweest, krijgen daarna een melding. Jij dus ook.
+Je krijgt dus geen melding als je bijvoorbeeld snel langs iemand bent gefietst. 
+Wel als je lang bij elkaar in de buurt bent geweest.
+Wat staat er in een melding, en wat moet je dan doen?
+In de melding staat op welke dag je in de buurt was...
+van iemand die corona blijkt te hebben. 
+Er staat niet wie of waar dat was.
+Als je een melding krijgt is er een kans dat je ook bent besmet met corona.
+In de app lees je wat je kunt doen en of je je moet laten testen. Zo worden nieuwe besmettingen sneller ontdekt.
+En voorkom je dat het virus zich verder verspreidt.
+Het downloaden van de app is altijd vrijwillig.
+Alleen samen krijgen we corona onder controle.
+Meer weten? Kijk op coronamelder.nl
+of bel 0800-1280
+
