@@ -4,7 +4,7 @@
   {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 
-<nav class="content-center__home breadcrumbs" aria-label="Je bent hier"> 
+<nav class="content-center__home breadcrumbs" aria-label="{{ site.data.translations.youarehere[page.lang] }}:"> 
   <ul> 
   {% for crumb in crumbs offset: 1 %}
   {{% assign start_crumb = '' %}}

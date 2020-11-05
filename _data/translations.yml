@@ -362,6 +362,19 @@ readmore-about_screen-reader:
   ro: despre
   tr: hakkında
   
+youarehere:
+  nl: Je bent hier
+  fy: Do bist hjir
+  en: You are here
+  ar: أنت هنا
+  bg: Ти си тук
+  de: Sie bist hier
+  es: Tu estas aqui
+  fr: Tu es là
+  pl: Jesteś tutaj
+  ro: Esti aici
+  tr: Buradasınız
+
 faq:
   nl: Veelgestelde vragen
   fy: Faakstelde fragen
