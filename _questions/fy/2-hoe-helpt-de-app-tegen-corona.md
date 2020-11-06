@@ -20,6 +20,3 @@ Noch foardatst dy siik fielst, kinst koroana oan in oar trochjaan. Hoe flugger b
 Bliuw dêrom thús oant 10 dagen nei de datum fan it kontakt mei in besmette persoan. Sa foarkomst datst bygelyks dyn pake en beppe of heit en mem besmetst. Of datst it firus ferspriedst op in drok plak, lykas de merk of in sportevenemint.
 
 Hast klachten, binnen dy 10 dagen of dêrnei? Belje [0800-1202](tel:+318001202) of gean nei [coronatest.nl](https://www.coronatest.nl) om fergees in koroanatest oan te freegjen.
-
-[comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-hoe-werkt-het" width="100%" height="394" %}

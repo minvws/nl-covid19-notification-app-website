@@ -25,6 +25,3 @@ featuredHomeText: De app stjoert dy in berjocht ast in skoftke yn de buert west 
 4. Ast yn de buert west hast fan immen mei it koroanafirus, dy't de app ek hat, dan krigest letter in melding fan de app.
 5. Ast sels it koroanafirus krigest, kinst dat (frijwillich) yn de app witte litte. Dan warskôget de app de minsken dêr'tsto  kontakt mei hân hast. Yn de melding stiet allinne mar wannear't sy yn de buert west hawwe fan in besmet persoan. Net wa't dat is en wêr't sy dy persoan tsjin kommen binne.
 </div>
-
-[comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-hoe-werkt-het" width="100%" height="394" %}
