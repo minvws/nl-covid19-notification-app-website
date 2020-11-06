@@ -32,7 +32,7 @@
 
       {% assign questions = site.questions | where:"lang", page.lang | sort: "index"  %}
 
-      <div {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% endif %}>
+      <div {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% elsif page.contentLang == 'nl' %}lang="nl"{% endif %}>
         <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
 
         <div class="faq-layout__contents __overview">

@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/27-de-campagne-over-coronamelder.md %}
+{% include content/en/27-de-campagne-over-coronamelder.md %}

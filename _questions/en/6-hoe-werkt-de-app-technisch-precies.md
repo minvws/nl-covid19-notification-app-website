@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true 
 ---
-{% include content/6-hoe-werkt-de-app-technisch-precies.md %}
+{% include content/en/6-hoe-werkt-de-app-technisch-precies.md %}

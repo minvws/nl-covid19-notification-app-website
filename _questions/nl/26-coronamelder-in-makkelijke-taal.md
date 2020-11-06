@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-<a href="https://corona.steffie.nl/nl/#!/nl/modules/de-coronamelder-app/60/stap-1.html" target="_blank" rel="noopener noreferrer">Op deze website legt Steffie CoronaMelder makkelijk uit in duidelijke taal en met interactief beeld</a>
+{% include content/26-coronamelder-in-makkelijke-taal.md %}

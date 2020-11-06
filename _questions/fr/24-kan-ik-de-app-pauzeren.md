@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/24-kan-ik-de-app-pauzeren.md %}
+{% include content/en/24-kan-ik-de-app-pauzeren.md %}

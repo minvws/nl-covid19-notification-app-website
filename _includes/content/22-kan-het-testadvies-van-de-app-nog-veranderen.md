@@ -1,1 +1,1 @@
-Yes. The app follows the advice in the national guidelines for people who have been in contact with infected persons. If those guidelines change, the advice provided by the app will also change.
+Ja. De app volgt het advies van de landelijke richtlijnen voor mensen die in contact zijn geweest met besmette personen. Als die richtlijnen veranderen, dan verandert het advies van de app ook.

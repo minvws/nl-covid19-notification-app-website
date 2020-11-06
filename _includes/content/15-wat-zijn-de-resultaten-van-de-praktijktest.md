@@ -1,3 +1,3 @@
-Before the CoronaMelder app was launched nationally, it had already been trialled in five regions. Those trials showed that the app works effectively for the GGDs. GGD staff helped over 600 people who had tested positive for the virus to share that status with other users of the CoronaMelder app.
+Voor de landelijke lancering van CoronaMelder, konden 5 regio’s de app al testen. Hieruit blijkt dat de app werkt in de praktijk van de GGD’s. Zij hielpen meer dan 600 mensen, die besmet bleken met het virus, om anderen via  CoronaMelder met andere gebruikers van de app te delen. 
 
-<a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/resultaten-praktijktest-en-uitvoeringstoets-coronamelder" target="_blank" rel="noopener noreferrer">More information on the results of the trials is available at Rijksoverheid.nl</a>
+Lees meer over <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/resultaten-praktijktest-en-uitvoeringstoets-coronamelder" rel="noopener noreferrer" target="_blank">de resultaten van de praktijktest op Rijksoverheid.nl</a>

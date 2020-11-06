@@ -1,6 +1,6 @@
-Yes, the app is secure. We make sure that:
--  The app is constantly tested.
--  The app does not know your name or any other personal details.
--  Nobody can force you to use the app.
--  Experts from inside and outside the government have helped to design the app.
--  Hundreds of volunteer experts have verified the quality, privacy and security of the app. The way the app works is completely transparent and [open source](https://minvws.github.io/nl-covid19-notification-app-community-website/).
+Ja, de app is veilig. Daar zorgen we voor:
+- De app wordt voortdurend getest.
+- De app kent niet jouw naam of contactgegevens.
+- Niemand mag je dwingen om de app te gebruiken.
+- Deskundigen binnen en buiten de overheid helpen mee om de app te bouwen.
+- Honderden vrijwillige experts kijken mee naar de bouwkwaliteit, privacy en veiligheid van de app. De werking van de app is helemaal transparant en [open source](https://minvws.github.io/nl-covid19-notification-app-community-website/).

@@ -1,0 +1,1 @@
+No, the app cannot provide exact information about this, but that is not necessary. The app uses Bluetooth to determine how close you are to other app users. If you receive a notification, that means that you have definitely been near someone who has tested for positive for coronavirus, and you were near them for more than 15 minutes.

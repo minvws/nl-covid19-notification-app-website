@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/15-wat-zijn-de-resultaten-van-de-praktijktest.md %}
+{% include content/en/15-wat-zijn-de-resultaten-van-de-praktijktest.md %}

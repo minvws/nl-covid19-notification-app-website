@@ -12,4 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/1-waarom-is-coronamelder-nodig.md %}
+{% include content/en/1-waarom-is-coronamelder-nodig.md %}

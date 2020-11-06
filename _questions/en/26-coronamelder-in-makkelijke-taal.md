@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/26-coronamelder-in-makkelijke-taal.md %}
+{% include content/en/26-coronamelder-in-makkelijke-taal.md %}

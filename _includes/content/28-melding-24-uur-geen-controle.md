@@ -1,8 +1,8 @@
-You may receive the following notification: ‘In the past 24 hours, CoronaMelder has been unable to check whether the people you have been near to have tested positive for coronavirus. Check that your Wi-Fi or mobile data is switched on and try again.’ You will see this notification if your phone has had no internet connection for 24 hours or your battery optimization settings are preventing the app from functioning properly. 
+Krijg jij deze melding? "De app kon 24 uur niet controleren of mensen die jij hebt ontmoet later corona bleken te hebben. Controleer of je wifi of mobiele data aan staan en probeer het opnieuw." Je krijgt deze melding als je 24 uur geen internetverbinding had of als de batterijoptimalisatie-functie op je telefoon ervoor zorgt dat de app niet goed werkt. 
+ 
+Om ervoor te zorgen dat CoronaMelder goed blijft werken, kun je de app 1 keer per dag openen of de instellingen van jouw telefoon aanpassen: 
+1. Ga op je telefoon naar het menu dat ‘Batterij’ heet. 
+2. Zet deze uit voor CoronaMelder.
+Hoe dit precies moet, verschilt per telefoon. Als je dit hebt aangepast, ontvang je deze melding niet meer. De batterij-optimalisatie blijft gewoon werken voor de andere apps op je telefoon. 
 
-To ensure that CoronaMelder continues working properly, you can open the app once a day or change the settings of your phone. 
-1. Go to the ‘Battery’ settings menu in your phone. 
-2. Turn off ‘Battery optimization’ for CoronaMelder.
-The exact method for doing this will vary depending on which phone you have. Once you have changed the battery settings, you will no longer receive this notification. Battery optimization will continue to work in the same way for all the other apps on your phone. 
-
-This notification is mainly sent on phones with Android 9 and 10, and on devices made by Huawei, Xiaomi and Oneplus.
+Deze melding komt vooral voor op telefoons met Android 9 en 10, en op toestellen van Huawei, Xiaomi en Oneplus.

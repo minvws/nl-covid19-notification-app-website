@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/23-hoe-kan-ik-de-app-binnen-mijn-organisatie-onder-de-aandacht-brengen.md %}
+{% include content/en/23-hoe-kan-ik-de-app-binnen-mijn-organisatie-onder-de-aandacht-brengen.md %}

@@ -12,4 +12,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/8-loopt-de-batterij-snel-leeg.md %}
+{% include content/en/8-loopt-de-batterij-snel-leeg.md %}
