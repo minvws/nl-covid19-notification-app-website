@@ -3,8 +3,8 @@
 
 nl:
   label: Nederlands
-fy:
-  label: Frysk
+# fy:
+#   label: Frysk
 en:
   label: English
 ar:
