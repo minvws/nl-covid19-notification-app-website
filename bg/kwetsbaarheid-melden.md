@@ -5,9 +5,4 @@ showBreadCrumbs: true
 title: Reporting a vulnerability
 contentLang: en
 ---
-
-If you have discovered a weakness or a vulnerability on this website, please report this to the National Cyber Security Centre (NCSC). A report like this is called a Coordinated Vulnerability Disclosure (CVD).
-
-Together with the NCSC we will look at the issue and will try to solve this as soon as possible. 
-
-Click here to report a [vulnerability](https://english.ncsc.nl/report-vulnerability).
+Did you discover a weakness or vulnerability on the CoronaMelder app or on this website? We would like to be informed if you do. Report the vulnerability to [security@coronamelder.nl](mailto:security@coronamelder.nl) and we will look into the problem and resolve it as soon as possible.
