@@ -1,7 +1,7 @@
 ---
 layout: in-app-content
-lang: en
-title: Operability
+lang: nl
+title: Operabiliteit
 permalink: /nl/operabiliteit
 # contentLang: en
 ---
