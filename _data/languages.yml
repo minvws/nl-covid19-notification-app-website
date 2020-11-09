@@ -1,10 +1,7 @@
-# Note: when adding a language check availability in:
-# - mediaelement.js
-
 nl:
   label: Nederlands
-# fy:
-#   label: Frysk
+fy:
+  label: Frysk
 en:
   label: English
 ar:
