@@ -4,12 +4,6 @@
       {{ site.data.translations.header-skip-to-content[page.lang] }}
     </a>
   </div>
-  {%- if (site.data.translations.development[page.lang] && site.data.translations.development[page.lang] != '') -%}
-    <div class="badge">
-      <span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}
-    </div>
-  {%- endif -%}
-
   <div class="header">
     <div class="logobar">
       <div class="logo">
@@ -32,7 +26,6 @@
           {% include badges.html %}
         </div>
       </div>
-      {% comment %}<!-- TODO See #61 <div class="watch"><a href="#">{{ site.data.translations.watch[page.lang] }}</a></div> -->{% endcomment %}
     </div>
   </div>
 </header>

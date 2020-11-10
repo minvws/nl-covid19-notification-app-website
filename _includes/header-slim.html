@@ -4,11 +4,6 @@
       {{ site.data.translations.header-skip-to-content[page.lang] }}
     </a>
   </div>
-  {%- if (site.data.translations.development[page.lang] && site.data.translations.development[page.lang] != '') -%}
-    <div class="badge">
-      <span class="note">{{ site.data.translations.note[page.lang] }}</span> {{ site.data.translations.development[page.lang] }}
-    </div>
-  {%- endif -%}
   <div class="logobar">
     <div class="logo">
       <a href="{{ langSlug }}">
