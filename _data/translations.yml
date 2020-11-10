@@ -230,17 +230,10 @@ header-language-picker-current-lang:
   pl: Aktualny język
   ro: Limba actuală
   tr: mevcut dil
-    
-# note:
-#   nl: "Let op:"
-# en: "Please note:"
-# development:
-#   nl: 
-# en: 
   
 govlogo:
   nl: Logo Rijksoverheid, homepage
-  fy: Logo Rijksoverheid, haadside
+  fy: Logo Ryksoerheid, haadside
   en: Logo Dutch Government, homepage
   ar: شعار السلطات العامة، الصفحة الرئيسية
   bg: Лого Държавно управление на Нидерландия, начална страница
@@ -471,8 +464,8 @@ english:
   tr: (ingilizce)
   
 info-lead:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 8 november hadden <strong>3.920.486</strong> mensen de app gedownload.
-  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 8 november hiene <strong>3.920.486</strong> minsken de app delladen. <br />De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 8 november hadden <strong>3.928.567</strong> mensen de app gedownload.
+  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 8 november hiene <strong>3.928.567</strong> minsken de app delladen. <br />De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. لذلك أصبح CoronaMelder متاحًا في هولندا كلها.
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -591,7 +584,7 @@ footer-phone-action:
   pl: Zadzwoń pod (bezpłatny) numer <a href="tel:0800-1280">0800-1280</a>
   ro: Sunați la <a href="tel:0800-1280">0800-1280</a> (număr gratuit)
   tr: <a href="tel:0800-1280">0800-1280</a> numaralı telefonu arayın (ücretsiz)
-  
+
 footer-phone-opening:
   nl: Openingstijden
   fy: Iepeningstiden
