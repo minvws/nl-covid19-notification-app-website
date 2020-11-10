@@ -240,14 +240,7 @@ header-language-picker-current-lang:
   
 govlogo:
   nl: Logo Rijksoverheid, homepage
-  fy: "Let op:"
-# en: "Please note:"
-# development:
-#   nl: 
-# en: 
-  
-govlogo:
-  nl: Logo Rijksoverheid, homepage
+  fy: Logo Rijksoverheid, haadside
   en: Logo Dutch Government, homepage
   ar: شعار السلطات العامة، الصفحة الرئيسية
   bg: Лого Държавно управление на Нидерландия, начална страница
@@ -585,6 +578,7 @@ footer-phone:
   pl: Masz pytania odnośnie do aplikacji CoronaMelder?
   ro: Aveți întrebări în legătură cu CoronaMelder?
   tr: CoronaMelder hakkında sorularınız mı var?
+
 footer-phone-action:
   nl: Bel <a href="tel:0800-1280">0800-1280</a> (gratis)
   fy: Belje <a href="tel:0800-1280">0800-1280</a> (fergees)
@@ -597,6 +591,7 @@ footer-phone-action:
   pl: Zadzwoń pod (bezpłatny) numer <a href="tel:0800-1280">0800-1280</a>
   ro: Sunați la <a href="tel:0800-1280">0800-1280</a> (număr gratuit)
   tr: <a href="tel:0800-1280">0800-1280</a> numaralı telefonu arayın (ücretsiz)
+  
 footer-phone-opening:
   nl: Openingstijden
   fy: Iepeningstiden
