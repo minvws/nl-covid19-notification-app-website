@@ -44,6 +44,12 @@
   @media (min-width: 960px) {
     max-width: 1190px;
   }
+
+  .badges__caveat {
+    max-width: 72ch;
+    text-align: center;
+    margin: 0px auto;
+  }
 }
 
 .layout-app-badges--background {
