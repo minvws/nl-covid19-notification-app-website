@@ -50,6 +50,18 @@
   background-color: #EFF7F9 /* lightblauw */;
 }
 
+.badges__caveat {
+  max-width: 300px;
+
+  @media all and (min-width: 420px) {
+    max-width: 400px;
+
+    .note {
+      display: none;
+    }
+  }
+}
+
 .iOS {
   .play-store { display: none; }
   .huawei-store { display: none; }
@@ -72,3 +84,4 @@
     .layout-app-badges .huawei-only-show-mobile { display: block; }
   }
 }
+

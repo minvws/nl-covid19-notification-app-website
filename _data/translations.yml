@@ -465,7 +465,7 @@ english:
   
 info-lead:
   nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 10 november hadden <strong>3.936.598</strong> mensen de app gedownload.
-  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 10 november hiene <strong>3.936.598</strong> minsken de app delladen. <br />De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net.
+  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 10 november hiene <strong>3.936.598</strong> minsken de app delladen.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. لذلك أصبح CoronaMelder متاحًا في هولندا كلها.
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -489,6 +489,11 @@ info-lead-title:
   ro: Descărcați aplicația CoronaMelder
   tr: CoronaMelder uygulamasını indirin
   
+info-caveat-fy: |
+ De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net.
+
+info-caveat-letop-fy: 'Oplette:'
+
 info-app-store-url:
   nl: https://apps.apple.com/nl/app/id1517652429
   fy: https://apps.apple.com/nl/app/id1517652429
