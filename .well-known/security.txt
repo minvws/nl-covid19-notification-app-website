@@ -1,0 +1,4 @@
+Contact: helpdesk@coronamelder.nl
+Preferred-Languages: nl
+Policy: https://coronamelder.nl/nl/kwetsbaarheid-melden
+Policy: https://coronamelder.nl/en/kwetsbaarheid-melden
