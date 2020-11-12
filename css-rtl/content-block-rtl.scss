@@ -96,13 +96,12 @@
             }
         }
 
-        details {
+        details:not([dir="ltr"]) {
             summary:after {
                 right: auto;
                 left: 5px;
             }
         }
-
 
         .md-block-lead {
             @media (min-width: 960px) {

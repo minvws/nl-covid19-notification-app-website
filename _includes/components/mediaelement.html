@@ -21,7 +21,8 @@
     </video>
 </figure>
 
-<details class="component-mediaelement__details">
+<details class="component-mediaelement__details" 
+    {% if include.videoLang != page.lang %}lang="{{ include.videoLang }}" dir="ltr" {% endif %}>
     <summary class="btn btn--expand">{{ site.data.translations.mediaelement-download-title[include.videoLang] }}</summary>
     <div>
         <ul>
@@ -46,7 +47,7 @@
     </div>
 </details>
 
-<details class="component-mediaelement__details">
+<details class="component-mediaelement__details" {% if include.videoLang != page.lang %}lang="{{ include.videoLang }}" dir="ltr" {% endif %}>
     <summary class="btn btn--expand">{{ site.data.translations.mediaelement-transcript-title[include.videoLang] }}</summary>
     <div>
         {{ site.data.videos[include.key].transcript_md[include.videoLang] | markdownify }}
