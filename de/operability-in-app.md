@@ -2,6 +2,6 @@
 layout: in-app-content
 lang: de
 title: Operability
-permalink: /de/operability
+permalink: /de/operabiliteit
 contentLang: en
 ---
