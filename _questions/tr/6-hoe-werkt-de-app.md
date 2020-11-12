@@ -25,4 +25,4 @@ Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulam
 * Korona virüsü size bulaşırsa, uygulama üzerinden bunu (gönüllü olarak) bildirebilirsiniz. Ardından uygulama, iletişim kurduğunuz kişileri uyaracaktır. Bu bildirim, yalnızca enfekte bir kişinin yakınında bulunduklarını belirtir. Kim olduğu ve o kişiyle nerede karşılaştıkları değil.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394"  videoLang="en" %}

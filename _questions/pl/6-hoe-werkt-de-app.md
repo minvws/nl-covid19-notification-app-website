@@ -23,4 +23,4 @@ Aplikacja przysyła Ci wiadomość, jeśli znajdowałeś się w pobliżu osoby, 
 * Jeśli sam zostaniesz zarażony koronawirusem, możesz (dobrowolnie) przekazać tę informację aplikacji. W takim przypadku aplikacja ostrzeże ludzi, z którymi miałeś kontakt. Powiadomienie zawiera informację wyłącznie o tym, kiedy miały one kontakt z osobą zarażoną. Nie o tym, kto to jest, ani gdzie ją spotkali.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394"  videoLang="en" %}

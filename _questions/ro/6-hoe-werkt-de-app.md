@@ -25,4 +25,4 @@ Aplicația vă trimite un mesaj dacă ați fost un timp în apropierea unei pers
 * Dacă sunteți infectat cu coronavirus, puteți (de bunăvoie) să menționați acest lucru în aplicație. Aplicația va avertiza persoanele cu care ați fost în contact. În această notificare se menționează doar când s-au aflat în apropierea unei persoane infectate. Nu cine este sau unde au întâlnit acea persoană.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394"  videoLang="en" %}

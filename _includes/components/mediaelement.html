@@ -1,4 +1,5 @@
-<figure class="component-mediaelement">
+<figure class="component-mediaelement"
+    lang="{{ include.videoLang }}">
     <video
         class="mejs__player"
         width="{{ include.width }}" 
@@ -8,36 +9,36 @@
         poster="{{ site.baseurl }}/{{ site.data.videos[include.key].video-preview-image['default'] }}"
         data-audio-description='[{"src": "{{ site.baseurl }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}", "type": "audio/mp3"}]'
         data-audio-description-voiceover="true"
-        data-translation-enable-caption="{{ site.data.translations.mediaelement-btn-enable-caption[page.lang] }}"
-        data-translation-disable-caption="{{ site.data.translations.mediaelement-btn-disable-caption[page.lang] }}"
-        data-translation-enable-audio-description="{{ site.data.translations.mediaelement-btn-enable-audio-description[page.lang] }}"
-        data-translation-disable-audio-description="{{ site.data.translations.mediaelement-btn-disable-audio-description[page.lang] }}"
+        data-translation-enable-caption="{{ site.data.translations.mediaelement-btn-enable-caption[include.videoLang] }}"
+        data-translation-disable-caption="{{ site.data.translations.mediaelement-btn-disable-caption[include.videoLang] }}"
+        data-translation-enable-audio-description="{{ site.data.translations.mediaelement-btn-enable-audio-description[include.videoLang] }}"
+        data-translation-disable-audio-description="{{ site.data.translations.mediaelement-btn-disable-audio-description[include.videoLang] }}"
     >
         <source type="video/mp4" src="{{ site.baseurl }}/{{ site.data.videos[include.key].mp4-src['default'] }}" />
         {% for subtitle in site.data.videos[include.key].subtitles %}
-            <track src="{{ site.baseurl }}/{{ subtitle.src }}" kind="subtitles" srclang="{{ subtitle.lang }}" label="{{ site.data.languages[subtitle.lang].label }}" {% if subtitle.lang == page.lang %}default{% endif %}>
+            <track src="{{ site.baseurl }}/{{ subtitle.src }}" kind="subtitles" srclang="{{ subtitle.lang }}" label="{{ site.data.languages[subtitle.lang].label }}" {% if subtitle.lang == include.videoLang %}default{% endif %}>
         {% endfor %}
     </video>
 </figure>
 
 <details class="component-mediaelement__details">
-    <summary class="btn btn--expand">{{ site.data.translations.mediaelement-download-title[page.lang] }}</summary>
+    <summary class="btn btn--expand">{{ site.data.translations.mediaelement-download-title[include.videoLang] }}</summary>
     <div>
         <ul>
             <li>
                 <a href="{{ site.baseurl }}/{{ site.data.videos[include.key].mp4-src['default'] }}" target="_blank" rel="noopener noreferrer">
-                    {{ site.data.translations.mediaelement-download-mp4-video[page.lang] }}
+                    {{ site.data.translations.mediaelement-download-mp4-video[include.videoLang] }}
                 </a>
             </li>
             <li>
                 <a href="{{ site.baseurl }}/{{ site.data.videos[include.key].mp3-voiceover-src['default'] }}" target="_blank" rel="noopener noreferrer">
-                    {{ site.data.translations.mediaelement-download-mp3-voiceover[page.lang] }}
+                    {{ site.data.translations.mediaelement-download-mp3-voiceover[include.videoLang] }}
                 </a>
             </li>
             {% for subtitle in site.data.videos[include.key].subtitles %}
                 <li>
                     <a href="{{ site.baseurl }}/{{ subtitle.src }}" rel="noopener noreferrer">
-                        {{ site.data.translations.mediaelement-download-subtitle[page.lang] }} ({{ site.data.languages[subtitle.lang].label }})
+                        {{ site.data.translations.mediaelement-download-subtitle[include.videoLang] }} ({{ site.data.languages[subtitle.lang].label }})
                     </a>
                 </li>
             {% endfor %}
@@ -46,8 +47,8 @@
 </details>
 
 <details class="component-mediaelement__details">
-    <summary class="btn btn--expand">{{ site.data.translations.mediaelement-transcript-title[page.lang] }}</summary>
+    <summary class="btn btn--expand">{{ site.data.translations.mediaelement-transcript-title[include.videoLang] }}</summary>
     <div>
-        {{ site.data.videos[include.key].transcript_md[page.lang] | markdownify }}
+        {{ site.data.videos[include.key].transcript_md[include.videoLang] | markdownify }}
     </div>
 </details>

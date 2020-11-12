@@ -25,4 +25,4 @@ Die App schickt Ihnen eine Nachricht, wenn Sie mindestens 15 Minuten in der Näh
 * Haben Sie selbst Corona? Dann können Sie das (freiwillig) über die App melden. Die App warnt danach Personen, mit denen Sie Kontakt hatten. In dieser Nachricht steht nur, wann sie in der Nähe einer Person mit Corona waren. In der Nachricht steht nicht, wer das ist und wo sie der Person begegneten.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394"  videoLang="en" %}

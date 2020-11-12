@@ -6,11 +6,11 @@
   <div class="video__player">
 
     {% if page.lang == 'nl' or page.lang == 'fy' %}
-      {% include components/mediaelement.html key="2020-10-07-video-beschermen" width="100%" height="220" %}
+      {% include components/mediaelement.html key="2020-10-07-video-beschermen" width="100%" height="220" videoLang="nl" %}
     {% endif %}
 
     {% if page.lang == 'en' %}
-      {% include components/mediaelement.html key="201008-video-protect" width="100%" height="220" %}
+      {% include components/mediaelement.html key="201008-video-protect" width="100%" height="220" videoLang="en" %}
     {% endif %}
 
   </div>

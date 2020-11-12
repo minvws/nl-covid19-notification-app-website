@@ -25,4 +25,4 @@ L’application vous envoie un message si vous avez été au moins pendant 15 mi
 * Si vous avez vous-même le coronavirus, vous pouvez l’indiquer (sur base volontaire) dans l’application. Dans ce cas, l’application avertit les personnes avec qui vous avez eu des contacts. Cette notification n’indique que le moment où vous avez été proche d’une personne infectée. Ni qui était la personne ni l’endroit où vous l’avez rencontrée.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394" %}
+{% include components/mediaelement.html key="20201008-video-how-the-app-works" width="100%" height="394"  videoLang="en" %}

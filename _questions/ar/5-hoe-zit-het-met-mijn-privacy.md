@@ -21,4 +21,4 @@ featuredHomeText: يعمل التطبيق بدون الحاجة إلى معرف�
 حتى إذا أصبت بفيروس كورونا وقمت بالإبلاغ عن ذلك عبر التطبيق، فلا يمكن ربط هذا باسمك أو بتفاصيل الاتصال الخاصة بك. علاوة على ذلك، أنت تقوم باستخدام التطبيق طواعية تمامًا.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}

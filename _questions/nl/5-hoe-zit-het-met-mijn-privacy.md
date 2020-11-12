@@ -21,4 +21,4 @@ De app wisselt willekeurige codes uit met andere telefoons. In deze codes staan 
 Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jouw naam of contactgegevens te koppelen. Bovendien gebruik je de app geheel vrijwillig.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" %}
+{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
