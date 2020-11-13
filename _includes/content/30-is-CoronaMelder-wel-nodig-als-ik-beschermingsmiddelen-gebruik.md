@@ -1,0 +1,3 @@
+CoronaMelder kan niet herkennen of je tijdens je werk persoonlijke beschermingsmiddelen draagt. Voor beroepsgroepen waar mensen langer dan 15 minuten in nabijheid van andere mensen zijn en er door persoonlijke beschermingsmiddelen geen kans is op besmetting, is het advies om de app tijdelijk uit te zetten. Je zet de app tijdelijk uit door bluetooth uit te zetten in je instellingen.
+
+In de praktijk zal het uitzetten van CoronaMelder voor de meeste beroepsgroepen niet nodig zijn. CoronaMelder geeft een waarschuwing als je minimaal 15 minuten dicht bij iemand bent geweest die besmet blijkt te zijn met het virus. Je hebt dan een verhoogde kans om zelf ook besmet te zijn. Het is belangrijk dat je dit weet, zodat je maatregelen kan treffen om verdere besmetting te voorkomen.
