@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [About](#about)
+- [Status](#status)
+- [Goals of the website:](#goals-of-the-website)
+- [Design principles](#design-principles)
+- [Features, requirements and standards](#features-requirements-and-standards)
+- [How this website came about (pinging journalists)](#how-this-website-came-about-pinging-journalists)
+- [Disclaimer](#disclaimer)
+- [Honorable mentions and gratitude](#honorable-mentions-and-gratitude)
+- [Development & Contribution process](#development--contribution-process)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## About
 
 This repository contains the source files of the official website for the Dutch COVID-19 Notification App CoronaMelder and is available at [coronamelder.nl](https://coronamelder.nl)
