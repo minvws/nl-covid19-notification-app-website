@@ -1,0 +1,3 @@
+Dat weet CoronaMelder niet. CoronaMelder meet de afstand tussen telefoons die de app gebruiken door de sterkte van het bluetooth-signaal bij te houden. Hoe sterker het signaal, hoe dichter bij de andere gebruiker je bent.
+
+Als je dicht bij iemand bent maar in een andere ruimte, zullen muren, deuren en ramen het bluetooth-signaal minder sterk maken. Daardoor lijkt het voor CoronaMelder alsof je verder van elkaar weg bent en is de kans klein dat je een waarschuwing krijgt. Omdat je soms toch een waarschuwingsmelding krijgt, terwijl je geen extra kans op besmetting hebt gelopen, doen we binnenkort extra onderzoek hiernaar.

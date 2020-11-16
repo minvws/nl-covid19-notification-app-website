@@ -1,7 +1,8 @@
 ---
 layout: content
 index: 2
-set: 4 
+set: 4
+published: false 
 title: What does a notification mean?
 lang: tr
 categories:
