@@ -47,6 +47,4 @@ respectievelijk de iOS en Android-distributie en de Mobile Applicatie.
 
 ## Melden van kwetsbaarheden
 
-Kwetsbaarheden kunnen vertrouwelijk gemeld worden bij het
-[Nationaal Cyber Security Center van de Nederlandse Overheid](https://www.ncsc.nl/contact/kwetsbaarheid-melden)
-(ook anoniem).
+Ontdek je een zwakke plek of kwetsbaarheid op de CoronaMelder-app of op deze website? Dat willen we graag weten. Meld de kwetsbaarheid via [security@coronamelder.nl](mailto:security@coronamelder.nl), dan bekijken wij het probleem en lossen dit zo snel mogelijk op.
