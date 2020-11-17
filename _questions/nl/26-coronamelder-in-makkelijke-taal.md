@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 1
-set: 4
+index: 9
+set: 3
 title: Waar kan ik in makkelijke taal informatie vinden over de app?
 summary: 
 lang: nl

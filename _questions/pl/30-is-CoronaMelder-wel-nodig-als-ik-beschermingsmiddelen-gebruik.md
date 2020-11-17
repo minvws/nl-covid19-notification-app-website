@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 30
-set: 4
+set: 3
 title: Is CoronaMelder necessary when I use personal protective equipment?
 lang: pl
 contentLang: en

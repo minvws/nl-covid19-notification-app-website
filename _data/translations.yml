@@ -400,6 +400,32 @@ faq-category-howtheappworks:
   ro: How the app works 
   tr: How the app works 
   
+faq-category-dailyLife:
+  nl: CoronaMelder in het dagelijks leven
+  fy: CoronaMelder in het dagelijks leven
+  en: CoronaMelder in everyday life
+  ar: CoronaMelder in everyday life
+  bg: CoronaMelder in everyday life
+  de: CoronaMelder in everyday life 
+  es: CoronaMelder in everyday life
+  fr: CoronaMelder in everyday life
+  pl: CoronaMelder in everyday life 
+  ro: CoronaMelder in everyday life
+  tr: CoronaMelder in everyday life 
+
+faq-category-privacy:
+  nl: Privacy, vrijwilligheid en misbruik 
+  fy: Privacy, vrijwilligheid en misbruik 
+  en: Privacy, voluntariness and abuse
+  ar: Privacy, voluntariness and abuse
+  bg: Privacy, voluntariness and abuse
+  de: Privacy, voluntariness and abuse 
+  es: Privacy, voluntariness and abuse
+  fr: Privacy, voluntariness and abuse
+  pl: Privacy, voluntariness and abuse 
+  ro: Privacy, voluntariness and abuse
+  tr: Privacy, voluntariness and abuse 
+
 faq-category-lessAskedQuestions:
   nl: Overige vragen
   fy: Overige vragen
@@ -412,7 +438,7 @@ faq-category-lessAskedQuestions:
   pl: Miscellaneous 
   ro: Miscellaneous
   tr: Miscellaneous 
-  
+
 layout-template-home:
   nl: Home
   fy: Home

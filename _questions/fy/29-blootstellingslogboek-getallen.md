@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 1
-set: 4
+set: 2
 title: Wat zijn al die getallen die ik zie in het Blootstellingslogboek op mijn telefoon? 
 summary: 
 lang: fy

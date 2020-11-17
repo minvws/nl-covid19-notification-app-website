@@ -1,9 +1,8 @@
 ---
 layout: content
-index: 31
-set: 4
-published: false
-title: Hoe weet CoronaMelder dat ik in dezelfde ruimte ben als iemand anders?
+index: 6
+set: 3
+title: How does CoronaMelder know that I am in the same room as someone else?
 lang: pl
 contentLang: en
 categories:

@@ -1,8 +1,7 @@
 ---
 layout: content
 index: 4
-set: 4
-published: true
+set: 2
 title: Kan de app precies de afstand bepalen?
 lang: fy
 contentLang: nl

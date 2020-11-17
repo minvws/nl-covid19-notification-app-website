@@ -1,9 +1,8 @@
 ---
 layout: content
 index: 31
-set: 4
-published: false
-title: Kan ik CoronaMelder ook tijdens mijn werk gebruiken?
+set: 3
+title: Can I use CoronaMelder during my work?
 lang: en
 categories:
 - en

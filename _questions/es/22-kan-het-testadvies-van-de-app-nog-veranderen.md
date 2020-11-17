@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 1
-set: 4
+index: 4
+set: 3
 title: Could the testing advice provided by the app change?
 contentLang: en
 lang: es

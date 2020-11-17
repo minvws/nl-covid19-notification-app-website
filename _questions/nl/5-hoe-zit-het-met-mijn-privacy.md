@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 5
-set: 2
+set: 4
 title: Hoe zit het met mijn privacy?
 lang: nl
 categories:

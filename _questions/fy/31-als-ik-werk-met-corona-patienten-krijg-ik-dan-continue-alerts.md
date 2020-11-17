@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 31
-set: 4
+index: 1
+set: 3
 title: Als ik werk met corona-patiënten, krijg ik dan de hele tijd waarschuwingen van de app?
 lang: fy
 contentLang: nl

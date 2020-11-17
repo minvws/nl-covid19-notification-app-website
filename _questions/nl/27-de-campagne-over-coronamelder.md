@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 1
-set: 4
+set: 5
 title: Hoe ziet de campagne over CoronaMelder eruit?
 lang: nl
 categories:

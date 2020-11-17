@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 4
-set: 4
+set: 2
 title: Can the app tell exactly what the distance was?
 contentLang: en
 lang: ro

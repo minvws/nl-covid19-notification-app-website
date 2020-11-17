@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 30
-set: 4
+set: 3
 title: Is CoronaMelder wel nodig als ik persoonlijke beschermingsmiddelen gebruik?  
 lang: fy
 contentLang: nl

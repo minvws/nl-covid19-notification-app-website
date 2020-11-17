@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 31
-set: 4
+index: 5
+set: 3
 title: Kan ik CoronaMelder ook tijdens mijn werk gebruiken?
 lang: fy
 contentLang: nl

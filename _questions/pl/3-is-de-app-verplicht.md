@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 3
-set: 2
+set: 4
 title: Is the app compulsory?
 lang: pl
 contentLang: en

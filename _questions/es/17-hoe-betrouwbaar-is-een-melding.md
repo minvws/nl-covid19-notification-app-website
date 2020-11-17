@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 3
-set: 4
+set: 2
 title: How reliable are the notifications?
 contentLang: en
 lang: es

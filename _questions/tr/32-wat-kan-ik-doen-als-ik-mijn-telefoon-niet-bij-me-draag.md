@@ -1,9 +1,8 @@
 ---
 layout: content
-index: 32
-set: 4
-published: false
-title: Wat kan ik doen als ik mijn telefoon niet bij me draag?
+index: 7
+set: 3
+title: What can I do if I don't carry my phone with me?
 lang: tr
 contentLang: en
 categories:

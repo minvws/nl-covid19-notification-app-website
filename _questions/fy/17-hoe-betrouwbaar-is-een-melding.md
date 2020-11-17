@@ -1,8 +1,7 @@
 ---
 layout: content
 index: 3
-set: 4
-published: true
+set: 2
 title: Hoe betrouwbaar is een melding?
 lang: fy
 contentLang: nl

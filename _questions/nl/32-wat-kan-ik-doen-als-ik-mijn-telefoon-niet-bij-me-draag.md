@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 32
-set: 4
+index: 7
+set: 3
 title: Wat kan ik doen als ik mijn telefoon niet bij me draag?
 lang: nl
 categories:

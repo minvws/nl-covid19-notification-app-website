@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 1
-set: 4
+index: 10
+set: 3
 title: Where can I find information about the app in language that is easy to understand?
 contentLang: en
 lang: pl

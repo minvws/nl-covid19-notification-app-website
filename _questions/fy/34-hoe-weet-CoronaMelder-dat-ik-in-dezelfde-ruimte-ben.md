@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 31
-set: 4
+index: 6
+set: 3
 title: Hoe weet CoronaMelder dat ik in dezelfde ruimte ben als iemand anders?
 lang: fy
 contentLang: nl

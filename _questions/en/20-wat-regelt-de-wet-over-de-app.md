@@ -3,7 +3,6 @@ layout: content
 index: 6
 set: 4
 title: What does the law say about the app?
-
 lang: en
 categories:
 - en
