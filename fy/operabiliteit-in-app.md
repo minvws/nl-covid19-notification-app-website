@@ -1,6 +1,6 @@
 ---
 layout: in-app-content
-lang: nl
+lang: fy
 title: Gearwurking CoronaMelder mei oare lannen
 permalink: /fy/operabiliteit
 # contentLang: en
