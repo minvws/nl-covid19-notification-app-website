@@ -34,5 +34,3 @@ De data dy’t nei de mienskiplike server ferstjoerd wurde, wurde krekt as by Co
 Europeeske lannen kinne op de mienskiplike server oanslute as se in desintralisearre app hawwe. De app hellet de koades fan brûkers op dy’t besmet blike te wêzen en ferliket dy mei de koades op dyn telefoan.
 
 Ta ferliking: by in sintralisearre app wurde dy koades op in sintrale lokaasje sammele en dêr ferlike. [It oersjoch fan lannen mei sintralisearre en desintralisearre apps is hjir te finen](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
-
-Sjoch it ûnderdiel [CoronaMelder en it bûtenlân](https://coronamelder.nl/fy/faq) yn de Faakstelde fragen.

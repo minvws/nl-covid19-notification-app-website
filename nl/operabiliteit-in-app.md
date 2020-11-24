@@ -32,5 +32,3 @@ De data die verstuurd worden naar de gemeenschappelijke server worden, net als b
 Europese landen kunnen aansluiten op de gemeenschappelijke server als ze een gedecentraliseerde app hebt. De app haalt de codes van gebruikers op die besmet blijken te zijn en vergelijkt die met de codes op jouw telefoon.
 
 Ter vergelijking: bij een gecentraliseerde app worden die codes op een centrale locatie verzameld en daar vergeleken. Bekijk het overzicht van [landen met gecentraliseerde en gedecentraliseerde apps](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
-
-Zie het onderdeel [CoronaMelder en het buitenland](https://coronamelder.nl/nl/faq) in de Veelgestelde vragen.
