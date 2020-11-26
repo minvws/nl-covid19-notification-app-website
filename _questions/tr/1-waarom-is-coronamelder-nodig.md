@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 1
+index: 3
 set: 1
 title: Why is the CoronaMelder app needed?
 lang: tr
