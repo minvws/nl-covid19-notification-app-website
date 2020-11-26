@@ -1,36 +1,37 @@
 ---
 layout: in-app-content
 lang: ro
-title: CoronaMelder is working with other countries
+title: Colaborarea aplicației CoronaMelder cu alte țări
 permalink: /ro/operabiliteit
-contentLang: en
 ---
-From the end of November 2020 onwards, CoronaMelder will work with similar apps from a number of other EU countries. The number of countries will continue to increase in the months after that.
+Începând cu noiembrie 2020, CoronaMelder colaborează cu alte aplicații pentru depistarea coronavirusului din câteva țări din Uniunea Europeană. În lunile următoare numărul acestor țări va crește. 
 
-The cooperation will help stop the spread of coronavirus, including among users of CoronaMelder who travel abroad and people from other countries who visit the Netherlands. That could be very important for people who live close to the border with Germany or Belgium and when we go on holiday abroad again. As a user, you won't need to do anything differently. You will not need to download a new version of the app or use a similar app from those other countries. 
+Această colaborare ajută la prevenirea răspândirii coronavirusului. Acest lucru este valabil pentru utilizatorii aplicației CoronaMelder care pleacă în străinătate, precum și pentru persoanele din alte țări care vin în Țările de Jos. De exemplu, acest lucru poate fi important pentru persoanele care locuiesc la granița cu Germania și Belgia sau atunci când vom putea iar să petrecem vacanțele în străinătate. În calitate de utilizator nu trebuie să faceți nimic în plus pentru aceasta. Nu trebuie să descărcați o nouă versiune a aplicației CoronaMelder și nici nu este necesar să folosiți o altă aplicație pentru depistarea coronavirusului din alte țări.
 
-Imagine that you are near a user of the German Corona-Warn-App and that person later tests positive for coronavirus in Germany. If that person shares their codes with the German health authorities, you will receive a notification in CoronaMelder. And it will also work the other way around, of course. Because the coronavirus apps all work together, you will only need to download one app. That means CoronaMelder if you live in the Netherlands.
+Să presupunem că v-ați aflat pentru mai mult timp în apropierea unui utilizator al aplicației germane Corona-Warn. Această persoană este testată în Germania și se constată că are corona. Dacă persoana respectivă își partajează codurile cu GGD-ul german, veți primi o notificare prin CoronaMelder. Același lucru este valabil și invers. Datorită faptului că aplicațiile colaborează împreună, trebuie doar să descărcați o singură aplicație. Ca rezident al Țărilor de Jos, aplicația care trebuie descărcată este CoronaMelder.
 
-## European cooperation
+## Colaborarea europeană
 
-The European Union has created new digital infrastructure, the European Federated Gateway Service (EFGS), to enable the apps from different countries to work together. It consists of a common server (hosted at the data centre of the European Commission in Luxembourg), which allows the designated national authorities or official bodies of member states to exchange data between the different corona apps.
+Uniunea Europeană a creat o infrastructură digitală, European Federated Gateway Service (EFGS), pentru colaborarea dintre aplicațiile pentru depistarea coronavirusului din diferite țări. Aceasta constă într-un server comun (găzduit în centrul de date al Comisiei Europene din Luxemburg) care permite autorităților naționale desemnate sau organismelor oficiale ale statelor membre să facă schimb de date între diferitele aplicații pentru depistarea coronavirusului.
 
-The advantages of cooperation between countries are:
-- Users only need to install the app from their own country (for residents of the Netherlands, that means CoronaMelder).
-- About 18 countries will connect to the gateway, including a large area of Europe.
+Avantajele aceste colaborări internaționale sunt:
 
-Other countries can also join in the future if they meet the requirements. Once coronavirus has been brought under control, the infrastructure will be deactivated. 
+- Utilizatorii trebuie să instaleze doar aplicația din țara lor (pentru locuitorii Țărilor de Jos: CoronaMelder).
+- Aproximativ 18 țări se conectează la acest gateway, acest lucru ducând la o acoperire mare.
 
-## Privacy
+Și alte țări se pot alătura în viitor dacă îndeplinesc aceleași condiții. Odată ce criza coronavirus va fi sub control, infrastructura va fi dezactivată.
 
-All apps from the European countries participating in the partnership will apply the same privacy principles. 
-- The protection of users' data will be the priority.
-- Using the app is always voluntary.
-- The apps do not collect location data, so they don't know where users are.
-- The apps meet high standards of security and privacy.
+## Politica de confidențialitate
 
-Data sent to the central server is stored for a maximum of 14 days, just like with CoronaMelder. Only the codes from the apps is sent to or stored on the server, and no other data. 
+Toate aplicațiile din țările europene care participă la această colaborare aderă la aceleași principii de confidențialitate:
 
-European countries can connect to the common server if they have a decentralised app. The app retrieves the codes of any users who test positive and compares these with the codes on your phone.
+-  Protecția datelor utilizatorilor este de cea mai mare importanță.
+- Utilizarea aplicației este voluntară.
+-  Aplicațiile nu colectează date despre locație, deci nu știu unde sunt localizați utilizatorii.
+- Aplicațiile îndeplinesc standarde înalte de securitate și confidențialitate.
 
-In a centralised app, on the other hand, all the codes would be collected at a central location and compared there. You can find a [list of countries with centralised and decentralised apps here](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
+Datele trimise către serverul comun sunt, la fel ca în cazul aplicației CoronaMelder, stocate timp de cel mult 14 zile. Nu sunt trimise sau stocate pe server alte date decât codurile din aplicații.
+
+Țările europene se pot conecta la serverul comun dacă au o aplicație descentralizată. Aplicația preia codurile utilizatorilor care rezultă că sunt infectați și le compară cu codurile de pe telefon dvs.
+
+Prin comparație: într-o aplicație centralizată, acele coduri sunt colectate într-o locație centrală și comparate acolo. Lista țărilor cu aplicații centralizate și descentralizate poate fi găsită [aici](https://ec.europa.eu/info/live-work-travel-eu/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en).

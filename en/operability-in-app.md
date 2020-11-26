@@ -4,6 +4,7 @@ lang: en
 title: CoronaMelder is working with other countries
 permalink: /en/operabiliteit
 ---
+
 From the end of November 2020 onwards, CoronaMelder will work with similar apps from a number of other EU countries. The number of countries will continue to increase in the months after that.
 
 The cooperation will help stop the spread of coronavirus, including among users of CoronaMelder who travel abroad and people from other countries who visit the Netherlands. That could be very important for people who live close to the border with Germany or Belgium and when we go on holiday abroad again. As a user, you won't need to do anything differently. You will not need to download a new version of the app or use a similar app from those other countries. 

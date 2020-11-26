@@ -1,36 +1,39 @@
 ---
 layout: in-app-content
 lang: de
-title: CoronaMelder is working with other countries
+title: Zusammenarbeit von CoronaMelder mit anderen Ländern
 permalink: /de/operabiliteit
-contentLang: en
 ---
-From the end of November 2020 onwards, CoronaMelder will work with similar apps from a number of other EU countries. The number of countries will continue to increase in the months after that.
+CoronaMelder funktioniert ab Ende November 2020 zusammen mit den Corona-Apps aus einigen anderen EU-Ländern. In den Monaten danach werden mehr Länder dazukommen.
 
-The cooperation will help stop the spread of coronavirus, including among users of CoronaMelder who travel abroad and people from other countries who visit the Netherlands. That could be very important for people who live close to the border with Germany or Belgium and when we go on holiday abroad again. As a user, you won't need to do anything differently. You will not need to download a new version of the app or use a similar app from those other countries. 
+Die Zusammenarbeit verschiedener Corona-Apps hilft im Kampf gegen die Verbreitung des Corona-Virus. Die Zusammenarbeit funktioniert in beide Richtungen: Für Benutzer von CoronaMelder, die ins Ausland gehen. Und für Menschen aus anderen Ländern, die in die Niederlande kommen. Das kann z. B. wichtig sein für Menschen, die an der Grenze zu Deutschland oder Belgien wohnen. Oder wenn wir wieder Urlaub im Ausland machen. Als Benutzer brauchen Sie nichts zu unternehmen: Sie brauchen keine neue Version von CoronaMelder. Und Sie müssen keine Corona-App anderer Länder laden. 
 
-Imagine that you are near a user of the German Corona-Warn-App and that person later tests positive for coronavirus in Germany. If that person shares their codes with the German health authorities, you will receive a notification in CoronaMelder. And it will also work the other way around, of course. Because the coronavirus apps all work together, you will only need to download one app. That means CoronaMelder if you live in the Netherlands.
+Angenommen, Sie waren längere Zeit in der Nähe einer Person, die die deutsche Corona-Warn-App verwendet. Nach einem Test in Deutschland stellt sich heraus: Diese Person hat Corona. Teilt diese Person ihre Codes mit der deutschen Gesundheitsbehörde? Dann bekommen Sie über CoronaMelder eine Nachricht. Umgekehrt gilt dasselbe. Da die Corona-Apps zusammenarbeiten, brauchen Sie nur eine einzige App. Für Einwohner der Niederlande ist das die App CoronaMelder.
 
-## European cooperation
+## Europäische Zusammenarbeit
 
-The European Union has created new digital infrastructure, the European Federated Gateway Service (EFGS), to enable the apps from different countries to work together. It consists of a common server (hosted at the data centre of the European Commission in Luxembourg), which allows the designated national authorities or official bodies of member states to exchange data between the different corona apps.
+Die Europäische Union hat für die Zusammenarbeit zwischen den verschiedenen Corona-Apps eine digitale Infrastruktur eingerichtet. Sie heißt Europäischer Föderativer Gateway Service (EFGS). EFGS besteht aus einem gemeinsamen Server. (Der Server befindet sich im Datenzentrum der Europäischen Kommission in Luxemburg.) Dieser Server ermöglicht den betreffenden nationalen Behörden oder amtlichen Stellen der Mitgliedstaten den Austausch von Daten zwischen den verschiedenen Corona-Apps.
 
-The advantages of cooperation between countries are:
-- Users only need to install the app from their own country (for residents of the Netherlands, that means CoronaMelder).
-- About 18 countries will connect to the gateway, including a large area of Europe.
+Die Vorteile dieser internationalen Zusammenarbeit sind:
 
-Other countries can also join in the future if they meet the requirements. Once coronavirus has been brought under control, the infrastructure will be deactivated. 
+- Benutzer müssen nur die App des eigenen Landes installieren. (Für Einwohner der Niederlande ist das CoronaMelder.)
+- Etwa 18 Länder verbinden sich mit dem Gateway. Dadurch entsteht eine große Reichweite.
 
-## Privacy
+Andere Länder können sich in Zukunft auch anschließen, wenn sie dieselben Voraussetzungen erfüllen. Ist die Corona-Krise unter Kontrolle? Dann wird die Infrastruktur nicht mehr verwendet. 
 
-All apps from the European countries participating in the partnership will apply the same privacy principles. 
-- The protection of users' data will be the priority.
-- Using the app is always voluntary.
-- The apps do not collect location data, so they don't know where users are.
-- The apps meet high standards of security and privacy.
+## Datenschutz
 
-Data sent to the central server is stored for a maximum of 14 days, just like with CoronaMelder. Only the codes from the apps is sent to or stored on the server, and no other data. 
+Alle Apps der europäischen Länder, die an der Zusammenarbeit teilnehmen, erfüllen dieselben Voraussetzungen im Bereich Datenschutz: 
 
-European countries can connect to the common server if they have a decentralised app. The app retrieves the codes of any users who test positive and compares these with the codes on your phone.
+- Der Schutz der Daten von Benutzern ist sehr wichtig.
+- Die Verwendung der App ist freiwillig.
+- Die Apps sammeln keine Standortdaten. Sie wissen also nicht, wo sich Benutzer befinden.
+- Die Apps erfüllen die strengen Normen für Sicherheit und Datenschutz.
 
-In a centralised app, on the other hand, all the codes would be collected at a central location and compared there. You can find a [list of countries with centralised and decentralised apps here](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
+Die Daten, die an den gemeinsamen Server gesendet werden, werden höchstens 14 Tage gespeichert. Genau wie bei CoronaMelder. Nur die Codes aus den Apps werden an den Server gesendet oder dort gespeichert. Keine anderen Dateien. 
+
+Europäische Länder können sich mit dem gemeinsamen Server verbinden, wenn sie eine dezentralisierte App haben. Die App erfasst die Codes von Benutzern, die sich mit Corona angesteckt haben. Die App vergleicht dann die Codes mit den Codes auf Ihrem Telefon.
+
+Zum Vergleich: Bei einer zentralisierten App werden die Codes an einem zentralen Standort gesammelt und dort verglichen. Eine Übersicht der Länder mit zentralisierten und dezentralisierten Apps finden Sie [hier](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
+
+Mehr Informationen finden Sie bei den [Häufig gestellten Fragen](https://coronamelder.nl/nl/faq).
