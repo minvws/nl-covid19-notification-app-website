@@ -16,4 +16,10 @@ Blijk je zelf corona te hebben?
 - Zo kunnen zij voorkomen weer anderen te besmetten, nog voor ze ziek voelen. Bijvoorbeeld door thuis te blijven.
 - In deze melding staat alleen op welke dag ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.
 
-Zo helpt de app om elkaar te beschermen tegen corona. Dit kan nu in heel Nederland.
+Zo helpt de app om elkaar te beschermen tegen corona.
+
+Dit kan nu in Nederland, maar ook daarbuiten, in samenwerking met de corona-apps van EU-landen. Door de internationale samenwerking tussen apps worden bijvoorbeeld mensen in de grensregio’s van Nederland gewaarschuwd, of mensen die in Nederland verblijven omdat ze hier wonen, werken, vakantie vieren, winkelen et cetera. Zo weet je eerder of je ongemerkt in contact bent geweest met een besmet persoon die een corona-app gebruikt van een ander EU-land. 
+
+De samenwerking komt ook van pas als je vanaf volgend jaar misschien weer wél binnen de Europese Unie mag reizen. Het virus is dan nog niet weg en de samenwerkende apps ondersteunen dan het bron- en contactonderzoek. Op die manier krijgen we samen het virus onder controle. 
+
+Lees ook: [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen)

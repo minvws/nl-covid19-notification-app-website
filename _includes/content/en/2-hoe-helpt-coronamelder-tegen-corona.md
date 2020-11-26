@@ -14,3 +14,9 @@ If you test positive for coronavirus yourself:
 - This includes people you know, but also people you do not know: people who otherwise would not have been contacted. This is how the app supports the contact tracing work being done by the GGD.
 - In this way, users of the app can avoid infecting other people, even before they feel unwell. By staying at home, for example.
 - The notification only tells them that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
+
+This is now possible in the Netherlands, but also abroad, in collaboration with the corona apps of EU countries. For example, the international collaboration between apps warns people in the border regions of the Netherlands, or people who stay in the Netherlands because they live, work, celebrate holidays, shop here, etc. This way you know sooner whether you have been in contact with an infected person who uses a corona app from another EU country.
+
+The cooperation is also useful if travelling within the European Union is allowed again, possibly from next year on. The virus will not be gone and the collaborating apps will then support the research for sources and contacts. 
+
+See: [Does CoronaMelder also work with corona apps from other countries?](/en/faq/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen)
