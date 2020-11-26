@@ -20,9 +20,11 @@ As of 30 November 2020, CoronaMelder will cooperate with notification applicatio
 
 For the cooperation between the coronavirus apps from various countries, the European Commission has set up a digital infrastructure, the European Federation Gateway Service (EFGS). This consists of a common server that makes it possible to exchange data between the various coronavirus apps.
 
+
 ### 1. Who is responsible for the processing of the personal data? 
 
-To the extent personal data are processed in the design, the European coordination with other notification applications, and the management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
+To the extent personal data are processed in the design, the European coordination with other notification applications, and the management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller. 
+The Minister of Health, Welfare and Sport has a shared processing responsibility for the EFGS. The Minister shares this processing responsibility with the designated authorities of other participating countries. An up-to-date overview of the participating countries can be found in the section “CoronaMelder and abroad” in the frequently asked questions on CoronaMelder.nl.
 
 In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](http://www.GGD.nl) to find your GGD by entering the postal code of your home address. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence.
 
@@ -103,8 +105,7 @@ The sending and receiving of RPIs takes place locally on users' smartphones. Onc
 The GGD processes the validation code, with the date of the first day of illness, in the app's GGD portal, which is only accessible to authorised GGD employees.
 
 
-
-The DKs are exchanged with other European countries that have joined the cooperation through the European Federation Gateway Service (EFGS). Joining the EFGS goes step by step. An up-to-date overview of the participating countries can be found in the section "CoronaMelder and abroad" in the frequently asked questions on CoronaMelder.nl. The EFGS is managed by the European Commission (processor).
+The DKs are shared through the European Federated Gateway Service (EFGS) with other European countries that have an app with a similar security level and have joined the EFGS. Joining the EFGS goes step by step. An up-to-date overview of the participating countries can be found in the section “CoronaMelder and abroad” in the frequently asked questions on CoronaMelder.nl. The EFGS is managed by the European Commission (processor). The technical and organizational conditions for joining the EFGS are set out in the European implementing decision for cross-border exchange.
 
 
 

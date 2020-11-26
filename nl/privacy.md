@@ -21,7 +21,8 @@ CoronaMelder werkt vanaf 30 november 2020 samen met notificatieapplicaties van a
 De Europese Commissie heeft voor de samenwerking tussen de corona-apps uit verschillende landen een digitale infrastructuur opgezet, de Europese Federatieve Gateway Service (EFGS). Deze bestaat uit een gemeenschappelijke server die het voor mogelijk maakt gegevens uit te wisselen tussen de verschillende corona-apps.
 
 ### 1. Wie is verantwoordelijk voor de verwerking van de persoonsgegevens?
-De Minister van Volksgezondheid, Welzijn en Sport is verwerkingsverantwoordelijk voor zover persoonsgegevens worden verwerkt bij de inrichting, Europese samenwerking met andere notificatieapplicaties en het beheer van CoronaMelder.
+De Minister van Volksgezondheid, Welzijn en Sport is verwerkingsverantwoordelijk voor zover persoonsgegevens worden verwerkt bij de inrichting, Europese samenwerking met andere notificatieapplicaties en het beheer van CoronaMelder. De Minister van VWS is gedeeld verwerkingsverantwoordelijke voor de EFGS. Deze verwerkingsverantwoordelijkheid deelt de minister met de aangewezen autoriteiten van andere deelnemende landen. Een actueel overzicht van de deelnemende landen treft u bij het onderdeel “CoronaMelder en het buitenland” in de veel gestelde vragen op CoronaMelder.nl aan. 
+
 Voor zover de Gemeentelijke Gezondheidsdienst (GGD) bij de bron- en contactopsporing gebruik maakt van persoonsgegevens die via de app worden verkregen is de GGD van uw regio verwerkingsverantwoordelijke. Op <a href="https://www.ggd.nl" target="_blank" rel="noopener noreferrer">www.GGD.nl</a> kunt u vinden onder welke GGD u valt door de postcode van uw woonadres in te voeren. Indien u geen woonadres heeft in Nederland, kunt u de postcode van uw verblijfsplaats invoeren.
 
 ### 2. Met welk doel worden persoonsgegevens verwerkt?
@@ -67,7 +68,7 @@ Het uitzenden en ontvangen van de RPIs gebeurt lokaal op de smartphones. Als een
 
 De GGD verwerkt de validatiecode, met de datum van de eerste ziektedag, in het GGD-portaal van de app, welk portaal alleen toegankelijk is voor geautoriseerde GGD-medewerkers.
 
-De DKs worden via de Europese Federatieve Gateway Service (EFGS) met andere Europese landen die zich aan hebben gesloten bij de samenwerking. Aansluiten bij de EFGS gaat stap voor stap. Een actueel overzicht van de deelnemende landen vindt bij het onderdeel “CoronaMelder en het buitenland” in de veel gestelde vragen op CoronaMelder.nl. De EFGS wordt beheerd door de Europese Commissie (verwerker). 
+De DKs worden gedeeld via de Europese Federatieve Gateway Service (EFGS) met andere Europese landen die app hebben met vergelijkbaar beveiligingsniveau en zich aan hebben gesloten bij de EFGS. Aansluiten bij de EFGS gaat stap voor stap. Een actueel overzicht van de deelnemende landen vindt bij het onderdeel “CoronaMelder en het buitenland” in de veel gestelde vragen op CoronaMelder.nl. De EFGS wordt beheerd door de Europese Commissie (verwerker). De technische en organisatorische voorwaarden om aan te sluiten bij de EFGS staan in het Europees uitvoeringsbesluit voor grensoverschrijdende uitwisseling.
 
 De smartphones van andere gebruikers halen periodiek, enkele keren per dag, de DKs op die op deze backend server staan.
 
