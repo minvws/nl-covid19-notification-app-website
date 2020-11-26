@@ -19,8 +19,12 @@ featuredHomeText: The app works without your location, name, email address, phon
 ---
 
 The app exchanges random codes with other phones. These codes do not contain any personal information about you or your location. So the app does not know who you are or where you are.
+ 
+Even if you are infected with the corona virus and you report this via the app, this cannot be linked to your name or contact details. Moreover, using the app is completely voluntarily.
 
-Even if you are infected with coronavirus and you report this using the app, this information cannot be linked to your name or contact details. Using the app is also completely voluntary.
+This also applies to the corona apps from other EU countries with which CoronaMelder exchanges codes. CoronaMelder only works with corona apps that fully meet the same privacy requirements. Just like in the Netherlands, CoronaMelder and the other corona apps do not know who you are or where you are.
+
+See: [Does CoronaMelder also work with corona apps from other countries?](/en/faq/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen)
 
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
