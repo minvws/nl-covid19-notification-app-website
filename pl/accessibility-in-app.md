@@ -13,7 +13,7 @@ contentLang: en
 
 The CoronaMelder app follows the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/2018/REC-WCAG21-20180605/) on level AA as set out in the European standard EN 301 549. If this European standard is updated with specific guidelines for mobile applications, we will follow them.
 
-Find detailed information about the app's accessibility in our accessibility statement.
+Find detailed information about the app's accessibility in <a href="https://www.toegankelijkheidsverklaring.nl/register/749" hreflang="nl">our accessibility statement</a> (Dutch).
 
 ## How do we ensure CoronaMelder is accessible?
 

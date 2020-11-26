@@ -50,5 +50,4 @@ the iOS and Android distribution and the Mobile Application.
 
 ## Reporting vulnerabilities
 
-Any vulnerabilities can be confidentially (or anonymously) reported to the
-[National Cyber Security Center of the Dutch Government](https://www.ncsc.nl/contact/kwetsbaarheid-melden).
+Did you discover a weakness or vulnerability on the CoronaMelder app or on this website? We would like to be informed if you do. Report the vulnerability to [security@coronamelder.nl](mailto:security@coronamelder.nl) and we will look into the problem and resolve it as soon as possible.

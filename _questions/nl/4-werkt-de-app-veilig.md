@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 4
-set: 2
+set: 4
 title: Werkt de app veilig?
 lang: nl
 categories:

@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 1
-set: 4
+index: 4
+set: 3
 title: Kan het testadvies van de app nog veranderen? 
 lang: fy
 contentLang: nl

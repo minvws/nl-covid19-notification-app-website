@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 3
-set: 2
+set: 4
 title: Is de app verplicht?
 lang: nl
 categories:

@@ -1,9 +1,8 @@
 ---
 layout: content
-index: 1
-set: 4
+index: 3
+set: 3
 title: Can I pause the app while I am at school, at work or exercising?
-
 lang: en
 categories:
 - en

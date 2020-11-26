@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 1
-set: 4
+index: 8
+set: 3
 title: Waar kan ik hulp krijgen bij het installeren van de app?
 summary: 
 lang: nl

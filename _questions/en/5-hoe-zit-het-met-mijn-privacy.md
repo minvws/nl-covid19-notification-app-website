@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 5
-set: 2
+set: 4
 title: What about my privacy?
 summary: The app works without your location, name, email address, phone number, or other contact details.
 icon: privacy

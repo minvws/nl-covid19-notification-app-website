@@ -27,4 +27,4 @@ Deze licenties, voorwaarden en disclaimers vormen een integraal onderdeel van zo
 
 ## Melden van kwetsbaarheden
 
-Kwetsbaarheden kunnen vertrouwelijk gemeld worden bij het <a href="https://www.ncsc.nl/contact/kwetsbaarheid-melden" target="_blank" rel="noopener noreferrer">Nationaal Cyber Security Center van de Nederlandse Overheid</a> (ook anoniem).
+Ontdek je een zwakke plek of kwetsbaarheid op de CoronaMelder-app of op deze website? Dat willen we graag weten. Meld de kwetsbaarheid via [security@coronamelder.nl](mailto:security@coronamelder.nl), dan bekijken wij het probleem en lossen dit zo snel mogelijk op.

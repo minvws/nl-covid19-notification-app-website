@@ -10,10 +10,8 @@ Accessibility Statement, dated 9 October 2020
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
   The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please let us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] | url_encode | replace: "+", "%20" }}">helpdesk@coronamelder.nl</a>. <br />
-  This accessibility statement will shortly be brought up to date.
+  Find detailed information about the website's accessibility in <a href="https://www.toegankelijkheidsverklaring.nl/register/3214" hreflang="nl">our accessibility statement</a> (Dutch).
 </p>
-
-<a href="https://www.toegankelijkheidsverklaring.nl/register/3214" lang="nl" rel="noreferrer noopener">Toegankelijkheidsverklaring CoronaMelder.nl</a>
 
 
 ## What is an accessible website?
