@@ -1,8 +1,8 @@
 ---
 layout: content
-index: 13
-set: 2
-title: Ik gebruik al een corona-app uit een ander Europees land. Kan ik beide apps tegelijkertijd gebruiken?
+index: 1
+set: 1
+title: Werkt CoronaMelder ook met corona-apps uit andere landen?
 lang: fy
 contentLang: nl
 categories:
@@ -11,4 +11,4 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/13-gebruik-app-uit-ander-land.md %}
+{% include content/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen.md %}

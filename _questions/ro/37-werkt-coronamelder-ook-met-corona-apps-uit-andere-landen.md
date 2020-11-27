@@ -3,6 +3,7 @@ layout: content
 index: 1
 set: 1
 title: Does CoronaMelder also work with corona apps from other countries?
+published: false
 lang: ro
 contentLang: en
 categories:
