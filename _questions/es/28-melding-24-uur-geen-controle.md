@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 2
-title: What should I do if I receive a notification about 24 hours with no checks by the app?
+title: What should I do if I receive a notification about no checks by the app for 24 hours?
 lang: es
 contentLang: en
 categories:
