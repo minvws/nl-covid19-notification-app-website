@@ -4,7 +4,6 @@ lang: fy
 title: Privacyferklearring CoronaMelder
 contentLang: nl
 ---
-
 ## Over CoronaMelder
 
 CoronaMelder (app) is een technisch hulpmiddel dat helpt bij het beperken van de verspreiding van het COVID-19 virus. Als u CoronaMelder op uw smartphone heeft geïnstalleerd ontvangt u een bericht als u enige tijd in de buurt bent geweest van iemand die positief getest is op COVID-19, en deze persoon CoronaMelder ook geïnstalleerd heeft. Hieronder wordt in het kort uitgelegd hoe CoronaMelder werkt.
@@ -22,18 +21,20 @@ CoronaMelder werkt vanaf 30 november 2020 samen met notificatieapplicaties van a
 De Europese Commissie heeft voor de samenwerking tussen de corona-apps uit verschillende landen een digitale infrastructuur opgezet, de Europese Federatieve Gateway Service (EFGS). Deze bestaat uit een gemeenschappelijke server die het voor mogelijk maakt gegevens uit te wisselen tussen de verschillende corona-apps.
 
 ### 1. Wie is verantwoordelijk voor de verwerking van de persoonsgegevens?
-De Minister van Volksgezondheid, Welzijn en Sport is verwerkingsverantwoordelijk voor zover persoonsgegevens worden verwerkt bij de inrichting, Europese samenwerking met andere notificatieapplicaties en het beheer van CoronaMelder.
-Voor zover de Gemeentelijke Gezondheidsdienst (GGD) bij de bron- en contactopsporing gebruik maakt van persoonsgegevens die via de app worden verkregen is de GGD van uw regio verwerkingsverantwoordelijke. Op <a href="https://www.ggd.nl" target="_blank" rel="noopener noreferrer">www.GGD.nl</a> kunt u vinden onder welke GGD u valt door de postcode van uw woonadres in te voeren. Indien u geen woonadres heeft in Nederland, kunt u de postcode van uw verblijfsplaats invoeren.
+ De Minister van Volksgezondheid, Welzijn en Sport is verwerkingsverantwoordelijk voor zover persoonsgegevens worden verwerkt bij de inrichting, Europese samenwerking met andere notificatieapplicaties en het beheer van CoronaMelder. De Minister van VWS is samen met de aangewezen autoriteiten van andere deelnemende landen, gezamenlijk verwerkingsverantwoordelijke voor de EFGS. Een actueel overzicht van de deelnemende landen treft u bij het onderdeel ["CoronaMelder en het buitenland"](https://www.coronamelder.nl/nl/faq/13-gebruik-app-uit-ander-land/) in de veel gestelde vragen op CoronaMelder.nl aan.
+
+Voor zover de Gemeentelijke Gezondheidsdienst (GGD) bij de bron- en contactopsporing gebruik maakt van persoonsgegevens die via de app worden verkregen is de GGD van uw regio verwerkingsverantwoordelijke. Op <a href="https://www.ggd.nl" target="_blank" rel="noopener noreferrer">www.GGD.nl</a> kunt u vinden onder welke GGD u valt door de postcode van uw woonadres in te voeren. Indien u geen woonadres heeft in Nederland, kunt u de postcode van uw verblijfsplaats invoeren.
+
 
 ### 2. Met welk doel worden persoonsgegevens verwerkt?
 Deze app is ontwikkeld als aanvulling op de bron- en contactopsporing van de GGD. Het doel ervan is om gebruikers met een verhoogde besmettingskans snel en op eenvoudige wijze te informeren, met een zeer hoge bescherming van uw privacy.
 
 ### 3. Grondslag voor het verwerken van persoonsgegevens
-In de app kunnen persoonsgegevens worden verwerkt. De grondslag voor het verwerken van persoonsgegevens is de vervulling van, kort gezegd, een publieke taak. Voor de Minister van Volksgezondheid, Welzijn en Sport gaat het daarbij om de publieke taak om, kort gezegd, leiding te geven aan de bestrijding van COVID-19 en om zorg te dragen voor de instandhouding en verbetering van de landelijke ondersteuningsstructuur. 
-Voor de GGD-en gaat het om de taak om bron- en contactopsporing te doen bij meldingen van een besmetting met COVID-19.
+ In de app kunnen persoonsgegevens worden verwerkt. De grondslag voor het verwerken van persoonsgegevens is de vervulling van, kort gezegd, een publieke taak. Voor de Minister van Volksgezondheid, Welzijn en Sport gaat het daarbij om de publieke taak om, kort gezegd, leiding te geven aan de bestrijding van COVID-19 en om zorg te dragen voor de instandhouding en verbetering van de landelijke ondersteuningsstructuur.
 
-Met het invoeren van CoronaMelder als ondersteunend middel voor bron- en contactopsporing wordt dus uitvoering gegeven aan hiervoor genoemde publieke taken van de Minister van Volksgezondheid, Welzijn en Sport en de GGD-en. De inzet van CoronaMelder ter uitvoering van deze publieke taak is te vinden in artikel 6d van de Wet publieke gezondheid. 
-Downloaden en gebruik van CoronaMelder is en blijft vrijwillig. Dit betekent dat niemand u mag dwingen om CoronaMelder te gebruiken. 
+Voor de GGD-en gaat het om de taak om bron- en contactopsporing te doen bij meldingen van een besmetting met COVID-19. 
+
+Met het invoeren van CoronaMelder als ondersteunend middel voor bron- en contactopsporing wordt dus uitvoering gegeven aan hiervoor genoemde publieke taken van de Minister van Volksgezondheid, Welzijn en Sport en de GGD-en. De inzet van CoronaMelder ter uitvoering van deze publieke taak is te vinden in artikel 6d van de [Wet publieke gezondheid](https://wetten.overheid.nl/BWBR0024705/2020-10-10). 
 
 ### 4. Welke persoonsgegevens worden verwerkt?
 In het kader van de app worden de volgende gegevens verwerkt:
@@ -64,11 +65,11 @@ In aanvulling op de DKs, eerste ziektedag, en validatiecode wordt ook het IP-adr
 De met de app verzamelde gegevens worden uitsluitend gebruikt voor de in deze privacyverklaring genoemde doeleinden. Er wordt geen statistische informatie gegenereerd.
 
 ### 6. Aan wie worden persoonsgegevens verstrekt?
-Het uitzenden en ontvangen van de RPIs gebeurt lokaal op de smartphones. Als een besmetting is vastgesteld kan de gebruiker ervoor kiezen zijn of haar TEKs, tezamen met een unieke validatiecode, naar de backend server te sturen. De backend server wordt beheerd door het CIBG met KPN als onderaannemer (verwerker).
+ Het uitzenden en ontvangen van de RPIs gebeurt lokaal op de smartphones. Als een besmetting is vastgesteld kan de gebruiker ervoor kiezen zijn of haar TEKs, tezamen met een unieke validatiecode, naar de backend server te sturen. De backend server wordt beheerd door het CIBG met KPN als onderaannemer (verwerker).
 
 De GGD verwerkt de validatiecode, met de datum van de eerste ziektedag, in het GGD-portaal van de app, welk portaal alleen toegankelijk is voor geautoriseerde GGD-medewerkers.
 
-De DKs worden via de Europese Federatieve Gateway Service (EFGS) met andere Europese landen die zich aan hebben gesloten bij de samenwerking. Aansluiten bij de EFGS gaat stap voor stap. Een actueel overzicht van de deelnemende landen vindt bij het onderdeel “CoronaMelder en het buitenland” in de veel gestelde vragen op CoronaMelder.nl. De EFGS wordt beheerd door de Europese Commissie (verwerker). 
+De DKs worden gedeeld via de Europese Federatieve Gateway Service (EFGS) met andere Europese landen die app hebben met vergelijkbaar beveiligingsniveau en zich aan hebben gesloten bij de EFGS. Aansluiten bij de EFGS gaat stap voor stap. Een actueel overzicht van de deelnemende landen vindt bij het onderdeel ["CoronaMelder en het buitenland"](https://www.coronamelder.nl/nl/faq/13-gebruik-app-uit-ander-land/) in de veel gestelde vragen op CoronaMelder.nl. De EFGS wordt beheerd door de Europese Commissie (verwerker). De technische en organisatorische voorwaarden om aan te sluiten bij de EFGS staan in het [Europees uitvoeringsbesluit voor grensoverschrijdende uitwisseling](https://eur-lex.europa.eu/eli/dec_impl/2020/1023/oj).
 
 De smartphones van andere gebruikers halen periodiek, enkele keren per dag, de DKs op die op deze backend server staan.
 

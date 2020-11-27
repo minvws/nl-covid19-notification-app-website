@@ -3,7 +3,6 @@ layout: in-app-content
 lang: en
 title: CoronaMelder Privacy Statement
 --- 
-
 ## About CoronaMelder
 
 CoronaMelder (app) is a technical tool that helps limit the spread of the COVID-19 virus. If you have installed CoronaMelder on your smartphone, you will receive a message if you have been in the proximity (for some time) of a person who has tested positive for COVID-19, and this person has also installed CoronaMelder. Below we will briefly explain how CoronaMelder works.
@@ -20,12 +19,12 @@ As of 30 November 2020, CoronaMelder will cooperate with notification applicatio
 
 For the cooperation between the coronavirus apps from various countries, the European Commission has set up a digital infrastructure, the European Federation Gateway Service (EFGS). This consists of a common server that makes it possible to exchange data between the various coronavirus apps.
 
+
 ### 1. Who is responsible for the processing of the personal data? 
 
-To the extent personal data are processed in the design, the European coordination with other notification applications, and the management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller.
-The Minister of Health, Welfare and Sport has a shared processing responsibility for the EFGS. The Minister shares this processing responsibility with the designated authorities of other participating countries. An up-to-date overview of the participating countries can be found in the section “CoronaMelder and abroad” in the frequently asked questions on CoronaMelder.nl.
+To the extent personal data are processed in the design, the European coordination with other notification applications, and the management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller. The Minister of Health, Welfare and Sport  and the designated authorities of other participating countries are joint controllers for the EFGS. The list of participating countries is subject to change. An up-to-date overview of the participating countries can be found in the section “[CoronaMelder and abroad](https://www.coronamelder.nl/en/faq/13-gebruik-app-uit-ander-land/)” in the frequently asked questions on CoronaMelder.nl.
 
-In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](http://www.GGD.nl) to find your GGD by entering the postal code of your home address. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence.
+In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](http://www.GGD.nl) to find your GGD by entering the postal code of your home address. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence. 
 
 ### 2. For what purpose are personal data processed? 
 
@@ -37,15 +36,9 @@ Personal data can be processed in the app. The basis for the processing of perso
 
 For the GGDs, the duty is to perform source and contract tracing if there has been a report of an infection with COVID-19.
 
-The introduction of CoronaMelder as a supporting tool for source and contact trading thus helps carry out the aforementioned duties of the Minister of Health, Welfare and Sport and the GGDs. The use of CoronaMelder to execute this public duty can be found in Section 6d of the Public Health Act.
-
-
+The introduction of CoronaMelder as a supporting tool for source and contact trading thus helps carry out the aforementioned duties of the Minister of Health, Welfare and Sport and the GGDs. The use of CoronaMelder to execute this public duty can be found in Article 6d of the Wet publieke gezondheid.
 
 Downloading and using CoronaMelder is and remains voluntary. This means that no one is allowed to force you to use CoronaMelder.
-
-
-
-
 
 ### 4. What personal data are processed? 
 
@@ -97,20 +90,13 @@ The data collected with the app will only be used for the purposes stated in thi
 
 ### 6. Who is provided with personal data?
 
-The sending and receiving of RPIs takes place locally on users' smartphones. Once an infection has been detected, the user can choose to send his or her TEKs, along with a unique validation code, to the backend server. The backend server is administered by the CIBG with KPN as subcontractor (processor).
+ The sending and receiving of RPIs takes place locally on users’ smartphones. Once an infection has been detected, the user can choose to send his or her TEKs, along with a unique validation code, to the backend server. The backend server is administered by the CIBG with KPN as subcontractor (processor).
 
+The GGD processes the validation code, with the date of the first day of illness, in the app’s GGD portal, which is only accessible to authorised GGD employees.
 
+The DKs are shared through the European Federated Gateway Service (EFGS) with other European countries that have an app with a similar level of security  and have joined the EFGS. The list of participating countries is subject to change. An up-to-date overview of the participating countries can be found in the section “[CoronaMelder and abroad](https://www.coronamelder.nl/en/faq/13-gebruik-app-uit-ander-land/)” in the frequently asked questions on CoronaMelder.nl. The EFGS is managed by the European Commission (processor). The technical and organizational conditions for joining the EFGS are set out in the [European implementing decision](https://eur-lex.europa.eu/eli/dec_impl/2020/1023/oj) for cross-border exchange.
 
-The GGD processes the validation code, with the date of the first day of illness, in the app's GGD portal, which is only accessible to authorised GGD employees.
-
-
-
-The DKs are shared through the European Federated Gateway Service (EFGS) with other European countries that have an app with a similar security level and have joined the EFGS. Joining the EFGS goes step by step. An up-to-date overview of the participating countries can be found in the section “CoronaMelder and abroad” in the frequently asked questions on CoronaMelder.nl. The EFGS is managed by the European Commission (processor). The technical and organizational conditions for joining the EFGS are set out in the European implementing decision for cross-border exchange.
-
-
-
-The smartphones of other users periodically – a few times a day – retrieve the DKs stored on this backend server. 
-
+The smartphones of other users periodically – a few times a day – retrieve the DKs stored on this backend server.
 
 
 ### 7. Retention of personal data
@@ -153,4 +139,4 @@ The Minister of Health, Welfare and Sport and the GGD take the protection of you
 
 This privacy statement is subject to amendment. In that case, we will publish the amended privacy statement on our website, after it will have immediate effect. 
 
-Most recent update: 23 November 2020
+Most recent update: 27 November 2020
