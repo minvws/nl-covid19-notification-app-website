@@ -20,9 +20,7 @@ featuredHomeText: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de da
 
 Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
  
-Blijf daarom thuis tot 10 dagen na de datum van het contact met een besmette persoon. Daarmee voorkom je dat je ook anderen besmet.
-
-Heb je klachten, binnen die 10 dagen of erna? Neem dan contact op met de GGD om je te laten testen.
+Als uit een melding in de CoronaMelder-app blijkt dat je in de buurt bent geweest van een besmette persoon, kun je je laten testen als je (nog) geen klachten hebt. Dat kan vanaf 5 dagen na het laatste risicovolle contact. Als de test negatief is, dan hoef je niet meer in quarantaine te blijven. Zo wordt de quarantaineperiode na een melding in CoronaMelder flink ingekort. 
  
 Bel [0800-1202](tel:+318001202) of ga naar [coronatest.nl](https://www.coronatest.nl) om een gratis coronatest aan te vragen.
 
