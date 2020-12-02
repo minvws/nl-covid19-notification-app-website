@@ -29,9 +29,8 @@
 //
 
 .footer-links {
-
-    li > a {
-        position: relative;
+    ul li { 
+        padding-left: 0;
         padding-right: 20px;
     }
 
@@ -50,6 +49,8 @@
         transition: var(--transition-out);
         display: inline-block;
         margin-left: 5px;
+        top: 5px;
+        right: -20px;
     }
 }
 

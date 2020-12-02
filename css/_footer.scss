@@ -191,17 +191,20 @@
     
     a, a:visited {
         color: #fff;
+        position: relative;
     }
 
     li > a:before {
         content: '';
-        position: relative;
+        position: absolute;
         height: 10px;
         width: 10px;
         background: url(../img/chevron-right-white.svg) no-repeat 50% 50%;
         transition: var(--transition-out);
         display: inline-block;
         margin-right: 5px;
+        top: 5px;
+        left: -20px;
     }
 
     h3 {
@@ -213,6 +216,7 @@
     ul li {
         list-style: none;
         margin-bottom: 0.4em;
+        padding-left: 20px;
         
         a {
             display: block;
