@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: Wat moat ik dwaan as ik in melding krij?
 icon: mobile-check

@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: Bir bildirim alırsam ne yapmalıyım?
 icon: mobile-check

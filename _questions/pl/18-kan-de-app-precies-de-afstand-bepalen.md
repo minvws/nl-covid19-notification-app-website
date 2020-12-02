@@ -3,6 +3,7 @@ layout: content
 index: 4
 set: 2
 title: Can the app tell exactly what the distance was?
+published: false
 contentLang: en
 lang: pl
 categories:

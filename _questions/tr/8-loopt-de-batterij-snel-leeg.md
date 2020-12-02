@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 8
+index: 11
 set: 2
 title: Will the app drain my phone battery?
 lang: tr

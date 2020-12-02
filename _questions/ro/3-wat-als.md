@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: Ce trebuie să fac dacă primesc o notificare?
 icon: mobile-check

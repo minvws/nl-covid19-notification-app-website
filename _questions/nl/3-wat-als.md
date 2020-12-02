@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: Wat moet ik doen als ik een melding krijg?
 icon: mobile-check

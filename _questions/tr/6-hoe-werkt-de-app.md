@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 6
+index: 9
 set: 2
 title: Uygulama nasıl çalışır?
 summary: Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir.

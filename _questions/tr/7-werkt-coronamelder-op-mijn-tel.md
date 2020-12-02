@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 7
+index: 2
 set: 2
 title: CoronaMelder telefonumda da çalışıyor mu?
 summary: CoronaMelder, sürüm 6 veya daha yenisine sahip çoğu Android telefonda ve iOS 13.5 veya daha yenisine sahip iPhone'larda çalışır.

@@ -14,10 +14,11 @@ Alleen dan kan de app meten of je bij andere telefoons met CoronaMelder in de bu
 
 6. Blijk je zelf corona te hebben? Dan is het jouw eigen keuze of je jouw besmetting – samen met de GGD – wilt melden in de app.
 
-
 ## Vind je het installeren van de app lastig?
 Vraag dan een familielid of bekende om te helpen.
 Ook veel bibliotheken kunnen je helpen bij het installeren.
 
 Of bel de Helpdesk CoronaMelder op <a href="tel:08001280">0800-1280</a>.
 Daar kun je ook terecht met technische vragen over de app.
+
+[Bekijk hier de uitleg van Steffie](https://corona.steffie.nl/nl/#!/nl/modules/de-coronamelder-app/60/stap-1.html). Steffie legt moeilijke dingen makkelijk uit.

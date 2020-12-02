@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: ¿Qué tengo que hacer si recibo una notificación?
 icon: mobile-check

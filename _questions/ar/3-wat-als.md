@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: ما الذي يجب عليّ القيام به بعد أن تلقيت إشعارًا؟
 icon: mobile-check

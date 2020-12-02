@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 8
+index: 11
 set: 2
 title: Hoeveel stroom gebruikt de app?
 lang: fy

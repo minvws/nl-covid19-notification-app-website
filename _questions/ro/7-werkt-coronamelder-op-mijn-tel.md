@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 7
+index: 2
 set: 2
 title: Funcționează CoronaMelder și pe telefonul meu?
 summary: CoronaMelder funcționează pe majoritatea telefoanelor Android cu versiunea 6 sau mai recentă și pe iPhone cu iOS 13.5 sau mai recent.

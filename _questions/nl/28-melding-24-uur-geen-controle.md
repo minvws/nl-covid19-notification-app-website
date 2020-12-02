@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 1
+index: 13
 set: 2
 title: Wat moet ik doen met deze melding over 24 uur geen controle door de app? 
 summary: 

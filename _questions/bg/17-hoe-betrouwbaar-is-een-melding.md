@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 3
-set: 5 
+index: 7
+set: 2
 title: How reliable are the notifications?
 lang: bg
 categories:

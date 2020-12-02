@@ -3,6 +3,7 @@ layout: content
 index: 4
 set: 2
 title: Kan de app precies de afstand bepalen?
+published: false
 lang: nl
 categories:
 - nl

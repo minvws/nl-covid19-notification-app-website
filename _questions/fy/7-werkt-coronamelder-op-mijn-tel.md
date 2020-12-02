@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 7
+index: 2
 set: 2
 title: Wurket CoronaMelder ek op myn telefoan?
 lang: fy

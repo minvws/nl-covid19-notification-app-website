@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 6
+index: 9
 set: 2
 title: Hoe wurket de app?
 lang: fy

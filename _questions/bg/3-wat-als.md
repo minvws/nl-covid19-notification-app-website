@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 title: Какво трябва да правя, ако получа известие?
 icon: mobile-check

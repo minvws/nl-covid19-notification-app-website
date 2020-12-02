@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 7
 set: 2
 title: Hoe betrouwbaar is een melding?
 lang: fy

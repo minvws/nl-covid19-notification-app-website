@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 6
+index: 9
 set: 2
 title: How does the app work?
 lang: en

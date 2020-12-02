@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 5
 set: 2
 summary: You are advised to stay at home until 10 days after the date of contact. If you have symptoms, you should get a coronavirus test.
 title: What should I do if I get a notification? 

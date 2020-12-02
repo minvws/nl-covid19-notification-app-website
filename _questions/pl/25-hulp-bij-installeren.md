@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 8
-set: 3
+index: 3
+set: 2
 title: Where can I get help installing the app?
 contentLang: en
 lang: pl

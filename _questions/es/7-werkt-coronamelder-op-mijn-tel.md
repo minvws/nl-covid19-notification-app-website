@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 7
+index: 2
 set: 2
 title: ¿Funciona CoronaMelder en mi teléfono?
 summary: CoronaMelder funciona en la mayoría de los teléfonos Android con la versión 6 o superior y en iPhones con iOS 13.5 o superior.
