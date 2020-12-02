@@ -1,8 +1,8 @@
 ---
 layout: content
-index: 6
+index: 7
 set: 3
-title: How does CoronaMelder know that I am in the same room as someone else?
+title: Are CoronaMelder codes exchanged through walls, and does this mean I can get a notification? 
 lang: ro
 contentLang: en
 categories:

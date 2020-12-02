@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 2
+index: 3
 set: 3
 title: Hoe kunnen scholieren CoronaMelder het beste gebruiken?
 lang: fy

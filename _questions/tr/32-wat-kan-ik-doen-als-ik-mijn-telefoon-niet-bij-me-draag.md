@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 7
+index: 5
 set: 3
 title: What can I do if I don't carry my phone with me?
 lang: tr

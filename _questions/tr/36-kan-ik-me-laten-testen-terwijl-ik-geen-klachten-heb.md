@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 3
-title: Can I get tested while I have no complaints?
+title: Could I shorten my quarantine by getting tested after receiving a notification, but without having complaints?
 lang: tr
 contentLang: en
 categories:

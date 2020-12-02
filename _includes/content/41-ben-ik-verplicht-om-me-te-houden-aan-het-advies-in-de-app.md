@@ -1,0 +1,1 @@
+Het is een advies, bedoeld voor je eigen gezondheid en om te voorkomen dat je misschien een ander besmet. Je kunt je melden bij de GGD voor een afspraak om je te laten testen. Dat kan na een melding vanuit de CoronaMelder-app ook als je geen klachten hebt.

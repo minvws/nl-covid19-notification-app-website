@@ -1,8 +1,8 @@
 ---
 layout: content
 index: 5
-set: 3
-title: Kan ik CoronaMelder ook tijdens mijn werk gebruiken?
+set: 4
+title: Mag ik CoronaMelder ook tijdens mijn werk gebruiken?
 lang: nl
 categories:
 - nl

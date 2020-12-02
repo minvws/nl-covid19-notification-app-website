@@ -1,8 +1,8 @@
 ---
 layout: content
-index: 6
+index: 7
 set: 3
-title: Hoe weet CoronaMelder dat ik in dezelfde ruimte ben als iemand anders?
+title: Worden er door muren heen codes uitgewisseld en kun je dan ook een melding krijgen?
 lang: fy
 contentLang: nl
 categories:

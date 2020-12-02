@@ -2,7 +2,7 @@
 layout: content
 index: 1
 set: 3
-title: Kan ik me laten testen, terwijl ik geen klachten heb?
+title: Kan ik mijn quarantaine verkorten door me te laten testen zonder klachten na een melding?
 lang: nl
 categories:
 - nl

@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 4
 set: 3
 title: Can I pause the app while I am at school, at work or exercising?
 contentLang: en
