@@ -4,36 +4,39 @@ lang: fr
 title: Collaboration de CoronaMelder avec les autres pays
 permalink: /fr/interoperabiliteit
 ---
-CoronaMelder collaborera dès fin novembre 2020 avec les applications Coronavirus d’une série d’autres pays de l’Union européenne. Le nombre de pays qui adhèrera ne fera qu’augmenter les mois suivants.
+Depuis le 30 novembre 2020, CoronaMelder échange des codes avec les applications d’une série d’autres pays européens. Ceci se fait de la même façon qu’entre deux utilisateurs de CoronaMelder. Si un test de dépistage révèle par la suite que l’un des utilisateurs a le Covid-19 et qu’il le signale dans l’application, l’autre reçoit une notification.
 
-Cette collaboration aide à lutter contre la diffusion du Coronavirus. Ceci vaut pour les utilisateurs de CoronaMelder qui vont à l’étranger mais aussi pour ceux des autres pays qui viennent aux Pays-Bas. Cela peut par exemple s’avérer important pour les personnes qui habitent dans les régions frontalières avec l’Allemagne ou la Belgique et quand nous nous rendrons à nouveau à l’étranger pour les vacances. En tant qu’utilisateur, vous ne devez rien faire ; il est inutile de télécharger une nouvelle version de CoronaMelder et vous ne devez pas non plus utiliser l’application Covid-19 de ces autres pays. 
+Depuis le 30 novembre, CoronaMelder travaille avec les applications de Covid-19 des pays suivants :
 
-Supposez par exemple que vous avez été proche d’un utilisateur de l’application allemande Corona-Warn. Cette personne est testée en Allemagne et s’avère par la suite avoir le Coronavirus. Si cette personne partage ses codes avec le GGD allemand, CoronaMelder vous enverra une notification. Il en va de même en sens inverse. Comme les applications Coronavirus fonctionnent les unes avec les autres, il vous suffit donc de télécharger une seule application ; pour les habitants des Pays-Bas, c’est CoronaMelder.
+- Allemagne
+- Italie
+- Irlande
+- Espagne
+- Lettonie
+- Croatie
+- Danemark
 
-## Collaboration européenne
+## Pourquoi cette collaboration ?
 
-Pour la collaboration entre les applications Coronavirus des différents pays, l’Union européenne a mis en place une infrastructure numérique, le Service de Passerelle Fédérale Européenne (« *European Federation Gateway Service* » (EFGS)). Cette infrastructure se compose d’un serveur collectif (hébergé au centre de données de la Commission Européenne à Luxembourg) qui permet aux autorités nationales ou instances officielles désignées des états membres d’échanger des données entre les différentes applications Coronavirus.
+Vous pouvez rencontrer un utilisateur d’une application de Covid-19 étranger aux Pays-Bas, par exemple si vous rencontrez un Allemand en voyage ici. Ou vous pouvez vous-même rencontrer à l’étranger un autre voyageur, par exemple si vous allez en Allemagne ou si vous rencontrez un Allemand au Danemark. 
 
-Les avantages de cette collaboration internationale sont les suivants :
+Si l’utilisateur étranger s’avère par la suite avoir le Covid-19 et décide de le signaler dans l’application, CoronaMelder vous enverra une notification. Et vice versa. La collaboration avec les applications des autres pays est donc également pratique pour ceux qui habitent et/ou travaillent dans les régions frontalières.
 
-- Les utilisateurs ne doivent installer que l’application de leur pays (pour les habitants des Pays-Bas : CoronaMelder).
-- Environ 18 pays ont adhéré à la passerelle, ce qui donne lieu à une portée considérable.
+## Signaler le résultat du test dans CoronaMelder
 
-D’autres pays pourront la rejoindre dans le futur s’ils répondent aux mêmes conditions. Dès que la crise du Coronavirus sera sous contrôle, l’infrastructure sera désactivée. 
+CoronaMelder ne travaille qu’avec le GGD néerlandais et les tests reconnus aux Pays-Bas. Si vous faites un test de dépistage du Covid-19 à l’étranger et qu’il s’avère que vous êtes contaminé, vous ne pouvez donc pas le signaler sur CoronaMelder.
 
 ## Confidentialité
 
-Toutes les applications des pays européens qui participent à la collaboration satisfont aux mêmes principes en matière de confidentialité : 
+Les applications des pays européens avec lesquels CoronaMelder travaille ont toutes les mêmes principes en matière de confidentialité :
 
-- La protection des données des utilisateurs est de la plus grande importance.
-- L’utilisation de l’application est sur base volontaire.
+- La protection des données des utilisateurs est la condition principale.
+- L’utilisation de l’application est volontaire.
 - Les applications ne recueillent pas de données de localisation ; elles ne savent donc pas où se trouvent les utilisateurs.
 - Les applications répondent à des normes élevées de sécurité et de confidentialité.
 
-Les données envoyées au serveur collectif sont conservées, tout comme pour CoronaMelder, pendant un maximum de 14 jours. Aucune autre donnée que les codes des applications n’est envoyée au ou enregistrée sur le serveur. 
+Les données envoyées au serveur collectif sont conservées, tout comme pour CoronaMelder, pendant un maximum de 14 jours. Aucune autre donnée que les codes des applications n’est envoyée au ou enregistrée sur le serveur.
 
 Les pays européens peuvent se connecter au serveur collectif s’ils ont une application décentralisée. L’application extrait les codes des utilisateurs qui s’avèrent être contaminés et les compare avec les codes sur votre téléphone.
 
-Pour la comparaison : dans le cas d’une application centralisée, ces codes sont réunis à un endroit central où ils sont comparés. Vous trouverez la liste des pays avec les applications centralisées et décentralisées [ici](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
-
-Veuillez consulter [les Questions fréquentes](https://coronamelder.nl/nl/faq) pour plus d’informations. 
+Pour la comparaison : dans le cas d’une application centralisée, ces codes sont réunis à un endroit central où ils sont comparés. Consultez la liste des [pays avec des applications centralisées et décentralisées](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en).

@@ -4,38 +4,39 @@ lang: tr
 title: CoronaMelder’ın diğer ülkelerle işbirliği
 permalink: /tr/interoperabiliteit
 ---
-CoronaMelder, Kasım 2020'nin sonundan itibaren Avrupa Birliği'ndeki diğer bazı ülkelerin Korona uygulamalarıyla birlikte çalışacaktır. Önümüzdeki aylarda ülke sayısı artacaktır.
+30 Kasım 2020'den itibaren CoronaMelder, diğer birçok Avrupa ülkesinden gelen uygulamalarla kod alışverişinde bulunacak. Bu, iki CoronaMelder kullanıcısı arasında olduğu gibi yapılacaktır. Daha sonra Korona testinden birinizin Korona olduğu anlaşılırsa ve bunu uygulamada bildirirse, diğeri bir bildirim alır.
 
+30 Kasım'dan itibaren CoronaMelder, aşağıda belirtilen ülkelerin Korona uygulamalarıyla birlikte çalışıyor:
 
+- Almanya
+- İtalya
+- İrlanda
+- İspanya
+- Letonya
+- Hırvatistan
+- Danimarka
 
-Bu işbirliği, Korona virüsünün yayılmasını önlemeye yardımcı olur. Bu, CoronaMelder'ın yurtdışına giden kullanıcıları ve diğer ülkelerden Hollanda'ya gelen kişiler için geçerlidir. Bu, örneğin Almanya veya Belçika ile sınır bölgesinde yaşayan insanlar için ve tekrar yurtdışına tatile gittiğimizde önemli olabilir. Bir kullanıcı olarak bunun için hiçbir şey yapmanız gerekmiyor; CoronaMelder'ın yeni bir sürümünü indirmenize gerek yoktur ve diğer ülkelerin Korona uygulamasınıkullanmanıza gerek yoktur.
+## Neden bu işbirliği?
 
-Uzun süredir bir Alman Corona-Warn-App kullanıcısın yakınında bulunduğunuzu varsayalım. Bu kişi Almanya'da test edildi ve Korona olduğu anlaşıldı. Bu kişi kodlarını Alman GGD ile paylaşırsa, CoronaMelder aracılığıyla bir bildirim alırsınız. Aynı şey tam tersi için de geçerli. Korona uygulamaları birlikte çalıştığı için sadece bir uygulama indirmeniz gerekir; Hollanda'da ikamet eden bir kişi olarak, bu CoronaMelder’dır.
+Hollanda'da bir Korona uygulamasının yabancı bir kullanıcısıyla karşılaşabilirsiniz, örneğin Almanya'dan buraya seyahat eden biriyle tanışırsanız. Veya yurt dışında başka bir yolcuyla karşılaşabilirsiniz, örneğin Almanya'ya seyahat ediyorsanız. Veya Danimarka'da Almanya'dan biriyle karşılaşabilirsiniz.
 
-## Avrupa işbirliği
+Yabancı kullanıcının daha sonra Korona olduğu ortaya çıkarsa ve bunu uygulamada bildirmeye karar verirse, CoronaMelder'dan bir bildirim alacaksınız. Ve tam tersi. Bu nedenle, diğer ülkelerden gelen uygulamalarla işbirliği, sınır bölgelerinde yaşayan ve / veya çalışan insanlar için de yararlıdır.
 
-Avrupa Birliği, farklı ülkelerden Korona uygulamaları arasındaki işbirliği için bir dijital altyapı, Avrupa Birleşik Ağ Geçidi Hizmeti (EFGS) kurdu. Bu hizmet Üye Devletlerin yetkili ulusal makamlarının veya resmi kurumlarının farklı Korona uygulamaları arasında veri alışverişi yapmasına olanak tanıyan ortak bir sunucudan (Lüksemburg'daki Avrupa Komisyonu veri merkezinde barındırılan) oluşmaktadır.
+## Test sonucunu CoronaMelder'da belirtin
 
-Bu uluslararası işbirliğinin avantajları şunlardır:
-
-
-
-- Kullanıcıların uygulamayı sadece kendi ülkelerinden yüklemeleri gerekir (Hollanda'da ikamet edenler: CoronaMelder).
-- Geniş bir aralık sağlayan ağ geçidine yaklaşık 18 ülke bağlanır.
-
-Aynı koşulları karşıladıkları takdirde diğer ülkeler de gelecekte katılabilirler. Korona krizi kontrol altına alındığında altyapı devre dışı bırakılacaktır. 
+CoronaMelder yalnızca Hollanda GGD’si ile ve Hollanda'da tanınan testlerle işbirliği içinde çalışır. Yurtdışında bir Korona testi yaptırırsanız ve enfekte olduğunuz anlaşılırsa, bunu CoronaMelder aracılığıyla bildiremezsiniz.
 
 ## Gizlilik
 
-İşbirliğine katılan Avrupa ülkelerinden tüm uygulamalar aynı gizlilik ilkelerine bağlıdır:
+CoronaMelder'ın işbirliği yaptığı Avrupa ülkelerinin uygulamalarının hepsi, gizlilik alanında aynı ilkelere sahiptir:
 
-- Kullanıcı verilerinin korunması son derece önemlidir.
+- Kullanıcı verilerinin korunması en önemli şarttır.
 - Uygulamanın kullanımı isteğe bağlıdır.
-- Uygulamalar konum verileri toplamazlar; böylece kullanıcıların nerede olduklarını bilmezler.
-- Uygulamalar yüksek güvenlik ve gizlilik standartlarını karşılar.
+- Uygulamalar konum verilerini toplamaz; böylece kullanıcıların nerede olduğunu bilmezler.
+- Uygulamalar yüksek güvenlik ve gizlilik standartlarına uymaktadırlar.
 
-Ortak sunucuya gönderilen veriler, CoronaMelder'de olduğu gibi azami 14 gün saklanır. Uygulamalardaki kodlar dışında hiçbir veri sunucuya gönderilmez veya sunucuda depolanmaz veya orada depolanmaz.
+Ortak sunucuya gönderilen veriler, CoronaMelder'de olduğu gibi azami 14 gün saklanır. Uygulamalardan gelen kodlar dışında hiçbir veri sunucuya gönderilmez veya sunucuda saklanmaz.
 
-Avrupa ülkeleri, merkezi olmayan bir uygulamaları varsa ortak sunucuya bağlanabilirler. Uygulama, virüs bulaşmış görünen kullanıcıların kodlarını alır ve bunları telefonunuzdaki kodlarla karşılaştırır.
+Avrupa ülkeleri, merkezi olmayan bir uygulamaları varsa ortak sunucuya katılabilir. Uygulama, enfekte  olduğu anlaşılan kullanıcıların kodlarını alır ve bunları telefonunuzdaki kodlarla karşılaştırır.
 
-Karşılaştırma için: Merkezi bir uygulamayla, bu kodlar merkezi bir konumda toplanır ve orada karşılaştırılır. [Merkezi ve merkezi olmayan uygulamalara sahip ülkelere genel bakış burada bulunabilir.](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
+Karşılaştırma için: merkezi bir uygulamada, bu kodlar merkezi bir konumda toplanır ve orada karşılaştırılır. [Merkezi ve merkezi olmayan uygulamalara sahip ülkelere genel bakışı görüntüleyin](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en).

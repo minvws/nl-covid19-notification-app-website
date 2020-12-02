@@ -4,33 +4,39 @@ lang: en
 title: CoronaMelder is working with other countries
 permalink: /en/operabiliteit
 ---
+Since 30 November 2020, CoronaMelder exchanges codes with similar apps from several other European countries. This is done in the same way as between two users of the CoronaMelder app. If one user subsequently tests positive for coronavirus and shares this information with the app, the other user will be sent a notification.
 
-From the end of November 2020 onwards, CoronaMelder will work with similar apps from a number of other EU countries. The number of countries will continue to increase in the months after that.
+Since 30 November, CoronaMelder exchanges codes with apps from the following countries:
 
-The cooperation will help stop the spread of coronavirus, including among users of CoronaMelder who travel abroad and people from other countries who visit the Netherlands. That could be very important for people who live close to the border with Germany or Belgium and when we go on holiday abroad again. As a user, you won't need to do anything differently. You will not need to download a new version of the app or use a similar app from those other countries. 
+- Germany
+- Italy
+- Ireland
+- Spain
+- Latvia
+- Croatia
+- Denmark
 
-Imagine that you are near a user of the German Corona-Warn-App and that person later tests positive for coronavirus in Germany. If that person shares their codes with the German health authorities, you will receive a notification in CoronaMelder. And it will also work the other way around, of course. Because the coronavirus apps all work together, you will only need to download one app. That means CoronaMelder if you live in the Netherlands.
+## Reason for this cooperation
 
-## European cooperation
+You may encounter somebody in the Netherlands who is using an app from another country, for example somebody from Germany who is traveling here. Or you may encounter another traveller if you are abroad yourself, for example if you are traveling in Germany or if you encounter someone from Germany in Denmark. 
 
-The European Union has created new digital infrastructure, the European Federated Gateway Service (EFGS), to enable the apps from different countries to work together. It consists of a common server (hosted at the data centre of the European Commission in Luxembourg), which allows the designated national authorities or official bodies of member states to exchange data between the different corona apps.
+If the app user from another country later tests positive for coronavirus and chooses to report this in the app, then you will receive a notification from CoronaMelder. And vice versa. The partnership with apps from other countries is therefore also useful for people who live and/or work in border regions.
 
-The advantages of cooperation between countries are:
-- Users only need to install the app from their own country (for residents of the Netherlands, that means CoronaMelder).
-- About 18 countries will connect to the gateway, including a large area of Europe.
+## Reporting a test result in CoronaMelder
 
-Other countries can also join in the future if they meet the requirements. Once coronavirus has been brought under control, the infrastructure will be deactivated. 
+CoronaMelder only works with the Dutch GGD and with coronavirus tests recognised in the Netherlands. If you get a coronavirus test abroad and that test is positive, you cannot report this in CoronaMelder.
 
 ## Privacy
 
-All apps from the European countries participating in the partnership will apply the same privacy principles. 
-- The protection of users' data will be the priority.
+The apps of the other European countries that CoronaMelder now works with have all been designed on the same privacy principles:
+
+- The protection of users' data is the most important requirement.
 - Using the app is always voluntary.
-- The apps do not collect location data, so they don't know where users are.
+- The apps do not gather location data, so they don't know where users are.
 - The apps meet high standards of security and privacy.
 
-Data sent to the central server is stored for a maximum of 14 days, just like with CoronaMelder. Only the codes from the apps is sent to or stored on the server, and no other data. 
+Data sent to the central server is stored for a maximum of 14 days, just like with CoronaMelder. Only the codes from the apps are sent to or stored on the server, and no other data.
 
-European countries can connect to the common server if they have a decentralised app. The app retrieves the codes of any users who test positive and compares these with the codes on your phone.
+European countries can connect to the shared server if they have a decentralised app. The app retrieves the codes of users who have tested positive and compares these with the codes on your phone.
 
-In a centralised app, on the other hand, all the codes would be collected at a central location and compared there. You can find a [list of countries with centralised and decentralised apps here](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en). 
+In a centralised app, on the other hand, all the codes would be collected at a central location and compared there. You can find a list of countries with centralised and decentralised apps [here](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en).
