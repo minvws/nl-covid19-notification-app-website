@@ -1,7 +1,7 @@
 ---
 layout: content
 index: 2
-set: 1
+set: 2
 title: Heeft de Europese uitwisseling gevolgen voor het dataverbruik van mijn telefoon?
 lang: fy
 contentLang: nl

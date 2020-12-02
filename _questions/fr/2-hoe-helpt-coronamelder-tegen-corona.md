@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 2
+index: 1
 set: 1
 title: How will the app help to stop coronavirus?
 lang: fr

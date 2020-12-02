@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 3
+index: 2
 set: 1
 title: Waarom is CoronaMelder nodig?
 lang: fy
