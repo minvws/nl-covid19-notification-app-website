@@ -35,17 +35,18 @@
     <link rel="alternate" hreflang="ro" href="https://coronamelder.nl/ro" />
     <link rel="alternate" hreflang="tr" href="https://coronamelder.nl/tr" />
 
-    <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name[page.lang] }}">
-    <meta property="og:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
+    <meta property="og:site_name" content="{{ site.data.translations.head-social-og-site_name }}">
+    <meta property="og:title" content="{% if page.title != '' %}{{ page.title }} - {{ site.data.translations.head-social-og-site_name }}{% else %}{{ site.data.translations.head-social-og-title[page.lang] }}{% endif %}" />
     <meta property="og:description" content="{{ site.data.translations.head-social-og-description[page.lang] }}"/>
-    <meta property="og:image" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-url[page.lang] }}">
+    <meta property="og:image" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-url }}">
     <meta property="og:updated_time" content="{{ site.time | date: "%s" }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://coronamelder.nl">
+    <meta property="og:url" content="{{ page.permalink }}">
+    <meta name="og:image:alt" content="{{ site.data.translations.head-social-og-image-alt[page.lang] }}" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ site.data.translations.head-social-og-title[page.lang] }}" />
+    <meta name="twitter:title" content="{% if page.title != '' %}{{ page.title }} - {{ site.data.translations.head-social-og-site_name }}{% else %}{{ site.data.translations.head-social-og-title[page.lang] }}{% endif %}" />
     <meta name="twitter:description" content="{{ site.data.translations.head-social-og-description[page.lang] }}" />
-    <meta name="twitter:image" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-url[page.lang] }}" />
+    <meta name="twitter:image" content="https://coronamelder.nl/img/{{ site.data.translations.head-social-og-image-url }}" />
     <meta name="twitter:image:alt" content="{{ site.data.translations.head-social-og-image-alt[page.lang] }}" />
 </head>
