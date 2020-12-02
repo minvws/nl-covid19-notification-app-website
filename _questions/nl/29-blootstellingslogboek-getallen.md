@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 14
+index: 15
 set: 2
 title: Wat zijn al die getallen die ik zie in het Blootstellingslogboek op mijn telefoon? 
 summary: 

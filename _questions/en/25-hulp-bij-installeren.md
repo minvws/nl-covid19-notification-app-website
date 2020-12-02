@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 14
+index: 17
 set: 2
 title: Where can I get help installing the app?
 lang: en
