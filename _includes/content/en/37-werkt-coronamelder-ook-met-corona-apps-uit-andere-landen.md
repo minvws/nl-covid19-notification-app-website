@@ -1,4 +1,4 @@
-Yes, from the 30th of November 2020 on, CoronaMelder will exchange codes with apps from a number of other European countries. This is done in the same way as between two users of CoronaMelder. If one of you then tests positive and reports this in the app, the other person will receive a notification.
+Yes, CoronaMelder exchanges codes with apps from a number of other European countries. This is done in the same way as between two users of CoronaMelder. If one of you then tests positive and reports this in the app, the other person will receive a notification.
 
 From November 30, CoronaMelder works together with these corona notification apps:
 

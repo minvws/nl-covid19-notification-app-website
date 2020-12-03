@@ -1,4 +1,4 @@
-Ja, vanaf 30 november 2020 wisselt CoronaMelder codes uit met apps uit een aantal andere Europese landen. Dit gebeurt op dezelfde manier als tussen twee gebruikers van CoronaMelder. Als een van jullie daarna positief getest wordt en dit meldt in de app, dan ontvangt de ander een waarschuwingsmelding.
+Ja, CoronaMelder wisselt codes uit met apps uit een aantal andere Europese landen. Dit gebeurt op dezelfde manier als tussen twee gebruikers van CoronaMelder. Als een van jullie daarna positief getest wordt en dit meldt in de app, dan ontvangt de ander een waarschuwingsmelding.
 
 Vanaf 30 november werkt CoronaMelder samen met de corona-apps uit: 
 
