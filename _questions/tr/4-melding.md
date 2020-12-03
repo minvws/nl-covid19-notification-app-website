@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 4
+index: 5
 set: 2
 title: Ne zaman bildirim alırım?
 summary: Temastan sonra test edilmiş ve Korona olduğu belli olan birinin yakınında bulunduktan sonra.

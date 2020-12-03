@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 1
+index: 3
 set: 2
 title: Does CoronaMelder also work with corona apps from other countries?
 lang: pl
@@ -11,4 +11,6 @@ categories:
 showBreadCrumbs: true
 showContact: true
 ---
-{% include content/en/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen.md %}
+{% include content/en/13-gebruik-app-uit-ander-land.md %}
+
+[Also read: Will the European exchange affect the data usage of my phone?](/pl/faq/38-heeft-de-europese-uitwisseling-gevolgen-voor-het-dataverbruik-van-mijn-telefoon/)

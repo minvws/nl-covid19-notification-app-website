@@ -22,7 +22,7 @@ Ook als je het coronavirus krijgt en je dit via de app meldt, is dit niet aan jo
 
 Dit geldt ook voor de corona-apps uit andere EU-landen waarmee CoronaMelder codes uitwisselt. CoronaMelder werkt alleen samen met corona-apps die helemaal voldoen aan dezelfde privacy-eisen. Net als binnen Nederland weten CoronaMelder en de andere corona-apps bijvoorbeeld niet wie je bent of waar je bent. 
 
-Lees ook: [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen)
+Lees ook: [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/13-gebruik-app-uit-ander-land)
 
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}

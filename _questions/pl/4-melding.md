@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 4
+index: 5
 set: 2
 title: Kiedy dostaję powiadomienie?
 lang: pl

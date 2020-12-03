@@ -1,3 +1,15 @@
-No, that is not yet possible. We work with the other countries on interaction between the apps. We will soon be testing this interaction. After that, everyone can keep on using an app from their own country. You will then receive a warning in the Dutch CoronaMelder if, for example, you have been close to a German who has tested positive in Germany for a longer period of time.
+Yes, CoronaMelder exchanges codes with apps from a number of other European countries. This is done in the same way as between two users of CoronaMelder. If one of you then tests positive and reports this in the app, the other person will receive a notification.
 
-Until then, switching between the apps is the best choice. The worry of forgetting to change back has been partly resolved. If the Dutch CoronaMelder is not active for a day or more, you will receive a notification that the app is not active.
+From November 30, CoronaMelder works together with these corona notification apps:
+
+- Germany
+- Italy
+- Ireland
+- Spain
+- Latvia
+- Croatia
+- Denmark
+
+You can meet a foreign user of a corona notification app in the Netherlands, for example if you meet a German who is traveling here. Or you can meet another traveler abroad, for example if you are traveling to Germany or if you meet a German person in Denmark. If the foreign user later turns out to have corona and decides to report this in the app, you will receive a notification from CoronaMelder. And vice versa. The cooperation with apps from other countries is therefore also useful for people who live and/or work in border areas.
+
+CoronaMelder only works in collaboration with the Dutch GGD and with Dutch recognized tests. If you take a corona test abroad and you turn out to be infected, you cannot report this via CoronaMelder.

@@ -24,4 +24,3 @@ Bliuw dêrom thús oant 10 dagen nei de datum fan kontakt mei in besmet persoan.
 
 Hast klachten, binnen 10 dagen of dêrnei? Belje [0800-1202](tel:+318001202) of gean nei [coronatest.nl](https://www.coronatest.nl) om fergees in koroanatest oan te freegjen.
 
-Lês ek: [Kan het testadvies van de app nog veranderen?](/fy/faq/22-kan-het-testadvies-van-de-app-nog-veranderen) (Nederlânsk)

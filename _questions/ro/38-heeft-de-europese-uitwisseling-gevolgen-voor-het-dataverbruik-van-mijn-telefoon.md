@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 14
+index: 4
 set: 2
 title: Will the European exchange affect the data usage of my phone?
 lang: ro

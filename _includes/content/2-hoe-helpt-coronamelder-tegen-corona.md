@@ -20,4 +20,4 @@ Dit kan nu in Nederland, maar ook daarbuiten, in samenwerking met de corona-apps
 
 De samenwerking komt ook van pas als je vanaf volgend jaar misschien weer wél binnen de Europese Unie mag reizen. Het virus is dan nog niet weg en de samenwerkende apps ondersteunen dan het bron- en contactonderzoek. Op die manier krijgen we samen het virus onder controle. 
 
-Lees ook: [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen)
+Lees ook: [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/13-gebruik-app-uit-ander-land)

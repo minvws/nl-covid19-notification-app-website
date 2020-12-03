@@ -1,7 +1,7 @@
 ---
 layout: content
-index: 6
-set: 2
+index: 7
+set: 4
 title: Ben ik verplicht om me te houden aan het advies in de app als ik een melding krijg?
 lang: nl
 categories:

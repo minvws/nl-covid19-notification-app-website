@@ -23,5 +23,3 @@ Als je een melding krijgt, ben je dicht bij iemand geweest die later corona blee
 Als uit een melding in de CoronaMelder-app blijkt dat je in de buurt bent geweest van een besmette persoon, kun je je laten testen als je (nog) geen klachten hebt. Dat kan vanaf 5 dagen na het laatste risicovolle contact. Als de test negatief is, dan hoef je niet meer in quarantaine te blijven. Zo wordt de quarantaineperiode na een melding in CoronaMelder flink ingekort. 
  
 Bel [0800-1202](tel:+318001202) of ga naar [coronatest.nl](https://www.coronatest.nl) om een gratis coronatest aan te vragen.
-
-Lees ook: [Kan het testadvies van de app nog veranderen?](/nl/faq/22-kan-het-testadvies-van-de-app-nog-veranderen)

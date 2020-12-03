@@ -19,4 +19,4 @@ This is now possible in the Netherlands, but also abroad, in collaboration with 
 
 The cooperation is also useful if travelling within the European Union is allowed again, possibly from next year on. The virus will not be gone and the collaborating apps will then support the research for sources and contacts. 
 
-See: [Does CoronaMelder also work with corona apps from other countries?](/en/faq/37-werkt-coronamelder-ook-met-corona-apps-uit-andere-landen)
+See: [Does CoronaMelder also work with corona apps from other countries?](/en/faq/13-gebruik-app-uit-ander-land)

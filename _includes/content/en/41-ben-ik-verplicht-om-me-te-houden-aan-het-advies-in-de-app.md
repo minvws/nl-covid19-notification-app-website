@@ -1,0 +1,1 @@
+It is a recommendation, intended for your own health and to prevent you from infecting someone else. You can contact the GGD for an appointment to have yourself tested. This is possible after a notification from the CoronaMelder app, even if you have no complaints.
