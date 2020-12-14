@@ -2,4 +2,4 @@ Scholieren hoeven onderling geen anderhalve meter afstand te houden, ook niet op
 
 Voor docenten en ander onderwijspersoneel geldt dit niet, omdat zij wel afstand dienen te houden tot de leerlingen en tot elkaar. Onderwijspersoneel wordt wel geadviseerd om hun telefoon altijd bij zich te dragen als zij CoronaMelder gebruiken. 
 
-Daarnaast worden scholieren geadviseerd om, als ze een melding van CoronaMelder krijgen, gewoon naar school te blijven gaan en gewoon te blijven sporten. Blijf wel thuis als je zelf klachten hebt of als er iemand in je huishouden positief is getest op corona of als je een ander advies krijgt van de GGD.
+Ben je scholier en krijg je een melding? Blijf thuis als je klachten hebt, als er iemand in je huishouden positief getest is op corona of als de GGD je dat adviseert. Geen klachten? Dan kan je gewoon naar school gaan en sporten.

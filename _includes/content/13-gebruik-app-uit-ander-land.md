@@ -14,6 +14,8 @@ Je kunt een buitenlandse gebruiker van een corona-app tegenkomen in Nederland, b
 
 CoronaMelder werkt alleen in samenwerking met de Nederlandse GGD en met Nederlandse erkende testen. Als je een coronatest in het buitenland doet en je blijkt besmet te zijn, kun je dat dus niet melden via CoronaMelder. 
 
+De verbinding tussen de back-end van de CoronaMelder en de EFGS werd mede mogelijk gemaakt door de Europese Commissie.
+
 [Meer informatie over testen in het buitenland vind je hier.](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-in-het-buitenland)
 
 [Meer informatie over testen als buitenlandse bezoeker aan Nederland vind je hier.](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-op-vakantie-in-nederland)
