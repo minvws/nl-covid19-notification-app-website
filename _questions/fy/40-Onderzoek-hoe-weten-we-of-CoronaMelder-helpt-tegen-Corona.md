@@ -3,7 +3,6 @@ layout: content
 index: 3
 set: 1
 title: 'Onderzoek: hoe weten we of CoronaMelder helpt tegen Corona?'
-published: false
 lang: fy
 contentLang: nl
 categories:
