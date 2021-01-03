@@ -1,4 +1,3 @@
 Contact: security@coronamelder.nl
 Preferred-Languages: nl, en
 Policy: https://coronamelder.nl/nl/kwetsbaarheid-melden
-Policy: https://coronamelder.nl/en/kwetsbaarheid-melden
