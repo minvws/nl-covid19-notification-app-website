@@ -15,6 +15,8 @@ Since 30 November, CoronaMelder exchanges codes with apps from the following cou
 - Latvia
 - Croatia
 - Denmark
+- Belgium
+- Finland
 
 ## Reason for this cooperation
 

@@ -15,6 +15,8 @@ A partir del 30 de noviembre CoronaMelder coopera con otras apps de rastreo de:
 - Letonia
 - Croacia
 - Dinamarca
+- Bélgica
+- Finlandia
 
 ## ¿Por qué están cooperando estos países?
 

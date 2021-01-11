@@ -14,6 +14,8 @@ permalink: /ro/interoperabiliteit
 - Letonia
 - Croația
 - Danemarca
+- Belgia
+- Finlanda
 
 ## De ce are loc această colaborare?
 

@@ -15,6 +15,8 @@ permalink: /tr/interoperabiliteit
 - Letonya
 - Hırvatistan
 - Danimarka
+- Belçika
+- Finlandiya
 
 ## Neden bu işbirliği?
 

@@ -15,6 +15,8 @@ Od 30 listopada CoronaMelder współpracuje z aplikacjami dotyczącymi koronaw
 - Łotwy
 - Chorwacji
 - Danii
+- Belgia
+- Finlandia
 
 ## Dlaczego podjęliśmy współpracę?
 

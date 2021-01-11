@@ -9,6 +9,8 @@ Vanaf 30 november werkt CoronaMelder samen met de corona-apps uit:
 - Letland 
 - Kroatië
 - Denemarken 
+- België
+- Finland
 
 Je kunt een buitenlandse gebruiker van een corona-app tegenkomen in Nederland, bijvoorbeeld als jij een Duitser ontmoet die hier op reis is. Of jij kunt zelf in het buitenland een andere reiziger ontmoeten, bijvoorbeeld als je naar Duitsland reist óf als je een Duitser tegenkomt in Denemarken. Als de buitenlandse gebruiker later corona blijkt te hebben en besluit dit in de app te melden, ontvang jij een waarschuwingsmelding van CoronaMelder. En andersom. De samenwerking met apps van andere landen is dus ook handig voor mensen die in grensgebieden wonen en/of werken.
 

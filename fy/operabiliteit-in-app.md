@@ -15,6 +15,8 @@ Fan 30 novimber ôf wurket CoronaMelder gear mei de koroana-apps út:
 - Letlân
 - Kroäsië
 - Denemarken
+- Belgje
+- Finlân
 
 ## Wêrom dizze gearwurking?
 

@@ -15,6 +15,8 @@ permalink: /ro/operabiliteit
 - Letonia
 - Croația
 - Danemarca
+- Belgia
+- Finlanda
 
 ## De ce are loc această colaborare?
 

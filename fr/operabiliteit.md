@@ -15,6 +15,8 @@ Depuis le 30 novembre, CoronaMelder travaille avec les applications de Covid-19 
 - Lettonie
 - Croatie
 - Danemark
+- Belgique
+- Finlande
 
 ## Pourquoi cette collaboration ?
 

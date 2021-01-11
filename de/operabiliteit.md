@@ -15,6 +15,8 @@ Seit 30. November 2020 funktioniert CoronaMelder mit anderen Corona-Apps aus:
 - Lettland
 - Kroatien
 - Dänemark
+- Belgien
+- Finnland
 
 ## Warum diese Zusammenarbeit?
 
