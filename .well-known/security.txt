@@ -2,3 +2,4 @@ Contact: security@coronamelder.nl
 Preferred-Languages: nl, en
 Policy: https://coronamelder.nl/nl/kwetsbaarheid-melden
 Policy: https://coronamelder.nl/en/kwetsbaarheid-melden
+Expires: Thu, 31 Dec 2021 18:37:07 +0100
