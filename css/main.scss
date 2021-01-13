@@ -825,3 +825,13 @@ ul.share > li > a {
         background-position: center center, bottom right, center center;
     }
 }
+
+.announcement {
+    color: #ca005d;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.42;
+    p { 
+        margin-top: 0;
+    }
+}
