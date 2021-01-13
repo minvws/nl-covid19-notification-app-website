@@ -1,6 +1,6 @@
 ---
 layout: content
-index: 18
+index: -1
 set: 2
 title: Zijn er op dit moment storingen in de CoronaMelder-app?
 lang: nl
