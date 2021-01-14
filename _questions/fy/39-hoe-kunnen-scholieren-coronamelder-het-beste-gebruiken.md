@@ -13,3 +13,4 @@ showContact: true
 ---
 {% include content/39-hoe-kunnen-scholieren-coronamelder-het-beste-gebruiken.md %}
  
+Zie ook: [Wat moat ik dwaan as ik in melding krij?](/fy/faq/3-wat-als/)
