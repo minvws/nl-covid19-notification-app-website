@@ -40,7 +40,7 @@ Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de 
 
 In de melding staat hoeveel dagen geleden je dicht bij iemand was die later corona bleek te hebben. Het is niet bekend wie dat was, waar of wanneer precies.
 
--   	Heb je (lichte) klachten die passen bij corona? Doe een coronatest en blijf thuis tot je de uitslag weet. Je kunt je 5 dagen na het contact met iemand die corona heeft ook zonder klachten laten testen. Dit staat ook in de melding die je krijgt vanuit de CoronaMelder-app.
+-   	Je kunt je na een melding direct laten testen, ook als je geen klachten hebt. Alle informatie hierover staat in de melding die je krijgt vanuit de CoronaMelder-app.
 -   	Heb je ernstige klachten of zit je in een risicogroep? Bel je huisarts.
 
 </div>

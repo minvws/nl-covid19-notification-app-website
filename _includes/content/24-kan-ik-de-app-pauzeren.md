@@ -1,21 +1,15 @@
-Ja, in de instellingen van de telefoon zelf kun je dit pauzeren. Als je weer klaar bent, kun je CoronaMelder weer activeren, zodat deze werkt als je bij anderen in de buurt bent: vrienden, familie, kennissen, maar ook onbekenden.
+De app stopt dan tijdelijk met het bijhouden of je in de buurt bent van andere mensen die CoronaMelder gebruiken. Dit is handig als je je telefoon in een kluisje of een ‘telefoonzak’ achterlaat, op werk of op school.
 
-Heb je bluetooth nodig, bijvoorbeeld voor je werk? Dan kun je CoronaMelder ook op deze manier tijdelijk uitzetten: 
+Je moet CoronaMelder handmatig weer aanzetten. Je kunt zelf instellen na hoeveel tijd je daarvoor een melding krijgt, met een maximum van 12 uur. 
 
-## iPhone: 
-1. Ga naar Instellingen.
-2. Kies ‘Privacy’ > ‘Gezondheid’ > ‘Blootstelling aan COVID-19’ > ‘Blootstelling bijhouden’.
-3. Zet vervolgens het schuifje uit.
+Je pauzeert de app als volgt:
+1. Open CoronaMelder
+2. Klik op “Instellingen”.
+3. Klik op “App pauzeren”.
+4. Klik op het volgende scherm op “Ja, pauzeer”.
+5. Kies na hoeveel uur je een melding wilt krijgen om CoronaMelder weer aan te zetten: 1, 2, 4, 8 of 12 uur.
 
-Wil je de app weer aanzetten? Dan doe je dit binnen de app óf via dezelfde route via Instellingen.
+### Let op!
 
-Na maximaal 24 uur krijg je een herinnering dat je app uitstaat. 
-
-## Android: 
-1. Ga naar Instellingen.
-2. Kies ‘Google’ > ‘Blootstellingsmeldingen voor COVID-19’.
-3. Zet vervolgens het schuifje uit.
-  
-Wil je de app weer aanzetten? Dan doe je dit binnen de app óf via dezelfde route via Instellingen.
-
-Na maximaal 24 uur krijg je een herinnering dat je app uitstaat. 
+- De pauzefunctie stopt dus niet automatisch, je moet de app altijd zelf weer aanzetten.
+- Als je de pauzefunctie gebruikt, krijg je tijdelijk ook geen meldingen van CoronaMelder als je in de buurt bent geweest van iemand met corona. Zodra je CoronaMelder weer aanzet, kijkt de app of je meldingen hebt. Als dat zo is, laat de app deze zien. Je mist dus geen meldingen, wel kan het zijn dat je ze later krijgt.

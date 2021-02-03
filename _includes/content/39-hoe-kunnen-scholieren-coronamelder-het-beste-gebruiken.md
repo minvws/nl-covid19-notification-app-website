@@ -1,4 +1,6 @@
-Scholieren moeten onderling anderhalve meter afstand te houden, ook op school. In de klas leggen scholieren hun mobiele telefoon vaak in een kluisje of een andere verzamelplek tijdens de les. Op deze momenten wordt scholieren geadviseerd om CoronaMelder tijdelijk te pauzeren. 
-Pauzeren kan door bluetooth tijdelijk uit te zetten in de telefooninstellingen. Zodra scholieren hun telefoon na de les weer bij zich dragen, kunnen zij CoronaMelder opnieuw activeren door bluetooth aan zetten. Onderwijspersoneel wordt geadviseerd om hun telefoon altijd bij zich te dragen als zij CoronaMelder gebruiken.
+Scholieren moeten onderling anderhalve meter afstand te houden, ook op school. In de klas leggen scholieren hun mobiele telefoon vaak in een kluisje of een andere verzamelplek tijdens de les. In die gevallen adviseren wij de pauzefunctie van CoronaMelder te gebruiken. 
 
-Ben je scholier en krijg je een melding? Blijf thuis als je klachten hebt en laat je testen. Blijf ook thuis als er iemand in je huishouden positief getest is op corona of als de GGD je dat adviseert. 
+<a href="/nl/faq/24-kan-ik-de-app-pauzeren/">Zie “Kan ik de app pauzeren als ik op school ben, op het werk of tijdens het sporten?” voor instructies.</a>
+
+Zodra scholieren hun telefoon na de les weer bij zich dragen, kunnen zij CoronaMelder weer aanzetten. Onderwijspersoneel wordt geadviseerd om hun telefoon altijd bij zich te dragen als zij CoronaMelder gebruiken.
+
