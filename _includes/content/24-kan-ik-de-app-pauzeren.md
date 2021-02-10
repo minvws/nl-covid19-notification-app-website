@@ -1,4 +1,4 @@
-De app stopt dan tijdelijk met het bijhouden of je in de buurt bent van andere mensen die CoronaMelder gebruiken. Dit is handig als je je telefoon in een kluisje of een ‘telefoonzak’ achterlaat, op werk of op school.
+Ja, dat kan. De app stopt dan tijdelijk met het bijhouden of je in de buurt bent van andere mensen die CoronaMelder gebruiken. Dit is handig als je je telefoon in een kluisje of een ‘telefoonzak’ achterlaat, op werk of op school.
 
 Je moet CoronaMelder handmatig weer aanzetten. Je kunt zelf instellen na hoeveel tijd je daarvoor een melding krijgt, met een maximum van 12 uur. 
 
