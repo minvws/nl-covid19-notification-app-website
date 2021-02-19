@@ -17,6 +17,8 @@ permalink: /tr/operabiliteit
 - Danimarka
 - Belçika
 - Finlandiya
+- Norveç
+- Slovenya
 
 ## Neden bu işbirliği?
 

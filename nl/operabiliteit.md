@@ -17,6 +17,8 @@ Vanaf 30 november werkt CoronaMelder samen met de corona-apps uit:
 - Denemarken
 - België
 - Finland
+- Noorwegen
+- Slovenië
 
 ## Waarom deze samenwerking?
 

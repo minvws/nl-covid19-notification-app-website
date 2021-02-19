@@ -17,6 +17,8 @@ permalink: /ro/operabiliteit
 - Danemarca
 - Belgia
 - Finlanda
+- Norvegia
+- Slovenia
 
 ## De ce are loc această colaborare?
 
