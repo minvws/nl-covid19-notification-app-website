@@ -7,4 +7,4 @@ Uit de resultaten van de veldtest, waarin de technische werking van de corona-ap
     - ongeveer 75% geen melding kreeg
     - ongeveer 25% een melding kreeg (de meesten daarvan waren binnen 3 meter) 
 
-Van alle test-meldingen tijdens de veldtest, ging 60% naar mensen die meer dan 1,5 meter van elkaar waren. Dit hoge aantal komt doordat ook relatief veel mensen van de testgroep (80%) meer dan 1,5 meter van elkaar waren. Van deze mensen die een melding kregen, waren de meesten binnen 3 meter. En het ging altijd om een ontmoeting van langer dan 15 minuten. 
+Van alle test-meldingen tijdens de veldtest, ging 60% naar mensen die meer dan 1,5 meter van elkaar waren. Dit hoge aantal komt doordat ook relatief veel mensen van de testgroep (80%) meer dan 1,5 meter van elkaar waren. Van deze mensen die een melding kregen, waren de meesten binnen 3 meter. En het ging altijd om een ontmoeting van langer dan 15 minuten. <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport met de resultaten is hier op Rijksoverheid.nl terug te lezen.</a>
