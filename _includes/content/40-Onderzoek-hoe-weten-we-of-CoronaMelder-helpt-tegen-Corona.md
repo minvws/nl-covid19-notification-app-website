@@ -6,3 +6,7 @@ Daarnaast is er dagelijks informatie beschikbaar rondom onder andere het aantal 
 <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank">ruwe data is openbaar in te zien en te downloaden</a>. Een samenvatting van deze data kun je hier downloaden:
 
 <a href="/media/Factsheet_Corona_latest.pdf" rel="noopener noreferrer" target="_blank">Factsheet CoronaMelder (PDF, 171kb)</a>
+
+De eindrapport van de evaluatie van de CoronaMelder-app door de Universiteit van Tilburg kun je hier downloaden:
+
+<a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/rapporten/2021/02/24/eindrapportage-coronamelder-evaluatie-tilburg-university-17-februari-2021" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie</a>
