@@ -30,7 +30,9 @@ featuredHomeText: L’application vous envoie un message si vous avez été pend
 <details>
    <summary>Quand est-ce que je reçois une notification ?</summary>
    <div markdown="1">
-    Si vous êtes testé(e) positif/positive au coronavirus, vous pouvez l’indiquer sur base volontaire dans l’application, en collaboration avec le GGD. Si un employé du GGD vous appelle pour vous communiquer le résultat du test, il vous demandera aussi si vous voulez avertir les autres par le biais de l’application. Si vous optez pour cette possibilité, le destinataire ne voit pas qui vous êtes ni où vous avez été en contact. En ce qui concerne la notification, c'est vous qui décidez, elle n’est pas obligatoire et ne se fait pas automatiquement.
+
+Si vous êtes testé(e) positif/positive au coronavirus, vous pouvez l’indiquer sur base volontaire dans l’application, en collaboration avec le GGD. Si un employé du GGD vous appelle pour vous communiquer le résultat du test, il vous demandera aussi si vous voulez avertir les autres par le biais de l’application. Si vous optez pour cette possibilité, le destinataire ne voit pas qui vous êtes ni où vous avez été en contact. En ce qui concerne la notification, c'est vous qui décidez, elle n’est pas obligatoire et ne se fait pas automatiquement.
+
 </div>
 </details>
 
@@ -49,7 +51,9 @@ La notification indique le nombre de jours qui se sont écoulés depuis que vous
 <details>
 <summary>J’ai été testé positif au coronavirus, que faire ?</summary>
 <div markdown="1">
-    Si vous êtes testé(e) positif/positive au coronavirus, vous pouvez l’indiquer sur base volontaire dans l’application, en collaboration avec le GGD. Vous pouvez ainsi avertir les autres. Le destinataire ne voit pas qui vous êtes ni où vous avez été en contact. En ce qui concerne la notification, c'est vous qui décidez, elle n’est pas obligatoire et ne se fait pas automatiquement.
+
+Si vous êtes testé(e) positif/positive au coronavirus, vous pouvez l’indiquer sur base volontaire dans l’application, en collaboration avec le GGD. Vous pouvez ainsi avertir les autres. Le destinataire ne voit pas qui vous êtes ni où vous avez été en contact. En ce qui concerne la notification, c'est vous qui décidez, elle n’est pas obligatoire et ne se fait pas automatiquement.
+
 </div>
 </details>
 

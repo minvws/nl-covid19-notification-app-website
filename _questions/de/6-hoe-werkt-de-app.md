@@ -30,24 +30,30 @@ featuredHomeText: Die App schickt Ihnen eine Nachricht, wenn Sie eine Weile in d
 <details>
    <summary>Wann erhalte ich eine Nachricht?</summary>
    <div markdown="1">
-    Wurden Sie positiv auf Corona getestet? Dann können Sie das freiwillig in der App melden, zusammen mit dem GGD. Ruft der GGD Sie an und teilt Ihnen das Testergebnis mit? Dann werden Sie auch gefragt ob sie andere über die App warnen wollen. Wenn Sie das tun, weiß der Empfänger nicht, wer Sie sind oder wo Sie einander begegnet sind. Sie entscheiden selbst, ob Sie andere warnen. Sie sind nicht dazu verpflichtet und die Warnmeldung wird nicht automatisch verschickt.
+
+Wurden Sie positiv auf Corona getestet? Dann können Sie das freiwillig in der App melden, zusammen mit dem GGD. Ruft der GGD Sie an und teilt Ihnen das Testergebnis mit? Dann werden Sie auch gefragt ob sie andere über die App warnen wollen. Wenn Sie das tun, weiß der Empfänger nicht, wer Sie sind oder wo Sie einander begegnet sind. Sie entscheiden selbst, ob Sie andere warnen. Sie sind nicht dazu verpflichtet und die Warnmeldung wird nicht automatisch verschickt.
+
 </div>
 </details>
 
 <details>
 <summary>Was steht in der Warnmeldung?</summary>
 <div markdown="1">
+
 In der Warnmeldung steht, vor wie vielen Tagen Sie in der Nähe einer Person waren, bei der später Corona festgestellt wurde. Es ist nicht bekannt, wer, wo oder wann das genau war.
 
 - Sie können sich nach einer Nachricht sofort testen lassen. Auch wenn Sie keine Beschwerden haben. Alle Informationen hierzu stehen in der Nachricht, die Sie von CoronaMelder erhalten.
 - Haben Sie ernste Beschwerden? Oder gehören Sie zu einer Risikogruppe? Rufen Sie Ihren Hausarzt an.
+
 </div>
 </details>
 
 <details>
 <summary>Ich wurde positiv auf Corona getestet. Was nun?</summary>
 <div markdown="1">
-    Wurden Sie positiv auf Corona getestet, können Sie das freiwillig in der App melden. Zusammen mit dem GGD. So können Sie andere warnen. Der Empfänger sieht nicht, wer Sie sind oder wo Sie einander begegnet sind. Sie entscheiden selbst, ob Sie andere warnen. Sie sind nicht dazu verpflichtet und die Warnmeldung wird nicht automatisch verschickt.
+
+Wurden Sie positiv auf Corona getestet, können Sie das freiwillig in der App melden. Zusammen mit dem GGD. So können Sie andere warnen. Der Empfänger sieht nicht, wer Sie sind oder wo Sie einander begegnet sind. Sie entscheiden selbst, ob Sie andere warnen. Sie sind nicht dazu verpflichtet und die Warnmeldung wird nicht automatisch verschickt.
+
 </div>
 </details>
 

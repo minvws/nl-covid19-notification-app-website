@@ -30,7 +30,9 @@ featuredHomeText: Aplicația vă trimite un mesaj dacă ați fost pentru un timp
 <details>
    <summary>Când primesc o notificare?</summary>
    <div markdown="1">
-    Dacă ați fost testat(ă) pozitiv pentru corona, puteți indica în mod voluntar acest lucru în aplicație, împreună cu GGD. Dacă un angajat GGD vă sună cu rezultatul testului, acesta vă va întreba, de asemenea, dacă doriți să-i avertizați și pe alții prin aplicație. Dacă alegeți să faceți acest lucru, destinatarul nu va vedea cine sunteți sau unde v-ați întâlnit. Dumneavoastră decideți asupra notificării, aceasta nu este obligatorie și nu este transmisă automat.
+
+Dacă ați fost testat(ă) pozitiv pentru corona, puteți indica în mod voluntar acest lucru în aplicație, împreună cu GGD. Dacă un angajat GGD vă sună cu rezultatul testului, acesta vă va întreba, de asemenea, dacă doriți să-i avertizați și pe alții prin aplicație. Dacă alegeți să faceți acest lucru, destinatarul nu va vedea cine sunteți sau unde v-ați întâlnit. Dumneavoastră decideți asupra notificării, aceasta nu este obligatorie și nu este transmisă automat.
+
 </div>
 </details>
 
@@ -49,7 +51,9 @@ featuredHomeText: Aplicația vă trimite un mesaj dacă ați fost pentru un timp
 <details>
 <summary>Am fost testat(ă) pozitiv cu coronavirusul, ce urmează?</summary>
 <div markdown="1">
-    Dacă ați fost testat(ă) pozitiv pentru corona, puteți indica în mod voluntar acest lucru în aplicație, împreună cu un angajat GGD. În acest fel îi puteți avertiza pe alții. Destinatarul nu va vedea cine sunteți sau unde v-ați întâlnit. Dumneavoastră decideți asupra notificării, aceasta nu este obligatorie și nu este transmisă automat.
+
+Dacă ați fost testat(ă) pozitiv pentru corona, puteți indica în mod voluntar acest lucru în aplicație, împreună cu un angajat GGD. În acest fel îi puteți avertiza pe alții. Destinatarul nu va vedea cine sunteți sau unde v-ați întâlnit. Dumneavoastră decideți asupra notificării, aceasta nu este obligatorie și nu este transmisă automat.
+
 </div>
 </details>
 

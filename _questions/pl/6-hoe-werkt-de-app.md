@@ -28,9 +28,11 @@ featuredHomeText: Aplikacja przysyła Ci wiadomość, jeśli przez pewien czas z
 </div>
 
 <details>
-   <summary>Kiedy dostaję powiadomienie?</summary>
-   <div markdown="1">
-    Jeśli Twój test na obecność koronawirusa dał wynik pozytywny, możesz dobrowolnie przekazać tę informację aplikacji, razem z GGD. Jeśli zadzwoni do Ciebie pracownik GGD z informacją o wyniku testu, zapyta on również, czy chcesz ostrzec innych za pośrednictwem aplikacji. Jeśli się na to zdecydujesz, osoba, która otrzyma tę informację, nie dowie się kim jesteś, ani gdzie się spotkaliście. Sam decydujesz o wysłaniu powiadomienia. Nie jest to obowiązkowe i nie odbywa się automatycznie.
+<summary>Kiedy dostaję powiadomienie?</summary>
+<div markdown="1">
+
+Jeśli Twój test na obecność koronawirusa dał wynik pozytywny, możesz dobrowolnie przekazać tę informację aplikacji, razem z GGD. Jeśli zadzwoni do Ciebie pracownik GGD z informacją o wyniku testu, zapyta on również, czy chcesz ostrzec innych za pośrednictwem aplikacji. Jeśli się na to zdecydujesz, osoba, która otrzyma tę informację, nie dowie się kim jesteś, ani gdzie się spotkaliście. Sam decydujesz o wysłaniu powiadomienia. Nie jest to obowiązkowe i nie odbywa się automatycznie.
+
 </div>
 </details>
 
@@ -49,7 +51,9 @@ W powiadomieniu znajduje się informacja o tym, ile dni temu znajdowałeś się 
 <details>
 <summary>Test na obecność koronawirusa dał wynik pozytywny. Co teraz?</summary>
 <div markdown="1">
-    Jeśli Twój test na obecność koronawirusa dał wynik pozytywny, możesz dobrowolnie przekazać tę informację aplikacji, razem z pracownikiem GGD. W ten sposób możesz ostrzec innych. Osoba, która otrzyma tę informację, nie dowie się kim jesteś, ani gdzie się spotkaliście. Sam decydujesz o wysłaniu powiadomienia. Nie jest to obowiązkowe i nie odbywa się automatycznie.
+
+Jeśli Twój test na obecność koronawirusa dał wynik pozytywny, możesz dobrowolnie przekazać tę informację aplikacji, razem z pracownikiem GGD. W ten sposób możesz ostrzec innych. Osoba, która otrzyma tę informację, nie dowie się kim jesteś, ani gdzie się spotkaliście. Sam decydujesz o wysłaniu powiadomienia. Nie jest to obowiązkowe i nie odbywa się automatycznie.
+
 </div>
 </details>
 

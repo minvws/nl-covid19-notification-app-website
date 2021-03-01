@@ -29,9 +29,11 @@ featuredHomeText: Bir süre Korona virüsü bulaşmış birinin etrafında bulun
 </div>
 
 <details>
-   <summary>Ne zaman bildirim alırım?</summary>
-   <div markdown="1">
-    Korona testiniz pozitif çıktıysa, bunu GGD ile birlikte uygulamada gönüllü olarak belirtebilirsiniz. GGD çalışanı sizi test sonuçları için ararsa, uygulama aracılığıyla başkalarını uyarmak isteyip istemediğinizi de soracaktır. Bunu tercih ederseniz, bildirimi alan kişi kim olduğunuzu veya temasın nerede oluştuğunu göremez. Bildirim ile ilgili kararı siz verirsiniz, bu mecbur değildir ve otomatik olarak yapılmaz. 
+<summary>Ne zaman bildirim alırım?</summary>
+<div markdown="1">
+
+Korona testiniz pozitif çıktıysa, bunu GGD ile birlikte uygulamada gönüllü olarak belirtebilirsiniz. GGD çalışanı sizi test sonuçları için ararsa, uygulama aracılığıyla başkalarını uyarmak isteyip istemediğinizi de soracaktır. Bunu tercih ederseniz, bildirimi alan kişi kim olduğunuzu veya temasın nerede oluştuğunu göremez. Bildirim ile ilgili kararı siz verirsiniz, bu mecbur değildir ve otomatik olarak yapılmaz. 
+
 </div>
 </details>
 
@@ -50,7 +52,9 @@ Bildirim, sonradan Korona olduğu anlaşılan birinin kaç gün önce yakınınd
 <details>
 <summary>Korona testim pozitif çıktı, şimdi ne olacak? </summary>
 <div markdown="1">
-    Korona testiniz pozitif çıktıysa, bunu GGD'nin bir çalışanıyla birlikte uygulamada gönüllü olarak belirtebilirsiniz. Bu şekilde başkalarını uyarabilirsiniz.Bildirimi alan kişi kim olduğunuzu veya temasın nerede oluştuğunu göremez. Bildirime ile ilgili siz karar verirsiniz, bu mecbur değildir ve otomatik olarak yapılmaz. 
+
+Korona testiniz pozitif çıktıysa, bunu GGD'nin bir çalışanıyla birlikte uygulamada gönüllü olarak belirtebilirsiniz. Bu şekilde başkalarını uyarabilirsiniz.Bildirimi alan kişi kim olduğunuzu veya temasın nerede oluştuğunu göremez. Bildirime ile ilgili siz karar verirsiniz, bu mecbur değildir ve otomatik olarak yapılmaz. 
+
 </div>
 </details>
 
