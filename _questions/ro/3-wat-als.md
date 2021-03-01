@@ -16,10 +16,13 @@ featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
 featuredHomeText: Vi se recomandă să stați acasă 10 zile de la data contactului. Aveți simptome? Testați-vă.
 ---
+Dacă primiți o notificare, ați fost aproape de cineva care mai târziu s-a dovedit a avea coronavirusul. Dar nu intrați în panică: nu este sigur că v-ați infectat și dumneavoastră. Există o posibilitate suplimentară să vă fi infectat: este posibil să aveți corona.
 
-Când primiți o notificare înseamnă că ați fost aproape de cineva care ulterior s-a dovedit a avea coronavirus. Nu intrați în panică: nu este sigur că aveți coronavirus. Aveți fost expus unui risc mai mare de infectare: este posibil să aveți coronavirus.
+Dacă o notificare din aplicația CoronaMelder arată că ați fost în contact cu o persoană infectată, puteți să vă testați imediat, chiar dacă (încă) nu aveți niciun simptom. Toate informațiile în acest sens se regăsesc în textul notificării.
 
-Stați acasă timp de 10 zile de la data contactului cu persoana infectată. În acest fel preveniți infectarea altora.
+- Dacă data contactului din notificare este cu mai puțin de 5 zile în urmă, puteți fi testat imediat. Dacă se constată că sunteți infectat(ă), puteți lua măsuri imediat împreună cu GGD (Serviciul Municipal de Sănătate).
+- Dacă acest prim test este negativ, efectuați un al doilea test la 5 zile după data contactului din notificare (sau la scurt timp după). Uneori poate dura câteva zile înainte ca un test să poată determina dacă cineva este infectat. Stați acasă până când acest test arată că nu aveți coronavirusul.
+- Data din notificare este cu 5 sau mai multe zile în urmă? În acest caz e nevoie de un singur test. 
+- Nu vă puteți supune unui test? În acest caz rămâneți acasă până la 10 zile după data din notificare. După aceea, dacă nu aveți simptome, puteți ieși din nou.
 
-Sunați la [0800-1202](tel:+318001202) (număr gratuit) pentru a solicita un test pentru coronavirus.
-Aveți simptome în timpul acestor 10 zile sau în zilele următoare? Sunați la 0800-1202 sau vizitați [www.coronatest.nl](https://www.coronatest.nl) pentru a solicita gratuit un test pentru coronavirus.
+Apelați [0800-1202](tel:+318001202) sau accesați [coronatest.nl](https://www.coronatest.nl/) pentru a solicita un test gratuit de coronavirus.
