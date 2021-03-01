@@ -1,22 +1,26 @@
-Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?
+Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?If you have been near someone who later tests positive for coronavirus, and that person adds their positive status to the app, you will be sent an notification via the app.
 
-Then you will receive a notification. When you get a notification, you have been close to someone who later turned out to have corona. Don't panic: it is not certain that you also have corona. You have an additional risk of contamination: you _may_ have corona.
+If you receive an notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
 
-Therefore, stay at home for up to 10 days from the date of contact with an infected person. This prevents you from infecting others as well.
+If you have been near someone who later tests positive for coronavirus, you will be sent an notification and you can arrange a test straight away. All the information you need to do this, is included in the notification message.
 
-Do you have complaints within those 10 days or after? Then contact the GGD to get a test.
- 
-Call <a href="tel:08001202">0800-1202</a> to request a corona test free of charge.
+- If the date of the contact in the notification is less than 5 days ago, you can get tested straight away. If your test result is positive, you can take immediate steps together with the GGD.
+- If this first test is negative, you will have a second test 5 days after the date of the contact in the notification message (or shortly after that). It can sometimes take a few days before a coronavirus test can detect whether someone has been infected. Stay at home until the second test shows that you do not have coronavirus.
+- If the date in the notification was 5 days ago or more, you only need to have one test. 
+- What if you can't get tested? In this case, you should stay at home for 10 days after the date in the notification. After that, you can go out again as long as you do not have any symptoms.
 
-If you test positive for coronavirus yourself:
-- The GGD will ask you who you have been near to, and the GGD will also call these people.	
-- Together with an employee of the GGD you can enter your coronavirus status in the app. When a GGD- employee calls you with the test result, they will also ask you if you want to sent out a notification in the app. Coronamelder warns everybody who has been near you and who may have been infected.
-- This includes people you know, but also people you do not know: people who otherwise would not have been contacted. This is how the app supports the contact tracing work being done by the GGD.
-- In this way, users of the app can avoid infecting other people, even before they feel unwell. By staying at home, for example.
-- The notification only tells them that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
+<a href="tel:0800-1202">Call 0800-1202</a> to arrange a coronavirus test, free of charge.
 
-This is now possible in the Netherlands, but also abroad, in collaboration with the corona apps of EU countries. For example, the international collaboration between apps warns people in the border regions of the Netherlands, or people who stay in the Netherlands because they live, work, celebrate holidays, shop here, etc. This way you know sooner whether you have been in contact with an infected person who uses a corona app from another EU country.
+What happens if you test positive for coronavirus?
 
-The cooperation is also useful if travelling within the European Union is allowed again, possibly from next year on. The virus will not be gone and the collaborating apps will then support the research for sources and contacts. 
+- The GGD will ask you who you have been near to, and the GGD will call those people.
+- You can add your coronavirus status to the app with the help of the GGD. If a GGD employee calls you with the test results, they will also ask if you want to add this information to the app. If you choose to do this, the CoronaMelder app will send an notification to everyone who you has been near you and who may have been infected.
+- That includes people you know, but also people you don’t know: people who otherwise would not have known they were at risk. This is how the app helps the contact tracing work being done by the GGD.
+- These people can thus avoid infecting other people, even before they have any symptoms. They can decide to stay at home, for example.
+- The notification only lets people know that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.
+
+This is how the CoronaMelder app can help to stop the spread of coronavirus.
+
+This is now possible in the Netherlands, but also in other countries because CoronaMelder is compatible with similar apps in other EU countries. These different apps work together to send notifications to people who live close to the border, for example, or people visiting the Netherlands because they live here, work here, or are visiting the Netherlands for a holiday or shopping trip. This means that you will know sooner if you have been close to an infected person who uses a coronavirus app from another EU country. 
 
 See: [Does CoronaMelder also work with corona apps from other countries?](/en/faq/13-gebruik-app-uit-ander-land)

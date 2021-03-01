@@ -16,8 +16,13 @@ featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
 featuredHomeText: You are advised to stay at home until 10 days after the date of the contact. If you have symptoms, you should get a coronavirus test.
 ---
+If you receive an notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
 
-If you get a notification, it means you have been near someone who has tested positive for coronavirus. Don’t panic: this does not mean for sure that you have coronavirus too. It means you have been in a high-risk situation and that you could have been infected with coronavirus. 
+If the notification in the CoronaMelder app shows that you have been close to an infected person, you can arrange to have a coronavirus test immediately, even if you have no symptoms yet. All the information you need to do this, is included in the notification message.
 
-You should stay at home for up to 10 days from the date of contact with an infected person. This will prevent you from infecting other people.
-If you develop symptoms within those 10 days or afterwards, call [0800-1202](tel:+318001202) or visit [www.coronatest.nl](https://www.coronatest.nl) to arrange a coronavirus test, free of charge.
+- If the date of the contact in the notification is less than 5 days ago, you can get tested straight away. If your test result is positive, you can take immediate steps together with the GGD.
+- If this first test is negative, you will have a second test 5 days after the date of the contact in the notification message (or shortly after that). It can sometimes take a few days before a coronavirus test can detect whether someone has been infected. Stay at home until the second test shows that you do not have coronavirus.
+- If the date in the notification was 5 days ago or more, only one test is needed. 
+- What if you can't get tested? In this case, you should stay at home for 10 days after the date in the notification. After that, you can go out again as long as you do not have any symptoms.
+
+Call [0800-1202](tel:+318001202) or visit [www.coronatest.nl](https://www.coronatest.nl) to arrange a coronavirus test, free of charge.
