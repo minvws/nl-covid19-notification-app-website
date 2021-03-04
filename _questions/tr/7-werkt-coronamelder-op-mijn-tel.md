@@ -2,8 +2,8 @@
 layout: content
 index: 2
 set: 2
-title: CoronaMelder telefonumda da çalışıyor mu?
-summary: CoronaMelder, sürüm 6 veya daha yenisine sahip çoğu Android telefonda ve iOS 13.5 veya daha yenisine sahip iPhone'larda çalışır.
+title: CoronaMelder benim telefonumda da çalışıyor mu? 
+summary: Uygulama telefonların %95'inde çalışır.
 lang: tr
 categories:
 - tr
@@ -13,11 +13,12 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder, sürüm 6 veya daha yenisine sahip çoğu Android telefonda ve iOS 13.5 veya daha yenisine sahip iPhone'larda çalışır.
+featuredHomeText: Uygulama telefonların %95'inde çalışır.
 ---
+Uygulama telefonların %95'inde çalışır.
 
-**Android:** CoronaMelder, sürüm 6 veya daha yeni olan çoğu Android telefonda çalışır.
+**Android**: CoronaMelder, sürüm 6 veya daha yeni olan çoğu Android telefonlarda çalışır.
 
-**iPhone:** CoronaMelder, işletim sistemi iOS 13.5 veya daha yeni olan Apple iPhone'larda çalışır. iOS 13.5, iPhone 6s, iPhone SE ve daha yeni sürümlere yüklenebilir.
+**iPhone**: CoronaMelder yakın zamana kadar yalnızca işletim sistemi iOS 13.5 veya daha yeni olan Apple iPhone'larda çalışıyordu. iOS 13.5, iPhone 6s, iPhone SE ve sonraki modellere yüklenebilir. İyi haber: 25 Şubat'tan itibaren CoronaMelder uygulaması artık Apple iPhone 5S ve 6'da da mevcut. CoronaMelder uygulamasını yüklemek için iPhone 5S ve 6'nızı iOS 12.5 işletim sistemine güncellemelisiniz.
 
-Apple ve Google, CoronaMelder'ın Bluetooth Low Energy ile çalışabilmesi için işletim sistemlerini uyarladılar. Apple bunu yalnızca iOS 13.5 sürümünden (iPhone 6s ve daha yeni) sunar. iOS 12, güvenlik güncellemelerini alacak, ancak işlevsel güncellemeleri almayacaktır. Hollanda devletinin Apple'ın güncelleme politikası üzerinde hiçbir etkisi yoktur. 
+Apple ve Google, CoronaMelder'ın Bluetooth Low Energy ile çalışabilmesi için işletim sistemlerini uyarladılar, bu nedenle CoronaMelder uygulaması çok az enerji tüketir.

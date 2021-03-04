@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 2
 title: Czy CoronaMelder działa również na moim telefonie?
-summary: CoronaMelder działa na większości telefonów z systemem Android w wersji 6 lub nowszej oraz na iPhone'ach z systemem iOS 13.5 lub nowszym.
+summary: Aplikacja działa na 95% wszystkich telefonów.
 lang: pl
 categories:
 - pl
@@ -13,11 +13,12 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder działa na większości telefonów z systemem Android w wersji 6 lub nowszej oraz na iPhone'ach z systemem iOS 13.5 lub nowszym.
+featuredHomeText: Aplikacja działa na 95% wszystkich telefonów.
 ---
+Aplikacja działa na 95% wszystkich telefonów.
 
-**Android:**  CoronaMelder działa na większości telefonów z systemem Android w wersji 6 lub nowszej.
+**Android**: CoronaMelder działa na większości telefonów z systemem Android w wersji 6 lub nowszej.
 
-**iPhone:**  CoronaMelder działa na iPhone'ach Apple z systemem operacyjnym iOS 13.5 lub nowszym. System iOS 13.5 może być zainstalowany na iPhone 6s , iPhone SE i nowszych.
+**Iphone**: Do niedawna aplikacja CoronaMelder działała wyłącznie na iPhone’ach Apple z systemem operacyjnym iOS 13.5 lub nowszym. System iOS 13.5 może być zainstalowany na iPhone 6s, iPhone SE i nowszych. Dobra wiadomość: od 25 lutego aplikacja CoronaMelder jest dostępna również na iPhone 5S oraz 6. Aby móc zainstalować CoronaMelder, należy zaktualizować swojego iPhone’a 5S i 6 do systemu operacyjnego iOS 12.5. 
 
-Apple i Google dostosowały swoje systemy operacyjne tak, aby aplikacja CoronaMelder mogła wykorzystywać technologię Bluetooth Low Energy. Apple oferuje to tylko od wersji iOS 13.5 (iPhone 6s i nowsze). iOS 12 otrzymuje aktualizacje dotyczące bezpieczeństwa, ale nie otrzymuje żadnych aktualizacji funkcjonalnych. Rząd holenderski nie ma żadnego wpływu na politykę aktualizacji firmy Apple.
+Apple i Google dostosowały swoje systemy operacyjne tak, aby aplikacja CoronaMelder mogła wykorzystywać technologię Bluetooth Low Energy, dzięki czemu zużywa ona mało energii.

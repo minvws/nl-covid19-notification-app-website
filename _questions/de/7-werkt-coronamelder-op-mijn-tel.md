@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 2
 title: Funktioniert CoronaMelder auch auf meinem Telefon?
-summary: CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher sowie auf iPhones mit iOS 13.5 oder höher.
+summary: Die App funktioniert auf 95 % aller Telefone.
 lang: de
 categories:
 - de
@@ -13,11 +13,12 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher sowie auf iPhones mit iOS 13.5 oder höher.
+featuredHomeText: Die App funktioniert auf 95 % aller Telefone.
 ---
+Die App funktioniert auf 95 % aller Telefone.
 
-**Android:** CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher.
+**Android**: CoronaMelder funktioniert auf den meisten Android-Telefonen mit Version 6 oder höher.
 
-**iPhone:** CoronaMelder funktioniert auf Apple iPhones mit iOS 13.5 oder höher. iOS 13.5 kann auf iPhone 6s, iPhone SE und neuer installiert werden.
+**iPhone**: Bis vor Kurzem funktionierte CoronaMelder nur auf Apple iPhones mit dem Betriebssystem iOS 13.5 oder höher. iOS 13.5 kann auf iPhone 6s, iPhone SE und neuer installiert werden. Gute Nachrichten: Ab 25. Februar ist die CoronaMelder-App auch für Apple iPhone 5S und 6 verfügbar. Für die Installation der CoronaMelder-App müssen Sie Ihr iPhone 5S bzw. 6 auf das Betriebssystem iOS 12.5 aktualisieren.
 
-Apple und Google haben ihre Betriebssysteme angepasst, damit CoronaMelder Bluetooth Low Energy nutzen kann. Apple bietet dies nur an ab Version iOS 13.5 (iPhone 6s und neuer). iOS 12 erhält zwar Sicherheitsupdates, aber keine funktionellen Updates. Der niederländische Staat hat keinen Einfluss auf die Update-Strategie von Apple.
+Apple und Google haben ihr Betriebssystem angepasst, sodass CoronaMelder mit Bluetooth Low Energy funktioniert. Damit verbraucht die CoronaMelder-App wenig Strom.

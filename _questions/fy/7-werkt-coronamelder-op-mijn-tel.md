@@ -3,6 +3,7 @@ layout: content
 index: 2
 set: 2
 title: Wurket CoronaMelder ek op myn telefoan?
+summary: De Nederlânske ferzje fan de app wurket op 95% fan alle telefoans.
 lang: fy
 categories:
 - fy
@@ -19,7 +20,8 @@ De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemta
 
 De Nederlânske ferzje fan de app wurket op 95% fan alle telefoans.
 
-**Android:** CoronaMelder wurket op de measte Android-telefoans me fersy 6 of nijer.
+**Android**: CoronaMelder wurket op de measte Android-telefoans mei fersy 6 of nijer.
 
-**iPhone:** CoronaMelder wurket op Apple iPhones mei it bestjoeringssysteem iOS 13.5 of nijer. iOS 13.5 kin op de iPhone 6s , iPhone SE en nijer ynstallearre wurde.
-Apple en Google hawwe harren bestjoeringssystemen oanpast sadat CoronaMelder mei Bluetooth Low Energy wurkje kin. Apple biedt dat allinne oan foar de fersy iOS 13.5 (iPhone 6s en nijer) of heger. iOS 12 ûntfangt wol befeiligingsupdates, mar gjin funksjonele updates. De Nederlânske oerheid hat gjin ynfloed op it updatebelied fan Apple.
+**iPhone**: Oant koartby wurke CoronaMelder allinne op Apple iPhones mei it bestjoeringssysteem iOS 13.5 of nijer. iOS 13.5 kin ynstallearre wurde op de iPhone 6s, iPhone SE en nijer. Goed nijs: fan 25 febrewaris ôf is de CoronaMelder-app no ek beskikber op Apple iPhone 5S en 6. Om de CoronaMelder-app ynstallearje te kinnen, moatst dyn iPhone 5S en 6 wol update nei bestjoeringssysteem iOS 12.5.
+
+Apple en Google hawwe harren bestjoeringssystemen oanpast sadat CoronaMelder wurkje kin mei Bluetooth Low Energy, wêrtroch’t de CoronaMelder mar in bytsje stroom brûkt.

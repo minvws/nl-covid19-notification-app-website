@@ -2,8 +2,8 @@
 layout: content
 index: 2
 set: 2
-title: Est-ce que CoronaMelder fonctionne sur mon téléphone?
-summary: CoronaMelder fonctionne sur la plupart des téléphones Android ayant la version 6 ou plus récente et sur les iPhones ayant iOS 13.5 ou plus récent.
+title: Est-ce que Coronamelder fonctionne sur mon téléphone ?
+summary: L’application fonctionne sur 95 % des téléphones.
 lang: fr
 categories:
 - fr
@@ -13,11 +13,12 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: CoronaMelder fonctionne sur la plupart des téléphones Android ayant la version 6 ou plus récente et sur les iPhones ayant iOS 13.5 ou plus récent.
+featuredHomeText: L’application fonctionne sur 95 % des téléphones.
 ---
+L’application fonctionne sur 95 % des téléphones.
 
-**Android**: CoronaMelder fonctionne sur la plupart des téléphones Android ayant la version 6 ou plus récente. 
+**Android** : CoronaMelder fonctionne sur la plupart des téléphones Android ayant une version 6 ou plus récente.
 
-**iPhone**: CoronaMelder fonctionne surt les iPhones Apple ayant le système d'exploitation iOS 13.5 ou plus récent. iOS 13.5 peut être installé sur l'iPhone 6s, l'iPhone SE et les appareils plus récents. 
- 
- Apple et Google ont adapté leurs systèmes d'exploitation pour que CortonaMelder puisse fonctionner avec le Bluetooth Low Energy. Apple n'offre cette possibilité qu'à partir de la version iOS 13.5, iPhone 6s et plus récent). iOS 12 reçoit toutefois les mises à jour de sécurité, mais pas les mises à jour fonctionnelles. Les autorités néerlandaises n'exercent pas d'influence sur la politique d'Apple quant aux mises à jour.
+**iPhone** : Jusqu’il y a peu, CoronaMelder ne fonctionnait que sur les iPhone d’Apple ayant le système d’exploitation iOS 13.5 ou plus récent. iOS 13.5 peut être installé sur l’iPhone 6s, l’iPhone SE et plus récents. Bonne nouvelle ! Depuis le 25 février, l’application CoronaMelder est également disponible sur les iPhone 5S et 6 d’Apple. Pour pouvoir installer l’application CoronaMelder, vous devez toutefois mettre à niveau vos iPhone 5S ou 6 vers le système d’exploitation iOS 12.5.
+
+Apple et Google ont adapté leurs systèmes d’exploitation de manière à ce que CoronaMelder fonctionne avec Bluetooth Low Energy, qui consiste à réduire la consommation d’électricité de l’application CoronaMelder.
