@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 2
 title: CoronaMelder работи ли и на моя телефон?
-summary: Приложението работи на 95% от всички телефони.
+summary: Приложението работи на 98% от всички телефони.
 lang: bg
 categories:
 - bg
@@ -13,9 +13,9 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: Приложението работи на 95% от всички телефони.
+featuredHomeText: Приложението работи на 98% от всички телефони.
 ---
-Приложението работи на 95% от всички телефони.
+Приложението работи на 98% от всички телефони.
 
 **Android**: CoronaMelder работи на болшинството от телефоните с Android с версия 6 или по-нова.
 

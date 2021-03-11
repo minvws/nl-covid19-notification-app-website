@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 2
 title: Wurket CoronaMelder ek op myn telefoan?
-summary: De Nederlânske ferzje fan de app wurket op 95% fan alle telefoans.
+summary: De Nederlânske ferzje fan de app wurket op 98% fan alle telefoans.
 lang: fy
 categories:
 - fy
@@ -14,11 +14,11 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: De Nederlânske ferzje fan de app wurket op 95% fan alle telefoans.
+featuredHomeText: De Nederlânske ferzje fan de app wurket op 98% fan alle telefoans.
 ---
 De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net.
 
-De Nederlânske ferzje fan de app wurket op 95% fan alle telefoans.
+De Nederlânske ferzje fan de app wurket op 98% fan alle telefoans.
 
 **Android**: CoronaMelder wurket op de measte Android-telefoans mei fersy 6 of nijer.
 

@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 2
 title: CoronaMelder funcționează și pe telefonul meu?
-summary: Aplicația funcționează pe 95% dintre telefoane.
+summary: Aplicația funcționează pe 98% dintre telefoane.
 lang: ro
 categories:
 - ro
@@ -13,9 +13,9 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: Aplicația funcționează pe 95% dintre telefoane.
+featuredHomeText: Aplicația funcționează pe 98% dintre telefoane.
 ---
-Aplicația funcționează pe 95% dintre telefoane.
+Aplicația funcționează pe 98% dintre telefoane.
 
 **Android**: CoronaMelder funcționează pe majoritatea telefoanelor Android cu versiunea 6 sau versiuni mai noi.
 

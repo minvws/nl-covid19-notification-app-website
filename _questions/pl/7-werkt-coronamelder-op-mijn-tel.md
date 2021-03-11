@@ -3,7 +3,7 @@ layout: content
 index: 2
 set: 2
 title: Czy CoronaMelder działa również na moim telefonie?
-summary: Aplikacja działa na 95% wszystkich telefonów.
+summary: Aplikacja działa na 98% wszystkich telefonów.
 lang: pl
 categories:
 - pl
@@ -13,9 +13,9 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check
-featuredHomeText: Aplikacja działa na 95% wszystkich telefonów.
+featuredHomeText: Aplikacja działa na 98% wszystkich telefonów.
 ---
-Aplikacja działa na 95% wszystkich telefonów.
+Aplikacja działa na 98% wszystkich telefonów.
 
 **Android**: CoronaMelder działa na większości telefonów z systemem Android w wersji 6 lub nowszej.
 
