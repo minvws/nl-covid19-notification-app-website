@@ -67,7 +67,7 @@ Pe lângă DK-uri, prima zi de boală și codul de validare, se trimite către s
 
 ### 5. Informații statistice 
 
-Datele colectate cu ajutorul aplicației se utilizează exclusiv în scopurile precizate în această declarație privind confidențialitatea. Nu se generează informații statistice. 
+Datele colectate cu ajutorul aplicației se utilizează exclusiv în scopurile precizate în această declarație privind confidențialitatea. 
 
 ### 6. Cui îi sunt puse la dispoziție datele?
 
@@ -113,4 +113,6 @@ Ministerul Sănătății, Bunăstării și Sportului și unitățile GGD trateaz
 
 ### 10. Modificarea declarației privind confidențialitatea
 
-Această declarație privind confidențialitatea poate suferi modificări. În acest caz, vom publica pe site-ul nostru versiunea modificată a declarației privind confidențialitatea, aceasta intrând apoi imediat în vigoare. Ultima actualizare: 23 noiembrie 2020
+Această declarație privind confidențialitatea poate suferi modificări. În acest caz, vom publica pe site-ul nostru versiunea modificată a declarației privind confidențialitatea, aceasta intrând apoi imediat în vigoare. 
+
+Ultima actualizare: 15 martie 2021.

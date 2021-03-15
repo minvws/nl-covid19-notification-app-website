@@ -70,7 +70,7 @@ In addition to the DKs, the first day of illness and validation code, the IP add
 
 ### 5. Statistical information
 
-The data collected with the app will only be used for the purposes stated in this privacy statement. No statistical information is generated.
+The data collected with the app will only be used for the purposes stated in this privacy statement. 
 
 ### 6. Who is provided with personal data?
 
@@ -118,4 +118,4 @@ The Minister of Health, Welfare and Sport and the GGD take the protection of you
 
 This privacy statement is subject to amendment. In that case, we will publish the amended privacy statement on our website, after it will have immediate effect.
 
-Most recent update: 14 december 2020
+Most recent update: 15 march 2021

@@ -68,7 +68,7 @@ In aanvulling op de DKs, eerste ziektedag, en validatiecode wordt ook het IP-adr
 
 ### 5. Statistische informatie
 
-De met de app verzamelde gegevens worden uitsluitend gebruikt voor de in deze privacyverklaring genoemde doeleinden. Er wordt geen statistische informatie gegenereerd.
+De met de app verzamelde gegevens worden uitsluitend gebruikt voor de in deze privacyverklaring genoemde doeleinden. 
 
 ### 6. Aan wie worden persoonsgegevens verstrekt?
 

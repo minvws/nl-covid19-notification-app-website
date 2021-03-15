@@ -64,7 +64,7 @@ Doğrulama kodu uygulama içinde sunulan işlevsellik yardımıyla oluşturulur 
 DK’lere, ilk hastalık gününe ve doğrulama koduna ek olarak, backend sunucusuna IP adresi de gönderilir. Bu da internet ve IP teknolojisinin kullanımının özündedir. IP adresi sadece yönetim ve koruma amaçlı işlenmektedir. IP adresi diğer verilerden ayrı olarak saklanır, böylece backend sunucusunda IP adresleri saklanmaz. Bu nedenle kimin hangi bilgiyi gönderdiği anlaşılamaz.
 
 ### 5. İstatistik bilgi 
-Uygulamayla toplanan veriler sadece bu gizlilik beyanında belirtilen amaçlar için kullanılır. İstatistik bilgi üretilmez. 
+Uygulamayla toplanan veriler sadece bu gizlilik beyanında belirtilen amaçlar için kullanılır. 
 
 ### 6. Kişisel veriler kime tedarik edilir?
 RPI’lerin yayınlanması ve alınması yerel olarak akıllı telefonlarda yapılır. Bulaşma tespit edildiğinde kullanıcı TEK’lerini eşsiz doğrulama koduyla birlikte backend sunucusuna göndermeyi seçebilir. Backend sunucusu taşeron (işleyici) olarak KPN ile CIBG tarafından yönetilir.
@@ -109,5 +109,5 @@ Halk Sağlığı, Refah ve Spor Bakanı ve de GGD’ler verilerinizin korunması
 
 ### 10. Gizlilik beyanının değiştirilmesi
 İşbu  gizlilik beyanı değiştirilebilir. Bu durumda değiştirilmiş gizlilik beyanını web sitemizde yayınlarız ve  hemen akabinde yeni gizlilik beyanı da yürürlüğe girer. 
-Son güncellenme: 23 Kasım 2020
 
+Son güncelleme: 15 Mart 2021.

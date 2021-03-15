@@ -72,7 +72,7 @@ Además de las DK, el primer día de enfermedad y el código de validación, tam
 
 ### 5. Información estadística
 
-Los datos recopilados por la aplicación únicamente se usan para los fines mencionados en esta declaración de privacidad. No se genera información estadística.
+Los datos recopilados por la aplicación únicamente se usan para los fines mencionados en esta declaración de privacidad. 
 
 ### 6. ¿A quién se facilitan los datos personales?
 
@@ -124,4 +124,4 @@ El ministro de Sanidad, Bienestar y Deportes y los GGD se toman muy en serio la 
 
 Esta declaración de privacidad puede ser modificada. En ese caso, publicaremos en nuestro sitio web la declaración de privacidad modificada, inmediatamente después de lo cual entrará en vigor dicha declaración. 
 
-Última actualización: 23 de noviembre de 2020.
+Última actualización: 15 de marzo de 2021.

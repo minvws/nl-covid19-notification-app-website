@@ -88,7 +88,7 @@ Oprócz kluczy DK, daty pierwszego dnia choroby i kodu weryfikacyjnego, do backe
 
 ### 5. Informacje statystyczne
 
-Dane zebrane za pomocą aplikacji są wykorzystywane wyłącznie do celów wymienionych w niniejszym oświadczeniu o ochronie prywatności. Nie są generowane żadne informacje statystyczne. 
+Dane zebrane za pomocą aplikacji są wykorzystywane wyłącznie do celów wymienionych w niniejszym oświadczeniu o ochronie prywatności. 
 
 ### 6. Komu udostępniane są dane osobowe?
 
@@ -162,4 +162,4 @@ Minister Zdrowia, Opieki Społecznej i Sportu oraz GGD poważnie traktują ochro
 
 Niniejsze oświadczenie o ochronie prywatności może ulec zmianie. W takim przypadku opublikujemy zmienione oświadczenie o ochronie prywatności na naszej stronie internetowej, po czym oświadczenie to będzie miało natychmiastowe zastosowanie.
 
-Ostatnia aktualizacja: 23 listopada 2020 r.
+Ostatnia aktualizacja: 15 marca 2021 r.

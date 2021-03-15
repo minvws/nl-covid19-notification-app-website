@@ -82,7 +82,7 @@ En plus des DK, du premier jour de maladie et du code de validation, l'adresse I
 
 ### 5. Informations statistiques 
 
-Les données collectées avec l'application ne seront utilisées qu'aux fins mentionnées dans la présente déclaration de protection de la vie privée. Aucune information statistique n'est générée. 
+Les données collectées avec l'application ne seront utilisées qu'aux fins mentionnées dans la présente déclaration de protection de la vie privée. 
 
 ### 6. À qui sont fournies les données à caractère personnel ?
 
@@ -134,4 +134,4 @@ Le ministère de la Santé, du Bien-être et des Sports et les GGD prennent la p
 
 La présente Déclaration de protection de la vie privée peut être modifiée. Dans ce cas, nous publierons la déclaration de protection de la vie privée modifiée sur notre site web, après quoi, cette déclaration de confidentialité sera immédiatement applicable.. 
 
-Dernière mise à jour : 23 novembre 2020
+Dernière mise à jour: 15 mars 2021.

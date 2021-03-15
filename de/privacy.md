@@ -68,7 +68,7 @@ Abgesehen von den DKs, dem Krankheitsbeginn und dem Validierungscode wird auch d
 
 ### 5. Statistische Informationen
 
-Die mit der App erfassten Daten werden ausschließlich für die in dieser Datenschutzerklärung genannten Zwecke verwendet. Es werden keine statistischen Informationen generiert.
+Die mit der App erfassten Daten werden ausschließlich für die in dieser Datenschutzerklärung genannten Zwecke verwendet. 
 
 ### 6. An wen werden die personenbezogenen Daten weitergeleitet?
 
@@ -114,4 +114,4 @@ Das niederländische Ministerium für Gesundheit, Gemeinwohl und Sport sowie die
 
 ### 10. Änderung der Datenschutzerklärung
 
-Diese Datenschutzerklärung kann geändert werden. In diesem Fall veröffentlichen wir die geänderte Datenschutzerklärung auf unserer Website. Damit erlangt die neue Datenschutzerklärung ihre Wirksamkeit. Zuletzt aktualisiert am: 23. November 2020.
+Diese Datenschutzerklärung kann geändert werden. In diesem Fall veröffentlichen wir die geänderte Datenschutzerklärung auf unserer Website. Damit erlangt die neue Datenschutzerklärung ihre Wirksamkeit. Zuletzt aktualisiert am: 15. März 2021.
