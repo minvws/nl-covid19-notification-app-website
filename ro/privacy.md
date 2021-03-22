@@ -22,9 +22,9 @@ Comisia Europeană a înființat o infrastructură digitală pentru cooperarea d
 
 ### 1. Cine este operatorul de date cu caracter personal? 
 
-Ministerul Sănătății, Bunăstării și Sportului (VWS) este operatorul în ceea ce privește datele cu caracter personal prelucrate la configurare, la sincronizarea europeană cu alte aplicații de notificare și la gestionarea aplicației CoronaMelder.
+Ministerul Sănătății, Bunăstării și Sportului (VWS) este operatorul în ceea ce privește datele cu caracter personal prelucrate la configurare, la sincronizarea europeană cu alte aplicații de notificare și la gestionarea aplicației CoronaMelder. Ministrul VWS și autoritățile desemnate ale altor țări participante îndeplinesc împreună rolul de operator de date pentru EFGS. Puteți găsi o listă actualizată a țărilor participante în partea privind „CoronaMelder și străinătatea” din secțiunea de întrebări frecvente de pe CoronaMelder.nl.
 
-În măsura în care Serviciul Municipal de Sănătate (GGD) utilizează, pentru identificarea focarelor și a contacților, date cu caracter personal obținute prin intermediul aplicației, operatorul de date cu caracter personal din regiunea dvs. este GGD . Pe [www.GGD.nl](http://www.GGD.nl) puteți găsi unitatea GGD de care aparțineți introducând codul poștal al adresei dvs. de domiciliu. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
+În măsura în care Serviciul Municipal de Sănătate (GGD) utilizează, pentru identificarea focarelor și a contacților, date cu caracter personal obținute prin intermediul aplicației, operatorul de date cu caracter personal din regiunea dvs. este GGD. Pe [www.GGD.nl](http://www.GGD.nl) puteți găsi unitatea GGD de care aparțineți introducând codul poștal al adresei dvs. de domiciliu. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
 
 ### 2. În ce scop sunt prelucrate datele cu caracter personal? 
 
@@ -55,7 +55,7 @@ Descărcarea și utilizarea aplicației CoronaMelder sunt și vor rămâne volun
 
 Aceste date pot fi date cu caracter personal. 
 
-Un TEK este o serie de cifre generate în mod criptat și aleatoriu, cu rol de referință temporară. Pe baza TEK-ului, o dată la 10-20 de minute se generează un RPI, adică o serie temporară de cifre generate tot în mod criptat. Acest RPI face obiectul unui schimb cu alte smartphone-uri pe care este instalată aplicația și care s-au aflat, într-un interval de timp stabilit, în apropierea smartphone-ului în cauză. Recepționarea și transmiterea de RPI-uri se face prin Bluetooth Low Energy. RPI-ul se utilizează în combinație cu puterea semnalului, atât de recepție, cât și de transmisie (pentru a determina distanța dintre utilizatori), și cu durata contactului (Bluetooth). RPI-urile recepționate sunt șterse de pe smartphone-uri după 14 zile. 
+Un TEK este o serie de cifre generate în mod criptat și aleatoriu, cu rol de referință temporară. Pe baza TEK-ului, o dată la 10-20 de minute se generează un RPI, adică o serie temporară de cifre generate tot în mod criptat. Acest RPI face obiectul unui schimb cu alte smartphone-uri pe care este instalată aplicația și care s-au aflat, într-un interval de timp stabilit, în apropierea smartphone-ului în cauză. Recepționarea și transmiterea de RPI-uri se face prin Bluetooth Low Energy. RPI-ul se utilizează în combinație cu puterea semnalului, atât de recepție, cât și de transmisie (pentru a determina distanța dintre utilizatori), și cu durata contactului (Bluetooth). RPI-urile recepționate sunt șterse de pe smartphone-uri după 14 zile.
 
 Atât TEK-urile, cât și DK-urile și RPI-urile sunt chei de identificare pseudonimizate.
 
@@ -67,15 +67,15 @@ Pe lângă DK-uri, prima zi de boală și codul de validare, se trimite către s
 
 ### 5. Informații statistice 
 
-Datele colectate cu ajutorul aplicației se utilizează exclusiv în scopurile precizate în această declarație privind confidențialitatea. 
+Datele colectate cu ajutorul aplicației se utilizează exclusiv în scopurile precizate în această declarație privind confidențialitatea.
 
 ### 6. Cui îi sunt puse la dispoziție datele?
 
-Transmiterea și recepționarea de RPI-uri au loc la nivel local pe smartphone-uri. Dacă s-a stabilit o infectare, utilizatorul poate alege să transmită către serverul de back-end TEK-urile sale, însoțite de un cod de validare unic. Serverul de back-end este administrat de CIBG, KPN acționând ca subcontractant (persoană autorizată de către operatorul de date).
+Transmiterea și recepționarea de RPI-uri au loc la nivel local pe smartphone-uri. Dacă s-a stabilit o infectare, utilizatorul poate alege să transmită către serverul de back-end TEK-urile sale, însoțite de un cod de validare unic. Serverul de back-end este administrat de CIBG (care face parte di Ministerul Sănătății Publice, Bunăstării și Sportului), KPN acționând ca subcontractant (persoană autorizată de către operatorul de date).
 
 GGD prelucrează codul de validare, cu data primei zile de boală, în portalul GGD al aplicației, portal accesibil numai angajaților autorizați ai GGD.
 
-Prin intermediul portalului federativ european (EFGS), DK-urile fac obiectul unui schimb cu alte țări europene care s-au alăturat cooperării. Aderarea la EFGS se face pas cu pas. Puteți găsi o listă actualizată a țărilor participante în partea privind „CoronaMelder și străinătatea” din secțiunea de întrebări frecvente de pe CoronaMelder.nl. EFGS este gestionat de Comisia Europeană (operator).
+Prin intermediul portalului federativ european (EFGS), DK-urile fac obiectul unui schimb cu alte țări europene care au aplicații cu un nivel de securitate comparabil și s-au alăturat EFGS. Aderarea la EFGS se face pas cu pas. Puteți găsi o listă actualizată a țărilor participante în partea privind „CoronaMelder și străinătatea” din secțiunea de întrebări frecvente de pe CoronaMelder.nl. EFGS este gestionat de Comisia Europeană (operator). Condițiile tehnice și organizatorice de participare la EFGS sunt precizate în decizia europeană de punere în aplicare privind schimburile transfrontaliere. Puteți găsi informații suplimentare despre interoperabilitatea cu alte țări pe https://ec.europa.eu/health/ehealth/covid-19.
 
 Smartphone-urile altor utilizatori preiau periodic, de câteva ori pe zi, DK-urile aflate pe acest server de back-end. 
 
@@ -89,7 +89,7 @@ Adresele IP prelucrate în scopuri de administrare și de securizare sunt șters
 
 ### 8. Drepturile care vă revin în legătură cu datele dvs. cu caracter personal 
 
-Aveți unele drepturi pentru a păstra controlul asupra datelor dvs. cu caracter personal. Le puteți regăsi [aici, pe site-ul Autorității privind Datele cu Caracter Personal](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen).
+Aveți unele drepturi pentru a păstra controlul asupra datelor dvs. cu caracter personal. Le puteți regăsi [aici](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen), pe site-ul Autorității privind Datele cu Caracter Personal.
 
 Deoarece aplicația CoronaMelder a fost concepută pornind de la principiul minimizării datelor și al confidențialității încă din stadiul de proiectare, puteți invoca numai într-o măsură limitată drepturile pe care vi le conferă RGPD. Se prelucrează date numai într-o măsură limitată. În plus, este aproape imposibil de urmărit sursa datelor, iar acestea se păstrează numai o perioadă scurtă. Conform articolului 11 din RGPD, drepturile care decurg din articolele 15-20 ale RGPD nu se aplică dacă operatorul de date nu (mai) poate identifica persoana în cauză.
 
@@ -101,11 +101,11 @@ Aplicarea drepturilor conferite de RGPD va fi deci necesară numai într-o măsu
 
 Rămâne însă valabilă posibilitatea de a transmite o cerere prin care invocați un drept care vă revine în ceea ce privește confidențialitatea. Puteți trimite cererea dvs. la unitatea GGD de care aparține localitatea dvs. Pe [www.GGD.nl](http://www.GGD.nl) puteți completa codul poștal al adresei dvs. de domiciliu pentru a vedea de care unitate GGD aparține localitatea dvs. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
 
-Aveți permanent dreptul de a depune o plângere în legătură cu prelucrarea datelor dvs. cu caracter personal la Autoritatea privind Datele cu Caracter Personal. Puteți găsi mai multe informații despre acest lucru  [aici, pe site-ul Autorității privind Datele cu Caracter Personal](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
+Aveți permanent dreptul de a depune o plângere în legătură cu prelucrarea datelor dvs. cu caracter personal la Autoritatea privind Datele cu Caracter Personal. Puteți găsi mai multe informații despre acest lucru [aici](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
 
-Pe site-ul unității GGD din localitatea dvs. puteți găsi datele de contact ale responsabilului cu protecția datelor din cadrul respectivei unități GGD. [www.GGD.nl](http://www.GGD.nl)
+Pe site-ul unității GGD din localitatea dvs. puteți găsi datele de contact ale responsabilului cu protecția datelor din cadrul respectivei unități GGD.
 
-Pe site-ul Ministerului Sănătății Publice, Bunăstării și Sportului puteți găsi datele de contact ale responsabilului cu protecția datelor din cadrul <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/avg/contact/functionaris-gegevensbescherming" target="_blank" rel="noopener noreferrer">ministerului respectiv</a>.
+Pe site-ul Ministerului Sănătății Publice, Bunăstării și Sportului puteți găsi datele de contact ale responsabilului cu protecția datelor din cadrul ministerului respectiv.
 
 ### 9. Securizarea datelor dvs. cu caracter personal
 
@@ -113,6 +113,4 @@ Ministerul Sănătății, Bunăstării și Sportului și unitățile GGD trateaz
 
 ### 10. Modificarea declarației privind confidențialitatea
 
-Această declarație privind confidențialitatea poate suferi modificări. În acest caz, vom publica pe site-ul nostru versiunea modificată a declarației privind confidențialitatea, aceasta intrând apoi imediat în vigoare. 
-
-Ultima actualizare: 15 martie 2021.
+Această declarație privind confidențialitatea poate suferi modificări. În acest caz, vom publica pe site-ul nostru versiunea modificată a declarației privind confidențialitatea, aceasta intrând apoi imediat în vigoare. Ultima actualizare: 15 martie 2020

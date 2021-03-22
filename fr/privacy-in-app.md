@@ -5,38 +5,24 @@ title: Déclaration de protection de la vie privée concernant l’application C
 ---
 ## À propos de l’application CoronaMelder
 
-
-
 L'application CoronaMelder est un outil qui contribue à limiter la propagation du virus COVID-19. Si vous avez installé CoronaMelder sur votre smartphone, vous recevrez un message si vous avez été pendant un moment à proximité d'une personne qui a été testée positive à la COVID-19, si cette personne a également installé CoronaMelder. Vous trouverez ci-après une courte explication du fonctionnement de l’application CoronaMelder.
-
-
 
 L'application reconnaît les autres smartphones sur lesquels elle est installée via Bluetooth. Les autres smartphones sont identifiés au moyen de codes aléatoires (séries de chiffres) appelés « Rolling Proximity Indicators » (RPI). Ces codes sont actualisés toutes les 10 à 20 minutes et sont dérivés des clés dites Temporary Exposure Keys (TEK). Les TEK sont également des codes aléatoires, mais ces codes sont régénérés quotidiennement et stockés sur le téléphone de l'utilisateur pendant 14 jours. 
 
-
-
 Si votre smartphone est proche d'un autre smartphone sur lequel l'application est installée, les différents RPI sont échangés entre ces smartphones, et stockés localement sur ceux-ci. Si un utilisateur de l'application a été testé positif à la COVID-19, il peut volontairement choisir de le signaler dans l'application. Si cette option est retenue, l'application envoie les TEK créées au cours des 14 derniers jours, et stockées localement sur le smartphone, à un serveur dorsal. Le serveur dorsal n'accepte les TEK envoyées que si l'utilisateur et le GGD (service municipal de santé) ont confirmé la transmission avec un code de validation. Sur le serveur dorsal, les TEK reçues sont converties en d'autres codes appelés Diagnosis Keys (DK). 
-
-
 
 Le serveur dorsal met ensuite les DK à disposition pour qu'elles soient automatiquement récupérées par les smartphones sur lesquels l'application est installée. Si votre smartphone a récupéré les DK sur le serveur, la connexion au serveur est coupée. Ce processus automatisé se répète plusieurs fois par jour afin de tenir à jour les éventuels risques de contamination. Votre smartphone utilise ensuite les DK collectées pour calculer s'il y a une correspondance avec les différents RPI des autres smartphones dont votre smartphone s'est rapproché. Les DK sont ensuite directement supprimées de votre smartphone. 
 
-
-
 En cas de concordance, un certain nombre de facteurs de pondération sont utilisés pour déterminer s'il y a eu un contact à risque. Si tel est le cas, en d'autres termes, si vous avez récemment été proche d'une personne atteinte de COVID-19, vous recevrez un rapport sur votre risque accru de contamination. L'application vous conseille également sur la démarche à suivre si vous avez reçu un signalement.
-
-
 
 L'application CoronaMelder fonctionne à partir du 30 novembre 2020 avec les applications de notification d’autres pays européens. Autrement dit, si vous utilisez l’application CoronaMelder et si vous rencontrez un ressortissant d’un autre pays de l’Union Européenne qui utilise l’application Covid-19 de ce pays, les deux dispositifs vont échanger des RPI. Ceci se fait de la même manière qu’entre deux utilisateurs de l’application CoronaMelder. Si l’un d’entre vous deux est ensuite testé positif et le signale via l’application, l’autre recevra un signalement.
 
+La Commission européenne a mis en place une infrastructure numérique pour la collaboration entre les applications Covid-19 de différents pays, le Service de Passerelle Fédérale Européenne (« *European Federation Gateway Service* » (EFGS)). Celle-ci se compose d’un serveur communautaire qui permet d’échanger des données entre les différentes applications Covid-19.
 
-
-La Commission européenne a mis en place une infrastructure numérique pour la collaboration entre les applications Covid-19 de différents pays, la Service de Passerelle Fédérale Européenne (« *European Federation Gateway Service* » (EFGS)). Celle-ci se compose d’un serveur communautaire qui permet d’échanger des données entre les différentes applications Covid-19.
-
-
+ 
 ### 1. Qui est responsable du traitement des données à caractère personnel ? 
 
-Le ministère de la Santé, du Bien-être et des Sports est responsable du traitement dans la mesure où des données à caractère personnel sont traitées dans le cadre de la création, de la collaboration européenne avec d’autres applications de notification et de la gestion de l’application CoronaMelder.
+Le ministère de la Santé, du Bien-être et des Sports est responsable du traitement dans la mesure où des données à caractère personnel sont traitées dans le cadre de la création, de la collaboration européenne avec d’autres applications de notification et de la gestion de l’application CoronaMelder. Le ministère de la Santé, du Bien-être et des Sports est responsable du traitement, conjointement avec les autorités désignées d’autres pays participants, pour l’EFGS. Vous trouverez un aperçu à jour des pays participants dans la partie « L’application CoronaMelder et l'étranger» dans les questions fréquemment posées sur CoronaMelder.nl.
 
 Dans la mesure où le service municipal de santé (GGD) utilise les données à caractère personnel obtenues via l'application pour la recherche des sources et des contacts, le GGD de votre région est le responsable du traitement. Sur le site [www.GGD.nl](http://www.GGD.nl), découvrez de quel GGD vous relevez en saisissant le code postal de votre domicile. Si vous n’avez pas d’adresse aux Pays-Bas, vous pouvez saisir le code postal de votre lieu de résidence.
 
@@ -70,7 +56,7 @@ Les données suivantes sont traitées dans le cadre de l’application :
 
 Ces données peuvent être des données à caractère personnel. 
 
-Une TEK est une séquence de chiffres aléatoire générée par cryptographie qui sert de référence temporaire.. Un RPI est généré toutes les 10 à 20 minutes sur la base des TEK, c'est-à-dire une séquence de chiffres temporaire, également générée par cryptographie. Ce RPI est échangé avec d'autres smartphones sur lesquels l'application est installée, et qui se trouvent à proximité du smartphone en question pendant une période déterminée. La réception et la transmission des RPI se font via Bluetooth Low energy. Le RPI est donc utilisé en combinaison avec la puissance du signal émis et reçu (pour déterminer la distance entre les utilisateurs), et la durée du contact (Bluetooth). Les RPI reçus sont retirés des smartphones après 14 jours. 
+Une TEK est une séquence de chiffres aléatoire générée par cryptographie qui sert de référence temporaire. Un RPI est généré toutes les 10 à 20 minutes sur la base des TEK, c'est-à-dire une séquence de chiffres temporaire, également générée par cryptographie. Ce RPI est échangé avec d'autres smartphones sur lesquels l'application est installée, et qui se trouvent à proximité du smartphone en question pendant une période déterminée. La réception et la transmission des RPI se font via Bluetooth Low energy. Le RPI est donc utilisé en combinaison avec la puissance du signal émis et reçu (pour déterminer la distance entre les utilisateurs), et la durée du contact (Bluetooth). Les RPI reçus sont retirés des smartphones après 14 jours. 
 
 Les TEK, DK et RPI sont des clés d'identification pseudonymisées.
 
@@ -86,19 +72,17 @@ Les données collectées avec l'application ne seront utilisées qu'aux fins men
 
 ### 6. À qui sont fournies les données à caractère personnel ?
 
-L'émission et la réception des RPI se font localement sur les smartphones. En cas de détection d'une contamination, l'utilisateur peut choisir d'envoyer ses TEK, accompagnées d'un code de validation unique, au serveur dorsal. Le serveur dorsal est géré par le CIBG avec KPN comme sous-traitant.
+L'émission et la réception des RPI se font localement sur les smartphones. En cas de détection d'une contamination, l'utilisateur peut choisir d'envoyer ses TEK, accompagnées d'un code de validation unique, au serveur dorsal. Le serveur dorsal est géré par le CIBG (service du Ministère de la Santé, du Bien-être et des Sports) avec KPN comme sous-traitant.
 
 Le GGD traite le code de validation, avec la date du premier jour de maladie, dans le portail GGD de l'application, qui n'est accessible qu'au personnel autorisé du GGD.
 
-Les DK sont échangés via la Service de Passerelle Fédérale Européenne (« *European Federation Gateway Service* » (EFGS)) avec d’autres pays européens qui ont adhéré à cette collaboration. La connexion à l'EFGS se fait étape par étape. Vous trouverez un aperçu à jour des pays participants dans la section « CoronaMelder en het buitenland » (L’application CoronaMelder et l'étranger) dans les questions fréquemment posées sur CoronaMelder.nl. L'EGFS est gérée par la Commission européenne (sous-traitant).
+Les DK sont échangés via le Service de Passerelle Fédérale Européenne (« *European Federation Gateway Service* » (EFGS)) avec d’autres pays européens qui disposent d’une application avec un niveau de sécurisation comparable et ont adhéré à l’EFGS. La connexion à l'EFGS se fait étape par étape. Vous trouverez un aperçu à jour des pays participants dans la section « CoronaMelder en het buitenland » (L’application CoronaMelder et l'étranger) dans les questions fréquemment posées sur CoronaMelder.nl. L'EGFS est géré par la Commission européenne (sous-traitant). Les conditions techniques et organisationnelles pour adhérer à l'EFGS sont définies dans la Décision d’exécution européenne en ce qui concerne l'échange transfrontière. De plus amples informations sur l'interopérabilité avec d'autres pays sont disponibles sur le site https://ec.europa.eu/health/ehealth/covid-19.
 
 Les smartphones des autres utilisateurs récupèrent périodiquement, plusieurs fois par jour, les DK stockées sur ce serveur dorsal. 
 
 ### 7. Conservation des données à caractère personnel
 
 Les données stockées localement sur votre smartphone sont conservées pendant 14 jours. Après ces 14 jours, ces données sont automatiquement et définitivement supprimées. Vous pouvez également supprimer vous-même à tout moment les données stockées. 
-
-
 
 Dans la mesure où vos données sont stockées sur le serveur dorsal/EFGS, elles seront conservées pendant 14 jours à partir du moment où elles sont téléchargées. Après ces 14 jours, ces données sont supprimées. 
 
@@ -126,12 +110,12 @@ Vous trouverez les coordonnées du Responsable de protection des données du GGD
 
 Vous trouverez les coordonnées du Responsable de protection des données du ministère de la Santé, du Bien-être et des Sports sur le site Web de ce ministère.
 
-### 9. Sécurisation de vos données à caractère personnel
+## 9. Sécurisation de vos données à caractère personnel
 
 Le ministère de la Santé, du Bien-être et des Sports et les GGD prennent la protection de vos données au sérieux et adoptent des mesures appropriées pour prévenir les abus, les pertes, les accès non autorisés, les divulgations non souhaitées et les modifications non autorisées.
 
 ### 10. Modification de la déclaration de protection de la vie privée
 
-La présente Déclaration de protection de la vie privée peut être modifiée. Dans ce cas, nous publierons la déclaration de protection de la vie privée modifiée sur notre site web, après quoi, cette déclaration de confidentialité sera immédiatement applicable.. 
+La présente Déclaration de protection de la vie privée peut être modifiée. Dans ce cas, nous publierons la déclaration de protection de la vie privée modifiée sur notre site web, après quoi, cette déclaration de confidentialité sera immédiatement applicable. 
 
-Dernière mise à jour: 15 mars 2021.
+Dernière mise à jour : 15 mars 2021.
