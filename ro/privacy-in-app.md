@@ -23,7 +23,7 @@ Comisia Europeană a înființat o infrastructură digitală pentru cooperarea d
 
 Ministerul Sănătății, Bunăstării și Sportului (VWS) este operatorul în ceea ce privește datele cu caracter personal prelucrate la configurare, la sincronizarea europeană cu alte aplicații de notificare și la gestionarea aplicației CoronaMelder. Ministrul VWS și autoritățile desemnate ale altor țări participante îndeplinesc împreună rolul de operator de date pentru EFGS. Puteți găsi o listă actualizată a țărilor participante în partea privind „CoronaMelder și străinătatea” din secțiunea de întrebări frecvente de pe CoronaMelder.nl.
 
-În măsura în care Serviciul Municipal de Sănătate (GGD) utilizează, pentru identificarea focarelor și a contacților, date cu caracter personal obținute prin intermediul aplicației, operatorul de date cu caracter personal din regiunea dvs. este GGD. Pe [www.GGD.nl](http://www.GGD.nl) puteți găsi unitatea GGD de care aparțineți introducând codul poștal al adresei dvs. de domiciliu. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
+În măsura în care Serviciul Municipal de Sănătate (GGD) utilizează, pentru identificarea focarelor și a contacților, date cu caracter personal obținute prin intermediul aplicației, operatorul de date cu caracter personal din regiunea dvs. este GGD. Pe [www.GGD.nl](https://www.GGD.nl) puteți găsi unitatea GGD de care aparțineți introducând codul poștal al adresei dvs. de domiciliu. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
 
 ### 2. În ce scop sunt prelucrate datele cu caracter personal? 
 
@@ -98,7 +98,7 @@ Datorită caracterului de confidențialitate încă din stadiul de proiect al ap
 
 Aplicarea drepturilor conferite de RGPD va fi deci necesară numai într-o măsură limitată, pur și simplu deoarece nu se poate stabili sau se poate stabili numai într-o măsură limitată legătura dintre date și persoane sau deoarece aceste date nu mai există, având în vedere termenele scurte de păstrare. Se face trimitere aici la articolul 11 din RGPD, conform căruia nu se aplică drepturile precizate în articolele 15-20 din RGPD dacă persoanele în cauză nu mai pot fi identificate.
 
-Rămâne însă valabilă posibilitatea de a transmite o cerere prin care invocați un drept care vă revine în ceea ce privește confidențialitatea. Puteți trimite cererea dvs. la unitatea GGD de care aparține localitatea dvs. Pe [www.GGD.nl](http://www.GGD.nl) puteți completa codul poștal al adresei dvs. de domiciliu pentru a vedea de care unitate GGD aparține localitatea dvs. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
+Rămâne însă valabilă posibilitatea de a transmite o cerere prin care invocați un drept care vă revine în ceea ce privește confidențialitatea. Puteți trimite cererea dvs. la unitatea GGD de care aparține localitatea dvs. Pe [www.GGD.nl](https://www.GGD.nl) puteți completa codul poștal al adresei dvs. de domiciliu pentru a vedea de care unitate GGD aparține localitatea dvs. Dacă nu aveți adresă de domiciliu în Olanda, puteți introduce codul poștal al adresei spațiului de cazare.
 
 Aveți permanent dreptul de a depune o plângere în legătură cu prelucrarea datelor dvs. cu caracter personal la Autoritatea privind Datele cu Caracter Personal. Puteți găsi mai multe informații despre acest lucru [aici](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
 

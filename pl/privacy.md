@@ -24,7 +24,7 @@ W celu współpracy aplikacji dotyczących koronawirusa z różnych krajów Unia
 
 Minister Zdrowia, Opieki Społecznej i Sportu jest administratorem danych osobowych w zakresie, w jakim są one przetwarzane przy tworzeniu, europejskiej współpracy z innymi aplikacjami przesyłającymi powiadomienia i zarządzaniu aplikacją CoronaMelder. Minister ten wraz z wyznaczonymi organami innych krajów uczestniczących w programie jest administratorem danych osobowych w zakresie EFGS. Aktualny przegląd krajów uczestniczących w programie znajduje się w podpunkcie „CoronaMelder i zagranica” w najczęściej zadawanych pytaniach na stronie CoronaMelder.nl.
 
-GGD w regionie danego użytkownika jest administratorem danych w zakresie, w jakim Gminna Służba Zdrowia (GGD) korzysta z danych osobowych uzyskanych za pośrednictwem aplikacji podczas swoich działań. Na stronie [www.GGD.nl](http://www.GGD.nl/) użytkownik może dowiedzieć się, do którego oddziału GGD przynależy, wpisując kod pocztowy swojego miejsca zamieszkania. Jeśli użytkownik nie posiada adresu zamieszkania w Holandii, może wpisać kod pocztowy swojego miejsca pobytu.
+GGD w regionie danego użytkownika jest administratorem danych w zakresie, w jakim Gminna Służba Zdrowia (GGD) korzysta z danych osobowych uzyskanych za pośrednictwem aplikacji podczas swoich działań. Na stronie [www.GGD.nl](https://www.GGD.nl/) użytkownik może dowiedzieć się, do którego oddziału GGD przynależy, wpisując kod pocztowy swojego miejsca zamieszkania. Jeśli użytkownik nie posiada adresu zamieszkania w Holandii, może wpisać kod pocztowy swojego miejsca pobytu.
 
 ### 2. W jakim celu przetwarzane są dane osobowe? 
 
@@ -110,7 +110,7 @@ Ze względu na charakter aplikacji opierający się na zasadzie „privacy by de
 
 Reasumując, wdrożenie praw związanych z RODO będzie zatem konieczne tylko w ograniczonym zakresie, ponieważ połączenie danych z danymi osobami jest niemożliwe lub możliwe w bardzo małym stopniu, jak również dlatego, że dane te już nie istnieją ze względu na krótki okres przechowywania. Jest to zgodne z art. 11 RODO, z którego wynika, że prawa, o których mowa w art. 15-20 RODO, nie mają zastosowania, jeżeli niemożliwe jest zidentyfikowanie zainteresowanego.
 
-Pozostaje jednak możliwość złożenia wniosku, w którym użytkownik powołuje się na swoje prawo do prywatności. Użytkownik może przesłać wniosek do oddziału GGD odpowiedniego dla jego miejsca zamieszkania. Na stronie [www.GGD.nl](http://www.GGD.nl/) użytkownik może dowiedzieć się, do którego oddziału GGD przynależy, wpisując kod pocztowy swojego miejsca zamieszkania. Jeśli użytkownik nie posiada adresu zamieszkania w Holandii, może wpisać kod pocztowy swojego miejsca pobytu.
+Pozostaje jednak możliwość złożenia wniosku, w którym użytkownik powołuje się na swoje prawo do prywatności. Użytkownik może przesłać wniosek do oddziału GGD odpowiedniego dla jego miejsca zamieszkania. Na stronie [www.GGD.nl](https://www.GGD.nl/) użytkownik może dowiedzieć się, do którego oddziału GGD przynależy, wpisując kod pocztowy swojego miejsca zamieszkania. Jeśli użytkownik nie posiada adresu zamieszkania w Holandii, może wpisać kod pocztowy swojego miejsca pobytu.
 
 Użytkownik zawsze ma prawo do złożenia skargi dotyczącej przetwarzania danych do holenderskiego Urzędu Ochrony Danych lub sądu. Więcej informacji na ten temat można znaleźć [tutaj](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
 

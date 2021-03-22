@@ -24,7 +24,7 @@ For the cooperation between the coronavirus apps from various countries, the Eur
 
 To the extent personal data are processed in the design, the European coordination with other notification applications, and the management of CoronaMelder, the Minister of Health, Welfare and Sport is the controller. Together with the designated authorities of other participating countries, the Minister of Health, Welfare and Sport is the controller for the EFGS. An up-to-date overview of the participating countries can be found in the section "CoronaMelder and abroad" in the frequently asked questions on CoronaMelder.nl.
 
-In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](http://www.GGD.nl) to find your GGD by entering the postal code of your home address. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence.
+In so far as the Municipal Health Service (GGD) uses personal data obtained via the app during source and contact tracing, your regional GGD is the controller. Visit [www.GGD.nl](https://www.GGD.nl) to find your GGD by entering the postal code of your home address. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence.
 
 ### 2. For what purpose are personal data processed? 
 
@@ -100,7 +100,7 @@ Owing to the privacy-by-design nature of the app, it is impossible to trace whic
 
 The enforcement of GDPR rights will therefore only be required to a limited extent, simply because the data cannot be traced to persons or only to a very limited extent, or because these data no longer exist because of the short retention periods. This complies with Article 11 of the GDPR, which states that the rights included in Articles 11 to 20 of the GDPR do not apply if data subjects can no longer be identified.
 
-However, it is still possible to make a request invoking your privacy rights. You may send your request to the GGD responsible in your place of residence. On [www.GGD.nl](http://www.GGD.nl) you can enter the postal code of your home address to see which GGD is responsible in your place of residence. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence.
+However, it is still possible to make a request invoking your privacy rights. You may send your request to the GGD responsible in your place of residence. On [www.GGD.nl](https://www.GGD.nl) you can enter the postal code of your home address to see which GGD is responsible in your place of residence. If you do not have a home address in the Netherlands, you can enter the postal code of your place of residence.
 
 You always have the right to lodge a complaint about the processing of your personal data with the Dutch Data Protection Authority or before the courts. More information about this can be found [here](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap). 
 
