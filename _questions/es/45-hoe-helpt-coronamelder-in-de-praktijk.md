@@ -4,10 +4,10 @@ index: 7
 set: 1
 published: false
 title: How does coronamelder help in daily life?
-lang: pl
+lang: es
 contentLang: en
 categories:
-- pl
+- es
 - faq
 showBreadCrumbs: true
 showContact: true
