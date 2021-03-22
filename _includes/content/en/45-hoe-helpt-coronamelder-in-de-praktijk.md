@@ -1,6 +1,9 @@
+![The Vliet family](/media/Familie_Vliet.png)
+
 ## Dutch family: "Thanks to CoronaMelder, we did not infect others"
 
 **Completely out of the blue on a friday evening, Len Vliet from Dordrecht (The Netherlands) received a notification in the CoronaMelder app. He had been close to someone who later turned out to have corona. In the end, he, his wife Renate, and his two sons were all infected. Renate: "Len and I had quite a few corona related symptoms."**
+
 
 CoronaMelder warns app users who have been in the vicinity of someone who later appears to have corona. More than 4.6 million people have downloaded the app since its launch. And more than 115,000 people reported in the app that they were infected. Len was one of them: "Renate and I had CoronaMelder installed on our mobile phones since the autumn. I never expected to get a notification. But when I got one, we immediately decided we should quarantine the whole family. Actually I was the only one who was expected to go into quarantine. Still, we played it safe."
 

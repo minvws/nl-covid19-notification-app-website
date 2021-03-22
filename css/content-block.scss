@@ -381,4 +381,17 @@
             padding: 5px 100px 1px 100px;
         }
     }
+
+    img {
+        max-width: 100%;
+
+        @media (min-width: 740px) {
+            max-width: 500px;
+        }
+
+        @media (min-width: 960px) {
+            max-width: 700px;
+        }
+    }
+
 }
