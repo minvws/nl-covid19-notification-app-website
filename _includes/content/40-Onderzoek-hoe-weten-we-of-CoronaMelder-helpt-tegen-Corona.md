@@ -9,7 +9,7 @@ Daarnaast is er dagelijks informatie beschikbaar rondom onder andere het aantal 
 
 Op 23 maart 2021 publiceerden voorgenoemde wetenschappers en instituten, onder leiding van prof. dr. Wolfgang Ebbers nieuwe evaluaties:
 
-- <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/rapporten/2021/03/23/eindrapportage-van-de-evaluatie-van-coronamelder-app-meldingen-van-een-kans-op-besmetting" rel="noopener noreferrer" target="_blank">Eindrapportage  van de evaluatie van CoronaMelder-app meldingen van een kans op besmetting</a>
-- <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder  Evaluatie Survey LISS panel</a>
+- <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/03/23/eindrapportage-evaluatie-coronamelder-eur-23-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage van de evaluatie van CoronaMelder-app meldingen van een kans op besmetting</a>
+- <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie Survey LISS panel</a>
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/evaluatie-coronamelder-op-de-processen-huisartsen-en-ggd-derde-evaluatie-maart-2021" rel="noopener noreferrer" target="_blank">Evaluatie  CoronaMelder huisartsen en GGD</a>
  
