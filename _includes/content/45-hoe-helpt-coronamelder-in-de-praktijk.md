@@ -4,7 +4,7 @@
 
 **Volkomen onverwachts kreeg Len Vliet uit Dordrecht op een vrijdagavond een melding in de CoronaMelder-app. Hij was dicht bij iemand geweest die later corona bleek te hebben. Uiteindelijk bleken hij, zijn vrouw Renate én zijn twee zoons allemaal besmet te zijn. Renate: “Len en ik hadden behoorlijk wat coronaklachten.”**
 
-CoronaMelder waarschuwt app-gebruikers die langere tijd in de buurt zijn geweest van iemand die achteraf corona blijkt te hebben. Sinds de lancering van de app hebben al meer dan 4,6 miljoen mensen de app gedownload. En ruim 115.000 mensen gaven via de app door dat ze besmet waren. Ook Len downloadde de app: “Renate en ik hadden CoronaMelder al in het najaar op onze mobiel staan. Een melding had ik nooit verwacht. Maar toen ik een melding kreeg, dachten we meteen: het hele gezin in quarantaine! Eigenlijk hoefde alleen ik dat te doen. Toch namen we het zekere voor het onzekere.”
+CoronaMelder waarschuwt app-gebruikers die langere tijd in de buurt zijn geweest van iemand die achteraf corona blijkt te hebben. Sinds de lancering van de app hebben al meer dan 4,6 miljoen mensen de app gedownload. En ruim 130.000 mensen gaven via de app door dat ze besmet waren. Ook Len downloadde de app: “Renate en ik hadden CoronaMelder al in het najaar op onze mobiel staan. Een melding had ik nooit verwacht. Maar toen ik een melding kreeg, dachten we meteen: het hele gezin in quarantaine! Eigenlijk hoefde alleen ik dat te doen. Toch namen we het zekere voor het onzekere.”
 
 ### Geen klachten, toch testen
 
