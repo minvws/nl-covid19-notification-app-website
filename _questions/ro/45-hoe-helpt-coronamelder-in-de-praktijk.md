@@ -2,8 +2,7 @@
 layout: content
 index: 7
 set: 1
-published: false
-title: How does coronamelder help in daily life?
+title: How does CoronaMelder help in daily life?
 lang: ro
 contentLang: en
 categories:

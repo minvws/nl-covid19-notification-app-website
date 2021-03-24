@@ -2,7 +2,6 @@
 layout: content
 index: 7
 set: 1
-published: false
 title: Hoe helpt CoronaMelder in de praktijk?
 lang: fy
 contentLang: nl
