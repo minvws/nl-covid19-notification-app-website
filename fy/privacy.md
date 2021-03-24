@@ -2,125 +2,116 @@
 layout: content
 lang: fy
 showBreadCrumbs: true
-title: Privacyferklearring CoronaMelder
-contentLang: nl
+title: Privacyferklearring CoronaMelder 
 ---
-## Over CoronaMelder
+## Oer CoronaMelder
 
-CoronaMelder (app) is een technisch hulpmiddel dat helpt bij het beperken van de verspreiding van het COVID-19 virus. Als u CoronaMelder op uw smartphone heeft geïnstalleerd ontvangt u een bericht als u enige tijd in de buurt bent geweest van iemand die positief getest is op COVID-19, en deze persoon CoronaMelder ook geïnstalleerd heeft. Hieronder wordt in het kort uitgelegd hoe CoronaMelder werkt.
+CoronaMelder (app) is in technysk helpmiddel dat helpt by it beheinen fan de fersprieding fan it COVID-19 firus. As jo CoronaMelder op jo smartphone ynstallearre hawwe, ûntfange jo in berjocht wannear’t jo in skoft yn ’e buert west hawwe fan immen dy't posityf test is op COVID-19 en dy persoan CoronaMelder ek ynstallearre hat. Hjirûnder wurdt yn it koart útlein hoe't CoronaMelder wurket.
 
-De app herkent via Bluetooth andere smartphones waarop de app is geïnstalleerd. Het herkennen van de andere smartphones gebeurt aan de hand van willekeurige codes (getallenreeksen) die Rolling Proximity Indicators (RPIs) worden genoemd. Deze codes worden iedere 10 tot 20 minuten ververst, en zijn een afgeleide van zogenaamde Temporary Exposure Keys (TEKs). TEKs zijn ook willekeurige codes, maar deze codes worden per dag opnieuw gegenereerd, en 14 dagen op de telefoon van de gebruiker bewaard.
+De app werkent fia Bluetooth oare smartphones dêr't de app op ynstallearre is. It werkennen fan de oare smartphones bart oan ’e hân fan willekeurige koades (rigen fan getallen) dy't Rolling Proximity Indicators (RPI’s) neamd wurde. Dy koades wurde alle 10 oant 20 minuten ferfarske en binne ôflaat fan saneamde Temporary Exposure Keys (TEK’s). TEK’s binne ek willekeurige koades, mar dy koades wurde alle dagen op 'e nij generearre en 14 dagen op ’e telefoan fan de brûker bewarre.
 
-Als uw smartphone dichtbij een andere smartphone is waarop de app is geïnstalleerd, worden de verschillende RPIs uitgewisseld tussen die smartphones, en daarop lokaal opgeslagen. In het geval een gebruiker van de app positief getest is op COVID-19, kan de gebruiker er vrijwillig voor kiezen daarvan melding te maken in de app. Als daarvoor wordt gekozen stuurt de app de TEKs die de afgelopen 14 dagen zijn aangemaakt, en lokaal bewaard op de smartphone, naar een backend server. De backend server accepteert verzonden TEKs alleen als de gebruiker en de GGD de verzending hebben bevestigd met een validatiecode. Op de backend server worden de ontvangen TEKs omgezet in andere codes die Diagnosis Keys (DKs) worden genoemd.
+As jo smartphone tichtby in oare smartphone is dêr't de app op ynstallearre is, wurde de ûnderskate RPI’s útwiksele tusken dy smartphones en dêr lokaal op opslein. Yn it gefal dat in brûker fan de app posityf test is op COVID-19, kin de brûker der frijwillich foar kieze om dêr melding fan te meitsjen yn ’e app. As dêrfoar keazen wurdt, stjoert de app de TEK’s, dy't de ôfrûne 14 dagen oanmakke binne en lokaal bewarre binne op de smartphone, nei in backend server. De backend server akseptearret ferstjoerde TEK’s allinnich as de brûker en de GGD de ferstjoering befêstige hawwe mei in falidaasjekoade. Op de backend server wurde de ûntfongen TEK’s omset yn oare koades dy't Diagnosis Keys (DK’s) neamd wurde.
 
-De backend server stelt de DKs vervolgens beschikbaar, zodat deze automatisch kunnen worden opgehaald door de smartphones waarop de app is geïnstalleerd. Als uw smartphone de DKs heeft opgehaald van de server wordt de verbinding met de server verbroken. Dit geautomatiseerde proces herhaalt zich meerdere keren per dag om eventuele besmettingsrisico’s up-to-date te houden. Vervolgens berekent uw smartphone aan de hand van de opgehaalde DKs of er een match is met de verschillende RPIs van andere smartphones waarbij uw smartphone in de buurt is geweest. Direct daarna worden de DKs van uw smartphone verwijderd.
+De backend server stelt de DK’s dêrnei beskikber, sadat dy automatysk ophelle wurde kinne troch de smartphones dêr't de app op ynstallearre is. As jo smartphone de DK’s ophelle hat fan de server, wurdt de ferbining mei de server ferbrutsen. Dat automatisearre proses werhellet him meardere kearen deis om mooglike besmettingsrisiko's up-to-date te hâlden. Dêrnei berekkenet jo smartphone oan ’e hân fan de ophelle DK’s oft der in match is mei de ûnderskate RPI’s fan oare smartphones dêr't jo smartphone by yn ’e buert west hat. Fuort dêrnei wurde de DK’s fan jo smartphone ferwidere.
 
-Als er een match is, wordt er op basis van een aantal weegfactoren bepaald of sprake is geweest van risicovol contact. Is dat het geval, met andere woorden bent u in de afgelopen tijd dichtbij een persoon geweest die besmet is met COVID-19, dan ontvangt u melding van uw verhoogde kans op besmetting. Ook geeft de app advies wat te doen nadat u een melding heeft gekregen. 
+As der in match is, wurdt op basis fan in tal weachfaktoaren fêststeld oft it gien is om risikofol kontakt. As dat sa is, mei oare wurden, hawwe jo de ôfrûne tiid tichtby in persoan west dy't besmet is mei COVID-19, dan ûntfange jo in melding fan jo ferhege kâns op besmetting. De app jout ek advys wat te dwaan nei't jo in melding krigen hawwe.
 
-CoronaMelder werkt vanaf 30 november 2020 samen met notificatieapplicaties van andere Europese landen. Dit betekent dat als u CoronaMelder gebruikt en u ontmoet iemand uit een ander EU-land die de corona-app van dat land gebruikt, de twee apps RPIs uitwisselen. Dit gebeurt op dezelfde manier als tussen twee gebruikers van CoronaMelder. Als een van jullie twee vervolgens positief getest wordt en dit meldt via de app, dan zal de ander een waarschuwingsmelding ontvangen.
+CoronaMelder wurket fan 30 novimber 2020 ôf gear mei notifikaasje-applikaasjes fan oare Europeeske lannen. Dat betsjut dat as jo CoronaMelder brûke en jo moetsje immen út in oar EU-lân dy't de corona-app fan dat lân brûkt, de beide apps RPI’s útwikselje. Dat bart op deselde wize as tusken twa brûkers fan CoronaMelder. As ien fan jim beiden dêrnei posityf test wurdt en dat meldt fia de app, dan sil de oar in warskôgingsmelding krije.
 
-De Europese Commissie heeft voor de samenwerking tussen de corona-apps uit verschillende landen een digitale infrastructuur opgezet, de Europese Federatieve Gateway Service (EFGS). Deze bestaat uit een gemeenschappelijke server die het voor mogelijk maakt gegevens uit te wisselen tussen de verschillende corona-apps.
+De Europeeske Kommisje hat foar de gearwurking tusken de corona-apps út ûnderskate lannen in digitale ynfrastruktuer opset, de European Federative Gateway Service (EFGS). Dy bestiet út in mienskiplike server dy't it mooglik makket om gegevens út te wikseljen tusken de ûnderskate corona-apps.
 
-### 1. Wie is verantwoordelijk voor de verwerking van de persoonsgegevens?
+### 1. Wa is ferantwurdlik foar de ferwurking fan de persoansgegevens?
 
-De Minister van Volksgezondheid, Welzijn en Sport is verwerkingsverantwoordelijk voor zover persoonsgegevens worden verwerkt bij de inrichting, Europese samenwerking met andere notificatieapplicaties en het beheer van CoronaMelder. De Minister van VWS is samen met de aangewezen autoriteiten van andere deelnemende landen, gezamenlijk verwerkingsverantwoordelijke voor de EFGS. Een actueel overzicht van de deelnemende landen treft u bij het onderdeel “[CoronaMelder en het buitenland](https://coronamelder.nl/nl/faq/13-gebruik-app-uit-ander-land/)” in de veel gestelde vragen op CoronaMelder.nl aan. 
+Foarsafier't persoansgegevens ferwurke wurde by de ynrjochting, Europeeske gearwurking mei oare notifikaasjes en it behear fan CoronaMelder is de Minister fan Folkssûnens, Wolwêzen en Sport (VWS) ferantwurdlik foar dy ferwurking. De Minister fan VWS en de oanwiisde autoriteiten fan oare dielnimmende lannen binne mienskiplik ferantwurdlik foar de EFGS. In aktueel oersjoch fan de dielnimmende lannen fine jo by it ûnderdiel "[CoronaMelder en it bûtenlân](https://coronamelder.nl/nl/faq/13-gebruik-app-uit-ander-land/)" yn de faakstelde fragen op CoronaMelder.nl.
 
-Voor zover de Gemeentelijke Gezondheidsdienst (GGD) bij de bron- en contactopsporing gebruik maakt van persoonsgegevens die via de app worden verkregen is de GGD van uw regio verwerkingsverantwoordelijke. Op [www.GGD.nl](https://www.ggd.nl/) kunt u vinden onder welke GGD u valt door de postcode van uw woonadres in te voeren. Indien u geen woonadres heeft in Nederland, kunt u de postcode van uw verblijfsplaats invoeren.
+Foarsafier't de Gemeentlike Sûnenstsjinst (GGD) by de boarne- en kontaktopspoaring gebrûk makket fan persoansgegevens dy't fia de app ûnfongen binne, is de GGD fan jo regio ferantwurdlik foar de ferwurking. Op [www.GGD.nl](https://www.ggd.nl/) kinne jo fine ûnder hokker GGD jo falle troch de postkoade fan jo wenadres yn te fieren. As jo gjin wenadres hawwe yn Nederlân, kinne jo de postkoade fan jo ferbliuwplak ynfiere.
 
-### 2. Met welk doel worden persoonsgegevens verwerkt?
+### 2. Mei hokker doel wurde persoansgegevens ferwurke?
 
-Deze app is ontwikkeld als aanvulling op de bron- en contactopsporing van de GGD. Het doel ervan is om gebruikers met een verhoogde besmettingskans snel en op eenvoudige wijze te informeren, met een zeer hoge bescherming van uw privacy.
+Dizze app is ûntwikkele as oanfolling op de boarne- en kontaktopspoaring fan de GGD. Doel derfan is om brûkers mei in ferhege kâns op besmetting gau en op ienfâldige wize te ynformearjen, mei in tige hege beskerming fan jo privacy.
 
-### 3. Grondslag voor het verwerken van persoonsgegevens
+### 3. Grûnslach foar it ferwurkjen fan persoansgegevens
 
-In de app kunnen persoonsgegevens worden verwerkt. De grondslag voor het verwerken van persoonsgegevens is de vervulling van, kort gezegd, een publieke taak. Voor de Minister van Volksgezondheid, Welzijn en Sport gaat het daarbij om de publieke taak om, kort gezegd, leiding te geven aan de bestrijding van COVID-19 en om zorg te dragen voor de instandhouding en verbetering van de landelijke ondersteuningsstructuur. 
+Yn de app kinne persoansgegevens ferwurke wurde. De grûnslach foar it ferwurkjen fan persoansgegevens is it ferfoljen fan, koartsein, in publike taak. Foar de Minister fan VWS giet it dêrby om de publike taak om, koartsein, lieding te jaan oan de bestriding fan COVID-19 en om noed te stean foar it yn stân hâlden en ferbetterjen fan de lanlike ûndersteuningsstruktuer.
 
-Voor de GGD-en gaat het om de taak om bron- en contactopsporing te doen bij meldingen van een besmetting met COVID-19.  
+Foar de GGD’-en giet it om ’e taak om boarne- en kontaktopspoaring te dwaan by meldingen fan in besmetting mei COVID-19.
 
-Met het invoeren van CoronaMelder als ondersteunend middel voor bron- en contactopsporing wordt dus uitvoering gegeven aan hiervoor genoemde publieke taken van de Minister van Volksgezondheid, Welzijn en Sport en de GGD-en. De inzet van CoronaMelder ter uitvoering van deze publieke taak is te vinden in artikel 6d van de [Wet publieke gezondheid](https://wetten.overheid.nl/BWBR0024705/2020-10-10). 
+Mei it ynfieren fan CoronaMelder as ûndersteunend middel foar boarne- en kontaktopspoaring wurdt dus útfiering jûn oan de hjirfoar neamde publike taken fan de Minister fan VWS en de GGD’en. De ynset fan CoronaMelder om dy publike taak út te fieren is te finen yn kêst 6d fan de [Wet publieke gezondheid](https://wetten.overheid.nl/BWBR0024705/2020-10-10).
 
-Downloaden en gebruik van CoronaMelder is en blijft vrijwillig. Dit betekent dat niemand u mag dwingen om CoronaMelder te gebruiken. 
+Downloaden en brûken fan CoronaMelder is en bliuwt frijwillich. Dat betsjut dat net ien jo twinge mei om CoronaMelder te brûken.
 
-### 4. Welke persoonsgegevens worden verwerkt?
+### 4. Hokker persoansgegevens wurde ferwurke?
 
-In het kader van de app worden de volgende gegevens verwerkt:
+Yn it ramt fan de app wurde de folgjende gegevens ferwurke:
 
-- Rolling proximity indicators (RPIs)
-- Temporary Exposure Keys (TEKs)
-- Diagnosis Keys (DKs)
+- Rolling proximity indicators (RPI’s)
+- Temporary Exposure Keys (TEK’s)
+- Diagnosis Keys (DK’s)
 - Pseudo MAC-adres
-- Signaalsterkte en de contactduur
-- Eerste ziekte dag
-- Validatiecode
+- Sinjaalsterkte en de kontaktdoer
+- Earste syktedei
+- Falidaasjekoade
 - Exposure Risk Value (high, mid, low)
 - IP-adres
 
-Deze gegevens kunnen persoonsgegevens zijn.
+Dy gegevens kinne persoansgegevens wêze.
 
-Een TEK is een willekeurig cryptografisch gegenereerde getallenreeks die dient als tijdelijke referentie. Op basis van de TEK wordt elke 10 tot 20 minuten een RPI gegenereerd, dat wil zeggen een tijdelijke, eveneens cryptografisch gegenereerde getallenreeks. Deze RPI wordt uitgewisseld met andere smartphones waarop de app is geïnstalleerd, en die gedurende een vastgestelde tijdspanne in de buurt zijn geweest van de betreffende smartphone. Het ontvangen en uitzenden van de RPIs gebeurt via Bluetooth Low energy. De RPI wordt dan ook gebruikt in combinatie met signaalsterkte zowel uitgezonden als ontvangen (om afstand tussen gebruikers te bepalen), en de duur van het (Bluetooth)contact. De ontvangen RPIs worden na 14 dagen van de smartphones verwijderd. 
+In TEK is in willekeurich kryptografysk generearre rige fan getallen dy't tsjinnet as tydlike referinsje. Op basis fan de TEK wurdt alle 10 oant 20 minuten in RPI generearre, dat wol sizze in tydlike, lyksa kryptografysk generearre rige fan getallen. Dy RPI wurdt útwiksele mei oare smartphones dêr't de app op ynstallearre is en dy't foar in fêststelde tiidromte yn ’e buert west hawwe fan de oanbelangjende smartphone. It ûntfangen en útstjoeren fan de RPI’s bart fia Bluetooth Low Energy. De RPI wurdt dan ek brûkt yn kombinaasje mei de sinjaalsterkte, sawol útstjoerd as ûntfongen (om ôfstân tusken brûkers fêst te stellen), en de doer fan it (Bluetooth-)kontakt. De ûntfongen RPI’s wurde nei 14 dagen fan de smartphones ferwidere.
 
-Zowel de TEKs, DKs, als de RPIs zijn gepseudonimiseerde identificatiesleutels.
+Sawol de TEK’s, DK’s, as de RPI’s binne pseudonimisearre identifikaasjekaaien.
 
-Om het risico op identificatie van gebruikers zoveel mogelijk uit te sluiten wordt bij de uitwisseling van RPIs het MAC-adres (een uniek hardware nummer van de Bluetooth-transmitter) van de smartphone vervangen door een random gegenereerde code, een pseudo MAC-adres, die evenals de RPIs elke 10 tot 20 minuten verandert.
+Om it risiko op identifikaasje fan brûkers safolle mooglik út te sluten wurdt by de útwikseling fan RPI’s it MAC-adres (in unyk hardwarenûmer fan de Bluetooth-stjoerder) fan de smartphone ferfongen troch in willekeurich generearre koade, in pseudo MAC-adres, dy't krekt as de RPI’s alle 10 oant 20 minuten feroaret.
 
-De validatiecode wordt gegenereerd met behulp van een in de app aangeboden functionaliteit en in de app getoond. De validatiecode wordt door de GGD gebruikt om de aan de GGD verstuurde TEKs te valideren. De GGD plaatst deze validatiecode, met de datum van de eerste ziektedag, in het GGD-portaal. Dit GGD-portaal is alleen toegankelijk voor GGD-medewerkers. De backend server accepteert alleen TEKs van gebruikers als daarbij een validatiecode wordt aangeboden die op deze wijze door de GGD is gevalideerd. Op de backend server worden de TEKs geconverteerd naar DKs. 
+De falidaasjekoade wurdt generearre mei help fan in yn de app oanbeane funksjonaliteit en yn de app sjen litten. De falidaasjekoade wurdt troch de GGD brûkt om de oan de GGD ferstjoerde TEK’s te falidearjen. De GGD pleatst dy falidaasjekoade, mei de datum fan de earste syktedei, yn it GGD-portaal. Dat GGD-portaal is allinnich tagonklik foar GGD-meiwurkers. De backend server akseptearret allinnich TEK’s fan brûkers as dêr in falidaasjekoade by oanbean wurdt dy't op dy wize troch de GGD falidearre is. Op de backend server wurde de TEK’s konvertearre nei DK’s.
 
-In aanvulling op de DKs, eerste ziektedag, en validatiecode wordt ook het IP-adres meegestuurd naar de backend server. Dit is inherent aan het gebruik van internet en IP-technologie. Het IP-adres wordt enkel verwerkt voor beheers- en beveiligingsdoeleinden. Het IP-adres wordt gescheiden opgeslagen van de andere gegevens, zodat er op de backend server geen IP-adressen worden opgeslagen. Hierdoor kan niet worden herleid wie welke informatie heeft verstuurd.
+Yn oanfolling op de DK’s, earste syktedei en falidaasjekoade wurdt ek it IP-adres meistjoerd nei de backend server. Dat is ynherint oan it brûken fan ynternet en IP-technology. It IP-adres wurdt inkeld en allinne ferwurke foar behears- en befeiligingsdoelen. It IP-adres wurdt skieden opslein fan de oare gegevens, sadat op de backend server gjin IP-adressen opslein wurde. Dêrtroch kin net weromlaat wurde wa't hokker ynformaasje ferstjoerd hat.
 
-### 5. Statistische informatie
+### 5. Statistyske ynformaasje
 
-De met de app verzamelde gegevens worden uitsluitend gebruikt voor de in deze privacyverklaring genoemde doeleinden. Er wordt geen statistische informatie gegenereerd.
+De mei de app sammele gegevens wurde inkeld en allinne brûkt foar de doelen dy't yn dizze privacyferklearring neamd wurde. 
 
-### 6. Aan wie worden persoonsgegevens verstrekt?
+### 6. Oan wa wurde persoansgegevens jûn?
 
-Het uitzenden en ontvangen van de RPIs gebeurt lokaal op de smartphones. Als een besmetting is vastgesteld kan de gebruiker ervoor kiezen zijn of haar TEKs, tezamen met een unieke validatiecode, naar de backend server te sturen. De backend server wordt beheerd door het CIBG (onderdeel van het Ministerie van volksgezondheid, welzijn en sport) met KPN als onderaannemer (verwerker).
+It útstjoeren en ûntfangen fan de RPI’s bart lokaal op de smartphones. As in besmetting fêststeld is, kin de brûker derfoar kieze om syn of har TEK’s, mei in unike falidaasjekoade, nei de backend server te stjoeren. De backend server wurdt beheard troch it CIBG (ûnderdiel fan it Ministearje fan VWS) mei KPN as ûnderoannimmer (de ferwurker).
 
-De GGD verwerkt de validatiecode, met de datum van de eerste ziektedag, in het GGD-portaal van de app, welk portaal alleen toegankelijk is voor geautoriseerde GGD-medewerkers.
+De GGD ferwurket de falidaasjekoade, mei de datum fan de earste syktedei, yn it GGD-portaal fan de app, hokker portaal allinnich tagonklik is foar autorisearre GGD-meiwurkers.
 
-De DKs worden gedeeld via de Europese Federatieve Gateway Service (EFGS) met andere Europese landen die app hebben met vergelijkbaar beveiligingsniveau en zich aan hebben gesloten bij de EFGS. Aansluiten bij de EFGS gaat stap voor stap. Een actueel overzicht van de deelnemende landen vindt bij het onderdeel “[CoronaMelder en het buitenland](https://coronamelder.nl/nl/faq/13-gebruik-app-uit-ander-land/)” in de veel gestelde vragen op CoronaMelder.nl. De EFGS wordt beheerd door de Europese Commissie (verwerker). De technische en organisatorische voorwaarden om aan te sluiten bij de EFGS staan in het [Europees uitvoeringsbesluit voor grensoverschrijdende uitwisseling](https://eur-lex.europa.eu/eli/dec_impl/2020/1023/oj). Meer informatie over interoperabiliteit met andere landen kune t vinden op https://ec.europa.eu/health/ehealth/covid-19.
+De DK’s wurde fia de European Federative Gateway Service (EFGS) dield mei oare Europeeske lannen dy't in app hawwe mei in fergelykber befeiligingsnivo en dy’t har oansletten hawwe by de EFGS. Oanslute by de EFGS giet stap foar stap. In aktueel oersjoch fan de dielnimmende lannen fine jo by it ûnderdiel "[CoronaMelder en it bûtenlân](https://coronamelder.nl/nl/faq/13-gebruik-app-uit-ander-land/)" yn de faakstelde fragen op CoronaMelder.nl. De EFGS wurdt beheard troch de Europeeske Kommisje (de ferwurker). De technyske en organisatoaryske betingsten om oan te sluten by de EFGS stean yn it [Europeesk útfieringsbeslút foar grinskrusende útwikseling](https://eur-lex.europa.eu/eli/dec_impl/2020/1023/oj). Mear ynformaasje oer ynteroperabiliteit mei oare lannen kinne jo fine op https://ec.europa.eu/health/ehealth/covid-19.
 
-De smartphones van andere gebruikers halen periodiek, enkele keren per dag, de DKs op die op deze backend server staan.
+De smartphones fan oare brûkers helje periodyk, inkele kearen deis, de DK’s op dy't op de backend server stean.
 
-### 7. Bewaren van persoonsgegevens
+### 7. Bewarjen fan persoansgegevens
 
-De gegevens die lokaal zijn opgeslagen op jouw smartphone worden 14 dagen bewaard. Na deze 14 dagen worden deze gegevens automatisch en permanent verwijderd. U kunt ook zelf, op elk gewenst moment, de opgeslagen gegevens verwijderen.
+De gegevens dy't lokaal opslein binne op jo smartphone wurde 14 dagen bewarre. Nei dy 14 dagen wurde dy gegevens automatysk en permanint ferwidere. Jo kinne ek sels, op elk winske momint, de opsleine gegevens ferwiderje.
 
-Voor zover uw gegevens op de backend server/EFGS zijn opgeslagen, worden de gegevens vanaf het moment van uploaden 14 dagen bewaard. Na deze 14 dagen worden de gegevens verwijderd.
+Foarsafier't jo gegevens op de backend server/EFGS opslein binne, wurde de gegevens fan it momint fan uploaden ôf 14 dagen bewarre. Nei dy 14 dagen wurde de gegevens ferwidere.
 
-IP-adressen die voor beheers- en beveiligingsdoeleinden worden verwerkt, worden na maximaal 7 dagen verwijderd.
+IP-adressen dy't foar behears- en befeiligingsdoelen ferwurke wurde, wurde nei op syn heechst 7 dagen ferwidere.
 
-### 8. Uw rechten ten aanzien van uw persoonsgegevens
+### 8. Jo rjochten oangeande jo persoansgegevens
 
-U heeft een aantal rechten om controle te houden over uw persoonsgegevens. Deze kunt u [hier](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen) vinden op de site van de Autoriteit Persoonsgegevens.
+Jo hawwe in tal rjochten om kontrôle te hâlden oer jo persoansgegevens. Dy kinne jo [hjir](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen) fine op de site fan de Autoriteit Persoansgegevens.
 
+Om't CoronaMelder foarmjûn is neffens de útgongspunten fan dataminimalisaasje en *privacy by design* kinne jo mar beheind in berop dwaan op jo AVG-rjochten. Der wurde ommers mar beheind gegevens ferwurke. Gegevens binne boppedat hast net werom te lieden en wurde mar koart bewarre. Út kêst 11 fan de AVG folget dat de rjochten út de kêsten 15 oant en mei 20 fan de AVG net fan tapassing binne as dyjinge dy't ferantwurdlik is foar de ferwurking, de oanbelangjende net (mear) identifisearje kin.
 
+Yn de earste faze - fóár't brûkers TEK’s nei de backend server uploade - wurde allinnich gegevens ferwurke op de smartphones fan brûkers fan CoronaMelder. Dêr hawwe de Minister fan VWS en de GGD’en gjin tagong ta. Yn dy faze kin dus bygelyks net foldien wurde oan in fersyk ta wiziging of ferwidering fan gegevens, wêrby't fansels wol jildt dat dy gegevens nei op syn heechst 14 dagen automatysk fan de smartphone ferwidere wurde.
 
-Omdat CoronaMelder is vormgegeven volgens de uitgangspunten van dataminimalisatie en privacy by design kunt u slechts beperkt een beroep doen op uw AVG-rechten. Er worden immers maar beperkt gegevens verwerkt. Gegevens zijn bovendien vrijwel niet herleidbaar en worden maar kort bewaard. Uit artikel 11 van de AVG volgt dat de rechten uit de artikelen 15 tot en met 20 van de AVG niet van toepassing zijn als de verwerkingsverantwoordelijke betrokkene niet (meer) kan identificeren. 
+Troch it *privacy by design*-karakter fan de app is it ek nei it uploaden fan de TEK’s (letter DK’s) net mooglik om te efterheljen hokker koades de besmette brûker oanbelangje. It is foar VWS en de GGD’en technysk net mooglik om de koades dy't (tydlik) op de backend server opslein binne, te keppeljen oan de brûker dy't syn TEK’s upload hat. Fanwege de ûnmooglikheid om de brûker te identifisearjen oan de hân fan de koades, binne de rjochten út de kêsten 15 oant en mei 20 fan de AVG net fan tapassing.
 
+De útfiering fan de AVG-rjochten sil al mei al dus mar beheind nedich wêze, ienfâldichwei om't gegevens net of mar tige beheind werom te lieden binne ta persoanen of om't dy gegevens der net mear binne fanwege de koarte terminen dat se bewarre bliuwe. Dêrmei wurdt oansletten by kêst 11 fan de AVG dêr’t út folget dat de rjochten dy't yn de kêsten 15 oant en mei 20 fan de AVG opnommen binne, net fan tapassing binne as oanbelangjenden net mear identifisearre wurde kinne.
 
+It bliuwt lykwols mooglik om in fersyk yn te tsjinjen mei in berop op jo privacyrjochten. Jo kinne jo fersyk stjoere nei de GGD dy't ferantwurdlik is yn jo wenplak. Op [www.GGD.nl](https://www.ggd.nl/) kinne jo de postkoade fan jo wenadres ynfolje om te sjen hokker GGD ferantwurdlik is yn jo wenplak. As jo gjin wenplak hawwe yn Nederlân, kinne jo de postkoade fan jo ferbliuwplak ynfiere.
 
-In de eerste fase – vóórdat gebruikers TEKs naar de backend server uploaden – worden alleen gegevens verwerkt op de smartphones van gebruikers van CoronaMelder. Daar hebben de Minister van VWS en de GGD-en geen toegang toe. In deze fase kan dus bijvoorbeeld niet worden voldaan aan een verzoek tot wijziging of verwijdering van gegevens, waarbij uiteraard wel geldt dat deze gegevens na maximaal veertien dagen automatisch van de smartphone worden verwijderd.
+Jo hawwe altyd it rjocht om in klacht oer de ferwurking fan jo persoansgegevens yn te tsjinjen by de Autoriteit Persoansgegevens of by de rjochter. Mear ynformaasje dêroer fine jo [hjir](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
 
-Door het privacy by design karakter van de app is het ook na het uploaden van de TEKs (later DKs) niet mogelijk om te achterhalen welke codes op de besmette gebruiker betrekking hebben. Het is voor VWS en de GGD-en technisch niet mogelijk om de codes die (tijdelijk) op de backend server zijn opgeslagen, te koppelen aan de gebruiker die zijn TEKs heeft geüpload. Vanwege de onmogelijkheid om de gebruiker te identificeren aan de hand van de codes zijn de rechten uit de artikelen 15 tot en met 20 van de AVG niet van toepassing.
+Kontaktgegevens fan de Funksjonaris foar Gegevensbeskerming fan de GGD dy't ferantwurdlik is yn jo wenplak kinne jo fine fia de webside fan dy GGD.
 
-De uitvoering van de AVG-rechten zal al met al dus maar beperkt nodig zijn, simpelweg omdat gegevens niet of maar zeer beperkt herleidbaar zijn tot personen dan wel omdat deze gegevens er niet meer zijn vanwege de korte bewaartermijnen. Hiermee wordt aangesloten bij artikel 11 van de AVG waaruit volgt dat de in de artikelen 15 tot en met 20 van de AVG opgenomen rechten niet van toepassing zijn als betrokkenen niet meer kunnen worden geïdentificeerd.
+Kontaktgegevens fan de Funksjonaris foar Gegevensbeskerming fan it Ministearje fan Folkssûnens, Wolwêzen en Sport fine jo op de webside fan dat ministearje.
 
-De mogelijkheid om een verzoek waarin u een beroep doet op een uw privacy rechten blijft echter bestaan. U kunt uw verzoek sturen naar de GGD die verantwoordelijk is in uw woonplaats. Op [www.GGD.nl](https://www.ggd.nl/) kunt u de postcode van uw woonadres invullen om te zien welke GGD verantwoordelijk is in uw woonplaats. Indien u geen woonadres heeft in Nederland, kunt u de postcode van uw verblijfsplaats invoeren.
+### 9. Befeiliging fan jo persoansgegevens
 
-U hebt altijd het recht een klacht over de verwerking van uw persoonsgegevens in te dienen bij de Autoriteit Persoonsgegevens of bij de rechter. Meer informatie daarover vindt u [hier](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).
+De Minister fan VWS en de GGD’en nimme de beskerming fan jo gegevens serieus en nimme passende maatregels om misbrûk, ferlies, ûnbefoege tagong, net-winske iepenbiermakking en ferbeane wiziging tsjin te gean.
 
+### 10. Wiziging privacyferklearring
 
-
-Contactgegevens van de Functionaris voor Gegevensbescherming van de GGD die verantwoordelijk is in uw woonplaats kunt u vinden via de website van die GGD.
-
-
-
-Contactgegevens van de Functionaris voor Gegevensbescherming van het Ministerie van Volksgezondheid, Welzijn en Sport vindt u op de website van het dit ministerie.
-
-### 9. Beveiliging van uw persoonsgegevens
-
-De Minister van Volksgezondheid, Welzijn en Sport en de GGD-en nemen de bescherming van uw gegevens serieus en nemen passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan.
-
-### 10. Wijziging privacyverklaring
-
-Deze privacyverklaring kan worden gewijzigd. In dat geval zullen wij de gewijzigde privacyverklaring op onze website publiceren, waarna deze privacyverklaring direct van kracht is. Laatste update: 14 december 2020.
+Dizze privacyferklearring kin wizige wurde. Yn dat gefal sille we de wizige privacyferklearring op ús webside publisearje, wêrnei't dy privacyferklearring fuortdaliks fan krêft is. Lêste update: 15 maart 2021.
