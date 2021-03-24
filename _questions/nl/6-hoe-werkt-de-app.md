@@ -14,6 +14,7 @@ featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
 featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus.
+showBadges: true
 ---
 
 **De app stuurt je een bericht als je enige tijd in de buurt bent geweest van iemand die besmet is met het coronavirus. Zo voorkom je dat jij het virus onbewust op anderen overdraagt.** 
@@ -25,6 +26,9 @@ featuredHomeText: De app stuurt je een bericht als je enige tijd in de buurt ben
 4. Als je in de buurt bent geweest van iemand met het coronavirus en die de app heeft, krijg je later een melding van de app.
 5. Als je zelf het coronavirus krijgt, kun je dit (vrijwillig) in de app laten weten. Dan waarschuwt de app mensen met wie je contact hebt gehad. **In deze melding staat alleen wanneer ze in de buurt zijn geweest van een besmet persoon. Niet wie dit is en waar ze die persoon zijn tegengekomen.**
 </div>
+
+{% include badges.html %}
+
 
 <details>
    <summary>Wanneer krijg ik een melding?</summary>

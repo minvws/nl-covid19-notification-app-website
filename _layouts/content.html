@@ -40,6 +40,9 @@
       </p>
     {% endif %}
 
+    {% if page.showBadges %}
+      {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--center-wrap-wide" %}
+    {% endif %}
 
   </main>
   {% include footer.html %}

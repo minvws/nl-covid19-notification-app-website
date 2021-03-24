@@ -52,6 +52,12 @@
   }
 }
 
+.layout-app-badges--center-wrap-wide {
+  @media (min-width: 740px) {
+    width: 100%;
+  }
+}
+
 .layout-app-badges--background {
   background-color: #EFF7F9 /* lightblauw */;
 }
