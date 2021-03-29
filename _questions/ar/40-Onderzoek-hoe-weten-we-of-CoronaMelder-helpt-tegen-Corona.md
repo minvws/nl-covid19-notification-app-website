@@ -2,8 +2,7 @@
 layout: content
 index: 3
 set: 1
-title: 'Onderzoek: hoe weten we of CoronaMelder helpt tegen Corona?'
-published: false
+title: 'Research: how do we know if CoronaMelder helps against Corona?' 
 lang: ar
 contentLang: en
 categories:
