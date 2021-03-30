@@ -21,4 +21,4 @@ Ook veel bibliotheken kunnen je helpen bij het installeren.
 Of bel de Helpdesk CoronaMelder op <a href="tel:08001280">0800-1280</a>.
 Daar kun je ook terecht met technische vragen over de app.
 
-[Bekijk hier de uitleg van Steffie](https://corona.steffie.nl/nl/#!/nl/modules/de-coronamelder-app/60/stap-1.html). Steffie legt moeilijke dingen makkelijk uit.
+[Bekijk hier de uitleg van Steffie](https://corona.steffie.nl/{{page.lang}}/#!/{{page.lang}}/modules/de-coronamelder-app/60/stap-1.html). Steffie legt moeilijke dingen makkelijk uit.

@@ -1,4 +1,4 @@
-![The Vliet family](/media/Familie_Vliet.png)
+![The Vliet family](/media/beeldmateriaal/Familie_Vliet.png)
 
 ## Dutch family: "Thanks to CoronaMelder, we did not infect others"
 

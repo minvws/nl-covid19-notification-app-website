@@ -1,4 +1,4 @@
-![De familie Vliet](/media/Familie_Vliet.png)
+![De familie Vliet](/media/beeldmateriaal/Familie_Vliet.png)
 
 ## Dordts gezin: “Dankzij CoronaMelder hebben we geen anderen besmet”
 
