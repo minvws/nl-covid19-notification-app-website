@@ -837,7 +837,8 @@ ul.share > li > a {
 }
 
 .notifications img {
-    max-width: 100%; 
+    max-width: 100%;
+    
     @media (min-width: 740px) {
         max-width: 475px;
     }
