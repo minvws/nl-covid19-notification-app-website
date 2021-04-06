@@ -4,7 +4,7 @@ index: 5
 set: 2
 title: Bir bildirim alırsam ne yapmalıyım?
 icon: mobile-check
-summary: Temas tarihinden 10 gün sonrasına kadar evde kalmanız tavsiye edilir. Şikayetiniz mi var? O halde kendinizi test ettirin.
+summary: CoronaMelder uygulamasındaki bir bildirim enfekte olan bir kişinin yakınında bulunduğunuzu gösterirse, (henüz) herhangi bir şikayetiniz olmasa bile kendinizi hemen test ettirebilirsiniz.
 lang: tr
 categories:
 - tr
@@ -14,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Temas tarihinden 10 gün sonrasına kadar evde kalmanız tavsiye edilir. Şikayetiniz mi var? O halde kendinizi test ettirin.
+featuredHomeText: CoronaMelder uygulamasındaki bir bildirim enfekte olan bir kişinin yakınında bulunduğunuzu gösterirse, (henüz) herhangi bir şikayetiniz olmasa bile kendinizi hemen test ettirebilirsiniz.
 ---
 Bir bildirim alırsanız, sonradan Korona olduğu anlaşılan birinin yakınında bulunduğunuz anlamına gelir. Böyle bir durumda paniğe kapılmayın: sizde Korona olduğu kesin değildir. Hastalığın bulaşma ihtimali daha da artmıştır: belki Korona’ya yakalanmış olabilirsiniz. 
 

@@ -2,10 +2,9 @@
 layout: content
 index: 5
 set: 2
-title: Was muss ich tun, wenn ich eine Nachricht erhalte?
-summary: Sie sollten bis 10 Tage nach dem Kontaktdatum zu Hause bleiben. Haben Sie Beschwerden? Dann lassen Sie sich testen.
+title: Was muss ich tun, wenn ich eine Nachricht erhalte? 
 icon: mobile-check
-summary: Je wordt geadviseerd om thuis te blijven tot 10 dagen na de datum van het contact. Heb je klachten? Laat je dan testen.  
+summary: Steht in einer Nachricht von CoronaMelder, dass Sie in der Nähe einer Person mit Corona waren? Dann können Sie sich sofort testen lassen. Auch dann, wenn Sie (noch) keine Beschwerden haben. 
 lang: de
 categories:
 - de
@@ -15,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Sie sollten bis 10 Tage nach dem Kontaktdatum zu Hause bleiben. Haben Sie Beschwerden? Dann lassen Sie sich testen.
+featuredHomeText: Steht in einer Nachricht von CoronaMelder, dass Sie in der Nähe einer Person mit Corona waren? Dann können Sie sich sofort testen lassen. Auch dann, wenn Sie (noch) keine Beschwerden haben.
 ---
 Haben Sie eine Nachricht erhalten? Dann waren Sie in der Nähe einer Person, bei der später Corona festgestellt wurde. Keine Panik: Es ist nicht sicher, dass Sie auch Corona haben. Für Sie bestand eine zusätzliche Ansteckungsgefahr. Das bedeutet: Vielleicht haben Sie Corona.
 

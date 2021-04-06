@@ -2,7 +2,7 @@
 layout: content
 index: 5
 set: 2
-summary: You are advised to stay at home until 10 days after the date of contact. If you have symptoms, you should get a coronavirus test.
+summary: If the notification in the CoronaMelder app shows that you have been close to an infected person, you can arrange to have a coronavirus test immediately, even if you have no symptoms yet.
 title: What should I do if I get a notification? 
 lang: en
 categories:
@@ -14,7 +14,7 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: You are advised to stay at home until 10 days after the date of the contact. If you have symptoms, you should get a coronavirus test.
+featuredHomeText: If the notification in the CoronaMelder app shows that you have been close to an infected person, you can arrange to have a coronavirus test immediately, even if you have no symptoms yet.
 ---
 If you receive an notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
 

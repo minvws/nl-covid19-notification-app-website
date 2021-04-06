@@ -14,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Il vous est conseillé de rester à la maison jusqu’à 10 jours après la date du contact. Vous avez des symptômes? Faites-vous tester.
+featuredHomeText: Si d’une notification dans l’application CoronaMelder, il apparaît que vous avez été en contact avec une personne contaminée, vous pouvez immédiatement vous faire tester, même si vous n’avez pas (encore) de symptômes.
 ---
 Si vous recevez une notification, cela veut dire que vous avez été proche de quelqu’un qui s’avère par la suite avoir le coronavirus. Pas de panique : cela ne veut pas forcément dire que vous avez le coronavirus. Vous avez couru plus de risques d'être contaminé(e) : vous avez peut-être le coronavirus.
 

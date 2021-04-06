@@ -4,7 +4,7 @@ index: 5
 set: 2
 title: ¿Qué tengo que hacer si recibo una notificación?
 icon: mobile-check
-summary: Te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto. ¿Muestras síntomas? Hazte un test.
+summary: Cuando recibas una notificación de CoronaMelder que confirme que has estado cercado de una persona contagiada, puedes hacerte un test directamente incluso aunque no muestres síntomas.
 lang: es
 categories:
 - es
@@ -14,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Te recomendamos que te quedes en casa al menos 10 días desde la fecha del contacto. ¿Muestras síntomas? Hazte un test.
+featuredHomeText: Cuando recibas una notificación de CoronaMelder que confirme que has estado cercado de una persona contagiada, puedes hacerte un test directamente incluso aunque no muestres síntomas.
 ---
 Si recibes una notificación, significa que has estado cerca de alguien que luego resultó tener el coronavirus. No te asustes: eso no significa necesariamente que tú también tengas el coronavirus. Has corrido un riesgo de contagio: quizá tengas el coronavirus.
 

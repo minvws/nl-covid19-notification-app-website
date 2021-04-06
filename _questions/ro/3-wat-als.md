@@ -4,7 +4,7 @@ index: 5
 set: 2
 title: Ce trebuie să fac dacă primesc o notificare?
 icon: mobile-check
-summary: Vi se recomandă să stați acasă 10 zile de la data contactului. Aveți simptome? Testați-vă.
+summary: Dacă o notificare din aplicația CoronaMelder arată că ați fost în contact cu o persoană infectată, puteți să vă testați imediat, chiar dacă (încă) nu aveți niciun simptom.
 lang: ro
 categories:
 - ro
@@ -14,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Vi se recomandă să stați acasă 10 zile de la data contactului. Aveți simptome? Testați-vă.
+featuredHomeText: Dacă o notificare din aplicația CoronaMelder arată că ați fost în contact cu o persoană infectată, puteți să vă testați imediat, chiar dacă (încă) nu aveți niciun simptom.
 ---
 Dacă primiți o notificare, ați fost aproape de cineva care mai târziu s-a dovedit a avea coronavirusul. Dar nu intrați în panică: nu este sigur că v-ați infectat și dumneavoastră. Există o posibilitate suplimentară să vă fi infectat: este posibil să aveți corona.
 

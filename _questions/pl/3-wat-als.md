@@ -4,7 +4,7 @@ index: 5
 set: 2
 title: Otrzymałem powiadomienie. Co należy zrobić?
 icon: mobile-check
-summary: Zaleca się pozostanie w domu do 10 dni po kontakcie z osobą zarażoną. Masz dolegliwości? Wykonaj więc test na obecność koronawirusa.
+summary: Jeżeli z powiadomienia z aplikacji CoronaMelder wynika, że znajdowałeś się w pobliżu zarażonej osoby, możesz natychmiast wykonać test na obecność koronawirusa.
 lang: pl
 categories:
 - pl
@@ -14,7 +14,7 @@ showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
-featuredHomeText: Zaleca się pozostanie w domu do 10 dni po kontakcie z osobą zarażoną. Masz dolegliwości? Wykonaj więc test na obecność koronawirusa.
+featuredHomeText: Jeżeli z powiadomienia z aplikacji CoronaMelder wynika, że znajdowałeś się w pobliżu zarażonej osoby, możesz natychmiast wykonać test na obecność koronawirusa.
 ---
 Otrzymasz powiadomienie, jeśli znajdowałeś się w pobliżu osoby, u której wykryto koronawirusa. Nie wpadaj w panikę: nie wiadomo, czy Ty również jesteś zarażony. Byłeś narażony na szczególne ryzyko zarażenia: możliwe, że masz koronawirusa.
 
