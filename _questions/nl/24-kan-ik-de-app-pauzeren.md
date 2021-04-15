@@ -9,5 +9,8 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+redirect_from: 
+  - /pauzeren
+  - /pauseren
 ---
 {% include content/24-kan-ik-de-app-pauzeren.md %}

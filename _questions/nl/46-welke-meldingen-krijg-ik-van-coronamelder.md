@@ -9,5 +9,7 @@ categories:
 - faq
 showBreadCrumbs: true
 showContact: true
+redirect_from: 
+  - /meldingen
 ---
 {% include content/46-welke-meldingen-krijg-ik-van-coronamelder.md %}

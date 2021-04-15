@@ -8,6 +8,7 @@ collections:
     output: false
 
 sass:
+  style: compressed
   load_paths:
     - css
     - css-rtl
@@ -34,6 +35,7 @@ exclude:
 plugins:
   - "jekyll-github-metadata"
   - "jekyll-sitemap"
+  - "jekyll-redirect-from"
   # - "jekyll-seo-tag"
 
 incremental: false
