@@ -13,3 +13,7 @@ Op 23 maart 2021 publiceerden voorgenoemde wetenschappers en instituten, onder l
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie Survey LISS panel</a>
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/evaluatie-coronamelder-op-de-processen-huisartsen-en-ggd-derde-evaluatie-maart-2021" rel="noopener noreferrer" target="_blank">Evaluatie  CoronaMelder huisartsen en GGD</a>
  
+De Universiteit Twente en de Open Universiteit hebben van november 2020 tot en met januari 2021 onderzoek gedaan naar de ervaringen met de app. Lees hier het rapport:
+
+<a href="/media/Eindrapport_kwalitatiefOZ_24032021_Grip_op_Coronamelder-UT_en_OU.pdf" rel="noopener noreferrer" target="_blank">Grip op de CoronaMelder - 
+Kwalitatief Onderzoek naar Ervaringen met CoronaMelder Eindverslag (PDF, 4.2mb)</a>
