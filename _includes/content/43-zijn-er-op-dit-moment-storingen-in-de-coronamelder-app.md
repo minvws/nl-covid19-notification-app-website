@@ -1,1 +1,5 @@
-Op dit moment zijn er geen storingen bekend.
+## Tijdelijk geen meldingen van CoronaMelder
+
+CoronaMelder stuurt vanaf woensdagavond 28 april tijdelijk geen waarschuwing van een mogelijke besmetting naar gebruikers van CoronaMelder. Het blijkt dat de codes van CoronaMelder toegankelijk zijn voor apps die Google standaard op een Android telefoon zet. Dit is in strijd met de Tijdelijke wet notificatieapplicatie covid-19.
+
+Heb je CoronaMelder gedownload? Voor het ministerie van VWS heeft de privacy van gebruikers van CoronaMelder de hoogste prioriteit. Het ministerie zet de mogelijkheid voor het ontvangen van meldingen daarom pas weer aan zodra Google het probleem heeft opgelost. Google geeft aan dat dit enkele dagen kan duren. Je hoeft in de tussentijd niets te doen. Meer informatie vind je <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/nieuws/2021/04/28/tijdelijk-geen-meldingen-van-mogelijke-besmetting-via-coronamelder" target="_blank" rel="noopener noreferrer">op de website van het ministerie</a>. 
