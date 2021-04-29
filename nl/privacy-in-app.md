@@ -106,7 +106,7 @@ U hebt altijd het recht een klacht over de verwerking van uw persoonsgegevens in
 
 Contactgegevens van de Functionaris voor Gegevensbescherming van de GGD die verantwoordelijk is in uw woonplaats kunt u vinden via de website van die GGD.
 
-Contactgegevens van de Functionaris voor Gegevensbescherming van het Ministerie van Volksgezondheid, Welzijn en Sport vindt u op de website van het dit ministerie.
+Contactgegevens van de Functionaris voor Gegevensbescherming van het Ministerie van Volksgezondheid, Welzijn en Sport vindt u op de <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/avg/contact/functionaris-gegevensbescherming" target="_blank" rel="noopener noreferrer">website van het ministerie</a>.
 
 ### 9. Beveiliging van uw persoonsgegevens
 
