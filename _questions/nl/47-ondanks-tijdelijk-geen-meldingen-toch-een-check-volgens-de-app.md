@@ -3,7 +3,7 @@ layout: content
 # set to -1 if current
 index: -1
 set: 2
-title: Ik heb gelezen dat de Coronamelder tijdelijk geen meldingen van een mogelijke besmetting verstuurd. Toch zie ik in de footer van de app nog staan dat er zojuist een laatste check is geweest, hoe zit dat?
+title: Coronamelder geeft tijdelijk geen meldingen van een mogelijke besmetting door. Toch zie ik in de footer van de app nog staan dat er zojuist een laatste check is geweest, hoe zit dat?
 lang: nl
 categories:
 - nl
