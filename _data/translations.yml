@@ -419,8 +419,8 @@ english:
   tr: (ingilizce)
   
 info-lead: 
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 28 april hadden <strong>4.814.029</strong> mensen de app gedownload. Lees meer over de <a href="/nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona/">onderzoeksresultaten van CoronaMelder</a>.
-  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 28 april hiene <strong>4.814.029</strong> minsken de app delladen.
+  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken voor heel Nederland. Op 29 april hadden <strong>4.817.523</strong> mensen de app gedownload. Lees meer over de <a href="/nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona/">onderzoeksresultaten van CoronaMelder</a>.
+  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken. Op 29 april hiene <strong>4.817.523</strong> minsken de app delladen.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
   ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. لذلك أصبح CoronaMelder متاحًا في هولندا كلها.
   bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
@@ -445,9 +445,13 @@ info-lead-title:
   tr: CoronaMelder uygulamasını indirin
   
 info-announcement: |
-  <h2>Tijdelijk geen meldingen van CoronaMelder</h2>
-  <p>CoronaMelder stuurt vanaf woensdagavond 28 april tijdelijk geen waarschuwing van een mogelijke besmetting naar gebruikers van CoronaMelder. Het blijkt dat de codes van CoronaMelder toegankelijk zijn voor apps die Google standaard op een Android telefoon zet. Dit is in strijd met de Tijdelijke wet notificatieapplicatie covid-19.</p>
-  <p>Heb je CoronaMelder gedownload? Voor het ministerie van VWS heeft de privacy van gebruikers van CoronaMelder de hoogste prioriteit. Het ministerie zet de mogelijkheid voor het ontvangen van meldingen daarom pas weer aan zodra Google het probleem heeft opgelost. Google geeft aan dat dit enkele dagen kan duren. Je hoeft in de tussentijd niets te doen. Meer informatie vind je <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/nieuws/2021/04/28/tijdelijk-geen-meldingen-van-mogelijke-besmetting-via-coronamelder" target="_blank" rel="noopener noreferrer">op de website van het ministerie</a>.</p>
+  <h2>CoronaMelder stuurt meldingen weer door</h2>
+  <p>CoronaMelder stuurt vanaf zaterdag 1 mei 17:00 uur weer meldingen van mogelijke besmettingen naar gebruikers van de app. Dit was tijdelijk gepauzeerd, omdat apps op Android telefoons misschien toegang hadden tot de codes van CoronaMelder. Inmiddels heeft Google dit probleem opgelost.</p>
+  <p>Heb je een Android telefoon en de app gedownload?  <a href="#">Dan vind je hier meer informatie <span class="screen-reader-text">voor Android gebruikers</span></a>.<br />
+  Heb je een vraag over de periode van 28 april tot en met 1 mei? Kijk dan <a href="#">hier <span class="screen-reader-text">voor informatie over de periode 28 april tot en met 1 mei</span></a>.<br />
+  Meer informatie vind je ook <a href="#" target="_blank" rel="noopener noreferrer">op de website van de  Rijksoverheid</a>.
+  </p>
+  <p>CoronaMelder wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. CoronaMelder weet dus niet wie je bent en ook niet waar je bent.</p>
 
 info-caveat-fy: |
  De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net. Yn de oare talen kin yn de Appstore hjir de app wol delhelle wurde.
