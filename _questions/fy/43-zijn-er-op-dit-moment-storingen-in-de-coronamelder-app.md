@@ -1,7 +1,7 @@
 ---
 layout: content
 # set to -1 if current
-index: -1
+index: -3
 set: 2
 title: Zijn er op dit moment storingen in de CoronaMelder-app?
 lang: fy
