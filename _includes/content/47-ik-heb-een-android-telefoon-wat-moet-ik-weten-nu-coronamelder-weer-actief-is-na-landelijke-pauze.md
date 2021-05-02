@@ -11,6 +11,6 @@ Er zijn drie mogelijkheden:
 
 Nog vragen? Bel de helpdesk op <a href="tel:0800-1280">0800-1280</a> (gratis). De helpdesk is bereikbaar van maandag t/m zondag van 08.00 tot 20.00 uur.
 
-## 3. Ik zie bij de Blootstellingswaarschuwingen dat mijn CoronaMelder de afgelopen dagen toch codes heeft gedownload. Hoe kan dat?
+## 3. Ik zie bij de Blootstellingsmeldingen dat mijn CoronaMelder de afgelopen dagen toch codes heeft gedownload. Hoe kan dat?
 
 In de periode van 28 april tot en met 1 mei hield CoronaMelder via willekeurige codes bij of je iemand ontmoet hebt die ook de app gebruikt. De codes van personen die besmet bleken, zijn tijdelijk niet verstuurd. In plaats daarvan zijn fictieve codes verstuurd. Toen de app op 1 mei 17:00 uur weer werd aangezet, zijn de echte codes alsnog verstuurd.
