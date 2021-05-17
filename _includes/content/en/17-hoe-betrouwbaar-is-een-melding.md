@@ -1,10 +1,11 @@
-The results of the field test that looked at the technical operation of the CoronaMelder app showed that for encounters that lasted for longer than 15 minutes:
- 
-- for participants within 1.5 meters of each other: 
-    - around 75% received a notification
-    - around 25% did not receive a notification
-- for participants more than 1.5 meters away from each other: 
-    - around 75% did not receive a notification
-    - around 25% received a notification (most of these were within 3 metres) 
+From version 2.0 of CoronaMelder, made available on May 17, 2021, the app uses new software from Google and Apple to measure Bluetooth signals.
 
-Of all the test notifications sent during the field test, 60% were sent to people who had been more than 1.5 metres apart. This high number is due to the fact that a relatively large number of people in the test group (80%) were more than 1.5 metres apart. Of those in that group who received a notification, most were within 3 metres. The encounters always lasted for more than 15 minutes. 
+Before the transition to this new software, it was first extensively tested. This shows that the reliability of reports is approximately 5-10% higher than before:
+
+- In 84% of the cases that someone has to be notified, this also happens (this was 73%).
+- In 74% of the cases that someone should not be notified, this does not happen (this was 73%). In fact, if the other phone is on the other side of a wall or floor, it is 87% of the time.
+<!-- 
+## Reports
+
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">The report of the April 2021 test with the new software from Google and Apple</a> (Dutch)
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">The report with the results of the earlier test in June 2020</a> (Dutch) -->

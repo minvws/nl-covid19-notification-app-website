@@ -1,10 +1,11 @@
-Uit de resultaten van de veldtest, waarin de technische werking van de corona-app is getest, bleek dat bij ontmoetingen die langer dan 15 minuten duurden:
- 
-- van de deelnemers binnen 1,5 meter: 
-    - ongeveer 75% een melding kreeg
-    - ongeveer 25% geen melding kreeg
-- van de deelnemers verder dan 1,5 meter: 
-    - ongeveer 75% geen melding kreeg
-    - ongeveer 25% een melding kreeg (de meesten daarvan waren binnen 3 meter) 
+Vanaf versie 2.0 van CoronaMelder, beschikbaar gesteld op 17 mei 2021, maakt de app gebruik van nieuwe software van Google en Apple om bluetooth-signalen te meten.
 
-Van alle test-meldingen tijdens de veldtest, ging 60% naar mensen die meer dan 1,5 meter van elkaar waren. Dit hoge aantal komt doordat ook relatief veel mensen van de testgroep (80%) meer dan 1,5 meter van elkaar waren. Van deze mensen die een melding kregen, waren de meesten binnen 3 meter. En het ging altijd om een ontmoeting van langer dan 15 minuten. <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport met de resultaten is hier op Rijksoverheid.nl terug te lezen.</a>
+Vóór de overgang naar deze nieuwe software is deze eerst uitgebreid getest. Daaruit blijkt dat de betrouwbaarheid van meldingen circa 5-10% hoger is dan ervoor:
+
+- In 84% van de gevallen dat iemand een melding moet krijgen, gebeurt dat ook (dit was 73%). 
+- In 74% van de gevallen dat iemand géén melding moet krijgen, gebeurt dat ook niet (dit was 73%). Als de andere telefoon zich aan de andere kant van een muur of vloer bevindt, is dat zelfs in 87% van de gevallen.
+<!-- 
+## Rapporten
+
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport van de test uit april 2021 met de nieuwe software van Google en Apple</a>.
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport met de resultaten van de eerdere test in juni 2020</a>. -->
