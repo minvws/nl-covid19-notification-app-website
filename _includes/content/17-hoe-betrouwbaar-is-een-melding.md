@@ -4,3 +4,8 @@ Vóór de overgang naar deze nieuwe software is deze eerst uitgebreid getest. Da
 
 - In 84% van de gevallen dat iemand een melding moet krijgen, gebeurt dat ook (dit was 73%). 
 - In 74% van de gevallen dat iemand géén melding moet krijgen, gebeurt dat ook niet (dit was 73%). Als de andere telefoon zich aan de andere kant van een muur of vloer bevindt, is dat zelfs in 87% van de gevallen.
+<!-- 
+## Rapporten
+
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport van de test uit april 2021 met de nieuwe software van Google en Apple</a>.
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport met de resultaten van de eerdere test in juni 2020</a>. -->

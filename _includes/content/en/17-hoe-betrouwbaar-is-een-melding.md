@@ -4,3 +4,8 @@ Before the transition to this new software, it was first extensively tested. Thi
 
 - In 84% of the cases that someone has to be notified, this also happens (this was 73%).
 - In 74% of the cases that someone should not be notified, this does not happen (this was 73%). In fact, if the other phone is on the other side of a wall or floor, it is 87% of the time.
+<!-- 
+## Reports
+
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">The report of the April 2021 test with the new software from Google and Apple</a> (Dutch)
+- <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">The report with the results of the earlier test in June 2020</a> (Dutch) -->
