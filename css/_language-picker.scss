@@ -65,6 +65,10 @@
     pointer-events: none;
 }
 
+.language-picker__current-lang {
+    font-weight: bold;
+}
+
 .language-picker__toggle {
     background: transparent;
     border: 0;
