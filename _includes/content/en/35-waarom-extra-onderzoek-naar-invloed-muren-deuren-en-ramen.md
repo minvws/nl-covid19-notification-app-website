@@ -11,3 +11,4 @@ The test also shows that the material of the wall or floor has an influence. For
 ## Report
 
 <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/05/17/coronamelder-hertest-bluetooth-validatie-april-2021" rel="noopener noreferrer" target="_blank">Read the report of the April 2021 test with the results on the effect of walls and floors</a> (Dutch)
+

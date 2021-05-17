@@ -7,7 +7,7 @@ Google en Apple hebben een nieuwe versie van hun software gemaakt. Voordat Coron
 Het resultaat van de test is dat muren en vloeren het signaal tussen twee telefoons verzwakken. Daardoor worden deze metingen meestal niet als risicovol gezien. In 87% van deze gevallen krijg je inderdaad geen melding als de gebruiker van de andere telefoon een besmetting meldt. Zonder muren is dat in 73% van de gevallen.
 
 Uit de test blijkt ook dat het materiaal van de muur of vloer invloed heeft. Het effect van een stenen muur of betonnen vloer is bijvoorbeeld groter dan van scheidingswand op kantoor.
-<!-- 
-## Report
 
-<a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">Het rapport van de test uit april 2021 met de resultaten over het effect van muren en vloeren is hier te lezen</a>  -->
+## Rapport
+
+<a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/05/17/coronamelder-hertest-bluetooth-validatie-april-2021" rel="noopener noreferrer" target="_blank">Lees het rapport van de test uit april 2021 met de resultaten over het effect van muren en vloeren</a>.
