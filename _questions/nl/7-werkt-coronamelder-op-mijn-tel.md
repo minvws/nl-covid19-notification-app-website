@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Werkt CoronaMelder ook op mijn telefoon?
-lang: nl
-categories:
-- nl
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6

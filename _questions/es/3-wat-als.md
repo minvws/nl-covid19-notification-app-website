@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: ¿Qué tengo que hacer si recibo una notificación?
 icon: mobile-check
 summary: Cuando recibas una notificación de CoronaMelder que confirme que has estado cercado de una persona contagiada, puedes hacerte un test directamente incluso aunque no muestres síntomas.
-lang: es
-categories:
-- es
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

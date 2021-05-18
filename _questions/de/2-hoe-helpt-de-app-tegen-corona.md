@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Wie hilft die App im Kampf gegen Corona?
 summary: CoronaMelder warnt Sie, wenn Sie in der Nähe einer Person mit Corona waren.
-lang: de
-categories:
-- de
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart

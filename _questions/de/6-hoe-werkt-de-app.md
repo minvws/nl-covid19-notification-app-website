@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 9
 set: 2
 title: Wie funktioniert die App?
 summary: Die App schickt Ihnen eine Nachricht, wenn Sie eine Weile in der Nähe einer Person mit Corona waren.
-lang: de
-categories:
-- de
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch

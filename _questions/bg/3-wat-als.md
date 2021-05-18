@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Какво трябва да направя, ако получа известие?
 icon: mobile-check
 summary: Ако от известие в приложението CoronaMelder се установи, че си бил близо до заразено лице, можеш веднага да си направиш тест, дори и (още) да нямаш оплаквания.
-lang: bg
-categories:
-- bg
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Ne zaman bildirim alırım?
 summary: Temastan sonra test edilmiş ve Korona olduğu belli olan birinin yakınında bulunduktan sonra.
-lang: tr
-categories:
-- tr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 summary: If the notification in the CoronaMelder app shows that you have been close to an infected person, you can arrange to have a coronavirus test immediately, even if you have no symptoms yet.
 title: What should I do if I get a notification? 
-lang: en
-categories:
-- en
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2

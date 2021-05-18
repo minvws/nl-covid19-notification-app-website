@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 5
 set: 4
 title: Hoe zit het met mijn privacy?
-lang: nl
-categories:
-- nl
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4

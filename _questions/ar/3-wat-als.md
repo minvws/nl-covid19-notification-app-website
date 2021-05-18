@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: ما الذي يجب عليّ القيام به عندما أتلقى إشعارًا؟
 icon: mobile-check
 summary: "إذا أظهر أشعار تطبيق CoronaMelder أنك كنت على مقربة من شخص مصاب يمكنك إجراء الاختبار على الفور، حتى لو لم تكن لديك أعراض (حتى الآن). "
-lang: ar
-categories:
-- ar
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

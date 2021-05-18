@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Wie sieht es mit meinem Datenschutz aus?
 summary: Die App funktioniert ohne Ihre Kontaktdaten, wie Standort, Name, E-Mail-Adresse oder Telefonnummer.
-lang: de
-categories:
-- de
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

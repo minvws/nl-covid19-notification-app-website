@@ -23,3 +23,5 @@ De verbinding tussen de back-end van de CoronaMelder en de EFGS werd mede mogeli
 [Meer informatie over testen in het buitenland vind je hier.](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-in-het-buitenland)
 
 [Meer informatie over testen als buitenlandse bezoeker aan Nederland vind je hier.](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-op-vakantie-in-nederland)
+
+Zie ook: [Heeft de Europese uitwisseling gevolgen voor het dataverbruik van mijn telefoon?](/{{page.lang}}/faq/38-heeft-de-europese-uitwisseling-gevolgen-voor-het-dataverbruik-van-mijn-telefoon/)

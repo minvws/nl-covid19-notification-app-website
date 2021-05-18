@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Wann erhalte ich eine Nachricht?
-lang: de
-categories:
-- de
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

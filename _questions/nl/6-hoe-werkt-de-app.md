@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 9
 set: 2
 title: Hoe werkt de app?
-lang: nl
-categories:
-- nl
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5
@@ -28,7 +21,6 @@ showBadges: true
 </div>
 
 {% include badges.html %}
-
 
 <details>
    <summary>Wanneer krijg ik een melding?</summary>

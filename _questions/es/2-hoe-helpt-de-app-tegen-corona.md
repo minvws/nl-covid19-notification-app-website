@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Cómo ayuda la app contra el coronavirus
 summary: CoronaMelder te notifica si has estado cerca de alguien con coronavirus.
-lang: es
-categories:
-- es
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart

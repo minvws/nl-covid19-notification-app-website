@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Как се защитават моите лични данни?
 summary: Приложението работи, без да използва данни за местоположението ти, имейл адреса, телефонния номер или други данни за контакт с теб.
-lang: bg
-categories:
-- bg
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

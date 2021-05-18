@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Que faire si je reçois une notification?
 icon: mobile-check
 summary: Il vous est conseillé de rester à la maison jusqu’à 10 jours après la date du contact. Vous avez des symptômes? Faites-vous tester.
-lang: fr
-categories:
-- fr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

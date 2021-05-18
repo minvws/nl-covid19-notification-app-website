@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: CoronaMelder benim telefonumda da çalışıyor mu? 
 summary: Uygulama telefonların %95'inde çalışır.
-lang: tr
-categories:
-- tr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check

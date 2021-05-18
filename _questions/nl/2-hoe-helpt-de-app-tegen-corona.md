@@ -1,12 +1,5 @@
 ---
-layout: content
 title: Hoe helpt de app tegen corona?
-lang: nl
-categories:
-- nl
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1

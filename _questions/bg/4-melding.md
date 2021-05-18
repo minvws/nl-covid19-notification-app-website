@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Кога ще получа известие?
 summary: Когато си бил близо до някого, който след срещата ви си е направил тест и има коронавирус.
-lang: bg
-categories:
-- bg
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

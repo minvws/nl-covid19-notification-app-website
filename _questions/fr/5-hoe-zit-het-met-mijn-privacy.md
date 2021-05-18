@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Qu’en est-il de ma vie privée?
 summary: L'application fonctionne sans votre emplacement, votre adresse e-mail, votre numéro de téléphone ou d'autres informations de contact.
-lang: fr
-categories:
-- fr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: متى سأتلقى إشعارًا؟
 summary:  بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.
-lang: ar
-categories:
-- ar
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

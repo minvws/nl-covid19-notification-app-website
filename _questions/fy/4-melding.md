@@ -1,41 +1,28 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Wannear krij ik in melding?
-lang: fy
-contentLang: nl
-categories:
-- fy
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell
 featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
 ---
-Je krijgt een waarschuwing nadat:
+Wannear krij ik in melding?
 
-- iemand via CoronaMelder samen met de GGD aangeeft het coronavirus te hebben,
-- én jij in de afgelopen dagen dicht bij die persoon bent geweest,
-- en je in totaal 15 minuten risicovol contact hebt gehad op één dag. Dit kan contact met één persoon of meerdere personen zijn. *CoronaMelder weet niet wie dat zijn.*
+Do krigest in warskôging neidat:
+*  immen fia CoronaMelder yn 'e mande mei de GGD oanjout it koroanafirus te hawwen,
+*  én do yn de ôfrûne dagen yn de buert west hast fan dy persoan,
+*  én jimme doe op syn minst 15 minuten ticht byinoar wiene.
 
-Het kan ook gebeuren dat je een waarschuwing krijgt nadat:
+Do wiest bygelyks:
+*  mei wat minsken út te iten of by in buorrel,
+*  yn in winkel,
+*  yn in wachtrige,
+*  oan it reizgjen (iepenbier ferfier),
+*  oan it sporten,
+*  op it wurk,
+*  op skoalle,
+en krigest dan letter in melding.
 
-- meerdere personen via CoronaMelder samen met de GGD aangeven het coronavirus te hebben,
-- én jij in de afgelopen dagen dicht bij deze personen bent geweest,
-- én je toen op één dag bij elkaar opgeteld minstens 15 minuten dicht bij deze mensen was.
-
-CoronaMelder weet niet wie de mensen zijn die je ontmoet en ook niet waar dat is. Je was bijvoorbeeld:
-
-- bij een borrel of etentje,
-- in een winkel,
-- in een rij aan het wachten,
-- aan het reizen,
-- aan het sporten,
-- aan het werk,
-- op school, en krijgt dan later een melding.
-
-Verschillende korte contactmomenten op één dag, bijvoorbeeld op werk en later in de winkel, kunnen optellen tot 15 minuten en dus een melding. Maar fietste iemand voorbij? Dan krijg je geen melding: jullie waren maar kort bij elkaar in de buurt.
+Mar fytste immen foarby? Dan krigest gjin melding: jimme wiene koart byinoar yn 'e buert.

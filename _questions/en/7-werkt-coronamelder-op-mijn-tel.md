@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Will the CoronaMelder app work on my phone?
 summary: The app works on 98% of all phones.
-lang: en
-categories:
-- en
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6

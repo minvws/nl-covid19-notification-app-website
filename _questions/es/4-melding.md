@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: ¿Cuándo recibo una notificación?
 summary: Tras haber estado cerca de alguien que después de vuestro encuentro se hizo un test y resultó tener el coronavirus.
-lang: es
-categories:
-- es
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

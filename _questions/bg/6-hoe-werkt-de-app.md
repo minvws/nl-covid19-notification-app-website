@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 9
 set: 2
 title: Как работи приложението?
 summary: Приложението ти изпраща съобщение, ако за известно време си бил близо до някого, който е заразен с коронавирус.
-lang: bg
-categories:
-- bg
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: W jaki sposób aplikacjia pomaga w zwalczaniu koronawirusa?
 summary: CoronaMelder ostrzega Cię w przypadku, gdy znalazłeś się w pobliżu osoby z koronawirusem.
-lang: pl
-categories:
-- pl
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart

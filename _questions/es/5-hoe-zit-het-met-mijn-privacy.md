@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: ¿Y qué hay de mi privacidad?
 summary: La app funciona sin localización, correo electrónico, número de teléfono u otros datos de contacto.
-lang: es
-categories:
-- es
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 2
 set: 2
 title: كيف يساعد التطبيق ضد كورونا?
-lang: ar
-categories:
-- ar
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart

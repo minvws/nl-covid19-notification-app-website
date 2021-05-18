@@ -41,3 +41,137 @@ plugins:
 incremental: false
 
 url: "https://www.coronamelder.nl"
+
+defaults:
+  -
+    scope:
+      path: "_questions/ar"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - ar
+      - faq
+      lang: ar
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/bg"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - bg
+      - faq
+      lang: bg
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/de"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - de
+      - faq
+      lang: de
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/en"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - en
+      - faq
+      lang: en
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/es"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - es
+      - faq
+      lang: es
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/fr"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - fr
+      - faq
+      lang: fr
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/fy"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - fy
+      - faq
+      lang: fy
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/nl"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - nl
+      - faq
+      lang: nl
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/pl"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - pl
+      - faq
+      lang: pl
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/ro"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - ro
+      - faq
+      lang: ro
+      showBreadCrumbs: true
+      showContact: true
+  -
+    scope:
+      path: "_questions/tr"
+      type: "questions"
+    values:
+      layout: content
+      categories:
+      - tr
+      - faq
+      lang: tr
+      showBreadCrumbs: true
+      showContact: true

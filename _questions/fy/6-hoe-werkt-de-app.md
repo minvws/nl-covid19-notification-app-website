@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 9
 set: 2
 title: Hoe wurket de app?
-lang: fy
-categories:
-- fy
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5

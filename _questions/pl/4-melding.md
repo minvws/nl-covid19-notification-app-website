@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Kiedy dostaję powiadomienie?
-lang: pl
-categories:
-- pl
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: bell

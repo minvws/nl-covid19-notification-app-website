@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Was muss ich tun, wenn ich eine Nachricht erhalte? 
 icon: mobile-check
 summary: Steht in einer Nachricht von CoronaMelder, dass Sie in der Nähe einer Person mit Corona waren? Dann können Sie sich sofort testen lassen. Auch dann, wenn Sie (noch) keine Beschwerden haben. 
-lang: de
-categories:
-- de
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

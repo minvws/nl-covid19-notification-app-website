@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: ماذا عن خصوصيتي؟
 summary: يعمل التطبيق بدون الحاجة إلى معرفة موقعك الجغرافي أو اسمك أو عنوان بريدك الإلكتروني أو رقم هاتفك أو بيانات الاتصال الأخرى.
-lang: ar
-categories:
-- ar
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

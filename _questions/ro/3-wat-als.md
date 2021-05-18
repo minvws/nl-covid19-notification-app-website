@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Ce trebuie să fac dacă primesc o notificare?
 icon: mobile-check
 summary: Dacă o notificare din aplicația CoronaMelder arată că ați fost în contact cu o persoană infectată, puteți să vă testați imediat, chiar dacă (încă) nu aveți niciun simptom.
-lang: ro
-categories:
-- ro
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: هل يعمل CoronaMelder على هاتفي أيضًا؟
 summary: يعمل التطبيق على % 95 من الهواتف.
-lang: ar
-categories:
-- ar
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check

@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 3
 set: 3
 title: What is the best way for pupils to use CoronaMelder?
-lang: en
-categories:
-- en
-- faq
-showBreadCrumbs: true
-showContact: true
 ---
 Pupils need to stay 1.5 metres from each other while they are at school. During lessons, they often leave their mobile phone in a locker or another central location. In these situations, we recommend using the pause function in the CoronaMelder app.
 

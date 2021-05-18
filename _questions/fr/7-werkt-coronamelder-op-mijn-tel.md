@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Est-ce que Coronamelder fonctionne sur mon téléphone ?
 summary: L’application fonctionne sur 95 % des téléphones.
-lang: fr
-categories:
-- fr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check

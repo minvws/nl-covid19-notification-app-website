@@ -1,12 +1,6 @@
 ---
-layout: content
+
 title: Hoe helpt de app tsjin koroana?
-lang: fy
-categories:
-- fy
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1

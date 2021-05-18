@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: CoronaMelder работи ли и на моя телефон?
 summary: Приложението работи на 98% от всички телефони.
-lang: bg
-categories:
-- bg
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check

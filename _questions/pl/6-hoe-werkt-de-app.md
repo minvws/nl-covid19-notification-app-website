@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 9
 set: 2
 title: Jak działa aplikacja?
 summary: Aplikacja przysyła Ci wiadomość, jeśli przez pewien czas znajdowałeś się w pobliżu osoby zarażonej koronawirusem.
-lang: pl
-categories:
-- pl
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch

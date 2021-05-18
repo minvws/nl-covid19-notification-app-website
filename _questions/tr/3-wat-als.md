@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Bir bildirim alırsam ne yapmalıyım?
 icon: mobile-check
 summary: CoronaMelder uygulamasındaki bir bildirim enfekte olan bir kişinin yakınında bulunduğunuzu gösterirse, (henüz) herhangi bir şikayetiniz olmasa bile kendinizi hemen test ettirebilirsiniz.
-lang: tr
-categories:
-- tr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

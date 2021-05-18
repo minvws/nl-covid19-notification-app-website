@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Wanneer krijg ik een melding?
-lang: nl
-categories:
-- nl
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Benim gizliliğim ne olacak?
 summary: Uygulama konumunuz, adınız, e-posta adresiniz, telefon numaranız veya diğer iletişim bilgileriniz olmadan çalışır.
-lang: tr
-categories:
-- tr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

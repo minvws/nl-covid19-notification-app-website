@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Hoe sit it mei myn privacy?
-lang: fy
-categories:
-- fy
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4

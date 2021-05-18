@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Otrzymałem powiadomienie. Co należy zrobić?
 icon: mobile-check
 summary: Jeżeli z powiadomienia z aplikacji CoronaMelder wynika, że znajdowałeś się w pobliżu zarażonej osoby, możesz natychmiast wykonać test na obecność koronawirusa.
-lang: pl
-categories:
-- pl
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: mobile-check

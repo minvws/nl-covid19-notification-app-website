@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 5
 set: 2
 title: When will I get a notification? 
-lang: en
-categories:
-- en
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3

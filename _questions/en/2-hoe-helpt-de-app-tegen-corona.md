@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: How will the app help to stop coronavirus? 
 summary: With CoronaMelder, you will find out sooner if you have been at a higher risk of infection.
-lang: en
-categories:
-- en
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1

@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Cum stau lucrurile cu confidențialitatea datelor mele?
 summary: Aplicația funcționează fără locația, numele, adresa de email, numărul dvs. de telefon sau alte date de contact.
-lang: ro
-categories:
-- ro
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy

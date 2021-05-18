@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: CoronaMelder funcționează și pe telefonul meu?
 summary: Aplicația funcționează pe 98% dintre telefoane.
-lang: ro
-categories:
-- ro
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: mobile-check

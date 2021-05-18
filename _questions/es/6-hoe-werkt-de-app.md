@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 9
 set: 2
 title: ¿Cómo funciona la app?
 summary: La app envía un mensaje si has estado demasiado tiempo cerca de alguien contagiado con el coronavirus.
-lang: es
-categories:
-- es
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch

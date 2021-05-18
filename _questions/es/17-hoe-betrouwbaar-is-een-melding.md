@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 7
 set: 2
 title: How reliable are the notifications?
 contentLang: en
-lang: es
-categories:
-- es
-- faq
-showBreadCrumbs: true
-showContact: true
 ---
 {% include content/en/17-hoe-betrouwbaar-is-een-melding.md %}

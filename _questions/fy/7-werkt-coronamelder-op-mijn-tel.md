@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Wurket CoronaMelder ek op myn telefoan?
 summary: De Nederlânske ferzje fan de app wurket op 98% fan alle telefoans.
-lang: fy
-categories:
-- fy
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6

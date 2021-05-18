@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 9
 set: 2
 title: كيف يعمل التطبيق؟
 summary: يرسل لك التطبيق رسالة عند تواجدك لبعض الوقت بالقرب من شخص مصاب بفيروس كورونا.
-lang: ar
-categories:
-- ar
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch

@@ -1,16 +1,9 @@
 ---
-layout: content
 index: 5
 set: 2
 title: Wat moat ik dwaan as ik in melding krij?
 icon: mobile-check
 summary: "As út in melding yn de CoronaMelder-app bliken docht datst yn de buert west hast fan in besmette persoan, dan kinst dy daliks teste litte, ek ast (noch) gjin klachten hast. "
-lang: fy
-categories:
-- fy
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2

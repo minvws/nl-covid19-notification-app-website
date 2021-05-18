@@ -1,14 +1,7 @@
 ---
-layout: content
 index: 9
 set: 2
 title: How does the app work?
-lang: en
-categories:
-- en
-- faq
-showBreadCrumbs: true
-showContact: true
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5

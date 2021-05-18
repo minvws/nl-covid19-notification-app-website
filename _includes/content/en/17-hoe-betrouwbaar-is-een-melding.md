@@ -9,3 +9,5 @@ Before the transition to this new software, it was first extensively tested. Thi
 
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/05/17/coronamelder-hertest-bluetooth-validatie-april-2021" rel="noopener noreferrer" target="_blank">The report of the April 2021 test with the new software from Google and Apple</a> (Dutch)
 - <a href="https://www.rijksoverheid.nl/documenten/rapporten/2020/06/08/veldtest-bluetooth-validatie-covid-19-notificatie-app" rel="noopener noreferrer" target="_blank">The report with the results of the earlier test in June 2020</a> (Dutch)  
+
+Also see: [What should I do if I get a notification?](/{{page.lang}}/faq/3-wat-als/)

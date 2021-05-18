@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 2
 set: 2
 title: Как приложението помага в борбата с коронавируса?
 summary: "CoronaMelder изпраща предупреждение, след като си бил близо до някого с коронавирус."
-lang: bg
-categories:
-- bg
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart

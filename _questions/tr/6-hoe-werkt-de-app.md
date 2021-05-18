@@ -1,15 +1,8 @@
 ---
-layout: content
 index: 9
 set: 2
 title: Uygulama nasıl çalışır? 
 summary: Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir.
-lang: tr
-categories:
-- tr
-- faq
-showBreadCrumbs: true
-showContact: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
