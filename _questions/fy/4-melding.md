@@ -8,21 +8,26 @@ featuredHomeIndex: 3
 featuredHomeIcon: bell
 featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
 ---
-Wannear krij ik in melding?
-
 Do krigest in warskôging neidat:
-*  immen fia CoronaMelder yn 'e mande mei de GGD oanjout it koroanafirus te hawwen,
-*  én do yn de ôfrûne dagen yn de buert west hast fan dy persoan,
-*  én jimme doe op syn minst 15 minuten ticht byinoar wiene.
 
-Do wiest bygelyks:
-*  mei wat minsken út te iten of by in buorrel,
-*  yn in winkel,
-*  yn in wachtrige,
-*  oan it reizgjen (iepenbier ferfier),
-*  oan it sporten,
-*  op it wurk,
-*  op skoalle,
-en krigest dan letter in melding.
+- immen fia CoronaMelder yn ’e mande mei de GGD oanjout it koroanafirus te hawwen,
+- én do yn de ôfrûne dagen tichtby dy persoan west hast,
+- en do yn totaal 15 minuten risikofol kontakt hân hast op ien dei. Dat kin kontakt mei ien persoan of meardere persoanen wêze. *CoronaMelder wit net wa’t dat binne.*
 
-Mar fytste immen foarby? Dan krigest gjin melding: jimme wiene koart byinoar yn 'e buert.
+It kin ek wêze datst in warskôging krigest neidat:
+
+- meardere persoanen fia CornoaMelder yn ’e mande mei de GGD oanjouwe it koroanafirus te hawwen,
+- én do yn de ôfrûne dagen tichtby dy persoanen west hast,
+- én do doe op ien dei byinoar opteld op syn minst 15 minuten tichtby dy minsken wiest. 
+
+CoronaMelder wit net wa’t de minsken binne dy’tst trefst en ek net wêr’t dat is. Do wiest bygelyks:
+
+- by in buorrel of iterij,
+- yn in winkel,
+- yn in rige oan it wachtsjen,
+- oan it reizgjen,
+- oan it sporten,
+- oan it wurk,
+- op skoalle, en krigest dan letter in melding.
+
+Ferskate koarte kontaktmominten op ien dei, bygelyks op wurk en letter yn de winkel, kinne optelle oant 15 minuten en dus in melding. Mar fytste der immen foarby? Dan krigest gjin melding: jimme wiene mar koart byinoar yn ’e buert.

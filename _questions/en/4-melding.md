@@ -9,23 +9,26 @@ featuredHomeIcon: bell
 featuredHomeText: If you have been near someone who later tests positive for coronavirus since you were near them, you will get a notification.
 summary: If you have been near someone who later tests positive for coronavirus since you were near them, you will get a notification.
 ---
-You will receive a warning after:
-- someone indicates, together with the GGD, via CoronaMelder that they are infected with the corona virus,
-- and you have been close to that person in the past few days,
-- and you had a total of 15 minutes of risky contact in one day. This can be contact with one person or several people. CoronaMelder does not know who they are.
+You will get a warning after:
+
+- someone changes their status to positive in the CoronaMelder app (with the help of the GGD);
+- and you have been near that person in the past few days;
+- and you have been at risk for a total of 15 minutes in one day. That could be contact with one person or with several people. The CoronaMelder app does not know who they are.
 
 You may also receive a warning after:
-- several people indicate, together with the GGD, via CoronaMelder that they have the corona virus,
-- and you have been close to these people in the past few days,
-- and when added together you were close to these people for at least 15 minutes in one day.
 
-CoronaMelder does not know who the people you meet are or where that is. For example, you were:
-- at a drink or dinner,
-- in a store,
-- waiting in line,
-- travelling,
-- exercising,
-- working,
-- at school, and will be notified later.
+- several people change their status to positive in the CoronaMelder app (with the help of the GGD);
+- and you have been near those people in the past few days;
+- and you were close to these people for at least 15 minutes in total in one day. 
 
-Several short contact moments in one day, for example at work and later in the store, can add up to 15 minutes and thus a notification. Did someone cycle past you? Then you will not receive a notification: you were only close to each other for a vey short while.
+CoronaMelder does not know which people they are, or where you were near them. For example, you may have been:
+
+- eating or drinking with somebody;
+- in a shop;
+- waiting in line;
+- travelling somewhere;
+- taking part in sporting activities;
+- at work;
+- at school. Later you will receive a notification.
+
+Several shorter periods near somebody in one day – such as at work and later travelling somewhere – could add up to 15 minutes and you may therefore receive a notification. However, if someone cycles past you in the street, you will not receive a notification because you were only close to each other for a brief moment.
