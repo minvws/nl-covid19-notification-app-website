@@ -3,6 +3,8 @@ layout: content
 lang: nl
 showBreadCrumbs: true
 title: Privacyverklaring CoronaMelder
+redirect_from: 
+  - /privacy
 ---
 
 ## Over CoronaMelder

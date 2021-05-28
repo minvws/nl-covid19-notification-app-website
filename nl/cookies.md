@@ -3,6 +3,7 @@ layout: content
 lang: nl
 showBreadCrumbs: true
 title: Cookies
+redirect_from: /cookies
 ---
 
 Deze website gebruikt geen cookies om webstatistieken te meten. 

@@ -3,6 +3,7 @@ layout: content
 lang: nl
 showBreadCrumbs: true
 title: Colofon
+redirect_from: /colofon
 ---
 
 De CoronaMelder-app is ontwikkeld door het Ministerie van Volksgezondheid, Welzijn en Sport in samenwerking met het RIVM en de landelijke GGD’en. De app had niet tot stand kunnen komen zonder de hulp van tientallen experts, ervaringsdeskundigen en een grote open source community van burgers die heeft meegekeken en getest tijdens de ontwikkeling. Er is alles aan gedaan om te zorgen voor een privacyvriendelijke, veilige, toegankelijke en gebruiksvriendelijke app die helpt corona onder controle te krijgen en houden.
