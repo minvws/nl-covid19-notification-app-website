@@ -1,78 +1,11 @@
-.faq {
-    display: block;
-    margin: 1em auto;
-    max-width: 1190px;
-    position: relative;
-
-    @media (min-width: 960px) {
-        padding: 50px 80px;
-    }
-
-    &:after {
-        content: '';
-        position: absolute;
-        display: block;
-        width: 32px;
-        height: 32px;
-        transform: rotate(45deg);
-        transform-origin: center;
-        background: inherit;
-        bottom: -16px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-}
-
-.faq-homepage {
-  margin: 2em auto;
-  
-  @media (min-width: 740px) {
-    margin: 4em auto;
-  }
-}
-
-.faq-homepage__title {
-    font-size: 32px;
-    line-height: 40px;
-    color: #333;
-    margin-top: 14px;
-    margin-bottom: 10px;
-    color: $color-RO_darkblue;
-    text-align: center;
-
-    @media (min-width: 740px) {
-        margin-top: 80px;
-        margin-bottom: 20px;
-    }
-}
-
-.faq-homepage__more {
-    margin: 30px 0;
-    text-align: center;
-    padding: 0 22px;
-
-    @media (min-width: 740px) {
-        margin-top: 20px 0;
-    }
-
-    @media (min-width: 960px) {
-        margin: 40px 0;
-    }
-}
-
-//
-// Faq layout
-//
+// FAQ-overview page
 
 .faq-layout__title {
     color: $color-RO_darkblue;
     background: $color-RO_lightblue;
     padding: 0.6em 20px;
 }
-.content-block .faq-layout__title{
-    margin-bottom: 0;
-}
+
 .faq-layout-contents__list {
     position: relative;
     border: 1px solid rgba(21, 66, 115, 0.5);

@@ -6,20 +6,20 @@
 <section class="faq-homepage">
   <h2 class="faq-homepage__title" id="faq">{{ site.data.translations.faq[page.lang] }}</h2>
 
-  <div class="statements">
+  <div class="highlighted-faqs">
     {% assign questions = site.questions | where:"lang", page.lang | where:"featuredHome", true  | sort: "featuredHomeIndex" %}
     {% for question in questions %}
   
-      <article class="statements__statement">
-        <div class="statement-summary">
-          <div class="statement-summary__icon">
-            {% include graphics/{{ question.featuredHomeIcon }}.svg  %}
-          </div>
-          <div class="statement__content">
+    <article class="highlighted-faq">
+      <div class="highlighted-faq__summary">
+        <div class="highlighted-faq__img">
+          {% include graphics/{{ question.featuredHomeIcon }}.svg  %}
+        </div>
+          <div class="highlighted-faq__content">
             <h3>{{ question.title }}</h3>
             <p>{{ question.featuredHomeText }}</p>
           </div>
-          <a href="{{ site.baseurl }}{{ question.url }}" class="statement-summary__btn-expand">
+          <a href="{{ site.baseurl }}{{ question.url }}" class="highlighted-faq__summary__btn-expand">
             <span class="icon icon-chevron-right"></span>{{ site.data.translations.readmore[page.lang] }}
             <span class="screen-reader-text"> {{ site.data.translations.readmore-about_screen-reader[page.lang] }}: {{ question.title }}</span>
           </a>

@@ -1,0 +1,57 @@
+.icon {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 1rem;
+}
+
+.icon-chevron-right,
+.icon-chevron-left {
+    background-image: url('#{$file-path}img/chevron-up.svg');
+}
+
+.btn .icon-chevron-right,
+.btn .icon-chevron-left {
+    background-image: url('#{$file-path}img/chevron-up-white.svg');
+}
+
+    .btn--color-secondary .icon-chevron-right, 
+    .btn--color-secondary .icon-chevron-left {
+        background-image: url('#{$file-path}img/chevron-up.svg');
+    }
+
+.btn:hover,
+.btn:focus {
+    .icon-chevron-right,
+    .icon-chevron-left {
+        background-image: url('#{$file-path}img/chevron-up.svg');
+    }
+}
+.btn--color-secondary:hover,
+.btn--color-secondary:focus {
+    .icon-chevron-right,
+    .icon-chevron-left {
+        background-image: url('#{$file-path}img/chevron-up.svg');
+    }
+}
+
+.icon-chevron-right {
+    transform: rotate(90deg);
+
+    html[dir="rtl"] &{
+        transform: rotate(-90deg);
+    }
+}
+
+.icon-chevron-left {
+    transform: rotate(-90deg);
+
+    html[dir="rtl"] & {
+        transform: rotate(-90deg);
+    }
+}
+
+.icon-close {
+    background-image: url('#{$file-path}img/close.svg');
+}

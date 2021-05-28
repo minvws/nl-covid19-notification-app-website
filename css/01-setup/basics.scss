@@ -1,0 +1,185 @@
+:root {
+    --transition-in: 262ms ease;
+    --transition-in--fast: 100ms ease;
+    --transition-out: 162ms ease;
+    --transition-out--fast: 62ms ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-offset: 8px;
+    outline: 2px solid transparent;
+
+    &:focus {
+        outline: 2px solid $color-focus;
+        outline-offset: 4px;
+        transition: 100ms ease-out;
+    }
+}
+
+.browser-ie-11 * {
+    outline-offset: 0;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    &[ar] {
+        direction: rtl;
+    }
+}
+
+body {
+    font-family: 'RO Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.container {
+    max-width: 1100px;
+    position: relative;
+    margin: auto;
+
+    html[dir="rtl"] & {
+        @media(min-width: 960px) {
+            padding: 0 2em 0 0;
+        }
+    }
+}
+
+abbr {
+    cursor: help;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+
+a, a:visited {
+    color: $color-RO_darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-RO_darkblue--interaction;
+    text-decoration: underline;
+}
+
+// .offset-background {
+//     background-color: $color-RO_lightblue;
+  
+//     a, a:visited { 
+//         color: $color-cc-link-darker;
+  
+//         &:hover,
+//         &:focus {
+//             color: $color-cc-link-darker--interaction;
+//         }
+//     }
+// }
+
+a[href^="tel"],
+.content-block a[href^="tel"] {
+    &,
+    &:visited {
+        color: $color-RO_darkblue;
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+    &:hover, 
+    &:focus {
+        text-decoration: underline;
+        color: $color-RO_darkblue--interaction;
+        pointer-events: auto;
+        cursor: pointer;
+    }
+}
+
+// .offset-background a[href^="tel"] {
+//     &,
+//     &:visited {
+//         color: $color-cc-link-darker;
+//     }
+
+//     &:hover, 
+//     &:focus {
+//         text-decoration: underline;
+//         color: $color-cc-link-darker--interaction;
+//     }
+// }
+
+@media (hover: hover) { 
+    // Make phone links not clickable on anything that is not a hover device 
+    a[href^="tel"],
+    .offset-background a[href^="tel"],
+    .content-block a[href^="tel"] {
+        &,
+        &:visited, 
+        &:hover, 
+        &:focus {
+            text-decoration: none;
+            color: inherit;
+            pointer-events: none;
+            cursor: default;
+        }
+    }
+}
+
+button {
+  cursor: pointer;
+}
+
+// 404 pagina
+
+.link__404 {
+    font-size: 21px;
+
+    &:before {
+        content: '';
+        position: relative;
+        height: 10px;
+        width: 10px;
+        background: url(#{$file-path}img/chevron-right-darkblue.svg) no-repeat 50% 50%;
+        transition: var(--transition-out);
+        padding: 10px;
+    }
+
+
+    html[dir="rtl"] & {
+        position: relative;
+        padding-right: 20px;
+        display: inline-block;
+
+        &:before {
+            content: none;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            height: 10px;
+            width: 10px;
+            background: url(../img/chevron-left-darkblue.svg) no-repeat 50% 50%;
+            transition: var(--transition-out);
+            padding: 10px;
+        }
+    }
+
+}

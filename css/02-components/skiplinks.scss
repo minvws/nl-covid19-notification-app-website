@@ -1,0 +1,41 @@
+.skiplinks {
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 16px;
+    z-index: 2;
+
+    a {
+        font-size: 1.26562rem;
+        line-height: 1.58025;
+        width: auto;
+        min-height: 44px;
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 0;
+        color: #FFF;
+        background-color: $color-RO_darkblue--interaction;
+        position: absolute;
+        top: -100vh;
+        left: -100vw;
+        text-decoration: none;
+
+        &:focus {
+            top: 15px;
+            left: 15px;
+        }
+    }
+
+    html[dir="rtl"] & {
+        a {
+            right: -100vw;
+            left: auto;
+
+            &:focus {
+                right: 15px;
+                left: auto;
+            }
+        }
+    }
+}

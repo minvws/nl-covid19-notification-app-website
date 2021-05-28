@@ -1,7 +1,50 @@
 
-// Featured faq on homepage
+.faq-homepage {
+    margin: 2em auto
+}
 
-.statements {
+@media (min-width: 740px) {
+    .faq-homepage {
+        margin:4em auto
+    }
+}
+
+.faq-homepage__title {
+    font-size: 32px;
+    line-height: 40px;
+    color: #333;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    color: #154273;
+    text-align: center
+}
+
+@media (min-width: 740px) {
+    .faq-homepage__title {
+        margin-top:80px;
+        margin-bottom: 20px
+    }
+}
+
+.faq-homepage__more {
+    margin: 30px 0;
+    text-align: center;
+    padding: 0 22px
+}
+
+@media (min-width: 740px) {
+    .faq-homepage__more {
+        margin-top:20px 0
+    }
+}
+
+@media (min-width: 960px) {
+    .faq-homepage__more {
+        margin:40px 0
+    }
+}
+
+.highlighted-faqs {
     margin: 10px auto 22px auto;
     padding: 0 10px;
     max-width: 1190px;
@@ -11,7 +54,7 @@
         display: flex;
         flex-wrap: wrap;
         padding: 0 40px;
-        margin-bottom: -16px; // Compensate for statement tile margins
+        margin-bottom: -16px; // Compensate for highlighted-faq tile margins
     }
 
     @media (min-width: 960px) {
@@ -19,7 +62,7 @@
     }
 }
 
-.statements__statement {
+.highlighted-faq {
     margin: 16px;
     flex-grow: 0;
     position: relative;
@@ -33,7 +76,7 @@
     }
 }
 
-.statement-summary {
+.highlighted-faq__summary {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -56,17 +99,24 @@
     &:hover {
         background-color: #F5F5F5 /* lichtgrijs */;
     }
+
+    html[dir="rtl"] & { 
+        background-position: right 25px top 25px;
+        background-size: 42px;
+        box-shadow: 0 -2px 9px -2px rgba(0, 0, 0, 0.2);
+    }
+        
+    html.browser-ie-11[dir="rtl"] {
+        box-shadow: 0 -2px 20px -2px rgba(0, 0, 0, 0.26);
+    }
 }
 
-.statement__content {
+.highlighted-faq__content {
     flex: 1 1 auto;
     padding: 18px 20px 0 85px;
 
-    h2 {
-        font-size: 1.5em;
-        line-height: 1.26em;
-        margin-bottom: 0.45rem;
-        color: $color-RO_darkblue;
+    html[dir="rtl"] & { 
+        padding: 18px 85px 0 20px;
     }
 
     p {
@@ -75,7 +125,7 @@
     }
 }
 
-.statement-summary__btn-expand {
+.highlighted-faq__summary__btn-expand {
     flex: 0 0 auto;
     display: block;
     border: 0;
@@ -91,8 +141,13 @@
     cursor: pointer;
     transition: var(--transition-in);
 
+    html[dir="rtl"] & { 
+        padding: 0.8em 85px 1em 0.5em;
+        text-align: right;
+    }
+
     &:after {
-        // Make the whole .statement-summary clickable
+        // Make the whole .highlighted-faq-summary clickable
         content: '';
         position: absolute;
         display: block;
@@ -116,20 +171,21 @@
     }
 }
 
-// 
-//
-//
-
-.statement-summary__icon {
+.highlighted-faq__img {
     position: absolute;
     top: 23px;
     left: 23px;
+
+    html[dir="rtl"] & { 
+        right: 23px;
+        left: auto;
+    }
     
     svg {
         max-width: 46px;
         color: $color-WARN_red;
 
-        .statement-summary:hover & {
+        .highlighted-faq__summary:hover & {
             color: $color-RO_darkblue--interaction;
         }
     }

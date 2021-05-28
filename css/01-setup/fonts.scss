@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'RO Sans';
+    src: url('#{$file-path}fonts/ROsanswebtextregular.woff2') format('woff2'),
+         url('#{$file-path}fonts/ROsanswebtextregular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RO Sans';
+    src: url('#{$file-path}fonts/ROsanswebtextbold.woff2') format('woff2'),
+         url('#{$file-path}fonts/ROsanswebtextbold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}

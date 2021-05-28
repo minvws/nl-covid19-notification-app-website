@@ -18,7 +18,7 @@ Please also include the name part as prefix of your file, e.g. `app-X.md`.
 
 ## Content formatting
 
-Take a look at this [example content page](https://minvws.github.io/nl-covid19-notification-app-website/en/example-content-page) ([source in markdown](./example-content-page.md)) which displays all possible content formatting options. These display options are also available in: statement, question
+Take a look at this [example content page](https://minvws.github.io/nl-covid19-notification-app-website/en/example-content-page) ([source in markdown](./example-content-page.md)) which displays all possible content formatting options. These display options are also available in: highlighted-faq, question
 
 ## Translation
 
