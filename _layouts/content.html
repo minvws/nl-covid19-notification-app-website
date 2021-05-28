@@ -34,7 +34,7 @@
 
     {% if page.collection == 'questions' %}
       <p class="content-center__home return_link">
-        <a href="{{ langSlug }}/faq">
+        <a href="{{ langSlug }}/faq#{{ page.title | slugify }}">
           <span class="icon icon-chevron-left"></span>{{ site.data.translations.layout-template-faq[page.lang] }} 
         </a>
       </p>
