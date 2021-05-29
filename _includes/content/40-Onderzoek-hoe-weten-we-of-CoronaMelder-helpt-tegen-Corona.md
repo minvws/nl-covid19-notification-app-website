@@ -8,11 +8,11 @@ Daarnaast is er dagelijks informatie beschikbaar rondom onder andere het aantal 
 
 Op 28 mei 2021 publiceerden voorgenoemde wetenschappers en instituten,  onder leiding van prof. dr. Wolfgang Ebbers, een overzicht van de  verschillende onderzoeken:
 
-<a href="/media/Evaluatie_CoronaMelder_na_9_maanden.pdf" rel="noopener noreferrer" target="_blank">Evaluatie CoronaMelder: een overzicht na 9 maanden </a>
+<a href="/media/Evaluatie_CoronaMelder_na_9_maanden.pdf" rel="noopener noreferrer" target="_blank">Evaluatie CoronaMelder: een overzicht na 9 maanden (PDF, 5.6MB)</a>
 
 Een heldere samenvatting van dat onderzoek kun je hier downloaden:
  
-<a href="/media/Samenvatting_evalatie_CoronaMelder_na_9_maanden.pdf" rel="noopener noreferrer" target="_blank">Samenvatting evaluatie CoronaMelder: een overzicht na 9 maanden</a>
+<a href="/media/Samenvatting_evalatie_CoronaMelder_na_9_maanden.pdf" rel="noopener noreferrer" target="_blank">Samenvatting evaluatie CoronaMelder: een overzicht na 9 maanden (PDF, 968kb)</a>
 
 Eerder gepubliceerde onderzoeken kun je hier downloaden:
 
