@@ -998,17 +998,17 @@ information-naw:
   tr: Adınız, e-posta adresiniz ve telefon numaranız kullanılmayacak veya saklanmayacaktır.
   
 information-gps:
-  nl: De app weet nooit waar je bent en gebruikt geen gps- en locatiegegevens
-  fy: De app wit nea wêr ast bist en brûkt gjin gps- en lokaasjegegevens
-  en: Your GPS or location data is not used or stored.
+  nl: De app weet nooit waar je bent en gebruikt geen locatiegegevens
+  fy: De app wit nea wêr ast bist en brûkt gjin lokaasjegegevens
+  en: Your location data is not used or stored.
   ar: لن يتعرف التطبيق على مكانك أبدًا ولا يقوم باستخدام الـ GPS وبيانات موقعك الجغرافي
-  bg: Приложението никога не знае кой си и не използва gps данни и данни за местоположение
-  de: Die App weiß nie, wo Sie sind, und verwendet keine GPS- oder Standortdaten.
-  es: La app no sabe nunca dónde estás ni tampoco utiliza ningún dato GPS o de localización.
-  fr: L'application ne sait jamais où vous êtes et n'utilise pas de données GPS ou de localisation.
-  pl: Aplikacja nigdy nie wie gdzie się znajdujesz i nie korzysta z danych lokalizacyjnych i GPS.
-  ro: Aplicația nu știe niciodată cine sunteți și nu folosește datele dvs. de locație GPS
-  tr: Uygulama nerede olduğunuzu asla bilmez ve GPS ve konum verilerini kullanmaz
+  bg: Приложението никога не знае кой си и не използва данни за местоположение
+  de: Die App weiß nie, wo Sie sind, und verwendet keine Standortdaten.
+  es: La app no sabe nunca dónde estás ni tampoco utiliza ningún dato de localización.
+  fr: L'application ne sait jamais où vous êtes et n'utilise pas de données de localisation.
+  pl: Aplikacja nigdy nie wie gdzie się znajdujesz i nie korzysta z danych lokalizacyjnych.
+  ro: Aplicația nu știe niciodată cine sunteți și nu folosește datele dvs. de locație
+  tr: Uygulama nerede olduğunuzu asla bilmez ve konum verilerini kullanmaz
   
 # Media element (used for videos)
 # See _includes/components/mediaplayer.html
