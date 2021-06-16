@@ -445,13 +445,8 @@ info-lead-title:
   tr: CoronaMelder uygulamasını indirin
   
 info-announcement: |
-  <h2>CoronaMelder stuurt meldingen weer door</h2>
-  <p>CoronaMelder stuurt vanaf zaterdag 1 mei 17:00 uur weer meldingen van mogelijke besmettingen naar gebruikers van de app. Dit was tijdelijk gepauzeerd, omdat apps op Android telefoons misschien toegang hadden tot de codes van CoronaMelder. Inmiddels heeft Google dit probleem opgelost.</p>
-  <p>Heb je een Android telefoon en de app gedownload? <a href="/nl/faq/47-ik-heb-een-android-telefoon-wat-moet-ik-weten-nu-coronamelder-weer-actief-is-na-landelijke-pauze/">Dan vind je hier meer informatie<span class="screen-reader-text"> voor Android gebruikers</span></a>.<br />
-  Heb je een vraag over de periode van 28 april tot en met 1 mei? Kijk dan <a href="/nl/faq/48-wat-moet-ik-weten-nu-coronamelder-weer-actief-is-na-een-landelijke-pauze/">hier<span class="screen-reader-text"> voor informatie over de periode 28 april tot en met 1 mei</span></a>.<br />
-  Meer informatie vind je ook <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/nieuws/2021/04/30/coronamelder-stuurt-vanaf-morgen-weer-meldingen" target="_blank" rel="noopener noreferrer">op de website van de Rijksoverheid</a>.
-  </p>
-  <p>CoronaMelder wisselt willekeurige codes uit met andere telefoons. In deze codes staan geen persoonsgegevens of locatiegegevens van jou. CoronaMelder weet dus niet wie je bent en ook niet waar je bent.</p>
+  <p>Let op: Voor toegang tot bepaalde locaties of activiteiten heb je een coronatoegangsbewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>. Met CoronaCheck maak je jouw QR-code waarmee jij vanaf begin juli ook kan reizen binnen Europa.
+  Zie ook: <a href="/nl/faq/50-geeft-coronamelder-toegang-tot-evenementen-en-locaties/">Geeft CoronaMelder toegang tot evenementen en locaties?</a></p>
 
 info-caveat-fy: |
  De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net. Yn de oare talen kin yn de Appstore hjir de app wol delhelle wurde.
