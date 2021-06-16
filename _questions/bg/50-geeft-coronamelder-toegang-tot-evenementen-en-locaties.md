@@ -1,5 +1,5 @@
 ---
-index: 6
+index: 10
 set: 3
 title: Does CoronaMelder grant access to events and locations?
 contentLang: en

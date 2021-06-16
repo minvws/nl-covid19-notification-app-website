@@ -1,5 +1,5 @@
 ---
-index: 6
+index: 10
 set: 3
 title: Geeft CoronaMelder toegang tot evenementen en locaties?
 contentLang: nl
