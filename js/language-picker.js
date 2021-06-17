@@ -1,16 +1,19 @@
 (function() {
 	var languagePicker = document.querySelector('.language-picker');
-	var button = document.querySelector('[aria-controls="language-dropdown"]');
+    var button = document.querySelector('[aria-controls="language-dropdown"]');
+    var listOfLanguages = document.getElementById('language-dropdown');
 	var firstInteractive = document.querySelector('.language-picker__link');
 	var ariaExpanded;
 
 	if (!languagePicker) return;
 
-	ariaExpanded = button.getAttribute('aria-expanded') === 'true';
+    ariaExpanded = button.getAttribute('aria-expanded') === 'true';
+    listOfLanguages.setAttribute('hidden', true);
 
 	function toggleLanguagePicker() {
 		ariaExpanded = !ariaExpanded;
-		button.setAttribute('aria-expanded', ariaExpanded);
+        button.setAttribute('aria-expanded', ariaExpanded);
+        listOfLanguages.removeAttribute('hidden', false);
 
 		if (ariaExpanded) {
 			document.documentElement
@@ -18,7 +21,8 @@
 			document.documentElement
 				.addEventListener('click', outsideClickHandler, true);
 			firstInteractive.focus();
-		} else {
+        } else {
+            listOfLanguages.setAttribute('hidden', true);
 			document.documentElement
 				.removeEventListener('keydown', escapeKeydownHandler, true);
 			document.documentElement
