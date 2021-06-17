@@ -1,0 +1,3 @@
+It is currently unclear whether you can still infect other people if you have been vaccinated or have recovered from an earlier corona infection. That's why you need to stick to the measures such as keeping a social distance of 1,5 meters, wearing a facemask, and washing your hands often. It is essential to keep CoronaMelder active on your phone. This way, you know earlier and faster whether you have been near someone who later turned out to have the coronavirus. And you can make sure you don't infect someone else unknowingly.
+
+Have you been sick with corona in the past 8 weeks and tested positive? And did you have clear corona-related symptoms at the time? Then you don't have to quarantine. But if you get new complaints, you should get tested.
