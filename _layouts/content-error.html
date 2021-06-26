@@ -3,15 +3,9 @@
 {%- if page.lang -%}
   {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
-
-
 <!DOCTYPE html>
 <html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
-<!--
-  This website is generated at {{ site.time }}.
-  The code is open source. You are welcome to contribute. Go to git: 
-  https://github.com/minvws/nl-covid19-notification-app-website
--->
+{% include open-source-comment.html %}
 {% include head.html %}
 <body>
   <div class="logobar" role="banner">
