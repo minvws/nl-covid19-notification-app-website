@@ -1,5 +1,5 @@
-Het is op dit moment niet duidelijk of je, als je al gevaccineerd bent of al corona hebt gehad, toch nog andere mensen kan besmetten. Daarom moet je je nog steeds houden aan de maatregelen zoals 1,5 meter afstand houden, een mondkapje dragen en vaak je handen wassen. Het is daarbij belangrijk dat je CoronaMelder op je telefoon laat staan. Zo weet je eerder en sneller of je bij iemand in de buurt bent geweest, die later corona bleek te hebben. Dan kun jij ervoor zorgen dat je zelf niet onbewust een ander besmet.
+Ja, het heeft zeker zin om CoronaMelder te downloaden en hem op je telefoon te laten staan. Want het coronavirus is er nog en met de CoronaMelder-app worden besmettingen sneller opgespoord en gestopt. 
 
-Ben je de afgelopen 8 weken ziek geweest door corona en positief getest? En had je toen duidelijke klachten? Dan hoef je niet in quarantaine. Alleen als je nieuwe klachten krijgt moet je je laten testen.
+Je moet je ook nog steeds houden aan de bekende maatregelen: 1,5 meter afstand houden en vaak je handen wassen. En het dragen van een mondkapje op plekken waar dat verplicht is. Bijvoorbeeld in het openbaar vervoer of in het vliegtuig. 
 
- 
+Bij sommige evenementen of locaties vervalt de maatregel van 1,5 meter afstand houden. Bijvoorbeeld bij een evenement waarbij alle bezoekers in de <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck-app</a> aantonen dat zij negatief getest zijn of al twee keer gevaccineerd.  

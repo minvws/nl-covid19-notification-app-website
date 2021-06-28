@@ -1,3 +1,5 @@
-It is currently unclear whether you can still infect other people if you have been vaccinated or have recovered from an earlier corona infection. That's why you need to stick to the measures such as keeping a social distance of 1,5 meters, wearing a facemask, and washing your hands often. It is essential to keep CoronaMelder active on your phone. This way, you know earlier and faster whether you have been near someone who later turned out to have the coronavirus. And you can make sure you don't infect someone else unknowingly.
+Yes, it certainly makes sense to download CoronaMelder and leave it on your phone. Because the coronavirus is still here, and infections are detected and stopped faster with the CoronaMelder app.
 
-Have you been sick with corona in the past 8 weeks and tested positive? And did you have clear corona-related symptoms at the time? Then you don't have to quarantine. But if you get new complaints, you should get tested.
+You still must stick to the well-known measures: keep a 1,5 meters distance and wash your hands often. And wear a mouth cap in places where it is mandatory. For example, in public transport or on an airplane.
+
+At some events or locations, the measure of 1,5 meters distance expires. For example, at an event where all visitors show in <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">the CoronaCheck app</a> that they have been tested negative or have already been vaccinated twice. 
