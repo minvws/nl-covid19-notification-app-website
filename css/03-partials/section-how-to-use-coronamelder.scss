@@ -1,186 +1,185 @@
 .stories {
-  margin: 1em auto;
-  max-width: 1100px;
-  color: #333;
+    margin: 1em auto;
+    max-width: 1100px;
+    color: #333;
 
-  @media (min-width: 740px) {
-    display: flex;
-    flex-direction: column;
-  }
+    @media (min-width: 740px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .stories__story {
-  padding: 0em 1.6em 2em;
-  
-  @media (min-width: 740px) {
-    padding: 2em 0.5em;
-    margin: 30px auto 22px auto;
-    padding: 0 54px;
-    display: flex;
-    flex-direction: column;
-  }
+    padding: 0em 1.6em 2em;
 
-  @media (min-width: 960px) {
-    padding: 0 146px;
-  }
+    @media (min-width: 740px) {
+        padding: 2em 0.5em;
+        margin: 30px auto 22px auto;
+        padding: 0 54px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (min-width: 960px) {
+        padding: 0 146px;
+    }
 }
 
 .stories__story {
-  margin: 16px 0;
-  padding-bottom: 16px;
- 
-  @media (min-width: 740px) {
     margin: 16px 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-  }
+    padding-bottom: 16px;
 
+    @media (min-width: 740px) {
+        margin: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
 }
 
 .stories__story-column-image {
-  margin-bottom: 1.0em;
+    margin-bottom: 1em;
 
-  @media (min-width: 740px) {
-    width: 50%;
-    margin-left: 1.5em;
-    text-align: right;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 0em;
+    @media (min-width: 740px) {
+        width: 50%;
+        margin-left: 1.5em;
+        text-align: right;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 0em;
 
-    html[dir="rtl"] & { 
-      margin-left: 0;
-      margin-right: 1.5em;
-      text-align: left;
+        html[dir="rtl"] & {
+            margin-left: 0;
+            margin-right: 1.5em;
+            text-align: left;
+        }
     }
-  }
 }
 
 .stories__story-column-content {
-  @media (min-width: 740px) {
-    width: 50%;
-    margin-right: 1.5em;
+    @media (min-width: 740px) {
+        width: 50%;
+        margin-right: 1.5em;
 
-    html[dir="rtl"] & { 
-      margin-right: 0;
-      margin-left: 1.5em;
+        html[dir="rtl"] & {
+            margin-right: 0;
+            margin-left: 1.5em;
+        }
     }
-  }
 }
 
 .stories__story:nth-child(2n) {
-  flex-direction: row;
-  
-  .stories__story-column-image {
-    @media (min-width: 740px) {
-      margin-right: 1.5em;
-      margin-left: 0;
-      text-align: left;
-      justify-content: flex-start;
+    flex-direction: row;
 
-      html[dir="rtl"] & { 
-        margin-right: 0;
-        margin-left: 1.5em;
-        text-align: right;
-      }
-    }
-  }
-  
-  .stories__story-column-content {
-    @media (min-width: 740px) {
-      margin-right: 0;
-      margin-left: 1.5em;
+    .stories__story-column-image {
+        @media (min-width: 740px) {
+            margin-right: 1.5em;
+            margin-left: 0;
+            text-align: left;
+            justify-content: flex-start;
 
-      html[dir="rtl"] & { 
-        margin-left: 0;
-        margin-right: 1.5em;
-      }
+            html[dir="rtl"] & {
+                margin-right: 0;
+                margin-left: 1.5em;
+                text-align: right;
+            }
+        }
     }
-  }
+
+    .stories__story-column-content {
+        @media (min-width: 740px) {
+            margin-right: 0;
+            margin-left: 1.5em;
+
+            html[dir="rtl"] & {
+                margin-left: 0;
+                margin-right: 1.5em;
+            }
+        }
+    }
 }
 
 .stories__story-image {
-  display: inline-block;
-  width: 100%;
+    display: inline-block;
+    width: 100%;
 
-  @media (min-width: 740px) {
-    max-width: 380px;
-  }
+    @media (min-width: 740px) {
+        max-width: 380px;
+    }
 }
 
 .stories__story-title__highlight {
-  color: $color-WARN_red;
-  font-size: 16px;
-  padding: 0.6em 0 0;
-  display: block;
-  
-  @media (min-width: 740px) {
-    padding: 0.8em 0;
-  }
+    color: $color-magenta; // #a31975
+    font-size: 16px;
+    padding: 0.6em 0 0;
+    display: block;
+
+    @media (min-width: 740px) {
+        padding: 0.8em 0;
+    }
 }
 
 .stories__story-title {
-  color: $color-RO_darkblue;
-  font-size: 24px;
-  padding: 0.1em 0 0.4em;
-  font-weight: 800;
-  display: block;
+    color: $color-RO_darkblue;
+    font-size: 24px;
+    padding: 0.1em 0 0.4em;
+    font-weight: 800;
+    display: block;
 
-  @media (min-width: 740px) {
-    font-size: 32px;
-  }
+    @media (min-width: 740px) {
+        font-size: 32px;
+    }
 }
 
 .stories__story-text {
-  line-height: 138%;
+    line-height: 138%;
 }
 
 .stories-image__animate {
-  -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.3s ease-in 0.3s 1 normal forwards;
-  
-  @media (prefers-reduced-motion) {
-    animation-duration: 0s;
-    animation-delay: 0s;
-  }
+    -webkit-animation-fill-mode: forwards;
+    animation: fadeInOpacity 0.3s ease-in 0.3s 1 normal forwards;
+
+    @media (prefers-reduced-motion) {
+        animation-duration: 0s;
+        animation-delay: 0s;
+    }
 }
 
 .stories-title-small__animate {
-  -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.2s ease-in 0.5s 1 normal forwards;
-  
-  @media (prefers-reduced-motion) {
-    animation-duration: 0s;
-    animation-delay: 0s;
-  }
+    -webkit-animation-fill-mode: forwards;
+    animation: fadeInOpacity 0.2s ease-in 0.5s 1 normal forwards;
+
+    @media (prefers-reduced-motion) {
+        animation-duration: 0s;
+        animation-delay: 0s;
+    }
 }
 
 .stories-title__animate {
-  -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.2s ease-in 0.7s 1 normal forwards;
-  
-  @media (prefers-reduced-motion) {
-    animation-duration: 0s;
-    animation-delay: 0s;
-  }
+    -webkit-animation-fill-mode: forwards;
+    animation: fadeInOpacity 0.2s ease-in 0.7s 1 normal forwards;
+
+    @media (prefers-reduced-motion) {
+        animation-duration: 0s;
+        animation-delay: 0s;
+    }
 }
 
 .stories-text__animate {
-  -webkit-animation-fill-mode: forwards;
-  animation: fadeInOpacity 0.2s ease-in 0.9s 1 normal forwards;
-  
-  @media (prefers-reduced-motion) {
-    animation-duration: 0s;
-    animation-delay: 0s;
-  }
+    -webkit-animation-fill-mode: forwards;
+    animation: fadeInOpacity 0.2s ease-in 0.9s 1 normal forwards;
+
+    @media (prefers-reduced-motion) {
+        animation-duration: 0s;
+        animation-delay: 0s;
+    }
 }
 
 @keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

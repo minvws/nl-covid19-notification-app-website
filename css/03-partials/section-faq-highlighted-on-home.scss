@@ -1,11 +1,10 @@
-
 .faq-homepage {
-    margin: 2em auto
+    margin: 2em auto;
 }
 
 @media (min-width: 740px) {
     .faq-homepage {
-        margin:4em auto
+        margin: 4em auto;
     }
 }
 
@@ -16,31 +15,31 @@
     margin-top: 14px;
     margin-bottom: 10px;
     color: #154273;
-    text-align: center
+    text-align: center;
 }
 
 @media (min-width: 740px) {
     .faq-homepage__title {
-        margin-top:80px;
-        margin-bottom: 20px
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
 }
 
 .faq-homepage__more {
     margin: 30px 0;
     text-align: center;
-    padding: 0 22px
+    padding: 0 22px;
 }
 
 @media (min-width: 740px) {
     .faq-homepage__more {
-        margin-top:20px 0
+        margin-top: 20px 0;
     }
 }
 
 @media (min-width: 960px) {
     .faq-homepage__more {
-        margin:40px 0
+        margin: 40px 0;
     }
 }
 
@@ -89,7 +88,7 @@
     min-height: 138px;
     border-radius: 5px;
     box-shadow: 0 2px 9px -2px rgba(0, 0, 0, 0.2);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     overflow: hidden;
 
     html.browser-ie-11 & {
@@ -97,15 +96,15 @@
     }
 
     &:hover {
-        background-color: #F5F5F5 /* lichtgrijs */;
+        background-color: #f5f5f5 /* lichtgrijs */;
     }
 
-    html[dir="rtl"] & { 
+    html[dir="rtl"] & {
         background-position: right 25px top 25px;
         background-size: 42px;
         box-shadow: 0 -2px 9px -2px rgba(0, 0, 0, 0.2);
     }
-        
+
     html.browser-ie-11[dir="rtl"] {
         box-shadow: 0 -2px 20px -2px rgba(0, 0, 0, 0.26);
     }
@@ -115,7 +114,7 @@
     flex: 1 1 auto;
     padding: 18px 20px 0 85px;
 
-    html[dir="rtl"] & { 
+    html[dir="rtl"] & {
         padding: 18px 85px 0 20px;
     }
 
@@ -141,14 +140,14 @@
     cursor: pointer;
     transition: var(--transition-in);
 
-    html[dir="rtl"] & { 
+    html[dir="rtl"] & {
         padding: 0.8em 85px 1em 0.5em;
         text-align: right;
     }
 
     &:after {
         // Make the whole .highlighted-faq-summary clickable
-        content: '';
+        content: "";
         position: absolute;
         display: block;
         top: 0;
@@ -176,14 +175,14 @@
     top: 23px;
     left: 23px;
 
-    html[dir="rtl"] & { 
+    html[dir="rtl"] & {
         right: 23px;
         left: auto;
     }
-    
+
     svg {
         max-width: 46px;
-        color: $color-WARN_red;
+        color: $color-magenta;
 
         .highlighted-faq__summary:hover & {
             color: $color-RO_darkblue--interaction;
