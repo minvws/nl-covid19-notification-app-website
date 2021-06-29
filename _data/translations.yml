@@ -419,7 +419,7 @@ english:
   tr: (ingilizce)
   
 info-lead: 
-  nl: '<p>Het vaccineren is in volle gang, maar het virus is er nog. Download de CoronaMelder-app, want daarmee worden besmettingen sneller opgespoord en gestopt. Op 27 juni hadden <strong>5.060.794</strong> mensen de app gedownload.</p>
+  nl: '<p>Het vaccineren is in volle gang, maar het virus is er nog. Download de CoronaMelder-app, want daarmee worden besmettingen sneller opgespoord en gestopt. Op 27 juni hadden <strong>5.071.222</strong> mensen de app gedownload.</p>
   <p><strong>Let op:</strong> Voor toegang tot bepaalde locaties of activiteiten heb je een coronabewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>.</p>'
   fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
@@ -445,9 +445,9 @@ info-lead-title:
   ro: Descărcați aplicația CoronaMelder
   tr: CoronaMelder uygulamasını indirin
   
-info-announcement: |
-  <p>Let op: Voor toegang tot bepaalde locaties of activiteiten heb je een coronatoegangsbewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>. Met CoronaCheck maak je jouw QR-code waarmee jij vanaf begin juli ook kan reizen binnen Europa.
-  Zie ook: <a href="/nl/faq/50-geeft-coronamelder-toegang-tot-evenementen-en-locaties/">Geeft CoronaMelder toegang tot evenementen en locaties?</a></p>
+# info-announcement: |
+#   <p>Let op: Voor toegang tot bepaalde locaties of activiteiten heb je een coronatoegangsbewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>. Met CoronaCheck maak je jouw QR-code waarmee jij vanaf begin juli ook kan reizen binnen Europa.
+#   Zie ook: <a href="/nl/faq/50-geeft-coronamelder-toegang-tot-evenementen-en-locaties/">Geeft CoronaMelder toegang tot evenementen en locaties?</a></p>
 
 info-caveat-fy: |
  De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net. Yn de oare talen kin yn de Appstore hjir de app wol delhelle wurde.
