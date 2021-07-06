@@ -16,17 +16,17 @@ head-social-og-title:
   tr: Yayılmayı önleyin, CoronaMelder'ı indirin
     
 head-social-og-description:
-  nl: Het coronavirus is er nog altijd. Dus is het belangrijk om juist nu alert te blijven. Daarom is CoronaMelder nu te gebruiken in heel Nederland.
-  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken.
+  nl: Het vaccineren is in volle gang, maar het virus is er nog. Download de CoronaMelder-app, want daarmee worden besmettingen sneller opgespoord en gestopt.
+  fy: It faksinearjen is yn folle gong, mar it firus is der noch. Download de CoronaMelder-app, want dêr wurde besmettingen flugger mei opspoard en in halt taroppen.
   en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
-  ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. متاحًا في هولندا كلها.CoronaMelder لذلك أصبح
-  bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
-  de: Das Coronavirus ist immer noch unter uns. Deshalb ist es wichtig, gerade jetzt wachsam zu bleiben. Deshalb ist CoronaMelder nun für die gesamten Niederlande verfügbar.
-  fr: Le coronavirus est toujours là. Il est donc important justement maintenant de rester vigilant. C’est pour cela que l’application CoronaMelder est disponible pour tous aux Pays-Bas.
-  es: El coronavirus sigue entre nosotros. En estos momentos es muy importante no bajar la guardia. Para eso tenemos la app CoronaMelder, disponible ya para todos los Países Bajos.
-  pl: Koronawirus wciąż się rozprzestrzenia. To ważne, aby właśnie teraz pozostać czujnym. Dlatego właśnie CoronaMelder jest teraz dostępny w całej Holandii.
-  ro: Coronavirus este încă activ. Deci, tocmai acum este important să fim alterți. De aceea, CoronaMelder este acum disponibilă pentru întreaga Olandă.
-  tr: Korona virüsü hala aramızda. Yani şu anda tetikte olmak önemlidir. Bu nedenle CoronaMelder artık tüm Hollanda için kullanılabilir durumda.
+  ar: التطعيم الآن على قدم وساق، إلا أن الفيروس لا يزال موجودًا. قم بتنزيل تطبيق CoronaMelder ، حيث يتم بذلك اكتشاف الإصابات ويتم إيقافها بشكل أسرع.
+  bg: Ваксинирането e в разгара си, но вирусът все още е тук. Свали приложението CoronaMelder, защото с него по-бързо се откриват и пресичат заразявания.
+  de: Die Impfung ist in vollem Gange, aber das Virus ist immer noch da. Laden Sie die CoronaMelder-App herunter, denn sie hilft, Infektionen schneller zu erkennen und zu stoppen.
+  fr: La vaccination bat son plein, mais le virus est encore là. Téléchargez l’application CoronaMelder car elle permet de dépister et de contenir plus rapidement les contaminations.
+  es: La vacunación está en plena marcha, pero el virus sigue entre nosotros. Descárgate la aplicación CoronaMelder, ya que con ella se pueden rastrear y detener los contagios más rápido.
+  pl: Szczepienia nabrały tempa, jednak wirus wciąż istnieje. Pobierz aplikację CoronaMelder, która pozwala na szybsze wykrywanie i zapobieganie zakażeniom.
+  ro: Vaccinarea este în plină desfășurare, dar virusul nu a dispărut încă. Descărcați aplicația CoronaMelder, pentru că aceasta ne ajută să depistăm și să oprim mai rapid infectările.
+  tr: Aşılama tüm hızıyla devam ediyor, fakat virüs hala mevcut. Enfeksiyonları daha hızlı tespit edip durdurduğu için CoronaMelder uygulamasını indirin.
  
 head-social-og-image-url: head-social-og-image--nl.png?v=3
     
@@ -421,16 +421,16 @@ english:
 info-lead: 
   nl: '<p>Het vaccineren is in volle gang, maar het virus is er nog. Download de CoronaMelder-app, want daarmee worden besmettingen sneller opgespoord en gestopt. Op 5 juli hadden <strong>5.120.908</strong> mensen de app gedownload.</p>
   <p><strong>Let op:</strong> Voor toegang tot bepaalde locaties of activiteiten heb je een coronabewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>.</p>'
-  fy: It koroanafirus is der noch altyd. Dus is it wichtich om krekt no wach te bliuwen. Dêrom is CoronaMelder no foar hiel Nederlân te brûken.
-  en: Coronavirus is still around and we need to stay alert, especially right now. The CoronaMelder app can help us all to do this and it is now available throughout the whole of the Netherlands.
-  ar: لا يزال فيروس كورونا موجودًا حتى يومنا هذا. من المهم إذًا أن تبقى يقظًا الآن. لذلك أصبح CoronaMelder متاحًا في هولندا كلها.
-  bg: Коронавирусът е все още тук. От особена важност сега е да запазиш бдителността си. Именно за тази цел приложението CoronaMelder вече е достъпно в цяла Нидерландия.
-  de: Das Coronavirus ist immer noch unter uns. Es ist wichtig, gerade jetzt wachsam zu bleiben. Deshalb ist CoronaMelder nun landesweit in den Niederlanden verfügbar.
-  es: El coronavirus sigue entre nosotros. En estos momentos es muy importante no bajar la guardia. Para eso tenemos la app CoronaMelder, disponible ya para todos los Países Bajos.
-  fr: Le coronavirus est toujours là. Il est donc important justement maintenant de rester vigilant. C’est pour cela que l’application CoronaMelder est disponible pour tous aux Pays-Bas.
-  pl: Koronawirus wciąż się rozprzestrzenia. To ważne, aby właśnie teraz pozostać czujnym. Dlatego właśnie CoronaMelder jest teraz dostępny w całej Holandii.
-  ro: Coronavirus este încă activ. Deci, tocmai acum este important să fim alterți. De aceea, CoronaMelder este acum disponibilă pentru întreaga Olandă.
-  tr: Korona virüsü hala aramızda. Yani şu anda tetikte olmak önemlidir. Bu nedenle CoronaMelder artık tüm Hollanda için kullanılabilir durumda.
+  fy: '<p>It faksinearjen is yn folle gong, mar it firus is der noch. Download de CoronaMelder-app, want dêr wurde besmettingen flugger mei opspoard en in halt taroppen.</p><p><strong>Tink derom:</strong> Foar tagong ta beskate lokaasjes of aktiviteiten hawwe jo in koroanabewiis nedich. Dêr bestiet in oare app foar: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer" hreflang="nl">CoronaCheck</a>.</p>'
+  en: '<p>More and more people are being vaccinated every day, but the virus is still around. Download the CoronaMelder app to help stop it from spreading.</p><p><strong>Remember:</strong> To access certain locations or events, you need to show that you do not have coronavirus. There is a different app for that: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer">CoronaCheck</a>.</p>'
+  ar: '<p>التطعيم الآن على قدم وساق، إلا أن الفيروس لا يزال موجودًا. قم بتنزيل تطبيق CoronaMelder ، حيث يتم بذلك اكتشاف الإصابات ويتم إيقافها بشكل أسرع.</p><p><strong>ملاحظة:</strong> أنت بحاجة إلى شهادة كورونا لتتمكن من الدخول إلى بعض الأماكن أو دخول أنشطة معينة. هناك تطبيق آخر لهذا الغرض: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  bg: '<p>Ваксинирането e в разгара си, но вирусът все още е тук. Свали приложението CoronaMelder, защото с него по-бързо се откриват и пресичат заразявания.</p><p><strong>Внимание:</strong> За достъп до определени места или дейности се нуждаеш от COVID сертификат. За целта има друго приложение:  <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  de: '<p>Die Impfung ist in vollem Gange, aber das Virus ist immer noch da. Laden Sie die CoronaMelder-App herunter, denn sie hilft, Infektionen schneller zu erkennen und zu stoppen.</p><p><strong>Bitte beachten Sie:</strong> Sie benötigen einen Corona-Beweis für den Zugang zu bestimmten Orten oder Aktivitäten. Hierfür gibt es eine weitere App: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  es: '<p>La vacunación está en plena marcha, pero el virus sigue entre nosotros. Descárgate la aplicación CoronaMelder, ya que con ella se pueden rastrear y detener los contagios más rápido.</p><p><strong>Atención:</strong> Para poder acceder a ciertos lugares y actividades, necesitas una prueba de entrada contra el coronavirus (coronabewijs). Para ello, existe otra aplicación: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  fr: '<p>La vaccination bat son plein, mais le virus est encore là. Téléchargez l’application CoronaMelder car elle permet de dépister et de contenir plus rapidement les contaminations.</p><p><strong>Attention :</strong> Pour avoir accès à certains lieux ou certaines activités, vous avez besoin d’une attestation Corona. Pour cela, il existe une autre application : <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  pl: '<p>Szczepienia nabrały tempa, jednak wirus wciąż istnieje. Pobierz aplikację CoronaMelder, która pozwala na szybsze wykrywanie i zapobieganie zakażeniom.</p><p><strong>Uwaga:</strong> Aby uzyskać dostęp do pewnych miejsc lub wydarzeń, niezbędny jest certyfikat covid. W tym celu powstała inna aplikacja: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  ro: '<p>Vaccinarea este în plină desfășurare, dar virusul nu a dispărut încă. Descărcați aplicația CoronaMelder, pentru că aceasta ne ajută să depistăm și să oprim mai rapid infectările.</p><p><strong>Atenție:</strong> pentru acces în anumite locații sau la anumite activități aveți nevoie de o dovadă referitoare la COVID. În acest scop este disponibilă o altă aplicație: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
+  tr: '<p>Aşılama tüm hızıyla devam ediyor, fakat virüs hala mevcut. Enfeksiyonları daha hızlı tespit edip durdurduğu için CoronaMelder uygulamasını indirin.</p><p><strong>Dikkat:</strong> Belirli yerlerde bulunmak veya etkinliklere katılmak için bir Korona kanıtına ihtiyacınız var. Bunun için başka bir uygulama daha mevcuttur: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
   
 info-lead-title:
   nl: Download de CoronaMelder-app
