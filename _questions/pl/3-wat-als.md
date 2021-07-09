@@ -11,11 +11,14 @@ featuredHomeText: Jeżeli z powiadomienia z aplikacji CoronaMelder wynika, że z
 ---
 Otrzymasz powiadomienie, jeśli znajdowałeś się w pobliżu osoby, u której wykryto koronawirusa. Nie wpadaj w panikę: nie wiadomo, czy Ty również jesteś zarażony. Byłeś narażony na szczególne ryzyko zarażenia: możliwe, że masz koronawirusa.
 
-Jeżeli z powiadomienia z aplikacji CoronaMelder wynika, że znajdowałeś się w pobliżu zarażonej osoby, możesz natychmiast wykonać test na obecność koronawirusa. Również, jeżeli (jeszcze) nie masz żadnych dolegliwości. Wszystkie związane z tym informacje znajdują się w powiadomieniu.
+Jeśli jesteś zakażony, możesz przekazywać wirusa innym. Jeśli otrzymałeś powiadomienie z aplikacji CoronaMelder informujące, że znajdowałeś się w pobliżu osoby zarażonej, pozostań w domu i wykonaj test po 5 dniach lub później. Również, gdy (jeszcze) nie masz żadnych dolegliwości. Wszystkie związane z tym informacje znajdują się w tekście powiadomienia.
+ 
+## Nie musisz wykonywać testu ani pozostawać w domu, jeśli:
 
-- Jeśli kontakt, którego dotyczy powiadomienie, miał miejsce w przeciągu ostatnich 5 dni, możesz od razu poddać się testowi na obecność koronawirusa. Jeśli otrzymasz pozytywny wynik, wspólnie z GGD możesz natychmiast podjąć odpowiednie środki.
-- Jeśli wynik pierwszego testu jest negatywny, wykonaj drugi test 5 dni od momentu kontaktu, o którym mowa w powiadomieniu (lub odrobinę później). Czasami może upłynąć kilka dni, zanim test pozwoli określić, czy dana osoba jest zarażona. Pozostań w domu do momentu, aż test da wynik negatywny.
-- Minęło 5 lub więcej dni od daty podanej w powiadomieniu? Wtedy konieczne jest wykonanie tylko jednego testu. 
-- Nie możesz poddać się testowi? Pozostań w domu 10 dni od daty podanej w powiadomieniu. Jeśli nie masz po tym okresie żadnych dolegliwości, możesz ponownie wychodzić z domu.
+- 14 dni temu lub wcześniej otrzymałeś wszystkie dawki szczepionki
+- przeszedłeś koronawirusa, a następnie otrzymałeś jedną dawkę szczepionki (ponad 14 dni temu)
+- przeszedłeś koronawirusa w przeciągu ostatnich 6 miesięcy
+
+Zwracaj jednak uwagę na swoje zdrowie. Pojawiają się dolegliwości? Pozostań w domu i natychmiast (ponownie) wykonaj test na koronawirusa.
 
 Zadzwoń pod numer [0800-1202](tel:+318001202) lub wejdź na stronę [www.coronatest.nl](https://www.coronatest.nl), aby zapytać o bezpłatny test na obecność koronawirusa.

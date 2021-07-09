@@ -11,11 +11,14 @@ featuredHomeText: Si d’une notification dans l’application CoronaMelder, il 
 ---
 Si vous recevez une notification, cela veut dire que vous avez été proche de quelqu’un qui s’avère par la suite avoir le coronavirus. Pas de panique : cela ne veut pas forcément dire que vous avez le coronavirus. Vous avez couru plus de risques d'être contaminé(e) : vous avez peut-être le coronavirus.
 
-Si d’une notification dans l’application CoronaMelder, il apparaît que vous avez été en contact avec une personne contaminée, vous pouvez immédiatement vous faire tester, même si vous n’avez pas (encore) de symptômes. Toutes les informations à ce sujet se trouvent dans la notification.
+Si vous êtes contaminé(e), vous pouvez également transmettre le virus à d’autres. Si d’une notification dans l’application CoronaMelder, il apparaît que vous avez été en contact avec une personne contaminée, restez chez vous et faites-vous tester après 5 jours. Même si vous n’avez pas (encore) de symptômes. La notification contient toutes les informations pour cela.
+ 
+## Vous ne devez pas vous faire tester ou rester chez vous si :
 
-- Si le jour du contact mentionné dans la notification date de moins de 5 jours, vous pouvez vous faire tester directement. S’il s’avère que vous êtes contaminé, vous pouvez vous concerter avec le GGD pour convenir des mesures à prendre.
-- Si ce premier test est négatif, vous ferez un second test 5 jours après la date du contact mentionnée dans la notification (ou peu après). En effet, il peut falloir quelques jours avant que le test ne puisse déterminer que quelqu’un est contaminé. Restez à la maison jusqu’à ce que le résultat de ce test indique que vous n'avez pas le coronavirus.
-- La date de la notification est-elle d’il y a 5 jours ou plus ? Dans ce cas, il ne faut faire qu’un seul test. 
-- Vous ne pouvez pas faire de test ? Dans ce cas, restez chez vous jusqu’à 10 jours inclus après la date mentionnée dans la notification. Après quoi, vous pouvez à nouveau sortir si vous n’avez pas de symptômes.
+- Vous avez été complètement vacciné il y a 14 jours ou plus
+- vous avez eu le Covid-19 et vous avez ensuite été vacciné une fois (il y a plus de 14 jours)
+- vous avez eu le Covid-19 il y a moins de 6 mois
+
+Soyez toujours bien attentif/attentive à votre état de santé. Vous avez des symptômes ? Dans ce cas, restez chez vous et faites-vous (encore une fois) tester immédiatement.
 
 Appelez le [0800-1202](tel:+318001202) ou rendez-vous sur [www.coronatest.nl](https://www.coronatest.nl) pour demander à faire un test de dépistage gratuit.

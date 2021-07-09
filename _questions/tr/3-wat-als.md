@@ -11,11 +11,14 @@ featuredHomeText: CoronaMelder uygulamasındaki bir bildirim enfekte olan bir ki
 ---
 Bir bildirim alırsanız, sonradan Korona olduğu anlaşılan birinin yakınında bulunduğunuz anlamına gelir. Böyle bir durumda paniğe kapılmayın: sizde Korona olduğu kesin değildir. Hastalığın bulaşma ihtimali daha da artmıştır: belki Korona’ya yakalanmış olabilirsiniz. 
 
-CoronaMelder uygulamasındaki bir bildirim enfekte olan bir kişinin yakınında bulunduğunuzu gösterirse, (henüz) herhangi bir şikayetiniz olmasa bile kendinizi hemen test ettirebilirsiniz. Bunun için gerekli olan tüm bilgiler bildirim metninde yer almaktadır. 
+Size virüs bulaşmışsa, siz de virüsü başkalarına bulaştırabilirsiniz. CoronaMelder uygulamasındaki bir bildirim, enfekte bir kişinin yakınında bulunmuş olduğunuzu gösteriyorsa, evde kalın ve 5 gün içinde veya sonrasında test yaptırın. (Henüz) şikayetleriniz olmasa bile. Konuyla ilgili tüm bilgiler bildirim metninde yer almaktadır.
 
-- Bildirimde yer alan temas tarihi 5 günden az ise hemen test yaptırabilirsiniz. Enfekte olduğunuz ortaya çıkarsa, GGD ile birlikte hemen önlem alabilirsiniz. 
-- Bu ilk testin sonucu negatif ise, bildirimdeki temas tarihinden 5 gün sonra (veya kısa bir süre sonra) ikinci bir test yaptıracaksınız. Testin birine virüs bulaşıp bulaşmadığını ölçebilmesi bazen birkaç gün sürebilir. Bu testten sizde Korona olmadığı anlaşılana kadar evde kalın. 
-- Bildirimdeki tarih 5 gün veya daha önce miydi? O zaman sadece bir test gerekir. 
-- Test yaptıramıyor musunuz? O zaman bildirimdeki tarihten sonraki 10 gün boyunca evde kalın. Sonrasında herhangi bir şikayetiniz yoksa tekrar dışarı çıkabilirsiniz. 
+## Aşağıdaki durumlarda test yapmanıza ve evde kalmanıza gerek yoktur:
+
+- 14 gün veya daha uzun süre öncesi tamamen aşılanmış olanlar
+- Korona geçirmiş ve daha sonra bir kez aşılanmış olanlar (14 günden daha uzun süre öncesi)
+- 6 aydan daha kısa bir süre önce Korona geçirenler
+
+Sağlığınıza dikkat etmeye devam edin. Şikayetleriniz mi oldu? O halde evde kalın ve hemen kendinizi (tekrar) test ettirin.
 
 Ücretsiz bir Korona testi talep etmek için [0800-1202](tel:+318001202)'yi arayın veya [www.coronatest.nl](https://www.coronatest.nl) adresine gidin.
