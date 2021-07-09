@@ -18,11 +18,13 @@
         <img src="{{ site.baseurl }}/img/{{site.data.translations.info-google-play-img[page.lang] }}" alt="{{ site.data.translations.header-googleplaystore[page.lang] }}" height="65" width="216" />
       </a>
     </li>
-    <li class="app_badge_column__right {% if include.huawei != 'true' %}huawei-only-show-mobile{% endif %}">
-      <a class="huawei-store" href="{{ site.data.translations.info-huawei-url }}">
-        <img src="{{ site.baseurl }}/img/{{site.data.translations.info-huawei-img[page.lang]  }}" alt="{{ site.data.translations.header-huaweiappgallery[page.lang] }}" height="65" width="216" />
-      </a>
-    </li>
+    {% comment %}
+        <li class="app_badge_column__right {% if include.huawei != 'true' %}huawei-only-show-mobile{% endif %}">
+        <a class="huawei-store" href="{{ site.data.translations.info-huawei-url }}">
+            <img src="{{ site.baseurl }}/img/{{site.data.translations.info-huawei-img[page.lang]  }}" alt="{{ site.data.translations.header-huaweiappgallery[page.lang] }}" height="65" width="216" />
+        </a>
+        </li>
+    {% endcomment %}
   </ul>
   {% if page.lang == 'fy' %}
   <p class="badges__caveat">

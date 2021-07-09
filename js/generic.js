@@ -13,9 +13,9 @@
       htmlEl.setAttribute('class', htmlEl.getAttribute('class') + ' google-play-store');
 
       // Some Huawei devices do not support Google Play Store
-      if (userAgent.indexOf('huawei') > -1) {
-        htmlEl.setAttribute('class', htmlEl.getAttribute('class') + ' huawei-app-gallery');
-      }
+        //   if (userAgent.indexOf('huawei') > -1) {
+        //     htmlEl.setAttribute('class', htmlEl.getAttribute('class') + ' huawei-app-gallery');
+        //   }
     }
 
     if (userAgent.indexOf('iphone') > -1) {
