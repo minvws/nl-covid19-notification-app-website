@@ -6,7 +6,11 @@ Information is also available on a  daily basis about, among other things, the n
 
 <a href="/media/Factsheet_Corona_latest.pdf" rel="noopener noreferrer" target="_blank">Factsheet CoronaMelder (PDF in Dutch, 171kb)</a>
 
-On March 23, 2021, the aforementioned scientists and institutes, led by Prof. Dr. Wolfgang Ebbers, published new evaluations:
+Op 28 mei 2021 publiceerden voorgenoemde wetenschappers en instituten,  onder leiding van prof. dr. Wolfgang Ebbers, een overzicht van de  verschillende onderzoeken:
+
+<a href="/media/Evaluatie_CoronaMelder_na_9_maanden_english.pdf" rel="noopener noreferrer" target="_blank">Evaluation CoronaMelder: an overview after 9 months (PDF, 3.6MB)</a>
+
+Previously published studies can be downloaded here:
 
 - <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/03/23/eindrapportage-evaluatie-coronamelder-eur-23-maart-2021" rel="noopener noreferrer" target="_blank">Final report of the evaluation of CoronaMelder app reports of a risk of contamination (PDF in Dutch)</a>
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Final report CoronaMelder  Evaluation Survey LISS panel (PDF in Dutch)</a>
