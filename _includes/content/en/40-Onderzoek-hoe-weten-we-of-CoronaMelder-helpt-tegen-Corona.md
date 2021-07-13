@@ -6,7 +6,7 @@ Information is also available on a  daily basis about, among other things, the n
 
 <a href="/media/Factsheet_Corona_latest.pdf" rel="noopener noreferrer" target="_blank">Factsheet CoronaMelder (PDF in Dutch, 171kb)</a>
 
-Op 28 mei 2021 publiceerden voorgenoemde wetenschappers en instituten,  onder leiding van prof. dr. Wolfgang Ebbers, een overzicht van de  verschillende onderzoeken:
+On May 28, 2021, the aforementioned scientists and institutes, led by Prof. Dr. Wolfgang Ebbers, published an overview of the various studies:
 
 <a href="/media/Evaluatie_CoronaMelder_na_9_maanden_english.pdf" rel="noopener noreferrer" target="_blank">Evaluation CoronaMelder: an overview after 9 months (PDF, 3.6MB)</a>
 
