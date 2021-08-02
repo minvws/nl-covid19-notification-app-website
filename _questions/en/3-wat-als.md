@@ -9,7 +9,7 @@ featuredHomeIndex: 2
 featuredHomeIcon: mobile-check
 featuredHomeText: If the notification in the CoronaMelder app shows that you have been close to an infected person, you can arrange to have a coronavirus test immediately, even if you have no symptoms yet.
 ---
-If you receive an notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
+If you receive a notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
 
 If you have caught the virus, you could pass it on to other people. Therefore, if you get a notification from the CoronaMelder, you should stay at home and get tested after five days. You should do this even if you have no symptoms (yet). All the information you need will be included in the notification.
 

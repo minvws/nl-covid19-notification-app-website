@@ -2,7 +2,7 @@ Design principles
 -----------------
 
 * Design principle 1: Clarity and usability over eye candy
-* Design principle 2: Test the results on the target group, guerilla testing in the supermarket, etc. 
+* Design principle 2: Test the results on the target group, guerrilla testing in the supermarket, etc. 
 * Design principle 3: Mobile first
 * Design principle 4: Usable for anyone (so: simply formulated in B1 language level, tested on users, etc.)
 * Design principle 5: Conform to the design principles of[  ](https://www.gebruikercentraal.nl/)[Gebruiker](https://www.gebruikercentraal.nl/)[  ](https://www.gebruikercentraal.nl/)[Centraal](https://www.gebruikercentraal.nl/).
@@ -26,7 +26,7 @@ Features, requirements and standards
 * Requirement 9: **Open research, build and design process**. It should be easy for people to suggest improvements to the website, as this will improve the quality significantly (see: preamble). Also, this will help us in giving more ownership of the app among the people in The Netherlands, hopefully aiding adoption. Among others, we hope to involve: 
   * The designers and UX researchers of the app itself, who have learnt a lot about the concerns and desires of users via their extensive UX research and testing. This will also bring the look and feel of the website and the app closer together. 
   * The coders and designers of the Code for NL community, that can help improve accessibility, multilingual challenges, etc. 
-  * The UX researchers of the Code for NL community, that have gained insight into the main concerns of potential users via questionaires:
-   * [Een app om grip te krijgen op Corona, hoe zie jij dat - results of this questionaire](https://nl.surveymonkey.com/results/SM-QYKBMWPF7/)
+  * The UX researchers of the Code for NL community, that have gained insight into the main concerns of potential users via questionnaires:
+   * [Een app om grip te krijgen op Corona, hoe zie jij dat - results of this questionnaire](https://nl.surveymonkey.com/results/SM-QYKBMWPF7/)
 
 The hosting requirements are defined elsewhere.

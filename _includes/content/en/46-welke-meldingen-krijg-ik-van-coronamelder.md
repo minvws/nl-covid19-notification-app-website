@@ -29,7 +29,7 @@ If you see this notification, you know that a newer version of CoronaMelder has 
 
 ![A telephone notification with the text: Technical problem. In the past 24 hours, the app has not been able to check whether the people you were near have tested positive for coronavirus.](/media/beeldmateriaal/exposure-vanuit-coronamelder/CM_7.png)
 
-This notification indicates that there has been a technical problem with the app. CoronaMelder has been unable to download information about new infections. This could be because your WiFi is not working properly, or because CoronaMelder is not allowed to use mobile data. Open the CoronaMelder app for further instructions. Also see: [I use an Android phone. Why do my location settings need to be switched on?](/{{page.lang}}/faq/14-locatie-instellingen-android/).
+This notification indicates that there has been a technical problem with the app. CoronaMelder has been unable to download information about new infections. This could be because your Wi-Fi is not working properly, or because CoronaMelder is not allowed to use mobile data. Open the CoronaMelder app for further instructions. Also see: [I use an Android phone. Why do my location settings need to be switched on?](/{{page.lang}}/faq/14-locatie-instellingen-android/).
 
 
 ### 3. Notification after a break

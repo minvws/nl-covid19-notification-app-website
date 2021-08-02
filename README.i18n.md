@@ -12,7 +12,7 @@ language (nl) at top-level. Contents in features collection are identified by a 
 which will allow you to filter for a language key in the collection.
 
 ## Data dir
-The `_data` directory holds files for translation (usefull in layouts) and language metadata.
+The `_data` directory holds files for translation (useful in layouts) and language metadata.
 
 ## To test:
 

@@ -1,8 +1,8 @@
-Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?If you have been near someone who later tests positive for coronavirus, and that person adds their positive status to the app, you will be sent an notification via the app.
+Have you been near someone who later tests positive for coronavirus? And does this person add their positive status to the app?If you have been near someone who later tests positive for coronavirus, and that person adds their positive status to the app, you will be sent a notification via the app.
 
-If you receive an notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
+If you receive a notification, it means you have been near someone who has later tested positive for coronavirus. Don’t panic: this doesn’t mean for sure that you have coronavirus too. It means you have been in a high-risk situation: you could have been infected with coronavirus.
 
-If you have been near someone who later tests positive for coronavirus, you will be sent an notification and you can arrange a test straight away. All the information you need to do this, is included in the notification message.
+If you have been near someone who later tests positive for coronavirus, you will be sent a notification and you can arrange a test straight away. All the information you need to do this, is included in the notification message.
 
 - If the date of the contact in the notification is less than 5 days ago, you can get tested straight away. If your test result is positive, you can take immediate steps together with the GGD.
 - If this first test is negative, you will have a second test 5 days after the date of the contact in the notification message (or shortly after that). It can sometimes take a few days before a coronavirus test can detect whether someone has been infected. Stay at home until the second test shows that you do not have coronavirus.
@@ -14,7 +14,7 @@ If you have been near someone who later tests positive for coronavirus, you will
 What happens if you test positive for coronavirus?
 
 - The GGD will ask you who you have been near to, and the GGD will call those people.
-- You can add your coronavirus status to the app with the help of the GGD. If a GGD employee calls you with the test results, they will also ask if you want to add this information to the app. If you choose to do this, the CoronaMelder app will send an notification to everyone who you has been near you and who may have been infected.
+- You can add your coronavirus status to the app with the help of the GGD. If a GGD employee calls you with the test results, they will also ask if you want to add this information to the app. If you choose to do this, the CoronaMelder app will send a notification to everyone who have been near you and who may have been infected.
 - That includes people you know, but also people you don’t know: people who otherwise would not have known they were at risk. This is how the app helps the contact tracing work being done by the GGD.
 - These people can thus avoid infecting other people, even before they have any symptoms. They can decide to stay at home, for example.
 - The notification only lets people know that they have been close to somebody who has tested positive, and on which day. It does not tell them who that person was, or where they were at the time.

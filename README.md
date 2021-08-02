@@ -45,10 +45,10 @@ After the app is finished:
 ## Design principles
 
 * Design principle 1: Clarity and usability over eye candy
-* Design principle 2: Test the results on the target group, guerilla testing in the supermarket, etc. 
+* Design principle 2: Test the results on the target group, guerrilla testing in the supermarket, etc. 
 * Design principle 3: Mobile first
 * Design principle 4: Usable for anyone (so: simply formulated in B1 language level, tested on users, etc.)
-* Design principle 5: Confirm to the design principles of[  ](https://www.gebruikercentraal.nl/)[Gebruiker](https://www.gebruikercentraal.nl/)[  ](https://www.gebruikercentraal.nl/)[Centraal](https://www.gebruikercentraal.nl/).
+* Design principle 5: Confirm to the design principles of [Gebruiker Centraal](https://www.gebruikercentraal.nl/).
 * Design principle 6: The website 'feels' just like the app itself (tone of voice ("je", not "u"), graphics, interaction patterns, UX design, use, etc.)
 
 
@@ -69,14 +69,14 @@ After the app is finished:
 * Requirement 9: **Open research, build and design process**. It should be easy for people to suggest improvements to the website, as this will improve the quality significantly (see: preamble). Also, this will help us in giving more ownership of the app among the people in The Netherlands, hopefully aiding adoption. Among others, we hope to involve: 
   * The designers and UX researchers of the app itself, who have learnt a lot about the concerns and desires of users via their extensive UX research and testing. This will also bring the look and feel of the website and the app closer together. 
   * The coders and designers of the Code for NL community, that can help improve accessibility, multilingual challenges, etc. 
-  * The UX researchers of the Code for NL community, that have gained insight into the main concerns of potential users via questionaire (in Dutch) 'Een app om grip te krijgen op Corona, hoe zie jij dat?': [Results summary (in Dutch)](https://www.dropbox.com/s/kmeomop89hd9kkl/Resultaten%20-%20Enqu%C3%AAte%20-Een%20app%20om%20grip%20te%20krijgen%20op%20Corona%20-%20Hoe%20zie%20jij%20dat_.pdf?dl=0) or [View all the answers (in Dutch)](https://nl.surveymonkey.com/results/SM-QYKBMWPF7/)
+  * The UX researchers of the Code for NL community, that have gained insight into the main concerns of potential users via questionnaire (in Dutch) 'Een app om grip te krijgen op Corona, hoe zie jij dat?': [Results summary (in Dutch)](https://www.dropbox.com/s/kmeomop89hd9kkl/Resultaten%20-%20Enqu%C3%AAte%20-Een%20app%20om%20grip%20te%20krijgen%20op%20Corona%20-%20Hoe%20zie%20jij%20dat_.pdf?dl=0) or [View all the answers (in Dutch)](https://nl.surveymonkey.com/results/SM-QYKBMWPF7/)
 
 The hosting requirements are defined elsewhere.
 
 
 ## How this website came about (pinging journalists) 
 
-There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via Github and Slack) from the traffic dashboard to what is now the project website-to-be. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)). 
+There is a nice story to be told about how the website was created. It all started with a high-level traffic light dashboard idea to indicate the status of the project. This idea was adopted by the community, that let this project evolve (via GitHub and Slack) from the traffic dashboard to what is now the project website-to-be. The whole process can be followed via [Channel notificatie-app-website](https://app.slack.com/client/T68FXPFQV/C0151NCG140) ([join Slack workspace here](https://doemee.codefor.nl/)). 
 Please ping any of the people involved via Slack if you are interested in writing an article about this.
 
 
@@ -84,12 +84,12 @@ Please ping any of the people involved via Slack if you are interested in writin
 
 The design and development of the website started as a volunteering project [in the community](https://minvws.github.io/nl-covid19-notification-app-community-website/). The Ministry of Health, Welfare and Sport has built the current website on the foundation created by community members.
 
-Do you want to get in touch with the people involved in designing and building the website? Join the [CodeForNL Slack](https://doemee.codefor.nl/) and go to the `#coronamelder-website` channel. Although the primary language used on the channel is Dutch you should feel free to join the conversation in English.
+Do you want to get in touch with the people involved in designing and building the website? Join the [CodeForNL Slack](https://doemee.codefor.nl/) and go to the `#coronamelder-website` channel. Although the primary language used on the channel is Dutch, you should feel free to join the conversation in English.
 
 
 ## Honorable mentions and gratitude 
 
-Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van Putten (helped out with Github issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw, Joost Soeterbroek. 
+Shout out to all volunteers that helped out, among which: Harrie Kuipers (project lead), Paul Wagener (initial HTML implementation), Benjamin W. Broersma (tech lead, HTML implementation of the version 0.6 design, translatable templates via markdown), Anouschka Scholten (UX research questionnaire among 500+ people), Arian van Putten (helped out with GitHub issues and useful comments) and Bart Lenstra (designs in Figma). Also involved were Laura Engelshove, Cas Zeegers, Nelleke Harmse, Ruben Vandenbussche, Ruben Ahuluheluw, Joost Soeterbroek. 
 
 Harrie, Bart, Cas and Laura have later been asked to finish the project on a paid basis. 
 
