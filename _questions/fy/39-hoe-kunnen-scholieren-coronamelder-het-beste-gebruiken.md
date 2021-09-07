@@ -3,6 +3,7 @@ index: 3
 set: 3
 title: Hoe kunnen scholieren CoronaMelder het beste gebruiken?
 contentLang: nl
+published: false
 ---
 Scholieren moeten onderling anderhalve meter afstand houden. In de klas leggen scholieren hun mobiele telefoon vaak in een kluisje of een andere verzamelplek tijdens de les. In die gevallen adviseren wij de pauzefunctie van CoronaMelder te gebruiken.
 

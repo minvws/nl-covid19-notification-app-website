@@ -20,7 +20,7 @@ CoronaMelder werkt alleen in samenwerking met de Nederlandse GGD en met Nederlan
 
 De verbinding tussen de back-end van de CoronaMelder en de EFGS werd mede mogelijk gemaakt door de Europese Commissie.
 
-[Meer informatie over testen in het buitenland vind je hier.](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-in-het-buitenland)
+[Meer informatie over testen in het buitenland vind je hier.](https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland)
 
 [Meer informatie over testen als buitenlandse bezoeker aan Nederland vind je hier.](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-op-vakantie-in-nederland)
 
