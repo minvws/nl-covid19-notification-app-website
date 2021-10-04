@@ -11,7 +11,7 @@ summary: The app sends you a notification if you have been around someone who la
 
 ---
 
-**The app sends you an notification if for a certain amount of time, you have been near someone who has tested positive for coronavirus. The notification can help you avoid passing the virus on to other people without knowing it.** 
+**The app sends you a notification if for a certain amount of time, you have been near someone who has tested positive for coronavirus. The notification can help you avoid passing the virus on to other people without knowing it.** 
 
 <div class="md-timeline" markdown="1">
 
@@ -27,7 +27,7 @@ summary: The app sends you a notification if you have been around someone who la
    <summary>My coronavirus test is positive. What happens now?</summary>
    <div markdown="1">
 
-If you have tested positive for coronavirus, you can choose to add this information to the app, with the help of the GGD. If a GGD employee calls you with the test results, they will also ask if you want to warn other people using the app. Recipients of such an notification will not be able to see who you are or where you were near each other. You can decide whether these notifications are sent: it is not compulsory and it is not automatic.
+If you have tested positive for coronavirus, you can choose to add this information to the app, with the help of the GGD. If a GGD employee calls you with the test results, they will also ask if you want to warn other people using the app. Recipients of such a notification will not be able to see who you are or where you were near each other. You can decide whether these notifications are sent: it is not compulsory and it is not automatic.
 
 </div>
 </details>
@@ -38,7 +38,7 @@ If you have tested positive for coronavirus, you can choose to add this informat
 
 The notification will say how many days ago you were near somebody who has later tested positive for coronavirus. The notification does not say who that person was, and it does not say where or exactly when you were near them.
 
-- You can arrange for a test immediately after you receive an notification, even if you have no symptoms. The notification message from CoronaMelder will include all the information you need about how and when to do this.
+- You can arrange for a test immediately after you receive a notification, even if you have no symptoms. The notification message from CoronaMelder will include all the information you need about how and when to do this.
 - If you have serious symptoms, or if you are part of a high-risk group, you should call your doctor. 
 
 </div>

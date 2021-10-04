@@ -16,7 +16,7 @@ By using the Liquid templating language, content can be stored in Markdown.
 ### How to test GitHub Pages locally
 
 To build Jekyll, you could [install Jekyll locally](https://jekyllrb.com/docs/installation/) or probably the easier route: use a Docker image.
-To use a Docker image you should have Docker engine installed, see [how to install Docker enginge](https://docs.docker.com/engine/install/).
+To use a Docker image you should have Docker engine installed, see [how to install Docker engine](https://docs.docker.com/engine/install/).
 
 [`starefossen/github-pages`](https://hub.docker.com/r/starefossen/github-pages) is a small Alpine Docker image for running GitHub Pages / Jekyll projects locally.
 You only need to mount the pages in a volume under `/usr/src/app` like this:
