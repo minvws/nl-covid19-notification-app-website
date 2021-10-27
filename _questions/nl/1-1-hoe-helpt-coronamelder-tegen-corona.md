@@ -11,9 +11,19 @@ featuredHomeIndex: 1
 featuredHomeIcon: heart
 featuredHomeText: Met CoronaMelder weet je eerder of je meer kans hebt op besmetting.
 ---
-Nog voordat je je ziek voelt, kun je corona doorgeven aan een ander. Hoe sneller bekend is of iemand corona heeft, hoe beter besmettingen voorkomen kunnen worden. CoronaMelder helpt hierbij.
+CoronaMelder helpt de GGD bij het bron- en contactonderzoek. De app waarschuwt je dat je misschien besmet bent. Zodat je kan voorkomen dat je het virus onbewust op anderen overdraagt.
+ 
+Ben je in de buurt geweest van iemand die corona blijkt te hebben? En laat diegene via CoronaMelder weten dat hij of zij besmet is? Dan krijg je daarna een melding in de app. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt wel meer kans op besmetting.
+ 
+In de melding die je in de app krijgt, staat precies wat je moet doen. Lees ook: [Wat moet ik doen als ik een melding krijg?](/nl/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
+ 
+CoronaMelder werkt samen met corona-apps van andere EU-landen. Zo worden bijvoorbeeld mensen in de grensregio’s van Nederland gewaarschuwd. Of mensen uit andere landen die in Nederland wonen, werken, vakantie vieren of winkelen.
 
+## Lees ook:
+
+- [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen)
+- [Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?](/nl/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+ 
+<!-- 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-22-video-hoe-werkt-het" width="100%" height="394"  videoLang="nl" %}
-
-{% include content/2-hoe-helpt-coronamelder-tegen-corona.md %}
+{% include components/mediaelement.html key="2020-10-22-video-hoe-werkt-het" width="100%" height="394"  videoLang="nl" %} -->

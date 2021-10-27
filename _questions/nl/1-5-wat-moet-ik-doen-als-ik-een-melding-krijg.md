@@ -3,7 +3,6 @@ set: 1
 index: 5
 title: Wat moet ik doen als ik een melding krijg?
 icon: mobile-check
-summary: Als uit een melding in de CoronaMelder-app blijkt dat je in de buurt bent geweest van een besmette persoon, kun je je direct laten testen, ook als je (nog) geen klachten hebt.
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
@@ -12,16 +11,10 @@ featuredHomeText: Als uit een melding in de CoronaMelder-app blijkt dat je in de
 redirect_from: 
   - /nl/faq/3-wat-als
 ---
-Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij dan ook corona hebt. Je hebt extra kans gelopen op besmetting: misschien heb je corona.
-
-Als je besmet bent, kun je het virus ook aan anderen doorgeven. Als uit een melding in de CoronaMelder-app blijkt dat je in de buurt bent geweest van een besmette persoon, blijf dan thuis en laat je op of na 5 dagen testen. Ook als je (nog) geen klachten hebt. Alle informatie daarvoor staat in de tekst van de melding.
-
-## Je hoeft niet te testen en thuis te blijven als je:
-
-- 14 dagen of langer geleden helemaal gevaccineerd bent
-- corona hebt gehad en daarna één keer gevaccineerd bent (meer dan 14 dagen geleden)
-- minder dan 6 maanden geleden corona hebt gehad
-
-Blijf wel goed op je gezondheid letten. Krijg je klachten? Blijf dan thuis en laat je meteen (opnieuw) testen.
+Als je een melding krijgt, ben je dicht bij iemand geweest die later corona bleek te hebben. Raak dan niet in paniek: het is niet zeker dat jij corona hebt. Je hebt wel kans op een besmetting. Dus misschien heb je corona.
  
-Bel [0800-1202](tel:+318001202) of ga naar [coronatest.nl](https://www.coronatest.nl) om een gratis coronatest aan te vragen.
+Als je besmet bent, kun je het virus aan anderen doorgeven. Ook als je gevaccineerd bent. In de melding die je in de CoronaMelder-app krijgt, staat precies wat je moet doen.
+
+## Lees ook:
+- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/nl/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [Wanneer krijg ik een melding?](/nl/faq/1-3-wanneer-krijg-ik-een-melding)
