@@ -304,8 +304,8 @@ faq:
   tr: Bütün sık sorulan sorular
   
 faq-category-howtheapphelps:
-  nl: Hoe de app helpt tegen corona
-  fy: Hoe de app helpt tegen corona
+  nl: Hoe werkt CoronaMelder?
+  fy: Hoe werkt CoronaMelder?
   en: How the app helps to stop the spread of coronavirus
   ar: How the app helps to stop the spread of coronavirus 
   bg: How the app helps to stop the spread of coronavirus 
@@ -317,8 +317,8 @@ faq-category-howtheapphelps:
   tr: How the app helps to stop the spread of coronavirus 
   
 faq-category-howtheappworks:
-  nl: Werking van de app
-  fy: Werking van de app
+  nl: Techniek, privacy en veiligheid
+  fy: Techniek, privacy en veiligheid
   en: How the app works  
   ar: How the app works 
   bg: How the app works 
@@ -330,8 +330,8 @@ faq-category-howtheappworks:
   tr: How the app works 
   
 faq-category-dailyLife:
-  nl: CoronaMelder in het dagelijks leven
-  fy: CoronaMelder in het dagelijks leven
+  nl: Effectiviteit en onderzoek
+  fy: Effectiviteit en onderzoek
   en: CoronaMelder in everyday life
   ar: CoronaMelder in everyday life
   bg: CoronaMelder in everyday life
@@ -343,8 +343,8 @@ faq-category-dailyLife:
   tr: CoronaMelder in everyday life 
 
 faq-category-privacy:
-  nl: Privacy, vrijwilligheid en misbruik 
-  fy: Privacy, vrijwilligheid en misbruik 
+  nl: Bekendheid van de CoronaMelder-app 
+  fy: Bekendheid van de CoronaMelder-app 
   en: Privacy, voluntariness and abuse
   ar: Privacy, voluntariness and abuse
   bg: Privacy, voluntariness and abuse
@@ -419,9 +419,10 @@ english:
   tr: (ingilizce)
   
 info-lead: 
-  nl: '<p>Het vaccineren is in volle gang, maar het virus is er nog. Download de CoronaMelder-app, want daarmee worden besmettingen sneller opgespoord en gestopt. Op 24 oktober hadden <strong>5.430.572</strong> mensen de app gedownload. Lees meer over de <a href="/nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona/">onderzoeksresultaten van CoronaMelder</a>.
+  nl: '<p>Download de CoronaMelder-app, want daarmee worden besmettingen sneller opgespoord en gestopt. Ook als je gevaccineerd bent. Inmiddels hebben meer dan 201.000 besmette personen anderen met CoronaMelder gewaarschuwd. Hierdoor kon verdere verspreiding worden voorkomen.</p>
+  <p>De app is bewezen effectief. Lees meer over de <a href="/nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona/">onderzoeksresultaten van CoronaMelder</a>.
   </p>
-  <p><strong>Let op:</strong> Voor toegang tot bepaalde locaties of activiteiten heb je een coronabewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>.</p>'
+  <p><strong>Let op:</strong> Wil je een coronabewijs maken? Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>.</p>'
   fy: '<p>It faksinearjen is yn folle gong, mar it firus is der noch. Download de CoronaMelder-app, want dêr wurde besmettingen flugger mei opspoard en in halt taroppen.</p><p><strong>Tink derom:</strong> Foar tagong ta beskate lokaasjes of aktiviteiten hawwe jo in koroanabewiis nedich. Dêr bestiet in oare app foar: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer" hreflang="nl">CoronaCheck</a>.</p>'
   en: '<p>More and more people are being vaccinated every day, but the virus is still around. Download the CoronaMelder app to help stop it from spreading.</p><p><strong>Remember:</strong> To access certain locations or events, you need to show that you do not have coronavirus. There is a different app for that: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer">CoronaCheck</a>.</p>'
   ar: '<p>التطعيم الآن على قدم وساق، إلا أن الفيروس لا يزال موجودًا. قم بتنزيل تطبيق CoronaMelder ، حيث يتم بذلك اكتشاف الإصابات ويتم إيقافها بشكل أسرع.</p><p><strong>ملاحظة:</strong> أنت بحاجة إلى شهادة كورونا لتتمكن من الدخول إلى بعض الأماكن أو دخول أنشطة معينة. هناك تطبيق آخر لهذا الغرض: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer" hreflang="en">CoronaCheck</a>.</p>'
