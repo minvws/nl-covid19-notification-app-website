@@ -5,7 +5,7 @@ showBreadCrumbs: true
 showContact: true
 title: Veelgestelde vragen
 redirect_from: 
-  - /nl/faq
+  - /nl/faq/
   - /nl/faq/1-waarom-is-coronamelder-nodig
   - /nl/faq/9-hoe-gebruik-je-de-app
   - /nl/faq/17-hoe-betrouwbaar-is-een-melding
