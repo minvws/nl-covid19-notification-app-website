@@ -3,7 +3,7 @@ layout: faq-overview
 lang: tr
 showBreadCrumbs: true
 showContact: true
-title: ''
+title: 'Bütün sık sorulan sorular'
 contentLang: en
 redirect_from: 
   - /tr/faq/1-1-hoe-helpt-coronamelder-tegen-corona

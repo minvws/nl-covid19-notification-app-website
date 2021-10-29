@@ -3,7 +3,7 @@ layout: faq-overview
 lang: pl
 showBreadCrumbs: true
 showContact: true
-title: ''
+title: 'Najczęściej zadawane pytania'
 contentLang: en
 redirect_from: 
   - /pl/faq/1-1-hoe-helpt-coronamelder-tegen-corona

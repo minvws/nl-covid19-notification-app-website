@@ -3,7 +3,7 @@ layout: faq-overview
 lang: ro
 showBreadCrumbs: true
 showContact: true
-title: ''
+title: 'Întrebări frecvente'
 contentLang: en
 redirect_from: 
   - /ro/faq/1-1-hoe-helpt-coronamelder-tegen-corona

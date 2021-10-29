@@ -3,7 +3,7 @@ layout: faq-overview
 lang: fr
 showBreadCrumbs: true
 showContact: true
-title: ''
+title: 'Questions fréquemment posées'
 contentLang: en
 redirect_from: 
   - /fr/faq/1-1-hoe-helpt-coronamelder-tegen-corona

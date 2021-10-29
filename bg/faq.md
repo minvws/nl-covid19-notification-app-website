@@ -3,7 +3,7 @@ layout: faq-overview
 lang: bg
 showBreadCrumbs: true
 showContact: true
-title: ''
+title: 'Често задавани въпроси'
 contentLang: en
 redirect_from: 
   - /bg/faq/1-1-hoe-helpt-coronamelder-tegen-corona
