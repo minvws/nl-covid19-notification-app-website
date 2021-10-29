@@ -1,6 +1,6 @@
 ---
-index: 3
 set: 3
+index: 3
 title: Hoe helpt CoronaMelder in de praktijk? <br />De familie Vliet
 redirect_from: 
   - /nl/faq/45-hoe-helpt-coronamelder-in-de-praktijk

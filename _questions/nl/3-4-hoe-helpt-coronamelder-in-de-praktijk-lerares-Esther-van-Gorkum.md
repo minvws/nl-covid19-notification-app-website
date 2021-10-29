@@ -1,6 +1,6 @@
 ---
-index: 8
-set: 1
+set: 3
+index: 4
 title: Hoe helpt CoronaMelder in de praktijk? <br />Lerares Esther van Gorkum
 redirect_from: 
   - /nl/faq/45-hoe-helpt-coronamelder-in-de-praktijk-lerares-Esther-van-Gorkum
