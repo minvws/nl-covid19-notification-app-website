@@ -29,5 +29,5 @@ Als je in het buitenland bent, zal je telefoon regelmatig gegevens uitwisselen m
 
 ## Lees ook:
 - [Waar kan ik een NAAT(PCR)- of sneltest laten doen in het buitenland?](https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland)
-- [Testen op vakantie in Nederland](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-op-vakantie-in-nederland).
+<!-- - [Testen op vakantie in Nederland](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-op-vakantie-in-nederland) -->
 - [Hoeveel data en stroom verbruikt de app?](/nl/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
