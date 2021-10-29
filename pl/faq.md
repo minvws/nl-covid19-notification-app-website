@@ -31,7 +31,35 @@ redirect_from:
   - /pl/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona
   - /pl/faq/3-2-waar-kan-ik-de-onderzoeken-naar-coronamelder-inzien
   - /pl/faq/3-3-hoe-helpt-coronamelder-in-de-praktijk-de-familie-vliet
-  - /pl/faq/3-4-hoe-helpt-coronamelder-in-de-praktijk-lerares-Esther-van-Gorkum
+  - /pl/faq/3-4-hoe-helpt-coronamelder-in-de-praktijk-lerares-esther-van-gorkum
   - /pl/faq/4-1-hoe-kan-ik-de-app-binnen-mijn-organisatie-onder-de-aandacht-brengen
   - /pl/faq/4-2-hoe-ziet-de-campagne-over-coronamelder-er-uit
+  - /pl/faq/1-1-hoe-helpt-coronamelder-tegen-corona/
+  - /pl/faq/1-2-hoe-werkt-de-app/
+  - /pl/faq/1-3-wanneer-krijg-ik-een-melding/
+  - /pl/faq/1-4-hoe-stuur-ik-een-melding/
+  - /pl/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg/
+  - /pl/faq/1-6-werkt-coronamelder-op-mijn-tel/
+  - /pl/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen/
+  - /pl/faq/1-8-kan-ik-de-app-pauzeren/
+  - /pl/faq/1-9-kan-ik-met-coronamelder-een-coronabewijs-maken/
+  - /pl/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app/
+  - /pl/faq/1-11-coronamelder-in-makkelijke-taal/
+  - /pl/faq/2-1-hoe-meet-coronamelder-de-afstand/
+  - /pl/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app/
+  - /pl/faq/2-3-werkt-de-app-veilig/
+  - /pl/faq/2-4-waarom-moeten-de-locatie-instellingen-aanstaan-op-android/
+  - /pl/faq/2-5-hoe-werkt-het-blootstellings-dagboek/
+  - /pl/faq/2-6-hoe-werkt-de-app-technisch-precies/
+  - /pl/faq/2-7-is-de-app-verplicht/
+  - /pl/faq/2-8-hoe-zit-het-met-mijn-privacy/
+  - /pl/faq/2-9-wat-regelt-de-wet-over-de-app/
+  - /pl/faq/2-10-hoe-kan-ik-suggesties-down-voor-de-app/
+  - /pl/faq/2-11-welke-andere-notificaties-krijg-ik-van-de-app/
+  - /pl/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona/
+  - /pl/faq/3-2-waar-kan-ik-de-onderzoeken-naar-coronamelder-inzien/
+  - /pl/faq/3-3-hoe-helpt-coronamelder-in-de-praktijk-de-familie-vliet/
+  - /pl/faq/3-4-hoe-helpt-coronamelder-in-de-praktijk-lerares-esther-van-gorkum/
+  - /pl/faq/4-1-hoe-kan-ik-de-app-binnen-mijn-organisatie-onder-de-aandacht-brengen/
+  - /pl/faq/4-2-hoe-ziet-de-campagne-over-coronamelder-er-uit/
 ---

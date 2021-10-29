@@ -31,7 +31,35 @@ redirect_from:
   - /bg/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona
   - /bg/faq/3-2-waar-kan-ik-de-onderzoeken-naar-coronamelder-inzien
   - /bg/faq/3-3-hoe-helpt-coronamelder-in-de-praktijk-de-familie-vliet
-  - /bg/faq/3-4-hoe-helpt-coronamelder-in-de-praktijk-lerares-Esther-van-Gorkum
+  - /bg/faq/3-4-hoe-helpt-coronamelder-in-de-praktijk-lerares-esther-van-gorkum
   - /bg/faq/4-1-hoe-kan-ik-de-app-binnen-mijn-organisatie-onder-de-aandacht-brengen
   - /bg/faq/4-2-hoe-ziet-de-campagne-over-coronamelder-er-uit
+  - /bg/faq/1-1-hoe-helpt-coronamelbgr-tegen-corona/
+  - /bg/faq/1-2-hoe-werkt-bg-app/
+  - /bg/faq/1-3-wanneer-krijg-ik-een-melding/
+  - /bg/faq/1-4-hoe-stuur-ik-een-melding/
+  - /bg/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg/
+  - /bg/faq/1-6-werkt-coronamelbgr-op-mijn-tel/
+  - /bg/faq/1-7-werkt-coronamelbgr-ook-met-apps-uit-anbgre-lanbgn/
+  - /bg/faq/1-8-kan-ik-bg-app-pauzeren/
+  - /bg/faq/1-9-kan-ik-met-coronamelbgr-een-coronabewijs-maken/
+  - /bg/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-bg-app/
+  - /bg/faq/1-11-coronamelbgr-in-makkelijke-taal/
+  - /bg/faq/2-1-hoe-meet-coronamelbgr-bg-afstand/
+  - /bg/faq/2-2-hoeveel-data-en-stroom-gebruikt-bg-app/
+  - /bg/faq/2-3-werkt-bg-app-veilig/
+  - /bg/faq/2-4-waarom-moeten-bg-locatie-instellingen-aanstaan-op-android/
+  - /bg/faq/2-5-hoe-werkt-het-blootstellings-dagboek/
+  - /bg/faq/2-6-hoe-werkt-bg-app-technisch-precies/
+  - /bg/faq/2-7-is-bg-app-verbgicht/
+  - /bg/faq/2-8-hoe-zit-het-met-mijn-privacy/
+  - /bg/faq/2-9-wat-regelt-bg-wet-over-bg-app/
+  - /bg/faq/2-10-hoe-kan-ik-suggesties-down-voor-bg-app/
+  - /bg/faq/2-11-welke-anbgre-notificaties-krijg-ik-van-bg-app/
+  - /bg/faq/3-1-onbgrzoek-hoe-weten-we-of-coronamelbgr-helpt-tegen-corona/
+  - /bg/faq/3-2-waar-kan-ik-bg-onbgrzoeken-naar-coronamelbgr-inzien/
+  - /bg/faq/3-3-hoe-helpt-coronamelbgr-in-bg-praktijk-bg-familie-vliet/
+  - /bg/faq/3-4-hoe-helpt-coronamelbgr-in-bg-praktijk-lerares-esther-van-gorkum/
+  - /bg/faq/4-1-hoe-kan-ik-bg-app-binnen-mijn-organisatie-onbgr-bg-aandacht-brengen/
+  - /bg/faq/4-2-hoe-ziet-bg-campagne-over-coronamelbgr-er-uit/
 ---
