@@ -9,6 +9,8 @@ featuredHomeIcon: privacy
 featuredHomeText: De app werkt zonder je locatie, naam, mailadres, telefoonnummer of andere contactgegevens.
 redirect_from: 
   - /nl/faq/5-hoe-zit-het-met-mijn-privacy
+  - /nl/faq/4-werkt-de-app-veilig
+  - /nl/faq/2-3-werkt-de-app-veilig
 ---
 Gebruik van de app is veilig. Daar zorgen we voor:
 
