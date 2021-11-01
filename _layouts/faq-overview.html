@@ -109,7 +109,8 @@
             </ul>
         </div>
 
-        {% if page.lang != 'nl' %}
+        {% if page.lang == 'nl' or page.lang == 'fy' %}
+        {% else %}
             <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-lessAskedQuestions[page.lang]|slugify }}">{{ site.data.translations.faq-category-lessAskedQuestions[page.lang] }}</h2>
 
             <div class="faq-layout__contents __overview" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}">
