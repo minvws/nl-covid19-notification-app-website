@@ -8,7 +8,7 @@ featuredHomeIndex: 2
 featuredHomeIcon: bell
 featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
 redirect_from: 
-  - /fy/faq/4-melding
+  - /fr/faq/4-melding
 ---
 Krijst in melding:
 - nei’t immen, nei in GGD-test, fia CoronaMelder meld hat dat er koroana hat

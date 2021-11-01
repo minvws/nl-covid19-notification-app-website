@@ -9,7 +9,7 @@ featuredHomeIcon: app-touch
 featuredHomeText: De app stjoert dy in berjocht ast in skoftke yn de buert west hast fan immen dy’t besmet is mei it koroanafirus.
 showBadges: true
 redirect_from: 
-  - /fy/faq/6-hoe-werkt-de-app
+  - /bg/faq/6-hoe-werkt-de-app
 ---
 CoronaMelder stjoert dy in berjocht ast 15 minuten yn de buert west hast fan immen dy’t besmet is mei it koroanafirus – as dy persoan alteast ek CoronaMelder op syn telefoan hat. Sadwaande kinst op tiid aksje ûndernimme, lykas it dwaan fan in koroanatest en thúsbliuwe. Sa foarkomst datst it firus ûnbewust op oaren oerdraachst.
 

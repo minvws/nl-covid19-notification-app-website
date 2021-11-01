@@ -7,7 +7,7 @@ featuredHomeIndex: 6
 featuredHomeIcon: battery
 featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
 redirect_from: 
-  - /fy/faq/8-loopt-de-batterij-snel-leeg
+  - /pl/faq/8-loopt-de-batterij-snel-leeg
 ---
 De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren mei CoronaMelder yn de buert west hast, brûkt de app Bluetooth Low Energy (lege-enerzjy-bluetooth). Dat is in spesjale foarm fan bluetooth dy’t weinich stroom ferbrûkt. Hoefolle prosint fan dyn batterij oft de app krekt brûkt, ferskilt per telefoan.
 

@@ -8,7 +8,7 @@ featuredHomeIndex: 4
 featuredHomeIcon: privacy
 featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
 redirect_from: 
-  - /fy/faq/5-hoe-zit-het-met-mijn-privacy
+  - /pl/faq/5-hoe-zit-het-met-mijn-privacy
 ---
 Gebrûk fan de app is feilich. Dêr soargje wy foar:
 - De app wurdt oanienwei test en ûndersocht.

@@ -3,8 +3,8 @@ set: 1
 index: 1
 title: Hoe helpt CoronaMelder tsjin koroana?
 redirect_from: 
-  - /fy/faq/2-hoe-helpt-coronamelder-tegen-corona
-  - /fy/faq/2-hoe-helpt-de-app-tegen-corona
+  - /ar/faq/2-hoe-helpt-coronamelder-tegen-corona
+  - /ar/faq/2-hoe-helpt-de-app-tegen-corona
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
