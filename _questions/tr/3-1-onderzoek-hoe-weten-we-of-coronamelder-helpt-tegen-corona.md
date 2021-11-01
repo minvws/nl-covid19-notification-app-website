@@ -6,4 +6,4 @@ redirect_from:
   - /tr/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona
 contentLang: en
 ---
-{% include content/en/3-1-Onderzoek-hoe-weten-we-of-CoronaMelder-helpt-tegen-Corona.md %}
+{% include content/en/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona.md %}
