@@ -2,12 +2,7 @@
 set: 1
 index: 5
 title: Wat moet ik doen als ik een melding krijg?
-icon: mobile-check
 showOnFAQoverview: true
-featuredHome: true
-featuredHomeIndex: 2
-featuredHomeIcon: mobile-check
-featuredHomeText: Als uit een melding in de CoronaMelder-app blijkt dat je in de buurt bent geweest van een besmette persoon, kun je je direct laten testen, ook als je (nog) geen klachten hebt.
 redirect_from: 
   - /nl/faq/3-wat-als
 ---
