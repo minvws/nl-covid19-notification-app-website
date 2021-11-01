@@ -4,4 +4,4 @@ set: 3
 title: Kan ik de app pauzeren als ik op school ben, op het werk of tijdens het sporten?
 contentLang: nl
 ---
-{% include content/24-kan-ik-de-app-pauzeren.md %}
+{% include content-oud/24-kan-ik-de-app-pauzeren.md %}

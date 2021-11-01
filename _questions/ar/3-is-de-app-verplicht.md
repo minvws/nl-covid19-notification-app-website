@@ -5,4 +5,4 @@ title: Is the app compulsory?
 contentLang: en
 ---
 
-{% include content/en/3-is-de-app-verplicht.md %}
+{% include content-oud/en/3-is-de-app-verplicht.md %}

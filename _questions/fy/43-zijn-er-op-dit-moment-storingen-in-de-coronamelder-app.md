@@ -5,4 +5,4 @@ title: Zijn er op dit moment storingen in de CoronaMelder-app?
 contentLang: nl
 published: false
 ---
-{% include content/43-zijn-er-op-dit-moment-storingen-in-de-coronamelder-app.md %}
+{% include content-oud/43-zijn-er-op-dit-moment-storingen-in-de-coronamelder-app.md %}

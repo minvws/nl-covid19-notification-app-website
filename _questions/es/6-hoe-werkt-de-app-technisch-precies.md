@@ -11,4 +11,4 @@ contentLang: en
 # featuredHomeIcon: app-touch
 # featuredHomeText: The app sends you a notification if you have been near someone who has tested positive for coronavirus, if you were near them for a longer period.
 ---
-{% include content/en/6-hoe-werkt-de-app-technisch-precies.md %}
+{% include content-oud/en/6-hoe-werkt-de-app-technisch-precies.md %}

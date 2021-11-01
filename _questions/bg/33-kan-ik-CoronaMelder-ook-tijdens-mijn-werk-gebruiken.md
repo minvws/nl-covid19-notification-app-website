@@ -4,4 +4,4 @@ set: 4
 title: Am I allowed to use CoronaMelder during my work?
 contentLang: en
 ---
-{% include content/en/33-kan-ik-CoronaMelder-ook-tijdens-mijn-werk-gebruiken.md %}
+{% include content-oud/en/33-kan-ik-CoronaMelder-ook-tijdens-mijn-werk-gebruiken.md %}
