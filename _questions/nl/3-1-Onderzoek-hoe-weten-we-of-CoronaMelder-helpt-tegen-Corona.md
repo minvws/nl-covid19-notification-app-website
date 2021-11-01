@@ -4,6 +4,7 @@ index: 1
 title: 'Onderzoek: hoe weten we of CoronaMelder helpt tegen Corona?'
 redirect_from: 
   - /nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona
+  - /nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona/
 ---
 Verschillende wetenschappers en instituten doen onderzoek naar de werking van CoronaMelder. Een overzicht van de lopende onderzoeken kun je hier downloaden: 
 
