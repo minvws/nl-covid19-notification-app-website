@@ -7,4 +7,10 @@ featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
 featuredHomeText: Als uit jouw test blijkt dat je corona hebt, kun je dit doorgeven...
 ---
-{% include content/nl/1-4-hoe-stuur-ik-een-melding.md %}
+Als uit jouw test blijkt dat je corona hebt, kun je dit doorgeven via de CoronaMelder-app. Dit doe je via de website www.coronatest.nl of via het telefoongesprek met de GGD. Je krijgt een persoonlijke GGD-sleutel die bestaat uit 7 cijfers en letters. Deze geef je door via de CoronaMelder-app. Alleen mensen die echt besmet zijn kunnen een melding versturen.
+
+Nadat jouw GGD-sleutel is gecontroleerd en verzonden, vergelijkt het systeem achter CoronaMelder de codes uit jouw telefoon met die van mensen die ook CoronaMelder gebruiken. Was jouw code in de buurt bij een code van iemand anders? Dan krijgt die CoronaMelder-gebruiker een melding dat hij of zij in de buurt was van iemand met corona. Zonder dat de ontvanger weet wie dat was. 
+
+## Lees ook:
+- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
