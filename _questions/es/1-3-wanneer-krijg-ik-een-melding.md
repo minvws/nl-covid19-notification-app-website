@@ -1,34 +1,34 @@
 ---
 index: 1
 set: 3
-title: Wannear krij ik in melding?
+title: ¿Cuándo recibo una notificación?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: bell
-featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
+featuredHomeText: Tras haber estado cerca de alguien que después de vuestro encuentro se hizo un test y resultó tener el coronavirus.
 redirect_from: 
   - /es/faq/4-melding
 ---
-Krijst in melding:
-- nei’t immen, nei in GGD-test, fia CoronaMelder meld hat dat er koroana hat
-- én nei’tsto yn de ôfrûne dagen 15 minuten of langer binnen 1,5 meter fan dy persoan west hast.
+Recibirás una notificación cuando:
+- una persona que se haya sometido a una prueba de los GGD comunique a CoronaMelder que tiene el coronavirus
+- y si has estado a menos de 1,5 metros de esa persona durante más de 15 minutos en los últimos días
 
-Dat kinne ek meardere minsken wêze. CoronaMelder telt alle koarte kontaktmominten mei besmette minsken op ien dei byinoar op. Is dat mei-inoar mear as 15 minuten binnen 1,5 meter? Dan krijst in melding.
+También pueden ser varias personas. CoronaMelder cuenta todos los momentos de contacto con personas contagiadas en un día. Si la suma de todos ellos da más de 15 minutos a menos de 1,5 metros, recibirás una notificación.
 
-Is der immen by dy delfytst? Dan krijst gjin melding: jim wienen te koart tichtby inoar om besmet te reitsjen. Stie der in muorre tusken jim yn? Dan krijst oer it generaal ek gjin melding.
+¿Te ha pasado alguien cerca con la bici? En ese caso no recibirás ninguna notificación: el contacto ha sido demasiado breve como para contagiarte. ¿Hay una pared entre vosotros? En general, tampoco recibirás ninguna notificación.
  
-CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t dat is. Do wiest bygelyks: 
+CoronaMelder no sabe quiénes son las personas con las que tienes contacto, ni dónde se produce. Si, por ejemplo, has estado:
 
-- by in borrel of itentsje
-- yn in winkel
-- oan it wachtsjen yn in rige 
-- oan it reizgjen
-- oan it sporten
-- oan it wurk
-- op skoalle
+- en una reunión o una cena
+- en una tienda
+- haciendo cola
+- en un viaje
+- practicando deporte
+- en el trabajo
+- en el colegio
 
-15 minuten binnen 1,5 meter fan in besmet persoan en dan krijst letter in melding.
+durante 15 minutos a menos de 1,5 metros de una persona infectada, recibirás una notificación.
 
 ## Lês ek:
 

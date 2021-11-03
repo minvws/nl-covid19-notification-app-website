@@ -1,16 +1,16 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: ¿Cómo puedo enviar yo una notificación a los demás?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: Si das positivo en un test de coronavirus, puedes comunicarlo a través de la app CoronaMelder.
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+Si das positivo en un test de coronavirus, puedes comunicarlo a través de la app CoronaMelder. Para ello, entra en la página web www.coronatest.nl o llama por teléfono a los GGD. Recibirás una clave GGD personal compuesta por siete cifras y letras, que deberás introducir en la app CoronaMelder. Solamente pueden enviar una notificación quienes se hayan contagiado.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+Una vez verificada y enviada tu clave GGD, el sistema de CoronaMelder compara los códigos de tu teléfono con los de las personas que también usan CoronaMelder. Si tu código ha estado cerca del de otra persona, ese usuario de CoronaMelder recibirá una notificación en la que se le indicará que ha estado cerca de alguien con coronavirus. Pero el destinatario no sabrá quién. 
 
-## Lês ek:
+## Lea mas:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 1
-title: Hoe helpt CoronaMelder tsjin koroana?
+title: ¿Cómo ayuda CoronaMelder contra el coronavirus?
 redirect_from: 
   - /es/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /es/faq/2-hoe-helpt-de-app-tegen-corona
@@ -9,16 +9,16 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: CoronaMelder warskôget neidatst yn 'e buert west hast fan immen dy't koroana hat.  
+featuredHomeText: CoronaMelder te notifica si has estado cerca de alguien con coronavirus. 
 ---
-CoronaMelder helpt de GGD by it kontaktûndersyk. De app warskôget dy datst miskien besmet bist. Sadatst foarkomme kinst datst it firus ûnbewust op oaren oerdraachst.
+CoronaMelder ayuda a los GGD mediante el estudio de los contactos. La app te advierte de que es posible que te hayas contagiado. De esta forma podrás evitar propagar el virus sin saberlo.
  
-Hast yn ’e buert west fan immen dy’t koroana blykt te hawwen? En lit dy persoan fia CoronaMelder witte dat hy of sy besmet is? Dan krijst dêrnei in melding yn de app. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Wol hasto mear kâns op besmetting.
+¿Has estado cerca de alguien que parece tener el coronavirus? Si esa persona comunica a CoronaMelder que se ha contagiado, te llegará directamente una notificación a la app. Pero que no cunda el pánico: eso no quiere decir que tú también tengas el coronavirus. Aunque sí tienes más probabilidades de haberte contagiado.
  
-Yn de melding dy’tst yn de app krijst, stiet presys watst dwaan moatst. Lês ek: Wat moat ik dwaan as ik in melding krij?
+En la notificación que recibirás en la app se te indicará exactamente qué debes hacer. Lee también: ¿Qué tengo que hacer si recibo una notificación?
  
-CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks minsken yn de grinsregio's fan Nederlân warskôge. Of minsken út oare lannen dy’t yn Nederlân wenje, wurkje, fakânsje fiere of winkelje.
+CoronaMelder colabora con apps sobre el coronavirus de todos los países de la UE. Por este motivo, se avisa a las personas de las regiones limítrofes con los Países Bajos, por ejemplo. O a personas procedentes de otros países que viven, trabajan, compran o pasan sus vacaciones en los Países Bajos.
 
-## Lês ek:
+## Lea mas:
 
 [Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)
