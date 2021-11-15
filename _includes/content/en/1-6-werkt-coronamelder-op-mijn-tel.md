@@ -1,5 +1,5 @@
-De app werkt op 98% van alle telefoons.
- 
-**Android**: CoronaMelder werkt op de meeste Android-telefoons met versie 6 of nieuwer.
- 
-**iPhone**: CoronaMelder werkt op Apple iPhones met het besturingssysteem iOS 13.5 of nieuwer. iOS 13.5 kan geïnstalleerd worden op de iPhone 6s, iPhone SE en nieuwer. SSinds februari 2021 is de CoronaMelder-app ook beschikbaar op Apple iPhone 5S en 6. Update eerst je iPhone 5S en 6 naar besturingssysteem iOS 12.5. Daarna kun je CoronaMelder downloaden en activeren.
+The app works on 98% of all phones.
+
+**Android**: The CoronaMelder app works on most Android phones running version 6 or higher.
+
+**iPhone**: Until recently, CoronaMelder only worked on Apple iPhones running the operating system iOS 13.5 or higher. It is possible to install iOS 13.5 on the iPhone 6s, iPhone SE and all newer models. Good news:, since 25 February, the CoronaMelder app has also been available on Apple iPhone 5S and 6. To install the CoronaMelder app, you need to update your iPhone 5S or 6 to the iOS 12.5 operating system.
