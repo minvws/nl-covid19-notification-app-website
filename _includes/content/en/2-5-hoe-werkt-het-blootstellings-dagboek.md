@@ -2,7 +2,7 @@ CoronaMelder controleert een paar keer per dag of er nieuwe besmettingen door de
 
 Zie je allemaal getallen in het logboek? Dan werkt de app goed.
 
-## Lees ook:
+## Also see:
 
 - [Hoeveel data en stroom verbruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

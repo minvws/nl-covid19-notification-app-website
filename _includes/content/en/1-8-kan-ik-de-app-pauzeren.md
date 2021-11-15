@@ -14,5 +14,5 @@ Zo pauzeer je de app:
 - De pauzefunctie stopt dus niet vanzelf. Je moet de app altijd zelf weer aanzetten.
 - Als je de pauzefunctie gebruikt, krijg je tijdelijk ook geen meldingen van CoronaMelder als je (voordat je de app pauzeerde) in de buurt bent geweest van iemand met corona. Zodra je CoronaMelder weer aanzet, kijkt de app of je meldingen hebt. Als dat zo is, laat de app deze zien. Je mist dus geen meldingen, wel kan het zijn dat je ze later krijgt.
  
-## Lees ook:
+## Also see:
 - [Welke andere notificaties krijg ik van CoronaMelder?](/{{page.lang}}/faq/2-11-welke-andere-notificaties-krijg-ik-van-de-app)

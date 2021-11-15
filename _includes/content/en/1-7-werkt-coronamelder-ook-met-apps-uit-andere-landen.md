@@ -20,7 +20,7 @@ Melden in de Nederlandse CoronaMelder werkt alleen in samenwerking met de Nederl
 
 Als je in het buitenland bent, zal je telefoon regelmatig gegevens uitwisselen met de corona-apps uit andere landen. Daardoor zal het dataverkeer door CoronaMelder stijgen. Voorkom dan extra kosten. Bij ‘instellingen’ kun je instellen dat gegevens alleen worden verstuurd als je verbinding hebt met wifi. Dan gaan er geen gegevens verloren; ze worden alleen op een later tijdstip uitgewisseld.
 
-## Lees ook:
+## Also see:
 - [Waar kan ik een NAAT(PCR)- of sneltest laten doen in het buitenland?](https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland)
 <!-- - [Testen op vakantie in Nederland](https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/testen/testen-op-vakantie-in-nederland) -->
 - [Hoeveel data en stroom verbruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)

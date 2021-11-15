@@ -11,7 +11,7 @@ Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel
 Maandag t/m vrijdag<br />
 9.00 -17.00 uur
 
-## Lees ook:
+## Also see:
 
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Wat regelt de wet over de app?](/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app)

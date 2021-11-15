@@ -10,7 +10,7 @@ Jij krijgt een melding als de codes van een besmet persoon op je telefoon staan.
 
 De metingen van CoronaMelder tellen bij elkaar op. Als je op dezelfde dag meerdere keren in de buurt bent van besmette personen en die contacten tellen op tot 15 minuten binnen 1,5 meter, krijg je sinds versie 2.0 van CoronaMelder ook een melding. 
 
-## Lees ook:
+## Also see:
 
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Hoeveel data en stroom verbruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)

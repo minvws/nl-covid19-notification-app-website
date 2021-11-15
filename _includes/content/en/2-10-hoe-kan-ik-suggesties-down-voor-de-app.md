@@ -4,6 +4,6 @@ Heb je een suggestie voor de app? Je kunt deze ook nu nog doorgeven bij de helpd
 
 Alle code van de app is bovendien te vinden op de [GitHub van het Ministerie van Volksgezondheid, Welzijn en Sport](https://github.com/minvws). Heb je een suggestie voor de code of techniek? Deze kun je via GitHub ook direct doorgeven aan het bouwteam.
 
-## Lees ook:
+## Also see:
 
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
