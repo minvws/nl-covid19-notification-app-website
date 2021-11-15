@@ -29,6 +29,6 @@ Dat jildt ek foar de koroana-apps út oare EU-lannen dêr’t CoronaMelder koade
 
 ## Lês ek:
  
-- [Hoe werkt de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
+- [Hoe wurket de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
 - [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Hoe stuur ik anderen een melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- [Hoe stjoer ik oaren in melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)

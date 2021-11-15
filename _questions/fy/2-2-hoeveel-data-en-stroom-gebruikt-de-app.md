@@ -5,7 +5,7 @@ title: Hoefolle data en stroom ferbrûkt de app?
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: battery
-featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
+featuredHomeText: De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren...
 redirect_from: 
   - /fy/faq/8-loopt-de-batterij-snel-leeg
 ---
