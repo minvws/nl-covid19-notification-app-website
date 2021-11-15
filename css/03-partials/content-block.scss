@@ -1,4 +1,3 @@
-
 .content-center {
     position: relative; // Necessary for specific iOS iPad overflow issue
     display: block; // Necessary for IE11
@@ -11,7 +10,7 @@
     @media (min-width: 740px) {
         padding: 20px 100px;
         margin: -50px auto 0;
-        border-radius: 34px 34px 0  0;
+        border-radius: 34px 34px 0 0;
     }
 
     @media (min-width: 960px) {
@@ -32,10 +31,10 @@
 
 .content-center__home {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 0.875rem;
 
     @media (min-width: 740px) {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .icon-chevron-left {
@@ -52,12 +51,12 @@
 
     &.return_link {
         margin-left: -13px;
-    } 
+    }
 }
 
 .breadcrumbs-item {
     list-style-image: none;
-    display: inline-block; 
+    display: inline-block;
 }
 .breadcrumbs {
     line-height: 1.6;
@@ -70,12 +69,12 @@
 .content-error {
     border-radius: 0;
     margin-top: 0;
-    background: linear-gradient(180deg, $color-RO_lightblue 49.48%, #FFFFFF 100%);
+    background: linear-gradient(180deg, $color-RO_lightblue 49.48%, #ffffff 100%);
     height: calc(100vh - 150px);
     position: relative;
 
     &:before {
-        content: '';
+        content: "";
         position: absolute;
         top: 100px;
         right: 100px;
@@ -93,9 +92,9 @@
     margin: 0px auto 0;
     background: transparent;
     padding: 20px 20px;
-    
+
     .content-block {
-        padding-top: 1.0em;
+        padding-top: 1em;
 
         @media (min-width: 740px) {
             padding-top: 5em;
@@ -103,23 +102,23 @@
     }
 
     .content-block h1 {
-        font-size: 32px;
+        font-size: 2rem;
         max-width: 400px;
         line-height: 1.3;
         margin-top: 0.5em;
         margin-bottom: 1.3em;
 
         @media (min-width: 740px) {
-            font-size: 40px;
+            font-size: 2.5rem;
         }
     }
     .content-block a {
-        font-size: 21px;
+        font-size: 1.3125rem;
         line-height: 22px;
         text-decoration: none;
         position: relative;
         z-index: 1;
-     }
+    }
 }
 
 .content-right-top {
@@ -136,7 +135,7 @@
 }
 
 .content-block {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 142%;
     color: #333;
     margin-bottom: 20px;
@@ -152,19 +151,19 @@
     h1 {
         margin: 25px 0 40px 0;
         color: $color-RO_darkblue;
-        font-size: 30px;
+        font-size: 1.875rem;
         line-height: 116%;
     }
 
     h2 {
         margin: 40px 0 14px;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 116%;
     }
 
     h3 {
         margin: 40px 0 14px;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 116%;
     }
 
@@ -195,14 +194,15 @@
     }
 
     table {
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 18px;
         min-width: 100%;
         border-collapse: separate;
         border-spacing: 6px;
 
         tr {
-            th, td {
+            th,
+            td {
                 padding: 14px 18px;
                 text-align: left;
             }
@@ -233,10 +233,10 @@
 
                 // Round item
                 &::before {
-                    content: '';
+                    content: "";
                     width: 20px;
                     height: 20px;
-                    background: #FFFFFF;
+                    background: #ffffff;
                     border-width: 4px;
                     border-style: solid;
                     border-radius: 50%;
@@ -245,13 +245,13 @@
                     left: 0;
                     top: 1px;
                     z-index: 2;
-                    border-color: #36870D;
+                    border-color: #36870d;
                 }
 
                 // Line
                 &::after {
-                    border-color: #36870D;
-                    content: '';
+                    border-color: #36870d;
+                    content: "";
                     border-left-width: 4px;
                     border-left-style: solid;
                     position: absolute;
@@ -277,29 +277,34 @@
             border-top: 0;
         }
 
-   
         summary {
             cursor: pointer;
             position: relative;
             color: #333333;
             padding: 14px 20px;
-            font-size: 16px;
+            font-size: 1rem;
 
             &:focus {
                 outline-offset: -1px;
             }
-            
+
             &:hover {
                 background: $color-RO_lightblue;
             }
         }
 
-        summary { list-style-type: none; } /* Firefox */
-        summary::-webkit-details-marker { display: none; } /* Chrome */
-        summary::marker { display: none; }
+        summary {
+            list-style-type: none;
+        } /* Firefox */
+        summary::-webkit-details-marker {
+            display: none;
+        } /* Chrome */
+        summary::marker {
+            display: none;
+        }
 
         summary:after {
-            content: '';
+            content: "";
             position: absolute;
             top: 6px;
             right: 5px;
@@ -325,20 +330,18 @@
                 transform: rotate(90deg);
             }
         }
-
-        
     }
 
     .md-info-grey {
         color: #666;
         margin-bottom: 6px;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 126%;
     }
 
     .md-block-lead {
         margin: 20px 0 40px;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 142%;
 
         p:last-child {
@@ -347,7 +350,7 @@
 
         @media (min-width: 960px) {
             margin: -13px 50px 40px 0px;
-            font-size: 26px;
+            font-size: 1.625rem;
             line-height: 142%;
         }
     }
@@ -390,12 +393,11 @@
             max-width: 700px;
         }
     }
-
 }
 
 .notifications img {
     max-width: 100%;
-    
+
     @media (min-width: 740px) {
         max-width: 475px;
     }
@@ -406,25 +408,25 @@ html[dir="rtl"] {
         border-radius: 26px 0 0 26px;
 
         @media (min-width: 740px) {
-            border-radius: 34px 0 0  34px;
+            border-radius: 34px 0 0 34px;
         }
     }
 
     .content-center__home {
         .icon-chevron-left {
-            right: -3px; 
+            right: -3px;
             left: auto;
         }
 
         .icon-chevron-right {
             right: 3px;
-            left: auto;    
+            left: auto;
         }
 
         &.return_link {
             margin-right: 0;
             margin-left: 0;
-        } 
+        }
     }
 
     .content-error {
@@ -438,9 +440,8 @@ html[dir="rtl"] {
         text-align: left;
     }
 
-
     .content-block {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 142%;
         color: #333;
         margin-bottom: 20px;
@@ -461,10 +462,10 @@ html[dir="rtl"] {
                 margin-left: 0;
             }
 
-
             table {
                 tr {
-                    th, td {
+                    th,
+                    td {
                         text-align: right;
                     }
                 }
