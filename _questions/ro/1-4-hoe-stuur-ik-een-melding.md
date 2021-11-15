@@ -1,16 +1,17 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: Cum trimit celorlalți o notificare?
+summary: Dacă testul arată că aveți coronavirus, puteți raporta acest ...
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: Dacă testul arată că aveți coronavirus, puteți raporta acest ...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+Dacă testul arată că aveți coronavirus, puteți raporta acest lucru prin intermediul aplicației CoronaMelder. Puteți face acest lucru prin intermediul site-ului web www.coronatest.nl sau prin apel telefonic la GGD. Veți primi un cod GGD personal, format din 7 cifre și litere. Îl puteți transmite prin intermediul aplicației CoronaMelder. Numai oamenii care sunt cu adevărat infectați pot trimite o notificare.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+După ce codul dvs. GGD a fost verificat și trimis, sistemul din spatele CoronaMelder compară codurile de pe telefonul dvs. cu cele ale persoanelor care utilizează și CoronaMelder. Codul tău a fost în vecinătatea altcuiva? Atunci acest utilizator CoronaMelder primește o notificare că el sau ea a fost în vecinătatea cuiva cu coronavirus. Fără ca receptorul să știe despre cine era vorba. 
 
-## Lês ek:
+## Vezi de asemenea:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

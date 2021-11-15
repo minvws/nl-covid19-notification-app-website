@@ -1,7 +1,8 @@
 ---
 set: 1
 index: 1
-title: Hoe helpt CoronaMelder tsjin koroana?
+title: Cum ajută CoronaMelder împotriva coronavirusului?
+summary: CoronaMelder vă avertizează după ce ați fost în apropierea cuiva infectat cu coronavirus.
 redirect_from: 
   - /ro/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /ro/faq/2-hoe-helpt-de-app-tegen-corona
@@ -9,16 +10,16 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: CoronaMelder warskôget neidatst yn 'e buert west hast fan immen dy't koroana hat.  
+featuredHomeText: CoronaMelder vă avertizează după ce ați fost în apropierea cuiva infectat cu coronavirus.
 ---
-CoronaMelder helpt de GGD by it kontaktûndersyk. De app warskôget dy datst miskien besmet bist. Sadatst foarkomme kinst datst it firus ûnbewust op oaren oerdraachst.
+CoronaMelder ajută GGD (Direcția de Sănătate Publică din Țările de Jos) la investigația de contact. Aplicația vă avertizează că este posibil să fiți infectat(ă). Astfel încât să puteți preveni transmiterea inconștientă a virusului către alții.
  
-Hast yn ’e buert west fan immen dy’t koroana blykt te hawwen? En lit dy persoan fia CoronaMelder witte dat hy of sy besmet is? Dan krijst dêrnei in melding yn de app. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Wol hasto mear kâns op besmetting.
+Ați fost în apropierea cuiva care pare să aibă coronavirus? Și persoana anunță prin CoronaMelder că el sau ea a fost infectat(ă)? Atunci vei primi o notificare în aplicație. Nu intra în panică: nu este sigur că vei avea și tu coronavirus. Mai degrabă ai șanse să fii infectat.
  
-Yn de melding dy’tst yn de app krijst, stiet presys watst dwaan moatst. Lês ek: Wat moat ik dwaan as ik in melding krij?
+Notificarea pe care o primești în aplicație indică exact ceea ce trebuie să faci. Citește și: Ce trebuie să fac dacă primesc o notificare?
  
-CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks minsken yn de grinsregio's fan Nederlân warskôge. Of minsken út oare lannen dy’t yn Nederlân wenje, wurkje, fakânsje fiere of winkelje.
+CoronaMelder lucrează împreună cu aplicații Corona din alte țări ale UE. De exemplu, sunt avertizate persoanele din regiunile de frontieră ale Țărilor de Jos. Indiferent dacă este vorba despre persoane din alte țări care locuiesc, lucrează, petrec vacanțe sau fac cumpărături în Țările de Jos.
 
-## Lês ek:
+## Vezi de asemenea:
 
 [Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)

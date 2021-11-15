@@ -2,28 +2,29 @@
 set: 1
 index: 2
 title: Hoe wurket de app?
+summary: Aplicația vă trimite un mesaj dacă ați fost pentru un timp în apropierea unei persoane care este infectată cu coronavirus.
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
-featuredHomeText: De app stjoert dy in berjocht ast in skoftke yn de buert west hast fan immen dy’t besmet is mei it koroanafirus.
+featuredHomeText: Aplicația vă trimite un mesaj dacă ați fost pentru un timp în apropierea unei persoane care este infectată cu coronavirus.
 showBadges: true
 redirect_from: 
   - /ro/faq/6-hoe-werkt-de-app
 ---
-CoronaMelder stjoert dy in berjocht ast 15 minuten yn de buert west hast fan immen dy’t besmet is mei it koroanafirus – as dy persoan alteast ek CoronaMelder op syn telefoan hat. Sadwaande kinst op tiid aksje ûndernimme, lykas it dwaan fan in koroanatest en thúsbliuwe. Sa foarkomst datst it firus ûnbewust op oaren oerdraachst.
+CoronaMelder vă va trimite un mesaj dacă ați fost în apropierea unei persoane infectate cu coronavirus timp de 15 minute – dacă persoana respectivă are și CoronaMelder pe telefon. Acest lucru îți permite să acționezi la timp, cum ar fi să faci un test pentru coronavirus și să rămâi acasă. Acest lucru vă va împiedica să transmiteți virusul în mod inconștient altor persoane.
 
-De CoronaMelder-app wurket sa:
- 
-1. CoronaMelder sjocht fia bluetooth oftst deunby immen west hast dy’t de app ek hat.
-2. Wat sterker it sinjaal, nammerste tichterby hast west. Sa bepaalt de app oftst binnen 1,5 meter ôfstân west hast.
-3. De app wurket sûnder dyn lokaasje, namme, mailadres, telefoannûmer of oare kontaktgegevens. De app wit net wa’tst bist, wa’t de oar is of wêr’t jim binne.
-4. Ast yn de buert west hast fan immen mei it koroanafirus dy’t dat trochjout fia de app, dan krijsto letter in melding fan de app.
-5. Ast sels it koroanafirus krijst, dan kinst dat yn de app witte litte. Dan warskôget de app minsken mei wa’tst kontakt hân hast.
+Aplicația CoronaMelder funcționează astfel:
 
-Yn in melding stiet allinne wannear’t immen deunby in besmet persoan west hat. Dus net wa’t dat is of wêr’t se dy persoan tsjinkaam binne.
+1. CoronaMelder poate vedea prin Bluetooth dacă ați fost aproape de cineva care are și aplicația.
+2. Cu cât semnalul era mai puternic, cu atât erai mai aproape. De exemplu, aplicația stabilește dacă te aflai la mai puțin de 1,5 metri de vehicul.
+3. Aplicația funcționează fără locația, numele, adresa de e-mail, numărul de telefon sau alte informații de contact. Aplicația nu știe cine ești, cine este cealaltă persoană sau unde te afli.
+4. Dacă ai fost în apropierea unei persoane infectate cu coronavirus care raportează acest lucru în aplicație, vei primi mai târziu o notificare din partea aplicației.
+5. Dacă te îmbolnăvești chiar tu de coronavirus, ne poți anunța în aplicație. Apoi, aplicația avertizează persoanele cu care ai luat legătura.
 
-## Lês ek:
+O notificare indică doar când cineva s-a aflat în apropierea unei persoane infectate. Deci nu cine este sau unde s-a întâlnit cu acea persoană.
+
+## Vezi de asemenea:
 
 - [Waar kan ik in makkelijke taal informatie vinden over de app?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 

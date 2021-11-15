@@ -1,22 +1,20 @@
 ---
 set: 2
 index: 2
-title: Hoefolle data en stroom ferbrûkt de app?
+title: Cât de multe date și energie consumă aplicația?
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: battery
-featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
+featuredHomeText: Aplicația folosește puțină energie. Aplicația utilizată pentru...
 redirect_from: 
   - /ro/faq/8-loopt-de-batterij-snel-leeg
 ---
-De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren mei CoronaMelder yn de buert west hast, brûkt de app Bluetooth Low Energy (lege-enerzjy-bluetooth). Dat is in spesjale foarm fan bluetooth dy’t weinich stroom ferbrûkt. Hoefolle prosint fan dyn batterij oft de app krekt brûkt, ferskilt per telefoan.
+Aplicația folosește puțină energie. Aplicația utilizată pentru a vedea dacă ați fost în apropierea altor persoane cu CoronaMelder a fost Bluetooth Low Energy (Bluetooth de mică putere). Aceasta este o formă specială de bluetooth care folosește puțină putere. Procentajul exact al bateriei pe care o folosește aplicația variază în funcție de telefon.
 
-De app ferbrûkt in pear kear deis data om te sjen oft immen by wa’tst yn de buert west hast, besmet is. De app ferliket dêrfoar de koades op de server mei de koades dy’tst fia bluetooth útwiksele hast. Dy koades binne dan 14 dagen op dyn telefoan bewarre.
+Aplicația folosește datele de câteva ori pe zi pentru a vedea dacă cineva apropiat ție este infectat. Aplicația compară codurile de pe server cu codurile pe care le-ați schimbat prin Bluetooth. Aceste coduri vor fi stocate pe telefonul tău timp de 14 zile.
+Puteți evita costurile nedorite ale datelor alegând din setări că datele sunt utilizate numai dacă sunteți conectat(ă) la Wi-Fi. Nu se vor pierde date; acestea vor fi schimbate numai ulterior.
 
-Ekstra datakosten kinst foarkomme troch der yn de ynstellings foar te kiezen dat allinne data ferbrûkt wurde ast ferbining hast mei wifi. Der gean gjin gegevens ferlern; se wurde allinne op in letter tiidstip útwiksele.
-
-
-## Lês ek:
+## Vezi de asemenea:
 
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
 - [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)

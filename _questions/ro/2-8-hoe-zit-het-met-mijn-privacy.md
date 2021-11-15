@@ -1,34 +1,37 @@
 ---
 set: 2
 index: 8
-title: Hoe sit it mei myn privacy?
+title: Cum stau lucrurile cu confidențialitatea datelor mele?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
+featuredHomeText: Aplicația funcționează fără locația, numele, adresa de email, numărul dvs. de telefon sau alte date de contact.
+summary: Aplicația funcționează fără locația, numele, adresa de email, numărul dvs. de telefon sau alte date de contact.
 redirect_from: 
   - /ro/faq/5-hoe-zit-het-met-mijn-privacy
 ---
-Gebrûk fan de app is feilich. Dêr soargje wy foar:
-- De app wurdt oanienwei test en ûndersocht.
-- De app wit dyn namme of kontaktgegevens net.
-- Gjinien mei dy twinge om de app te brûken.
-- Saakkundigen fan binnen en bûten de oerheid helpe mei om de app te bouwen.
-- Hûnderten frijwillige eksperts sjogge mei nei de boukwaliteit, privacy en feilichheid fan de app. De wurking fan de app is folslein transparant en open source.
+ Utilizarea aplicației este sigură. Asta este ceea ce facem:
 
-## Hoe giet de app om mei persoansgegevens?
-De app wikselet willekeurige koades út mei oare telefoans. Yn dy koades stean gjin persoansgegevens of lokaasjegegevens fan dy. De app wit dus net wa’tst bist en ek net wêr’tst bist.
+- Aplicația este testată și cercetată în mod constant.
+- Aplicația nu îți cunoaște numele sau datele de contact.
+- Nimeni nu te poate forța să folosești aplicația.
+- Experții din interiorul și din afara autorităților ajută la construirea aplicației.
+- Sute de experți voluntari urmăresc calitatea, confidențialitatea și securitatea aplicației. Funcționarea aplicației este complet transparentă și cu sursă deschisă.
 
-Ek ast it koroanafirus krijst en dat fia de app meldst, is dat net oan dyn namme of kontaktgegevens te keppeljen. Boppedat brûkst de app folslein frijwillich.
+## Cum gestionează aplicația datele cu caracter personal? 
 
-Dat jildt ek foar de koroana-apps út oare EU-lannen dêr’t CoronaMelder koades mei útwikselet. CoronaMelder wurket allinne gear mei koroana-apps dy’t hielendal foldogge oan deselde privacy-easken. Krekt as binnen Nederlân witte CoronaMelder en de oare koroana-apps bygelyks net wa’tst bist of wêr’tst bist.
+Aplicația schimbă coduri aleatorii cu alte telefoane. Aceste coduri nu conțin date cu caracter personal sau date de localizare ale dvs. Prin urmare, aplicația nu știe cine ești sau unde te afli.
+
+Chiar dacă te infectezi cu coronavirus și îl raportezi prin intermediul aplicației, acesta nu poate fi asociat cu numele sau detaliile tale de contact. În plus, dvs. utilizați aplicația în mod complet voluntar.
+
+Acest lucru este valabil și pentru aplicațiile corona din alte țări ale UE cu care CoronaMelder face schimb de coduri. CoronaMelder funcționează numai cu aplicații corona care îndeplinesc pe deplin aceleași cerințe de confidențialitate. La fel ca în Olanda, CoronaMelder și alte aplicații corona, de exemplu, nu știu cine sunteți sau unde vă aflați.
 
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
 
-## Lês ek:
+## Vezi de asemenea:
  
-- [Hoe werkt de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
+- [Cum funcționează aplicația?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
 - [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Hoe stuur ik anderen een melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- [Cum trimit celorlalți o notificare?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
