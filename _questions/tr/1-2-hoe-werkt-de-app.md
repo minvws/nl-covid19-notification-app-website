@@ -1,29 +1,30 @@
 ---
 set: 1
 index: 2
-title: Hoe wurket de app?
+title: Uygulama nasıl çalışır?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
-featuredHomeText: De app stjoert dy in berjocht ast in skoftke yn de buert west hast fan immen dy’t besmet is mei it koroanafirus.
+featuredHomeText: Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir.
+summary: Bir süre Korona virüsü bulaşmış birinin etrafında bulunduysanız, uygulama size bir bildirim gönderir.
 showBadges: true
 redirect_from: 
   - /tr/faq/6-hoe-werkt-de-app
 ---
-CoronaMelder stjoert dy in berjocht ast 15 minuten yn de buert west hast fan immen dy’t besmet is mei it koroanafirus – as dy persoan alteast ek CoronaMelder op syn telefoan hat. Sadwaande kinst op tiid aksje ûndernimme, lykas it dwaan fan in koroanatest en thúsbliuwe. Sa foarkomst datst it firus ûnbewust op oaren oerdraachst.
+CoronaMelder, aynı uygulamayı telefonunda bulunduran ve koronavirüs pozitif olan birisiyle 15 dakikadan fazla temaslı bulunduysanız size bir bildirim gönderir. Bu sayede korona testi yaptırmak ve evde kalmak gibi önlemleri hemen alabilirsiniz. Bu sayede farkında olmadan başkalarına virüsü bulaştırmanın önüne geçebilirsiniz.
 
-De CoronaMelder-app wurket sa:
- 
-1. CoronaMelder sjocht fia bluetooth oftst deunby immen west hast dy’t de app ek hat.
-2. Wat sterker it sinjaal, nammerste tichterby hast west. Sa bepaalt de app oftst binnen 1,5 meter ôfstân west hast.
-3. De app wurket sûnder dyn lokaasje, namme, mailadres, telefoannûmer of oare kontaktgegevens. De app wit net wa’tst bist, wa’t de oar is of wêr’t jim binne.
-4. Ast yn de buert west hast fan immen mei it koroanafirus dy’t dat trochjout fia de app, dan krijsto letter in melding fan de app.
-5. Ast sels it koroanafirus krijst, dan kinst dat yn de app witte litte. Dan warskôget de app minsken mei wa’tst kontakt hân hast.
+Uygulama şu şekilde çalışır:
 
-Yn in melding stiet allinne wannear’t immen deunby in besmet persoan west hat. Dus net wa’t dat is of wêr’t se dy persoan tsjinkaam binne.
+1. CoronaMelder, aynı uygulamayı indirmiş başka bir kişiye yakın olup olmadığınızı Bluetooth üzerinden görür.
+2. Sinyal ne kadar güçlüyse o kadar yakınındaydınız demektir. Uygulama bu şekilde söz konusu kişinin 1,5 metreden daha yakınında bulunup bulunmadığınızı anlar.
+3. Uygulama konumunuzu, isminizi, e-posta adresinizi, telefon numaranızı ve bunun gibi diğer kişisel verilerinizi kullanmadan çalışır. Uygulama kim olduğunuzu, bulunduğunuz yerdeki diğer kişilerin kim olduğunu veya nerede olduğunuzu bilmez.
+4. Koronavirüs pozitif olduğunu bildiren biriyle temaslı olduğunuzda, uygulamadan size bir bildirim gelecek.
+5. Size de koronavirüs bulaştıysa, bunu uygulama aracılığıyla bildirebilirsiniz. Bu durumda uygulama temaslı olduğunuz kişilere uyarı gönderir. 
 
-## Lês ek:
+Gelen bildirimde kişiye sadece korona virüs pozitif bir kişinin yakınında ne zaman bulunduğu belirtilir. Bunun kim olduğu ve bu kişiyle nerede karşılaştığı bildirilmez.
+
+## Ayrıca okuyun:
 
 - [Waar kan ik in makkelijke taal informatie vinden over de app?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 

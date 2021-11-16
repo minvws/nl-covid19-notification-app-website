@@ -1,22 +1,20 @@
 ---
 set: 2
 index: 2
-title: Hoefolle data en stroom ferbrûkt de app?
+title: Uygulama ne kadar mobil veri ve pil gücü kullanıyor?
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: battery
-featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
+featuredHomeText: Uygulama düşük enerji ile çalışmaktadır. Uygulamada, yakın mesafede...
+summary: Uygulama düşük enerji ile çalışmaktadır. Uygulamada, yakın mesafede...
 redirect_from: 
   - /tr/faq/8-loopt-de-batterij-snel-leeg
 ---
-De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren mei CoronaMelder yn de buert west hast, brûkt de app Bluetooth Low Energy (lege-enerzjy-bluetooth). Dat is in spesjale foarm fan bluetooth dy’t weinich stroom ferbrûkt. Hoefolle prosint fan dyn batterij oft de app krekt brûkt, ferskilt per telefoan.
+Uygulama düşük enerji ile çalışmaktadır. Uygulamada, yakın mesafede telefonunda CoronaMelder uygulaması bulunan diğer kişileri görebilmek için Bluetooth Düşük Enerji (düşük enerjiyle çalışan Bluetooth) özelliği kullanılmaktadır. Bu, Bluetooth’un az pil gücü kullanan özel bir modudur. Uygulamanın tam olarak ne kadar pil kullandığı telefona göre değişmektedir.
 
-De app ferbrûkt in pear kear deis data om te sjen oft immen by wa’tst yn de buert west hast, besmet is. De app ferliket dêrfoar de koades op de server mei de koades dy’tst fia bluetooth útwiksele hast. Dy koades binne dan 14 dagen op dyn telefoan bewarre.
+Uygulama günde birkaç kez mobil veri kullanarak koronavirüs pozitif biriyle temaslı olup olmadığınızı görüyor. Bunun için, uygulama Bluetooth aracılığıyla algılanan kodları veri tabanına yüklenen kodlarla karşılaştırıyor. Kodlar 14 gün boyunca telefonunuzda saklanıyor. Ayarlar kısmından sadece kablosuz internet bağlantısı (Wifi) varken veri kullanımı yapılmasına izin vererek istenmeyen mobil veri maliyetlerini önleyebilirsiniz. Toplanan veriler kaybolmaz; ilerleyen zamanlarda işlenir. 
 
-Ekstra datakosten kinst foarkomme troch der yn de ynstellings foar te kiezen dat allinne data ferbrûkt wurde ast ferbining hast mei wifi. Der gean gjin gegevens ferlern; se wurde allinne op in letter tiidstip útwiksele.
-
-
-## Lês ek:
+## Ayrıca okuyun:
 
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
 - [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)

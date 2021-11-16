@@ -1,34 +1,37 @@
 ---
 set: 2
 index: 8
-title: Hoe sit it mei myn privacy?
+title: Gizliliğim ne olacak?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
+featuredHomeText: Uygulama konumunuz, adınız, e-posta adresiniz, telefon numaranız veya diğer iletişim bilgileriniz olmadan çalışır.
+summary: Uygulama konumunuz, adınız, e-posta adresiniz, telefon numaranız veya diğer iletişim bilgileriniz olmadan çalışır.
 redirect_from: 
   - /tr/faq/5-hoe-zit-het-met-mijn-privacy
 ---
-Gebrûk fan de app is feilich. Dêr soargje wy foar:
-- De app wurdt oanienwei test en ûndersocht.
-- De app wit dyn namme of kontaktgegevens net.
-- Gjinien mei dy twinge om de app te brûken.
-- Saakkundigen fan binnen en bûten de oerheid helpe mei om de app te bouwen.
-- Hûnderten frijwillige eksperts sjogge mei nei de boukwaliteit, privacy en feilichheid fan de app. De wurking fan de app is folslein transparant en open source.
+Bu uygulamanın kullanımı güvenlidir. Bu güvenliği aşağıdaki önlemlerle sağlıyoruz:
 
-## Hoe giet de app om mei persoansgegevens?
-De app wikselet willekeurige koades út mei oare telefoans. Yn dy koades stean gjin persoansgegevens of lokaasjegegevens fan dy. De app wit dus net wa’tst bist en ek net wêr’tst bist.
+- Uygulamayı sürekli test ediyoruz ve kontrol ediyoruz.
+- Uygulama sizin adınızı ve iletişim bilgilerinizi bilmiyor.
+- Hiç kimse sizi bu uygulamayı kullanmaya zorlayamaz.
+- Alanlarında uzman kamu ve özel sektör çalışanları uygulamanın geliştirilmesine yardım ediyor.
+- Yüzlerce gönüllü uzman uygulamanın üretim kalitesi, gizliliği ve güvenliği için katkıda bulunuyor. Uygulama tamamen şeffaf bir şekilde çalışmakta ve açık kaynak kodludur.  
 
-Ek ast it koroanafirus krijst en dat fia de app meldst, is dat net oan dyn namme of kontaktgegevens te keppeljen. Boppedat brûkst de app folslein frijwillich.
+## Uygulama kişisel verileri nasıl işliyor?
 
-Dat jildt ek foar de koroana-apps út oare EU-lannen dêr’t CoronaMelder koades mei útwikselet. CoronaMelder wurket allinne gear mei koroana-apps dy’t hielendal foldogge oan deselde privacy-easken. Krekt as binnen Nederlân witte CoronaMelder en de oare koroana-apps bygelyks net wa’tst bist of wêr’tst bist.
+Uygulama, rastgele kodlar kullanarak diğer telefonlarla kod değişimi yapar. Bu kodlar, size dair herhangi bir kişisel bilgiyi veya konum bilgisini içermez. Bu sayede uygulama kim olduğunuzu veya nerede olduğunuzu bilmez.
+
+Koronavirüs pozitif olsanız ve bunu uygulama aracılığıyla bildirseniz bile, bu bilgi adınız veya iletişim bilgilerinizle ilişkilendirilemez. Üstelik zaten uygulamayı tamamen gönüllü olarak kullanıyorsunuz.
+
+Bu durum CoronaMelder’ın kod değişimi yaptığı diğer AB ülkelerindeki korona uygulamaları için de geçerlidir. CoronaMelder, yalnızca aynı gizlilik standartlarına uyan korona uygulamalarıyla birlikte çalışır. Hollanda’da olduğu gibi, CoronaMelder ve başka korona uygulamaları da kim olduğunuzu ya da nerede olduğunuzu bilmez.
 
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
 
-## Lês ek:
+## Ayrıca okuyun:
  
-- [Hoe werkt de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
+- [Uygulama nasıl çalışır?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
 - [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Hoe stuur ik anderen een melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- [Başkalarına bildirim nasıl yollayabilirim?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)

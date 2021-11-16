@@ -1,16 +1,18 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: Başkalarına bildirim nasıl yollayabilirim?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: Eğer korona testiniz pozitif çıkarsa, sonucunuzu CoronaMelder...
+summary: Eğer korona testiniz pozitif çıkarsa, sonucunuzu CoronaMelder...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+Eğer korona testiniz pozitif çıkarsa, sonucunuzu CoronaMelder uygulaması aracılığıyla bildirebilirsiniz. Bu bildirimi yapabilmeniz için www.coronatest.nl internet sitesinden ya da GGD ile yapacağınız telefon görüşmesinden alacağınız rakam ve harflerden oluşan 7 haneli GGD anahtar koduna ihtiyacınız var. Bu kodu CoronaMelder uygulamasına girmelisiniz. Sadece pozitif sonucu kesinleşmiş kişiler bildirim yollayabilir. 
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+GGD anahtar kodunuz kontrol edildikten sonra, CoronaMelder sistemi telefonunuzdaki kodları diğer CoronaMelder kullanıcılarının kodlarıyla karşılaştırır. Sizin kodunuz başka birin koduyla aynı bölgede mi bulundu? Bu durumda ilgili CoronaMelder kullanıcısına koranavirüs pozitif biriyle temaslı olduğuna dair bir bildirim gider. Bildirimi alan kişi koronavirüs pozitif kişinin kim olduğunu öğrenmez. 
 
-## Lês ek:
+
+## Ayrıca okuyun:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Gizliliğim ne olacak?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 1
-title: Hoe helpt CoronaMelder tsjin koroana?
+title: CoronaMelder koronavirüse karşı nasıl yardımcı olur?
 redirect_from: 
   - /tr/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /tr/faq/2-hoe-helpt-de-app-tegen-corona
@@ -9,16 +9,17 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: CoronaMelder warskôget neidatst yn 'e buert west hast fan immen dy't koroana hat.  
+featuredHomeText: CoronaMelder, Korona olan birinin yakınında bulunduktan sonra sizi uyarır.
+summary: CoronaMelder, Korona olan birinin yakınında bulunduktan sonra sizi uyarır.
 ---
-CoronaMelder helpt de GGD by it kontaktûndersyk. De app warskôget dy datst miskien besmet bist. Sadatst foarkomme kinst datst it firus ûnbewust op oaren oerdraachst.
+CoronaMelder, Belediye Sağlık Hizmetleri’ne (GGD) temaslı kişilerin tespit edilmesinde yardımcı olur. Uygulama, koronavirüsün bulaşmış olma ihtimaline karşı sizi uyarır. Bu şekilde farkında olmadan virüsü başkalarına bulaştırmayı önleyebilirsiniz. 
  
-Hast yn ’e buert west fan immen dy’t koroana blykt te hawwen? En lit dy persoan fia CoronaMelder witte dat hy of sy besmet is? Dan krijst dêrnei in melding yn de app. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Wol hasto mear kâns op besmetting.
- 
-Yn de melding dy’tst yn de app krijst, stiet presys watst dwaan moatst. Lês ek: Wat moat ik dwaan as ik in melding krij?
- 
-CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks minsken yn de grinsregio's fan Nederlân warskôge. Of minsken út oare lannen dy’t yn Nederlân wenje, wurkje, fakânsje fiere of winkelje.
+Koronavirüs pozitif olduğu anlaşılan birinin yakınında mı bulundunuz? Ve bu kişi CoronaMelder uygulamasını kullanarak pozitif olduğunu mu bildirdi? Bu durumda size bir bildirim gelecek. Panik yapmayın: henüz koronavirüs pozitif olup olmadığınız kesin değil. Ancak virüsün size bulaşmış olması daha yüksek bir olasılık. 
 
-## Lês ek:
+Uygulamadan gelen bildirimde ne yapmanız gerektiği ayrıntılı bir şekilde yazıyor. Ayrıca okuyunuz: Bildirim gelirse ne yapmalıyım? 
+
+CoronaMelder, diğer AB ülkelerindeki korona uygulamalarıyla ortaklaşa çalışmaktadır. Örneğin, bu sayede, Hollanda’nın sınır bölgelerinde yaşayan kişiler uyarılmaktadır. Ayrıca, başka ülkelerden gelen ve Hollanda’da yaşayan, çalışan, tatil yapan veya alışverişe gelen kişiler de uyarılmaktadır. 
+
+## Ayrıca okuyun:
 
 [Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)

@@ -1,36 +1,36 @@
 ---
 index: 1
 set: 3
-title: Wannear krij ik in melding?
+title: Bildirim ne zaman gelir?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: bell
-featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
+featuredHomeText:  Temastan sonra test edilmiş ve Korona olduğu belli olan birinin yakınında bulunduktan sonra.
+summary:  Temastan sonra test edilmiş ve Korona olduğu belli olan birinin yakınında bulunduktan sonra.
 redirect_from: 
   - /tr/faq/4-melding
 ---
-Krijst in melding:
-- nei’t immen, nei in GGD-test, fia CoronaMelder meld hat dat er koroana hat
-- én nei’tsto yn de ôfrûne dagen 15 minuten of langer binnen 1,5 meter fan dy persoan west hast.
+Aşağıdaki durum söz konusu olduğunda size bildirim gelir:
 
-Dat kinne ek meardere minsken wêze. CoronaMelder telt alle koarte kontaktmominten mei besmette minsken op ien dei byinoar op. Is dat mei-inoar mear as 15 minuten binnen 1,5 meter? Dan krijst in melding.
+- GGD tarafından test yapılmış bir kişi CoronaMe**l**der uygulaması aracılığıyla korona pozitif olduğunu belirtirse; ve
+-  önceki günlerde 15 dakika veya daha uzun bir süre bu kişinin 1,5 metreden daha yakınında bulunduysanız.
 
-Is der immen by dy delfytst? Dan krijst gjin melding: jim wienen te koart tichtby inoar om besmet te reitsjen. Stie der in muorre tusken jim yn? Dan krijst oer it generaal ek gjin melding.
- 
-CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t dat is. Do wiest bygelyks: 
+Bu, birden çok kişi de olabilir. CoronaMelder bir gün içerisinde koronavirüs pozitif kimselerle temaslı olduğunuz toplam zamanı hesaplar. 1,5 metreden daha yakında bulunduğunuz kişilerle temasınız toplam 15 dakikadan daha mı fazla? O zaman size bir bildirim gelir. 
 
-- by in borrel of itentsje
-- yn in winkel
-- oan it wachtsjen yn in rige 
-- oan it reizgjen
-- oan it sporten
-- oan it wurk
-- op skoalle
+Bisikletle biri yanınızdan mı geçti? Bu durumda bir bildirim almazsınız. Yan yana olduğunuz süre çok kısa olduğu için virüsün size bulaşmış olma ihtimali yoktur. Aranızda bir duvar mı vardı? Bu durumda da büyük olasılıkla bir bildirim gelmez.
 
-15 minuten binnen 1,5 meter fan in besmet persoan en dan krijst letter in melding.
+CoronaMelder buluştuğunuz kişilerin kim olduğunu ya da nerede olduğunuzu bilmez. Örneğin aşağıdaki durumlarda 15 dakika boyunca korona pozitif bir kişinin 1,5 metreden daha yakınında bulunduysanız size bir bildirim gelir:
 
-## Lês ek:
+- Bir yemek ya da kokteylde
+- Bir mağazada
+- Kuyrukta beklerken
+- Seyahatte
+- Sporda
+- İşte
+- Okulda
+
+## Ayrıca okuyun:
 
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
