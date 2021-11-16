@@ -1,6 +1,6 @@
 ---
-index: 1
-set: 3
+set: 1
+index: 3
 title: Wanneer krijg ik een melding?
 showOnFAQoverview: true
 featuredHome: true

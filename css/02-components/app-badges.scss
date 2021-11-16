@@ -1,96 +1,111 @@
 .layout-app-badges {
-  width: 100%;
-  margin-bottom: 0.5em;
-  list-style-type:none;
+    width: 100%;
+    margin-bottom: 0.5em;
+    list-style-type: none;
 
-  img {
-    height: 40px;
-    width: auto;
-  }
+    img {
+        height: 40px;
+        width: auto;
+    }
 
-  .app_badge_column__left {
-    display: inline-block;
-    @media (min-width: 740px) {
-      margin-right: 0.25em;
+    .app_badge_column__left {
+        display: inline-block;
+        @media (min-width: 740px) {
+            margin-right: 0.25em;
+        }
     }
-  }
-  .app_badge_column__right {
-    display: inline-block;
-    @media (min-width: 740px) {
-      margin-left: 0.25em;
+    .app_badge_column__right {
+        display: inline-block;
+        @media (min-width: 740px) {
+            margin-left: 0.25em;
+        }
     }
-  }
 }
 
 .layout-app-badges--center-wrap {
-  margin: 0 auto 1em;
-  padding: 1em 1.6em;
-  position: relative;
-  text-align: center;
+    margin: 0 auto 1em;
+    padding: 1em 1.6em;
+    position: relative;
+    text-align: center;
 
-  img {
-    height: 65px;
-    width: auto;
-  }
-
-  h2 {
-    font-size: 24px;
-    color: #333333;
-    margin-bottom: 1.0em;
-  }
-
-  @media (min-width: 740px) {
-    width: calc(100% - (54px * 2));
-    padding: 50px 80px;
+    img {
+        height: 65px;
+        width: auto;
+    }
 
     h2 {
-        font-size: 32px;
+        font-size: 1.5rem;
+        color: #333333;
+        margin-bottom: 1em;
     }
-  }
 
-  @media (min-width: 960px) {
-    max-width: 940px;
-  }
+    @media (min-width: 740px) {
+        width: calc(100% - (54px * 2));
+        padding: 50px 80px;
 
-  .badges__caveat {
-    max-width: 72ch;
-    text-align: center;
-    margin: 0px auto;
-  }
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    @media (min-width: 960px) {
+        max-width: 940px;
+    }
+
+    .badges__caveat {
+        max-width: 72ch;
+        text-align: center;
+        margin: 0px auto;
+    }
 }
 
 .badges__caveat {
-  max-width: 300px;
+    max-width: 300px;
 
-  @media all and (min-width: 420px) {
-    max-width: 400px;
+    @media all and (min-width: 420px) {
+        max-width: 400px;
 
-    .note {
-      display: none;
+        .note {
+            display: none;
+        }
     }
-  }
 }
 
 .iOS {
-  .play-store { display: none; }
-  .huawei-store { display: none; }
+    .play-store {
+        display: none;
+    }
+    .huawei-store {
+        display: none;
+    }
 }
 
 .layout-app-badges .huawei-only-show-mobile {
-  display: none;
+    display: none;
 }
 
 .android {
-  .app-store { display: none; }
-  .play-store { display: none; }
-  .huawei-store { display: none; }
+    .app-store {
+        display: none;
+    }
+    .play-store {
+        display: none;
+    }
+    .huawei-store {
+        display: none;
+    }
 
-  &.google-play-store {
-    .play-store { display: block; }
-  }
-  &.huawei-app-gallery {
-    .huawei-store { display: block; }
-    .layout-app-badges .huawei-only-show-mobile { display: block; }
-  }
+    &.google-play-store {
+        .play-store {
+            display: block;
+        }
+    }
+    &.huawei-app-gallery {
+        .huawei-store {
+            display: block;
+        }
+        .layout-app-badges .huawei-only-show-mobile {
+            display: block;
+        }
+    }
 }
-

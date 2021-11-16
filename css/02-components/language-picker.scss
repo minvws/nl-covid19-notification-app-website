@@ -1,11 +1,11 @@
 .language-picker {
     background-color: rgba(255, 255, 255, 0.84);
-    color: #090C0E;
+    color: #090c0e;
     position: relative;
     padding: 12px 8px;
     transition: background-color var(--transition-out), color var(--transition-out);
 
-    display: -ms-inline-grid; 
+    display: -ms-inline-grid;
     display: inline-grid;
     -ms-grid-columns: -webkit-max-content 16px;
     -ms-grid-columns: max-content 16px;
@@ -97,7 +97,7 @@
 }
 
 .language-picker__chevron::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     right: 0;
@@ -160,7 +160,7 @@
 
 .language-picker__title {
     color: #090c0e;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1;
     margin: 0;
@@ -201,7 +201,7 @@
     right: 15px;
     min-width: 112px;
     border-radius: 6px;
-    
+
     @media (min-width: 360px) {
         min-width: 118px;
     }
@@ -209,7 +209,7 @@
     .language-picker__current {
         color: $color-RO_darkblue;
     }
-    
+
     .language-picker__label {
         display: none;
     }
@@ -218,7 +218,7 @@
         color: #fff;
     }
 
-    @media(min-width: 680px) {
+    @media (min-width: 680px) {
         top: 30px;
         right: 30px;
         .language-picker__label {
@@ -227,4 +227,3 @@
         }
     }
 }
-

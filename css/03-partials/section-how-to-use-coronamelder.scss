@@ -110,7 +110,7 @@
 
 .stories__story-title__highlight {
     color: $color-magenta; // #a31975
-    font-size: 16px;
+    font-size: 1rem;
     padding: 0.6em 0 0;
     display: block;
 
@@ -121,13 +121,13 @@
 
 .stories__story-title {
     color: $color-RO_darkblue;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 0.1em 0 0.4em;
     font-weight: 800;
     display: block;
 
     @media (min-width: 740px) {
-        font-size: 32px;
+        font-size: 2rem;
     }
 }
 
