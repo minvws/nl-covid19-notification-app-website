@@ -1,16 +1,16 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: Wie schicke ich anderen Menschen eine Nachricht?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: Wenn Ihr Test ergibt, dass Sie Corona haben, können Sie dies ...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+Wenn Ihr Test ergibt, dass Sie Corona haben, können Sie dies über die CoronaMelder-App melden. Entweder über die Website www.coronatest.nl oder per Telefon beim GGD. Sie erhalten einen persönlichen GGD-Schlüssel. Dieser besteht aus 7 Zahlen und Buchstaben. Diesen Schlüssel übermitteln Sie in der CoronaMelder-App. Nur tatsächlich infizierte Personen können eine Nachricht verschicken.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+Nachdem Ihr GGD-Schlüssel kontrolliert und verschickt worden ist, vergleicht das System der CoronaMelder-App die Codes in Ihrem Telefon mit den Codes von Personen, die CoronaMelder ebenfalls benutzen. War Ihr Code in der Nähe eines Codes einer anderen Person? Dann erhält dieser Nutzer der CoronaMelder-App die Warnmeldung, dass er oder sie in der Nähe einer Person mit Corona war. Wer das war, weiß der Empfänger nicht. 
 
-## Lês ek:
+## Mehr Informationen:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

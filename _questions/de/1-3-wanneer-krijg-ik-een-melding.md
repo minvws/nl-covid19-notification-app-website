@@ -30,7 +30,7 @@ CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t
 
 15 minuten binnen 1,5 meter fan in besmet persoan en dan krijst letter in melding.
 
-## Lês ek:
+## Mehr Informationen:
 
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
