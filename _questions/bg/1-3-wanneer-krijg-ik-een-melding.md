@@ -1,36 +1,38 @@
 ---
 index: 1
 set: 3
-title: Wannear krij ik in melding?
+title: Кога ще получа известие?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: bell
-featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
+featuredHomeText: Когато си бил близо до някого, който след срещата ви си е направил тест и има коронавирус.
+summary: Когато си бил близо до някого, който след срещата ви си е направил тест и има коронавирус.
 redirect_from: 
   - /bg/faq/4-melding
 ---
-Krijst in melding:
-- nei’t immen, nei in GGD-test, fia CoronaMelder meld hat dat er koroana hat
-- én nei’tsto yn de ôfrûne dagen 15 minuten of langer binnen 1,5 meter fan dy persoan west hast.
+Ще получите известие, когато:
 
-Dat kinne ek meardere minsken wêze. CoronaMelder telt alle koarte kontaktmominten mei besmette minsken op ien dei byinoar op. Is dat mei-inoar mear as 15 minuten binnen 1,5 meter? Dan krijst in melding.
+- някой посочи през CoronaMelder, че е с коронавирус, след като си е направил тест в GGD
+- и през последните дни сте били на по-малко от 1,5 метра от този човек в продължение на поне 15 минути
 
-Is der immen by dy delfytst? Dan krijst gjin melding: jim wienen te koart tichtby inoar om besmet te reitsjen. Stie der in muorre tusken jim yn? Dan krijst oer it generaal ek gjin melding.
- 
-CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t dat is. Do wiest bygelyks: 
+Това могат да са и няколко човека. CoronaMelder изчислява сбора от всички краткотрайни контакти със заразени хора за един ден. Ако сборът надхвърля 15 минути на разстояние, по-малко от 1,5 метра, ще получите известие.
 
-- by in borrel of itentsje
-- yn in winkel
-- oan it wachtsjen yn in rige 
-- oan it reizgjen
-- oan it sporten
-- oan it wurk
-- op skoalle
+Някой е минал покрай вас на велосипед? Тогава няма да получите известие: били сте прекалено кратко време в близост един до друг, за да се заразите. Има преграда между вас? Тогава по принцип също няма да получите известие.
 
-15 minuten binnen 1,5 meter fan in besmet persoan en dan krijst letter in melding.
+CoronaMelder не знае кои са хората, с които се срещате, както и къде става това. Ако сте били например:
 
-## Lês ek:
+- навън за питие или хапване
+- в магазин
+- на опашка
+- в превозно средство
+- на място за спорт
+- на работа
+- на училище
+
+за 15 минути на по-малко от 1,5 метра от заразен човек, тогава впоследствие ще получете известие.
+
+## Прочетете също:
 
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 1
-title: Hoe helpt CoronaMelder tsjin koroana?
+title: Как CoronaMelder помага в борбата срещу коронавируса?
 redirect_from: 
   - /bg/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /bg/faq/2-hoe-helpt-de-app-tegen-corona
@@ -9,16 +9,17 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: CoronaMelder warskôget neidatst yn 'e buert west hast fan immen dy't koroana hat.  
+featuredHomeText: "CoronaMelder изпраща предупреждение, след като си бил близо до някого с коронавирус."
+summary: "CoronaMelder изпраща предупреждение, след като си бил близо до някого с коронавирус."  
 ---
-CoronaMelder helpt de GGD by it kontaktûndersyk. De app warskôget dy datst miskien besmet bist. Sadatst foarkomme kinst datst it firus ûnbewust op oaren oerdraachst.
- 
-Hast yn ’e buert west fan immen dy’t koroana blykt te hawwen? En lit dy persoan fia CoronaMelder witte dat hy of sy besmet is? Dan krijst dêrnei in melding yn de app. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Wol hasto mear kâns op besmetting.
- 
-Yn de melding dy’tst yn de app krijst, stiet presys watst dwaan moatst. Lês ek: Wat moat ik dwaan as ik in melding krij?
- 
-CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks minsken yn de grinsregio's fan Nederlân warskôge. Of minsken út oare lannen dy’t yn Nederlân wenje, wurkje, fakânsje fiere of winkelje.
+CoronaMelder помага на Общинската здравна инспекция (GGD) при установяването на контактни лица. Приложението ви предупреждава, че има вероятност да сте заразени. Така можете да избегнете неволното предаване на вируса на други хора.
 
-## Lês ek:
+Били сте в близост до някого, който впоследствие се окаже с коронавирус? И този човек посочи през CoronaMelder, че е заразен? Тогава ще получите известие в приложението. Не изпадайте в паника: не е напълно сигурно, че и вие сте с коронавирус. Но все пак има повишен риск и вие да сте заразени.
+
+В известието, което ще получите в приложението, е посочено какво точно да направите. Прочетете също: Какво трябва да направя, ако получа известие?
+
+CoronaMelder осъществява връзка с подобни приложения на други страни от ЕС. Така например и хората в граничните региони на Нидерландия също могат да получават предупреждения. Или пък хората от други държави, които живеят, работят, почиват или пазаруват в Нидерландия.
+
+## Прочетете също:
 
 [Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)

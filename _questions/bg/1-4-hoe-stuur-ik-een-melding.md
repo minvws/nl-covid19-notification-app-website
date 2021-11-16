@@ -1,16 +1,16 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: Как да изпратя известие на други хора?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: В случай че тестът ви за коронавирус се окаже положителен...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+В случай че тестът ви за коронавирус се окаже положителен, можете да посочите това през приложението CoronaMelder. Това може да стене чрез сайта www.coronatest.nl или когато говорите с GGD по телефона. От GGD ще получите персонален ключ, състоящ се от 7 цифри и букви. Трябва да въведете този ключ в приложението CoronaMelder. Само хора, които действително са заразени, могат да изпращат известия.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+След като полученият от GGD ключ бъде проверен и изпратен, системата, управляваща CoronaMelder, сравнява кодовете от вашия телефон с тези на хора, които също използват CoronaMelder. Вашият код е бил в близост до кода на друг човек? Тогава този потребител на CoronaMelder ще получи известие, че е бил в близост до човек, заразен с коронавирус. Без получателят да знае кой е бил това. 
 
-## Lês ek:
+## Прочетете също:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Как стои въпросът със защитата на моите лични данни?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

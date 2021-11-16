@@ -1,34 +1,37 @@
 ---
 set: 2
 index: 8
-title: Hoe sit it mei myn privacy?
+title: Как стои въпросът със защитата на моите лични данни?
 showOnFAQoverview: true
+summary: Приложението работи, без да използва данни за местоположението ти, имейл адреса, телефонния номер или други данни за контакт с теб.
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
+featuredHomeText: Приложението работи, без да използва данни за местоположението ти, имейл адреса, телефонния номер или други данни за контакт с теб.
 redirect_from: 
   - /bg/faq/5-hoe-zit-het-met-mijn-privacy
 ---
-Gebrûk fan de app is feilich. Dêr soargje wy foar:
-- De app wurdt oanienwei test en ûndersocht.
-- De app wit dyn namme of kontaktgegevens net.
-- Gjinien mei dy twinge om de app te brûken.
-- Saakkundigen fan binnen en bûten de oerheid helpe mei om de app te bouwen.
-- Hûnderten frijwillige eksperts sjogge mei nei de boukwaliteit, privacy en feilichheid fan de app. De wurking fan de app is folslein transparant en open source.
+Използването на приложението е безопасно. Ние се грижим за това:
 
-## Hoe giet de app om mei persoansgegevens?
-De app wikselet willekeurige koades út mei oare telefoans. Yn dy koades stean gjin persoansgegevens of lokaasjegegevens fan dy. De app wit dus net wa’tst bist en ek net wêr’tst bist.
+- Приложението непрекъснато се тества и проверява.
+- Приложението не разполага с вашите имена и данни за контакт.
+- Никой няма право да ви принуждава да използвате приложението.
+- Специалисти в държавния сектор, както и такива извън него, съдействат за разработването на приложението.
+- Стотици експерти-доброволци съблюдават за качеството, защитата на личните данни и сигурността на приложението. Приложението работи напълно прозрачно и с отворен код.
 
-Ek ast it koroanafirus krijst en dat fia de app meldst, is dat net oan dyn namme of kontaktgegevens te keppeljen. Boppedat brûkst de app folslein frijwillich.
+## Как приложението борави с моите лични данни?
 
-Dat jildt ek foar de koroana-apps út oare EU-lannen dêr’t CoronaMelder koades mei útwikselet. CoronaMelder wurket allinne gear mei koroana-apps dy’t hielendal foldogge oan deselde privacy-easken. Krekt as binnen Nederlân witte CoronaMelder en de oare koroana-apps bygelyks net wa’tst bist of wêr’tst bist.
+Приложението извършва обмен на произволни кодове с други телефони. В тези кодове не се съдържат ваши лични данни или данни за местоположението ви. Така че приложението не знае кой сте или къде се намирате.
+
+Дори ако се заразите с коронавирус и посочите това през приложението, тази информация няма да се обвърже с вашето име или данните ви за контакт. Освен това използването на приложението е напълно доброволно.
+
+Това се отнася и за приложенията на други страни от ЕС, с които CoronaMelder обменя кодове. CoronaMelder работи само с други подобни приложения, които изцяло отговарят на същите изисквания относно личните данни. Също както в Нидерландия, CoronaMelder и другите приложения, свързани с коронавируса, не знаят например кой сте и къде се намирате.
 
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
 
-## Lês ek:
+## Прочетете също:
  
-- [Hoe werkt de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
+- [Как работи приложението?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
 - [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Hoe stuur ik anderen een melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- [Как да изпратя известие на други хора?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
