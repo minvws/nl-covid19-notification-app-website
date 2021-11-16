@@ -1,22 +1,21 @@
 ---
 set: 2
 index: 2
-title: Hoefolle data en stroom ferbrûkt de app?
+title: ¿Cuántos datos y energía consume la app?
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: battery
-featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
+featuredHomeText: La app consume poca energía. Utiliza Bluetooth de baja energía...
+summary: La app consume poca energía. Utiliza Bluetooth de baja energía...
 redirect_from: 
   - /es/faq/8-loopt-de-batterij-snel-leeg
 ---
-De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren mei CoronaMelder yn de buert west hast, brûkt de app Bluetooth Low Energy (lege-enerzjy-bluetooth). Dat is in spesjale foarm fan bluetooth dy’t weinich stroom ferbrûkt. Hoefolle prosint fan dyn batterij oft de app krekt brûkt, ferskilt per telefoan.
+La app consume poca energía. Utiliza Bluetooth de baja energía para comprobar si has estado cerca de otros usuarios de CoronaMelder. Se trata de una tecnología especial de Bluetooth que consume muy poca energía. El porcentaje exacto de la batería que utiliza la app varía de un teléfono a otro.
 
-De app ferbrûkt in pear kear deis data om te sjen oft immen by wa’tst yn de buert west hast, besmet is. De app ferliket dêrfoar de koades op de server mei de koades dy’tst fia bluetooth útwiksele hast. Dy koades binne dan 14 dagen op dyn telefoan bewarre.
+La app usa los datos unas cuantas veces al día para comprobar si alguna persona de la que hayas estado cerca está infectada. Para ello, coteja los códigos del servidor con los códigos que hayas intercambiado por Bluetooth. Estos códigos se guardan en tu teléfono durante 14 días.
+Si quieres evitar costes no deseados por el uso de datos, en los ajustes puedes seleccionar que solamente se utilicen los datos cuando estés conectado a una red wifi. No se perderá ningún dato, simplemente se intercambiarán más tarde.
 
-Ekstra datakosten kinst foarkomme troch der yn de ynstellings foar te kiezen dat allinne data ferbrûkt wurde ast ferbining hast mei wifi. Der gean gjin gegevens ferlern; se wurde allinne op in letter tiidstip útwiksele.
-
-
-## Lês ek:
+## Lea también:
 
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
 - [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)

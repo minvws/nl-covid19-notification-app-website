@@ -30,7 +30,7 @@ CoronaMelder no sabe quiénes son las personas con las que tienes contacto, ni d
 
 durante 15 minutos a menos de 1,5 metros de una persona infectada, recibirás una notificación.
 
-## Lês ek:
+## Lea también:
 
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

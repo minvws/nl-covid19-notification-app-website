@@ -7,6 +7,7 @@ featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
 featuredHomeText: La app funciona sin localización, correo electrónico, número de teléfono u otros datos de contacto.
+summary: La app funciona sin localización, correo electrónico, número de teléfono u otros datos de contacto.
 redirect_from: 
   - /es/faq/5-hoe-zit-het-met-mijn-privacy
 ---

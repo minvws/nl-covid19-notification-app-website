@@ -5,7 +5,8 @@ title: ¿Cómo puedo enviar yo una notificación a los demás?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: Si das positivo en un test de coronavirus, puedes comunicarlo a través de la app CoronaMelder.
+featuredHomeText: Si das positivo en un test de coronavirus, puedes comunicarlo...
+summary: Si das positivo en un test de coronavirus, puedes comunicarlo...
 ---
 Si das positivo en un test de coronavirus, puedes comunicarlo a través de la app CoronaMelder. Para ello, entra en la página web www.coronatest.nl o llama por teléfono a los GGD. Recibirás una clave GGD personal compuesta por siete cifras y letras, que deberás introducir en la app CoronaMelder. Solamente pueden enviar una notificación quienes se hayan contagiado.
 
