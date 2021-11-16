@@ -6,31 +6,39 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: bell
-featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
+featuredHomeText:  بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.
+summary:  بعد أن تواجدت بالقرب من شخص تم اختباره بعد مصادفتكما وتبين أنه مصاب بكورونا.
 redirect_from: 
   - /ar/faq/4-melding
 ---
-Krijst in melding:
-- nei’t immen, nei in GGD-test, fia CoronaMelder meld hat dat er koroana hat
-- én nei’tsto yn de ôfrûne dagen 15 minuten of langer binnen 1,5 meter fan dy persoan west hast.
+ **
 
-Dat kinne ek meardere minsken wêze. CoronaMelder telt alle koarte kontaktmominten mei besmette minsken op ien dei byinoar op. Is dat mei-inoar mear as 15 minuten binnen 1,5 meter? Dan krijst in melding.
+** Oude URL:[ https://www.coronamelder.nl/nl/faq/4-melding/](https://www.coronamelder.nl/nl/faq/4-melding/)
 
-Is der immen by dy delfytst? Dan krijst gjin melding: jim wienen te koart tichtby inoar om besmet te reitsjen. Stie der in muorre tusken jim yn? Dan krijst oer it generaal ek gjin melding.
- 
-CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t dat is. Do wiest bygelyks: 
 
-- by in borrel of itentsje
-- yn in winkel
-- oan it wachtsjen yn in rige 
-- oan it reizgjen
-- oan it sporten
-- oan it wurk
-- op skoalle
 
-15 minuten binnen 1,5 meter fan in besmet persoan en dan krijst letter in melding.
+سوف تتلقى إشعارًا في الحالة التالية:
 
-## Lês ek:
+- إذا أبلغ شخص ما عن إصابته بفيروس كورونا بعد إجراء فحص دائرة الصحة البلدية (GGD) للتحقق من الإصابة بفيروس كورونا.
+- وكنت أنت متواجد بجانب هذا الشخص لمدة 15 دقيقة أو أكثر ضمن مسافة أقل من 1.5 متر خلال الأيام القليلة الماضية
+
+ويمكن أن يكونوا عدة أشخاص أيضًا. يجمع تطبيق CoronaMelder جميع أوقات المخالطة القصيرة للأشخاص المصابين في يوم واحد مع بعضها. هل كنت متواجدًا بجانب شخص مُصاب لمدة 15 دقيقة أو أكثر ضمن مسافة أقل من 1.5 متر؟ في هذه الحالة، سوف تتلقى إخطارًا.
+
+هل مر شخص مُصاب بفيروس بجوارك بالدراجة؟ في هذه الحالة، لن تتلقى إشعارًا: لأنكما تواجدتما بجوار بعضكما البعض لمدة قصيرة جدًا لا تكفي لنقل العدوى. هل كان هناك جدار حائل بينك وبين الشخص الذي أصيب بفيروس كورونا؟ في هذه الحالة، لن تتلقى إشعارًا في العموم.
+
+لا يعرف تطبيق CoronaMelder من هم الأشخاص الذين تقابلهم ولا أين قابلتهم. على سبيل المثال، لقد كنت:
+
+- تحتسي مشروبًا أو تتناول وجبة
+- في متجر
+- تنظر في طابور
+- في سفر
+- تمارس الرياضة
+- في العمل
+- في المدرسة
+
+عندما تتواجد بجانب شخص مُصاب لمدة 15 دقيقة أو أكثر ضمن مسافة أقل من 1.5 متر، سوف تلقي إشعارًا لاحقًا.
+
+## معلومات اكثر:
 
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

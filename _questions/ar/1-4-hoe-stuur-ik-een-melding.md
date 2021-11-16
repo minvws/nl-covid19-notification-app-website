@@ -1,16 +1,17 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: كيف يمكنني إرسال إخطار للآخرين؟
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: إذا أظهر الفحص إصابتك بفيروس كورونا، فيمكنك الإبلاغ عن ذلك عبر تطبيق...
+summary: إذا أظهر الفحص إصابتك بفيروس كورونا، فيمكنك الإبلاغ عن ذلك عبر تطبيق
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+إذا أظهر الفحص إصابتك بفيروس كورونا، فيمكنك الإبلاغ عن ذلك عبر تطبيق CoronaMelder. يمكنك القيام بذلك عبر الموقع الإلكتروني www.coronatest.nl أو عبر الاتصال الهاتفي بدائرة الصحة البلدية (GGD). وعندئذ سوف تتلقى كودًا شخصيًا لدائرة الصحة البلدية (GGD) مُكون من 7 أرقام وحروف. ويمكنك إدخال هذا الكود في تطبيق CoronaMelder. فقط الأشخاص الذين ثبتت إصابتهم بالفيروس حقًا يمكنهم إرسال إشعار.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+بعد التحقق من كود دائرة الصحة البلدية (GGD) الخاص بك وإرساله، يقارن نظام CoronaMelder كود هاتفك بالأكواد الخاصة بالأشخاص الذين يستخدمون تطبيق CoronaMelder أيضًا. هل كان الكود الخاص بك قريبًا من كود شخص آخر؟ في هذه الحالة، سوف يتلقى مُستخدم تطبيق CoronaMelder إشعارًا بأنه كان متواجدًا بالقرب من شخص مُصاب بفيروس كورونا. دون أن يعرف هذا الشخص من هو الشخص المُصاب.
 
-## Lês ek:
+## معلومات اكثر:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [ماذا عن خصوصيتي؟](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

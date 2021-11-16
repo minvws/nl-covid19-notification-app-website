@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 1
-title: Hoe helpt CoronaMelder tsjin koroana?
+title: كيف يساعد تطبيق CoronaMelder في مواجهة فيروس كورونا؟
 redirect_from: 
   - /ar/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /ar/faq/2-hoe-helpt-de-app-tegen-corona
@@ -9,16 +9,16 @@ showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: CoronaMelder warskôget neidatst yn 'e buert west hast fan immen dy't koroana hat.  
+featuredHomeText: يقوم CoronaMelder  بتحذيرك بعد تواجدك بالقرب من شخص مصاب بكورونا.
 ---
-CoronaMelder helpt de GGD by it kontaktûndersyk. De app warskôget dy datst miskien besmet bist. Sadatst foarkomme kinst datst it firus ûnbewust op oaren oerdraachst.
- 
-Hast yn ’e buert west fan immen dy’t koroana blykt te hawwen? En lit dy persoan fia CoronaMelder witte dat hy of sy besmet is? Dan krijst dêrnei in melding yn de app. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Wol hasto mear kâns op besmetting.
- 
-Yn de melding dy’tst yn de app krijst, stiet presys watst dwaan moatst. Lês ek: Wat moat ik dwaan as ik in melding krij?
- 
-CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks minsken yn de grinsregio's fan Nederlân warskôge. Of minsken út oare lannen dy’t yn Nederlân wenje, wurkje, fakânsje fiere of winkelje.
+يساعد تطبيق CoronaMelder دائرة الصحة البلدية (GGD) في إجراء بحث تتبع المخالطين للشخص المُصاب في حال حدوث إصابة بفيروس كورونا. يحذرك التطبيق من احتمالية كونك أصبت بفيروس كورونا. لكي تتمكن من تجنب نقل الفيروس دون قصد إلى أشخاص آخرين.
 
-## Lês ek:
+هل كنت مخالطًا لشخص تبين أنه مصاب بفيروس كورونا؟ ثم قام هذا الشخص بالإبلاغ عن إصابته بفيروس كورونا عبر تطبيق CoronaMelder؟ في هذه الحالة، سوف تتلقى إشعارًا بذلك في التطبيق. ثم لا داعي للذعر: فليس من المؤكد أن تكون أنت أيضًا مُصابًا بفيروس كورونا. ولكن احتمالية إصابتك بالفيروس تكون أكبر من احتمالية إصابة غيرك من الناس.
+
+سوف تجد في الرسالة التي تتلقاها في التطبيق ما يجب عليك فعله بالضبط. اقرأ أيضًا: ماذا أفعل إذا تلقيت إشعارًا؟
+
+يعمل تطبيق CoronaMelder مع تطبيقات كورونا بدول الاتحاد الأوروبي الأخرى. وبالتالي، يتم تحذير الأشخاص المقيمين في المناطق الحدودية لهولندا على سبيل المثال. أو أشخاص من بلدان أخرى يعيشون ويعملون في هولندا أو يأتون إلى هولندا لقضاء العطلة أو التسوق.
+
+## معلومات اكثر:
 
 [Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)
