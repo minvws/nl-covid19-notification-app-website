@@ -1,16 +1,16 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: Jak mogę wysłać powiadomienie innym osobom?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: Jeśli wykonasz test i wykaże on, że jesteś zakażony koronawirusem...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+Jeśli wykonasz test i wykaże on, że jesteś zakażony koronawirusem, możesz to zgłosić za pomocą aplikacji CoronaMelder. Zrobisz to na stronie internetowej www.coronatest.nl lub dzwoniąc do GGD. Otrzymasz wtedy składający się z 7 cyfr i liter osobisty klucz GGD, który należy następnie wysłać za pomocą aplikacji CoronaMelder. Tylko osoby, które są naprawdę zakażone, mogą wysłać zgłoszenie.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+Po sprawdzeniu i wysłaniu Twojego klucza GGD system, na podstawie którego działa CoronaMelder, porównuje kody z Twojego telefonu z kodami osób, które również używają CoronaMelder. Jeśli Twój kod znajdzie się w pobliżu kodu innego użytkownika tej aplikacji, otrzyma on powiadomienie, że przebywał blisko osoby zakażonej koronawirusem. Nie będzie jednak wiedział, kim była ta osoba. 
 
-## Lês ek:
+## Przeczytaj także:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

@@ -1,29 +1,30 @@
 ---
 set: 1
 index: 2
-title: Hoe wurket de app?
+title: Jak działa aplikacja
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: app-touch
-featuredHomeText: De app stjoert dy in berjocht ast in skoftke yn de buert west hast fan immen dy’t besmet is mei it koroanafirus.
+featuredHomeText: Aplikacja przysyła Ci wiadomość, jeśli przez pewien czas znajdowałeś się w pobliżu osoby zarażonej koronawirusem.
+summary: Aplikacja przysyła Ci wiadomość, jeśli przez pewien czas znajdowałeś się w pobliżu osoby zarażonej koronawirusem.
 showBadges: true
 redirect_from: 
   - /pl/faq/6-hoe-werkt-de-app
 ---
-CoronaMelder stjoert dy in berjocht ast 15 minuten yn de buert west hast fan immen dy’t besmet is mei it koroanafirus – as dy persoan alteast ek CoronaMelder op syn telefoan hat. Sadwaande kinst op tiid aksje ûndernimme, lykas it dwaan fan in koroanatest en thúsbliuwe. Sa foarkomst datst it firus ûnbewust op oaren oerdraachst.
+CoronaMelder wysyła Ci powiadomienie, jeśli przebywałeś przez 15 minut w pobliżu zarażonej koronawirusem osoby, która również posiada tę aplikację na swoim telefonie. Dzięki temu możesz na czas podjąć działania, takie jak wykonanie testu na koronawirusa i pozostanie w domu. W ten sposób unikniesz nieświadomego zarażenia innych osób.
 
-De CoronaMelder-app wurket sa:
- 
-1. CoronaMelder sjocht fia bluetooth oftst deunby immen west hast dy’t de app ek hat.
-2. Wat sterker it sinjaal, nammerste tichterby hast west. Sa bepaalt de app oftst binnen 1,5 meter ôfstân west hast.
-3. De app wurket sûnder dyn lokaasje, namme, mailadres, telefoannûmer of oare kontaktgegevens. De app wit net wa’tst bist, wa’t de oar is of wêr’t jim binne.
-4. Ast yn de buert west hast fan immen mei it koroanafirus dy’t dat trochjout fia de app, dan krijsto letter in melding fan de app.
-5. Ast sels it koroanafirus krijst, dan kinst dat yn de app witte litte. Dan warskôget de app minsken mei wa’tst kontakt hân hast.
+Aplikacja CoronaMelder działa w następujący sposób:
 
-Yn in melding stiet allinne wannear’t immen deunby in besmet persoan west hat. Dus net wa’t dat is of wêr’t se dy persoan tsjinkaam binne.
+1. CoronaMelder sprawdza za pośrednictwem bluetootha, czy znajdowałeś się blisko osoby, która również korzysta z CoronaMelder.
+2. Im silniejszy sygnał, tym bliżej się znajdowałeś. W ten sposób aplikacja ustala, czy znajdowałeś się w odległości 1,5 metra od zakażonego.
+3. Aplikacja nie korzysta z Twojej lokalizacji, imienia i nazwiska, adresu e-mail, numeru telefonu, czy innych danych kontaktowych. Aplikacja nie wie kim jesteś, kim jest ta inna osoba, ani gdzie się znajdujecie.
+4. Jeśli znajdowałeś się w pobliżu osoby zakażonej koronawirusem, która zgłosiła swoją chorobę za pomocą aplikacji, otrzymasz w związku z tym powiadomienie.
+5. Jeśli sam zostaniesz zarażony koronawirusem, możesz przekazać tę informację aplikacji. W takim przypadku aplikacja ostrzeże ludzi, z którymi miałeś kontakt.
 
-## Lês ek:
+Powiadomienie informuje wyłącznie o tym, kiedy ktoś miał kontakt z osobą zakażoną. Nie przekazuje danych tej osoby, ani miejsca spotkania.
+
+## Przeczytaj także:
 
 - [Waar kan ik in makkelijke taal informatie vinden over de app?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 

@@ -1,22 +1,20 @@
 ---
 set: 2
 index: 2
-title: Hoefolle data en stroom ferbrûkt de app?
+title: Jak dużo transferu danych i baterii zużywa aplikacja?
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: battery
-featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
+featuredHomeText: Aplikacja zużywa bardzo mało energii. Korzysta z...
 redirect_from: 
   - /pl/faq/8-loopt-de-batterij-snel-leeg
 ---
-De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren mei CoronaMelder yn de buert west hast, brûkt de app Bluetooth Low Energy (lege-enerzjy-bluetooth). Dat is in spesjale foarm fan bluetooth dy’t weinich stroom ferbrûkt. Hoefolle prosint fan dyn batterij oft de app krekt brûkt, ferskilt per telefoan.
+Aplikacja zużywa bardzo mało energii. Korzysta z niskoenergetycznego bluetootha, aby sprawdzić, czy przebywałeś w pobliżu innych osób posiadających aplikację CoronaMelder. Jest to specjalny wariant technologii bluetooth, która zużywa niewielką ilość energii. Dokładny procent zużycia baterii zależy od telefonu.
 
-De app ferbrûkt in pear kear deis data om te sjen oft immen by wa’tst yn de buert west hast, besmet is. De app ferliket dêrfoar de koades op de server mei de koades dy’tst fia bluetooth útwiksele hast. Dy koades binne dan 14 dagen op dyn telefoan bewarre.
+Aplikacja korzysta z transferu danych kilka razy dziennie, aby sprawdzić, czy któraś z osób, w pobliżu których przebywałeś, nie była zakażona. W tym celu aplikacja porównuje kody na serwerze z kodami, które wymieniłeś z innymi użytkownikami przez bluetooth. Kody te są następnie przechowywane w Twoim telefonie przez 14 dni.
+Możesz uniknąć niepożądanych opłat za transfer danych, wybierając w ustawieniach, by dane były przesyłane tylko podczas połączenia z Wi-Fi. Żadne dane nie zostaną przez to utracone – zostaną tylko przesłane w późniejszym czasie.
 
-Ekstra datakosten kinst foarkomme troch der yn de ynstellings foar te kiezen dat allinne data ferbrûkt wurde ast ferbining hast mei wifi. Der gean gjin gegevens ferlern; se wurde allinne op in letter tiidstip útwiksele.
-
-
-## Lês ek:
+## Przeczytaj także:
 
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
 - [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
