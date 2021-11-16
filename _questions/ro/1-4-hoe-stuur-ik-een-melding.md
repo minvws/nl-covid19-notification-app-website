@@ -14,4 +14,4 @@ După ce codul dvs. GGD a fost verificat și trimis, sistemul din spatele Corona
 
 ## Vezi de asemenea:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Cum stau lucrurile cu confidențialitatea datelor mele?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
