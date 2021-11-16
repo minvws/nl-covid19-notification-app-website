@@ -28,7 +28,7 @@ Chiar dacă te infectezi cu coronavirus și îl raportezi prin intermediul aplic
 Acest lucru este valabil și pentru aplicațiile corona din alte țări ale UE cu care CoronaMelder face schimb de coduri. CoronaMelder funcționează numai cu aplicații corona care îndeplinesc pe deplin aceleași cerințe de confidențialitate. La fel ca în Olanda, CoronaMelder și alte aplicații corona, de exemplu, nu știu cine sunteți sau unde vă aflați.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
 ## Vezi de asemenea:
  

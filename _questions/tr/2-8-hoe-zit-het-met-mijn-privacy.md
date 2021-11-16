@@ -28,7 +28,7 @@ Koronavirüs pozitif olsanız ve bunu uygulama aracılığıyla bildirseniz bile
 Bu durum CoronaMelder’ın kod değişimi yaptığı diğer AB ülkelerindeki korona uygulamaları için de geçerlidir. CoronaMelder, yalnızca aynı gizlilik standartlarına uyan korona uygulamalarıyla birlikte çalışır. Hollanda’da olduğu gibi, CoronaMelder ve başka korona uygulamaları da kim olduğunuzu ya da nerede olduğunuzu bilmez.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
 ## Ayrıca okuyun:
  

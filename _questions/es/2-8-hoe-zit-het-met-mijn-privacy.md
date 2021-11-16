@@ -28,7 +28,7 @@ Aun en el caso de que te infectes con el coronavirus y lo comuniques a través d
 Lo mismo ocurre con las apps sobre el coronavirus de otros países de la UE con las que CoronaMelder intercambia los códigos. CoronaMelder colabora exclusivamente con apps de coronavirus que cumplen escrupulosamente las mismas condiciones de privacidad. Al igual que ocurre en los Países Bajos, CoronaMelder y las demás apps de coronavirus no saben quién eres ni dónde estás, entre otras cosas.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
 ## Lea mas:
  

@@ -28,7 +28,7 @@ redirect_from:
 Това се отнася и за приложенията на други страни от ЕС, с които CoronaMelder обменя кодове. CoronaMelder работи само с други подобни приложения, които изцяло отговарят на същите изисквания относно личните данни. Също както в Нидерландия, CoronaMelder и другите приложения, свързани с коронавируса, не знаят например кой сте и къде се намирате.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
 ## Прочетете също:
  

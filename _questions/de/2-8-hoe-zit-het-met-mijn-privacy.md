@@ -28,7 +28,7 @@ Bekommen Sie Corona und melden dies über die App? Auch dann gibt es keine Verbi
 Dies gilt auch für die Corona-Apps anderer EU-Länder, mit denen CoronaMelder Codes austauscht. CoronaMelder arbeitet nur mit Corona-Apps zusammen, die den gleichen Anforderungen im Bereich des Datenschutzes vollständig genügen. Ebenso wie innerhalb der Niederlande wissen CoronaMelder und die anderen Corona-Apps beispielsweise nicht, wer Sie sind oder wo Sie sind.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
 ## Mehr Informationen:
  

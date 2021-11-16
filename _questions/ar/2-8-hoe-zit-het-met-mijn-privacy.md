@@ -28,7 +28,7 @@ redirect_from:
 وينطبق ذلك أيضًا على تطبيقات كورونا بدول الاتحاد الأوروبي الأخرى التي يتبادل تطبيق CoronaMelder الأكواد معها. لا يتعامل تطبيق CoronaMelder إلا مع تطبيقات كورونا التي تفي تمامًا بمتطلبات الخصوصية نفسها التي ننتهجها. تمامًا كما هو الحال في هولندا، لا يعرف تطبيق CoronaMelder وتطبيقات كورونا الأخرى من أنت أو مكان وجودك على سبيل المثال.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
 ## معلومات اكثر:
  
