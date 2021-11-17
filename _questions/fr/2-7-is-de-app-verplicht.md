@@ -7,3 +7,8 @@ redirect_from:
 contentLang: en
 ---
 {% include content/en/2-7-is-de-app-verplicht.md %}
+
+## Also see:
+
+- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Wat regelt de wet over de app?](/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app)
