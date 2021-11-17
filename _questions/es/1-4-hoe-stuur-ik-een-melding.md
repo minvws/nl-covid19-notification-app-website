@@ -14,4 +14,4 @@ Una vez verificada y enviada tu clave GGD, el sistema de CoronaMelder compara lo
 
 ## Lea mas:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [¿Cómo tratáis la cuestión de la privacidad?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

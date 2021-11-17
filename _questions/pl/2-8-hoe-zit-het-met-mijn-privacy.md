@@ -1,12 +1,13 @@
 ---
 set: 2
 index: 8
-title: Hoe sit it mei myn privacy?
+title: Co z moją prywatnością?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
+featuredHomeText: Aplikacja nie korzysta z Twojej lokalizacji, imienia i nazwiska, adresu e-mail, numeru telefonu, czy innych danych kontaktowych.
+summary: Aplikacja nie korzysta z Twojej lokalizacji, imienia i nazwiska, adresu e-mail, numeru telefonu, czy innych danych kontaktowych.
 redirect_from: 
   - /pl/faq/5-hoe-zit-het-met-mijn-privacy
 ---

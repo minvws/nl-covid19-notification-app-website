@@ -13,4 +13,4 @@ Nachdem Ihr GGD-Schlüssel kontrolliert und verschickt worden ist, vergleicht da
 
 ## Mehr Informationen:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Wie sieht es mit meinem Datenschutz aus?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
