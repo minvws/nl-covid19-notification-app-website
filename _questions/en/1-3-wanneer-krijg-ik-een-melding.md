@@ -1,36 +1,38 @@
 ---
 index: 1
 set: 3
-title: Wannear krij ik in melding?
+title: When will I get a notification?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: bell
-featuredHomeText: Neidatst yn de buert west hast fan immen dy't nei jim moeting test is en koroana hat.
+featuredHomeText: If you have been near someone who later tests positive for coronavirus since you were near them, you will get a notification.
+summary: If you have been near someone who later tests positive for coronavirus since you were near them, you will get a notification.
 redirect_from: 
   - /en/faq/4-melding
 ---
-Krijst in melding:
-- nei’t immen, nei in GGD-test, fia CoronaMelder meld hat dat er koroana hat
-- én nei’tsto yn de ôfrûne dagen 15 minuten of langer binnen 1,5 meter fan dy persoan west hast.
+You will get a notification after:
 
-Dat kinne ek meardere minsken wêze. CoronaMelder telt alle koarte kontaktmominten mei besmette minsken op ien dei byinoar op. Is dat mei-inoar mear as 15 minuten binnen 1,5 meter? Dan krijst in melding.
+- somebody uses CoronaMelder to report that they have coronavirus after a test with the GGD,
+- and you were within 1.5 metres from that person for at least 15 minutes in the last few days.
 
-Is der immen by dy delfytst? Dan krijst gjin melding: jim wienen te koart tichtby inoar om besmet te reitsjen. Stie der in muorre tusken jim yn? Dan krijst oer it generaal ek gjin melding.
- 
-CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t dat is. Do wiest bygelyks: 
+This may be one person, or several. The CoronaMelder app counts all moments you were in contact with infected persons on one day. If this adds up to more than 15 minutes within 1.5 metres, you will get a notification.
 
-- by in borrel of itentsje
-- yn in winkel
-- oan it wachtsjen yn in rige 
-- oan it reizgjen
-- oan it sporten
-- oan it wurk
-- op skoalle
+But if an infected person just cycled past you in the street, you will not get a notification because you were not near that person for long enough to get infected. If there was a wall between you and the infected person, you will not normally get a notification either.
 
-15 minuten binnen 1,5 meter fan in besmet persoan en dan krijst letter in melding.
+CoronaMelder does not know the identity of the people you met or where you met them. For example, you could have been:
 
-## Lês ek:
+- eating or drinking with somebody,
+- in a shop,
+- waiting in line,
+- travelling,
+- doing sport,
+- at work,
+- at school
 
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
+for 15 minutes within 1.5 metres from an infected person. In that case you will get a notification later on.
+
+## See also:
+
+- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [What should I do if I get a notification?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

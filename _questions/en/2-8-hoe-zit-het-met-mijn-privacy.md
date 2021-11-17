@@ -1,34 +1,37 @@
 ---
 set: 2
 index: 8
-title: Hoe sit it mei myn privacy?
+title: How about my privacy?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: privacy
-featuredHomeText: De app wurket sûnder dyn lokaasje, telefoannûmer of oare kontaktgegevens.
+featuredHomeText: The app works without your location, name, email address, phone number, or other contact details.
+summary: The app works without your location, name, email address, phone number, or other contact details.
 redirect_from: 
   - /en/faq/5-hoe-zit-het-met-mijn-privacy
 ---
-Gebrûk fan de app is feilich. Dêr soargje wy foar:
-- De app wurdt oanienwei test en ûndersocht.
-- De app wit dyn namme of kontaktgegevens net.
-- Gjinien mei dy twinge om de app te brûken.
-- Saakkundigen fan binnen en bûten de oerheid helpe mei om de app te bouwen.
-- Hûnderten frijwillige eksperts sjogge mei nei de boukwaliteit, privacy en feilichheid fan de app. De wurking fan de app is folslein transparant en open source.
+The app is secure. We make sure that:
 
-## Hoe giet de app om mei persoansgegevens?
-De app wikselet willekeurige koades út mei oare telefoans. Yn dy koades stean gjin persoansgegevens of lokaasjegegevens fan dy. De app wit dus net wa’tst bist en ek net wêr’tst bist.
+- The app is being tested and checked all the time.
+- The app does not know your name or any other personal details.
+- Nobody can force you to use the app.
+- Experts from inside and outside the government have helped to build the app.
+- On a voluntary basis, hundreds of experts check the quality, privacy and safety aspects of the app. The app works entirely on the basis of transparent and open-source principles.
 
-Ek ast it koroanafirus krijst en dat fia de app meldst, is dat net oan dyn namme of kontaktgegevens te keppeljen. Boppedat brûkst de app folslein frijwillich.
+## How does the app deal with personal data?
 
-Dat jildt ek foar de koroana-apps út oare EU-lannen dêr’t CoronaMelder koades mei útwikselet. CoronaMelder wurket allinne gear mei koroana-apps dy’t hielendal foldogge oan deselde privacy-easken. Krekt as binnen Nederlân witte CoronaMelder en de oare koroana-apps bygelyks net wa’tst bist of wêr’tst bist.
+The app exchanges random codes with other phones. These codes do not contain any data about you or your location. So the app does not know who you are or where you are.
+
+Even if you are infected with coronavirus and you report this via the app, this cannot be linked to your name or contact details. You are also completely free to choose whether or not you use the app.
+
+This also applies to the corona apps from other EU countries with which CoronaMelder exchanges codes. CoronaMelder only works with corona apps that fully meet the same privacy requirements. Just like in the Netherlands, CoronaMelder and the other corona apps do not know who you are or where you are.
 
 [comment]: <> This include below is a video.
-{% include components/mediaelement.html key="2020-10-07-video-privacy" width="100%" height="394" videoLang="nl" %}
+{% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
-## Lês ek:
+## See also:
  
-- [Hoe werkt de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Hoe stuur ik anderen een melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- [How does the app work?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
+- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
+- [How should I send a notification to other people?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)

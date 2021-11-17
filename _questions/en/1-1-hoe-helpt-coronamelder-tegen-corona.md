@@ -1,24 +1,26 @@
 ---
 set: 1
 index: 1
-title: Hoe helpt CoronaMelder tsjin koroana?
+title: How will the CoronaMelder app help to stop coronavirus?
 redirect_from: 
   - /en/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /en/faq/2-hoe-helpt-de-app-tegen-corona
+summary: With CoronaMelder, you will find out sooner if you have been at a higher risk of infection.
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: heart
-featuredHomeText: CoronaMelder warskôget neidatst yn 'e buert west hast fan immen dy't koroana hat.  
+featuredHomeText: With CoronaMelder, you will find out sooner if you have been at a higher risk of infection.
 ---
-CoronaMelder helpt de GGD by it kontaktûndersyk. De app warskôget dy datst miskien besmet bist. Sadatst foarkomme kinst datst it firus ûnbewust op oaren oerdraachst.
+The CoronaMelder app helps the Municipal Health Service (GGD) in its contract tracing work. The app will warn you that you may have been infected. That way, you can avoid spreading the virus to other people.
  
-Hast yn ’e buert west fan immen dy’t koroana blykt te hawwen? En lit dy persoan fia CoronaMelder witte dat hy of sy besmet is? Dan krijst dêrnei in melding yn de app. Reitsje net yn panyk: it is net wis datsto dan ek koroana hast. Wol hasto mear kâns op besmetting.
+Have you been near someone who later tested positive for coronavirus? And does that person add their positive status to the app? You will then get a notification from the app. Don't panic – this does not automatically mean that you have coronavirus too. It does mean that you could have been infected.
  
-Yn de melding dy’tst yn de app krijst, stiet presys watst dwaan moatst. Lês ek: Wat moat ik dwaan as ik in melding krij?
+The notification from your app will tell you exactly what to do. Also read: What should I do if I get a notification?
  
-CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks minsken yn de grinsregio's fan Nederlân warskôge. Of minsken út oare lannen dy’t yn Nederlân wenje, wurkje, fakânsje fiere of winkelje.
+CoronaMelder is linked to the corona apps used in other EU countries. For example, this makes it possible to warn people who live close to the border, or people visiting the Netherlands because they live here, work here, or are visiting the Netherlands for a holiday or shopping trip.
 
-## Lês ek:
+## See also:
 
-[Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)
+- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen)
+- [Research: how do we know if CoronaMelder helps against coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)

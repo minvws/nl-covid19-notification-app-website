@@ -1,24 +1,22 @@
-Ja, CoronaMelder wisselt codes uit met apps uit een aantal andere Europese landen. Dit gebeurt op dezelfde manier als tussen twee gebruikers van CoronaMelder die bij elkaar in de buurt waren. Als één van jullie positief getest wordt en dit meldt in de app, dan ontvangt de ander een melding.
+Yes, CoronaMelder exchanges codes with apps from a number of other European countries. This is done in the same way as between two users of CoronaMelder. If one of you then tests positive and reports this in the app, the other person will receive a notification.
 
-Vanaf 30 november 2021 werkt CoronaMelder samen met de corona-apps uit:
+From November 30, CoronaMelder works together with these corona notification apps:
 
-- Duitsland
-- Italië
-- Ierland
-- Spanje
-- Letland
-- Kroatië
-- Denemarken
-- België
+- Germany
+- Italy
+- Ireland
+- Spain
+- Latvia
+- Croatia
+- Denmark
+- Belgium
 - Finland
-- Noorwegen
-- Slovenië
+- Norway
+- Slovenia
 
-Je kunt een buitenlandse gebruiker van een corona-app tegenkomen in Nederland, bijvoorbeeld als jij een Duitser ontmoet die hier op reis is. Of jij kunt zelf in het buitenland een andere reiziger ontmoeten, bijvoorbeeld als je naar Duitsland reist óf als je een Duitser tegenkomt in Denemarken. Als de buitenlandse gebruiker later corona blijkt te hebben en dit in de app te meldt, ontvang jij een melding van CoronaMelder. En andersom. De samenwerking met apps van andere landen is handig voor mensen die in grensgebieden wonen en/of werken en als je op vakantie gaat.
+You can meet a foreign user of a corona notification app in the Netherlands, for example if you meet a German who is traveling here. Or you can meet another traveler abroad, for example if you are traveling to Germany or if you meet a German person in Denmark. If the foreign user later turns out to have corona and decides to report this in the app, you will receive a notification from CoronaMelder. And vice versa. The cooperation with apps from other countries is therefore also useful for people who live and/or work in border areas.
 
-Melden in de Nederlandse CoronaMelder werkt alleen in samenwerking met de Nederlandse GGD en met Nederlandse testaanbieders. Als je een coronatest in het buitenland doet en je blijkt besmet te zijn, kun je dat dus niet melden via CoronaMelder.
-
-Als je in het buitenland bent, zal je telefoon regelmatig gegevens uitwisselen met de corona-apps uit andere landen. Daardoor zal het dataverkeer door CoronaMelder stijgen. Voorkom dan extra kosten. Bij ‘instellingen’ kun je instellen dat gegevens alleen worden verstuurd als je verbinding hebt met wifi. Dan gaan er geen gegevens verloren; ze worden alleen op een later tijdstip uitgewisseld.
+CoronaMelder only works in collaboration with the Dutch GGD and with Dutch recognized tests. If you take a corona test abroad and you turn out to be infected, you cannot report this via CoronaMelder.
 
 ## Also see:
 - [Waar kan ik een NAAT(PCR)- of sneltest laten doen in het buitenland?](https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland)

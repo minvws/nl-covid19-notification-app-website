@@ -1,16 +1,16 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: How should I send a notification to other people?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: If you test positive for coronavirus, you can choose to add...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+If you test positive for coronavirus, you can choose to add this information to the CoronaMelder app. You can do so via the website www.coronatest.nl or in your call with the Municipal Health Service (GGD). You will then receive a personal GGD key made up of 7 numbers and letters. You can report this code using the CoronaMelder app. Only people who are really infected can send a notification.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+After checking and sending your GGD key, the CoronaMelder system compares the codes from your telephone with the codes of people who are also using the CoronaMelder app. If your code was near to another person's code, that user of the CoronaMelder app will get a notification that they have been near an infected person. The app will not tell them who that person was. 
 
-## Lês ek:
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+## See also:
+- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [How about my privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

@@ -1,9 +1,11 @@
-Op een Android-telefoon moeten je locatie-instellingen aan staan om de app te kunnen gebruiken. Alleen vanaf versie 11 van Android hoeven de locatie-instellingen niet aan te staan om CoronaMelder te kunnen gebruiken.
+If you use an Android phone, you may need to turn on location data in order to use the CoronaMelder app. This will only be the case if you are using version of Android lower than 11. With Android version 11 or higher, location settings do not have to be turned on in order to use CoronaMelder.
 
-Maar CoronaMelder heeft nooit toegang tot je locatie. De app gebruikt alleen bluetooth om te zien of je in de buurt bent van een ander persoon die de app heeft. Hiervoor gebruikt de app Bluetooth Low Energy.
+The CoronaMelder app can never access your location. 
 
-Android-telefoons tot versie 10 kunnen alleen Bluetooth Low Energy gebruiken als de locatie-instellingen aan staan. Daarom vraagt je telefoon om je locatie-instellingen aan te zetten wanneer je CoronaMelder activeert.
+The CoronaMelder app uses Bluetooth, but only to find out if you are close to another person who is using the app. The app uses a special type of Bluetooth, called Bluetooth Low Energy. That is a different technology from the Bluetooth that is used for wireless headphones, for example. Bluetooth Low Energy was chosen because it consumes less energy.
 
-Je kunt, als je dit wilt, zelf bij de locatie-instellingen op je telefoon controleren dat jouw locatie niet gebruikt wordt. Hoe precies, verschilt per telefoon.
+The app can only use Bluetooth Low Energy if the location settings are on. This is why your phone will ask you to turn on your location settings when you activate CoronaMelder. But the app never knows where you are.
 
-Dit geldt alleen voor Android-toestellen, niet voor iPhones. Op alle type iPhones kun je de locatie-instellingen altijd uit zetten.
+You can check for yourself that your location is not being logged by looking in the location settings on your phone. The method for doing this will depend on which model of phone you have.
+
+The above only applies to Android devices, not to iPhones.

@@ -1,22 +1,21 @@
 ---
 set: 2
 index: 2
-title: Hoefolle data en stroom ferbrûkt de app?
+title: Will the app drain my phone battery and data capacity?
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: battery
-featuredHomeText: De app gebruikt weinig energie. De app gebruikt om te zien of...
+featuredHomeText: The app does not use much energy. To check if you...
+summary: The app does not use much energy. To check if you
 redirect_from: 
   - /en/faq/8-loopt-de-batterij-snel-leeg
 ---
-De app ferbrûkt net in soad enerzjy. Om te sjen oftst by oaren mei CoronaMelder yn de buert west hast, brûkt de app Bluetooth Low Energy (lege-enerzjy-bluetooth). Dat is in spesjale foarm fan bluetooth dy’t weinich stroom ferbrûkt. Hoefolle prosint fan dyn batterij oft de app krekt brûkt, ferskilt per telefoan.
+The app does not use much energy. To check if you have been near other CoronaMelder users, the app uses Bluetooth Low Energy. This form of Bluetooth consumes very little power. The exact percentage of your battery used by the app will depend on your phone.
 
-De app ferbrûkt in pear kear deis data om te sjen oft immen by wa’tst yn de buert west hast, besmet is. De app ferliket dêrfoar de koades op de server mei de koades dy’tst fia bluetooth útwiksele hast. Dy koades binne dan 14 dagen op dyn telefoan bewarre.
+The app uses data a few times a day to find out if you have been close to another person who is infected. For that purpose, the app compares the codes on the server with the codes you have exchanged via Bluetooth. Those codes will be stored on your phone for 14 days.
+To prevent unwanted data costs, you can set the app to use data only when you have a Wi-Fi connection. No data will be lost; the app will simply exchange data at a later point in time.
 
-Ekstra datakosten kinst foarkomme troch der yn de ynstellings foar te kiezen dat allinne data ferbrûkt wurde ast ferbining hast mei wifi. Der gean gjin gegevens ferlern; se wurde allinne op in letter tiidstip útwiksele.
+## See also:
 
-
-## Lês ek:
-
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
+- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- [Will the CoronaMelder app work on my phone?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
