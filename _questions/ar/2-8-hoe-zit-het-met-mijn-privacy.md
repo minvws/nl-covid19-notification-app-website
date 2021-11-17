@@ -33,5 +33,5 @@ redirect_from:
 ## معلومات اكثر:
  
 - [كيف يعمل التطبيق؟](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
+- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
 - [كيف يمكنني إرسال إخطار للآخرين؟](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)

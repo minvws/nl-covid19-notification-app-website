@@ -8,9 +8,9 @@ contentLang: en
 ---
 {% include content/en/2-6-hoe-werkt-de-app-technisch-precies.md %}
 
-## Also see:
+## A lire aussi :
 
 - [Qu’en est-il de ma vie privée ?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Combien de données et d’énergie consomme l’application ?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- [Research: how do we know if the CoronaMelder app helps against the coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
 

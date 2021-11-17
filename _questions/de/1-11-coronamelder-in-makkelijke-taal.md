@@ -1,10 +1,14 @@
 ---
 set: 1
 index: 11
-title: Waar kan ik in makkelijke taal informatie vinden over de app?
+title: Where can I find information about the app in language that is easy to understand?
 summary: 
 redirect_from: 
   - /de/faq/26-coronamelder-in-makkelijke-taal
 contentLang: en
 ---
 {% include content/en/1-11-coronamelder-in-makkelijke-taal.md %}
+
+## Mehr Informationen:
+
+[Where can I get help installing the app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)

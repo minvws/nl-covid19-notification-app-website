@@ -1,7 +1,7 @@
 ---
 set: 3
 index: 4
-title: Hoe helpt CoronaMelder in de praktijk? <br />Lerares Esther van Gorkum
+title: How does the CoronaMelder app work in practice? <br />Teacher Esther van Gorkum
 redirect_from: 
   - /ar/faq/45-hoe-helpt-coronamelder-in-de-praktijk-lerares-Esther-van-Gorkum
 contentLang: en

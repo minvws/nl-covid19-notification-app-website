@@ -1,7 +1,7 @@
 ---
 set: 3
 index: 3
-title: Hoe helpt CoronaMelder in de praktijk? <br />De familie Vliet
+title: How does the CoronaMelder app work in practice? <br />The Vliet family
 redirect_from: 
   - /tr/faq/45-hoe-helpt-coronamelder-in-de-praktijk
 contentLang: en

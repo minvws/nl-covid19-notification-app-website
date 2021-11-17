@@ -9,9 +9,3 @@ Elke telefoon controleert of het de codes op de server eerder is tegengekomen. D
 Jij krijgt een melding als de codes van een besmet persoon op je telefoon staan. Als je een melding krijgt dat je risico loopt, was je zeker meer dan 15 minuten dicht in de buurt van één of van meerdere personen die later besmet bleken te zijn. In de melding lees je wanneer je in de buurt van de besmette persoon bent geweest. Niet wie het is of waar het was. Ook vertelt de app wat je nu zelf het beste kunt doen. Je eigen codes staan niet op de server met besmette codes, maar worden 14 dagen op je eigen telefoon bewaard.
 
 De metingen van CoronaMelder tellen bij elkaar op. Als je op dezelfde dag meerdere keren in de buurt bent van besmette personen en die contacten tellen op tot 15 minuten binnen 1,5 meter, krijg je sinds versie 2.0 van CoronaMelder ook een melding. 
-
-## Lees ook:
-
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Hoeveel data en stroom verbruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)

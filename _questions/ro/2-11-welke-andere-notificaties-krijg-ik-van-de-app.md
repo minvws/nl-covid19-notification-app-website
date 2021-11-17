@@ -1,7 +1,7 @@
 ---
 set: 2
 index: 11
-title: Welke andere notificaties ontvang ik van CoronaMelder? 
+title: Which other notifications will I get on my phone from the CoronaMelder app?
 redirect_from: 
   - /ro/faq/46-welke-meldingen-krijg-ik-van-coronamelder
 contentLang: en

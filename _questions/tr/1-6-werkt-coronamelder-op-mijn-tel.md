@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 6
-title: Werkt CoronaMelder ook op mijn telefoon?
+title: Will the CoronaMelder app work on my phone?
 showOnFAQoverview: true
 redirect_from: 
   - /tr/faq/7-werkt-coronamelder-op-mijn-tel

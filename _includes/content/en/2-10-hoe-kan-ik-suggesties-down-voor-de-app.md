@@ -1,9 +1,9 @@
-De CoronaMelder-app is ontwikkeld door het Ministerie van Volksgezondheid, Welzijn en Sport in samenwerking met het RIVM en de landelijke GGD'en. De app had niet tot stand kunnen komen zonder de hulp van tientallen experts, ervaringsdeskundigen en een grote open source community van burgers die heeft meegekeken en getest tijdens de ontwikkeling. Er is alles aan gedaan om te zorgen voor een privacyvriendelijke, veilige, toegankelijke en gebruiksvriendelijke app die helpt corona onder controle te krijgen en houden.
+The CoronaMelder app has been developed by the Ministry of Health, Welfare and Sport in partnership with RIVM and the GGD throughout the Netherlands. The app would not have been possible without the help of dozens of specialists, experts by experience and a large open-source community of citizens who monitored and took part in trials during the development process. Every effort has been made to deliver a privacy-friendly, secure, accessible and user-friendly app that helps to get and keep the coronavirus under control.
 
-Heb je een suggestie voor de app? Je kunt deze ook nu nog doorgeven bij de helpdesk van CoronaMelder. Bel de helpdesk op <a href="tel:0800-1280">0800-1280</a> (gratis). De openingstijden zijn maandag t/m zondag 08.00 – 20.00 uur. Of stuur een e-mail naar:  <a href="mailto:helpdesk@coronamelder.nl">helpdesk@coronamelder.nl</a>.
+If you have any suggestions for improving the app, you can still pass these on to the CoronaMelder helpline. Call the helpline on <a href="tel:0800-1280">0800-1280</a> (free). It is available from 8:00–20:00, Monday–Sunday. You can also send an email to <a href="mailto:helpdesk@coronamelder.nl">helpdesk@coronamelder.nl</a>.
 
-Alle code van de app is bovendien te vinden op de [GitHub van het Ministerie van Volksgezondheid, Welzijn en Sport](https://github.com/minvws). Heb je een suggestie voor de code of techniek? Deze kun je via GitHub ook direct doorgeven aan het bouwteam.
+All code for the app can also be found on [GitHub](https://github.com/minvws). If you have any suggestions about code or technology, you can pass them on directly to the design team via GitHub.
 
-## Also see:
+## Further reading:
 
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 

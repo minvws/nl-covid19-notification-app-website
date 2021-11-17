@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 8
-title: Kan ik de app pauzeren?
+title: Can I pause the app?
 redirect_from: 
   - /pauzeren
   - /pauseren

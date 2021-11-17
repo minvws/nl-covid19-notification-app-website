@@ -6,7 +6,6 @@ redirect_from:
   - /de/faq/2-hoe-helpt-coronamelder-tegen-corona
   - /de/faq/2-hoe-helpt-de-app-tegen-corona
 showOnFAQoverview: true
-title: 
 summary: CoronaMelder warnt Sie, wenn Sie in der Nähe einer Person mit Corona waren.
 featuredHome: true
 featuredHomeIndex: 1
@@ -23,4 +22,5 @@ CoronaMelder arbeitet mit Corona-Apps anderer EU-Länder zusammen. Dadurch könn
 
 ## Mehr Informationen:
 
-[Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)
+- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen)
+- [Research: how do we know if CoronaMelder helps against coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)

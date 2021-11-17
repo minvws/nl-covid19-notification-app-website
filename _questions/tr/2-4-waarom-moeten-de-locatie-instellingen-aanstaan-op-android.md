@@ -1,7 +1,7 @@
 ---
 set: 2
 index: 4
-title: Waarom moeten mijn locatie-instellingen aan staan op mijn Android-telefoon?
+title: I use an Android phone. Why do my location settings need to be turned on?
 redirect_from: 
   - /tr/faq/14-locatie-instellingen-android
 contentLang: en

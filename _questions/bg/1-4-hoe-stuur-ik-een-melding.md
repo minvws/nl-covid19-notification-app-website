@@ -12,5 +12,5 @@ featuredHomeText: В случай че тестът ви за коронавир
 След като полученият от GGD ключ бъде проверен и изпратен, системата, управляваща CoronaMelder, сравнява кодовете от вашия телефон с тези на хора, които също използват CoronaMelder. Вашият код е бил в близост до кода на друг човек? Тогава този потребител на CoronaMelder ще получи известие, че е бил в близост до човек, заразен с коронавирус. Без получателят да знае кой е бил това. 
 
 ## Прочетете също:
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Как стои въпросът със защитата на моите лични данни?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

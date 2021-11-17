@@ -1,7 +1,7 @@
 ---
-index: 1
-set: 3
-title: Wannear krij ik in melding?
+set: 1
+index: 3
+title: متى سأتلقى إشعارًا؟
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
@@ -11,12 +11,6 @@ summary:  بعد أن تواجدت بالقرب من شخص تم اختباره 
 redirect_from: 
   - /ar/faq/4-melding
 ---
- **
-
-** Oude URL:[ https://www.coronamelder.nl/nl/faq/4-melding/](https://www.coronamelder.nl/nl/faq/4-melding/)
-
-
-
 سوف تتلقى إشعارًا في الحالة التالية:
 
 - إذا أبلغ شخص ما عن إصابته بفيروس كورونا بعد إجراء فحص دائرة الصحة البلدية (GGD) للتحقق من الإصابة بفيروس كورونا.
@@ -40,5 +34,5 @@ redirect_from:
 
 ## معلومات اكثر:
 
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
+- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [What should I do if I get a notification?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

@@ -1,9 +1,9 @@
-No, for access another app is available:  <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer">CoronaCheck</a>. You need a negative test result to access certain locations or activities. With the CoronaCheck-app or via <a href="https://coronacheck.nl/en/print" target="_blank" rel="noopener noreferrer">www.coronacheck.nl/en/print</a> (printed version), you can prove:
+No, there is another app for that: <a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer">CoronaCheck</a>. You need a COVID certificate to access certain locations or activities. Use the CoronaCheck app or go to <a href="https://coronacheck.nl/en/print" target="_blank" rel="noopener noreferrer">www.coronacheck.nl/en/print</a> to prove that you:
 
-- that you have been fully vaccinated
-- have recovered from corona in the last six months
-- that you have been tested negative for corona.  
+- are fully vaccinated;
+- have recovered from infection with the coronavirus in the last six months;
+- have tested negative for the coronavirus.
 
-You can also create an international QR code with CoronaCheck to travel within Europe.
+You can also use the CoronaCheck app to generate an international QR code, which you can use to travel within Europe.
 
-<a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer">You can find more information about the CoronaCheck app here</a>.
+<a href="https://coronacheck.nl/en" target="_blank" rel="noopener noreferrer">More information about the CoronaCheck app</a>.

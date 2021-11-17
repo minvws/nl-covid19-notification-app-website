@@ -1,9 +1,3 @@
-CoronaMelder controleert een paar keer per dag of er nieuwe besmettingen door de GGD zijn bevestigd. Elke keer dat er nieuwe codes van nieuwe besmettingen worden gedownload op je telefoon, verschijnt er een regel met getallen in het blootstellingslogboek. Deze getallen zijn de momenten waarop CoronaMelder nieuwe codes van besmettingen heeft gedownload van de server.
+The CoronaMelder app checks several times a day whether the GGD has confirmed new infections. Every time new codes for new infections are downloaded on your phone, a line of numbers appears in the exposure log. These numbers are the times at which the CoronaMelder app downloaded new infection codes from the server.
 
-Zie je allemaal getallen in het logboek? Dan werkt de app goed.
-
-## Also see:
-
-- [Hoeveel data en stroom verbruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+If you can see all numbers in the log, the app is working correctly.

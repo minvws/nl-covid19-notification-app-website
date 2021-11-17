@@ -13,5 +13,5 @@ Dacă testul arată că aveți coronavirus, puteți raporta acest lucru prin int
 După ce codul dvs. GGD a fost verificat și trimis, sistemul din spatele CoronaMelder compară codurile de pe telefonul dvs. cu cele ale persoanelor care utilizează și CoronaMelder. Codul tău a fost în vecinătatea altcuiva? Atunci acest utilizator CoronaMelder primește o notificare că el sau ea a fost în vecinătatea cuiva cu coronavirus. Fără ca receptorul să știe despre cine era vorba. 
 
 ## Vezi de asemenea:
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Cum stau lucrurile cu confidențialitatea datelor mele?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

@@ -1,7 +1,7 @@
 ---
 set: 4
 index: 2
-title: Hoe ziet de campagne over CoronaMelder eruit?
+title: How does the government communicate about the CoronaMelder app?
 redirect_from: 
   - /ro/faq/27-de-campagne-over-coronamelder
 contentLang: en

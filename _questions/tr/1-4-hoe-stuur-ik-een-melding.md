@@ -12,7 +12,6 @@ Eğer korona testiniz pozitif çıkarsa, sonucunuzu CoronaMelder uygulaması ara
 
 GGD anahtar kodunuz kontrol edildikten sonra, CoronaMelder sistemi telefonunuzdaki kodları diğer CoronaMelder kullanıcılarının kodlarıyla karşılaştırır. Sizin kodunuz başka birin koduyla aynı bölgede mi bulundu? Bu durumda ilgili CoronaMelder kullanıcısına koranavirüs pozitif biriyle temaslı olduğuna dair bir bildirim gider. Bildirimi alan kişi koronavirüs pozitif kişinin kim olduğunu öğrenmez. 
 
-
 ## Ayrıca okuyun:
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [Gizliliğim ne olacak?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

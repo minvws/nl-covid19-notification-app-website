@@ -16,5 +16,5 @@ Puteți evita costurile nedorite ale datelor alegând din setări că datele sun
 
 ## Vezi de asemenea:
 
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
+- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- [Will the CoronaMelder app work on my phone?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
