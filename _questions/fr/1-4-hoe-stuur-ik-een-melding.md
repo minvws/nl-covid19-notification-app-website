@@ -1,16 +1,17 @@
 ---
 set: 1
 index: 4
-title: Hoe stjoer ik oaren in melding?
+title: Comment puis-je envoyer une notification ?
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: mobile-check
-featuredHomeText: As út dyn test blykt datst koroana hast, dan kinst dat trochjaan...
+featuredHomeText: Si vous êtes testé(e) positif/ve au coronavirus, vous pouvez...
+summary: Si vous êtes testé(e) positif/ve au coronavirus, vous pouvez...
 ---
-As út dyn test blykt datst koroana hast, dan kinst dat trochjaan fia de CoronaMelder-app. Dat dochst fia de website www.coronatest.nl of fia it telefoanpetear mei de GGD. Dan krijst in persoanlike GGD-kaai dy’t bestiet út 7 sifers en letters. Dy joust troch fia de CoronaMelder-app. Allinne minsken dy’t werklik besmet binne kinne in melding stjoere.
+Si vous êtes testé(e) positif/ve au coronavirus, vous pouvez le signaler via l’application CoronaMelder. Vous pouvez le faire en vous rendant sur le site web www.coronatest.nl ou en appelant le GGD. Vous recevrez alors une clé personnelle composée de 7 chiffres et lettres, à introduire dans CoronaMelder. Seules les personnes effectivement contaminées peuvent envoyer une notification.
 
-Nei’t dyn GGD-kaai kontrolearre en ferstjoerd is, ferliket it systeem efter CoronaMelder de koades út dyn telefoan mei dy fan minsken dy’t CoronaMelder ek brûke. Wie dyn koade yn de buert fan in koade fan in oar? Dan krijt dy CoronaMelder-brûker in melding dat hy of sy yn de buert wie fan immen mei koroana. Sûnder dat de ûntfanger wit wa’t dat wie.
+Une fois votre clé contrôlée et envoyée, le système de CoronaMelder compare les codes de votre téléphone à ceux des autres personnes qui utilisent CoronaMelder. S’il apparait que vous étiez à proximité d’un autre utilisateur de CoronaMelder, celui-ci recevra une notification dans son application lui indiquant qu’il s’est trouvé à proximité d’une personne contaminée au coronavirus, sans lui révéler l’identité de cette personne. 
 
-## Lês ek:
+## A lire aussi :
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Qu’en est-il de ma vie privée ?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
