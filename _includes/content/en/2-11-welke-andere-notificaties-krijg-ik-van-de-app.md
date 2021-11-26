@@ -8,8 +8,6 @@ You will receive notifications from the CoronaMelder app and from your telephone
 
 ![A telephone notification with the text: You may have been near somebody with coronavirus. On X, you have been near somebody with coronavirus. Open the app for more information.](/media/beeldmateriaal/exposure-vanuit-coronamelder/CM_4.png)
 
-A telephone notification with the text: You may have been near somebody with coronavirus. On X, you have been near somebody with coronavirus. Open the app for more information.
-
 If you receive this notification, it means you have been near someone who has tested positive for coronavirus and you were near them for a longer period of time. Open the notification and follow the advice in the app.
 
 Later, you will also receive a reminder notification, in case you missed it:
