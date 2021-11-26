@@ -14,6 +14,7 @@ Een samenvatting van dat onderzoek kun je hier downloaden:
  
 <a href="/media/Samenvatting_evalatie_CoronaMelder_na_9_maanden.pdf" rel="noopener noreferrer" target="_blank">Samenvatting evaluatie CoronaMelder: een overzicht na 9 maanden (PDF, 968kb)</a>
 
+
 Eerder gepubliceerde onderzoeken kun je hier downloaden:
 
 - <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/03/23/eindrapportage-evaluatie-coronamelder-eur-23-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage van de evaluatie van CoronaMelder-app meldingen van een kans op besmetting</a> (23 maart 2021)
@@ -21,4 +22,4 @@ Eerder gepubliceerde onderzoeken kun je hier downloaden:
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/evaluatie-coronamelder-op-de-processen-huisartsen-en-ggd-derde-evaluatie-maart-2021" rel="noopener noreferrer" target="_blank">Evaluatie CoronaMelder huisartsen en GGD</a> (23 maart 2021)
 - <a href="/media/Eindrapport_kwalitatiefOZ_24032021_Grip_op_Coronamelder-UT_en_OU.pdf" rel="noopener noreferrer" target="_blank">Grip op de CoronaMelder - 
 Kwalitatief Onderzoek naar Ervaringen met CoronaMelder Eindverslag (PDF, 4.2mb)</a> (november 2020)
-  
+- Een overzicht van alle publicaties vind je in het [overzicht onderzoeken CoronaMelder (PDF, 60kb)](/media/Overzicht-onderzoeken-CoronaMelder.pdf).
