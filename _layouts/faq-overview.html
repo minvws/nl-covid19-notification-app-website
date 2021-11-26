@@ -34,24 +34,16 @@
             <ul class="faq-layout-contents__list">
               {% for question in questions %}
                 {% if question.set == 1 %}
-                  {% if question.featuredHome != true %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}" lang="{{ question.lang }}" hreflang="{{ question.lang }}">
                             {{ question.title }}
                         </a>
                     </li>
-                  {% elsif question.featuredHome == true and question.showOnFAQoverview %}
-                    <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}">
-                            {{ question.title }}
-                        </a>
-                    </li>
-                  {% endif %}
                 {% endif %}
-            {% endfor %}
+              {% endfor %}
             </ul>
         </div>
-
+ 
 
         <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheappworks[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheappworks[page.lang] }}</h2>
 
@@ -59,19 +51,13 @@
             <ul class="faq-layout-contents__list">
             {% for question in questions %}
                 {% if question.set == 2 %}
-                  {% if question.featuredHome != true %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" 
+                            {% if question.lang != 'ar' %}dir="ltr"{% endif %} 
+                            lang="{{ question.lang }}" hreflang="{{ question.lang }}" id="{{ question.title | slugify }}">
                             {{ question.title }}
                         </a>
                     </li>
-                  {% elsif question.featuredHome == true and question.showOnFAQoverview %}
-                    <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}">
-                            {{ question.title }}
-                        </a>
-                    </li>
-                  {% endif %}
                 {% endif %}
             {% endfor %}
             </ul>
@@ -84,7 +70,7 @@
               {% for question in questions %}
               {% if question.set == 3 %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}" lang="{{ question.lang }}" hreflang="{{ question.lang }}">
                             {{ question.title }}
                         </a>
                     </li>
@@ -100,7 +86,7 @@
               {% for question in questions %}
               {% if question.set == 4 %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.title | slugify }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %} lang="{{ question.lang }}" hreflang="{{ question.lang }}" id="{{ question.title | slugify }}">
                             {{ question.title }}
                         </a>
                     </li>
