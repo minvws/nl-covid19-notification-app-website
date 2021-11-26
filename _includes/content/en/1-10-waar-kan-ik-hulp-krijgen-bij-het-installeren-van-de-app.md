@@ -1,0 +1,3 @@
+- Staff in many libraries across the country will be happy to help you install the app.
+- Call the Digi helpline on <a href="tel:+318001508">0800-1508</a> (free) for step-by-step instructions on downloading the app. Available from 9:00–17:00, Monday–Sunday.
+- Call the CoronaMelder helpline on <a href="tel:+318001280">0800-1280</a> (free) if you have any other questions about the CoronaMelder app. Available from 8:00–20:00, Monday–Sunday.

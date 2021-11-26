@@ -1,3 +1,0 @@
-CoronaMelder cannot recognize whether you wear personal protective equipment during your work. For professions where people are close to other people for longer than 15 minutes, without any risk of contamination due to personal protective equipment, it is advisable to temporarily disable the app. You can temporarily turn off the app by turning off Bluetooth in your settings.
-
-In practice, disabling CoronaMelder will not be necessary for most professions. CoronaMelder gives a warning if you have been close to someone who appears to be infected with the virus for at least 15 minutes. You then have an increased chance of being infected yourself. It is important that you are aware, so that you can take measures to prevent further contamination.

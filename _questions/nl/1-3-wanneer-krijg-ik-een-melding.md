@@ -31,5 +31,5 @@ CoronaMelder weet niet wie de mensen zijn die je ontmoet en ook niet waar dat is
 15 minuten binnen 1,5 meter van een besmet persoon en krijgt dan later een melding.
 
 ## Lees ook:
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/nl/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Wat moet ik doen als een melding krijg?](/nl/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
+- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

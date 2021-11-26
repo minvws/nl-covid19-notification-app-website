@@ -12,5 +12,5 @@ Als uit jouw test blijkt dat je corona hebt, kun je dit doorgeven via de CoronaM
 Nadat jouw GGD-sleutel is gecontroleerd en verzonden, vergelijkt het systeem achter CoronaMelder de codes uit jouw telefoon met die van mensen die ook CoronaMelder gebruiken. Was jouw code in de buurt bij een code van iemand anders? Dan krijgt die CoronaMelder-gebruiker een melding dat hij of zij in de buurt was van iemand met corona. Zonder dat de ontvanger weet wie dat was. 
 
 ## Lees ook:
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/nl/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Hoe zit het met mijn privacy?](/nl/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

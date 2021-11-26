@@ -33,6 +33,6 @@ Dit geldt ook voor de corona-apps uit andere EU-landen waarmee CoronaMelder code
 
 ## Lees ook:
  
-- [Hoe werkt de app?](/nl/faq/1-2-hoe-werkt-de-app)
-- [Werkt CoronaMelder ook met corona-apps uit andere landen?](/nl/faq/13-gebruik-app-uit-ander-land)
-- [Hoe stuur ik anderen een melding?](/nl/faq/1-4-hoe-stuur-ik-een-melding)
+- [Hoe werkt de app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
+- [Werkt CoronaMelder ook met corona-apps uit andere landen?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
+- [Hoe stuur ik anderen een melding?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)

@@ -24,6 +24,6 @@ De CoronaMelder-app werkt zo:
 In een melding staat alleen wanneer iemand in de buurt is geweest van een besmet persoon. Dus niet wie dit is of waar ze die persoon zijn tegengekomen.
  
 ## Lees ook:
-- [Waar kan ik in makkelijke taal informatie vinden over de app?](/nl/faq/1-11-coronamelder-in-makkelijke-taal)
-- [Hoe werkt de app technisch precies?](/nl/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/nl/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- [Waar kan ik in makkelijke taal informatie vinden over de app?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
+- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
