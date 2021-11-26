@@ -30,7 +30,7 @@ This also applies to the corona apps from other EU countries with which CoronaMe
 [comment]: <> This include below is a video.
 {% include components/mediaelement.html key="201008-video-your-privacy" width="100%" height="394"  videoLang="en" %}
 
-## See also:
+## Further reading:
  
 - [How does the app work?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
 - [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)

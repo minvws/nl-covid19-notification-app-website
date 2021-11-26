@@ -10,5 +10,5 @@ contentLang: en
 
 ## Further reading:
 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [How about my privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [What does the law say about the app?](/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app)

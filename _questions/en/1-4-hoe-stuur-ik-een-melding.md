@@ -11,6 +11,6 @@ If you test positive for coronavirus, you can choose to add this information to 
 
 After checking and sending your GGD key, the CoronaMelder system compares the codes from your telephone with the codes of people who are also using the CoronaMelder app. If your code was near to another person's code, that user of the CoronaMelder app will get a notification that they have been near an infected person. The app will not tell them who that person was. 
 
-## See also:
+## Further reading:
 - [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
 - [How about my privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)

@@ -8,8 +8,7 @@ contentLang: en
 ---
 {% include content/en/2-6-hoe-werkt-de-app-technisch-precies.md %}
 
-## Ayrıca okuyun:
-
+## Further reading:
 
 - [Gizliliğim ne olacak?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Uygulama ne kadar mobil veri ve pil gücü kullanıyor?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)

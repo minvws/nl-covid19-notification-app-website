@@ -12,5 +12,5 @@ contentLang: en
 
 - [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
 - [I use an Android phone. Why do my location settings need to be turned on?](/{{page.lang}}/faq/2-4-waarom-moeten-de-locatie-instellingen-aanstaan-op-android)
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- [How about my privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 

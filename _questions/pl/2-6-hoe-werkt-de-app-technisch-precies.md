@@ -8,8 +8,7 @@ contentLang: en
 ---
 {% include content/en/2-6-hoe-werkt-de-app-technisch-precies.md %}
 
-## Przeczytaj także:
-
+## Further reading:
 
 - [Co z moją prywatnością?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Jak dużo transferu danych i baterii zużywa aplikacja?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)

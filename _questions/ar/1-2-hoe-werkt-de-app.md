@@ -23,9 +23,3 @@ redirect_from:
 5. إذا أصبت أنت نفسك بفيروس كورونا، فيمكنك إبلاغنا بذلك في التطبيق. وبالتالي، يمكن للتطبيق أن يحذر الأشخاص الذين كنت متواجدًا بالقرب منهم.
 
 لا يتضمن الإشعار إلا التوقيت الذي كان فيه الشخص متواجدًا بالقرب من شخص مصاب. وبالتالي، لا يذكر الإشعار اسم هذا الشخص ولا أين تم الالتقاء بهذا الشخص.
-
-## معلومات اكثر:
-
-- [Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 

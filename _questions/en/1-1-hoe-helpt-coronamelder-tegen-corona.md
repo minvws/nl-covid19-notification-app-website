@@ -20,7 +20,7 @@ The notification from your app will tell you exactly what to do. Also read: What
  
 CoronaMelder is linked to the corona apps used in other EU countries. For example, this makes it possible to warn people who live close to the border, or people visiting the Netherlands because they live here, work here, or are visiting the Netherlands for a holiday or shopping trip.
 
-## See also:
+## Further reading:
 
 - [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen)
 - [Research: how do we know if CoronaMelder helps against coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)

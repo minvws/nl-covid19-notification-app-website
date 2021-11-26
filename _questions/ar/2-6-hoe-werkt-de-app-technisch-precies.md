@@ -7,10 +7,3 @@ redirect_from:
 contentLang: en
 ---
 {% include content/en/2-6-hoe-werkt-de-app-technisch-precies.md %}
-
-## معلومات اكثر:
-
-- [ماذا عن خصوصيتي؟](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [ما مقدار البيانات والطاقة التي يستخدمها التطبيق؟](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Research: how do we know if the CoronaMelder app helps against the coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
-

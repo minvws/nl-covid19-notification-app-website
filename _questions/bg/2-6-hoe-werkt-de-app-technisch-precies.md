@@ -8,7 +8,7 @@ contentLang: en
 ---
 {% include content/en/2-6-hoe-werkt-de-app-technisch-precies.md %}
 
-## Прочетете също:
+## Further reading:
 
 - [Как стои въпросът със защитата на моите лични данни?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Какво количество мобилни данни и колко енергия изразходва приложението?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)

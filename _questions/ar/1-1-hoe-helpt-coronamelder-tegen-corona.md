@@ -18,8 +18,3 @@ featuredHomeText: يقوم CoronaMelder  بتحذيرك بعد تواجدك با
 سوف تجد في الرسالة التي تتلقاها في التطبيق ما يجب عليك فعله بالضبط. اقرأ أيضًا: ماذا أفعل إذا تلقيت إشعارًا؟
 
 يعمل تطبيق CoronaMelder مع تطبيقات كورونا بدول الاتحاد الأوروبي الأخرى. وبالتالي، يتم تحذير الأشخاص المقيمين في المناطق الحدودية لهولندا على سبيل المثال. أو أشخاص من بلدان أخرى يعيشون ويعملون في هولندا أو يأتون إلى هولندا لقضاء العطلة أو التسوق.
-
-## معلومات اكثر:
-
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen)
-- [Research: how do we know if CoronaMelder helps against coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)

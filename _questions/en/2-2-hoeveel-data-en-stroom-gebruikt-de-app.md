@@ -15,7 +15,7 @@ The app does not use much energy. To check if you have been near other CoronaMel
 The app uses data a few times a day to find out if you have been close to another person who is infected. For that purpose, the app compares the codes on the server with the codes you have exchanged via Bluetooth. Those codes will be stored on your phone for 14 days.
 To prevent unwanted data costs, you can set the app to use data only when you have a Wi-Fi connection. No data will be lost; the app will simply exchange data at a later point in time.
 
-## See also:
+## Further reading:
 
 - [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
 - [Will the CoronaMelder app work on my phone?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)

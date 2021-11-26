@@ -9,7 +9,7 @@ contentLang: en
 ---
 {% include content/en/1-11-coronamelder-in-makkelijke-taal.md %}
 
-## Lea mas:
+## Further reading:
 
 
 [Where can I get help installing the app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)

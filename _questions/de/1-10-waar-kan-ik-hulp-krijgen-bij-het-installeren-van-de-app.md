@@ -9,7 +9,7 @@ contentLang: en
 ---
 {% include content/en/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app.md %}
 
-## Mehr Informationen:
+## Further reading:
 
 
 [Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)

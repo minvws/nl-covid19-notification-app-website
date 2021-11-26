@@ -8,8 +8,7 @@ contentLang: en
 ---
 {% include content/en/2-6-hoe-werkt-de-app-technisch-precies.md %}
 
-## Vezi de asemenea:
-
+## Further reading:
 
 - [Cum stau lucrurile cu confidențialitatea datelor mele?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Cât de multe date și energie consumă aplicația?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)

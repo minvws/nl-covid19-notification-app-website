@@ -31,8 +31,3 @@ redirect_from:
 - في المدرسة
 
 عندما تتواجد بجانب شخص مُصاب لمدة 15 دقيقة أو أكثر ضمن مسافة أقل من 1.5 متر، سوف تلقي إشعارًا لاحقًا.
-
-## معلومات اكثر:
-
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [What should I do if I get a notification?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)

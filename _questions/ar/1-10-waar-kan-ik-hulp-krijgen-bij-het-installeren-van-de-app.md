@@ -7,8 +7,8 @@ redirect_from:
   - /ar/faq/25-hulp-bij-installeren
 contentLang: en
 ---
-{% include content/en/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app.md %}
+{% include content/en/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app.md %} 
 
-## معلومات اكثر:
+## Further reading:
 
-[Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
+[Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal) 
