@@ -50,24 +50,86 @@
 .component-mediaelement {
     background-color: $color-RO_darkblue;
     margin-bottom: 3.5em;
+
     video {
         max-width: 100%;
     }
-    details {
-        padding-left: 14px;
-        padding-right: 14px;
-        border-bottom: rgba(0, 39, 131, 0.3) 1px solid;
+}
 
-        ::-webkit-details-marker {
-            color: rgba(0, 39, 131, 0.6);
+.component-mediaelement__details {
+    // padding-left: 14px;
+    // padding-right: 14px;
+    border-bottom: rgba(0, 39, 131, 0.3) 1px solid;
+
+    ::-webkit-details-marker {
+        color: rgba(0, 39, 131, 0.6);
+    }
+
+    &:hover::-webkit-details-marker {
+        color: rgba(0, 39, 131, 0.84);
+    }
+
+    ul {
+        margin: 14px 0 14px 20px;
+    }
+}
+
+.component-mediaelement__details {
+    summary {
+        cursor: pointer;
+        position: relative;
+        color: #333333;
+        padding: 14px 30px 14px 20px;
+        font-size: 1rem;
+        background: $color-RO_lightblue;
+
+        &:hover,
+        &:focus {
+            outline: 2px solid #008fcd;
+            outline-offset: -1px;
+            background: $color-RO_lightblue;
+            color: #333333;
         }
+    }
 
-        &:hover::-webkit-details-marker {
-            color: rgba(0, 39, 131, 0.84);
-        }
+    summary {
+        list-style-type: none;
+    } /* Firefox */
+    summary::-webkit-details-marker {
+        display: none;
+    } /* Chrome */
+    summary::marker {
+        display: none;
+    }
 
-        ul {
-            margin: 14px 0 14px 20px;
+    summary:after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        right: 5px;
+        height: 40px;
+        width: 40px;
+        opacity: 0.62;
+        border-radius: 2px;
+        outline-offset: 8px;
+        outline: 2px solid transparent;
+        background: url(../img/chevron-right.svg) center center no-repeat;
+        transition: var(--transition-out);
+        transform: rotate(90deg);
+    }
+
+    &[open] {
+        > summary {
+            font-weight: normal;
+
+            &:hover {
+                background: transparent;
+            }
+
+            &:after {
+                background: url(../img/chevron-right.svg) center center no-repeat;
+                transform: rotate(-90deg);
+            }
         }
     }
 }
@@ -151,13 +213,17 @@ details.component-mediaelement__details {
     }
 
     summary:hover:after,
-    summary:focus:after {
+    summary:hover:focus:after {
         background-image: url(../img/chevron-right-white.svg);
+    }
+
+    summary:focus:after {
+        background-image: url(../img/chevron-right.svg);
     }
 
     ul {
         list-style: none;
-        padding: 5px 0 20px 0px;
+        // padding: 5px 0 20px 0px;
         margin-left: 0;
     }
 
@@ -179,6 +245,8 @@ details.component-mediaelement__details {
 }
 
 details.component-mediaelement__details[open] {
+    padding-bottom: 5px;
+
     summary {
         font-weight: 400;
     }
@@ -188,8 +256,18 @@ details.component-mediaelement__details[open] {
     }
 
     summary:hover:after,
-    summary:focus:after {
+    summary:hover:focus:after {
         background-image: url(../img/chevron-right-white.svg);
+    }
+
+    summary:focus:after {
+        background-image: url(../img/chevron-right.svg);
+    }
+
+    > div {
+        border: 1px solid;
+        padding: 20px;
+        border-radius: 6px;
     }
 }
 
@@ -203,4 +281,25 @@ details.component-mediaelement__details[open] {
 
 .mejs__captions-selector.mejs__offscreen {
     display: none;
+}
+
+.mejs__captions-text,
+.mejs__captions-text * {
+    background: hsla(0, 0%, 8%, 0.75);
+    box-shadow: 5px 0 0 rgba(20, 20, 20, 0.75), -5px 0 0 rgba(20, 20, 20, 0.75);
+}
+
+.mejs__container-fullscreen {
+    .mejs__captions-layer {
+        font-size: 3vh;
+        line-height: 1.2;
+    }
+
+    .mejs__captions-position-hover {
+        bottom: 100px;
+    }
+
+    .mejs__controls {
+        bottom: 0;
+    }
 }
