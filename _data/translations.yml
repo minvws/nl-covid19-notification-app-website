@@ -450,9 +450,9 @@ info-lead-title:
   ro: Descărcați aplicația CoronaMelder
   tr: CoronaMelder uygulamasını indirin
   
-# info-announcement: |
-#   <p>Let op: Voor toegang tot bepaalde locaties of activiteiten heb je een coronatoegangsbewijs nodig. Hiervoor bestaat een andere app: <a href="https://coronacheck.nl/nl" target="_blank" rel="noopener noreferrer">CoronaCheck</a>. Met CoronaCheck maak je jouw QR-code waarmee jij vanaf begin juli ook kan reizen binnen Europa.
-#   Zie ook: <a href="/nl/faq/50-geeft-coronamelder-toegang-tot-evenementen-en-locaties/">Geeft CoronaMelder toegang tot evenementen en locaties?</a></p>
+info-announcement: 
+  nl: '<p>Let op: met ingang van 19 december is Nederland in lockdown. Er zijn <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/winkels-en-contactberoepen/open-en-gesloten-winkels" target="_blank" rel="noopener noreferrer">locaties die nog wel open zijn</a>. Blijf CoronaMelder gebruiken om verdere verspreiding van het virus te voorkomen.</p>'
+  en: '<p>Please note: as of December 19, the Netherlands is in lockdown. There are locations that are still open. Continue to use CoronaMelder to prevent further spread of the virus.</p>'
 
 info-caveat-fy: |
  De app wurket yn it Frysk allinne op Android tastellen dy’t Frysk as systeemtaal stypje. Do kinst Frysk as taal foar dy tastellen yn de ynstellingen fan Android ynstelle. iPhones stypje Frysk as systeemtaal spitigernôch net. Yn de oare talen kin yn de Appstore hjir de app wol delhelle wurde.

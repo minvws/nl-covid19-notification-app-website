@@ -15,12 +15,11 @@
         <div class="lead__text">
           <div class="content-block">
             <div class="md-block-lead">
+                {% if page.lang == 'en' or page.lang == 'nl' %}
+                    <div class="announcement">{{ site.data.translations.info-announcement[page.lang] }}</div>
+                {% endif %}
+
                 <p>{{ site.data.translations.info-lead[page.lang] }}</p>
-                {% comment %}
-                    {% if page.lang == 'nl' %}
-                        <div class="announcement">{{ site.data.translations.info-announcement }}</div>
-                    {% endif %}
-                {% endcomment %}
             </div>
               
             {{ content }}
