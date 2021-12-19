@@ -24,6 +24,8 @@ This is how the CoronaMelder app works:
 
 The notification will only tell them the day on which they were near an infected person. It does not tell them who that person was or where they were at the time.
 
+<div class="announcement">{{ site.data.translations.info-announcement[page.lang] }}</div>
+
 ## Further reading:
 
 - [Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
