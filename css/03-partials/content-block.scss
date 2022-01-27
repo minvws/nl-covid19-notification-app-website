@@ -133,6 +133,9 @@
 .content-center__in_app {
     margin-top: 10px;
     font: -apple-system-body;
+    hyphens: auto;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .content-block {
