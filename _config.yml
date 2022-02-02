@@ -28,7 +28,7 @@ exclude:
   - LICENSES.md
   - LICENSE.txt
   - LICENSE.pdf
-  - example.content-page.md
+  - example-content-page.md
   - .sass-cache
   - .history
 
