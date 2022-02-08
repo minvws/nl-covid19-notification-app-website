@@ -31,6 +31,11 @@ exclude:
   - example-content-page.md
   - .sass-cache
   - .history
+  # - generate-statistics-graphic.html
+  # - js/statistics/1_active-users.js
+  # - js/statistics/2_warning-notifications.js
+  # - js/statistics/3_positive-results-after-notification.js
+  # - js/statistics/4_approached-through-bco.js
 
 plugins:
   - "jekyll-github-metadata"

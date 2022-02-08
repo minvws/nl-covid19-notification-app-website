@@ -1,0 +1,468 @@
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
+{% include open-source-comment.html %}
+{% include head.html %}
+<body>
+  {% if page.collection == 'questions-scanner' or page.domain == 'scanner' %}
+    {% include header-slim.html for="scanner" %}
+  {% else %}
+    {% include header-slim.html %}
+  {% endif %}
+  
+  <main class="content-center" id="content">
+    {% if page.showBreadCrumbs %}
+      {% include breadcrumbs.html title=page.title collection=page.collection %}
+    {% endif %}
+
+    {% if page.showHomeBtn %}
+      <p class="content-center__home return_link">
+        <a href="{{ langSlug }}">
+          <span class="icon icon-chevron-left"></span>{{ site.data[page.lang].translations.layout-template-home }}
+        </a>
+      </p>
+    {% endif %}
+    
+    <div class="content-block content-block--graphs" {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% elsif page.contentLang == 'nl' %}lang="nl"{% endif %}>
+      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+      
+      <div class="division">
+        {{ content }}
+
+        <p>Cijfers tot en met zondag 6 februari 2022.</p>
+
+        <div class="CoronaCheck_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Mensen die CoronaCheck hebben gedownload:</h2>
+                <p><span class="number_highlight">15,33 miljoen</span> downloads.</p>
+                <p>De grafiek laat zien hoeveel mensen de CoronaCheck-app hebben gedownload.</p>
+            </div>
+            <div id="CoronaCheck_downloads_plot">
+                <img src="{{ site.baseurl }}/img/coronacheck-stats.svg" alt="Grafiek downloads CoronaCheck. In de lijngrafiek is te zien dat in week 24 een explosieve groei van downloads ontstaat. De
+                groeilijn blijft steil stijgen, met een opleving in week 36 en 37." class="graph" width="480" height="320">
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Downloads CoronaCheck</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Weeknummer</th>
+                                <th>Aantal downloads</th>
+                            </tr>
+                            <tr>
+                                <td>Week 12, 2021</td>
+                                <td>4.947</td>
+                            </tr>
+                            <tr>
+                                <td>Week 13, 2021</td>
+                                <td>5.498</td>
+                            </tr>
+                            <tr>
+                                <td>Week 14, 2021</td>
+                                <td>31.850</td>
+                            </tr>
+                            <tr>
+                                <td>Week 15, 2021</td>
+                                <td>77.591</td>
+                            </tr>
+                            <tr>
+                                <td>Week 16, 2021</td>
+                                <td>120.887</td>
+                            </tr>
+                            <tr>
+                                <td>Week 17, 2021</td>
+                                <td>135.732</td>
+                            </tr>
+                            <tr>
+                                <td>Week 18, 2021</td>
+                                <td>150.473</td>
+                            </tr>
+                            <tr>
+                                <td>Week 19, 2021</td>
+                                <td>161.449</td>
+                            </tr>
+                            <tr>
+                                <td>Week 20, 2021</td>
+                                <td>221.506</td>
+                            </tr>
+                            <tr>
+                                <td>Week 21, 2021</td>
+                                <td>250.947</td>
+                            </tr>
+                            <tr>
+                                <td>Week 22, 2021</td>
+                                <td>369.260</td>
+                            </tr>
+                            <tr>
+                                <td>Week 23, 2021</td>
+                                <td>518.629</td>
+                            </tr>
+                            <tr>
+                                <td>Week 24, 2021</td>
+                                <td>947.275</td>
+                            </tr>
+                            <tr>
+                                <td>Week 25, 2021</td>
+                                <td>3.046.229</td>
+                            </tr>
+                            <tr>
+                                <td>Week 26, 2021</td>
+                                <td>4.559.032</td>
+                            </tr>
+                            <tr>
+                                <td>Week 27, 2021</td>
+                                <td>5.494.752</td>
+                            </tr>
+                            <tr>
+                                <td>Week 28, 2021</td>
+                                <td>6.337.007</td>
+                            </tr>
+                            <tr>
+                                <td>Week 29, 2021</td>
+                                <td>7.006.621</td>
+                            </tr>
+                            <tr>
+                                <td>Week 30, 2021</td>
+                                <td>7.628.880</td>
+                            </tr>
+                            <tr>
+                                <td>Week 31, 2021</td>
+                                <td>8.226.583</td>
+                            </tr>
+                            <tr>
+                                <td>Week 32, 2021</td>
+                                <td>8.756.426</td>
+                            </tr>
+                            <tr>
+                                <td>Week 33, 2021</td>
+                                <td>9.138.598</td>
+                            </tr>
+                            <tr>
+                                <td>Week 34, 2021</td>
+                                <td>9.446.082</td>
+                            </tr>
+                            <tr>
+                                <td>Week 35, 2021</td>
+                                <td>9.745.140</td>
+                            </tr>
+                            <tr>
+                                <td>Week 36, 2021</td>
+                                <td>10.048.297</td>
+                            </tr>
+                            <tr>
+                                <td>Week 37, 2021</td>
+                                <td>10.798.244</td>
+                            </tr>
+                            <tr>
+                                <td>Week 38, 2021</td>
+                                <td>11.583.967</td>
+                            </tr>
+                            <tr>
+                                <td>Week 39, 2021</td>
+                                <td>12.127.703</td>
+                            </tr>
+                            <tr>
+                                <td>Week 40, 2021</td>
+                                <td>12.449.551</td>
+                            </tr>
+                            <tr>
+                                <td>Week 41, 2021</td>
+                                <td>12.721.065</td>
+                            </tr>
+                            <tr>
+                                <td>Week 42, 2021</td>
+                                <td>12.987.812</td>
+                            </tr>
+                            <tr>
+                                <td>Week 43, 2021</td>
+                                <td>13.206.963</td>
+                            </tr>
+                            <tr>
+                                <td>Week 44, 2021</td>
+                                <td>13.516.537</td>
+                            </tr>
+                            <tr>
+                                <td>Week 45, 2021</td>
+                                <td>13.753.475</td>
+                            </tr>
+                            <tr>
+                                <td>Week 46, 2021</td>
+                                <td>13.926.691</td>
+                            </tr> 
+                            <tr>
+                                <td>Week 47, 2021</td>
+                                <td>14.101.907</td>
+                            </tr>
+                            <tr>
+                                <td>Week 48, 2021</td>
+                                <td>14.244.634</td>
+                            </tr>
+                            <tr>
+                                <td>Week 49, 2021</td>
+                                <td>14.374.068</td>
+                            </tr>
+                            <tr>
+                                <td>Week 50, 2021</td>
+                                <td>14.497.964</td>
+                            </tr>
+                            <tr>
+                                <td>Week 51, 2021</td>
+                                <td>14.594.925</td>
+                            </tr>
+                            <tr>
+                                <td>Week 52, 2021</td>
+                                <td>14.694.699</td>
+                            </tr>
+                            <tr>
+                                <td>Week 1, 2022</td>
+                                <td>14.800.272</td>
+                            </tr>
+                            <tr>
+                                <td>Week 2, 2022</td>
+                                <td>14.898.207</td>
+                            </tr>
+                            <tr>
+                                <td>Week 3, 2022</td>
+                                <td>15.018.093</td>
+                            </tr>
+                            <tr>
+                                <td>Week 4, 2022</td>
+                                <td>15.185.719</td>
+                            </tr>
+                            <tr>
+                                <td>Week 5, 2022</td>
+                                <td>15.339.548</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+        <div class="CoronaCheckScanner_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Aantal downloads van de CoronaCheck Scanner:</h2>
+                <p><span class="number_highlight">2,93 miljoen</span> downloads.</p>
+                <p>Met de CoronaCheck Scanner-app controleer je de geldigheid van een coronabewijs van een bezoeker. De app wordt gebruikt voor toegang tot sommige locaties en activiteiten.</p>
+                <p>De grafiek laat zien hoeveel mensen de CoronaCheck Scanner hebben gedownload.</p>
+            </div>
+            <div id="CoronaCheckScanner_downloads_plot">
+                <img src="{{ site.baseurl }}/img/coronacheck-scanner-stats.svg" alt="Grafiek downloads CoronaCheck Scanner. In de lijngrafiek is te zien dat in week 24 een explosieve groei van downloads ontstaat. De
+                groeilijn blijft steil stijgen, met een opleving in week 36 en 37, en opnieuw in week 44." class="graph" width="480" height="320">
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Downloads CoronaCheck</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Weeknummer</th>
+                                <th>Aantal downloads</th>
+                            </tr>
+                            <tr>
+                                <td>Week 12, 2021</td>
+                                <td>237</td>
+                            </tr>
+                            <tr>
+                                <td>Week 13, 2021</td>
+                                <td>331</td>
+                            </tr>
+                            <tr>
+                                <td>Week 14, 2021</td>
+                                <td>1.934</td>
+                            </tr>
+                            <tr>
+                                <td>Week 15, 2021</td>
+                                <td>3.730</td>
+                            </tr>
+                            <tr>
+                                <td>Week 16, 2021</td>
+                                <td>5.458</td>
+                            </tr>
+                            <tr>
+                                <td>Week 17, 2021</td>
+                                <td>6.398</td>
+                            </tr>
+                            <tr>
+                                <td>Week 18, 2021</td>
+                                <td>7.378</td>
+                            </tr>
+                            <tr>
+                                <td>Week 19, 2021</td>
+                                <td>8.142</td>
+                            </tr>
+                            <tr>
+                                <td>Week 20, 2021</td>
+                                <td>13.578</td>
+                            </tr>
+                            <tr>
+                                <td>Week 21, 2021</td>
+                                <td>17.016</td>
+                            </tr>
+                            <tr>
+                                <td>Week 22, 2021</td>
+                                <td>26.904</td>
+                            </tr>
+                            <tr>
+                                <td>Week 23, 2021</td>
+                                <td>33.952</td>
+                            </tr>
+                            <tr>
+                                <td>Week 24, 2021</td>
+                                <td>53.821</td>
+                            </tr>
+                            <tr>
+                                <td>Week 25, 2021</td>
+                                <td>262.348</td>
+                            </tr>
+                            <tr>
+                                <td>Week 26, 2021</td>
+                                <td>397.372</td>
+                            </tr>
+                            <tr>
+                                <td>Week 27, 2021</td>
+                                <td>491.841</td>
+                            </tr>
+                            <tr>
+                                <td>Week 28, 2021</td>
+                                <td>554.220</td>
+                            </tr>
+                            <tr>
+                                <td>Week 29, 2021</td>
+                                <td>601.111</td>
+                            </tr>
+                            <tr>
+                                <td>Week 30, 2021</td>
+                                <td>641.847</td>
+                            </tr>
+                            <tr>
+                                <td>Week 31, 2021</td>
+                                <td>679.457</td>
+                            </tr>
+                            <tr>
+                                <td>Week 32, 2021</td>
+                                <td>720.303</td>
+                            </tr>
+                            <tr>
+                                <td>Week 33, 2021</td>
+                                <td>752.788</td>
+                            </tr>
+                            <tr>
+                                <td>Week 34, 2021</td>
+                                <td>781.461</td>
+                            </tr>
+                            <tr>
+                                <td>Week 35, 2021</td>
+                                <td>811.810</td>
+                            </tr>
+                            <tr>
+                                <td>Week 36, 2021</td>
+                                <td>844.162</td>
+                            </tr>
+                            <tr>
+                                <td>Week 37, 2021</td>
+                                <td>978.263</td>
+                            </tr>
+                            <tr>
+                                <td>Week 38, 2021</td>
+                                <td>1.215.228</td>
+                            </tr>
+                            <tr>
+                                <td>Week 39, 2021</td>
+                                <td>1.397.778</td>
+                            </tr>
+                            <tr>
+                                <td>Week 40, 2021</td>
+                                <td>1.497.258</td>
+                            </tr>
+                            <tr>
+                                <td>Week 41, 2021</td>
+                                <td>1.594.784</td>
+                            </tr>
+                            <tr>
+                                <td>Week 42, 2021</td>
+                                <td>1.675.985</td>
+                            </tr>
+                            <tr>
+                                <td>Week 43, 2021</td>
+                                <td>1.778.053</td>
+                            </tr>
+                            <tr>
+                                <td>Week 44, 2021</td>
+                                <td>2.082.709</td>
+                            </tr>
+                            <tr>
+                                <td>Week 45, 2021</td>
+                                <td>2.293.167</td>
+                            </tr>
+                            <tr>
+                                <td>Week 46, 2021</td>
+                                <td>2.419.318</td>
+                            </tr> 
+                            <tr>
+                                <td>Week 47, 2021</td>
+                                <td>2.505.009</td>
+                            </tr> 
+                            <tr>
+                                <td>Week 48, 2021</td>
+                                <td>2.556.940</td>
+                            </tr>
+                            <tr>
+                                <td>Week 49, 2021</td>
+                                <td>2.601.181</td>
+                            </tr>
+                            <tr>
+                                <td>Week 50, 2021</td>
+                                <td>2.643.435</td>
+                            </tr>
+                            <tr>
+                                <td>Week 51, 2021</td>
+                                <td>2.695.422</td>
+                            </tr>
+                            <tr>
+                                <td>Week 52, 2021</td>
+                                <td>2.721.700</td>
+                            </tr>
+                            <tr>
+                                <td>Week 1, 2022</td>
+                                <td>2.748.957</td>
+                            </tr>
+                            <tr>
+                                <td>Week 2, 2022</td>
+                                <td>2.777.990</td>
+                            </tr>
+                            <tr>
+                                <td>Week 3, 2022</td>
+                                <td>2.809.813</td>
+                            </tr>
+                            <tr>
+                                <td>Week 4, 2022</td>
+                                <td>2.866.504</td>
+                            </tr>
+                            <tr>
+                                <td>Week 5, 2022</td>
+                                <td>2.937.211</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+    </div>
+
+  </main> 
+    {% include footer.html %} 
+</body>
+</html>
