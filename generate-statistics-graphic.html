@@ -19,10 +19,10 @@
          http://localhost:4000/generate-statistics-graphic.html .
         You only need to update the two arrays starting around line 65 of this document. 
         Then, copy the SVG codes to (respectively)
-        - coronacheck-stats.svg
-        - coronacheck-stats-en.svg
-        - coronacheck-scanner-stats.svg
-        - coronacheck-scanner-stats-en.svg
+        - coronamelder-stats.svg
+        - coronamelder-stats-en.svg
+        - coronamelder-scanner-stats.svg
+        - coronamelder-scanner-stats-en.svg
         And update the download number, tables and date in 
         - layouts/statistics.html
         - layouts/statistics-en.html
@@ -30,28 +30,28 @@
 
     <section class="container content-block">
         <h1>Generated SVG's</h1>
-        <h2>Active users </h2>
+        <h2>1. Actieve gebruikers</h2>
         <div class="column-2">
             <div id="CM_1"></div>
             <div>
                 <textarea id="CM_1_svg_code"></textarea>
             </div>
         </div>
-        <h2>People who sent notifications</h2>
+        <h2>2. Notificaties verstuurd via CoronaMelder</h2>
         <div class="column-2">
             <div id="CM_2"></div>
             <div>
                 <textarea id="CM_2_svg_code"></textarea>
             </div>
         </div>
-        <h2>Positive results after notification</h2>
+        <h2>3. Testaanvragen naar aanleiding van een notificatie</h2>
         <div class="column-2">
             <div id="CM_3"></div>
             <div>
                 <textarea id="CM_3_svg_code"></textarea>
             </div>
         </div>
-        <h2>Approached through BCO</h2>
+        <h2>4. Benaderd via BCO</h2>
         <div class="column-2">
             <div id="CM_4"></div>
             <div>
@@ -62,28 +62,28 @@
         <hr />
 
         <h1>English</h1>
-        <h2>Active users </h2>
+        <h2>1. Active users </h2>
         <div class="column-2">
             <div id="CM_1_en"></div>
             <div>
                 <textarea id="CM_1_svg_code_en"></textarea>
             </div>
         </div>
-        <h2>People who sent notifications</h2>
+        <h2>2. People who warned others through CoronaMelder</h2>
         <div class="column-2">
             <div id="CM_2_en"></div>
             <div>
                 <textarea id="CM_2_svg_code_en"></textarea>
             </div>
         </div>
-        <h2>Positive results after notification</h2>
+        <h2>3. People who got tested after notification</h2>
         <div class="column-2">
             <div id="CM_3_en"></div>
             <div>
                 <textarea id="CM_3_svg_code_en"></textarea>
             </div>
         </div>
-        <h2>Approached through BCO</h2>
+        <h2>4. Approached through BCO</h2>
         <div class="column-2">
             <div id="CM_4_en"></div>
             <div>
@@ -99,27 +99,6 @@
     <script type="text/javascript" src="js/statistics/2_warning-notifications.js"></script>
     <script type="text/javascript" src="js/statistics/3_positive-results-after-notification.js"></script>
     <script type="text/javascript" src="js/statistics/4_approached-through-bco.js"></script>
-
-    <!-- 
-        Stacked bar chart:
-        
-        https://observablehq.com/@d3/stacked-bar-chart
-
-        Plot.plot({
-            width,
-            y: {tickFormat: "s"},
-            color: {scheme: "spectral", domain: ages},
-            marks: [
-                Plot.barY(stateages, {
-                x: "state",
-                y: "population",
-                fill: "age",
-                sort: {x: "y", reverse: true}
-                }),
-                Plot.ruleY([0])
-            ]
-        })
-     -->
 
     <script>
         // Dutch statistics
@@ -145,160 +124,127 @@
 
 CM_1.appendChild(
     Plot.plot({
-        y: {
-            label: "↑ Aantal downloads CoronaMelder (miljoen)",  
-            grid: true,
-            ticks: [0, 2, 4, 6, 8, 10, 12, 14, 16],
-            tickSize: 0,  
-            tickFormat: (f => `${f}m`),
-            labelOffset: -10,
-        },
+        marginBottom: 80,
+        marginTop: 40,
         x: { 
             label: "Weeknummer →",
             labelAnchor: 'right',  
             labelOffset: -10,   
-            ticks: d3.utcMonth.every(2),
-            domain: [new Date("2021-03-28"), new Date()],
-            tickFormat: (f => f.toLocaleString("nl", { "month": "short",  "year": "numeric" }))
+            tickRotate: -45,
+            tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
+            ticks: d3.utcMonth.every(1),
+            padding: 3
+        },
+        y: {
+            label: "↑ Aantal downloads CoronaMelder (miljoen)",  
+            labelOffset: 10,   
+            transform: d => d / 1000,
+            grid: true,
+            tickFormat: (f => `${f}k`),
         },
         marks: [
             Plot.line(active_users, {
                 x: "date", 
-                y: "downloadnr",
-                curve: "monotone-y",
+                y: "active_users",
                 stroke: "#ec025f",
                 strokeWidth: 3
             }),
+            Plot.ruleY([0]),
         ],
-        tooltip: {
-            fill: "red",
-            stroke: "blue",
-            r: 8
-        },
-        style: {
-            width: 320,
-            height: 230,
-            fontSize: 14
-        },
     })
 );
 
-CM_1_en.appendChild(
-    Plot.plot({
-        y: {
-            label: "↑ Number of downloads CoronaMelder (million)",  
-            grid: true,
-            ticks: [0, 2, 4, 6, 8, 10, 12, 14, 16],
-            tickSize: 0,  
-            tickFormat: (f => `${f}m`),
-            labelOffset: -10,
-        },
-        x: { 
-            label: "Week number →",
-            labelAnchor: 'right',  
-            labelOffset: -10,   
-            ticks: d3.utcMonth.every(2),
-            domain: [new Date("2021-03-28"), new Date()],
-            tickFormat: (f => f.toLocaleString("en", { "month": "short",  "year": "numeric" }))
-            
-        },
-        marks: [
-            Plot.line(active_users, {
-                x: "date", 
-                y: "downloadnr",
-                curve: "monotone-y",
-                stroke: "#ec025f",
-                strokeWidth: 3
-            }),
-        ],
-        style: {
-            width: 320,
-            height: 230,
-            fontSize: 14
-        },
-    })
-); 
-
+    CM_1_en.appendChild(
+        Plot.plot({
+            marginBottom: 80,
+            marginTop: 40,
+            x: { 
+                label: "Weeknummer →",
+                labelAnchor: 'right',  
+                labelOffset: -10,   
+                tickRotate: -45,
+                tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
+                ticks: d3.utcMonth.every(1),
+                padding: 3
+            },
+            y: {
+                label: "↑ Aantal downloads CoronaMelder (miljoen)",  
+                labelOffset: 10,   
+                transform: d => d / 1000,
+                grid: true,
+                tickFormat: (f => `${f}k`),
+            },
+            marks: [
+                Plot.line(active_users, {
+                    x: "date", 
+                    y: "active_users",
+                    stroke: "#ec025f",
+                    strokeWidth: 3
+                }),
+                Plot.ruleY([0]),
+            ],
+        })
+    ); 
 
 CM_2.appendChild(
     Plot.plot({
-        y: {
-            label: "↑ Aantal waarschuwingen CoronaMelder",  
-            grid: true,
-            // ticks: [0, 2, 4, 6, 8, 10, 12, 14, 16],
-            // tickSize: 0,  
-            tickFormat: (f => `${f}m`),
-            labelOffset: -10,
-        },
+        marginBottom: 80,
         x: { 
             label: "Maand →",
             labelAnchor: 'right',  
-            labelOffset: -10,   
-            ticks: d3.utcMonth,
-            tickFormat: (f => f.toLocaleString("nl", { "month": "short",  "year": "numeric" }))
+            tickRotate: -45,
+            tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
+            stroke: "white",
+            ticks: d3.utcMonth.every(1),
+        },
+        y: {
+            label: "↑ Notificaties verstuurd",  
+            transform: d => d / 1000,
+            grid: true,
+            tickFormat: (f => `${f}K`),
         },
         marks: [
             Plot.barY(warning_notifications, {
                 x: "date", 
-                y: "downloadnr",
-                curve: "monotone-y",
-                stroke: "#ec025f",
-                strokeWidth: 3,
-                fill: "test",
+                y: "notifications",
+                // curve: "monotone-y",
+                fill: "#ec025f",
             }),
             Plot.ruleY([0])
         ],
-        tooltip: {
-            fill: "red",
-            stroke: "blue",
-            r: 8
-        },
-        style: {
-            width: 320,
-            height: 230,
-            fontSize: 14
-        },
     })
 );
 
-CM_2_en.appendChild(
-    Plot.plot({
-        y: {
-            label: "↑ Number of warnings CoronaMelder",  
-            grid: true,
-            // ticks: [0, 2, 4, 6, 8, 10, 12, 14, 16],
-            // tickSize: 0,  
-            tickFormat: (f => `${f}K`),
-            labelOffset: -10,
-        },
-        x: { 
-            label: "Month →",
-            labelAnchor: 'right',  
-            labelOffset: -10,   
-            ticks: d3.utcMonth,
-            tickFormat: (f => f.toLocaleString("en", { "month": "short",  "year": "numeric" }))
-        },
-        marks: [
-            Plot.barY(warning_notifications, {
-                x: "date", 
-                y: "downloadnr",
-                curve: "monotone-y",
-                stroke: "#ec025f",
-                strokeWidth: 3,
-                fill: "test",
-            }),
-            Plot.ruleY([0])
-        ],
-        style: {
-            width: 320,
-            height: 230,
-            fontSize: 14
-        },
-    })
-); 
+    CM_2_en.appendChild(
+        Plot.plot({
+            marginBottom: 80,
+            x: { 
+                label: "Maand →",
+                labelAnchor: 'right',  
+                tickRotate: -45,
+                tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
+                stroke: "white",
+                ticks: d3.utcMonth.every(1),
+            },
+            y: {
+                label: "↑ Notificaties verstuurd",  
+                transform: d => d / 1000,
+                grid: true,
+                tickFormat: (f => `${f}K`),
+            },
+            marks: [
+                Plot.barY(warning_notifications, {
+                    x: "date", 
+                    y: "notifications",
+                    // curve: "monotone-y",
+                    fill: "#ec025f",
+                }),
+                Plot.ruleY([0])
+            ],
+        })
+    ); 
 
-
-    CM_3.appendChild(
+CM_3.appendChild(
     Plot.plot({
         marginBottom: 80,
         x: {
@@ -312,62 +258,101 @@ CM_2_en.appendChild(
             label: "↑ Waarschuwingen (x duizend)",
             transform: d => d / 1000,
             grid: true,
-            tickFormat: (f => `${f}k`),
+            tickFormat: (f => `${f}K`),
         },
         marks: [
-        Plot.rectY(positive_results_after_notification, {
-            x: "date",
-            interval: d3.utcMonth,
-            y: "ggd_cumulative",
-            fill: "#ec025f",
-        }),
-        Plot.ruleY([0])
-        ], 
-    })
-    ); 
-
-
-    CM_3_en.appendChild(
-        Plot.plot({
-            marginBottom: 80,
-            x: {
-                label: "Month →",
-                tickRotate: -45,
-                tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
-                stroke: "white",
-                ticks: d3.utcMonth.every(1),
-            },
-            y: {
-                label: "↑ Warnings (x thousand)",
-                transform: d => d / 1000,
-                grid: true,
-                tickFormat: (f => `${f}k`),
-            },
-            marks: [
             Plot.rectY(positive_results_after_notification, {
                 x: "date",
                 interval: d3.utcMonth,
                 y: "ggd_cumulative",
                 fill: "#ec025f",
+                insetLeft: 1.5, 
+                insetRight: 1.5 
             }),
             Plot.ruleY([0])
-            ], 
-        })
-    ); 
+        ], 
+    })
+); 
 
-
-    CM_4.appendChild(
-        yesPlot = Plot.plot({
+    CM_3_en.appendChild( 
+        Plot.plot({
             marginBottom: 80,
-            color: {
-                legend: true
-            },
             x: {
                 label: "Maand →",
                 tickRotate: -45,
                 tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
                 stroke: "white",
                 ticks: d3.utcMonth.every(1),
+            },
+            y: {
+                label: "↑ Waarschuwingen (x duizend)",
+                transform: d => d / 1000,
+                grid: true,
+                tickFormat: (f => `${f}K`),
+            },
+            marks: [
+                Plot.rectY(positive_results_after_notification, {
+                    x: "date",
+                    interval: d3.utcMonth,
+                    y: "ggd_cumulative",
+                    fill: "#ec025f",
+                    insetLeft: 1.5, 
+                    insetRight: 1.5 
+                }),
+                Plot.ruleY([0])
+            ], 
+        })
+    ); 
+
+CM_4.appendChild(
+    Plot.plot({
+        marginBottom: 80, 
+        x: {
+            label: "Maand →",
+            tickRotate: -45,
+            tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
+            stroke: "white",
+            ticks: d3.utcMonth.every(1),
+            padding: 3
+        },
+        y: {
+            label: "↑ Benaderd voor BCO (duizend)",
+            transform: d => d / 1000,
+            grid: true,
+            tickFormat: (f => `${f}k`),
+        },
+        marks: [
+            Plot.rectY(approached_through_bco, {
+                x: "date", 
+                y: "approached",
+                fill: "#157CCA", 
+                interval: d3.utcMonth,
+                title:  (d => (d.approached / 1000).toFixed(3)), 
+                insetLeft: 1.5, insetRight: 1.5
+            }),
+            Plot.rectY(approached_through_bco, {
+                x: "date", 
+                y: "complaints",
+                interval: d3.utcMonth,
+                fill: "#ec025f",
+                title:  (d => (d.tested_positive / 1000).toFixed(3)),
+                insetLeft: 1.5, insetRight: 1.5 
+            }),
+            Plot.ruleY([0]),
+        ], 
+    })
+); 
+
+    CM_4_en.appendChild(
+        Plot.plot({
+            marginBottom: 80, 
+            x: {
+                label: "Maand →",
+                tickRotate: -45,
+                tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
+                stroke: "white",
+                ticks: d3.utcMonth.every(1),
+                padding: 3
             },
             y: {
                 label: "↑ Benaderd voor BCO (duizend)",
@@ -379,53 +364,18 @@ CM_2_en.appendChild(
                 Plot.rectY(approached_through_bco, {
                     x: "date", 
                     y: "approached",
-                    fill: "approached",
+                    fill: "#157CCA", 
                     interval: d3.utcMonth,
                     title:  (d => (d.approached / 1000).toFixed(3)), 
+                    insetLeft: 1.5, insetRight: 1.5
                 }),
                 Plot.rectY(approached_through_bco, {
                     x: "date", 
-                    y: "tested_positive",
+                    y: "complaints",
                     interval: d3.utcMonth,
-                    fill: "#cc0000",
-                    title:  (d => (d.tested_positive / 1000).toFixed(3)), 
-                }),
-                Plot.ruleY([0]),
-            ], 
-        })
-    ); 
-
-
-    CM_4_en.appendChild(
-        Plot.plot({
-            marginBottom: 80,
-            x: {
-                label: "Month →",
-                tickRotate: -45,
-                tickFormat: (f => f.toLocaleString("nl", { "month": "short", "year": "numeric" })),
-                stroke: "white",
-                ticks: d3.utcMonth.every(1),
-            },
-            y: {
-                label: "↑ Approached through BCO (x thousand)",
-                transform: d => d / 1000,
-                grid: true,
-                tickFormat: (f => `${f}k`),
-            },
-            marks: [
-                Plot.rectY(approached_through_bco, {
-                    x: "date", 
-                    y: "approached",
                     fill: "#ec025f",
-                    interval: d3.utcMonth,
-                    title:  (d => (d.approached / 1000).toFixed(3)),
-                }),
-                Plot.rectY(approached_through_bco, {
-                    x: "date", 
-                    y: "tested_positive",
-                    interval: d3.utcMonth,
-                    fill: "#cc0000",
                     title:  (d => (d.tested_positive / 1000).toFixed(3)),
+                    insetLeft: 1.5, insetRight: 1.5 
                 }),
                 Plot.ruleY([0]),
             ], 

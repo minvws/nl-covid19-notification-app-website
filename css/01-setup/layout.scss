@@ -1,0 +1,72 @@
+.column-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+
+    > div {
+        margin: 1rem;
+        width: 100%;
+
+        @media (min-width: 740px) {
+            width: calc(50% - 2rem);
+        }
+    }
+}
+
+.column-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+
+    > div {
+        margin: 1rem;
+        width: 100%;
+
+        @media (min-width: 740px) {
+            width: calc(50% - 2rem);
+        }
+
+        @media (min-width: 960px) {
+            width: calc(33.333% - 2rem);
+        }
+    }
+}
+
+// graphs
+
+.content-block--graphs {
+    .CoronaMelder_downloads {
+        border-bottom: 1px solid $color-mediumgrey;
+    }
+
+    .downloads_title {
+        font-size: 1rem;
+        line-height: 1.35;
+        font-weight: normal;
+        font-family: "RO sans";
+        margin-top: 20px;
+        margin-bottom: 0;
+
+        + p {
+            margin-top: 0;
+        }
+    }
+
+    .number_highlight {
+        color: $color-magenta;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .graph {
+        width: 100%;
+        height: auto;
+        // margin: 16px 0;
+        // aspect-ratio: 64 / 46;
+    }
+
+    details h3 {
+        font-weight: normal;
+        font-size: inherit;
+    }
+}
