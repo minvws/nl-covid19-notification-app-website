@@ -306,7 +306,7 @@ CM_3.appendChild(
 
 CM_4.appendChild(
     Plot.plot({
-        marginBottom: 80, 
+        marginBottom: 80,  
         x: {
             label: "Maand →",
             tickRotate: -45,
@@ -327,16 +327,18 @@ CM_4.appendChild(
                 y: "approached",
                 fill: "#157CCA", 
                 interval: d3.utcMonth,
-                title:  (d => (d.approached / 1000).toFixed(3)), 
-                insetLeft: 1.5, insetRight: 1.5
+                title: (d => (d.approached / 1000).toFixed(3)), 
+                strokeWidth: 3,
+                stroke: "white",
             }),
             Plot.rectY(approached_through_bco, {
                 x: "date", 
                 y: "complaints",
                 interval: d3.utcMonth,
                 fill: "#ec025f",
-                title:  (d => (d.tested_positive / 1000).toFixed(3)),
-                insetLeft: 1.5, insetRight: 1.5 
+                title: (d => (d.tested_positive / 1000).toFixed(3)),
+                strokeWidth: 3,
+                stroke: "white",
             }),
             Plot.ruleY([0]),
         ], 

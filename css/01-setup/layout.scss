@@ -13,6 +13,20 @@
     }
 }
 
+.content-graphs .column-2 {
+    > div:first-child {
+        @media (min-width: 740px) {
+            width: calc(30% - 2rem);
+        }
+    }
+
+    > div:last-child {
+        @media (min-width: 740px) {
+            width: calc(70% - 2rem);
+        }
+    }
+}
+
 .column-3 {
     display: flex;
     flex-wrap: wrap;

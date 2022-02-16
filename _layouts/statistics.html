@@ -7,6 +7,42 @@
 <html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
 {% include open-source-comment.html %}
 {% include head.html %}
+<style>
+        .plot-swatch {
+          margin-bottom: 0.5em;
+          margin-left: 0px;
+        }
+        .plot-swatch::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        margin-right: 0.5em;
+        background: var(--color);
+      }
+        
+      .plot-legend {
+        display: flex;
+        min-height: 33px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+      .plot-swatch {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 1em;
+      }
+
+      img,
+      .plot-legend {
+          margin-top: 20px;
+      }
+
+      .plot-legend + img {
+          margin-top: 0;
+      }
+      </style>
+
 <body>
   {% if page.collection == 'questions-scanner' or page.domain == 'scanner' %}
     {% include header-slim.html for="scanner" %}
@@ -14,7 +50,7 @@
     {% include header-slim.html %}
   {% endif %}
   
-  <main class="content-center" id="content">
+  <main class="content-center content-graphs" id="content">
     {% if page.showBreadCrumbs %}
       {% include breadcrumbs.html title=page.title collection=page.collection %}
     {% endif %}
@@ -102,6 +138,11 @@
                 <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder sinds ingebruikname van de app op 10 oktober 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
+                <div class="plot-legend">
+                    <span class="plot-swatch" style="--color:#157CCA;">Notificaties (N)</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">Positief getest (P)</span>
+                </div>
+
                 <img src="{{ site.baseurl }}/img/coronamelder-testaanvragen-stats.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
 
                 <details class="details">
