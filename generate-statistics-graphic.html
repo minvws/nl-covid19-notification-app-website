@@ -204,12 +204,16 @@ CM_2.appendChild(
             tickFormat: (f => `${f}K`),
         },
         marks: [
-            Plot.barY(warning_notifications, {
+            Plot.barY(warning_notifications.filter(d => d.date <= new Date("2022-01-31")), {
                 x: "date", 
                 y: "notifications",
-                // curve: "monotone-y",
                 fill: "#ec025f",
-            }),
+            }), 
+            Plot.barY(warning_notifications.filter(d => d.date > new Date("2022-02-01")), {
+                x: "date", 
+                y: "notifications",
+                fill: "#000",
+            }), 
             Plot.ruleY([0])
         ],
     })
@@ -334,9 +338,9 @@ CM_4.appendChild(
             Plot.rectY(approached_through_bco, {
                 x: "date", 
                 y: "complaints",
-                interval: d3.utcMonth,
                 fill: "#ec025f",
-                title: (d => (d.tested_positive / 1000).toFixed(3)),
+                interval: d3.utcMonth,
+                title: (d => (d.complaints / 1000).toFixed(3)), // werkt niet
                 strokeWidth: 3,
                 stroke: "white",
             }),
