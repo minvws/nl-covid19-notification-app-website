@@ -17,17 +17,14 @@ const active_users_raw = [
   },
   {
     date: "2020-12-31",
-    tested_positive: 21164,
     active_users: 84140
   },
   {
     date: "2021-01-31",
-    tested_positive: 20390,
     active_users: 106453
   },
   {
     date: "2021-02-28",
-    tested_positive: 20518,
     active_users: 118318
   },
   {
@@ -36,7 +33,6 @@ const active_users_raw = [
   },
   {
     date: "2021-04-30",
-    tested_positive: 60768,
     active_users: 160019
   },
   {
@@ -45,12 +41,10 @@ const active_users_raw = [
   },
   {
     date: "2021-06-30",
-    tested_positive: 20349,
     active_users: 182726
   },
   {
     date: "2021-07-31",
-    tested_positive: 12162,
     active_users: 194596
   },
   {

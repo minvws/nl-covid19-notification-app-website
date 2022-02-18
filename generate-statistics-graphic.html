@@ -410,9 +410,7 @@ CM_4.appendChild(
                     (f) => {
                         const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
                         const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
-                        // if (monthYear != nextMonthString) {
-                            return monthYear === thisMonthYear ? `${date} *` : date;
-                        // }
+                        return monthYear === thisMonthYear ? `${date} *` : date;
                     }
                 ),
                 stroke: "white",

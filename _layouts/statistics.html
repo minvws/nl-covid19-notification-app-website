@@ -70,12 +70,12 @@
       <div class="division">
         {{ content }}
 
-        <p>Cijfers tot en met zondag 13 februari 2022.</p>
+        <p>Cijfers tot en met <span id="last_date">zondag 13 februari 2022</span>.</p>
 
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Actieve gebruikers van CoronaMelder:</h2>
-                <p><span class="number_highlight">2,43</span> miljoen.</p>
+                <p><span class="number_highlight" id="active_users_number">2,43</span> miljoen.</p>
                 <p>De grafiek laat zien hoeveel mensen de CoronaMelder-app actief gebruiken.</p>
                 <p>Je kunt meer informatie vinden op <a href="https://github.com/minvws/nl-covid19-notification-app-statistics">de GitHub pagina van het Ministerie van Volksgezondheid, Welzijn en Sport</a>.</p>
             </div>
@@ -89,12 +89,12 @@
                             <tr>
                                 <th colspan="2">Actieve gebruikers CoronaMelder</th>
                             </tr>
-                        </thead>
-                        <tbody>
                             <tr>
                                 <th>Maand</th>
                                 <th>Aantal actieve gebruikers</th>
                             </tr>
+                        </thead>
+                        <tbody id="active_users_table">
                         </tbody>
                     </table>
                 </details>
@@ -104,7 +104,7 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Mensen die anderen waarschuwden via CoronaMelder:</h2>
-                <p><span class="number_highlight">302.706</span></p>
+                <p><span class="number_highlight" id="warnings_number">302.706</span></p>
                 <p>Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. De grafiek laat zien hoeveel mensen dit hebben gedaan na landelijke introductie van CoronaMelder op 10 oktober 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
@@ -117,12 +117,12 @@
                             <tr>
                                 <th colspan="2">Verstuurde notificaties vanuit CoronaMelder</th>
                             </tr>
-                        </thead>
-                        <tbody>
                             <tr>
                                 <th>Maand</th>
                                 <th>Aantal verstuurde notificaties</th>
                             </tr>
+                        </thead>
+                        <tbody id="warnings_table">
                         </tbody>
                     </table>
                 </details>
@@ -132,9 +132,9 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Testaanvragen waar een notificatie aan vooraf ging</h2>
-                <p><span class="number_highlight">265.936</span></p>
+                <p><span class="number_highlight" id="tests_total">265.936</span></p>
                 <p>Waarvan positieve uitslagen:<br /> 
-                    <span class="number_highlight">200.000</span></p>
+                    <span class="number_highlight" id="tests_tested_positive">200.000</span></p>
                 <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder sinds ingebruikname van de app op 10 oktober 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
@@ -152,18 +152,13 @@
                             <tr>
                                 <th colspan="3">Testaanvragen na notificatie CoronaMelder</th>
                             </tr>
-                        </thead>
-                        <tbody>
                             <tr>
                                 <th>Maand</th>
                                 <th>Aantal testaanvragen</th>
                                 <th>Waarvan positief</th>
                             </tr>
-                            <tr>
-                                <td>Januari 2022</td>
-                                <td>265.936</td>
-                                <td>200.000</td>
-                            </tr>
+                        </thead>
+                        <tbody id="tests_table">
                         </tbody>
                     </table>
                 </details>
@@ -200,5 +195,79 @@
 
   </main> 
     {% include footer.html %} 
+
+        <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
+        <script type="text/javascript" src="/js/statistics/2_warning-notifications.js"></script>
+        <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
+        <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
+    
+    <script>
+    
+        // CM_1 = document.getElementById('CM_1');
+        // last_date
+        // active_users_number
+        // active_users_table
+
+        // warnings_number
+        // warnings_table
+
+        // tests_total
+        // tests_tested_positive
+        // tests_table
+
+        var active_users_table = document.getElementById("active_users_table");
+        var warnings_table = document.getElementById("warnings_table");
+        var tests_table = document.getElementById("tests_table");
+         
+        function constructTable(selected_data, selected_table) {
+             
+            for (let i = 0; i < selected_data.length; i++) {
+                
+                stats_object = Object.values(selected_data[i]);
+
+                function databox(dataKeyID) {
+                    if (stats_object[dataKeyID].toString().length > 4) {
+                        return (stats_object[dataKeyID]/ 1000).toFixed(3);
+                    } else {
+                        return stats_object[dataKeyID];
+                    }
+                }
+
+                // number of key/value pairs in the current object
+                let number_of_key_value_pairs = Object.values(selected_data[i]).length;
+
+                let stats_columns = `
+                    <tr>
+                        <td>${stats_object[0].toLocaleString("nl", { "month": "long", "year": "numeric" })}</td>
+                `;
+
+                for (let j = 1; j < number_of_key_value_pairs; j++) {
+                    stats_columns += `<td>${databox(j)}</td>`
+                }
+
+                newRow = stats_columns + `
+                    </tr>
+                `
+                selected_table.innerHTML += newRow;
+
+            }
+
+
+            for (let i = 0; i < selected_data.length; i++) {
+                if (i == (selected_data.length -1)) {
+                    document.getElementById("last_date").innerHTML = stats_object[0].toLocaleString("nl", { 
+                        "weekday": "long", 
+                        "day": "numeric", 
+                        "month": "long", 
+                        "year": "numeric" 
+                    });
+                }
+            }   
+        }
+
+        constructTable(active_users, active_users_table);
+        constructTable(warning_notifications, warnings_table);
+        constructTable(approached_through_bco, tests_table);
+    </script>
 </body>
 </html>
