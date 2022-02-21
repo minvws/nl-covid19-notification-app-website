@@ -33,434 +33,236 @@
       <div class="division">
         {{ content }}
 
-        <p>Figures up to and including Sunday, February 6, 2022.</p>
+        <p>Figures up to and including  <span id="last_date">Sunday, February 6, 2022</span>.</p>
 
         <div class="CoronaMelder_downloads column-2"> 
             <div>
-                <h2 class="downloads_title">People who downloaded CoronaMelder:</h2>
-                <p><span class="number_highlight">15,33 million</span> downloads.</p>
-                <p>The chart shows the number of people who downloaded the CoronaMelder app.</p>
+                <h2 class="downloads_title">Active users of CoronaMelder:</h2>
+                <p><span class="number_highlight" id="active_users_number">2,43</span>.</p>
+                <p>The graph shows how many people are actively using the CoronaMelder app.</p>
+                <p>You can find more information at <a href="https://github.com/minvws/nl-covid19-notification-app-statistics">the GitHub page of the Ministry of Health, Welfare and Sport</a>.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
-                <img src="{{ site.baseurl }}/img/coronamelder-stats-en.svg" alt="CoronaMelder downloads chart. The line chart shows an explosive growth in downloads in week 24. The growth line continues to rise steeply, with a rebound in weeks 36 and 37." class="graph" width="480" height="320">
+                <img src="{{ site.baseurl }}/img/coronamelder-actievegebruikers-stats.svg" alt="Grafiek actieve gebruikers van CoronaMelder per maand." class="graph" width="480" height="320">
 
                 <details class="details">
-                    <summary><h3>Source data chart</h3></summary>
+                    <summary><h3>Graph source data</h3></summary>
                     <table>
                         <thead>
                             <tr>
-                                <th colspan="2">Number of downloads CoronaMelder</th>
+                                <th colspan="2">Active users of CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Month</th>
+                                <th>Number of active users</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <th>Weeknummer</th>
-                                <th>Aantal downloads</th>
-                            </tr>
-                            <tr>
-                                <td>Week 12, 2021</td>
-                                <td>4.947</td>
-                            </tr>
-                            <tr>
-                                <td>Week 13, 2021</td>
-                                <td>5.498</td>
-                            </tr>
-                            <tr>
-                                <td>Week 14, 2021</td>
-                                <td>31.850</td>
-                            </tr>
-                            <tr>
-                                <td>Week 15, 2021</td>
-                                <td>77.591</td>
-                            </tr>
-                            <tr>
-                                <td>Week 16, 2021</td>
-                                <td>120.887</td>
-                            </tr>
-                            <tr>
-                                <td>Week 17, 2021</td>
-                                <td>135.732</td>
-                            </tr>
-                            <tr>
-                                <td>Week 18, 2021</td>
-                                <td>150.473</td>
-                            </tr>
-                            <tr>
-                                <td>Week 19, 2021</td>
-                                <td>161.449</td>
-                            </tr>
-                            <tr>
-                                <td>Week 20, 2021</td>
-                                <td>221.506</td>
-                            </tr>
-                            <tr>
-                                <td>Week 21, 2021</td>
-                                <td>250.947</td>
-                            </tr>
-                            <tr>
-                                <td>Week 22, 2021</td>
-                                <td>369.260</td>
-                            </tr>
-                            <tr>
-                                <td>Week 23, 2021</td>
-                                <td>518.629</td>
-                            </tr>
-                            <tr>
-                                <td>Week 24, 2021</td>
-                                <td>947.275</td>
-                            </tr>
-                            <tr>
-                                <td>Week 25, 2021</td>
-                                <td>3.046.229</td>
-                            </tr>
-                            <tr>
-                                <td>Week 26, 2021</td>
-                                <td>4.559.032</td>
-                            </tr>
-                            <tr>
-                                <td>Week 27, 2021</td>
-                                <td>5.494.752</td>
-                            </tr>
-                            <tr>
-                                <td>Week 28, 2021</td>
-                                <td>6.337.007</td>
-                            </tr>
-                            <tr>
-                                <td>Week 29, 2021</td>
-                                <td>7.006.621</td>
-                            </tr>
-                            <tr>
-                                <td>Week 30, 2021</td>
-                                <td>7.628.880</td>
-                            </tr>
-                            <tr>
-                                <td>Week 31, 2021</td>
-                                <td>8.226.583</td>
-                            </tr>
-                            <tr>
-                                <td>Week 32, 2021</td>
-                                <td>8.756.426</td>
-                            </tr>
-                            <tr>
-                                <td>Week 33, 2021</td>
-                                <td>9.138.598</td>
-                            </tr>
-                            <tr>
-                                <td>Week 34, 2021</td>
-                                <td>9.446.082</td>
-                            </tr>
-                            <tr>
-                                <td>Week 35, 2021</td>
-                                <td>9.745.140</td>
-                            </tr>
-                            <tr>
-                                <td>Week 36, 2021</td>
-                                <td>10.048.297</td>
-                            </tr>
-                            <tr>
-                                <td>Week 37, 2021</td>
-                                <td>10.798.244</td>
-                            </tr>
-                            <tr>
-                                <td>Week 38, 2021</td>
-                                <td>11.583.967</td>
-                            </tr>
-                            <tr>
-                                <td>Week 39, 2021</td>
-                                <td>12.127.703</td>
-                            </tr>
-                            <tr>
-                                <td>Week 40, 2021</td>
-                                <td>12.449.551</td>
-                            </tr>
-                            <tr>
-                                <td>Week 41, 2021</td>
-                                <td>12.721.065</td>
-                            </tr>
-                            <tr>
-                                <td>Week 42, 2021</td>
-                                <td>12.987.812</td>
-                            </tr>
-                            <tr>
-                                <td>Week 43, 2021</td>
-                                <td>13.206.963</td>
-                            </tr>
-                            <tr>
-                                <td>Week 44, 2021</td>
-                                <td>13.516.537</td>
-                            </tr>
-                            <tr>
-                                <td>Week 45, 2021</td>
-                                <td>13.753.475</td>
-                            </tr>
-                            <tr>
-                                <td>Week 46, 2021</td>
-                                <td>13.926.691</td>
-                            </tr> 
-                            <tr>
-                                <td>Week 47, 2021</td>
-                                <td>14.101.907</td>
-                            </tr>
-                            <tr>
-                                <td>Week 48, 2021</td>
-                                <td>14.244.634</td>
-                            </tr>
-                            <tr>
-                                <td>Week 49, 2021</td>
-                                <td>14.374.068</td>
-                            </tr>
-                            <tr>
-                                <td>Week 50, 2021</td>
-                                <td>14.497.964</td>
-                            </tr>
-                            <tr>
-                                <td>Week 51, 2021</td>
-                                <td>14.594.925</td>
-                            </tr>
-                            <tr>
-                                <td>Week 52, 2021</td>
-                                <td>14.694.699</td>
-                            </tr>
-                            <tr>
-                                <td>Week 1, 2022</td>
-                                <td>14.800.272</td>
-                            </tr>
-                            <tr>
-                                <td>Week 2, 2022</td>
-                                <td>14.898.207</td>
-                            </tr>
-                            <tr>
-                                <td>Week 3, 2022</td>
-                                <td>15.018.093</td>
-                            </tr>
-                            <tr>
-                                <td>Week 4, 2022</td>
-                                <td>15.185.719</td>
-                            </tr>
-                            <tr>
-                                <td>Week 5, 2022</td>
-                                <td>15.339.548</td>
-                            </tr>
+                        <tbody id="active_users_table">
                         </tbody>
                     </table>
                 </details>
             </div>
         </div>
-        <div class="CoronaMelderScanner_downloads column-2"> 
+
+        <div class="CoronaMelder_downloads column-2"> 
             <div>
-                <h2 class="downloads_title">Number of CoronaMelder Scanner downloads:</h2>
-                <p><span class="number_highlight">2,93 million</span> downloads.</p>
-                <p>With CoronaMelder Scanner, you can check the validity of a visitor’s coronavirus pass. The app is used for access to some locations and activities.</p>
-                <p>The chart shows how many people downloaded the CoronaMelder Scanner.</p>
+                <h2 class="downloads_title">People who warned others via CoronaMelder:</h2>
+                <p><span class="number_highlight" id="warnings_number">302.706</span>.</p>
+                <p>If you have tested positive for corona, you can voluntarily indicate this in the app, together with an employee of the GGD. The graph shows how many people have done this after the national introduction of CoronaMelder on October 10, 2020.</p>
             </div>
-            <div id="CoronaMelderScanner_downloads_plot">
-                <img src="{{ site.baseurl }}/img/coronamelder-scanner-stats-en.svg" alt="CoronaMelder Scanner downloads chart. The line chart shows an explosive growth in downloads in week 24. The growth line continues to rise steeply, with a rebound in weeks 36 and 37, and again in week 44." class="graph" width="480" height="320">
+            <div id="CoronaMelder_downloads_plot">
+                <img src="{{ site.baseurl }}/img/coronamelder-waarschuwingen-stats-en.svg" alt="Grafiek actieve gebruikers van CoronaMelder per maand." class="graph" width="480" height="320">
 
                 <details class="details">
-                    <summary><h3>Source data chart</h3></summary>
+                    <summary><h3>Graph source data</h3></summary>
                     <table>
                         <thead>
                             <tr>
-                                <th colspan="2">Downloads CoronaMelder Scanner</th>
+                                <th colspan="2">Notifications sent from CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Month</th>
+                                <th>Number of notifications sent</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <th>Weeknummer</th>
-                                <th>Aantal downloads</th>
-                            </tr>
-                            <tr>
-                                <td>Week 12, 2021</td>
-                                <td>237</td>
-                            </tr>
-                            <tr>
-                                <td>Week 13, 2021</td>
-                                <td>331</td>
-                            </tr>
-                            <tr>
-                                <td>Week 14, 2021</td>
-                                <td>1.934</td>
-                            </tr>
-                            <tr>
-                                <td>Week 15, 2021</td>
-                                <td>3.730</td>
-                            </tr>
-                            <tr>
-                                <td>Week 16, 2021</td>
-                                <td>5.458</td>
-                            </tr>
-                            <tr>
-                                <td>Week 17, 2021</td>
-                                <td>6.398</td>
-                            </tr>
-                            <tr>
-                                <td>Week 18, 2021</td>
-                                <td>7.378</td>
-                            </tr>
-                            <tr>
-                                <td>Week 19, 2021</td>
-                                <td>8.142</td>
-                            </tr>
-                            <tr>
-                                <td>Week 20, 2021</td>
-                                <td>13.578</td>
-                            </tr>
-                            <tr>
-                                <td>Week 21, 2021</td>
-                                <td>17.016</td>
-                            </tr>
-                            <tr>
-                                <td>Week 22, 2021</td>
-                                <td>26.904</td>
-                            </tr>
-                            <tr>
-                                <td>Week 23, 2021</td>
-                                <td>33.952</td>
-                            </tr>
-                            <tr>
-                                <td>Week 24, 2021</td>
-                                <td>53.821</td>
-                            </tr>
-                            <tr>
-                                <td>Week 25, 2021</td>
-                                <td>262.348</td>
-                            </tr>
-                            <tr>
-                                <td>Week 26, 2021</td>
-                                <td>397.372</td>
-                            </tr>
-                            <tr>
-                                <td>Week 27, 2021</td>
-                                <td>491.841</td>
-                            </tr>
-                            <tr>
-                                <td>Week 28, 2021</td>
-                                <td>554.220</td>
-                            </tr>
-                            <tr>
-                                <td>Week 29, 2021</td>
-                                <td>601.111</td>
-                            </tr>
-                            <tr>
-                                <td>Week 30, 2021</td>
-                                <td>641.847</td>
-                            </tr>
-                            <tr>
-                                <td>Week 31, 2021</td>
-                                <td>679.457</td>
-                            </tr>
-                            <tr>
-                                <td>Week 32, 2021</td>
-                                <td>720.303</td>
-                            </tr>
-                            <tr>
-                                <td>Week 33, 2021</td>
-                                <td>752.788</td>
-                            </tr>
-                            <tr>
-                                <td>Week 34, 2021</td>
-                                <td>781.461</td>
-                            </tr>
-                            <tr>
-                                <td>Week 35, 2021</td>
-                                <td>811.810</td>
-                            </tr>
-                            <tr>
-                                <td>Week 36, 2021</td>
-                                <td>844.162</td>
-                            </tr>
-                            <tr>
-                                <td>Week 37, 2021</td>
-                                <td>978.263</td>
-                            </tr>
-                            <tr>
-                                <td>Week 38, 2021</td>
-                                <td>1.215.228</td>
-                            </tr>
-                            <tr>
-                                <td>Week 39, 2021</td>
-                                <td>1.397.778</td>
-                            </tr>
-                            <tr>
-                                <td>Week 40, 2021</td>
-                                <td>1.497.258</td>
-                            </tr>
-                            <tr>
-                                <td>Week 41, 2021</td>
-                                <td>1.594.784</td>
-                            </tr>
-                            <tr>
-                                <td>Week 42, 2021</td>
-                                <td>1.675.985</td>
-                            </tr>
-                            <tr>
-                                <td>Week 43, 2021</td>
-                                <td>1.778.053</td>
-                            </tr>
-                            <tr>
-                                <td>Week 44, 2021</td>
-                                <td>2.082.709</td>
-                            </tr>
-                            <tr>
-                                <td>Week 45, 2021</td>
-                                <td>2.293.167</td>
-                            </tr>
-                            <tr>
-                                <td>Week 46, 2021</td>
-                                <td>2.419.318</td>
-                            </tr> 
-                            <tr>
-                                <td>Week 47, 2021</td>
-                                <td>2.505.009</td>
-                            </tr> 
-                            <tr>
-                                <td>Week 48, 2021</td>
-                                <td>2.556.940</td>
-                            </tr>
-                            <tr>
-                                <td>Week 49, 2021</td>
-                                <td>2.601.181</td>
-                            </tr>
-                            <tr>
-                                <td>Week 50, 2021</td>
-                                <td>2.643.435</td>
-                            </tr>
-                            <tr>
-                                <td>Week 51, 2021</td>
-                                <td>2.695.422</td>
-                            </tr>
-                            <tr>
-                                <td>Week 52, 2021</td>
-                                <td>2.721.700</td>
-                            </tr>
-                            <tr>
-                                <td>Week 1, 2022</td>
-                                <td>2.748.957</td>
-                            </tr>
-                            <tr>
-                                <td>Week 2, 2022</td>
-                                <td>2.777.990</td>
-                            </tr>
-                            <tr>
-                                <td>Week 3, 2022</td>
-                                <td>2.809.813</td>
-                            </tr>
-                            <tr>
-                                <td>Week 4, 2022</td>
-                                <td>2.866.504</td>
-                            </tr>
-                            <tr>
-                                <td>Week 5, 2022</td>
-                                <td>2.937.211</td>
-                            </tr>
+                        <tbody id="warnings_table">
                         </tbody>
                     </table>
                 </details>
+            </div>
+        </div>
+        <div class="CoronaMelder_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Test applications after notification Corona Melder</h2>
+                <p><span class="number_highlight" id="tests_total">265.936</span>.</p>
+                <p>Of which tested positive<br /> 
+                    <span class="number_highlight" id="tests_tested_positive">200.000</span>.</p>
+                <p>The graph shows how many people had themselves tested after a notification from CoronaMelder since the app was put into use on October 10, 2020.</p>
+            </div>
+            <div id="CoronaMelder_downloads">
+                <div class="plot-legend">
+                    <span class="plot-swatch" style="--color:#157CCA;">Notifications</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">Tested positive</span>
+                </div>
+
+                <img src="{{ site.baseurl }}/img/coronamelder-testaanvragen-stats-en.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
+
+                <details class="details">
+                    <summary><h3>Graph source data</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">Test applications after notification Corona Melder</th>
+                            </tr>
+                            <tr>
+                                <th>Month</th>
+                                <th>Number of test applications</th>
+                                <th>Of which tested positive</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tests_table">
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+
+        <div class=""> 
+            <div>
+                <h2>Effects of CoronaMelder</h2>
+                <p>
+                    <span class="number_highlight">64%</span> of the people who requested a corona test after a notification from CoronaMelder had not yet been approached from the regular source and contact research.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Percentage of requested corona tests</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January 2022</td>
+                            <td>64%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    Redenen om CoronaMelder te hebben (zie laatste evaluatie onderzoek) + gemodeleerd effect op de R-waarde.
+                </p>
             </div>
         </div>
     </div>
 
   </main> 
     {% include footer.html %} 
+
+        <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
+        <script type="text/javascript" src="/js/statistics/2_warning-notifications.js"></script>
+        <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
+        <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
+    
+    <script> 
+        active_users_number = document.getElementById('active_users_number');
+
+        warnings_number = document.getElementById('warnings_number');
+
+        tests_total = document.getElementById('tests_total');
+        tests_tested_positive = document.getElementById('tests_tested_positive');
+
+        const active_users_table = document.getElementById("active_users_table");
+        const warnings_table = document.getElementById("warnings_table");
+        const tests_table = document.getElementById("tests_table");
+         
+        function constructTable(selectedData, selected_table) {
+            // loop through all the data objects in the requested JSON
+            for (let i = 0; i < selectedData.length; i++) {
+                // store object in a variable
+                statsObject = Object.values(selectedData[i]);
+
+                // get the number of key value pairs
+                let number_of_key_value_pairs = Object.values(selectedData[i]).length;
+
+                function getColumnValue(valueID) {
+                    if (statsObject[valueID].toString().length > 4) {
+                        return (statsObject[valueID]/ 1000).toFixed(3);
+                    } else {
+                        return statsObject[valueID];
+                    }
+                }
+
+                // create row string
+                let statsRow = ``;
+                 
+                statsRow += `<tr>`;
+
+                if (i == (selectedData.length -1)) {
+                    statsIncomplete += `*`;
+                } else {
+                    statsIncomplete = ``;
+                }
+
+                statsRow += `<td>
+                    ${statsObject[0].toLocaleString("en", { "month": "long", "year": "numeric" })} ${statsIncomplete}
+                </td>`;
+
+                for (let j = 1; j < number_of_key_value_pairs; j++) {
+                    statsRow += `<td>${getColumnValue(j)}</td>`
+                }
+
+                statsRow += `</tr>`;
+                selected_table.innerHTML += statsRow;
+
+            }
+        }
+
+        function fillUpdateDate(selectedData) {
+            for (let i = 0; i < selectedData.length; i++) {
+                statsObject = Object.values(selectedData[i]);
+
+                if (i == (selectedData.length -1)) {
+                    document.getElementById("last_date").innerHTML = statsObject[0].toLocaleString("en", { 
+                        "weekday": "long", 
+                        "day": "numeric", 
+                        "month": "long", 
+                        "year": "numeric" 
+                    });
+                }
+            }
+        }
+
+        function updateStatisticNumber(selectedData, selectedKey, selectedElement) {
+            for (let i = 0; i < selectedData.length; i++) {
+                // statsObject = Object.values(selectedData[i]);
+
+                if (i == (selectedData.length -1)) {
+                    // rightKey = selectedData[i][selectedKey];
+
+                    function getValue(valueID) {
+                        if (valueID.toString().length > 4) {
+                            return (valueID / 1000).toFixed(3);
+                        } else {
+                            return valueID;
+                        }
+                    }
+                
+                    statisticNumber = getValue(selectedData[i][selectedKey]);
+                }
+            } 
+
+            selectedElement.innerHTML = statisticNumber;
+        }
+
+        constructTable(active_users, active_users_table);
+        constructTable(warning_notifications, warnings_table);
+        constructTable(approached_through_bco, tests_table);
+
+        fillUpdateDate(active_users);
+ 
+        updateStatisticNumber(active_users, 'active_users', active_users_number);
+        updateStatisticNumber(warning_notifications, 'notifications', warnings_number);
+        updateStatisticNumber(approached_through_bco, 'tested_total', tests_total);       
+        updateStatisticNumber(approached_through_bco, 'tested_positive', tests_tested_positive);
+    </script>
 </body>
 </html>
