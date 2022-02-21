@@ -75,7 +75,7 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Actieve gebruikers van CoronaMelder:</h2>
-                <p><span class="number_highlight" id="active_users_number">2,43</span> miljoen.</p>
+                <p><span class="number_highlight" id="active_users_number">2,43</span>.</p>
                 <p>De grafiek laat zien hoeveel mensen de CoronaMelder-app actief gebruiken.</p>
                 <p>Je kunt meer informatie vinden op <a href="https://github.com/minvws/nl-covid19-notification-app-statistics">de GitHub pagina van het Ministerie van Volksgezondheid, Welzijn en Sport</a>.</p>
             </div>
@@ -104,7 +104,7 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Mensen die anderen waarschuwden via CoronaMelder:</h2>
-                <p><span class="number_highlight" id="warnings_number">302.706</span></p>
+                <p><span class="number_highlight" id="warnings_number">302.706</span>.</p>
                 <p>Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. De grafiek laat zien hoeveel mensen dit hebben gedaan na landelijke introductie van CoronaMelder op 10 oktober 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
@@ -132,9 +132,9 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Testaanvragen waar een notificatie aan vooraf ging</h2>
-                <p><span class="number_highlight" id="tests_total">265.936</span></p>
+                <p><span class="number_highlight" id="tests_total">265.936</span>.</p>
                 <p>Waarvan positieve uitslagen:<br /> 
-                    <span class="number_highlight" id="tests_tested_positive">200.000</span></p>
+                    <span class="number_highlight" id="tests_tested_positive">200.000</span>.</p>
                 <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder sinds ingebruikname van de app op 10 oktober 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
@@ -201,73 +201,107 @@
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
         <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
     
-    <script>
-    
-        // CM_1 = document.getElementById('CM_1');
-        // last_date
-        // active_users_number
-        // active_users_table
+    <script> 
+        active_users_number = document.getElementById('active_users_number');
 
-        // warnings_number
-        // warnings_table
+        warnings_number = document.getElementById('warnings_number');
 
-        // tests_total
-        // tests_tested_positive
-        // tests_table
+        tests_total = document.getElementById('tests_total');
+        tests_tested_positive = document.getElementById('tests_tested_positive');
 
-        var active_users_table = document.getElementById("active_users_table");
-        var warnings_table = document.getElementById("warnings_table");
-        var tests_table = document.getElementById("tests_table");
+        const active_users_table = document.getElementById("active_users_table");
+        const warnings_table = document.getElementById("warnings_table");
+        const tests_table = document.getElementById("tests_table");
          
-        function constructTable(selected_data, selected_table) {
-             
-            for (let i = 0; i < selected_data.length; i++) {
-                
-                stats_object = Object.values(selected_data[i]);
+        function constructTable(selectedData, selected_table) {
+            // loop through all the data objects in the requested JSON
+            for (let i = 0; i < selectedData.length; i++) {
+                // store object in a variable
+                statsObject = Object.values(selectedData[i]);
 
-                function databox(dataKeyID) {
-                    if (stats_object[dataKeyID].toString().length > 4) {
-                        return (stats_object[dataKeyID]/ 1000).toFixed(3);
+                // get the number of key value pairs
+                let number_of_key_value_pairs = Object.values(selectedData[i]).length;
+
+                function getColumnValue(valueID) {
+                    if (statsObject[valueID].toString().length > 4) {
+                        return (statsObject[valueID]/ 1000).toFixed(3);
                     } else {
-                        return stats_object[dataKeyID];
+                        return statsObject[valueID];
                     }
                 }
 
-                // number of key/value pairs in the current object
-                let number_of_key_value_pairs = Object.values(selected_data[i]).length;
+                // create row string
+                let statsRow = ``;
+                 
+                statsRow += `<tr>`;
 
-                let stats_columns = `
-                    <tr>
-                        <td>${stats_object[0].toLocaleString("nl", { "month": "long", "year": "numeric" })}</td>
-                `;
-
-                for (let j = 1; j < number_of_key_value_pairs; j++) {
-                    stats_columns += `<td>${databox(j)}</td>`
+                if (i == (selectedData.length -1)) {
+                    statsIncomplete += `*`;
+                } else {
+                    statsIncomplete = ``;
                 }
 
-                newRow = stats_columns + `
-                    </tr>
-                `
-                selected_table.innerHTML += newRow;
+                statsRow += `<td>
+                    ${statsObject[0].toLocaleString("nl", { "month": "long", "year": "numeric" })} ${statsIncomplete}
+                </td>`;
+
+                for (let j = 1; j < number_of_key_value_pairs; j++) {
+                    statsRow += `<td>${getColumnValue(j)}</td>`
+                }
+
+                statsRow += `</tr>`;
+                selected_table.innerHTML += statsRow;
 
             }
+        }
 
+        function fillUpdateDate(selectedData) {
+            for (let i = 0; i < selectedData.length; i++) {
+                statsObject = Object.values(selectedData[i]);
 
-            for (let i = 0; i < selected_data.length; i++) {
-                if (i == (selected_data.length -1)) {
-                    document.getElementById("last_date").innerHTML = stats_object[0].toLocaleString("nl", { 
+                if (i == (selectedData.length -1)) {
+                    document.getElementById("last_date").innerHTML = statsObject[0].toLocaleString("nl", { 
                         "weekday": "long", 
                         "day": "numeric", 
                         "month": "long", 
                         "year": "numeric" 
                     });
                 }
-            }   
+            }
+        }
+
+        function updateStatisticNumber(selectedData, selectedKey, selectedElement) {
+            for (let i = 0; i < selectedData.length; i++) {
+                // statsObject = Object.values(selectedData[i]);
+
+                if (i == (selectedData.length -1)) {
+                    // rightKey = selectedData[i][selectedKey];
+
+                    function getValue(valueID) {
+                        if (valueID.toString().length > 4) {
+                            return (valueID / 1000).toFixed(3);
+                        } else {
+                            return valueID;
+                        }
+                    }
+                
+                    statisticNumber = getValue(selectedData[i][selectedKey]);
+                }
+            } 
+
+            selectedElement.innerHTML = statisticNumber;
         }
 
         constructTable(active_users, active_users_table);
         constructTable(warning_notifications, warnings_table);
         constructTable(approached_through_bco, tests_table);
+
+        fillUpdateDate(active_users);
+ 
+        updateStatisticNumber(active_users, 'active_users', active_users_number);
+        updateStatisticNumber(warning_notifications, 'notifications', warnings_number);
+        updateStatisticNumber(approached_through_bco, 'tested_total', tests_total);       
+        updateStatisticNumber(approached_through_bco, 'tested_positive', tests_tested_positive);
     </script>
 </body>
 </html>

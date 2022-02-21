@@ -72,7 +72,7 @@ const warning_notifications_raw = [
     notifications: 305182
   },
   {
-    date: "2022-02-07",
+    date: "2022-02-06",
     notifications: 322773,
   }
 ]

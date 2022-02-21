@@ -72,7 +72,7 @@ const active_users_raw = [
     active_users: 305182
   },
   {
-    date: "2022-02-07",
+    date: "2022-02-06",
     active_users: 322773,
   }
 ]
