@@ -1,4 +1,5 @@
 // ggd_positive_test_authorisations
+// not in use
 
 const positive_results_after_notification_raw = [
   {
@@ -92,7 +93,7 @@ const positive_results_after_notification_raw = [
     ggd_cumulative: 305182
   },
   {
-    date: "2022-02-07",
+    date: "2022-02-06",
     ggd_daily: 2154,
     ggd_cumulative: 322773,
   }

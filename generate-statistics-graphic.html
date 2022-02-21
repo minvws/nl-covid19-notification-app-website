@@ -44,13 +44,13 @@
                 <textarea id="CM_2_svg_code"></textarea>
             </div>
         </div>
-        <h2>3. Testaanvragen naar aanleiding van een notificatie</h2>
+        <!-- <h2>3. Testaanvragen naar aanleiding van een notificatie</h2>
         <div class="column-2">
             <div id="CM_3"></div>
             <div>
                 <textarea id="CM_3_svg_code"></textarea>
             </div>
-        </div>
+        </div> -->
         <h2>4. Benaderd via BCO</h2>
         <div class="column-2">
             <div id="CM_4"></div>
@@ -76,13 +76,13 @@
                 <textarea id="CM_2_svg_code_en"></textarea>
             </div>
         </div>
-        <h2>3. People who got tested after notification</h2>
+        <!-- <h2>3. People who got tested after notification</h2>
         <div class="column-2">
             <div id="CM_3_en"></div>
             <div>
                 <textarea id="CM_3_svg_code_en"></textarea>
             </div>
-        </div>
+        </div> -->
         <h2>4. Approached through BCO</h2>
         <div class="column-2">
             <div id="CM_4_en"></div>
@@ -106,8 +106,8 @@
         CM_1_svg_code = document.getElementById('CM_1_svg_code');
         CM_2 = document.getElementById('CM_2');
         CM_2_svg_code = document.getElementById('CM_2_svg_code');
-        CM_3 = document.getElementById('CM_3');
-        CM_3_svg_code = document.getElementById('CM_3_svg_code');
+        // CM_3 = document.getElementById('CM_3');
+        // CM_3_svg_code = document.getElementById('CM_3_svg_code');
         CM_4 = document.getElementById('CM_4');
         CM_4_svg_code = document.getElementById('CM_4_svg_code');
 
@@ -116,8 +116,8 @@
         CM_1_svg_code_en = document.getElementById('CM_1_svg_code_en');
         CM_2_en = document.getElementById('CM_2_en');
         CM_2_svg_code_en = document.getElementById('CM_2_svg_code_en');
-        CM_3_en = document.getElementById('CM_3_en');
-        CM_3_svg_code_en = document.getElementById('CM_3_svg_code_en');
+        // CM_3_en = document.getElementById('CM_3_en');
+        // CM_3_svg_code_en = document.getElementById('CM_3_svg_code_en');
         CM_4_en = document.getElementById('CM_4_en');
         CM_4_svg_code_en = document.getElementById('CM_4_svg_code_en');
 
@@ -276,80 +276,80 @@ CM_2.appendChild(
         })
     ); 
 
-CM_3.appendChild(
-    Plot.plot({
-        marginBottom: 80,
-        x: {
-            label: "Maand →",
-            tickRotate: -45,
-            tickFormat: (
-                (f) => {
-                    const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
-                    const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
-                    return monthYear === thisMonthYear ? `${date} *` : date;
-                }
-            ),
-            stroke: "white",
-            ticks: d3.utcMonth.every(1),
-        },
-        y: {
-            label: "↑ Waarschuwingen",
-            transform: d => d / 1000,
-            grid: true,
-            tickFormat: (f => `${f}K`),
-        },
-        marks: [
-            Plot.barY(positive_results_after_notification, {
-                x: "date",
-                // interval: d3.utcMonth,
-                y: "ggd_cumulative",
-                fill: "#ec025f",
-                title:  (d => (d.ggd_cumulative / 1000).toFixed(3)),
-                insetLeft: 1.5, 
-                insetRight: 1.5 
-            }),
-            Plot.ruleY([0])
-        ], 
-    })
-); 
+// CM_3.appendChild(
+//     Plot.plot({
+//         marginBottom: 80,
+//         x: {
+//             label: "Maand →",
+//             tickRotate: -45,
+//             tickFormat: (
+//                 (f) => {
+//                     const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
+//                     const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+//                     return monthYear === thisMonthYear ? `${date} *` : date;
+//                 }
+//             ),
+//             stroke: "white",
+//             ticks: d3.utcMonth.every(1),
+//         },
+//         y: {
+//             label: "↑ Waarschuwingen",
+//             transform: d => d / 1000,
+//             grid: true,
+//             tickFormat: (f => `${f}K`),
+//         },
+//         marks: [
+//             Plot.barY(positive_results_after_notification, {
+//                 x: "date",
+//                 // interval: d3.utcMonth,
+//                 y: "ggd_cumulative",
+//                 fill: "#ec025f",
+//                 title:  (d => (d.ggd_cumulative / 1000).toFixed(3)),
+//                 insetLeft: 1.5, 
+//                 insetRight: 1.5 
+//             }),
+//             Plot.ruleY([0])
+//         ], 
+//     })
+// ); 
 
-    CM_3_en.appendChild( 
-        Plot.plot({
-            marginBottom: 80,
-            x: {
-                label: "Month →",
-                tickRotate: -45,
-                tickFormat: (
-                (f) => {
-                    const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
-                    const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
-                    return monthYear === thisMonthYear ? `${date} *` : date;
-                }
-            ),
-                stroke: "white",
-                ticks: d3.utcMonth.every(1),
-            },
-            y: {
-                label: "↑ Notifications sent",
-                transform: d => d / 1000,
-                grid: true,
-                tickFormat: (f => `${f}K`),
-            },
-            marks: [
-                // changed from rectY
-                Plot.barY(positive_results_after_notification, {
-                    x: "date",
-                    // interval: d3.utcMonth,
-                    y: "ggd_cumulative",
-                    fill: "#ec025f",
-                    title:  (d => (d.ggd_cumulative / 1000).toFixed(3)),
-                    insetLeft: 1.5, 
-                    insetRight: 1.5 
-                }),
-                Plot.ruleY([0])
-            ], 
-        })
-    ); 
+//     CM_3_en.appendChild( 
+//         Plot.plot({
+//             marginBottom: 80,
+//             x: {
+//                 label: "Month →",
+//                 tickRotate: -45,
+//                 tickFormat: (
+//                 (f) => {
+//                     const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
+//                     const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+//                     return monthYear === thisMonthYear ? `${date} *` : date;
+//                 }
+//             ),
+//                 stroke: "white",
+//                 ticks: d3.utcMonth.every(1),
+//             },
+//             y: {
+//                 label: "↑ Notifications sent",
+//                 transform: d => d / 1000,
+//                 grid: true,
+//                 tickFormat: (f => `${f}K`),
+//             },
+//             marks: [
+//                 // changed from rectY
+//                 Plot.barY(positive_results_after_notification, {
+//                     x: "date",
+//                     // interval: d3.utcMonth,
+//                     y: "ggd_cumulative",
+//                     fill: "#ec025f",
+//                     title:  (d => (d.ggd_cumulative / 1000).toFixed(3)),
+//                     insetLeft: 1.5, 
+//                     insetRight: 1.5 
+//                 }),
+//                 Plot.ruleY([0])
+//             ], 
+//         })
+//     ); 
 
 CM_4.appendChild(
     Plot.plot({
@@ -449,12 +449,12 @@ CM_4.appendChild(
 
     CM_1_svg_code.value = CM_1.getElementsByTagName('svg')[0].innerHTML;
     CM_2_svg_code.value = CM_2.getElementsByTagName('svg')[0].innerHTML;
-    CM_3_svg_code.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
+    // CM_3_svg_code.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
     CM_4_svg_code.value = CM_4.getElementsByTagName('svg')[0].innerHTML;
 
     CM_1_svg_code_en.value = CM_1.getElementsByTagName('svg')[0].innerHTML;
     CM_2_svg_code_en.value = CM_2.getElementsByTagName('svg')[0].innerHTML;
-    CM_3_svg_code_en.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
+    // CM_3_svg_code_en.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
     CM_4_svg_code_en.value = CM_4.getElementsByTagName('svg')[0].innerHTML;
 </script>
 </body>
