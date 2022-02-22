@@ -133,6 +133,43 @@
 
         <div class="CoronaMelder_downloads column-2"> 
             <div>
+                <h2 class="downloads_title">Testaanvragen na notificatie CoronaMelder, met/zonder klachten</h2>
+                <p><span class="number_highlight" id="tests_total">265.936</span>.</p>
+                <p>Waarvan :<br /> 
+                    <span class="number_highlight" id="tests_tested_positive">200.000</span>.</p>
+                <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder en hoeveel van hen klachten van het coronavirus hadden.</p>
+            </div>
+            <div id="CoronaMelder_downloads_plot">
+                <div class="plot-legend">
+                    <span class="plot-swatch" style="--color:#157CCA;">Klachten</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">Geen klachten</span>
+                </div>
+
+                <img src="{{ site.baseurl }}/img/coronamelder-testaanvragen-stats.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand, opgesplitst in aantal klachten en geen klachten." class="graph" width="480" height="320">
+                <p>* Dit betreft de huidige maand. De data van deze maand is nog niet volledig.</p>
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">Testaanvragen na notificatie CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Maand</th>
+                                <th>Aantal testaanvragen</th>
+                                <th>Waarvan door personen met klachten</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tests_table">
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+
+        <div class="CoronaMelder_downloads column-2"> 
+            <div>
                 <h2 class="downloads_title">Testaanvragen waar een notificatie aan vooraf ging</h2>
                 <p><span class="number_highlight" id="tests_total">265.936</span>.</p>
                 <p>Waarvan positieve uitslagen:<br /> 
@@ -141,8 +178,8 @@
             </div>
             <div id="CoronaMelder_downloads_plot">
                 <div class="plot-legend">
-                    <span class="plot-swatch" style="--color:#157CCA;">Notificaties (N)</span>
-                    <span class="plot-swatch" style="--color:#ec025f;">Positief getest (P)</span>
+                    <span class="plot-swatch" style="--color:#157CCA;">Notificaties</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">Positief getest</span>
                 </div>
 
                 <img src="{{ site.baseurl }}/img/coronamelder-testaanvragen-stats.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
