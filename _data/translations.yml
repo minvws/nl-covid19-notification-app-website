@@ -515,20 +515,6 @@ info-huawei-img:
   ro: huawei-en.svg
   tr: huawei-tr.svg
  
-footer-samen-logo-url: https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/coronavirus-beeld-en-video/communicatiemiddelen-campagne
-footer-samen-logo:
-  nl: Alleen samen krijgen we corona onder controle. Ga naar campagnewebsite
-  fy: Allinne mei-inoar krije wy koroana ûnder kontrôle. Gean nei de kampanjewebside
-  en: Only together we can control corona. Go to the campagne website
-  ar: معًا فقط نستطيع السيطرة على كورونا.
-  bg: Единствено заедно ще поставим под контрол коронавируса.
-  de: Nur gemeinsam bekommen wir Corona unter Kontrolle.
-  es: Solo juntos podremos controlar el coronavirus.
-  fr: Ce n'est qu'ensemble que nous pourrons contrôler le coronavirus.
-  pl: Tylko wspólnymi siłami możemy uzyskać kontrolę nad koronawirusem.
-  ro: Doar împreună putem controla coronavirus.
-  tr: Koronayı ancak birlikte kontrol altına alabiliriz.
-    
 footer-phone:
   nl: Heb je vragen over de CoronaMelder?
   fy: Hast fragen oer de CoronaMelder?
