@@ -19,6 +19,7 @@ Eerder gepubliceerde onderzoeken kun je hier downloaden:
 
 - <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/03/23/eindrapportage-evaluatie-coronamelder-eur-23-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage van de evaluatie van CoronaMelder-app meldingen van een kans op besmetting</a> (23 maart 2021)
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie Survey LISS panel</a> (23 maart 2021)
+- <a href="/media/Rapportage_Evaluatie_CoronaMelder_TilburgUniversity_LISSpanel_Wave_v1.pdf" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie Survey LISS panel wave 5 (PDF, 2.3MB)</a> (25 november 2021)
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/evaluatie-coronamelder-op-de-processen-huisartsen-en-ggd-derde-evaluatie-maart-2021" rel="noopener noreferrer" target="_blank">Evaluatie CoronaMelder huisartsen en GGD</a> (23 maart 2021)
 - <a href="/media/Eindrapport_kwalitatiefOZ_24032021_Grip_op_Coronamelder-UT_en_OU.pdf" rel="noopener noreferrer" target="_blank">Grip op de CoronaMelder - 
 Kwalitatief Onderzoek naar Ervaringen met CoronaMelder Eindverslag (PDF, 4.2mb)</a> (november 2020)
