@@ -14,5 +14,6 @@ Previously published studies can be downloaded here:
 
 - <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/03/23/eindrapportage-evaluatie-coronamelder-eur-23-maart-2021" rel="noopener noreferrer" target="_blank">Final report of the evaluation of CoronaMelder app reports of a risk of contamination (PDF in Dutch)</a>
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Final report CoronaMelder  Evaluation Survey LISS panel (PDF in Dutch)</a>
+- <a href="/media/Rapportage_Evaluatie_CoronaMelder_TilburgUniversity_LISSpanel_Wave_v1.pdf" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie Survey LISS panel wave 5 (PDF in Dutch, 2.3MB)</a> (25 november 2021)
 - <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/evaluatie-coronamelder-op-de-processen-huisartsen-en-ggd-derde-evaluatie-maart-2021" rel="noopener noreferrer" target="_blank">Evaluation  CoronaMelder general practitioners and GGD (PDF in Dutch</a>
  
