@@ -135,18 +135,18 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Testaanvragen waar een notificatie aan vooraf ging</h2>
-                <p><span class="number_highlight" id="tests_total">265.936</span>.</p>
+                <p><span class="number_highlight" id="tp_tested_total">284.591</span>.</p>
                 <p>Waarvan positieve uitslagen:<br /> 
-                    <span class="number_highlight" id="tests_tested_positive">200.000</span>.</p>
+                    <span class="number_highlight" id="tp_tested_positive">30.516</span>.</p>
                 <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder sinds ingebruikname van de app op 10 oktober 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
                 <div class="plot-legend">
-                    <span class="plot-swatch" style="--color:#157CCA;">Testuitslagen met notificatie vooraf</span>
+                    <span class="plot-swatch" style="--color:#157CCA;">Testaanvragen met notificatie vooraf</span>
                     <span class="plot-swatch" style="--color:#ec025f;">Positief getest</span>
                 </div>
 
-                <img src="{{ site.baseurl }}/img/coronamelder-testaanvragen-stats.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
+                <img src="{{ site.baseurl }}/img/coronamelder-testaanvragen-positief-stats.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
                 <p>* Dit betreft de huidige maand. De data van deze maand is nog niet volledig.</p>
 
                 <details class="details">
@@ -162,13 +162,12 @@
                                 <th>Waarvan positief</th>
                             </tr>
                         </thead>
-                        <tbody id="tests_table">
+                        <tbody id="tests_positive_table">
                         </tbody>
                     </table>
                 </details>
             </div>
         </div>
-
 
         <div class="CoronaMelder_downloads column-2"> 
             <div>
@@ -200,7 +199,7 @@
                                 <th>Waarvan door personen met klachten</th>
                             </tr>
                         </thead>
-                        <tbody id="tests_table">
+                        <tbody id="tests_complaints_table">
                         </tbody>
                     </table>
                 </details>
@@ -212,24 +211,7 @@
                 <h2>Effect CoronaMelder (komt prominenter in beeld)</h2>
                 <p>
                     <span class="number_highlight">64%</span> van de mensen die een coronatest hebben aangevraagd na een notificatie van CoronaMelder, waren nog niet benaderd vanuit het reguliere bron- en contactonderzoek.
-                </p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Maand</th>
-                            <th>Percentage aanvraag coronatest</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Januari 2022</td>
-                            <td>64%</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>
-                    Redenen om CoronaMelder te hebben (zie laatste evaluatie onderzoek) + gemodeleerd effect op de R-waarde.
-                </p>
+                </p>  
             </div>
         </div>
 
@@ -247,6 +229,9 @@
         active_users_number = document.getElementById('active_users_number');
 
         warnings_number = document.getElementById('warnings_number');
+
+        tp_tested_total = document.getElementById('tp_tested_total');
+        tp_tested_positive = document.getElementById('tp_tested_positive');
 
         tests_total = document.getElementById('tests_total');
         tests_tested_positive = document.getElementById('tests_tested_positive');
@@ -328,16 +313,39 @@
             selectedElement.innerHTML = statisticNumber;
         }
 
+        function getTotals(selectedData, selectedElement) {
+            function getValue(valueID) {
+                valueToGet = Math.round(valueID);
+                return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
+            }
+        
+            statisticNumber = getValue(selectedData);
+            
+            console.log(selectedElement);
+            console.log(statisticNumber);
+
+            selectedElement.innerHTML = statisticNumber;
+        }
+
+        // constructTable(selectedData, selected_table) 
         constructTable(active_users, active_users_table);
         constructTable(shared_keys, warnings_table);
-        constructTable(approached_through_bco, tests_table);
+        constructTable(positive_results_after_notification, tests_positive_table);
+        constructTable(approached_through_bco, tests_complaints_table);
 
         fillUpdateDate(active_users);
  
+        // updateStatisticNumber(selectedData, selectedKey, selectedElement) 
         updateStatisticNumber(active_users, 'active_users', active_users_number);
-        updateStatisticNumber(shared_keys, 'notifications', cumulative_shared_keys);
+        updateStatisticNumber(shared_keys, 'cumulative_shared_keys', warnings_number);
+        
+        // getTotals(selectedData, selectedElement)
+        getTotals(totals.total_tested, tp_tested_total); 
+        getTotals(totals.tested_positive, tp_tested_positive);
+
         updateStatisticNumber(approached_through_bco, 'tested_total', tests_total);       
         updateStatisticNumber(approached_through_bco, 'tested_positive', tests_tested_positive);
+
     </script>
 </body>
 </html>
