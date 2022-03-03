@@ -1,101 +1,86 @@
 const approached_through_bco_raw = [
   {
-    date: "2020-08-31",
-    tested_total: 27,
-    tested_positive: 15
-  },
-  {
-    date: "2020-09-30",
-    tested_total: 417,
-    tested_positive: 230
-  },
-  {
-    date: "2020-10-31",
-    tested_total: 22747,
-    tested_positive: 10386
-  },
-  {
-    date: "2020-11-30",
-    tested_total: 45795,
-    tested_positive: 20569
-  },
-  {
     date: "2020-12-31",
-    tested_total: 84140,
-    tested_positive: 21164
+    tested_total: 45495,
+    tested_positive: 1067
   },
   {
     date: "2021-01-31",
-    tested_total: 106453,
-    tested_positive: 20390
+    tested_total: 21706,
+    tested_positive: 639
   },
   {
     date: "2021-02-28",
-    tested_total: 118318,
-    tested_positive: 20518
+    tested_total: 12765,
+    tested_positive: 350
   },
   {
     date: "2021-03-31",
-    tested_total: 138108,
-    tested_positive: 20768
+    tested_total: 25241,
+    tested_positive: 661
   },
   {
     date: "2021-04-30",
-    tested_total: 160019,
-    tested_positive: 60768
+    tested_total: 28778,
+    tested_positive: 781
   },
   {
     date: "2021-05-31",
-    tested_total: 176022,
-    tested_positive: 20172
+    tested_total: 18442,
+    tested_positive: 448
   },
   {
     date: "2021-06-30",
-    tested_total: 182726,
-    tested_positive: 20349
+    tested_total: 3976,
+    tested_positive: 84
   },
   {
     date: "2021-07-31",
-    tested_total: 194596,
-    tested_positive: 12162
+    tested_total: 11148,
+    tested_positive: 328
   },
   {
     date: "2021-08-31",
-    tested_total: 198044,
-    tested_positive: 20108
+    tested_total: 1892,
+    tested_positive: 52
   },
   {
     date: "2021-09-30",
-    tested_total: 200450,
-    tested_positive: 23065
+    tested_total: 1560,
+    tested_positive: 3
   },
   {
     date: "2021-10-31",
-    tested_total: 208408,
-    tested_positive: 172553
+    tested_total: 4587,
+    tested_positive: 106
   },
   {
     date: "2021-11-30",
-    tested_total: 235765,
-    tested_positive: 122820
+    tested_total: 16586,
+    tested_positive: 487
   },
   {
     date: "2021-12-31",
-    tested_total: 257602,
-    tested_positive: 153815
+    tested_total: 11683,
+    tested_positive: 494
   },
   {
     date: "2022-01-31",
-    tested_total: 305182,
-    tested_positive: 102476
+    tested_total: 18434,
+    tested_positive: 1116
   },
   {
-    date: "2022-02-06",
-    tested_positive: 202154,
-    tested_total: 322773,
+    date: "2022-02-28",
+    tested_total: 18434,
+    tested_positive: 841
   }
 ]
 
 const approached_through_bco = approached_through_bco_raw.map(({date, ...rest}) => {
   return {date: new Date(date), ...rest};
 });
+
+const bco_totals = {
+    total_tested: 239278,
+    tested_positive_without_complaints: 7457
+}

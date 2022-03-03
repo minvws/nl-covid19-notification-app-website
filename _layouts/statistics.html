@@ -171,9 +171,9 @@
 
         <div class="CoronaMelder_downloads column-2"> 
             <div>
-                <h2 class="downloads_title">Testaanvragen na notificatie CoronaMelder, met/zonder klachten</h2>
+                <h2 class="downloads_title">Testuitslagen waar een notificatie aan vooraf ging, met/zonder klachten</h2>
                 <p><span class="number_highlight" id="tests_total">265.936</span>.</p>
-                <p>Waarvan :<br /> 
+                <p>Waarvan positief zonder klachten:<br /> 
                     <span class="number_highlight" id="tests_tested_positive">200.000</span>.</p>
                 <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder en hoeveel van hen klachten van het coronavirus hadden.</p>
             </div>
@@ -320,9 +320,6 @@
             }
         
             statisticNumber = getValue(selectedData);
-            
-            console.log(selectedElement);
-            console.log(statisticNumber);
 
             selectedElement.innerHTML = statisticNumber;
         }
@@ -343,8 +340,8 @@
         getTotals(totals.total_tested, tp_tested_total); 
         getTotals(totals.tested_positive, tp_tested_positive);
 
-        updateStatisticNumber(approached_through_bco, 'tested_total', tests_total);       
-        updateStatisticNumber(approached_through_bco, 'tested_positive', tests_tested_positive);
+        getTotals(bco_totals.total_tested, tests_total);       
+        getTotals(bco_totals.tested_positive_without_complaints, tests_tested_positive);
 
     </script>
 </body>
