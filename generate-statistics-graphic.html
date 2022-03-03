@@ -147,11 +147,11 @@ CM_1.appendChild(
             ticks: d3.utcMonth.every(1)
         },
         y: {
-            label: "↑ Aantal actieve gebruikers CoronaMelder",  
+            label: "↑ Aantal actieve gebruikers CoronaMelder (miljoen)",  
             labelOffset: 10,   
-            transform: d => d / 1000,
+            transform: d => d / 1000000,
             grid: true,
-            tickFormat: (f => `${f}K`),
+            tickFormat: (f => `${f}M`),
         },
         marks: [
             Plot.line(active_users, {
@@ -188,9 +188,9 @@ CM_1.appendChild(
             y: {
                 label: "↑ Number of active CoronaMelder users",  
                 labelOffset: 10,   
-                transform: d => d / 1000,
+                transform: d => d / 1000000,
                 grid: true,
-                tickFormat: (f => `${f}K`),
+                tickFormat: (f => `${f}M`),
             },
             marks: [
                 Plot.line(active_users, {

@@ -1,80 +1,52 @@
 const active_users_raw = [
-  {
-    date: "2020-08-31",
-    active_users: 27
-  },
-  {
-    date: "2020-09-30",
-    active_users: 417
-  },
-  {
-    date: "2020-10-31",
-    active_users: 22747
-  },
-  {
-    date: "2020-11-30",
-    active_users: 45795
-  },
-  {
-    date: "2020-12-31",
-    active_users: 84140
-  },
-  {
-    date: "2021-01-31",
-    active_users: 106453
-  },
-  {
-    date: "2021-02-28",
-    active_users: 118318
-  },
-  {
-    date: "2021-03-31",
-    active_users: 138108
-  },
-  {
-    date: "2021-04-30",
-    active_users: 160019
-  },
-  {
-    date: "2021-05-31",
-    active_users: 176022
-  },
-  {
-    date: "2021-06-30",
-    active_users: 182726
-  },
-  {
-    date: "2021-07-31",
-    active_users: 194596
-  },
-  {
-    date: "2021-08-31",
-    active_users: 198044
-  },
-  {
-    date: "2021-09-30",
-    active_users: 200450
-  },
-  {
-    date: "2021-10-31",
-    active_users: 208408
-  },
-  {
-    date: "2021-11-30",
-    active_users: 235765
-  },
-  {
-    date: "2021-12-31",
-    active_users: 257602
-  },
-  {
-    date: "2022-01-31",
-    active_users: 305182
-  },
-  {
-    date: "2022-02-06",
-    active_users: 322773,
-  }
+{
+    date: "2021-04-01",
+    active_users: 3049346.84
+}, 
+{
+    date: "2021-05-01",
+    active_users: 3327002.01
+}, 
+{
+    date: "2021-06-01",
+    active_users: 2883372.88
+}, 
+{
+    date: "2021-07-01",
+    active_users: 2727479.22
+}, 
+{
+    date: "2021-08-01",
+    active_users: 2600700.25
+}, 
+{
+    date: "2021-09-01",
+    active_users: 2531497.20
+}, 
+{
+    date: "2021-10-01",
+    active_users: 2449499.42
+}, 
+{
+    date: "2021-11-01",
+    active_users: 2236462.82
+}, 
+{
+    date: "2021-12-01",
+    active_users: 1945557.48
+}, 
+{
+    date: "2022-01-01",
+    active_users: 2429567.50
+}, 
+{
+    date: "2022-02-01",
+    active_users: 2444022.41
+},
+{
+    date: "2022-03-01",
+    active_users: 2444022.41
+}
 ]
 
 const active_users = active_users_raw.map(({date, ...rest}) => {
