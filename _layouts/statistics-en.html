@@ -80,11 +80,12 @@
                     <table>
                         <thead>
                             <tr>
-                                <th colspan="2">Notifications sent from CoronaMelder</th>
+                                <th colspan="3">Number of warnings through CoronaMelder</th>
                             </tr>
                             <tr>
                                 <th>Month</th>
-                                <th>Number of notifications sent</th>
+                                <th>Number of shared keys per month</th>
+                                <th>Number of shared keys, cumulative</th>
                             </tr>
                         </thead>
                         <tbody id="warnings_table">
@@ -161,7 +162,7 @@
     {% include footer.html %} 
 
         <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
-        <script type="text/javascript" src="/js/statistics/2_warning-notifications.js"></script>
+        <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
         <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
     
@@ -187,11 +188,8 @@
                 let number_of_key_value_pairs = Object.values(selectedData[i]).length;
 
                 function getColumnValue(valueID) {
-                    if (statsObject[valueID].toString().length > 4) {
-                        return (statsObject[valueID]/ 1000).toFixed(3);
-                    } else {
-                        return statsObject[valueID];
-                    }
+                    columnValue = Math.round(statsObject[valueID]);
+                    return new Intl.NumberFormat('en-GB', {  }).format(columnValue)
                 }
 
                 // create row string

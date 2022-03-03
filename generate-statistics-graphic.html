@@ -37,7 +37,7 @@
                 <textarea id="CM_1_svg_code"></textarea>
             </div>
         </div>
-        <h2>2. Notificaties verstuurd via CoronaMelder</h2>
+        <h2>Aantal waarschuwingen via CoronaMelder</h2>
         <div class="column-2">
             <div id="CM_2"></div>
             <div>
@@ -69,7 +69,7 @@
                 <textarea id="CM_1_svg_code_en"></textarea>
             </div>
         </div>
-        <h2>2. People who warned others through CoronaMelder</h2>
+        <h2>2. Warnings sent through CoronaMelder</h2>
         <div class="column-2">
             <div id="CM_2_en"></div>
             <div>
@@ -96,7 +96,7 @@
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.4"></script>
     <script type="text/javascript" src="js/statistics/1_active-users.js"></script>
-    <script type="text/javascript" src="js/statistics/2_warning-notifications.js"></script>
+    <script type="text/javascript" src="js/statistics/2_shared-keys.js"></script>
     <script type="text/javascript" src="js/statistics/3_positive-results-after-notification.js"></script>
     <script type="text/javascript" src="js/statistics/4_approached-through-bco.js"></script>
 
@@ -209,12 +209,13 @@ CM_2.appendChild(
     Plot.plot({
         marginBottom: 80,
         x: { 
+            type: "band",
             label: "Maand →",
             labelAnchor: 'right',  
             tickRotate: -45,
             tickFormat: (
-                f => {
-                    const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
+                (f) => {
+                    const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
                     const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
                     return monthYear === thisMonthYear ? `${date} *` : date;
                 }
@@ -223,18 +224,24 @@ CM_2.appendChild(
             ticks: d3.utcMonth.every(1),
         },
         y: {
-            label: "↑ Notificaties verstuurd",  
+            label: "↑ Aantal waarschuwingen via CoronaMelder",  
             transform: d => d / 1000,
             grid: true,
             tickFormat: (f => `${f}K`),
         },
         marks: [
-            Plot.barY(warning_notifications, {
+            Plot.barY(shared_keys, {
                 x: "date", 
-                y: "notifications", 
-                title:  (d => (d.notifications / 1000).toFixed(3)),
+                y: "cumulative_shared_keys", 
+                title:  (d => (d.cumulative_shared_keys / 1000).toFixed(3)),
                 fill: "#ec025f",
             }),
+            // Plot.line(shared_keys, {
+            //     x: "date", 
+            //     y: "shared_keys",
+            //     stroke: "#000000",
+            //     title:  (d => (d.shared_keys / 1000).toFixed(3)),
+            // }),
             Plot.ruleY([0])
         ],
     })
@@ -244,6 +251,7 @@ CM_2.appendChild(
         Plot.plot({
             marginBottom: 80,
             x: { 
+                type: "band",
                 label: "Month →",
                 labelAnchor: 'right',  
                 tickRotate: -45,
@@ -258,16 +266,16 @@ CM_2.appendChild(
                 ticks: d3.utcMonth.every(1),
             },
             y: {
-                label: "↑ Notifications sent",  
+                label: "↑ Number of warnings through CoronaMelder",  
                 transform: d => d / 1000,
                 grid: true,
                 tickFormat: (f => `${f}K`),
             },
             marks: [
-                Plot.barY(warning_notifications, {
+                Plot.barY(shared_keys, {
                     x: "date", 
-                    y: "notifications", 
-                    title:  (d => (d.notifications / 1000).toFixed(3)),
+                    y: "cumulative_shared_keys", 
+                    title:  (d => (d.cumulative_shared_keys / 1000).toFixed(3)),
                     fill: "#ec025f",
                 }),
                 Plot.ruleY([0])

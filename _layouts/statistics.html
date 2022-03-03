@@ -117,11 +117,12 @@
                     <table>
                         <thead>
                             <tr>
-                                <th colspan="2">Verstuurde notificaties vanuit CoronaMelder</th>
+                                <th colspan="3">Aantal waarschuwingen via CoronaMelder</th>
                             </tr>
                             <tr>
                                 <th>Maand</th>
-                                <th>Aantal verstuurde notificaties</th>
+                                <th>Aantal gedeelde sleutels per maand</th>
+                                <th>Aantal gedeelde sleutels, cumulatief</th>
                             </tr>
                         </thead>
                         <tbody id="warnings_table">
@@ -238,7 +239,7 @@
     {% include footer.html %} 
 
         <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
-        <script type="text/javascript" src="/js/statistics/2_warning-notifications.js"></script>
+        <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
         <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
     
@@ -264,11 +265,8 @@
                 let number_of_key_value_pairs = Object.values(selectedData[i]).length;
 
                 function getColumnValue(valueID) {
-                    if (statsObject[valueID].toString().length > 4) {
-                        return (statsObject[valueID]/ 1000).toFixed(3);
-                    } else {
-                        return statsObject[valueID];
-                    }
+                    columnValue = Math.round(statsObject[valueID]);
+                    return new Intl.NumberFormat('nl-NL', {  }).format(columnValue)
                 }
 
                 // create row string
@@ -319,11 +317,8 @@
                     // rightKey = selectedData[i][selectedKey];
 
                     function getValue(valueID) {
-                        if (valueID.toString().length > 4) {
-                            return (valueID / 1000).toFixed(3);
-                        } else {
-                            return valueID;
-                        }
+                        valueToGet = Math.round(valueID);
+                        return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
                     }
                 
                     statisticNumber = getValue(selectedData[i][selectedKey]);
@@ -334,13 +329,13 @@
         }
 
         constructTable(active_users, active_users_table);
-        constructTable(warning_notifications, warnings_table);
+        constructTable(shared_keys, warnings_table);
         constructTable(approached_through_bco, tests_table);
 
         fillUpdateDate(active_users);
  
         updateStatisticNumber(active_users, 'active_users', active_users_number);
-        updateStatisticNumber(warning_notifications, 'notifications', warnings_number);
+        updateStatisticNumber(shared_keys, 'notifications', cumulative_shared_keys);
         updateStatisticNumber(approached_through_bco, 'tested_total', tests_total);       
         updateStatisticNumber(approached_through_bco, 'tested_positive', tests_tested_positive);
     </script>
