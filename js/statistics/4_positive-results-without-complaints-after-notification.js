@@ -1,4 +1,4 @@
-const approached_through_bco_raw = [
+const positive_results_without_complaints_after_notification_raw = [
   {
     date: "2020-12-31",
     tested_total: 45495,
@@ -76,11 +76,11 @@ const approached_through_bco_raw = [
   }
 ]
 
-const approached_through_bco = approached_through_bco_raw.map(({date, ...rest}) => {
+const positive_results_without_complaints_after_notification = positive_results_without_complaints_after_notification_raw.map(({date, ...rest}) => {
   return {date: new Date(date), ...rest};
 });
 
-const bco_totals = {
+const positive_results_without_complaints_after_notification_totals = {
     total_tested: 239278,
     tested_positive_without_complaints: 7457
 }

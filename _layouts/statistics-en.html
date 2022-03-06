@@ -164,7 +164,7 @@
         <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
         <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
-        <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
+        <script type="text/javascript" src="/js/statistics/4_positive-results-without-complaints-after-notification.js"></script>
     
     <script> 
         active_users_number = document.getElementById('active_users_number');
@@ -256,14 +256,14 @@
 
         constructTable(active_users, active_users_table);
         constructTable(warning_notifications, warnings_table);
-        constructTable(approached_through_bco, tests_table);
+        constructTable(positive_results_without_complaints_after_notification, tests_table);
 
         fillUpdateDate(active_users);
  
         updateStatisticNumber(active_users, 'active_users', active_users_number);
         updateStatisticNumber(warning_notifications, 'notifications', warnings_number);
-        updateStatisticNumber(approached_through_bco, 'tested_total', tests_total);       
-        updateStatisticNumber(approached_through_bco, 'tested_positive', tests_tested_positive);
+        updateStatisticNumber(positive_results_without_complaints_after_notification, 'tested_total', tests_total);       
+        updateStatisticNumber(positive_results_without_complaints_after_notification, 'tested_positive', tests_tested_positive);
     </script>
 </body>
 </html>

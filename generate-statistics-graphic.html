@@ -98,7 +98,7 @@
     <script type="text/javascript" src="js/statistics/1_active-users.js"></script>
     <script type="text/javascript" src="js/statistics/2_shared-keys.js"></script>
     <script type="text/javascript" src="js/statistics/3_positive-results-after-notification.js"></script>
-    <script type="text/javascript" src="js/statistics/4_approached-through-bco.js"></script>
+    <script type="text/javascript" src="js/statistics/4_positive-results-without-complaints-after-notification.js"></script>
 
     <script>
         // Dutch statistics
@@ -399,7 +399,7 @@ CM_4.appendChild(
             tickFormat: (f => `${f}K`),
         },
         marks: [
-            Plot.rectY(approached_through_bco, {
+            Plot.rectY(positive_results_without_complaints_after_notification, {
                 x: "date", 
                 y: "tested_total",
                 fill: "#157CCA", 
@@ -408,7 +408,7 @@ CM_4.appendChild(
                 strokeWidth: 3,
                 stroke: "white",
             }),
-            Plot.rectY(approached_through_bco, {
+            Plot.rectY(positive_results_without_complaints_after_notification, {
                 x: "date", 
                 y: "tested_positive",
                 fill: "#ec025f",
@@ -448,7 +448,7 @@ CM_4.appendChild(
                 tickFormat: (f => `${f}K`),
             },
             marks: [
-                Plot.rectY(approached_through_bco, {
+                Plot.rectY(positive_results_without_complaints_after_notification, {
                     x: "date", 
                     y: "tested_total",
                     fill: "#157CCA", 
@@ -456,7 +456,7 @@ CM_4.appendChild(
                     title:  (d => (d.tested_total / 1000).toFixed(3)), 
                     insetLeft: 1.5, insetRight: 1.5
                 }),
-                Plot.rectY(approached_through_bco, {
+                Plot.rectY(positive_results_without_complaints_after_notification, {
                     x: "date", 
                     y: "tested_positive",
                     interval: d3.utcMonth,

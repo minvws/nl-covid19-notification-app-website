@@ -223,7 +223,7 @@
         <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
         <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
-        <script type="text/javascript" src="/js/statistics/4_approached-through-bco.js"></script>
+        <script type="text/javascript" src="/js/statistics/4_positive-results-without-complaints-after-notification.js"></script>
     
     <script> 
         active_users_number = document.getElementById('active_users_number');
@@ -328,7 +328,7 @@
         constructTable(active_users, active_users_table);
         constructTable(shared_keys, warnings_table);
         constructTable(positive_results_after_notification, tests_positive_table);
-        constructTable(approached_through_bco, tests_complaints_table);
+        constructTable(positive_results_without_complaints_after_notification, tests_complaints_table);
 
         fillUpdateDate(active_users);
  
@@ -340,8 +340,8 @@
         getTotals(totals.total_tested, tp_tested_total); 
         getTotals(totals.tested_positive, tp_tested_positive);
 
-        getTotals(bco_totals.total_tested, tests_total);       
-        getTotals(bco_totals.tested_positive_without_complaints, tests_tested_positive);
+        getTotals(positive_results_without_complaints_after_notification_totals.total_tested, tests_total);       
+        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tests_tested_positive);
 
     </script>
 </body>
