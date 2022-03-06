@@ -147,7 +147,7 @@ CM_1.appendChild(
             ticks: d3.utcMonth.every(1)
         },
         y: {
-            label: "↑ Aantal actieve gebruikers CoronaMelder (miljoen)",  
+            label: "↑ Aantal actieve gebruikers CoronaMelder",  
             labelOffset: 10,   
             transform: d => d / 1000000,
             grid: true,
@@ -301,7 +301,7 @@ CM_3.appendChild(
             ticks: d3.utcMonth.every(1),
         },
         y: {
-            label: "↑ Aantal waarschuwingen",
+            label: "↑ Aantal testaanvragen",
             transform: d => d / 1000,
             grid: true,
             tickFormat: (f => `${f}K`),
@@ -346,7 +346,7 @@ CM_3.appendChild(
                 ticks: d3.utcMonth.every(1),
             },
             y: {
-                label: "↑ Notifications sent",
+                label: "↑ Tests taken",
                 transform: d => d / 1000,
                 grid: true,
                 tickFormat: (f => `${f}K`),
@@ -375,22 +375,20 @@ CM_3.appendChild(
 
 CM_4.appendChild(
     Plot.plot({
-        marginBottom: 80,  
+        marginBottom: 80,
         x: {
+            type: "band",
             label: "Maand →",
             tickRotate: -45,
             tickFormat: (
                 (f) => {
                     const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
                     const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
-                    if (monthYear != nextMonthString) {
-                        return monthYear === thisMonthYear ? `${date} *` : date;
-                    }
+                    return monthYear === thisMonthYear ? `${date} *` : date;
                 }
             ),
             stroke: "white",
-            ticks: d3.utcMonth.range(firstEntry,today),
-            padding: 3
+            ticks: d3.utcMonth.every(1),
         },
         y: {
             label: "↑ Aantal testaanvragen",
@@ -399,33 +397,32 @@ CM_4.appendChild(
             tickFormat: (f => `${f}K`),
         },
         marks: [
-            Plot.rectY(positive_results_without_complaints_after_notification, {
-                x: "date", 
+            Plot.barY(positive_results_without_complaints_after_notification, {
+                x: "date",
                 y: "tested_total",
-                fill: "#157CCA", 
-                interval: d3.utcMonth,
-                title: (d => (d.tested_total / 1000).toFixed(3)), 
+                fill: "#157CCA",
+                title:  (d => (d.tested_total / 1000).toFixed(3)),
                 strokeWidth: 3,
                 stroke: "white",
             }),
-            Plot.rectY(positive_results_without_complaints_after_notification, {
-                x: "date", 
+            Plot.barY(positive_results_without_complaints_after_notification, {
+                x: "date",
                 y: "tested_positive",
                 fill: "#ec025f",
-                interval: d3.utcMonth,
-                title: (d => (d.tested_positive / 1000).toFixed(3)),  
+                title:  (d => (d.tested_positive / 1000).toFixed(3)),
                 strokeWidth: 3,
                 stroke: "white",
             }),
-            Plot.ruleY([0]),
+            Plot.ruleY([0])
         ], 
     })
-); 
+);
 
-    CM_4_en.appendChild(
+    CM_4_en.appendChild( 
         Plot.plot({
-            marginBottom: 80, 
+            marginBottom: 80,
             x: {
+                type: "band",
                 label: "Month →",
                 tickRotate: -45,
                 tickFormat: (
@@ -436,35 +433,32 @@ CM_4.appendChild(
                     }
                 ),
                 stroke: "white",
-                ticks: d3.utcMonth.range(firstEntry,today),
-                style: {
-                    transform: "translateX(15px)"
-                }
+                ticks: d3.utcMonth.every(1),
             },
             y: {
-                label: "↑ Number of test results",
+                label: "↑ Tests taken",
                 transform: d => d / 1000,
                 grid: true,
                 tickFormat: (f => `${f}K`),
             },
             marks: [
-                Plot.rectY(positive_results_without_complaints_after_notification, {
-                    x: "date", 
+                Plot.barY(positive_results_without_complaints_after_notification, {
+                    x: "date",
                     y: "tested_total",
-                    fill: "#157CCA", 
-                    interval: d3.utcMonth,
-                    title:  (d => (d.tested_total / 1000).toFixed(3)), 
-                    insetLeft: 1.5, insetRight: 1.5
+                    fill: "#157CCA",
+                    title:  (d => (d.tested_total / 1000).toFixed(3)),
+                    strokeWidth: 3,
+                    stroke: "white",
                 }),
-                Plot.rectY(positive_results_without_complaints_after_notification, {
-                    x: "date", 
+                Plot.barY(positive_results_without_complaints_after_notification, {
+                    x: "date",
                     y: "tested_positive",
-                    interval: d3.utcMonth,
                     fill: "#ec025f",
                     title:  (d => (d.tested_positive / 1000).toFixed(3)),
-                    insetLeft: 1.5, insetRight: 1.5 
+                    strokeWidth: 3,
+                    stroke: "white",
                 }),
-                Plot.ruleY([0]),
+                Plot.ruleY([0])
             ], 
         })
     ); 
