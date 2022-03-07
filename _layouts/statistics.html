@@ -172,9 +172,9 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">Positieve testuitslagen waar een notificatie aan vooraf ging, met/zonder klachten</h2>
-                <p><span class="number_highlight" id="tests_tested_positive">31.947</span>.</p>
+                <p><span class="number_highlight" id="total_tested_positive">31.947</span>.</p>
                 <p>Waarvan positief zonder klachten:<br /> 
-                    <span class="number_highlight" id="tests_tested_positive_without_complaints">7.457</span>.</p>
+                    <span class="number_highlight" id="tested_positive_without_complaints">7.457</span>.</p>
                 <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder, het coronavirus bleken te hebben, en hoeveel van hen geen klachten van het coronavirus hadden.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
@@ -191,12 +191,14 @@
                     <table>
                         <thead>
                             <tr>
-                                <th colspan="3">Testaanvragen na notificatie CoronaMelder</th>
+                                <th colspan="5">Testaanvragen na notificatie CoronaMelder</th>
                             </tr>
                             <tr>
                                 <th>Maand</th>
                                 <th>Aantal testaanvragen</th>
-                                <th>Waarvan door personen zonder klachten</th>
+                                <th>Aantal testaanvragen waarvan positief getest</th>
+                                <th>Aantal positief geteste personen zonder klachten</th>
+                                <th>Percentage positief geen klachten</th>
                             </tr>
                         </thead>
                         <tbody id="tests_complaints_table">
@@ -244,30 +246,37 @@
             // loop through all the data objects in the requested JSON
             for (let i = 0; i < selectedData.length; i++) {
                 // store object in a variable
-                statsObject = Object.values(selectedData[i]);
+                const statsObject = Object.values(selectedData[i]);
+
+                // turn today's date into a string we can compare to a date string in the JSON
+                const today = new Date();
+                const currentMonthYear = today.toLocaleString("nl", { "month": "numeric" }) + today.toLocaleString("nl", { "year": "numeric" });
+                const dataMonthYear = statsObject[0].toLocaleString("nl", { "month": "numeric" }) + statsObject[0].toLocaleString("nl", { "year": "numeric" });
 
                 // get the number of key value pairs
                 let number_of_key_value_pairs = Object.values(selectedData[i]).length;
 
+                // convert the value shown in the table column later
                 function getColumnValue(valueID) {
-                    columnValue = Math.round(statsObject[valueID]);
-                    return new Intl.NumberFormat('nl-NL', {  }).format(columnValue)
+                    if (typeof(statsObject[valueID]) == 'number') {
+                        columnValue = Math.round(statsObject[valueID]);
+                        return new Intl.NumberFormat('nl-NL', {  }).format(columnValue)
+                    } else {
+                        return statsObject[valueID];
+                    }
                 }
 
-                // create row string
-                let statsRow = ``;
-                 
-                statsRow += `<tr>`;
-
-                    const today = new Date();
-                    const thisMonthYear = today.toLocaleString("nl", { "month": "numeric" }) + today.toLocaleString("nl", { "year": "numeric" });
-                    const monthYear = statsObject[0].toLocaleString("nl", { "month": "numeric" }) + statsObject[0].toLocaleString("nl", { "year": "numeric" });
-
-                if (monthYear === thisMonthYear) {
+                // add an asterisk if the current month is the last month in the JSON
+                if (dataMonthYear === currentMonthYear) {
                     statsIncomplete += `*`;
                 } else {
                     statsIncomplete = ``;
                 }
+
+                // create a row string, adding html and content to it
+                let statsRow = ``;
+                 
+                statsRow += `<tr>`;
 
                 statsRow += `<td>
                     ${statsObject[0].toLocaleString("nl", { "month": "long", "year": "numeric" })} ${statsIncomplete}
@@ -283,28 +292,10 @@
             }
         }
 
-        // function fillUpdateDate(selectedData) {
-        //     for (let i = 0; i < selectedData.length; i++) {
-        //         statsObject = Object.values(selectedData[i]);
-
-        //         if (i == (selectedData.length -1)) {
-        //             document.getElementById("last_date").innerHTML = statsObject[0].toLocaleString("nl", { 
-        //                 "weekday": "long", 
-        //                 "day": "numeric", 
-        //                 "month": "long", 
-        //                 "year": "numeric" 
-        //             });
-        //         }
-        //     }
-        // }
 
         function updateStatisticNumber(selectedData, selectedKey, selectedElement) {
             for (let i = 0; i < selectedData.length; i++) {
-                // statsObject = Object.values(selectedData[i]);
-
                 if (i == (selectedData.length -1)) {
-                    // rightKey = selectedData[i][selectedKey];
-
                     function getValue(valueID) {
                         valueToGet = Math.round(valueID);
                         return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
@@ -334,8 +325,6 @@
         constructTable(positive_results_after_notification, tests_positive_table);
         constructTable(positive_results_without_complaints_after_notification, tests_complaints_table);
 
-        // fillUpdateDate(active_users);
- 
         // updateStatisticNumber(selectedData, selectedKey, selectedElement) 
         updateStatisticNumber(active_users, 'active_users', active_users_number);
         updateStatisticNumber(shared_keys, 'cumulative_shared_keys', warnings_number);
@@ -344,8 +333,8 @@
         getTotals(totals.total_tested, tp_tested_total); 
         getTotals(totals.tested_positive, tp_tested_positive);
 
-        getTotals(positive_results_without_complaints_after_notification_totals.total_tested_positive, tests_total);       
-        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tests_tested_positive_without_complaints);
+        getTotals(positive_results_without_complaints_after_notification_totals.total_tested_positive, total_tested_positive);       
+        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tested_positive_without_complaints);
 
     </script>
 </body>
