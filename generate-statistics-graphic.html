@@ -51,7 +51,7 @@
                 <textarea id="CM_3_svg_code"></textarea>
             </div>
         </div>
-        <h2>4. Testuitslagen waar een notificatie aan vooraf ging, met/zonder klachten</h2>
+        <h2>4. Positieve testuitslagen waar een notificatie aan vooraf ging, met/zonder klachten</h2>
         <div class="column-2">
             <div id="CM_4"></div>
             <div>
@@ -134,8 +134,7 @@ CM_1.appendChild(
         marginTop: 40,
         x: { 
             label: "Maand →",
-            labelAnchor: 'right',  
-            labelOffset: -10,   
+            labelAnchor: "center",
             tickRotate: -45,
             tickFormat: (
                 (f) => {
@@ -148,10 +147,12 @@ CM_1.appendChild(
         },
         y: {
             label: "↑ Aantal actieve gebruikers CoronaMelder",  
-            labelOffset: 10,   
+            labelOffset: -20,   
             transform: d => d / 1000000,
+            domain: [0, 3.5],
             grid: true,
             tickFormat: (f => `${f}M`),
+            padding: .4,
         },
         marks: [
             Plot.line(active_users, {
@@ -172,8 +173,6 @@ CM_1.appendChild(
             marginTop: 40,
             x: { 
                 label: "Month →",
-                labelAnchor: 'right',  
-                labelOffset: -10,   
                 tickRotate: -45,
                 tickFormat: (
                     (f) => {
@@ -183,14 +182,14 @@ CM_1.appendChild(
                     }
                 ),
                 ticks: d3.utcMonth.every(1),
-                padding: 3
             },
             y: {
                 label: "↑ Number of active CoronaMelder users",  
-                labelOffset: 10,   
+                labelOffset: -20,   
                 transform: d => d / 1000000,
                 grid: true,
                 tickFormat: (f => `${f}M`),
+                domain: [0, 3.5],
             },
             marks: [
                 Plot.line(active_users, {
@@ -211,7 +210,6 @@ CM_2.appendChild(
         x: { 
             type: "band",
             label: "Maand →",
-            labelAnchor: 'right',  
             tickRotate: -45,
             tickFormat: (
                 (f) => {
@@ -226,8 +224,10 @@ CM_2.appendChild(
         y: {
             label: "↑ Aantal waarschuwingen via CoronaMelder",  
             transform: d => d / 1000,
+            labelOffset: -20,   
             grid: true,
             tickFormat: (f => `${f}K`),
+            domain: [0, 400],
         },
         marks: [
             Plot.barY(shared_keys, {
@@ -253,7 +253,6 @@ CM_2.appendChild(
             x: { 
                 type: "band",
                 label: "Month →",
-                labelAnchor: 'right',  
                 tickRotate: -45,
                 tickFormat: (
                     f => {
@@ -268,8 +267,10 @@ CM_2.appendChild(
             y: {
                 label: "↑ Number of warnings through CoronaMelder",  
                 transform: d => d / 1000,
+                labelOffset: -20,   
                 grid: true,
                 tickFormat: (f => `${f}K`),
+                domain: [0, 400],
             },
             marks: [
                 Plot.barY(shared_keys, {
@@ -303,8 +304,10 @@ CM_3.appendChild(
         y: {
             label: "↑ Aantal testaanvragen",
             transform: d => d / 1000,
+            labelOffset: -20,   
             grid: true,
             tickFormat: (f => `${f}K`),
+            domain: [0, 50],
         },
         marks: [
             Plot.barY(positive_results_after_notification, {
@@ -348,8 +351,10 @@ CM_3.appendChild(
             y: {
                 label: "↑ Tests taken",
                 transform: d => d / 1000,
+                labelOffset: -20,   
                 grid: true,
                 tickFormat: (f => `${f}K`),
+                domain: [0, 50],
             },
             marks: [
                 Plot.barY(positive_results_after_notification, {
@@ -393,23 +398,25 @@ CM_4.appendChild(
         y: {
             label: "↑ Aantal testaanvragen",
             transform: d => d / 1000,
+            labelOffset: -20,   
             grid: true,
             tickFormat: (f => `${f}K`),
+            domain: [0, 8],
         },
         marks: [
             Plot.barY(positive_results_without_complaints_after_notification, {
                 x: "date",
-                y: "tested_total",
+                y: "tested_positive",
                 fill: "#157CCA",
-                title:  (d => (d.tested_total / 1000).toFixed(3)),
+                title:  (d => (d.tested_positive / 1000).toFixed(3)),
                 strokeWidth: 3,
                 stroke: "white",
             }),
             Plot.barY(positive_results_without_complaints_after_notification, {
                 x: "date",
-                y: "tested_positive",
+                y: "had_no_complaints",
                 fill: "#ec025f",
-                title:  (d => (d.tested_positive / 1000).toFixed(3)),
+                title:  (d => (d.had_no_complaints / 1000).toFixed(3)),
                 strokeWidth: 3,
                 stroke: "white",
             }),
@@ -438,23 +445,25 @@ CM_4.appendChild(
             y: {
                 label: "↑ Tests taken",
                 transform: d => d / 1000,
+                labelOffset: -20,   
                 grid: true,
                 tickFormat: (f => `${f}K`),
+                domain: [0, 8],
             },
             marks: [
                 Plot.barY(positive_results_without_complaints_after_notification, {
                     x: "date",
-                    y: "tested_total",
+                    y: "tested_positive",
                     fill: "#157CCA",
-                    title:  (d => (d.tested_total / 1000).toFixed(3)),
+                    title:  (d => (d.tested_positive / 1000).toFixed(3)),
                     strokeWidth: 3,
                     stroke: "white",
                 }),
                 Plot.barY(positive_results_without_complaints_after_notification, {
                     x: "date",
-                    y: "tested_positive",
+                    y: "had_no_complaints",
                     fill: "#ec025f",
-                    title:  (d => (d.tested_positive / 1000).toFixed(3)),
+                    title:  (d => (d.had_no_complaints / 1000).toFixed(3)),
                     strokeWidth: 3,
                     stroke: "white",
                 }),
