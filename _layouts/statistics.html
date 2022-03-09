@@ -1,0 +1,341 @@
+{%- assign timeslug = site.time | replace_first: " ", "T" | replace: " ", "" -%}
+{%- assign langSlug = site.baseurl | append: '/' -%}
+{%- if page.lang -%}
+  {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
+{% include open-source-comment.html %}
+{% include head.html %}
+<style>
+        .plot-swatch {
+          margin-bottom: 0.5em;
+          margin-left: 0px;
+        }
+        .plot-swatch::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        margin-right: 0.5em;
+        background: var(--color);
+      }
+        
+      .plot-legend {
+        display: flex;
+        min-height: 33px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+      .plot-swatch {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 1em;
+      }
+
+      img,
+      .plot-legend {
+          margin-top: 20px;
+      }
+
+      .plot-legend + img {
+          margin-top: 0;
+      }
+      </style>
+
+<body>
+  {% if page.collection == 'questions-scanner' or page.domain == 'scanner' %}
+    {% include header-slim.html for="scanner" %}
+  {% else %}
+    {% include header-slim.html %}
+  {% endif %}
+  
+  <main class="content-center content-graphs" id="content">
+    {% if page.showBreadCrumbs %}
+      {% include breadcrumbs.html title=page.title collection=page.collection %}
+    {% endif %}
+
+    {% if page.showHomeBtn %}
+      <p class="content-center__home return_link">
+        <a href="{{ langSlug }}">
+          <span class="icon icon-chevron-left"></span>{{ site.data[page.lang].translations.layout-template-home }}
+        </a>
+      </p>
+    {% endif %}
+    
+    <div class="content-block content-block--graphs" {% if page.contentLang == 'en' %}lang="en" 
+    dir="ltr"{% elsif page.contentLang == 'nl' %}lang="nl"{% endif %}>
+      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+      
+      <div class="division">
+        {{ content }}
+
+        <p>Cijfers tot en met <span id="last_date">dinsdag 8 maart 2022</span>.</p>
+
+        <div class="CoronaMelder_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Actieve gebruikers van CoronaMelder:</h2>
+                <p><span class="number_highlight" id="active_users_number"></span>.</p>
+                <p>De grafiek laat zien hoeveel mensen de CoronaMelder-app actief gebruiken.</p>
+                <p>Je kunt meer informatie vinden op <a href="https://github.com/minvws/nl-covid19-notification-app-statistics">de GitHub pagina van het Ministerie van Volksgezondheid, Welzijn en Sport</a>.</p>
+            </div>
+            <div id="CoronaMelder_downloads_plot">
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-1.svg" alt="Grafiek actieve gebruikers van CoronaMelder per maand." class="graph" width="480" height="320">
+                <p>* Dit betreft de huidige maand. De data van deze maand is nog niet volledig.</p>
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Actieve gebruikers CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Maand</th>
+                                <th>Aantal actieve gebruikers</th>
+                            </tr>
+                        </thead>
+                        <tbody id="active_users_table">
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+         
+        <div class="CoronaMelder_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Mensen die anderen waarschuwden via CoronaMelder:</h2>
+                <p><span class="number_highlight" id="warnings_number"></span>.</p>
+                <p>Als je positief getest bent op corona, dan kun je dit vrijwillig aangeven in de app, samen met een medewerker van de GGD. De grafiek laat zien hoeveel mensen dit hebben gedaan na landelijke introductie van CoronaMelder op 10 oktober 2020.</p>
+            </div>
+            <div id="CoronaMelder_downloads_plot">
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-2.svg" alt="Grafiek actieve gebruikers van CoronaMelder per maand." class="graph" width="480" height="320">
+                <p>* Dit betreft de huidige maand. De data van deze maand is nog niet volledig.</p>
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">Aantal waarschuwingen via CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Maand</th>
+                                <th>Aantal gedeelde sleutels per maand</th>
+                                <th>Aantal gedeelde sleutels, cumulatief</th>
+                            </tr>
+                        </thead>
+                        <tbody id="warnings_table">
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+
+        <div class="CoronaMelder_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Testaanvragen waar een notificatie aan vooraf ging</h2>
+                <p><span class="number_highlight" id="tp_tested_total"></span>.</p>
+                <p>Waarvan positieve uitslagen:<br /> 
+                    <span class="number_highlight" id="tp_tested_positive"></span>.</p>
+                <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder sinds ingebruikname van de app op 10 oktober 2020.</p>
+            </div>
+            <div id="CoronaMelder_downloads_plot">
+                <div class="plot-legend">
+                    <span class="plot-swatch" style="--color:#157CCA;">Testaanvragen met notificatie vooraf</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">Positief getest</span>
+                </div>
+
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-3.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
+                <p>* Dit betreft de huidige maand. De data van deze maand is nog niet volledig.</p>
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">Testaanvragen na notificatie CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Maand</th>
+                                <th>Aantal testaanvragen na ontvangen notificatie</th>
+                                <th>Waarvan positief</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tests_positive_table">
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+
+        <div class="CoronaMelder_downloads column-2"> 
+            <div>
+                <h2 class="downloads_title">Positieve testuitslagen waar een notificatie aan vooraf ging, met/zonder klachten</h2>
+                <p><span class="number_highlight" id="total_tested_positive"></span>.</p>
+                <p>Waarvan positief zonder klachten:<br /> 
+                    <span class="number_highlight" id="tested_positive_without_complaints"></span>.</p>
+                <p>De grafiek laat zien hoeveel mensen zich lieten testen na een notificatie van CoronaMelder, het coronavirus bleken te hebben, en hoeveel van hen geen klachten van het coronavirus hadden.</p>
+            </div>
+            <div id="CoronaMelder_downloads_plot">
+                <div class="plot-legend">
+                    <span class="plot-swatch" style="--color:#157CCA;">Klachten</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">Geen klachten</span>
+                </div>
+
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-4.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand, opgesplitst in aantal klachten en geen klachten." class="graph" width="480" height="320">
+                <p>* Dit betreft de huidige maand. De data van deze maand is nog niet volledig.</p>
+
+                <details class="details">
+                    <summary><h3>Brongegevens grafiek</h3></summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="5">Testaanvragen na notificatie CoronaMelder</th>
+                            </tr>
+                            <tr>
+                                <th>Maand</th>
+                                <th>Aantal testaanvragen</th>
+                                <th>Aantal testaanvragen waarvan positief getest</th>
+                                <th>Aantal positief geteste personen zonder klachten</th>
+                                <th>Percentage positief geen klachten</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tests_complaints_table">
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </div>
+
+        <div class=""> 
+            <div>
+                <h2>Effect CoronaMelder</h2>
+                <p>
+                    <span class="number_highlight">64%</span> van de mensen die een coronatest hebben aangevraagd na een notificatie van CoronaMelder, waren nog niet benaderd vanuit het reguliere bron- en contactonderzoek.
+                </p>  
+            </div>
+        </div>
+
+    </div>
+
+  </main> 
+    {% include footer.html %} 
+
+        <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
+        <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
+        <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
+        <script type="text/javascript" src="/js/statistics/4_positive-results-without-complaints-after-notification.js"></script>
+    
+    <script> 
+        active_users_number = document.getElementById('active_users_number');
+
+        warnings_number = document.getElementById('warnings_number');
+
+        tp_tested_total = document.getElementById('tp_tested_total');
+        tp_tested_positive = document.getElementById('tp_tested_positive');
+
+        tests_total = document.getElementById('tests_total');
+        tests_tested_positive = document.getElementById('tests_tested_positive');
+
+        const active_users_table = document.getElementById("active_users_table");
+        const warnings_table = document.getElementById("warnings_table");
+        const tests_table = document.getElementById("tests_table");
+         
+        function constructTable(selectedData, selected_table) {
+            // loop through all the data objects in the requested JSON
+            for (let i = 0; i < selectedData.length; i++) {
+                // store object in a variable
+                const statsObject = Object.values(selectedData[i]);
+
+                // turn today's date into a string we can compare to a date string in the JSON
+                const today = new Date();
+                const currentMonthYear = today.toLocaleString("nl", { "month": "numeric" }) + today.toLocaleString("nl", { "year": "numeric" });
+                const dataMonthYear = statsObject[0].toLocaleString("nl", { "month": "numeric" }) + statsObject[0].toLocaleString("nl", { "year": "numeric" });
+
+                // get the number of key value pairs
+                let number_of_key_value_pairs = Object.values(selectedData[i]).length;
+
+                // convert the value shown in the table column later
+                function getColumnValue(valueID) {
+                    if (typeof(statsObject[valueID]) == 'number') {
+                        columnValue = Math.round(statsObject[valueID]);
+                        return new Intl.NumberFormat('nl-NL', {  }).format(columnValue)
+                    } else {
+                        return statsObject[valueID];
+                    }
+                }
+
+                // add an asterisk if the current month is the last month in the JSON
+                if (dataMonthYear === currentMonthYear) {
+                    statsIncomplete += `*`;
+                } else {
+                    statsIncomplete = ``;
+                }
+
+                // create a row string, adding html and content to it
+                let statsRow = ``;
+                 
+                statsRow += `<tr>`;
+
+                statsRow += `<td>
+                    ${statsObject[0].toLocaleString("nl", { "month": "long", "year": "numeric" })} ${statsIncomplete}
+                </td>`;
+
+                for (let j = 1; j < number_of_key_value_pairs; j++) {
+                    statsRow += `<td>${getColumnValue(j)}</td>`
+                }
+
+                statsRow += `</tr>`;
+                selected_table.innerHTML += statsRow;
+
+            }
+        }
+
+
+        function updateStatisticNumber(selectedData, selectedKey, selectedElement) {
+            for (let i = 0; i < selectedData.length; i++) {
+                if (i == (selectedData.length -1)) {
+                    function getValue(valueID) {
+                        valueToGet = Math.round(valueID);
+                        return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
+                    }
+                
+                    statisticNumber = getValue(selectedData[i][selectedKey]);
+                }
+            } 
+
+            selectedElement.innerHTML = statisticNumber;
+        }
+
+        function getTotals(selectedData, selectedElement) {
+            function getValue(valueID) {
+                valueToGet = Math.round(valueID);
+                return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
+            }
+        
+            statisticNumber = getValue(selectedData);
+
+            selectedElement.innerHTML = statisticNumber;
+        }
+
+        // constructTable(selectedData, selected_table) 
+        constructTable(active_users, active_users_table);
+        constructTable(shared_keys, warnings_table);
+        constructTable(positive_results_after_notification, tests_positive_table);
+        constructTable(positive_results_without_complaints_after_notification, tests_complaints_table);
+
+        // updateStatisticNumber(selectedData, selectedKey, selectedElement) 
+        updateStatisticNumber(active_users, 'active_users', active_users_number);
+        updateStatisticNumber(shared_keys, 'cumulative_shared_keys', warnings_number);
+        
+        // getTotals(selectedData, selectedElement)
+        getTotals(totals.total_tested, tp_tested_total); 
+        getTotals(totals.tested_positive, tp_tested_positive);
+
+        getTotals(positive_results_without_complaints_after_notification_totals.total_tested_positive, total_tested_positive);       
+        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tested_positive_without_complaints);
+
+    </script>
+</body>
+</html>

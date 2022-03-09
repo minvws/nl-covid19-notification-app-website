@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/css/main.css" rel="stylesheet">
+
+    <style>textarea { width: 100%; height: 100%; } hr { margin: 20px 0 } input { text-align: right; font-family: 'courier' }</style>
+
+    <link rel="preload" as="font" href="/fonts/ROsanswebtextregular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/ROsanswebtextregular.woff" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/ROsanswebtextbold.woff" type="font/woff"  crossorigin="anonymous">
+
+    <link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+    <!-- use this page (locally) to generate graphics for the statistics page -->
+    <!-- to use, disable exclusion in _config.yml at line 162, 
+         and restart jekyll in your commandline.
+         You can then find this page at 
+         http://localhost:4000/generate-statistics-graphic.html .
+        You only need to update the two arrays starting around line 65 of this document. 
+        Then, copy the SVG codes to (respectively)
+        - coronamelder-stats.svg
+        - coronamelder-stats-en.svg
+        - coronamelder-scanner-stats.svg
+        - coronamelder-scanner-stats-en.svg
+        And update the download number, tables and date in 
+        - layouts/statistics.html
+        - layouts/statistics-en.html
+    -->
+
+    <section class="container content-block">
+        <h1>Generated SVG's</h1>
+        <h2>1. Actieve gebruikers</h2>
+        <div class="column-2">
+            <div id="CM_1"></div>
+            <div>
+                <textarea id="CM_1_svg_code"></textarea>
+            </div>
+        </div>
+        <h2>2. Aantal waarschuwingen via CoronaMelder</h2>
+        <div class="column-2">
+            <div id="CM_2"></div>
+            <div>
+                <textarea id="CM_2_svg_code"></textarea>
+            </div>
+        </div>
+        <h2>3. Testaanvragen naar aanleiding van een notificatie</h2>
+        <div class="column-2">
+            <div id="CM_3"></div>
+            <div>
+                <textarea id="CM_3_svg_code"></textarea>
+            </div>
+        </div>
+        <h2>4. Positieve testuitslagen waar een notificatie aan vooraf ging, met/zonder klachten</h2>
+        <div class="column-2">
+            <div id="CM_4"></div>
+            <div>
+                <textarea id="CM_4_svg_code"></textarea>
+            </div>
+        </div>
+
+        <hr />
+
+        <h1>English</h1>
+        <h2>1. Active users </h2>
+        <div class="column-2">
+            <div id="CM_1_en"></div>
+            <div>
+                <textarea id="CM_1_svg_code_en"></textarea>
+            </div>
+        </div>
+        <h2>2. Warnings sent through CoronaMelder</h2>
+        <div class="column-2">
+            <div id="CM_2_en"></div>
+            <div>
+                <textarea id="CM_2_svg_code_en"></textarea>
+            </div>
+        </div>
+        <h2>3. People who got tested after notification</h2>
+        <div class="column-2">
+            <div id="CM_3_en"></div>
+            <div>
+                <textarea id="CM_3_svg_code_en"></textarea>
+            </div>
+        </div>
+        <h2>4. Number of test results (complaints/no complaints)</h2>
+        <div class="column-2">
+            <div id="CM_4_en"></div>
+            <div>
+                <textarea id="CM_4_svg_code_en"></textarea>
+            </div>
+        </div>
+    </section>
+
+    <!-- for generating the graphs, we use https://observablehq.com/@observablehq -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.4"></script>
+    <script type="text/javascript" src="js/statistics/1_active-users.js"></script>
+    <script type="text/javascript" src="js/statistics/2_shared-keys.js"></script>
+    <script type="text/javascript" src="js/statistics/3_positive-results-after-notification.js"></script>
+    <script type="text/javascript" src="js/statistics/4_positive-results-without-complaints-after-notification.js"></script>
+
+    <script>
+        // Dutch statistics
+        CM_1 = document.getElementById('CM_1');
+        CM_1_svg_code = document.getElementById('CM_1_svg_code');
+        CM_2 = document.getElementById('CM_2');
+        CM_2_svg_code = document.getElementById('CM_2_svg_code');
+        // CM_3 = document.getElementById('CM_3');
+        // CM_3_svg_code = document.getElementById('CM_3_svg_code');
+        CM_4 = document.getElementById('CM_4');
+        CM_4_svg_code = document.getElementById('CM_4_svg_code');
+
+        // English statistics
+        CM_1_en = document.getElementById('CM_1_en');
+        CM_1_svg_code_en = document.getElementById('CM_1_svg_code_en');
+        CM_2_en = document.getElementById('CM_2_en');
+        CM_2_svg_code_en = document.getElementById('CM_2_svg_code_en');
+        // CM_3_en = document.getElementById('CM_3_en');
+        // CM_3_svg_code_en = document.getElementById('CM_3_svg_code_en');
+        CM_4_en = document.getElementById('CM_4_en');
+        CM_4_svg_code_en = document.getElementById('CM_4_svg_code_en');
+
+        const firstEntry = new Date(2020,06,30);
+        const today = new Date();
+        const thisMonthYear = today.toLocaleString("nl", { "month": "numeric" }) + today.toLocaleString("nl", { "year": "numeric" });
+        const thisMonthNumber = parseInt(today.toLocaleString("nl", { "month": "numeric" }));
+        const nextMonth = thisMonthNumber + 1;
+        const nextMonthString = nextMonth.toString() + today.toLocaleString("nl", { "year": "numeric" }); 
+
+CM_1.appendChild(
+    Plot.plot({
+        marginBottom: 80,
+        marginTop: 40,
+        x: { 
+            label: "Maand →",
+            labelAnchor: "center",
+            tickRotate: -45,
+            tickFormat: (
+                (f) => {
+                    const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
+                    const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                    return monthYear === thisMonthYear ? `${date} *` : date;
+                }
+            ),
+            ticks: d3.utcMonth.every(1)
+        },
+        y: {
+            label: "↑ Aantal actieve gebruikers CoronaMelder",  
+            labelOffset: -20,   
+            transform: d => d / 1000000,
+            domain: [0, 3.5],
+            grid: true,
+            tickFormat: (f => `${f}M`),
+            padding: .4,
+        },
+        marks: [
+            Plot.line(active_users, {
+                x: "date", 
+                y: "active_users",
+                title:  (d => (d.notifications / 1000).toFixed(3)),
+                stroke: "#ec025f",
+                strokeWidth: 3
+            }),
+            Plot.ruleY([0]),
+        ],
+    })
+);
+
+    CM_1_en.appendChild(
+        Plot.plot({
+            marginBottom: 80,
+            marginTop: 40,
+            x: { 
+                label: "Month →",
+                tickRotate: -45,
+                tickFormat: (
+                    (f) => {
+                        const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
+                        const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                        return monthYear === thisMonthYear ? `${date} *` : date;
+                    }
+                ),
+                ticks: d3.utcMonth.every(1),
+            },
+            y: {
+                label: "↑ Number of active CoronaMelder users",  
+                labelOffset: -20,   
+                transform: d => d / 1000000,
+                grid: true,
+                tickFormat: (f => `${f}M`),
+                domain: [0, 3.5],
+            },
+            marks: [
+                Plot.line(active_users, {
+                    x: "date", 
+                    y: "active_users",
+                    stroke: "#ec025f",
+                    title:  (d => (d.notifications / 1000).toFixed(3)),
+                    strokeWidth: 3
+                }),
+                Plot.ruleY([0]),
+            ],
+        })
+    ); 
+
+CM_2.appendChild(
+    Plot.plot({
+        marginBottom: 80,
+        x: { 
+            type: "band",
+            label: "Maand →",
+            tickRotate: -45,
+            tickFormat: (
+                (f) => {
+                    const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
+                    const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                    return monthYear === thisMonthYear ? `${date} *` : date;
+                }
+            ),
+            stroke: "white",
+            ticks: d3.utcMonth.every(1),
+        },
+        y: {
+            label: "↑ Aantal waarschuwingen via CoronaMelder",  
+            transform: d => d / 1000,
+            labelOffset: -20,   
+            grid: true,
+            tickFormat: (f => `${f}K`),
+            domain: [0, 400],
+        },
+        marks: [
+            Plot.barY(shared_keys, {
+                x: "date", 
+                y: "cumulative_shared_keys", 
+                title:  (d => (d.cumulative_shared_keys / 1000).toFixed(3)),
+                fill: "#ec025f",
+            }),
+            // Plot.line(shared_keys, {
+            //     x: "date", 
+            //     y: "shared_keys",
+            //     stroke: "#000000",
+            //     title:  (d => (d.shared_keys / 1000).toFixed(3)),
+            // }),
+            Plot.ruleY([0])
+        ],
+    })
+);
+
+    CM_2_en.appendChild(
+        Plot.plot({
+            marginBottom: 80,
+            x: { 
+                type: "band",
+                label: "Month →",
+                tickRotate: -45,
+                tickFormat: (
+                    f => {
+                        const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
+                        const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                        return monthYear === thisMonthYear ? `${date} *` : date;
+                    }
+                ),
+                stroke: "white",
+                ticks: d3.utcMonth.every(1),
+            },
+            y: {
+                label: "↑ Number of warnings through CoronaMelder",  
+                transform: d => d / 1000,
+                labelOffset: -20,   
+                grid: true,
+                tickFormat: (f => `${f}K`),
+                domain: [0, 400],
+            },
+            marks: [
+                Plot.barY(shared_keys, {
+                    x: "date", 
+                    y: "cumulative_shared_keys", 
+                    title:  (d => (d.cumulative_shared_keys / 1000).toFixed(3)),
+                    fill: "#ec025f",
+                }),
+                Plot.ruleY([0])
+            ],
+        })
+    ); 
+
+CM_3.appendChild(
+    Plot.plot({
+        marginBottom: 80,
+        x: {
+            type: "band",
+            label: "Maand →",
+            tickRotate: -45,
+            tickFormat: (
+                (f) => {
+                    const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
+                    const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                    return monthYear === thisMonthYear ? `${date} *` : date;
+                }
+            ),
+            stroke: "white",
+            ticks: d3.utcMonth.every(1),
+        },
+        y: {
+            label: "↑ Aantal testaanvragen",
+            transform: d => d / 1000,
+            labelOffset: -20,   
+            grid: true,
+            tickFormat: (f => `${f}K`),
+            domain: [0, 50],
+        },
+        marks: [
+            Plot.barY(positive_results_after_notification, {
+                x: "date",
+                y: "tests_after_notification",
+                fill: "#157CCA",
+                title:  (d => (d.tests_after_notification / 1000).toFixed(3)),
+                strokeWidth: 3,
+                stroke: "white",
+            }),
+            Plot.barY(positive_results_after_notification, {
+                x: "date",
+                y: "positive",
+                fill: "#ec025f",
+                title:  (d => (d.positive / 1000).toFixed(3)),
+                strokeWidth: 3,
+                stroke: "white",
+            }),
+            Plot.ruleY([0])
+        ], 
+    })
+); 
+
+    CM_3_en.appendChild( 
+        Plot.plot({
+            marginBottom: 80,
+            x: {
+                type: "band",
+                label: "Month →",
+                tickRotate: -45,
+                tickFormat: (
+                    (f) => {
+                        const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
+                        const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                        return monthYear === thisMonthYear ? `${date} *` : date;
+                    }
+                ),
+                stroke: "white",
+                ticks: d3.utcMonth.every(1),
+            },
+            y: {
+                label: "↑ Tests taken",
+                transform: d => d / 1000,
+                labelOffset: -20,   
+                grid: true,
+                tickFormat: (f => `${f}K`),
+                domain: [0, 50],
+            },
+            marks: [
+                Plot.barY(positive_results_after_notification, {
+                    x: "date",
+                    y: "tests_after_notification",
+                    fill: "#157CCA",
+                    title:  (d => (d.tests_after_notification / 1000).toFixed(3)),
+                    strokeWidth: 3,
+                    stroke: "white",
+                }),
+                Plot.barY(positive_results_after_notification, {
+                    x: "date",
+                    y: "positive",
+                    fill: "#ec025f",
+                    title:  (d => (d.positive / 1000).toFixed(3)),
+                    strokeWidth: 3,
+                    stroke: "white",
+                }),
+                Plot.ruleY([0])
+            ], 
+        })
+    ); 
+
+CM_4.appendChild(
+    Plot.plot({
+        marginBottom: 80,
+        x: {
+            type: "band",
+            label: "Maand →",
+            tickRotate: -45,
+            tickFormat: (
+                (f) => {
+                    const date = f.toLocaleString("nl", { "month": "short", "year": "numeric" });
+                    const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                    return monthYear === thisMonthYear ? `${date} *` : date;
+                }
+            ),
+            stroke: "white",
+            ticks: d3.utcMonth.every(1),
+        },
+        y: {
+            label: "↑ Aantal testaanvragen",
+            transform: d => d / 1000,
+            labelOffset: -20,   
+            grid: true,
+            tickFormat: (f => `${f}K`),
+            domain: [0, 8],
+        },
+        marks: [
+            Plot.barY(positive_results_without_complaints_after_notification, {
+                x: "date",
+                y: "tested_positive",
+                fill: "#157CCA",
+                title:  (d => (d.tested_positive / 1000).toFixed(3)),
+                strokeWidth: 3,
+                stroke: "white",
+            }),
+            Plot.barY(positive_results_without_complaints_after_notification, {
+                x: "date",
+                y: "had_no_complaints",
+                fill: "#ec025f",
+                title:  (d => (d.had_no_complaints / 1000).toFixed(3)),
+                strokeWidth: 3,
+                stroke: "white",
+            }),
+            Plot.ruleY([0])
+        ], 
+    })
+);
+
+    CM_4_en.appendChild( 
+        Plot.plot({
+            marginBottom: 80,
+            x: {
+                type: "band",
+                label: "Month →",
+                tickRotate: -45,
+                tickFormat: (
+                    (f) => {
+                        const date = f.toLocaleString("en", { "month": "short", "year": "numeric" });
+                        const monthYear = f.toLocaleString("nl", { "month": "numeric" }) + f.toLocaleString("nl", { "year": "numeric" });
+                        return monthYear === thisMonthYear ? `${date} *` : date;
+                    }
+                ),
+                stroke: "white",
+                ticks: d3.utcMonth.every(1),
+            },
+            y: {
+                label: "↑ Tests taken",
+                transform: d => d / 1000,
+                labelOffset: -20,   
+                grid: true,
+                tickFormat: (f => `${f}K`),
+                domain: [0, 8],
+            },
+            marks: [
+                Plot.barY(positive_results_without_complaints_after_notification, {
+                    x: "date",
+                    y: "tested_positive",
+                    fill: "#157CCA",
+                    title:  (d => (d.tested_positive / 1000).toFixed(3)),
+                    strokeWidth: 3,
+                    stroke: "white",
+                }),
+                Plot.barY(positive_results_without_complaints_after_notification, {
+                    x: "date",
+                    y: "had_no_complaints",
+                    fill: "#ec025f",
+                    title:  (d => (d.had_no_complaints / 1000).toFixed(3)),
+                    strokeWidth: 3,
+                    stroke: "white",
+                }),
+                Plot.ruleY([0])
+            ], 
+        })
+    ); 
+
+    CM_1_svg_code.value = CM_1.getElementsByTagName('svg')[0].innerHTML;
+    CM_2_svg_code.value = CM_2.getElementsByTagName('svg')[0].innerHTML;
+    CM_3_svg_code.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
+    CM_4_svg_code.value = CM_4.getElementsByTagName('svg')[0].innerHTML;
+
+    CM_1_svg_code_en.value = CM_1.getElementsByTagName('svg')[0].innerHTML;
+    CM_2_svg_code_en.value = CM_2.getElementsByTagName('svg')[0].innerHTML;
+    CM_3_svg_code_en.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
+    CM_4_svg_code_en.value = CM_4.getElementsByTagName('svg')[0].innerHTML;
+</script>
+</body>
+</html>

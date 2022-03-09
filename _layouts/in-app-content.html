@@ -4,7 +4,7 @@
   {%- assign langSlug = site.baseurl | append: '/' | append: page.lang -%}
 {%- endif -%}
 <!DOCTYPE html>
-<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
+<html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %} tabindex="0">
 {% include open-source-comment.html %}
 {% include head.html %}
 <body class="in-app">
