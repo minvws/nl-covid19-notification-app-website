@@ -31,7 +31,7 @@ exclude:
   - example-content-page.md
   - .sass-cache
   - .history
-  # - generate-statistics-graphic.html
+  - generate-statistics-graphic.html
 
 plugins:
   - "jekyll-github-metadata"
