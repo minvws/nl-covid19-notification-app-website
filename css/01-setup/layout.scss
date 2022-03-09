@@ -6,9 +6,11 @@
     > div {
         margin: 1rem;
         width: 100%;
+        overflow-x: hidden;
 
         @media (min-width: 740px) {
             width: calc(50% - 2rem);
+            overflow: visible;
         }
     }
 }

@@ -372,6 +372,11 @@
         }
     }
 
+    .details-scroll {
+        overflow-x: scroll;
+        width: 100%;
+    }
+
     .md-info-grey {
         color: #666;
         margin-bottom: 6px;
