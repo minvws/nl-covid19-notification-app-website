@@ -4,7 +4,7 @@
 <style>
         line[stroke-opacity] {
             stroke-opacity: 1;
-            stroke: #545454;
+            stroke: #949494;
         }
 </style>
 
