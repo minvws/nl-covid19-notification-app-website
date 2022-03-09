@@ -2,9 +2,7 @@ Various scientists and institutes are currently researching the effects of Coron
 
 <a href="/media/Factsheet_doorlopende_evaluatie.pdf" rel="noopener noreferrer" target="_blank">Continuous Evaluation Factsheet (PDF in Dutch, 139kb)</a>
 
-Information is also available on a  daily basis about, among other things, the number of downloads, the  number of reports via the GGD and the number of test requests and  results that were preceded by a CoronaMelder notification. <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank">The raw data can be viewed and downloaded publicly</a>. You can download a summary of this data here: 
-
-<a href="/media/Factsheet_CoronaMelder_latest.pdf?v=02022022" rel="noopener noreferrer" target="_blank">Factsheet CoronaMelder (PDF in Dutch, 171kb)</a>
+Information is also available on a  daily basis about, among other things, the number of downloads, the  number of reports via the GGD and the number of test requests and  results that were preceded by a CoronaMelder notification. <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank">The raw data can be viewed and downloaded publicly</a>. You can view a summary of this data on [CoronaMelder Data Dashboard](/en/faq/1-13-coronamelder-data-dashboard/).
 
 On May 28, 2021, the aforementioned scientists and institutes, led by Prof. Dr. Wolfgang Ebbers, published an overview of the various studies:
 

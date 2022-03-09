@@ -2,9 +2,7 @@ Verschillende wetenschappers en instituten doen onderzoek naar de werking van Co
 
 <a href="/media/Factsheet_doorlopende_evaluatie.pdf" rel="noopener noreferrer" target="_blank">Factsheet doorlopende evaluatie (PDF, 139kb)</a>
 
-Daarnaast is er dagelijks informatie beschikbaar rondom onder andere het aantal downloads, het aantal meldingen via de GGD en over het aantal testaanvragen en uitslagen waar een CoronaMelder notificatie aan voorafging. De <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank">ruwe data is openbaar in te zien en te downloaden</a>. Een samenvatting van deze data kun je hier downloaden:
-
-<a href="/media/Factsheet_CoronaMelder_latest.pdf?v=02022022" rel="noopener noreferrer" target="_blank">Factsheet CoronaMelder (PDF, 171kb)</a>
+Daarnaast is er dagelijks informatie beschikbaar rondom onder andere het aantal downloads, het aantal meldingen via de GGD en over het aantal testaanvragen en uitslagen waar een CoronaMelder notificatie aan voorafging. De <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank">ruwe data is openbaar in te zien en te downloaden</a>. Een samenvatting van deze data kun je bekijken op de pagina [CoronaMelder Data Dashboard](/nl/faq/1-13-coronamelder-data-dashboard/).
 
 Op 28 mei 2021 publiceerden voorgenoemde wetenschappers en instituten, onder leiding van prof. dr. Wolfgang Ebbers, een overzicht van de verschillende onderzoeken:
 
