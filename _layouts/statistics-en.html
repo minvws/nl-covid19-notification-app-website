@@ -80,7 +80,7 @@
                 <p>You can find more information at <a href="https://github.com/minvws/nl-covid19-notification-app-statistics">the GitHub page of the Ministry of Health, Welfare and Sport</a>.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
-                <img src="{{ site.baseurl }}/img/coronamelder-graph-1.svg" alt="Grafiek actieve gebruikers van CoronaMelder per maand." class="graph" width="480" height="320">
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-1.svg" alt="Chart showing active users of CoronaMelder per month. The chart starts with just over 3 million users in May 2021, with a peak in June 2021. Thereafter, it starts to decline until just under 2 million people use CoronaMelder in January 2022, when the number of users rises again to almost 2.5. million users." class="graph" width="480" height="320">
                 
                 <p>* This concerns the current month. This month's data is not yet complete.</p>
 
@@ -106,11 +106,11 @@
         <div class="CoronaMelder_downloads column-2"> 
             <div>
                 <h2 class="downloads_title">People who warned others via CoronaMelder:</h2>
-                <p><span class="number_highlight" id="warnings_number">302.706</span>.</p>
+                <p><span class="number_highlight" id="warnings_number"></span>.</p>
                 <p>If you have tested positive for corona, you can voluntarily indicate this in the app, together with an employee of the GGD. The graph shows how many people have done this after the national introduction of CoronaMelder on October 10, 2020.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
-                <img src="{{ site.baseurl }}/img/coronamelder-graph-2.svg" alt="Grafiek actieve gebruikers van CoronaMelder per maand." class="graph" width="480" height="320">
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-2.svg" alt="Chart showing sent notifications via CoronaMelder per month. A steady increase since October 2020, leveling off somewhat in the summer months of 2021." class="graph" width="480" height="320">
                 
                 <p>* This concerns the current month. This month's data is not yet complete.</p>
 
@@ -148,7 +148,7 @@
                     <span class="plot-swatch" style="--color:#ec025f;">Tested positive</span>
                 </div>
 
-                <img src="{{ site.baseurl }}/img/coronamelder-graph-3.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand." class="graph" width="480" height="320">
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-3.svg" alt="Graph tests taken following a notification. An average of around 18 thousand, with peaks rising in December 2020 with nearly 49 thousand tests, and fewer tests taken in the summer months of 2021. The percentage tested positive has been increasing since December 2021." class="graph" width="480" height="320">
                 <p>* This concerns the current month. This month's data is not yet complete.</p>
 
                 <details class="details details-scroll">
@@ -173,19 +173,19 @@
 
         <div class="CoronaMelder_downloads column-2"> 
             <div>
-                <h2 class="downloads_title">Positive test results preceded by a notification, with/without complaints</h2>
+                <h2 class="downloads_title">Positive test results preceded by a notification, with/without symptoms</h2>
                 <p><span class="number_highlight" id="total_tested_positive"></span>.</p>
-                <p>Of which tested positive without having complaints:<br /> 
-                <span class="number_highlight" id="tested_positive_without_complaints"></span>.</p>
-                <p>The graph shows how many people had themselves tested after a notification from CoronaMelder, were found to have the corona virus, and how many of them had no complaints of the corona virus.</p>
+                <p>Of which tested positive without having symptoms:<br /> 
+                <span class="number_highlight" id="tested_positive_without_symptoms"></span>.</p>
+                <p>The graph shows how many people had themselves tested after a notification from CoronaMelder, were found to have the corona virus, and how many of them had no symptoms of the corona virus.</p>
             </div>
             <div id="CoronaMelder_downloads_plot">
                 <div class="plot-legend">
-                    <span class="plot-swatch" style="--color:#157CCA;">Complaints</span>
-                    <span class="plot-swatch" style="--color:#ec025f;">No complaints</span>
+                    <span class="plot-swatch" style="--color:#157CCA;">Symptoms</span>
+                    <span class="plot-swatch" style="--color:#ec025f;">No symptoms</span>
                 </div>
 
-                <img src="{{ site.baseurl }}/img/coronamelder-graph-4.svg" alt="Grafiek testaanvragen waar een notificatie aan vooraf ging per maand, opgesplitst in aantal klachten en geen klachten." class="graph" width="480" height="320">
+                <img src="{{ site.baseurl }}/img/coronamelder-graph-4.svg" alt="Chart of tests taken that were preceded by a notification per month, divided into number of complaints and no complaints. In the summer of 2021, fewer people were tested, and few people were positive without symptoms. This will increase again from November, with peaks in the first months of 2022." class="graph" width="480" height="320">
                 <p>* This concerns the current month. This month's data is not yet complete.</p>
 
                 <details class="details details-scroll">
@@ -199,11 +199,11 @@
                                 <th>Month</th>
                                 <th>Number of tests taken</th>
                                 <th>Number of tests taken, which resulted in positive diagnosis</th>
-                                <th>Number of positive diagnosed people who were not having complaints</th>
-                                <th>Percentage positive without complaints</th>
+                                <th>Number of positive diagnosed people who were not having symptoms</th>
+                                <th>Percentage positive without symptoms</th>
                             </tr>
                         </thead>
-                        <tbody id="tests_complaints_table">
+                        <tbody id="tests_symptoms_table">
                         </tbody>
                     </table>
                 </details>
@@ -214,7 +214,7 @@
             <div>
                 <h2>Effects of CoronaMelder</h2>
                 <p>
-                    <span class="number_highlight">64%</span> of the people who requested a corona test after a notification from CoronaMelder had not yet been approached from the regular source and contact research.
+                    <span class="number_highlight">64%</span> of the people who did a corona test after a notification from CoronaMelder had not yet been approached from the regular source and contact research.
                 </p>  
             </div>
         </div>
@@ -227,7 +227,7 @@
         <script type="text/javascript" src="/js/statistics/1_active-users.js"></script>
         <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
-        <script type="text/javascript" src="/js/statistics/4_positive-results-without-complaints-after-notification.js"></script>
+        <script type="text/javascript" src="/js/statistics/4_positive-results-without-symptoms-after-notification.js"></script>
     
     <script> 
         active_users_number = document.getElementById('active_users_number');
@@ -325,7 +325,7 @@
         constructTable(active_users, active_users_table);
         constructTable(shared_keys, warnings_table);
         constructTable(positive_results_after_notification, tests_positive_table);
-        constructTable(positive_results_without_complaints_after_notification, tests_complaints_table);
+        constructTable(positive_results_without_symptoms_after_notification, tests_symptoms_table);
 
         // updateStatisticNumber(selectedData, selectedKey, selectedElement) 
         updateStatisticNumber(active_users, 'active_users', active_users_number);
@@ -335,8 +335,8 @@
         getTotals(totals.total_tested, tp_tested_total); 
         getTotals(totals.tested_positive, tp_tested_positive);
 
-        getTotals(positive_results_without_complaints_after_notification_totals.total_tested_positive, total_tested_positive);       
-        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tested_positive_without_complaints);
+        getTotals(positive_results_without_symptoms_after_notification_totals.total_tested_positive, total_tested_positive);       
+        getTotals(positive_results_without_symptoms_after_notification_totals.tested_positive_without_symptoms, tested_positive_without_symptoms);
 
     </script>
 </body>
