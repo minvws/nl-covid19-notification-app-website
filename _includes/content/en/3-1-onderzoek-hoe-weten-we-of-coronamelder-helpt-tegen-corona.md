@@ -1,17 +1,9 @@
-Various scientists and institutes are currently researching the effects of CoronaMelder.
+Various scientists and institutes are currently researching the effects of CoronaMelder. This is a list of published research:
 
-<a href="/media/Factsheet_doorlopende_evaluatie.pdf" rel="noopener noreferrer" target="_blank">Continuous Evaluation Factsheet (PDF in Dutch, 139kb)</a>
+- <a href="https://www.rijksoverheid.nl/documenten/publicaties/2022/02/28/coronamelder-factsheet-doorlopende-evaluatie" rel="noopener noreferrer" target="_blank" hreflang="nl" lang="nl">Factsheet doorlopende evaluatie</a>
+- <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/05/28/rapporten-evaluatie-coronamelder-9-maanden" rel="noopener noreferrer" target="_blank" hreflang="nl" lang="nl">Evaluatie CoronaMelder: een overzicht na 9 maanden</a> (May 28, 2021)
+- <a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2021/05/28/rapporten-evaluatie-coronamelder-9-maanden/Samenvatting+Evaluatie+CoronaMelder+Een+overzicht+na+9+maanden.pdf" rel="noopener noreferrer" target="_blank" hreflang="nl" lang="nl">Samenvatting evaluatie CoronaMelder: een overzicht na 9 maanden</a> (May 28, 2021)
+- <a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2021/04/14/eindrapport-kwalitatief-onderzoek-grip-op-coronamelder-universiteit-twente-open-universiteit/eindrapport_kwalitatief_Grip+op+Coronamelder-UT+en+OU.pdf" rel="noopener noreferrer" target="_blank" hreflang="nl" lang="nl">Grip op de CoronaMelder - Kwalitatief Onderzoek naar Ervaringen met CoronaMelder Eindverslag</a> (March 24, 2021)
+- An overview of all publications can be found in the document <a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2020/12/10/overzicht-onderzoeken-coronamelder/Overzicht-onderzoeken-CoronaMelder.pdf" rel="noopener noreferrer" target="_blank" hreflang="nl" lang="nl">Overzicht onderzoeken CoronaMelder</a>
 
-Information is also available on a  daily basis about, among other things, the number of downloads, the  number of reports via the GGD and the number of test requests and  results that were preceded by a CoronaMelder notification. <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank">The raw data can be viewed and downloaded publicly</a>. You can view a summary of this data on [CoronaMelder Data Dashboard](/en/faq/1-13-coronamelder-data-dashboard/).
-
-On May 28, 2021, the aforementioned scientists and institutes, led by Prof. Dr. Wolfgang Ebbers, published an overview of the various studies:
-
-<a href="/media/Evaluatie_CoronaMelder_na_9_maanden_english.pdf" rel="noopener noreferrer" target="_blank">Evaluation CoronaMelder: an overview after 9 months (PDF, 3.6MB)</a>
-
-Previously published studies can be downloaded here:
-
-- <a href="https://www.rijksoverheid.nl/documenten/publicaties/2021/03/23/eindrapportage-evaluatie-coronamelder-eur-23-maart-2021" rel="noopener noreferrer" target="_blank">Final report of the evaluation of CoronaMelder app reports of a risk of contamination (PDF in Dutch)</a>
-- <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/eindrapportage-coronamelder-evaluatie-18-maart-2021" rel="noopener noreferrer" target="_blank">Final report CoronaMelder  Evaluation Survey LISS panel (PDF in Dutch)</a>
-- <a href="/media/Rapportage_Evaluatie_CoronaMelder_TilburgUniversity_LISSpanel_Wave_v1.pdf" rel="noopener noreferrer" target="_blank">Eindrapportage CoronaMelder Evaluatie Survey LISS panel wave 5 (PDF in Dutch, 2.3MB)</a> (25 november 2021)
-- <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/documenten/publicaties/2021/03/23/evaluatie-coronamelder-op-de-processen-huisartsen-en-ggd-derde-evaluatie-maart-2021" rel="noopener noreferrer" target="_blank">Evaluation  CoronaMelder general practitioners and GGD (PDF in Dutch</a>
- 
+Information is also available on a  daily basis about, among other things, the number of downloads and the number of active users that were preceded by a CoronaMelder notification. <a href="https://github.com/minvws/nl-covid19-notification-app-statistics/tree/main/statistics" rel="noopener noreferrer" target="_blank" hreflang="nl" lang="nl">The raw data can be viewed and downloaded publicly</a>. You can view a summary of this data on [CoronaMelder Data Dashboard](/en/faq/1-13-coronamelder-data-dashboard/).
