@@ -87,9 +87,9 @@ const positive_results_after_notification_raw = [
         positive: 7151,
     },
     {
-        date: "2022-03-11",
-        tests_after_notification: 26623,
-        positive: 11494,
+        date: "2022-03-23",
+        tests_after_notification:  32511,
+        positive: 13938,
     },
 ]
 
@@ -98,6 +98,6 @@ const positive_results_after_notification = positive_results_after_notification_
 });
 
 const totals = {
-    total_tested: 315910,
-    tested_positive: 43773
+    total_tested: 321798,
+    tested_positive: 46217
 }
