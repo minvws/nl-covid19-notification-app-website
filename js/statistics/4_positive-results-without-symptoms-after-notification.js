@@ -111,10 +111,10 @@ const positive_results_without_complaints_after_notification_raw = [
     percentage_positive_no_complaints: '14%'
   },
   {
-    date: "2022-03-23",
-    tested_total: 32511,
-    tested_positive: 13938,
-    had_no_complaints: 1446,
+    date: "2022-03-30",
+    tested_total: 36612,
+    tested_positive: 15516,
+    had_no_complaints: 1610,
     percentage_positive_no_complaints: '10.37%'
   }, 
 ]
@@ -124,6 +124,6 @@ const positive_results_without_complaints_after_notification = positive_results_
 });
 
 const positive_results_without_complaints_after_notification_totals = {
-    total_tested_positive: 46217,
-    tested_positive_without_complaints: 9094
+    total_tested_positive: 47795,
+    tested_positive_without_complaints: 9258
 }
