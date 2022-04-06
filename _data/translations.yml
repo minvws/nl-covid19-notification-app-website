@@ -1001,24 +1001,16 @@ information-gps:
 # See _includes/components/mediaplayer.html
   
 mediaelement-btn-enable-caption:
-  nl: Zet ondertiteling (CC) aan
-  fy: Set ûndertiteling (CC) oan
-  en: Enable subtitles (CC)
+  nl: 'CC (ondertiteling)'
+  fy: 'CC (ûndertiteling)'
+  en: 'CC (subtitles)'
   
-mediaelement-btn-disable-caption:
-  nl: Zet ondertiteling (CC) uit
-  fy: Set ûndertiteling (CC) út
-  en: Disable subtitles (CC)
   
 mediaelement-btn-enable-audio-description:
-  nl: Zet audiodescriptie (AD) aan
-  fy: Set audiodeskripsje (AD) oan
-  en: Enable audio description (AD)
+  nl: 'AD (audiodescriptie)'
+  fy: 'AD (audiodeskripsje)'
+  en: 'AD (audio description)'
   
-mediaelement-btn-disable-audio-description:
-  nl: Zet audiodescriptie (AD) uit
-  fy: Set audiodeskripsje (AD) út
-  en: Disable audio description (AD)
   
 mediaelement-download-title:
   nl: Download deze video
