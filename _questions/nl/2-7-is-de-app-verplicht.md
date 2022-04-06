@@ -9,5 +9,5 @@ redirect_from:
 
 ## Lees ook:
 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Wat regelt de wet over de app?](/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app)
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Hoe zit het met mijn privacy?</a>
+- <a href="/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app">Wat regelt de wet over de app?</a>

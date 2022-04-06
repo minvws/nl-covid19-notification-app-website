@@ -33,5 +33,5 @@ CoronaMelder weiß nicht, welchen Personen Sie begegnet sind und auch nicht, wo 
 
 ## Mehr Informationen:
 
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [What should I do if I get a notification?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="en" hreflang="en">How does the CoronaMelder app measure the distance to other users of the app?</a> 
+- <a href="/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg" lang="en" hreflang="en">What should I do if I get a notification?</a>

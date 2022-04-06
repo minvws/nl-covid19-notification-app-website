@@ -16,5 +16,5 @@ Sie können unerwünschte Kosten für Datenverbrauch verhindern, wenn Sie Ihr Te
 
 ## Mehr Informationen:
 
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Will the CoronaMelder app work on my phone?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="en" hreflang="en">What technology does the app use?</a> 
+- <a href="/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel" lang="en" hreflang="en">Will the CoronaMelder app work on my phone?</a>

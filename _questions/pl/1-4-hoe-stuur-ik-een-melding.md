@@ -12,5 +12,5 @@ Jeśli wykonasz test i wykaże on, że jesteś zakażony koronawirusem, możesz 
 Po sprawdzeniu i wysłaniu Twojego klucza GGD system, na podstawie którego działa CoronaMelder, porównuje kody z Twojego telefonu z kodami osób, które również używają CoronaMelder. Jeśli Twój kod znajdzie się w pobliżu kodu innego użytkownika tej aplikacji, otrzyma on powiadomienie, że przebywał blisko osoby zakażonej koronawirusem. Nie będzie jednak wiedział, kim była ta osoba. 
 
 ## Przeczytaj także:
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Co z moją prywatnością?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="en" hreflang="en">How does the CoronaMelder app measure the distance to other users of the app?</a> 
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Co z moją prywatnością?</a>

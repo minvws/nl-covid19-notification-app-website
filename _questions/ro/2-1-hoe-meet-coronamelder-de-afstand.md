@@ -11,6 +11,6 @@ contentLang: en
 ## Further reading:
 
 
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [I use an Android phone. Why do my location settings need to be turned on?](/{{page.lang}}/faq/2-4-waarom-moeten-de-locatie-instellingen-aanstaan-op-android)
-- [Cum stau lucrurile cu confidențialitatea datelor mele?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="en" hreflang="en">What technology does the app use?</a> 
+- <a href="/{{page.lang}}/faq/2-4-waarom-moeten-de-locatie-instellingen-aanstaan-op-android" lang="en" hreflang="en">I use an Android phone. Why do my location settings need to be turned on?</a>
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Cum stau lucrurile cu confidențialitatea datelor mele?</a>

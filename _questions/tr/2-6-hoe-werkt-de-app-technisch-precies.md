@@ -10,7 +10,7 @@ contentLang: en
 
 ## Further reading:
 
-- [Gizliliğim ne olacak?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Uygulama ne kadar mobil veri ve pil gücü kullanıyor?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Research: how do we know if the CoronaMelder app helps against the coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Gizliliğim ne olacak?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Uygulama ne kadar mobil veri ve pil gücü kullanıyor?</a>
+- <a href="/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona" lang="en" hreflang="en">Research: how do we know if the CoronaMelder app helps against the coronavirus?</a>
 

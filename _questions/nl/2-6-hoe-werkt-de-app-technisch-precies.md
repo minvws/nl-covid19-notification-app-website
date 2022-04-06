@@ -9,6 +9,6 @@ redirect_from:
 
 ## Lees ook:
 
-- [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Hoeveel data en stroom verbruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Hoe zit het met mijn privacy?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Hoeveel data en stroom verbruikt de app?</a>
+- <a href="/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona">Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?</a>

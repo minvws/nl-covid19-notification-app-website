@@ -32,6 +32,6 @@ redirect_from:
 
 ## Прочетете също:
  
-- [Как работи приложението?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Как да изпратя известие на други хора?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app">Как работи приложението?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding">Как да изпратя известие на други хора?</a>

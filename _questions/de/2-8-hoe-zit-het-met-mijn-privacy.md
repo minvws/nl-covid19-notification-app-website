@@ -32,6 +32,6 @@ Dies gilt auch für die Corona-Apps anderer EU-Länder, mit denen CoronaMelder C
 
 ## Mehr Informationen:
  
-- [Wie funktioniert die App?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Wie schicke ich anderen Menschen eine Nachricht?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app">Wie funktioniert die App?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding">Wie schicke ich anderen Menschen eine Nachricht?</a>

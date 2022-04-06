@@ -32,6 +32,6 @@ Bu durum CoronaMelder’ın kod değişimi yaptığı diğer AB ülkelerindeki k
 
 ## Ayrıca okuyun:
  
-- [Uygulama nasıl çalışır?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Başkalarına bildirim nasıl yollayabilirim?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app">Uygulama nasıl çalışır?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding">Başkalarına bildirim nasıl yollayabilirim?</a>

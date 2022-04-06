@@ -10,5 +10,5 @@ contentLang: en
 
 ## Further reading:
 
-- [Where can I get a NAAT(PCR) or rapid test outside the Netherlands?](https://www.netherlandsworldwide.nl/documents/frequently-asked-questions/where-can-i-get-a-pcr-or-rapid-test-outside-the-netherlands)
-- [Какво количество мобилни данни и колко енергия изразходва приложението?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
+- <a href="https://www.netherlandsworldwide.nl/documents/frequently-asked-questions/where-can-i-get-a-pcr-or-rapid-test-outside-the-netherlands" lang="en" hreflang="en">Where can I get a NAAT(PCR) or rapid test outside the Netherlands?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Какво количество мобилни данни и колко енергия изразходва приложението?</a>

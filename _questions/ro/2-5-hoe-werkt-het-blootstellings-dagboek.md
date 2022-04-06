@@ -11,6 +11,6 @@ contentLang: en
 
 ## Further reading:
 
-- [Cum stau lucrurile cu confidențialitatea datelor mele?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Cât de multe date și energie consumă aplicația?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Cum stau lucrurile cu confidențialitatea datelor mele?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Cât de multe date și energie consumă aplicația?</a>
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="en" hreflang="en">What technology does the app use?</a> 

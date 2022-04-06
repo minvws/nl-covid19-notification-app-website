@@ -11,6 +11,6 @@ contentLang: en
 
 ## Further reading:
 
-- [Qu’en est-il de ma vie privée ?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Combien de données et d’énergie consomme l’application ?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Qu’en est-il de ma vie privée ?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Combien de données et d’énergie consomme l’application ?</a>
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="en" hreflang="en">What technology does the app use?</a> 

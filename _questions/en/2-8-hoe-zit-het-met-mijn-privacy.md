@@ -32,6 +32,6 @@ This also applies to the corona apps from other EU countries with which CoronaMe
 
 ## Further reading:
  
-- [How does the app work?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [How should I send a notification to other people?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app" lang="en" hreflang="en">How does the app work?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding" lang="en" hreflang="en">How should I send a notification to other people?</a>

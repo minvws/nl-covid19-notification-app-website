@@ -13,5 +13,5 @@ Si das positivo en un test de coronavirus, puedes comunicarlo a través de la ap
 Una vez verificada y enviada tu clave GGD, el sistema de CoronaMelder compara los códigos de tu teléfono con los de las personas que también usan CoronaMelder. Si tu código ha estado cerca del de otra persona, ese usuario de CoronaMelder recibirá una notificación en la que se le indicará que ha estado cerca de alguien con coronavirus. Pero el destinatario no sabrá quién. 
 
 ## Lea mas:
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [¿Cómo tratáis la cuestión de la privacidad?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="en" hreflang="en">How does the CoronaMelder app measure the distance to other users of the app?</a> 
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">¿Cómo tratáis la cuestión de la privacidad?</a>

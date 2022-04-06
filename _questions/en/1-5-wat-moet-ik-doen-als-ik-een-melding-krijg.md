@@ -11,7 +11,7 @@ contentLang: en
 
 ## Further reading:
 
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [When will I get a notification?](/{{page.lang}}/faq/1-3-wanneer-krijg-ik-een-melding)
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="en" hreflang="en">How does the CoronaMelder app measure the distance to other users of the app?</a> 
+- <a href="/{{page.lang}}/faq/1-3-wanneer-krijg-ik-een-melding" lang="en" hreflang="en">When will I get a notification?</a>
 
 

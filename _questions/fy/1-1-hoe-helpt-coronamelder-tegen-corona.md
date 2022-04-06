@@ -21,4 +21,4 @@ CoronaMelder wurket gear mei koroana-apps fan oare EU-lannen. Sa wurde bygelyks 
 
 ## Lês ek:
 
-[Waar kan ik hulp krijgen bij het installeren van de app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)
+<a href="/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app" lang="nl" hreflang="nl">Waar kan ik hulp krijgen bij het installeren van de app?</a>

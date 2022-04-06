@@ -32,5 +32,5 @@ CoronaMelder wit net wa’t de minsken binne dy’tst trefst, en ek net wêr’t
 
 ## Lês ek:
 
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [Wat moet ik doen als een melding krijg?](/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg)
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="nl" hreflang="nl">Hoe meet CoronaMelder de afstand tot andere gebruikers?</a> 
+- <a href="/{{page.lang}}/faq/1-5-wat-moet-ik-doen-als-ik-een-melding-krijg" lang="nl" hreflang="nl">Wat moet ik doen als een melding krijg?</a>

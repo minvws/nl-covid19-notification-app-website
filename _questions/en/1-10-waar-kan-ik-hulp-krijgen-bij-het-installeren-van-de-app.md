@@ -11,4 +11,4 @@ contentLang: en
 
 ## Further reading:
 
-[Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
+<a href="/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal" lang="en" hreflang="en">Where can I find information about the app in language that is easy to understand?</a>

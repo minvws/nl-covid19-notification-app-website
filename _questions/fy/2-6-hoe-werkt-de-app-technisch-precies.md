@@ -10,6 +10,6 @@ contentLang: nl
 
 ## Lees ook:
 
-- [Hoe sit it mei myn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Hoefolle data en stroom ferbrûkt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Hoe sit it mei myn privacy?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Hoefolle data en stroom ferbrûkt de app?</a>
+- <a href="/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona" lang="nl" hreflang="nl">Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?</a>

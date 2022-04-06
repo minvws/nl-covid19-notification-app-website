@@ -11,5 +11,5 @@ contentLang: en
 
 ## Further reading:
 
-- [Is the app compulsory?](/{{page.lang}}/faq/2-7-is-de-app-verplicht)
-- [Research: how do we know if the CoronaMelder app helps against the coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- <a href="/{{page.lang}}/faq/2-7-is-de-app-verplicht" lang="en" hreflang="en">Is the app compulsory?</a>
+- <a href="/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona" lang="en" hreflang="en">Research: how do we know if the CoronaMelder app helps against the coronavirus?</a>

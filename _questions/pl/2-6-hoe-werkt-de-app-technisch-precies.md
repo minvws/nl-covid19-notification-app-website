@@ -10,7 +10,7 @@ contentLang: en
 
 ## Further reading:
 
-- [Co z moją prywatnością?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [Jak dużo transferu danych i baterii zużywa aplikacja?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [Research: how do we know if the CoronaMelder app helps against the coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Co z moją prywatnością?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Jak dużo transferu danych i baterii zużywa aplikacja?</a>
+- <a href="/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona" lang="en" hreflang="en">Research: how do we know if the CoronaMelder app helps against the coronavirus?</a>
 

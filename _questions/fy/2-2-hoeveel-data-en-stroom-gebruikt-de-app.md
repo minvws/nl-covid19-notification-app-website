@@ -18,5 +18,5 @@ Ekstra datakosten kinst foarkomme troch der yn de ynstellings foar te kiezen dat
 
 ## Lês ek:
 
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="nl" hreflang="nl">Hoe werkt de app technisch precies?</a> 
+- <a href="/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel" lang="nl" hreflang="nl">Werkt CoronaMelder ook op mijn telefoon?</a>

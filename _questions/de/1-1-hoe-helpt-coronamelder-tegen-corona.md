@@ -22,5 +22,5 @@ CoronaMelder arbeitet mit Corona-Apps anderer EU-Länder zusammen. Dadurch könn
 
 ## Mehr Informationen:
 
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen)
-- [Research: how do we know if CoronaMelder helps against coronavirus?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)
+- <a href="/{{page.lang}}/faq/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona" lang="en" hreflang="en">Research: how do we know if CoronaMelder helps against coronavirus?</a>

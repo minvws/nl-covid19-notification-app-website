@@ -11,6 +11,6 @@ contentLang: en
 
 ## Further reading:
 
-- [Will the app drain my phone battery and data capacity?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
-- [How about my privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app" lang="en" hreflang="en">Will the app drain my phone battery and data capacity?</a>
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy" lang="en" hreflang="en">How about my privacy?</a>
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="en" hreflang="en">What technology does the app use?</a> 

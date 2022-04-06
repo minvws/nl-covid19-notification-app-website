@@ -32,5 +32,5 @@ redirect_from:
 
 ## معلومات اكثر:
  
-- [كيف يعمل التطبيق؟](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [كيف يمكنني إرسال إخطار للآخرين؟](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app">كيف يعمل التطبيق؟</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding">كيف يمكنني إرسال إخطار للآخرين؟</a>

@@ -32,6 +32,6 @@ Ceci vaut aussi pour les autres applications relatives au coronavirus utilisées
 
 ## A lire aussi :
  
-- [Comment fonctionne l’application?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Comment puis-je envoyer une notification ?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app" lang="en" hreflang="en">Comment fonctionne l’application?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding" lang="en" hreflang="en">Comment puis-je envoyer une notification ?</a>

@@ -25,6 +25,6 @@ Yn in melding stiet allinne wannear’t immen deunby in besmet persoan west hat.
 
 ## Lês ek:
 
-- [Waar kan ik in makkelijke taal informatie vinden over de app?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Hoe meet CoronaMelder de afstand tot andere gebruikers?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- <a href="/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal" lang="nl" hreflang="nl">Waar kan ik in makkelijke taal informatie vinden over de app?</a>
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="nl" hreflang="nl">Hoe werkt de app technisch precies?</a> 
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="nl" hreflang="nl">Hoe meet CoronaMelder de afstand tot andere gebruikers?</a> 

@@ -32,6 +32,6 @@ Acest lucru este valabil și pentru aplicațiile corona din alte țări ale UE c
 
 ## Vezi de asemenea:
  
-- [Cum funcționează aplicația?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [Cum trimit celorlalți o notificare?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app">Cum funcționează aplicația?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding">Cum trimit celorlalți o notificare?</a>

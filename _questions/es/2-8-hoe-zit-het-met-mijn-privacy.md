@@ -32,6 +32,6 @@ Lo mismo ocurre con las apps sobre el coronavirus de otros países de la UE con 
 
 ## Lea mas:
  
-- [¿Cómo funciona la app?](/{{page.lang}}/faq/1-2-hoe-werkt-de-app)
-- [Does CoronaMelder also work with corona apps from other countries?](/{{page.lang}}/faq/13-gebruik-app-uit-ander-land)
-- [¿Cómo puedo enviar yo una notificación a los demás?](/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding)
+- <a href="/{{page.lang}}/faq/1-2-hoe-werkt-de-app">¿Cómo funciona la app?</a>
+- <a href="/{{page.lang}}/faq/13-gebruik-app-uit-ander-land" lang="en" hreflang="en">Does CoronaMelder also work with corona apps from other countries?</a>
+- <a href="/{{page.lang}}/faq/1-4-hoe-stuur-ik-een-melding">¿Cómo puedo enviar yo una notificación a los demás?</a>

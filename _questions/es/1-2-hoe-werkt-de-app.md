@@ -25,6 +25,6 @@ En la notificación se indica únicamente cuándo se ha estado cerca de una pers
 
 ## Lea mas:
 
-- [Where can I find information about the app in language that is easy to understand?](/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal)
-- [What technology does the app use?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [How does the CoronaMelder app measure the distance to other users of the app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
+- <a href="/{{page.lang}}/faq/1-11-coronamelder-in-makkelijke-taal" lang="en" hreflang="en">Where can I find information about the app in language that is easy to understand?</a>
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies" lang="en" hreflang="en">What technology does the app use?</a> 
+- <a href="/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand" lang="en" hreflang="en">How does the CoronaMelder app measure the distance to other users of the app?</a> 

@@ -10,5 +10,5 @@ contentLang: en
 
 ## Further reading:
 
-- [How about my privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
-- [What does the law say about the app?](/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app)
+- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy" lang="en" hreflang="en">How about my privacy?</a>
+- <a href="/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app" lang="en" hreflang="en">What does the law say about the app?</a>

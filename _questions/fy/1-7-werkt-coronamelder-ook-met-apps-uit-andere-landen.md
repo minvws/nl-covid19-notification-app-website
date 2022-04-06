@@ -9,5 +9,5 @@ contentLang: nl
 {% include content/nl/1-7-werkt-coronamelder-ook-met-apps-uit-andere-landen.md %}
 
 ## Lees ook:
-- [Waar kan ik een NAAT(PCR)- of sneltest laten doen in het buitenland?](https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland)
-- [Hoefolle data en stroom ferbrûkt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
+- <a href="https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland" lang="nl" hreflang="nl">Waar kan ik een NAAT(PCR)- of sneltest laten doen in het buitenland?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Hoefolle data en stroom ferbrûkt de app?</a>

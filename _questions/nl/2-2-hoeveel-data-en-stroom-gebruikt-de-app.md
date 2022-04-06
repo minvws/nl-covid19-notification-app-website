@@ -17,5 +17,5 @@ Je kunt ongewenste datakosten voorkomen door in de instellingen ervoor te kiezen
 
 ## Lees ook:
 
-- [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
-- [Werkt CoronaMelder ook op mijn telefoon?](/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel)
+- <a href="/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies">Hoe werkt de app technisch precies?</a> 
+- <a href="/{{page.lang}}/faq/1-6-werkt-coronamelder-op-mijn-tel">Werkt CoronaMelder ook op mijn telefoon?</a>

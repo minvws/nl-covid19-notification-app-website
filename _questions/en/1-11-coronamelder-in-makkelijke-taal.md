@@ -11,4 +11,4 @@ contentLang: en
 
 ## Further reading:
 
-[Where can I get help installing the app?](/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app)
+<a href="/{{page.lang}}/faq/1-10-waar-kan-ik-hulp-krijgen-bij-het-installeren-van-de-app" lang="en" hreflang="en">Where can I get help installing the app?</a>
