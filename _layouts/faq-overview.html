@@ -54,7 +54,10 @@
                     <li>
                         <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" 
                             {% if question.lang != 'ar' %}dir="ltr"{% endif %} 
-                            lang="{{ question.lang }}" hreflang="{{ question.lang }}" id="{{ question.url | slugify }}">
+                            {% if question.contentLang != question.lang %}
+                            lang="{{ question.contentLang }}" hreflang="{{ question.contentLang }}"
+                            {% endif %} 
+                            id="{{ question.url | slugify }}">
                             {{ question.title }}
                         </a>
                     </li>
