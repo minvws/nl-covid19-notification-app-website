@@ -174,7 +174,7 @@
                 <h2 class="downloads_title">Positive test results preceded by a notification, with/without symptoms</h2>
                 <p><span class="number_highlight" id="total_tested_positive"></span>.</p>
                 <p>Of which tested positive without having symptoms:<br /> 
-                <span class="number_highlight" id="tested_positive_without_symptoms"></span>.</p>
+                <span class="number_highlight" id="tested_positive_without_complaints"></span>.</p>
                 <p>The graph shows how many people had themselves tested after a notification from CoronaMelder, were found to have the corona virus, and how many of them had no symptoms of the corona virus.</p>
             </div>
             <div >
@@ -201,7 +201,7 @@
                                 <th>Percentage positive without symptoms</th>
                             </tr>
                         </thead>
-                        <tbody id="tests_symptoms_table">
+                        <tbody id="tests_complaints_table">
                         </tbody>
                     </table>
                 </details>
@@ -226,7 +226,7 @@
         <script type="text/javascript" src="/js/statistics/2_shared-keys.js"></script>
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
         <script type="text/javascript" src="/js/statistics/4_positive-results-without-symptoms-after-notification.js"></script>
-    
+
     <script> 
         active_users_number = document.getElementById('active_users_number');
 
@@ -250,8 +250,8 @@
 
                 // turn today's date into a string we can compare to a date string in the JSON
                 const today = new Date();
-                const currentMonthYear = today.toLocaleString("nl", { "month": "numeric" }) + today.toLocaleString("nl", { "year": "numeric" });
-                const dataMonthYear = statsObject[0].toLocaleString("nl", { "month": "numeric" }) + statsObject[0].toLocaleString("nl", { "year": "numeric" });
+                const currentMonthYear = today.toLocaleString("en", { "month": "numeric" }) + today.toLocaleString("en", { "year": "numeric" });
+                const dataMonthYear = statsObject[0].toLocaleString("en", { "month": "numeric" }) + statsObject[0].toLocaleString("en", { "year": "numeric" });
 
                 // get the number of key value pairs
                 let number_of_key_value_pairs = Object.values(selectedData[i]).length;
@@ -260,7 +260,7 @@
                 function getColumnValue(valueID) {
                     if (typeof(statsObject[valueID]) == 'number') {
                         columnValue = Math.round(statsObject[valueID]);
-                        return new Intl.NumberFormat('nl-NL', {  }).format(columnValue)
+                        return new Intl.NumberFormat('en-GB', {  }).format(columnValue)
                     } else {
                         return statsObject[valueID];
                     }
@@ -279,7 +279,7 @@
                 statsRow += `<tr>`;
 
                 statsRow += `<td>
-                    ${statsObject[0].toLocaleString("nl", { "month": "long", "year": "numeric" })} ${statsIncomplete}
+                    ${statsObject[0].toLocaleString("en", { "month": "long", "year": "numeric" })} ${statsIncomplete}
                 </td>`;
 
                 for (let j = 1; j < number_of_key_value_pairs; j++) {
@@ -298,7 +298,7 @@
                 if (i == (selectedData.length -1)) {
                     function getValue(valueID) {
                         valueToGet = Math.round(valueID);
-                        return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
+                        return new Intl.NumberFormat('en-GB', {  }).format(valueToGet)
                     }
                 
                     statisticNumber = getValue(selectedData[i][selectedKey]);
@@ -311,7 +311,7 @@
         function getTotals(selectedData, selectedElement) {
             function getValue(valueID) {
                 valueToGet = Math.round(valueID);
-                return new Intl.NumberFormat('nl-NL', {  }).format(valueToGet)
+                return new Intl.NumberFormat('en-GB', {  }).format(valueToGet)
             }
         
             statisticNumber = getValue(selectedData);
@@ -323,7 +323,7 @@
         constructTable(active_users, active_users_table);
         constructTable(shared_keys, warnings_table);
         constructTable(positive_results_after_notification, tests_positive_table);
-        constructTable(positive_results_without_symptoms_after_notification, tests_symptoms_table);
+        constructTable(positive_results_without_complaints_after_notification, tests_complaints_table);
 
         // updateStatisticNumber(selectedData, selectedKey, selectedElement) 
         updateStatisticNumber(active_users, 'active_users', active_users_number);
@@ -333,8 +333,8 @@
         getTotals(totals.total_tested, tp_tested_total); 
         getTotals(totals.tested_positive, tp_tested_positive);
 
-        getTotals(positive_results_without_symptoms_after_notification_totals.total_tested_positive, total_tested_positive);       
-        getTotals(positive_results_without_symptoms_after_notification_totals.tested_positive_without_symptoms, tested_positive_without_symptoms);
+        getTotals(positive_results_without_complaints_after_notification_totals.total_tested_positive, total_tested_positive);       
+        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tested_positive_without_complaints);
 
     </script>
 </body>
