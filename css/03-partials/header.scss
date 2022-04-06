@@ -19,21 +19,26 @@
     max-width: 50px;
     margin: 0 auto;
 
+    a {
+        display: block;
+        max-width: 40px;
+    }
+
     img {
         display: block;
         width: 40px;
         height: auto;
         margin: 0 auto;
         margin-top: -20px;
-    }
 
-    @media (min-width: 740px) {
-        width: 45px;
-        margin-top: 0;
-    }
+        // @media (min-width: 740px) {
+        //     width: 45px;
+        //     margin-top: 0;
+        // }
 
-    @media (min-width: 960px) {
-        width: 50px;
+        // @media (min-width: 960px) {
+        //     width: 50px;
+        // }
     }
 }
 
