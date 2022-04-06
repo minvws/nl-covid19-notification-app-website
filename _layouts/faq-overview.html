@@ -35,7 +35,12 @@
               {% for question in questions %}
                 {% if question.set == 1 %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.url | slugify }}" lang="{{ question.lang }}" hreflang="{{ question.lang }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" 
+                            {% if question.lang != 'ar' %}dir="ltr"{% endif %} 
+                            {% if question.contentLang != question.lang %}
+                                lang="{{ question.contentLang }}" hreflang="{{ question.contentLang }}"
+                            {% endif %} 
+                            id="{{ question.url | slugify }}">
                             {{ question.title }}
                         </a>
                     </li>
@@ -55,7 +60,7 @@
                         <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" 
                             {% if question.lang != 'ar' %}dir="ltr"{% endif %} 
                             {% if question.contentLang != question.lang %}
-                            lang="{{ question.contentLang }}" hreflang="{{ question.contentLang }}"
+                                lang="{{ question.contentLang }}" hreflang="{{ question.contentLang }}"
                             {% endif %} 
                             id="{{ question.url | slugify }}">
                             {{ question.title }}
@@ -73,7 +78,12 @@
               {% for question in questions %}
               {% if question.set == 3 %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %}  id="{{ question.url | slugify }}" lang="{{ question.lang }}" hreflang="{{ question.lang }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" 
+                            {% if question.lang != 'ar' %}dir="ltr"{% endif %} 
+                            {% if question.contentLang != question.lang %}
+                                lang="{{ question.contentLang }}" hreflang="{{ question.contentLang }}"
+                            {% endif %} 
+                            id="{{ question.url | slugify }}">
                             {{ question.title }}
                         </a>
                     </li>
@@ -89,7 +99,12 @@
               {% for question in questions %}
               {% if question.set == 4 %}
                     <li>
-                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" {% if question.lang != 'ar' %}dir="ltr"{% endif %} lang="{{ question.lang }}" hreflang="{{ question.lang }}" id="{{ question.url | slugify }}">
+                        <a class="faq-layout__item" href="{{ site.baseurl }}{{ question.url }}" 
+                            {% if question.lang != 'ar' %}dir="ltr"{% endif %} 
+                            {% if question.contentLang != question.lang %}
+                                lang="{{ question.contentLang }}" hreflang="{{ question.contentLang }}"
+                            {% endif %} 
+                            id="{{ question.url | slugify }}">
                             {{ question.title }}
                         </a>
                     </li>
