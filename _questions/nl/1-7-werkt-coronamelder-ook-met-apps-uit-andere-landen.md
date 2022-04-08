@@ -9,4 +9,4 @@ redirect_from:
 
 ## Lees ook:
 - <a href="https://www.nederlandwereldwijd.nl/documenten/vragen-en-antwoorden/waar-kan-ik-een-pcr-of-sneltest-laten-doen-in-het-buitenland">Waar kan ik een NAAT(PCR)- of sneltest laten doen in het buitenland?</a>
-- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Will the app drain my phone battery and data capacity?</a>
+- <a href="/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app">Hoeveel data en stroom gebruikt de app?</a>
