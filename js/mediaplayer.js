@@ -5,6 +5,7 @@
 
     function init () {
         mejs.i18n.language(document.documentElement.lang);
+
         var mediaElem = document.querySelector('video, audio');
         var player = new MediaElementPlayer(mediaElem, {
             shimScriptAccess: 'always',
@@ -78,5 +79,11 @@
                     });
             }
         });
+
+
+        var playerContainer = document.querySelector('#mep_0');
+        if (playerContainer) {
+            playerContainer.setAttribute('role', 'group');
+        }
     }
 })();
