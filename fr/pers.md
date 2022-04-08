@@ -9,6 +9,6 @@ contentLang: en
 
 
 
-Are you a journalist please contact one of our spokespersons, Please check the [website]({{ page.vwsLink }}) of the Ministery of Health, Welfare and Sport.
+Journalists are kindly asked to contact one of our spokespersons from the Ministry of Health, Welfare and Sport through the page [Information for the press]({{ page.vwsLink }}).
 
 If you are not a journalist please call our contact centre at 0031 (0)800-1280.
