@@ -64,6 +64,18 @@
         padding-bottom: 5em;
         margin: 0 auto;
     }
+
+    h3 {
+        font-size: 1rem;
+
+        @media (min-width: 740px) {
+            font-size: 1.5rem;
+
+            &:first-of-type {
+                margin-top: 1rem;
+            }
+        }
+    }
 }
 
 .footer-phone__row {
