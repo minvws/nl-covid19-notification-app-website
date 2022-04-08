@@ -89,6 +89,11 @@ const shared_keys_raw = [
         shared_keys: 81854,
         cumulative_shared_keys:	444175
     },
+    {
+        date: "2022-04-06",
+        shared_keys: 5169,
+        cumulative_shared_keys:	450735
+    }
 ]
 
 const shared_keys = shared_keys_raw.map(({date, ...rest}) => {

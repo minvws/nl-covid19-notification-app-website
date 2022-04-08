@@ -47,6 +47,10 @@ const active_users_raw = [
         date: "2022-03-30",
         active_users: 2341465
     },
+    {
+        date: "2022-04-06",
+        active_users: 2297311
+    }
 ]
 
 const active_users = active_users_raw.map(({date, ...rest}) => {

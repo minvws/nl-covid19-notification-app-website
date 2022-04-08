@@ -91,6 +91,11 @@ const positive_results_after_notification_raw = [
         tests_after_notification: 36612,
         positive: 15516,
     },
+    {
+        date: "2022-04-06",
+        tests_after_notification: 1270,
+        positive: 496,
+    }
 ]
 
 const positive_results_after_notification = positive_results_after_notification_raw.map(({date, ...rest}) => {
@@ -98,6 +103,6 @@ const positive_results_after_notification = positive_results_after_notification_
 });
 
 const totals = {
-    total_tested: 325899,
-    tested_positive: 47795
+    total_tested: 327847,
+    tested_positive: 48416
 }
