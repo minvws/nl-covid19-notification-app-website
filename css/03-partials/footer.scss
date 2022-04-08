@@ -268,6 +268,10 @@ html[dir="rtl"] {
     @media (min-width: 960px) {
         margin-top: 28px;
     }
+
+    a {
+        text-decoration: underline;
+    }
 }
 
 .footer-logos {
