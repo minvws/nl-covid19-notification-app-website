@@ -4,5 +4,5 @@ Wil je de wet nalezen? Dat kan. De wet heet [Tijdelijke wet notificatieapplicati
 
 ## Lees ook:
 
-- [Is the app compulsory?](/{{page.lang}}/faq/2-7-is-de-app-verplicht)
+- [Is de app verplicht?](/{{page.lang}}/faq/2-7-is-de-app-verplicht)
 - [Onderzoek: hoe weten we dat CoronaMelder helpt tegen Corona?](/{{page.lang}}/faq/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona)

@@ -4,6 +4,6 @@ Zie je allemaal getallen in het logboek? Dan werkt de app goed.
 
 ## Lees ook:
 
-- [Will the app drain my phone battery and data capacity?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
+- [Hoeveel data en stroom gebruikt de app?](/{{page.lang}}/faq/2-2-hoeveel-data-en-stroom-gebruikt-de-app)
 - [Hoe zit het met mijn privacy?](/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy)
 - [Hoe werkt de app technisch precies?](/{{page.lang}}/faq/2-6-hoe-werkt-de-app-technisch-precies) 
