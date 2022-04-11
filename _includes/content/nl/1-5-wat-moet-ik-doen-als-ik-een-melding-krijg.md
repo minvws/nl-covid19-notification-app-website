@@ -4,4 +4,4 @@ Als je besmet bent, kun je het virus aan anderen doorgeven. Ook als je gevaccine
 
 ## Lees ook:
 - [Hoe meet CoronaMelder de afstand tot andere gebruikers van de app?](/{{page.lang}}/faq/2-1-hoe-meet-coronamelder-de-afstand) 
-- [When will I get a notification?](/{{page.lang}}/faq/1-3-wanneer-krijg-ik-een-melding)
+- [Wanneer krijg ik een melding?](/{{page.lang}}/faq/1-3-wanneer-krijg-ik-een-melding)
