@@ -6,10 +6,9 @@ title: Accessibility
 contentLang: en
 ---
 
-Accessibility Statement, dated 9 October 2020
 
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-  The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please let us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] | url_encode | replace: "+", "%20" }}">helpdesk@coronamelder.nl</a>. <br />
+  The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please let us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] | url_encode | replace: "+", "%20" }}">helpdesk@coronamelder.nl</a> or by calling our contact centre at {{ site.data.translations.phone-action[page.lang] }}.  <br />
   Find detailed information about the website's accessibility in <a href="https://www.toegankelijkheidsverklaring.nl/register/3214" hreflang="nl">our accessibility statement</a> (Dutch).
 </p>
 
@@ -28,8 +27,7 @@ We guarantee good accessibility by various measures in our daily processes:
 - From day one accessibility has been kept in mind during the design, implementation and editorial stages of this website.
 - The website has been validated using an automated accessibility tool, and any problems it turned up have been resolved.
 - Two experts were involved to verify accessibility, neither of whom were part of the building team.
-- Accessibility will be submitted to a formal investigation to ensure WCAG-EM standards are met. This will involve an examination of functional and technical features as well as editorial aspects. Should there be any difficulties these will be resolved once and for all.
-- Planning for investigation to be conducted on 15 October 2020.
+- A formal accessibility survey has taken place on April 12, 2022 according to the WCAG-EM standard. This involved testing for both functional-technical components and editorial aspects. No bottlenecks were found.
 - Expert knowledge of accessibility will be kept up to standard and applied when needed by our staff.
 
 
