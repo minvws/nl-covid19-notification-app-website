@@ -1,5 +1,4 @@
 ---
-
 set: 1
 index: 1
 title: Waar kan ik hulp krijgen bij het verwijderen van de app?

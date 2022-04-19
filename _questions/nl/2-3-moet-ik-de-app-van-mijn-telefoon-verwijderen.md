@@ -1,5 +1,4 @@
 ---
-
 set: 2
 index: 3
 title: Moet ik de app van mijn telefoon verwijderen? *

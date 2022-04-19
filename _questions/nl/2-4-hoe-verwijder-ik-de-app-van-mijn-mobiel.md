@@ -1,9 +1,7 @@
 ---
-
 set: 2
 index: 4
 title: Hoe verwijder ik de app van mijn mobiel?
-
 ---
 Heb je een Iphone: 
 1. Houd de app ingedrukt. 
