@@ -15,13 +15,11 @@
         <div class="lead__text">
           <div class="content-block">
             <div class="md-block-lead">
-                {% comment %} 
-                    {% if page.lang == 'en' or page.lang == 'nl' %}
-                        <div class="announcement">{{ site.data.translations.info-announcement[page.lang] }}</div>
-                    {% endif %}
-                {% endcomment %}
-
-                <p>{{ site.data.translations.info-lead[page.lang] }}</p>
+                {% if site.app_status == "disabled" %}
+                    <p>{{ site.data.translations.info-lead-disabled[page.lang] }}</p>
+                {% else %}
+                    <p>{{ site.data.translations.info-lead[page.lang] }}</p>
+                {% endif %}
             </div>
               
             {{ content }}
@@ -29,12 +27,21 @@
         </div>
       </div>
     </div>
-    {% include stories.html %}
-    {% include badges.html class="layout-app-badges--center-wrap" %}
-    {% include information.html %}
-    {% if page.lang == 'en' or page.lang == 'nl' %}{% include video.html %}{% endif %}
+
+    {% if site.app_status != "disabled" %}
+        {% include stories.html %}
+        {% include badges.html class="layout-app-badges--center-wrap" %}
+        {% include information.html %}
+        {% if page.lang == 'en' or page.lang == 'nl' %}
+            {% include video.html %}
+        {% endif %}
+    {% endif %}
+
     {% include faq.html %}
-    {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--background" %}
+
+    {% if site.app_status != "disabled" %}
+        {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--background" %}
+    {% endif %}
   </main>
   {% include footer.html %}
 </body>
