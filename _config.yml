@@ -1,5 +1,8 @@
 repo: minvws/nl-covid19-notification-app-website
 
+# remove next line in case CoronaMelder is used
+app_status: disabled
+
 collections:
   questions:
     output: true
