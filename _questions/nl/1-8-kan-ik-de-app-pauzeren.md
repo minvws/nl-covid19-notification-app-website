@@ -1,4 +1,5 @@
 ---
+published: false
 set: 1
 index: 8
 title: Kan ik de app pauzeren?

@@ -1,4 +1,5 @@
 ---
+published: false
 set: 2
 index: 2
 title: Hoeveel data en stroom gebruikt de app?
