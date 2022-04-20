@@ -6,7 +6,7 @@ Content & Translations
 To add a feature, create a Markdown file in `_questions` with the following template:
 ```md
 ---
-set: 3-app
+set: 3
 index: 6
 title: Question about X
 lang: nl

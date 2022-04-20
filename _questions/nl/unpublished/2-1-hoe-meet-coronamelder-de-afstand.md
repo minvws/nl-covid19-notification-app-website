@@ -1,4 +1,5 @@
 ---
+published: false
 set: 2
 index: 1
 title: Hoe meet CoronaMelder de afstand tot andere gebruikers van de app?

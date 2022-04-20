@@ -1,4 +1,5 @@
 ---
+published: false
 set: 1
 index: 10
 title: Waar kan ik hulp krijgen bij het installeren van de app?

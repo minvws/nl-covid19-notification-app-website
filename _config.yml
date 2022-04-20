@@ -1,5 +1,8 @@
 repo: minvws/nl-covid19-notification-app-website
 
+# remove next line in case CoronaMelder is used
+app_status: disabled
+
 collections:
   questions:
     output: true
@@ -32,6 +35,27 @@ exclude:
   - .sass-cache
   - .history
   - generate-statistics-graphic.html
+  - _questions/ar
+  - _questions/bg
+  - _questions/de
+  - _questions/fr
+  - _questions/es
+  - _questions/fy
+  - _questions/pl
+  - _questions/ro
+  - _questions/tr
+  - ar
+  - bg
+  - de
+  - fr
+  - es
+  - fy
+  - pl
+  - ro
+  - tr
+  - _questions/en
+  - en
+  
 
 plugins:
   - "jekyll-github-metadata"

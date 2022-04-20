@@ -1,4 +1,5 @@
 ---
+published: false
 set: 2
 index: 11
 title: Which other notifications will I get on my phone from the CoronaMelder app?

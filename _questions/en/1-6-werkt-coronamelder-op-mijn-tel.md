@@ -1,4 +1,5 @@
 ---
+published: false
 set: 1
 index: 6
 title: Will the CoronaMelder app work on my phone?
