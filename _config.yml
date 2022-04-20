@@ -53,6 +53,9 @@ exclude:
   - pl
   - ro
   - tr
+  - _questions/en
+  - en
+  
 
 plugins:
   - "jekyll-github-metadata"
