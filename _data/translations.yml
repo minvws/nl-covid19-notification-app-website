@@ -3,9 +3,9 @@ head-app-name: CoronaMelder
 head-social-og-site_name: CoronaMelder
   
 head-social-og-title:
-  nl: Voorkom verspreiding, download CoronaMelder
+  nl: CoronaMelder stopt tijdelijk
   fy: Foarkom fersprieding, download CoronaMelder
-  en: Stop the spread of the coronavirus, download CoronaMelder
+  en: CoronaMelder is temporarily suspended
   ar: تجنب انتشار العدوى، قم بتحميل CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
   de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
@@ -44,9 +44,9 @@ head-social-og-image-alt:
   tr: Açıklamanın bulunabileceği web sitesinin izlenimi
     
 page-title:
-  nl: Voorkom verspreiding, download CoronaMelder
+  nl: CoronaMelder stopt tijdelijk
   fy: Foarkom fersprieding download CoronaMelder
-  en: Stop the spread of the coronavirus, download CoronaMelder
+  en: CoronaMelder is temporarily suspended
   ar: أوقف انتشار العدوى، قم بتنزيل تطبيق CoronaMelder
   bg: Предотврати разпространението, свали CoronaMelder
   de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
@@ -70,9 +70,9 @@ header-skip-to-content:
   tr: Doğrudan içeriğe gidin
     
 header-title:
-  nl: "Voorkom verspreiding,<br /> download CoronaMelder"
+  nl: "CoronaMelder<br /> stopt tijdelijk"
   fy: "Foarkom fersprieding,<br /> download CoronaMelder"
-  en: "Stop the spread of<br /> the coronavirus, download CoronaMelder"
+  en: "CoronaMelder is<br /> temporarily suspended"
   ar: "تجنب انتشار العدوى، قم بتحميل CoronaMelder"
   bg: "Предотврати<br /> разпространението,<br /> свали CoronaMelder"
   de: "Verhindern Sie die<br /> Ausbreitung des Virus.<br /> Laden Sie CoronaMelder herunter."
