@@ -35,6 +35,24 @@ exclude:
   - .sass-cache
   - .history
   - generate-statistics-graphic.html
+  - _questions/ar
+  - _questions/bg
+  - _questions/de
+  - _questions/fr
+  - _questions/es
+  - _questions/fy
+  - _questions/pl
+  - _questions/ro
+  - _questions/tr
+  - ar
+  - bg
+  - de
+  - fr
+  - es
+  - fy
+  - pl
+  - ro
+  - tr
 
 plugins:
   - "jekyll-github-metadata"
