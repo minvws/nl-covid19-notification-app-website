@@ -34,8 +34,12 @@
       <div {% if page.contentLang == 'en' %}lang="en" dir="ltr"{% elsif page.contentLang == 'nl' %}lang="nl"{% endif %}>
 
         {% if questionSetOne.size > 0 %}
-            <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
 
+            {% if site.app_status != "disabled" %}
+                <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-howtheapphelps[page.lang] }}</h2>
+            {% else %}
+                <h2 class="faq-layout__title" id="{{ site.data.translations.faq-category-howtheapphelps[page.lang]|slugify }}">{{ site.data.translations.faq-category-temporary-stop-coronamelder[page.lang] }}</h2>
+            {% endif %}
             <div class="faq-layout__contents __overview">
                 <ul class="faq-layout-contents__list">
                 {% for question in questionSetOne %}

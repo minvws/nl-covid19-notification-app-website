@@ -1,7 +1,7 @@
 ---
 layout: statistics
 set: 3
-index: 13
+index: 1
 showBreadCrumbs: true
-title: 'CoronaMelder data dashboard'
+title: CoronaMelder data dashboard
 ---
