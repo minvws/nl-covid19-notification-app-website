@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 3
-title: Stoppen andere landen ook met CoronaMelder?
+title: ¿También interrumpen los otros países el funcionamiento de sus aplicaciones de rastreo del coronavirus?
 ---
-Nee, dat verschilt per land. Zo is de app in Duitsland en België op dit moment nog actief. In Zwitserland is de app tijdelijk gestopt. 
+No. La situación es diferente según el país. En Alemania y en Bélgica todavía sigue activa la aplicación, mientras que en Suiza también han interrumpido temporalmente su funcionamiento. 

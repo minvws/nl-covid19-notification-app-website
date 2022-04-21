@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 1
-title: Waarom stopt CoronaMelder tijdelijk?
+title: ¿Por qué se interrumpe temporalmente el funcionamiento de la aplicación CoronaMelder?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: lock
 featuredHomeText: 
 ---
-Veel coronamaatregelen zijn nu gestopt. Daarom heeft CoronaMelder op dit moment veel minder nut. CoronaMelder geeft je een melding met een advies als je in de buurt komt van iemand met corona. Omdat je nu niet meer thuis hoeft te blijven na contact met iemand met corona, kan de app je geen advies meer geven. Ook hoeven de meeste mensen na een positieve zelftest niet meer naar de GGD voor een bevestigingstest. De app werkt alleen met bevestigingstesten van de GGD. Daarom kunnen er nu veel minder meldingen verstuurd worden. Om deze twee redenen wordt de app nu tijdelijk gestopt. Maar corona is nog niet voorbij. Als de app weer nuttig is in de bestrijding van het virus kan CoronaMelder weer aangezet worden. 
+Muchas de las medidas que se impusieron contra el coronavirus ya han dejado de aplicarse. Por eso, CoronaMelder tiene ahora una utilidad mucho menor. CoronaMelder le envía un aviso y un consejo, si usted ha estado cerca de una persona con COVID-19. Como ahora ya no es necesario quedarse en casa después de un contacto con una persona con COVID-19, la aplicación ya no puede darle ningún consejo. Además, la mayoría de las personas ya no tienen que acudir al GGD para un test de confirmación, después de haber dado positivo en un test de autodiagnóstico. Como la aplicación solo funciona con los test de confirmación del GGD, ahora se van a poder enviar muchos menos avisos. Por esos dos motivos va a interrumpirse temporalmente el funcionamiento de la aplicación. Pero el coronavirus sigue entre nosotros. Si la aplicación vuelve a ser útil en la lucha contra el virus, CoronaMelder volverá a ser activada.

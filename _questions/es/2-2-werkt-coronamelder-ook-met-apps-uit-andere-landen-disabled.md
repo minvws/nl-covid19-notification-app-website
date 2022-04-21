@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 2
-title: Werkt CoronaMelder nog met corona-apps uit andere landen?
+title: ¿Todavía funciona CoronaMelder con las aplicaciones de rastreo del coronavirus de otros países?
 ---
-Vanaf 22 april 2022 wordt de app tijdelijk gestopt. De app werkt dan voorlopig niet meer. Je ontvangt vanaf dat moment dus ook geen notificaties meer van apps uit andere landen en wisselt ook geen codes meer uit met corona-apps uit andere landen.
+La aplicación interrumpirá temporalmente su funcionamiento a partir del 22 de abril de 2022. Desde ese momento, la aplicación dejará de funcionar. En consecuencia, tampoco recibirá notificaciones de aplicaciones de otros países ni intercambiará más códigos con las aplicaciones de rastreo del coronavirus de otros países.
