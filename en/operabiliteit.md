@@ -3,6 +3,7 @@ layout: content
 lang: en
 title: CoronaMelder is working with other countries
 permalink: /en/interoperabiliteit
+published: false
 ---
 Since 30 November 2020, CoronaMelder exchanges codes with similar apps from several other European countries. This is done in the same way as between two users of the CoronaMelder app. If one user subsequently tests positive for coronavirus and shares this information with the app, the other user will be sent a notification.
 

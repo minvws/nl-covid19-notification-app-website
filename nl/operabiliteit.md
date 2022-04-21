@@ -3,6 +3,7 @@ layout: content
 lang: nl
 title: Samenwerking CoronaMelder met andere landen
 permalink: /nl/interoperabiliteit
+published: false
 ---
 Vanaf 30 november 2020 wisselt CoronaMelder codes uit met apps uit een aantal andere Europese landen. Dit gebeurt op dezelfde manier als tussen twee gebruikers van CoronaMelder. Als daarna uit een coronatest blijkt dat een van jullie corona heeft en dit meldt in de app, dan ontvangt de ander een melding.
 
