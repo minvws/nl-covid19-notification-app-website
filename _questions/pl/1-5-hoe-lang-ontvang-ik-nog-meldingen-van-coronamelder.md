@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 5
-title: Hoe lang ontvang ik nog meldingen van CoronaMelder?
+title: Jak długo będę otrzymywać powiadomienia od aplikacji CoronaMelder?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: calendar
 featuredHomeText: 
 ---
-Vanaf 22 april 2022 wordt de app tijdelijk stopgezet. Je ontvangt vanaf dat moment geen meldingen meer. Je ontvangt opnieuw meldingen als CoronaMelder in de toekomst weer wordt aangezet.
+Od 22 kwietnia 2022 r. aplikacja zostanie tymczasowo wyłączona. Od tej chwili nie będziesz już otrzymywać od niej żadnych powiadomień. Gdy w przyszłości aplikacja CoronaMelder zostanie ponownie aktywowana, będziesz znowu otrzymywać powiadomienia.

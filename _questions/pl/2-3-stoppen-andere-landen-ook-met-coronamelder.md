@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 3
-title: Stoppen andere landen ook met CoronaMelder?
+title: Czy inne kraje również przestaną korzystać z aplikacji CoronaMelder?
 ---
-Nee, dat verschilt per land. Zo is de app in Duitsland en België op dit moment nog actief. In Zwitserland is de app tijdelijk gestopt. 
+Nie, będzie się to różnić w zależności od kraju. Aplikacja pozostaje jeszcze np. aktywna w Niemczech i w Belgii. Z kolei w Szwajcarii również tymczasowo wstrzymano jej działanie. 

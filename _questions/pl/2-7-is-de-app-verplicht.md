@@ -3,16 +3,17 @@ set: 2
 index: 7
 title: Is de app verplicht?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Czy korzystanie z aplikacji jest obowiązkowe?
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Nie, wyłącznie od Ciebie zależy, czy będziesz korzystać z tej aplikacji. Masz pełną swobodę wyboru, czy chcesz z niej korzystać, czy też nie. Nikt nie może więc zobowiązać Cię do jej używania. Dotyczy to również pracodawcy, restauracji, organizatora imprezy itp.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+Ustawa o aplikacji do powiadomień stanowi, że nikt nie może zobowiązać innej osoby do pobrania lub korzystania z aplikacji. Nikt nie może Cię do tego zmusić: ani pracodawca, ani restauracja czy organizator imprezy, ani członek rodziny, znajomy lub przyjaciel. Masz pełną swobodę wyboru, czy chcesz pobrać aplikację CoronaMelder i z niej korzystać.
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+## Czy ktoś zmusza Cię do pobrania aplikacji CoronaMelder? 
 
-### Openingstijden:
+Zgłoś to do Punktu zgłaszania nadużyć CoronaMelder, dzwoniąc pod numer telefonu: <a href="tel:0881205100">088-1205 100</a> (opłata jak za połączenie lokalne)
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
+### Godziny pracy:
 
+Od poniedziałku do piątku
+w godzinach 9.00-17.00 
