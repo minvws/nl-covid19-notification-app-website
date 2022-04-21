@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 4
-title: Kan ik wel een buitenlandse corona notificatie-app downloaden wanneer ik in het buitenland ben waar deze app nog wel operationeel is?
+title: Мога ли да изтегля чуждо приложение за известия относно коронавируса, когато се намирам в чужбина, където това приложение все още работи?
 ---
-Dat kan. Je ontvangt dan een melding wanneer je in de buurt van bent geweest van iemand die met corona is besmet. Het is niet mogelijk om zelf een melding te sturen op basis van een in Nederland afgenomen positieve test.
+Това е възможно. Така ще получавате известия, когато сте били в близост до човек, заразен с коронавирус. Няма да е възможно сами да изпращате известия въз основа на положителен тест, направен в Нидерландия.

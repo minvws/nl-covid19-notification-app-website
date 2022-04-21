@@ -1,18 +1,18 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: Задължително ли е приложението?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Не, сами решавате дали да използвате приложението. Изборът дали да използвате приложението или не, е изцяло Ваш. Тоест никой няма право да Ви задължава да го използвате. В това число и Вашият работодател или пък някое обществено заведение.
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+В закона относно приложението пише, че никой не може да задължава другиго да изтегли или да използва приложението. Никой няма право да изисква това: нито работодател, нито обществено заведение, нито член на семейството, нито познат или пък приятел. Изборът дали да изтеглите и да използвате CoronaMelder, е изцяло Ваш.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+## Някой Ви задължава да изтеглите CoronaMelder? 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+Сигнализирайте за това в Центъра за сигнали за злоупотреба с CoronaMelder на телефон: 
+[088-1205 100](tel:0881205100) (на цената на един градски разговор)
 
-### Openingstijden:
+### Работно време:
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
-
+Понеделник до петък
+9:00 -17.00 часа

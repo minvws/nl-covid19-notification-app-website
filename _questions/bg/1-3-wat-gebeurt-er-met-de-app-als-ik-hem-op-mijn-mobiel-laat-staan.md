@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 3
-title: Wat gebeurt er met de app als ik hem op mijn mobiel laat staan?
+title: Какво става с приложението, ако го запазя в мобилния си телефон?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 5
 featuredHomeIcon: mobile-check
 featuredHomeText: 
 ---
-De app blijft op je mobiel staan, maar is niet actief en werkt niet. Je ontvangt opnieuw meldingen als CoronaMelder in de toekomst weer wordt aangezet.
+Приложението ще остане в мобилния Ви телефон, но няма да е активно и няма да работи. CoronaMelder ще започне пак да Ви изпраща известия, ако приложението бъде пуснато отново в бъдеще.
