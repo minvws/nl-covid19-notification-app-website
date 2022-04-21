@@ -4,16 +4,16 @@ head-social-og-site_name: CoronaMelder
   
 head-social-og-title:
   nl: CoronaMelder stopt tijdelijk
-  fy: Foarkom fersprieding, download CoronaMelder
   en: CoronaMelder is temporarily suspended
-  ar: تجنب انتشار العدوى، قم بتحميل CoronaMelder
-  bg: Предотврати разпространението, свали CoronaMelder
-  de: Verhindern Sie die Ausbreitung des Virus. Laden Sie CoronaMelder herunter.
-  es: Evita la propagación del coronavirus, descárgate CoronaMelder
-  fr: Évitez la diffusion du coronavirus, téléchargez CoronaMelder
-  pl: Zapobiegaj rozprzestrzenianiu, pobierz CoronaMelder
-  ro: Evitați răspândirea, descărcați CoronaMelder
-  tr: Yayılmayı önleyin, CoronaMelder'ı indirin
+  ar: 
+  bg: CoronaMelder се спира временно.
+  fr: CoronaMelder est provisoirement désactivée. 
+  fy: KoroanaMelder wurdt tydlik stopset. 
+  es: La aplicación CoronaMelder sera temporalmente suspendida
+  pl: Tymczasowe wstrzymanie działania aplikacji CoronaMelder
+  de: Der CoronaMelder wird vorübergehend eingestellt.
+  ro: Aplicația CoronaMelder va fi întreruptă temporar.
+  tr: "CoronaMelder'ın geçici olarak durdurulması"
     
 head-social-og-description:
   nl: 'Alles is weer open. Dat hebben we met elkaar bereikt. Er gelden nog een aantal coronamaatregelen en adviezen...'
@@ -45,16 +45,16 @@ head-social-og-image-alt:
     
 page-title:
   nl: CoronaMelder stopt tijdelijk
-  fy: CoronaMelder
   en: CoronaMelder is temporarily suspended
   ar: CoronaMelder
-  bg: CoronaMelder
-  de: CoronaMelder
-  es: CoronaMelder
-  fr: CoronaMelder
-  pl: CoronaMelder
-  ro: CoronaMelder
-  tr: CoronaMelder
+  bg: CoronaMelder се спира временно.
+  fr: CoronaMelder est provisoirement désactivée. 
+  fy: KoroanaMelder wurdt tydlik stopset. 
+  es: La aplicación CoronaMelder sera temporalmente suspendida
+  pl: Tymczasowe wstrzymanie działania aplikacji CoronaMelder
+  de: Der CoronaMelder wird vorübergehend eingestellt.
+  ro: Aplicația CoronaMelder va fi întreruptă temporar.
+  tr: "CoronaMelder'ın geçici olarak durdurulması"
     
 header-skip-to-content:
   nl: Ga direct naar inhoud
@@ -71,17 +71,17 @@ header-skip-to-content:
     
 header-title:
   nl: "CoronaMelder<br /> stopt tijdelijk"
-  fy: "Foarkom fersprieding,<br /> download CoronaMelder"
   en: "CoronaMelder is<br /> temporarily suspended"
-  ar: "تجنب انتشار العدوى، قم بتحميل CoronaMelder"
-  bg: "Предотврати<br /> разпространението,<br /> свали CoronaMelder"
-  de: "Verhindern Sie die<br /> Ausbreitung des Virus.<br /> Laden Sie CoronaMelder herunter."
-  es: "Evita la propagación del<br /> coronavirus, descárgate CoronaMelder"
-  fr: "Évitez la diffusion du<br /> coronavirus, téléchargez CoronaMelder"
-  pl: "Zapobiegaj rozprzestrzenianiu,<br /> pobierz CoronaMelder"
-  ro: "Evitați răspândirea,<br /> descărcați CoronaMelder"
-  tr: "Yayılmayı önleyin,<br /> CoronaMelder'ı indirin"
-    
+  ar: 
+  bg: CoronaMelder се<br /> спира временно.
+  fr: CoronaMelder est<br /> provisoirement désactivée. 
+  fy: KoroanaMelder<br /> wurdt tydlik stopset. 
+  es: La aplicación CoronaMelder<br /> sera temporalmente suspendida
+  pl: Tymczasowe wstrzymanie<br /> działania aplikacji CoronaMelder
+  de: Der CoronaMelder wird<br /> vorübergehend eingestellt.
+  ro: Aplicația CoronaMelder va<br /> fi întreruptă temporar.
+  tr: "CoronaMelder'ın geçici<br /> olarak durdurulması"
+
 header-appstore:
   nl: Download in de App Store
   fy: Download yn de App Store
