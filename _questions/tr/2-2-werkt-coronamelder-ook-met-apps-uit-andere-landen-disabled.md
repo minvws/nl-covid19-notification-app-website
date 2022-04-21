@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 2
-title: Werkt CoronaMelder nog met corona-apps uit andere landen?
+title: CoronaMelder hâlâ diğer ülkelerden korona uygulamalarıyla beraber çalışıyor olacak mıdır?
 ---
-Vanaf 22 april 2022 wordt de app tijdelijk gestopt. De app werkt dan voorlopig niet meer. Je ontvangt vanaf dat moment dus ook geen notificaties meer van apps uit andere landen en wisselt ook geen codes meer uit met corona-apps uit andere landen.
+22 Nisan 2022 tarihiden itibaren uygulama geçici olarak durdurulacaktır. Uygulama o zamandan itibaren artık çalışmayacaktır. O andan itibaren, diğer ülkelerdeki uygulamalardan size bildirim gönderilmeyecek ve artık diğer ülkelerden korona uygulamalarıyla kod alışverişi yapmayacaksınız.

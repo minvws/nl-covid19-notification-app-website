@@ -1,9 +1,8 @@
 ---
 set: 2
 index: 7
-title: Wat regelt de wet over de app?
+title: Kanun, uygulama hakkında neleri düzenlemektedir?
 ---
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Uygulama yasası, hiç kimsenin başka bir kişiyi uygulamayı indirmeye veya kullanmaya zorlayamadığını şart koşmaktadır. Hiç kimse bu konuda ısrar edememektedir: işveren, eğlence merkezi, aile üyesi, tanıdık veya arkadaş. CoronaMelder'ı indirmek ve kullanmak isteyip istemediğinizi seçmekte tamamen özgürsünüz.
 
-Wil je de wet nalezen? Dat kan. De wet heet [Tijdelijke wet notificatieapplicatie covid-19](https://wetten.overheid.nl/jci1.3:c:BWBR0044194&z=2020-10-10&g=2020-10-10).
-
+Kanunu okumak ister misiniz? Bu mümkündür. Kanun, [Tijdelijke wet notificatieapplicatie covid-19](https://wetten.overheid.nl/jci1.3:c:BWBR0044194&z=2020-10-10&g=2020-10-10) (Covid-19 Bildirim Uygulaması Geçici Kanunu) olarak adlandırılmaktadır.

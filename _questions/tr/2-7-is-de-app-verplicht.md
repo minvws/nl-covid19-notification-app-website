@@ -1,18 +1,17 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: Uygulamanın kullanımı zorunlu mudur?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Hayır, uygulamayı kullanıp kullanmayacağınıza siz karar verirsiniz. Uygulamayı kullanıp kullanmama konusunda tamamen özgürsünüz. Kimse sizi uygulamayı kullanmaya zorlayamaz. Buna işvereniniz veya eğlence merkezi de dâhildir.
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Uygulama yasası, hiç kimsenin başka bir kişiyi uygulamayı indirmeye veya kullanmaya zorlayamadığını şart koşmaktadır. Hiç kimse bu konuda ısrar edememektedir: işveren, eğlence merkezi, aile üyesi, tanıdık veya arkadaş. CoronaMelder'ı indirmek ve kullanmak isteyip istemediğinizi seçmekte tamamen özgürsünüz.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+## Biri sizi CoronaMelder'ı indirmeye mi zorluyor? 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+O halde bu durumu Meldpunt Misbruik CoronaMelder'a bildirebileceğiniz telefon numarası: 088-1205 100 (yerel tarife)
 
-### Openingstijden:
+### Açılış saatleri:
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
-
+Pazartesi-Cuma
+saat 9.00 - 17.00

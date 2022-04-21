@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 5
-title: Hoe lang ontvang ik nog meldingen van CoronaMelder?
+title: CoronaMelder'dan bana ne kadar süre daha bildirim gönderilecek?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: calendar
 featuredHomeText: 
 ---
-Vanaf 22 april 2022 wordt de app tijdelijk stopgezet. Je ontvangt vanaf dat moment geen meldingen meer. Je ontvangt opnieuw meldingen als CoronaMelder in de toekomst weer wordt aangezet.
+22 Nisan 2022 tarihinden itibaren uygulama geçici olarak durdurulacaktır. O andan itibaren size artık bildirim gönderilmeyecektir. CoronaMelder gelecekte tekrar devreye konulduğunda size tekrar bildirimler gönderilecektir.
