@@ -1,8 +1,7 @@
---- 
+---
 set: 3
 index: 1
-title: 'Onderzoek: hoe weten we of CoronaMelder helpt tegen Corona?'
-redirect_from: 
-  - /nl/faq/40-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona
+title: 'Research: how do we know if the CoronaMelder app helps against the coronavirus?'
+contentLang: en
 ---
-{% include content/nl/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona.md %}
+{% include content/en/3-1-onderzoek-hoe-weten-we-of-coronamelder-helpt-tegen-corona.md %}
