@@ -1,11 +1,11 @@
 ---
 set: 2
 index: 1
-title: Zijn mijn gegevens na het stopzetten van CoronaMelder ergens opgeslagen?	
+title: Werden meine Daten nach der Einstellung des CoronaMelders irgendwo gespeichert?	 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: privacy
 featuredHomeText: 
 ---
-Nee, de uitgewisselde willekeurige codes die normaal lokaal op je telefoon worden opgeslagen worden verwijderd. Ook op de servers worden alle codes verwijderd en er worden geen gegevens meer met de Europese gateway uitgewisseld.  
+Nein, die zwischen potenziellen Kontakten ausgetauschten beliebigen Codes, die normalerweise lokal auf Ihrem Telefon gespeichert werden, werden gelöscht. Auch auf den Servern werden alle Codes gelöscht, und es werden keine Daten mehr mit dem europäischen Gateway ausgetauscht.  

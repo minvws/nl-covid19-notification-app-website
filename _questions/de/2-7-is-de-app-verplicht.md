@@ -1,18 +1,17 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: Sind Sie zur Nutzung der App verpflichtet?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Nein, Sie entscheiden selbst, ob Sie die App nutzen. Die Entscheidung, ob Sie die App nutzen oder nicht, liegt ganz bei Ihnen. Niemand kann Sie verpflichten, die App zu nutzen. Das gilt auch für Ihren Arbeitgeber oder Gaststätten.
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Im App-Gesetz ist festgelegt, dass niemand andere Personen zum Download oder zur Nutzung der App verpflichten kann. Das schließt Arbeitgeber, Gaststätten, Angehörige, Bekannte und Freunde mit ein. Die Entscheidung, ob Sie den CoronaMelder herunterladen und nutzen wollen, liegt ganz bei Ihnen.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+## Werden Sie zum Download des CoronaMelders verpflichtet? 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+Dann melden Sie dies bei der Hotline Missbrauch des CoronaMelders unter Telefonnummer: 088-1205 100 (Ortstarif)
 
-### Openingstijden:
+### Öffnungszeiten:
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
-
+Montag bis Freitag
+9.00-17.00 Uhr
