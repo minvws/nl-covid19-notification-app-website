@@ -6,13 +6,13 @@ head-social-og-title:
   nl: CoronaMelder stopt tijdelijk
   en: CoronaMelder is temporarily suspended
   ar: 
-  bg: CoronaMelder се спира временно.
-  fr: CoronaMelder est provisoirement désactivée. 
-  fy: KoroanaMelder wurdt tydlik stopset. 
+  bg: CoronaMelder се спира временно
+  fr: CoronaMelder est provisoirement désactivée
+  fy: KoroanaMelder wurdt tydlik stopset
   es: La aplicación CoronaMelder sera temporalmente suspendida
   pl: Tymczasowe wstrzymanie działania aplikacji CoronaMelder
-  de: Der CoronaMelder wird vorübergehend eingestellt.
-  ro: Aplicația CoronaMelder va fi întreruptă temporar.
+  de: Der CoronaMelder wird vorübergehend eingestellt
+  ro: Aplicația CoronaMelder va fi întreruptă temporar
   tr: "CoronaMelder'ın geçici olarak durdurulması"
     
 head-social-og-description:
@@ -47,13 +47,13 @@ page-title:
   nl: CoronaMelder stopt tijdelijk
   en: CoronaMelder is temporarily suspended
   ar: CoronaMelder
-  bg: CoronaMelder се спира временно.
-  fr: CoronaMelder est provisoirement désactivée. 
-  fy: KoroanaMelder wurdt tydlik stopset. 
+  bg: CoronaMelder се спира временно
+  fr: CoronaMelder est provisoirement désactivée
+  fy: KoroanaMelder wurdt tydlik stopset
   es: La aplicación CoronaMelder sera temporalmente suspendida
   pl: Tymczasowe wstrzymanie działania aplikacji CoronaMelder
-  de: Der CoronaMelder wird vorübergehend eingestellt.
-  ro: Aplicația CoronaMelder va fi întreruptă temporar.
+  de: Der CoronaMelder wird vorübergehend eingestellt
+  ro: Aplicația CoronaMelder va fi întreruptă temporar
   tr: "CoronaMelder'ın geçici olarak durdurulması"
     
 header-skip-to-content:
@@ -73,13 +73,13 @@ header-title:
   nl: "CoronaMelder<br /> stopt tijdelijk"
   en: "CoronaMelder is<br /> temporarily suspended"
   ar: 
-  bg: CoronaMelder се<br /> спира временно.
-  fr: CoronaMelder est<br /> provisoirement désactivée. 
-  fy: KoroanaMelder<br /> wurdt tydlik stopset. 
-  es: La aplicación CoronaMelder<br /> sera temporalmente suspendida
-  pl: Tymczasowe wstrzymanie<br /> działania aplikacji CoronaMelder
-  de: Der CoronaMelder wird<br /> vorübergehend eingestellt.
-  ro: Aplicația CoronaMelder va<br /> fi întreruptă temporar.
+  bg: CoronaMelder се<br /> спира временно
+  fr: CoronaMelder est<br /> provisoirement<br /> désactivée
+  fy: KoroanaMelder<br /> wurdt tydlik stopset
+  es: La aplicación CoronaMelder<br /> sera temporalmente<br /> suspendida
+  pl: Tymczasowe wstrzymanie<br /> działania aplikacji<br /> CoronaMelder
+  de: Der CoronaMelder wird<br /> vorübergehend <br/> eingestellt
+  ro: Aplicația CoronaMelder va<br /> fi întreruptă temporar
   tr: "CoronaMelder'ın geçici<br /> olarak durdurulması"
 
 header-appstore:
