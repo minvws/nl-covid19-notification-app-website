@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 5
 title: Wat moet ik doen als ik een melding krijg?
 showOnFAQoverview: true

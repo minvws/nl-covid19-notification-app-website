@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: En quoi l’application CoronaMelder contribue-t-elle à lutter contre le coronavirus ?
 redirect_from: 

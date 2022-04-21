@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 4
 title: How should I send a notification to other people?
 featuredHome: true

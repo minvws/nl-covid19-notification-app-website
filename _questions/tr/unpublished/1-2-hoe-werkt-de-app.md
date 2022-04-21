@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 2
 title: Uygulama nasıl çalışır?
 showOnFAQoverview: true

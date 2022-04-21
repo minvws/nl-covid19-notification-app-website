@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 8
 title: Как стои въпросът със защитата на моите лични данни?
 showOnFAQoverview: true

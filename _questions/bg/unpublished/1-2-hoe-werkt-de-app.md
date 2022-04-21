@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 2
 title: Как работи приложението?
 showOnFAQoverview: true

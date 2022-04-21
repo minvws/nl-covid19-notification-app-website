@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 2
 title: ما مقدار البيانات والطاقة التي يستخدمها التطبيق؟
 featuredHome: true

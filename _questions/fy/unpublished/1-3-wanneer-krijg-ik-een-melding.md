@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 3
 title: Wannear krij ik in melding?
 showOnFAQoverview: true

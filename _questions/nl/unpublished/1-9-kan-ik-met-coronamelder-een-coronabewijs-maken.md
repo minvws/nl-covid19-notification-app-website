@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 9
 title: Kan ik met CoronaMelder een coronabewijs maken?
 redirect_from: 

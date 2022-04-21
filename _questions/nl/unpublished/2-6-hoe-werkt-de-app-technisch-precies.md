@@ -1,6 +1,7 @@
 ---
 published: false
-set: 2
+published: false
+set:  2
 index: 6
 title: Hoe werkt de app technisch precies?
 redirect_from: 

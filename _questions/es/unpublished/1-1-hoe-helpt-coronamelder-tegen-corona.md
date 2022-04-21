@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: ¿Cómo ayuda CoronaMelder contra el coronavirus?
 redirect_from: 

@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 8
 title: Qu’en est-il de ma vie privée ?
 summary: L'application fonctionne sans votre emplacement, votre adresse e-mail, votre numéro de téléphone ou d'autres informations de contact.

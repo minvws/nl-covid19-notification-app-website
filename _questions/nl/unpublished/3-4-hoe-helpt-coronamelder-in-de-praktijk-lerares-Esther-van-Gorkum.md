@@ -1,6 +1,7 @@
 ---
 published: false
-set: 3
+published: false
+set:  3
 index: 4
 title: Hoe helpt CoronaMelder in de praktijk? <br />Lerares Esther van Gorkum
 redirect_from: 

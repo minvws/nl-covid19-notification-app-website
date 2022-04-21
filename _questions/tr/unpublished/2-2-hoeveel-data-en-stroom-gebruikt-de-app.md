@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 2
 title: Uygulama ne kadar mobil veri ve pil gücü kullanıyor?
 featuredHome: true

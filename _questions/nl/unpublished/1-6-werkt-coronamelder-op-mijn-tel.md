@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 6
 title: Werkt CoronaMelder ook op mijn telefoon?
 showOnFAQoverview: true

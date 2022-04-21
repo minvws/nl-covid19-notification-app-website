@@ -1,6 +1,7 @@
 ---
 published: false
-set: 2
+published: false
+set:  2
 index: 1
 title: How does the CoronaMelder app measure the distance to other users of the app?
 redirect_from: 

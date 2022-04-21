@@ -1,6 +1,7 @@
 ---
 published: false
-set: 3
+published: false
+set:  3
 index: 4
 title: How does the CoronaMelder app work in practice? <br />Teacher Esther van Gorkum
 redirect_from: 

@@ -1,5 +1,6 @@
 ---
-set: 3
+published: false
+set:  3
 index: 1
 title: 'Onderzoek: hoe weten we of CoronaMelder helpt tegen corona?'
 redirect_from: 

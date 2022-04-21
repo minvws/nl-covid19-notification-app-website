@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 8
 title: Kan ik de app pauzeren?
 redirect_from: 

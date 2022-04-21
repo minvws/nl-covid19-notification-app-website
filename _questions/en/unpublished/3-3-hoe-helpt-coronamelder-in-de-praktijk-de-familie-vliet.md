@@ -1,6 +1,7 @@
 ---
 published: false
-set: 3
+published: false
+set:  3
 index: 3
 title: How does the CoronaMelder app work in practice? <br />The Vliet family
 redirect_from: 

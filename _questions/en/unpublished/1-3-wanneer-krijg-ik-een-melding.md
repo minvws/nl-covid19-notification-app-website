@@ -1,7 +1,8 @@
 ---
 published: false
 index: 1
-set: 3
+published: false
+set:  3
 title: When will I get a notification?
 showOnFAQoverview: true
 featuredHome: true

@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 2
 title: Wie funktioniert die App?
 showOnFAQoverview: true

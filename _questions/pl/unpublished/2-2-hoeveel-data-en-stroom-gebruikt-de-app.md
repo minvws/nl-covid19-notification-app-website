@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 2
 title: Jak dużo transferu danych i baterii zużywa aplikacja?
 featuredHome: true

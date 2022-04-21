@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 3
 title: Wanneer krijg ik een melding?
 showOnFAQoverview: true

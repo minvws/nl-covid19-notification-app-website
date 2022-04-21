@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: كيف يساعد تطبيق CoronaMelder في مواجهة فيروس كورونا؟
 redirect_from: 

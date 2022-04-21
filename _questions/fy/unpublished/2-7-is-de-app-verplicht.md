@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 7
 title: Is de app verplicht?
 redirect_from: 

@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 4
 title: ¿Cómo puedo enviar yo una notificación a los demás?
 featuredHome: true

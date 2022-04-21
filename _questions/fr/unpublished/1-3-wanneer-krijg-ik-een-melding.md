@@ -1,6 +1,7 @@
 ---
 index: 1
-set: 3
+published: false
+set:  3
 title: Quand vais-je recevoir une notification?
 showOnFAQoverview: true
 featuredHome: true

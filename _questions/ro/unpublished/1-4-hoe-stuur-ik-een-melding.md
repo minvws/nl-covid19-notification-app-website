@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 4
 title: Cum trimit celorlalți o notificare?
 summary: Dacă testul arată că aveți coronavirus, puteți raporta acest ...

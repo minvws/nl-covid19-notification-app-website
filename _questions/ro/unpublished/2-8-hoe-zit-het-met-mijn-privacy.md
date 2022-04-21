@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 8
 title: Cum stau lucrurile cu confidențialitatea datelor mele?
 showOnFAQoverview: true

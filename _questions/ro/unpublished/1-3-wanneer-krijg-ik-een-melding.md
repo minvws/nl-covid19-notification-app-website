@@ -1,6 +1,7 @@
 ---
 index: 1
-set: 3
+published: false
+set:  3
 title: Când primesc o notificare?
 summary: După ce ați fost în apropierea cuiva care a fost testat după întâlnirea dvs. și are coronavirus.
 showOnFAQoverview: true

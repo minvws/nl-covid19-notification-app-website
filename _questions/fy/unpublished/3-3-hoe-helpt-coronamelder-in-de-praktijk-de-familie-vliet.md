@@ -1,5 +1,6 @@
 ---
-set: 3
+published: false
+set:  3
 index: 3
 title: Hoe helpt CoronaMelder in de praktijk? <br />De familie Vliet
 redirect_from: 

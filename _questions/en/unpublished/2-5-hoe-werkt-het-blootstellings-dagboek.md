@@ -1,6 +1,7 @@
 ---
 published: false
-set: 2
+published: false
+set:  2
 index: 5
 title: How does the exposure log work?
 summary: 

@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: Cum ajută CoronaMelder împotriva coronavirusului?
 summary: CoronaMelder vă avertizează după ce ați fost în apropierea cuiva infectat cu coronavirus.

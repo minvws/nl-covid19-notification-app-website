@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 2
 title: Hoe wurket de app?
 summary: Aplicația vă trimite un mesaj dacă ați fost pentru un timp în apropierea unei persoane care este infectată cu coronavirus.

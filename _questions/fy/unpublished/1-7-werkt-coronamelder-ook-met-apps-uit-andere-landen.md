@@ -1,6 +1,7 @@
 ---
 index: 3
-set: 2
+published: false
+set:  2
 title: Werkt CoronaMelder ook met corona-apps uit andere landen?
 redirect_from: 
   - /fy/faq/13-gebruik-app-uit-ander-land

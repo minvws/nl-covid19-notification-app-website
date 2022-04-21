@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 2
 title: Какво количество мобилни данни и колко енергия изразходва приложението?
 featuredHome: true

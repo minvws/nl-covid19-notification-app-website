@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 5
 title: What should I do if I get a notification?
 showOnFAQoverview: true

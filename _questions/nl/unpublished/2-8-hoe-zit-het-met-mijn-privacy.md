@@ -1,6 +1,7 @@
 ---
 published: false
-set: 2
+published: false
+set:  2
 index: 8
 title: Hoe zit het met mijn privacy?
 showOnFAQoverview: true

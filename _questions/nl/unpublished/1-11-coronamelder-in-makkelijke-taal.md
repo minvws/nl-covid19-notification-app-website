@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 11
 title: Waar kan ik in makkelijke taal informatie vinden over de app?
 summary: 

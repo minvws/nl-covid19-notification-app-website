@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: Как CoronaMelder помага в борбата срещу коронавируса?
 redirect_from: 

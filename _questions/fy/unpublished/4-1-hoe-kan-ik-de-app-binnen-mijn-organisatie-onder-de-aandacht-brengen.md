@@ -1,5 +1,6 @@
 ---
-set: 4
+published: false
+set:  4
 index: 1
 title: Hoe kan ik de app binnen mijn organisatie onder de aandacht brengen?
 redirect_from: 

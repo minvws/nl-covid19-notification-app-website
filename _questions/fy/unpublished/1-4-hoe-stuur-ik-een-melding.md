@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 4
 title: Hoe stjoer ik oaren in melding?
 featuredHome: true

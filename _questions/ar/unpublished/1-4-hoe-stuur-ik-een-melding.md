@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 4
 title: كيف يمكنني إرسال إخطار للآخرين؟
 featuredHome: true

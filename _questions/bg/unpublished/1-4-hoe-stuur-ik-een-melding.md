@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 4
 title: Как да изпратя известие на други хора?
 featuredHome: true

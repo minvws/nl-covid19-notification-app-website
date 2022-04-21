@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 10
 title: Where can I get help installing the app?
 summary: 

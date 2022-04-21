@@ -1,6 +1,7 @@
 ---
 published: false
-set: 4
+published: false
+set:  4
 index: 1
 title: How can I raise awareness of the app within my organisation?
 redirect_from: 

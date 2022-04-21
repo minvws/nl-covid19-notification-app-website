@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 8
 title: Wie sieht es mit meinem Datenschutz aus?
 summary: Die App funktioniert ohne Ihre Kontaktdaten, wie Standort, Name, E-Mail-Adresse oder Telefonnummer.

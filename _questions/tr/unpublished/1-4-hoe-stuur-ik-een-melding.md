@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 4
 title: Başkalarına bildirim nasıl yollayabilirim?
 featuredHome: true

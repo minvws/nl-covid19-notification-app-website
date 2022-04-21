@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 11
 title: Where can I find information about the app in language that is easy to understand?
 summary: 

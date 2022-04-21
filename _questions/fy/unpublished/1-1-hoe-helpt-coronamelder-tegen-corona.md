@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: Hoe helpt CoronaMelder tsjin koroana?
 redirect_from: 

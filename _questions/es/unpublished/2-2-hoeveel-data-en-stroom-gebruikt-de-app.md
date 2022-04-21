@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 2
 title: ¿Cuántos datos y energía consume la app?
 featuredHome: true

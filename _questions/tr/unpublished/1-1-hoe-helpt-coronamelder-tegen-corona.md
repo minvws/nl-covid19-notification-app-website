@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: CoronaMelder koronavirüse karşı nasıl yardımcı olur?
 redirect_from: 

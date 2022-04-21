@@ -1,6 +1,7 @@
 ---
 published: false
-set: 1
+published: false
+set:  1
 index: 9
 title: Can I generate a COVID certificate with the CoronaMelder app?
 redirect_from: 

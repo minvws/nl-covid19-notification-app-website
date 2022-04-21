@@ -1,6 +1,7 @@
 ---
 published: false
-set: 2
+published: false
+set:  2
 index: 9
 title: Wat regelt de wet over de app?
 summary: 

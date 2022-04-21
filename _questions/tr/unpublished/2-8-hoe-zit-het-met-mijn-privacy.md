@@ -1,5 +1,6 @@
 ---
-set: 2
+published: false
+set:  2
 index: 8
 title: Gizliliğim ne olacak?
 showOnFAQoverview: true

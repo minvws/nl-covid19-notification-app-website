@@ -1,5 +1,6 @@
 ---
-set: 1
+published: false
+set:  1
 index: 1
 title: W jaki sposób CoronaMelder pomaga w zwalczaniu koronawirusa?
 redirect_from: 
