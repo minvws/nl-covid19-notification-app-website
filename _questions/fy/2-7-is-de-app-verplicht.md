@@ -1,18 +1,18 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: Is de app ferplichte?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Nee, do bepaalst sels oftst de app brûkst. Do bist folslein frij yn dyn kar om de app al of net te brûken. Net ien mei dy dus ferplichtsje om de app te brûken. Dus ek dyn wurkjouwer of in útgeansgelegenheid net.
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Yn 'e Appwet is fêstlein dat net ien in oar ferplichtsje kin om de app del te heljen of te brûken. Net ien mei dêrop oanstean: gjin wurkjouwer, útgeansgelegenheid, famyljelid, kunde of freon. Do bist folslein frij om te kiezen oftst dyn KoroanaMelder delhelje en brûke wolst.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+## Ferplichtet immen dy om KoroanaMelder del te heljen? 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+Meld dat by it Meldpunt Misbrûk KoroanaMelder fia tillefoannûmer: 088-1205 100 (lokaal taryf)
 
-### Openingstijden:
+### Iepeningstiden:
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
+Moandei o/m freed
+9.00 - 17.00 oere
 

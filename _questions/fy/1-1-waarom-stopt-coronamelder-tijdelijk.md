@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 1
-title: Waarom stopt CoronaMelder tijdelijk?
+title: Wêrom stoppet KoroanaMelder tydlik? 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: lock
 featuredHomeText: 
 ---
-Veel coronamaatregelen zijn nu gestopt. Daarom heeft CoronaMelder op dit moment veel minder nut. CoronaMelder geeft je een melding met een advies als je in de buurt komt van iemand met corona. Omdat je nu niet meer thuis hoeft te blijven na contact met iemand met corona, kan de app je geen advies meer geven. Ook hoeven de meeste mensen na een positieve zelftest niet meer naar de GGD voor een bevestigingstest. De app werkt alleen met bevestigingstesten van de GGD. Daarom kunnen er nu veel minder meldingen verstuurd worden. Om deze twee redenen wordt de app nu tijdelijk gestopt. Maar corona is nog niet voorbij. Als de app weer nuttig is in de bestrijding van het virus kan CoronaMelder weer aangezet worden. 
+In protte koroanamaatregels jilde no net mear. Dêrom hat KoroanaMelder op dit stuit folle minder nut. KoroanaMelder jout dy in melding mei in advys ast yn 'e buert fan immen mei koroana komst. Omdatst no net mear thús hoechst te bliuwen nei kontakt mei immen mei koroana, kin de app dy gjin advys mear jaan. De measte minsken hoege nei in positive selstest ek net mear nei de Gemeentlike Sûnenstsjinst (GGD) foar in befêstigingstest. De app wurket allinnich mei befêstigingstesten fan de Gemeentlike Sûnenstsjinst. Dêrom kinne der no folle minder meldings ferstjoerd wurde. Om dy twa redens wurdt de app no tydlik stopset. Mar koroana is noch net oer. As de app wer nuttich is yn it bestriden fan it firus kin KoroanaMelder op 'e nij oanset wurde. 

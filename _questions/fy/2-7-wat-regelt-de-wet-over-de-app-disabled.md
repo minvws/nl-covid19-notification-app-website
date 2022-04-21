@@ -1,9 +1,9 @@
 ---
 set: 2
 index: 7
-title: Wat regelt de wet over de app?
+title: Wat regelet de wet oer de app?
 ---
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Yn 'e Appwet is fêstlein dat net ien in oar ferplichtsje kin om de app del te heljen of te brûken. Net ien mei dêrop oanstean: gjin wurkjouwer, útgensgelegenheid, famyljelid, kunde of freon. Do bist folslein frij om te kiezen oftst dyn KoroanaMelder delhelje en brûke wolst.
 
-Wil je de wet nalezen? Dat kan. De wet heet [Tijdelijke wet notificatieapplicatie covid-19](https://wetten.overheid.nl/jci1.3:c:BWBR0044194&z=2020-10-10&g=2020-10-10).
+Wolst de wet neilêze? Dat kin. De wet hjit [Tijdelijke wet notificatieapplicatie covid-19](https://wetten.overheid.nl/jci1.3:c:BWBR0044194&z=2020-10-10&g=2020-10-10) (Tydlike Wet notifikaasje-applikaasje covid-19)..
 

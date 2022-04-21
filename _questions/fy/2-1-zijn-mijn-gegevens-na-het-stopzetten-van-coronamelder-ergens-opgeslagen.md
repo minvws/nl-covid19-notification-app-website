@@ -1,11 +1,11 @@
 ---
 set: 2
 index: 1
-title: Zijn mijn gegevens na het stopzetten van CoronaMelder ergens opgeslagen?	
+title: Binne myn gegevens nei it stopsetten fan KoroanaMelder earne opslein?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: privacy
 featuredHomeText: 
 ---
-Nee, de uitgewisselde willekeurige codes die normaal lokaal op je telefoon worden opgeslagen worden verwijderd. Ook op de servers worden alle codes verwijderd en er worden geen gegevens meer met de Europese gateway uitgewisseld.  
+Nee, de útwiksele willekeurige koades dy't ornaris lokaal op dyn mobyltsje opslein wurde, wurde fuorthelle. Op de servers wurde ek alle koades fuorthelle en der wurde gjin gegevens mear mei de Europeeske gateway útwiksele.  
