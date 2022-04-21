@@ -1,14 +1,18 @@
 ---
 set: 2
 index: 7
-title: Is the app compulsory?
-redirect_from: 
-  - /ro/faq/3-is-de-app-verplicht
-contentLang: en
+title: Is de app verplicht?
 ---
-{% include content/en/2-7-is-de-app-verplicht.md %}
+Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
 
-## Further reading:
+In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
 
-- <a href="/{{page.lang}}/faq/2-8-hoe-zit-het-met-mijn-privacy">Cum stau lucrurile cu confidențialitatea datelor mele?</a>
-- <a href="/{{page.lang}}/faq/2-9-wat-regelt-de-wet-over-de-app" lang="en" hreflang="en">What does the law say about the app?</a>
+## Verplicht iemand jou om CoronaMelder te downloaden? 
+
+Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+
+### Openingstijden:
+
+Maandag t/m vrijdag<br />
+9.00 -17.00 uur
+
