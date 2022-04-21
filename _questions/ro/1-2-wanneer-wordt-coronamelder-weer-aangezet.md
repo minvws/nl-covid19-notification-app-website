@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 2
-title: Wanneer wordt CoronaMelder weer aangezet?
+title: Când va fi pornită din nou CoronaMelder?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: heart
 featuredHomeText: 
 ---
-CoronaMelder wordt tijdelijk stopgezet. De app kan weer worden aangezet als de situatie daarom vraagt, bijvoorbeeld bij een opleving van het virus. Of bij een nieuwe coronavariant die mensen erger ziek maakt. 
+Aplicația CoronaMelder va fi întreruptă temporar. Aplicația poate fi pornită din nou dacă situația o impune, de exemplu în cazul reapariției unui virus. Sau o nouă variantă de coronavirus care îmbolnăvește oamenii.

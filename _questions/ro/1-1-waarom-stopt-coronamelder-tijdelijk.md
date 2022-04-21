@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 1
-title: Waarom stopt CoronaMelder tijdelijk?
+title: De ce se oprește temporar CoronaMelder? 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: lock
 featuredHomeText: 
 ---
-Veel coronamaatregelen zijn nu gestopt. Daarom heeft CoronaMelder op dit moment veel minder nut. CoronaMelder geeft je een melding met een advies als je in de buurt komt van iemand met corona. Omdat je nu niet meer thuis hoeft te blijven na contact met iemand met corona, kan de app je geen advies meer geven. Ook hoeven de meeste mensen na een positieve zelftest niet meer naar de GGD voor een bevestigingstest. De app werkt alleen met bevestigingstesten van de GGD. Daarom kunnen er nu veel minder meldingen verstuurd worden. Om deze twee redenen wordt de app nu tijdelijk gestopt. Maar corona is nog niet voorbij. Als de app weer nuttig is in de bestrijding van het virus kan CoronaMelder weer aangezet worden. 
+Multe măsuri împotriva coronavirusului au fost oprite. De aceea CoronaMelder este mult mai puțin utilă în acest moment. CoronaMelder vă transmite o notificare cu sfaturi dacă vă apropiați de cineva cu coronavirus. Deoarece nu mai trebuie să stai acasă după ce ai contactat o persoană infectată cu coronavirus, aplicația nu îți mai poate oferi sfaturi. De asemenea, majoritatea oamenilor nu trebuie să meargă la GGD pentru un test de confirmare după un auto-test pozitiv. Aplicația funcționează numai cu teste de confirmare de la GGD. Aceasta înseamnă că acum se pot trimite mult mai puține rapoarte. Din aceste două motive, aplicația va fi oprită temporar. Dar coronavirusul nu s-a terminat încă. Dacă aplicația este din nou utilă în combaterea virusului, CoronaMelder poate fi pornită din nou. 

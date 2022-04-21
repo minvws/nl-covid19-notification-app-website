@@ -1,11 +1,11 @@
 ---
 set: 2
 index: 1
-title: Zijn mijn gegevens na het stopzetten van CoronaMelder ergens opgeslagen?	
+title: Datele mele au fost stocate undeva după ce CoronaMelder a fost întreruptă?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 6
 featuredHomeIcon: privacy
 featuredHomeText: 
 ---
-Nee, de uitgewisselde willekeurige codes die normaal lokaal op je telefoon worden opgeslagen worden verwijderd. Ook op de servers worden alle codes verwijderd en er worden geen gegevens meer met de Europese gateway uitgewisseld.  
+Nu, codurile aleatorii schimbate care sunt în mod normal stocate local pe telefonul tău vor fi șterse. Toate codurile de pe servere sunt, de asemenea, șterse și nu mai există schimburi de date cu gateway-ul european.  

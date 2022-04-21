@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 2
-title: Werkt CoronaMelder nog met corona-apps uit andere landen?
+title: CoronaMelder funcționează și cu aplicații Corona din alte țări?
 ---
-Vanaf 22 april 2022 wordt de app tijdelijk gestopt. De app werkt dan voorlopig niet meer. Je ontvangt vanaf dat moment dus ook geen notificaties meer van apps uit andere landen en wisselt ook geen codes meer uit met corona-apps uit andere landen.
+Începând cu 22 aprilie 2022, aplicația va fi oprită temporar. Aplicația nu va mai funcționa deocamdată. Din acel moment, nu veți mai primi notificări de la aplicații din alte țări și nu veți mai face schimb de coduri cu aplicații corona din alte țări.
