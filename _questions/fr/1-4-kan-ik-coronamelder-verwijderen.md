@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 4
-title: Kan ik CoronaMelder verwijderen?
+title: Puis-je supprimer CoronaMelder de mon téléphone ?
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: app-touch
 featuredHomeText: 
 ---
-Je kan CoronaMelder van je mobiel verwijderen. Je zou er ook voor kunnen kiezen om de app te laten staan. Zo heb je CoronaMelder alvast als de app in de toekomst weer wordt aangezet.
+Vous pouvez supprimer CoronaMelder de votre téléphone. Mais vous pouvez aussi choisir de garder l'application. Ainsi, elle se trouvera déjà sur votre téléphone si elle venait à être réactivée à l'avenir. 

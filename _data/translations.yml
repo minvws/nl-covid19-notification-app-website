@@ -324,7 +324,7 @@ faq-category-temporary-stop-coronamelder:
   bg: Временно спиране на CoronaMelder
   de: Vorübergehende Einstellung des CoronaMelders
   es: Interrupción temporal del funcionamiento de CoronaMelder
-  fr: 
+  fr: Désactivation provisoire de CoronaMelder
   pl: 
   ro: 
   tr:  
@@ -337,7 +337,7 @@ faq-category-howtheappworks:
   bg: Технически въпроси, поверителност и сигурност
   de: Technik, Datenschutz und Sicherheit 
   es: Técnica, privacidad y seguridad 
-  fr: How the app works 
+  fr: Aspect technique, vie privée et sécurité
   pl: How the app works 
   ro: How the app works 
   tr: How the app works 

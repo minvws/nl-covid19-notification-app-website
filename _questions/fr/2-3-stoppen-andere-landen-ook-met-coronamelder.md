@@ -1,6 +1,6 @@
 ---
 set: 2
 index: 3
-title: Stoppen andere landen ook met CoronaMelder?
+title: Est-ce que les autres pays vont aussi désactiver leur application de traçage ?
 ---
-Nee, dat verschilt per land. Zo is de app in Duitsland en België op dit moment nog actief. In Zwitserland is de app tijdelijk gestopt. 
+Ça dépend de chaque pays. En Allemagne et en Belgique, par exemple, l'application de traçage est pour le moment encore active. En Suisse, par contre, l'application est provisoirement désactivée. 

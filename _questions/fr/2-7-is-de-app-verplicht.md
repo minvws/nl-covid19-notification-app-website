@@ -1,18 +1,18 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: L'application est-elle obligatoire ?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Non, vous êtes libre de décider de l'utiliser ou non. Personne ne peut donc vous forcer à utiliser l’application, y compris votre employeur ou un lieu de sortie.
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+La loi néerlandaise relative à l'application de traçage de la Covid-19 établit que personne ne peut obliger quiconque à télécharger ou utiliser l'application. Personne ne peut vous pousser à le faire : ni votre employeur, ni un lieu de sortie, ni un membre de votre famille, ni une connaissance ou un ami. Vous êtes entièrement libre de choisir de télécharger ou d'utiliser CoronaMelder.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+## Une personne vous impose de télécharger CoronaMelder ? 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+Signalez-le au centre de signalement des abus relatifs à CoronaMelder, au numéro de téléphone suivant : <a href="tel:0881205100">088-1205 100</a> (tarif local)
 
-### Openingstijden:
+### Heures d'ouverture :
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
+Du lundi au vendredi
+9h - 17h
 
