@@ -9,7 +9,7 @@ En la ley que regula la aplicación se establece que nadie puede ordenar a otro 
 
 ## ¿Le obliga alguien a descargar CoronaMelder?
 
-Comuníquelo en el punto de denuncia de abusos con CoronaMelder, en el número de teléfono: 088-1205 100 (tarifa local).
+Comuníquelo en el punto de denuncia de abusos con CoronaMelder, en el número de teléfono:<a href="tel:0881205100">088-1205 100</a>(tarifa local).
 
 ## Horarios de apertura:
 

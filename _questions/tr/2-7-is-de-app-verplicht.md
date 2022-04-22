@@ -9,7 +9,7 @@ Uygulama yasası, hiç kimsenin başka bir kişiyi uygulamayı indirmeye veya ku
 
 ## Biri sizi CoronaMelder'ı indirmeye mi zorluyor? 
 
-O halde bu durumu Meldpunt Misbruik CoronaMelder'a bildirebileceğiniz telefon numarası: 088-1205 100 (yerel tarife)
+O halde bu durumu Meldpunt Misbruik CoronaMelder'a bildirebileceğiniz telefon numarası:<a href="tel:0881205100">088-1205 100</a>(yerel tarife)
 
 ### Açılış saatleri:
 
