@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 5
-title: Hoe lang ontvang ik nog meldingen van CoronaMelder?
+title: إلى متى سأستمر في تلقي إشعارات من كورونا ميلدر؟
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 4
 featuredHomeIcon: calendar
 featuredHomeText: 
 ---
-Vanaf 22 april 2022 wordt de app tijdelijk stopgezet. Je ontvangt vanaf dat moment geen meldingen meer. Je ontvangt opnieuw meldingen als CoronaMelder in de toekomst weer wordt aangezet.
+سيتم إيقاف التطبيق مؤقتًا من 22 إبريل / نيسان 2022. وبدءً من هذه اللحظة، لن تتلقى أية إشعارات، وسيتم إشعارك إذا تم تنشيط كورونا ميلدر مرة أخرى في المستقبل. 

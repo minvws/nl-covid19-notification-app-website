@@ -1,18 +1,18 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: هل التطبيق إجباري؟ 
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+لا، فالأمر يرجع لك إذا كنت ستستخدم التطبيق أم لا. لك مطلق الحرية في أن تختار استخدام التطبيق من عدمه، فلا أحد يمكنه إجبارك على استخدامه، لا رب عملك ولا أية جهة. 
+ينص القانون الخاص بالتطبيق على أنه لا يجوز لأي أحد أن يجبر شخصًا آخر على تنزيل أو استخدام التطبيق، ولا يحق لأحد مطالبتك بذلك سواء رب عملك أم أية جهة أم أحد أعضاء الأسرة أم أحد المعارف أم صديق. فلك مطلق الحرية في أن تختار تنزيل واستخدام كورونا ميلدر من عدمه. 
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+##هل يمكن أن يجبرك أحد على تنزيل كورونا ميلدر؟ 
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+أبلغ هذا الأمر إلى الخط الساخن لإساءة استخدام كورونا ميلدر بالاتصال على الرقم <a href="tel:0881205100">088-1205 100</a> (بسعر المكالمة المحلية). 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+### ساعات العمل: 
 
-### Openingstijden:
+من الإثنين إلى الجمعة 
+9:00 ص إلى 5:00 المغرب 
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
 
