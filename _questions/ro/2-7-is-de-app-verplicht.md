@@ -1,18 +1,18 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: Aplicația este obligatorie?
 ---
-Nee, je bepaalt zelf of je de app gebruikt. Je bent helemaal vrij in je keuze om de app wel of niet te gebruiken. Niemand mag je dus verplichten om de app te gebruiken. Dus ook niet jouw werkgever of een uitgaansgelegenheid.
+Nu, tu decizi dacă folosești aplicația. Poți alege dacă să folosești sau nu aplicația. Prin urmare nimeni nu te poate obliga să folosești aplicația. Nici măcar angajatorul tău sau un loc de divertisment.
 
-In de appwet is vastgelegd dat niemand een ander kan verplichten om de app te downloaden of te gebruiken. Niemand mag hierop aandringen: geen werkgever, uitgaansgelegenheid, familielid, kennis of vriend. Je bent helemaal vrij om te kiezen of je CoronaMelder wilt downloaden en gebruiken.
+Legea privind aplicațiile stipulează că nimeni nu poate obliga o altă persoană să descarce sau să utilizeze aplicația. Nimeni nu ar trebui să insiste asupra acestui lucru: niciun angajator, loc de divertisment, membru al familiei, cunoștințe sau prieten. Ești complet liber să alegi dacă dorești să descarci și să utilizezi CoronaMelder.
 
-## Verplicht iemand jou om CoronaMelder te downloaden? 
+## Te obligă cineva să descarci CoronaMelder? 
 
-Meld dit bij het Meldpunt Misbruik CoronaMelder via telefoonnummer: <a href="tel:0881205100">088-1205 100</a> (lokaal tarief)
+Raportează acest lucru punctului de raportare a utilizării necorespunzătoare CoronaMelder la numărul de telefon:<a href="tel:0881205100">088-1205 100</a>(tarif local)
 
-### Openingstijden:
+### Program de lucru:
 
-Maandag t/m vrijdag<br />
-9.00 -17.00 uur
+De luni până vineri
+orele 9:00 - 17:00
 
