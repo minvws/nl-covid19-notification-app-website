@@ -16,7 +16,11 @@
           {% include graphics/{{ question.featuredHomeIcon }}.svg  %}
         </div>
           <div class="highlighted-faq__content">
-            <h3>{{ question.title }}</h3>
+            <h3>{{ question.title }}
+                {% if question.contentLang == "en" or question.contentLang == "nl" %} 
+                    {{ site.data.translations.english[page.lang] }}  
+                {% endif %}
+            </h3>
             <p>{{ question.featuredHomeText }}</p>
           </div>
           <a href="{{ site.baseurl }}{{ question.url }}" class="highlighted-faq__summary__btn-expand">

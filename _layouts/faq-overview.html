@@ -51,6 +51,11 @@
                                 {% endif %} 
                                 id="{{ question.url | slugify }}">
                                 {{ question.title }}
+                                {% if question.contentLang == "en" %} 
+                                    {{ site.data.translations.english[page.lang] }}  
+                                {% elsif question.contentLang == "nl" %}
+                                    {{ site.data.translations.english[page.lang] }}  
+                                {% endif %}
                             </a>
                         </li>
                 {% endfor %}
@@ -72,6 +77,9 @@
                                 {% endif %} 
                                 id="{{ question.url | slugify }}">
                                 {{ question.title }}
+                                {% if question.contentLang == "en" or question.contentLang == "nl" %} 
+                                    {{ site.data.translations.english[page.lang] }}  
+                                {% endif %}
                             </a>
                         </li>
                 {% endfor %}
@@ -93,6 +101,9 @@
                                 {% endif %} 
                                 id="{{ question.url | slugify }}">
                                 {{ question.title }}
+                                {% if question.contentLang == "en" or question.contentLang == "nl" %} 
+                                    {{ site.data.translations.english[page.lang] }}  
+                                {% endif %}
                             </a>
                         </li>
                     {% endfor %}
@@ -114,6 +125,9 @@
                                 {% endif %} 
                                 id="{{ question.url | slugify }}">
                                 {{ question.title }}
+                                {% if question.contentLang == "en" or question.contentLang == "nl" %} 
+                                    {{ site.data.translations.english[page.lang] }}  
+                                {% endif %}
                             </a>
                         </li>
                     {% endfor %}

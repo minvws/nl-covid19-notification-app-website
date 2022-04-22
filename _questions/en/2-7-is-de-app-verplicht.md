@@ -2,7 +2,6 @@
 set: 2
 index: 7
 title: Is the app compulsory?
-contentLang: en
 ---
 No, you are free to choose whether or not you want to use the app. This is your decision. Nobody can force you to use the app, not even your employer or staff in a bar or restaurant.
 
