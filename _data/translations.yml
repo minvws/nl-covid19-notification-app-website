@@ -5,15 +5,15 @@ head-social-og-site_name: CoronaMelder
 head-social-og-title:
   nl: CoronaMelder stopt tijdelijk
   en: CoronaMelder is temporarily suspended
-  ar: 
-  bg: CoronaMelder се спира временно
+  ar: الإيقاف المؤقت لكورونا ميلدر 
+  bg: CoronaMelder спира временно
   fr: CoronaMelder est provisoirement désactivée
-  fy: KoroanaMelder wurdt tydlik stopset
-  es: La aplicación CoronaMelder sera temporalmente suspendida
-  pl: Tymczasowe wstrzymanie działania aplikacji CoronaMelder
+  fy: KoroanaMelder stopt tydlik
+  es: CoronaMelder interrumpe temporalmente su funcionamiento
+  pl: Aplikacja CoronaMelder zostaje tymczasowo wstrzymana
   de: Der CoronaMelder wird vorübergehend eingestellt
-  ro: Aplicația CoronaMelder va fi întreruptă temporar
-  tr: "CoronaMelder'ın geçici olarak durdurulması"
+  ro: CoronaMelder se oprește temporar
+  tr: "CoronaMelder geçici olarak durduruluyor"
     
 head-social-og-description:
   nl: 'Alles is weer open. Dat hebben we met elkaar bereikt. Er gelden nog een aantal coronamaatregelen en adviezen...'
@@ -46,15 +46,15 @@ head-social-og-image-alt:
 page-title:
   nl: CoronaMelder stopt tijdelijk
   en: CoronaMelder is temporarily suspended
-  ar: CoronaMelder
-  bg: CoronaMelder се спира временно
+  ar: الإيقاف المؤقت لكورونا ميلدر 
+  bg: CoronaMelder спира временно
   fr: CoronaMelder est provisoirement désactivée
-  fy: KoroanaMelder wurdt tydlik stopset
-  es: La aplicación CoronaMelder sera temporalmente suspendida
-  pl: Tymczasowe wstrzymanie działania aplikacji CoronaMelder
+  fy: KoroanaMelder stopt tydlik
+  es: CoronaMelder interrumpe temporalmente su funcionamiento
+  pl: Aplikacja CoronaMelder zostaje tymczasowo wstrzymana
   de: Der CoronaMelder wird vorübergehend eingestellt
-  ro: Aplicația CoronaMelder va fi întreruptă temporar
-  tr: "CoronaMelder'ın geçici olarak durdurulması"
+  ro: CoronaMelder se oprește temporar
+  tr: "CoronaMelder geçici olarak durduruluyor"
     
 header-skip-to-content:
   nl: Ga direct naar inhoud
@@ -72,15 +72,15 @@ header-skip-to-content:
 header-title:
   nl: "CoronaMelder<br /> stopt tijdelijk"
   en: "CoronaMelder is<br /> temporarily suspended"
-  ar: 
-  bg: CoronaMelder се<br /> спира временно
-  fr: CoronaMelder est<br /> provisoirement<br /> désactivée
-  fy: KoroanaMelder<br /> wurdt tydlik stopset
-  es: La aplicación CoronaMelder<br /> sera temporalmente<br /> suspendida
-  pl: Tymczasowe wstrzymanie<br /> działania aplikacji<br /> CoronaMelder
-  de: Der CoronaMelder wird<br /> vorübergehend <br/> eingestellt
-  ro: Aplicația CoronaMelder va<br /> fi întreruptă temporar
-  tr: "CoronaMelder'ın geçici<br /> olarak durdurulması"
+  ar: الإيقاف المؤقت<br />  لكورونا ميلدر 
+  bg: CoronaMelder <br /> спира временно
+  fr: CoronaMelder est <br /> provisoirement désactivée
+  fy: KoroanaMelder<br />  stopt tydlik
+  es: CoronaMelder interrumpe<br />  temporalmente su<br />  funcionamiento
+  pl: Aplikacja CoronaMelder<br />  zostaje tymczasowo<br />  wstrzymana
+  de: Der CoronaMelder<br />  wird vorübergehend<br />  eingestellt
+  ro: CoronaMelder se<br />  oprește temporar
+  tr: "CoronaMelder geçici<br />  olarak durduruluyor"
 
 header-appstore:
   nl: Download in de App Store
