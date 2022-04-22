@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 4
-title: Kan ik CoronaMelder verwijderen?
+title: هل ينبغي علي أن أحذف كورونا ميلدر؟ 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 2
 featuredHomeIcon: app-touch
 featuredHomeText: 
 ---
-Je kan CoronaMelder van je mobiel verwijderen. Je zou er ook voor kunnen kiezen om de app te laten staan. Zo heb je CoronaMelder alvast als de app in de toekomst weer wordt aangezet.
+يمكنك حذف كورونا ميلدر من هاتفك الجوال ويمكنك أن تبقيه على هاتفك. وبهذه الطريقة، سيكون لديك كورونا ميلدر إذا تم تنشيط التطبيق مرة أخرى في المستقبل. 

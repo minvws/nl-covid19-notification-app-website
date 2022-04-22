@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 1
-title: Waarom stopt CoronaMelder tijdelijk?
+title: لماذا تم إيقاف كورونا ميلدر مؤقتًا؟ 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1
 featuredHomeIcon: lock
 featuredHomeText: 
 ---
-Veel coronamaatregelen zijn nu gestopt. Daarom heeft CoronaMelder op dit moment veel minder nut. CoronaMelder geeft je een melding met een advies als je in de buurt komt van iemand met corona. Omdat je nu niet meer thuis hoeft te blijven na contact met iemand met corona, kan de app je geen advies meer geven. Ook hoeven de meeste mensen na een positieve zelftest niet meer naar de GGD voor een bevestigingstest. De app werkt alleen met bevestigingstesten van de GGD. Daarom kunnen er nu veel minder meldingen verstuurd worden. Om deze twee redenen wordt de app nu tijdelijk gestopt. Maar corona is nog niet voorbij. Als de app weer nuttig is in de bestrijding van het virus kan CoronaMelder weer aangezet worden. 
+في الوقت الحالي، توقفت العديد من الإجراءات المتعلقة بفيروس كورونا المستجد. ومن ثم، أصبحت فائدة كورونا ميلدر أقل بكثير في هذه الآونة. تتمثل فائدة كورونا ميلدر في أنه يصدر لك إشعارًا يتضمن نصيحة إذا اقتربت من شخص مصاب بفيروس كورونا المستجد. والآن، نظرًا لأنه لا يلزمك البقاء في المنزل بعد التلامس مع شخص مصاب بفيروس كورونا المستجد، لم يعد التطبيق يرسل لك مثل هذه النصيحة. بالإضافة إلى ذلك، فبعد ثبوت إيجابية الفحص والإصابة بفيروس كورونا المستجد، لا يلزم أن يذهب معظم الأفراد إلى دائرة الصحة البلدية من أجل إجراء اختبار تأكيدي، حيث يعمل التطبيق بصورة حصرية مع الاختبار التأكيدي الذي يجرى في دائرة الصحة البلدية. ومن ثم، سيكون هنالك عدد قليل جدًا من الإشعارات التي ينبغي إرسالها في هذه الآونة. ولهذين السببين، تم إيقاف التطبيق مؤقتًا. ومع ذلك، لم ينته فيروس كورونا المستجد بعد. عندما توجد فائدة مرة أخرى للتطبيق في السيطرة على الفيروس، سيتم تنشيط كورونا ميلدر مرة أخرى. 

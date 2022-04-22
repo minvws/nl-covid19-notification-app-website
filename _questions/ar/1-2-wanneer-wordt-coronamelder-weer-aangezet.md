@@ -1,11 +1,11 @@
 ---
 set: 1
 index: 2
-title: Wanneer wordt CoronaMelder weer aangezet?
+title: متى سيتم تشغيل كورونا ميلدر مرة أخرى؟ 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 3
 featuredHomeIcon: heart
 featuredHomeText: 
 ---
-CoronaMelder wordt tijdelijk stopgezet. De app kan weer worden aangezet als de situatie daarom vraagt, bijvoorbeeld bij een opleving van het virus. Of bij een nieuwe coronavariant die mensen erger ziek maakt. 
+تم إيقاف كورونا ميلدر مؤقتًا. من الممكن تنشيط التطبيق مرة أخرى عندما يستلزم الوضع ذلك، كأن يوجد تصاعد في معدل الفيروس، أو ظهور متحور جديد للفيروس يجعل الأشخاص أكثر عرضة لحدة المرض. 
