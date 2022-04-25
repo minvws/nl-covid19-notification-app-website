@@ -106,8 +106,8 @@
         CM_1_svg_code = document.getElementById('CM_1_svg_code');
         CM_2 = document.getElementById('CM_2');
         CM_2_svg_code = document.getElementById('CM_2_svg_code');
-        // CM_3 = document.getElementById('CM_3');
-        // CM_3_svg_code = document.getElementById('CM_3_svg_code');
+        CM_3 = document.getElementById('CM_3');
+        CM_3_svg_code = document.getElementById('CM_3_svg_code');
         CM_4 = document.getElementById('CM_4');
         CM_4_svg_code = document.getElementById('CM_4_svg_code');
 
@@ -116,8 +116,8 @@
         CM_1_svg_code_en = document.getElementById('CM_1_svg_code_en');
         CM_2_en = document.getElementById('CM_2_en');
         CM_2_svg_code_en = document.getElementById('CM_2_svg_code_en');
-        // CM_3_en = document.getElementById('CM_3_en');
-        // CM_3_svg_code_en = document.getElementById('CM_3_svg_code_en');
+        CM_3_en = document.getElementById('CM_3_en');
+        CM_3_svg_code_en = document.getElementById('CM_3_svg_code_en');
         CM_4_en = document.getElementById('CM_4_en');
         CM_4_svg_code_en = document.getElementById('CM_4_svg_code_en');
 
@@ -235,13 +235,7 @@ CM_2.appendChild(
                 y: "cumulative_shared_keys", 
                 title:  (d => (d.cumulative_shared_keys / 1000).toFixed(3)),
                 fill: "#ec025f",
-            }),
-            // Plot.line(shared_keys, {
-            //     x: "date", 
-            //     y: "shared_keys",
-            //     stroke: "#000000",
-            //     title:  (d => (d.shared_keys / 1000).toFixed(3)),
-            // }),
+            }), 
             Plot.ruleY([0])
         ],
     })
@@ -477,10 +471,10 @@ CM_4.appendChild(
     CM_3_svg_code.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
     CM_4_svg_code.value = CM_4.getElementsByTagName('svg')[0].innerHTML;
 
-    CM_1_svg_code_en.value = CM_1.getElementsByTagName('svg')[0].innerHTML;
-    CM_2_svg_code_en.value = CM_2.getElementsByTagName('svg')[0].innerHTML;
-    CM_3_svg_code_en.value = CM_3.getElementsByTagName('svg')[0].innerHTML;
-    CM_4_svg_code_en.value = CM_4.getElementsByTagName('svg')[0].innerHTML;
+    CM_1_svg_code_en.value = CM_1_en.getElementsByTagName('svg')[0].innerHTML;
+    CM_2_svg_code_en.value = CM_2_en.getElementsByTagName('svg')[0].innerHTML;
+    CM_3_svg_code_en.value = CM_3_en.getElementsByTagName('svg')[0].innerHTML;
+    CM_4_svg_code_en.value = CM_4_en.getElementsByTagName('svg')[0].innerHTML;
 </script>
 </body>
 </html>
