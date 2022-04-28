@@ -9,7 +9,7 @@ Im App-Gesetz ist festgelegt, dass niemand andere Personen zum Download oder zur
 
 ## Werden Sie zum Download des CoronaMelders verpflichtet? 
 
-Dann melden Sie dies bei der Hotline Missbrauch des CoronaMelders unter Telefonnummer:<a href="tel:0881205100">088-1205 100</a>(Ortstarif)
+Dann melden Sie dies bei der Hotline Missbrauch des CoronaMelders unter Telefonnummer: <a href="tel:0881205100">088-1205 100</a> (Ortstarif)
 
 ### Öffnungszeiten:
 
