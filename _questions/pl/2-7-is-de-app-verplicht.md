@@ -1,7 +1,7 @@
 ---
 set: 2
 index: 7
-title: Is de app verplicht?
+title: Czy korzystanie z aplikacji jest obowiązkowe?
 ---
 Czy korzystanie z aplikacji jest obowiązkowe?
 

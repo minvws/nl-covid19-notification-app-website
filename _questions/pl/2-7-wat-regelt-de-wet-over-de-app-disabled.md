@@ -1,7 +1,7 @@
 ---
 set: 2
 index: 7
-title: Wat regelt de wet over de app?
+title: Co prawo mówi o aplikacji?
 ---
 Ustawa o aplikacji do powiadomień stanowi, że nikt nie może zobowiązać innej osoby do pobrania lub korzystania z aplikacji. Nikt nie może Cię do tego zmusić: ani pracodawca, ani restauracja czy organizator imprezy, ani członek rodziny, znajomy lub przyjaciel. Masz pełną swobodę wyboru, czy chcesz pobrać aplikację CoronaMelder i z niej korzystać.
 
