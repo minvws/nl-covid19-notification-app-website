@@ -412,7 +412,7 @@ layout-faq-btn:
   fy: Besjoch alle faakstelde fragen
   en: All frequently asked questions
   ar: جميع الأسئلة المتكررة)
-  bg: Виж всички често задавани въпроси
+  bg: Вижте всички често задавани въпроси
   de: Lesen Sie alle häufig gestellten Fragen
   es: Consulta todas las preguntas frecuentes
   fr: Consultez les questions fréquemment posées
@@ -546,7 +546,7 @@ footer-phone:
   fy: Hast fragen oer KoroanaMelder?
   en: Do you have any questions about the CoronaMelder app?
   ar: هل لديك أي أسئلة حول CoronaMelder؟
-  bg: Имаш ли въпроси относно CoronaMelder?
+  bg: Имате въпроси относно CoronaMelder?
   de: Haben Sie Fragen zu CoronaMelder?
   es: ¿Tienes preguntas sobre CoronaMelder?
   fr: Avez-vous des questions sur CoronaMelder?
@@ -561,7 +561,7 @@ footer-phone-action:
   ar: <a href="tel:0800-1280" dir="ltr">0800-1280</a> (مجانًا)
   bg: <a href="tel:0800-1280">0800-1280</a> (безплатно)
   de: <a href="tel:0800-1280">0800-1280</a> (kostenlos)
-  es: <a href="tel:0800-1280">0800-1280</a>
+  es: <a href="tel:0800-1280">0800-1280</a> (gratuito)
   fr: <a href="tel:0800-1280">0800-1280</a> (gratuit)
   pl: <a href="tel:0800-1280">0800-1280</a>
   ro: <a href="tel:0800-1280">0800-1280</a> (număr gratuit)
@@ -598,7 +598,7 @@ footer-phone-mail-label:
   fy: "Of stjoer in e-mail nei:"
   en: "Or send an e-mail to:"
   ar: "أو ارسل بريدًا الكترونيًا إلى:"
-  bg: "Или изпрати имейл на "
+  bg: "Или изпратете имейл на "
   de: "Oder schicken Sie eine E-Mail an: "
   es: "O envía un correo a: "
   fr: "Ou envoyez un courriel à : "
