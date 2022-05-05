@@ -48,8 +48,12 @@ const active_users_raw = [
         active_users: 2341465
     },
     {
-        date: "2022-04-20",
-        active_users: 1948767
+        date: "2022-04-21",
+        active_users: 1197947
+    },
+    {
+        date: "2022-05-05",
+        active_users: 0
     }
 ]
 
