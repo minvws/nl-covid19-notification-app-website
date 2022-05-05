@@ -1,7 +1,7 @@
 ---
 set: 1
 index: 1
-title: Wêrom stoppet KoroanaMelder tydlik? 
+title: Wêrom wurdt KoroanaMelder tydlik stopset? 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: 1

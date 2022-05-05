@@ -9,10 +9,10 @@ Legea privind aplicațiile stipulează că nimeni nu poate obliga o altă persoa
 
 ## Te obligă cineva să descarci CoronaMelder? 
 
-Raportează acest lucru punctului de raportare a utilizării necorespunzătoare CoronaMelder la numărul de telefon:<a href="tel:0881205100">088-1205 100</a>(tarif local)
+Raportează acest lucru punctului de raportare a utilizării necorespunzătoare CoronaMelder la numărul de telefon: <a href="tel:0881205100">088-1205 100</a>(tarif local)
 
 ### Program de lucru:
 
-De luni până vineri
+De luni până vineri<br />
 orele 9:00 - 17:00
 

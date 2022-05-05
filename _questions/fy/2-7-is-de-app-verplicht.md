@@ -9,7 +9,7 @@ Yn 'e Appwet is fêstlein dat net ien in oar ferplichtsje kin om de app del te h
 
 ## Ferplichtet immen dy om KoroanaMelder del te heljen? 
 
-Meld dat by it Meldpunt Misbrûk KoroanaMelder fia tillefoannûmer:<a href="tel:0881205100">088-1205 100</a>(lokaal taryf)
+Meld dat by it Meldpunt Misbrûk KoroanaMelder fia tillefoannûmer: <a href="tel:0881205100">088-1205 100</a>(lokaal taryf)
 
 ### Iepeningstiden:
 

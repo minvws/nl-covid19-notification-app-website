@@ -8,7 +8,7 @@ head-social-og-title:
   ar: الإيقاف المؤقت لكورونا ميلدر 
   bg: CoronaMelder спира временно
   fr: CoronaMelder est provisoirement désactivée
-  fy: KoroanaMelder stopt tydlik
+  fy: KoroanaMelder wurdt tydlik stopset
   es: CoronaMelder interrumpe temporalmente su funcionamiento
   pl: Aplikacja CoronaMelder zostaje tymczasowo wstrzymana
   de: Der CoronaMelder wird vorübergehend eingestellt
@@ -49,7 +49,7 @@ page-title:
   ar: الإيقاف المؤقت لكورونا ميلدر 
   bg: CoronaMelder спира временно
   fr: CoronaMelder est provisoirement désactivée
-  fy: KoroanaMelder stopt tydlik
+  fy: KoroanaMelder wurdt tydlik stopset
   es: CoronaMelder interrumpe temporalmente su funcionamiento
   pl: Aplikacja CoronaMelder zostaje tymczasowo wstrzymana
   de: Der CoronaMelder wird vorübergehend eingestellt
@@ -75,7 +75,7 @@ header-title:
   ar: الإيقاف المؤقت<br />  لكورونا ميلدر 
   bg: CoronaMelder <br /> спира временно
   fr: CoronaMelder est <br /> provisoirement désactivée
-  fy: KoroanaMelder<br />  stopt tydlik
+  fy: KoroanaMelder<br />  wurdt tydlik stopset
   es: CoronaMelder interrumpe<br />  temporalmente su<br />  funcionamiento
   pl: Aplikacja CoronaMelder<br />  zostaje tymczasowo<br />  wstrzymana
   de: Der CoronaMelder<br />  wird vorübergehend<br />  eingestellt
@@ -450,7 +450,7 @@ info-lead:
 
 info-lead-disabled:
   nl: '<h2>De CoronaMelder-app stopt tijdelijk vanaf 22 april 2022</h2><p>Alles is weer open. Dat hebben we met elkaar bereikt. Er gelden nog een aantal <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/algemene-coronaregels/kort-overzicht-coronamaatregelen" target="_blank" rel="noopener noreferrer">coronamaatregelen en adviezen</a> maar veel maatregelen zijn afgeschaft. Zo hoef je niet meer thuis te blijven wanneer je in de buurt bent geweest van iemand met corona. En hoeven de meeste mensen na een positieve zelftest niet meer naar de GGD voor een bevestigingstest.</p><p>Hierdoor is het nut van de CoronaMelder-app op dit moment sterk verminderd en stopt de app tijdelijk vanaf 22 april 2022.</p><p>Door het stopzetten wisselt de app geen (anonieme) gegevens meer uit met andere CoronaMelder-gebruikers. Ook worden er geen gegevens meer gedeeld met notificatie-apps uit andere landen.</p><p>Mocht in de toekomst een nieuwe variant van het coronavirus opkomen waarbij het nodig is om mensen te kunnen waarschuwen dan kan CoronaMelder weer geactiveerd worden.</p><p>Meer weten over het effect dat CoronaMelder heeft gehad? Bekijk de <a href="/nl/faq/3-2-coronamelder-data-dashboard/">statistieken</a>.</p>'
-  fy: '<h2>De CoronaMelder-app hâldt tydlik op fan 22 april 2022 ôf</h2><p>Alles is wer iepen. Dat ha we mei-inoar berikt. Der jilde noch guon <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/algemene-coronaregels/kort-overzicht-coronamaatregelen" target="_blank" rel="noopener noreferrer" lang="nl">koroanamaatregels en advizen (Nederlânsk)</a>, mar in protte maatregels binne ôfskaft. Sa hoechst net mear thús te bliuwen wannear’tst deunby immen mei koroana west hast. En de measte lju hoege nei in positive selstest net mear nei de GGD foar in befêstigingstest.</p><p>Dêrtroch is it nut fan de CoronaMelder-app op dit stuit bot minder wurden en hâldt de app tydlik op, fan 22 april 2022 ôf.</p><p>Troch it ophâlden wikselet de app gjin (anonime) gegevens mear út mei oare CoronaMelder-brûkers. Der wurde ek gjin gegevens mear dield mei notifikaasje-apps út oare lannen.</p><p>Mocht yn de takomst in nije fariant fan it koroanafirus opkomme wêrby’t it nedich is om minsken warskôgje te kinnen, dan kin CoronaMelder wer aktivearre wurde.</p><p>Mear witte oer it effekt dat CoronaMelder hân hat? <a href="/fy/faq/3-2-coronamelder-data-dashboard/">Besjoch de statistiken (Nederlânsk)</a>.</p>'
+  fy: '<h2>De KoroanaMelder-app wurdt fan 22 april 2022 ôf tydlik stopset</h2><p>Alles is wer iepen. Dat ha we mei-inoar berikt. Der jilde noch guon <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/algemene-coronaregels/kort-overzicht-coronamaatregelen" target="_blank" rel="noopener noreferrer" lang="nl">koroanamaatregels en advizen (Nederlânsk)</a>, mar in protte maatregels binne ôfskaft. Sa hoechst net mear thús te bliuwen wannear’tst deunby immen mei koroana west hast. En de measte lju hoege nei in positive selstest net mear nei de GGD foar in befêstigingstest.</p><p>Dêrtroch is it nut fan de KoroanaMelder-app op dit stuit bot minder wurden en wurdt de app fan 22 april 2022 ôf tydlik stopset.</p><p>Troch it ophâlden wikselet de app gjin (anonime) gegevens mear út mei oare KoroanaMelder-brûkers. Der wurde ek gjin gegevens mear dield mei notifikaasje-apps út oare lannen.</p><p>Mocht yn de takomst in nije fariant fan it koroanafirus opkomme wêrby’t it nedich is om minsken warskôgje te kinnen, dan kin CoronaMelder wer aktivearre wurde.</p><p>Mear witte oer it effekt dat KoroanaMelder hân hat? <a href="/fy/faq/3-2-coronamelder-data-dashboard/">Besjoch de statistiken (Nederlânsk)</a>.</p>'
   en: '<h2>CoronaMelder app to be temporarily suspended from 22 April 2022 onwards</h2><p>Society has opened up again. This is something we have all achieved together. Some <a href="https://www.government.nl/topics/c/coronavirus-covid-19/tackling-new-coronavirus-in-the-netherlands/coronavirus-measures-in-brief" target="_blank" rel="noopener noreferrer" hreflang="en">coronavirus measures and advice</a> still apply, but many of the measures have been discontinued. For example, you no longer need to self-isolate if you have been near someone who has tested positive for the coronavirus. And most people who test positive on a self-test will not have to go to the Municipal Health Service (GGD) for a PCR test.</p><p>This has radically reduced the need for the CoronaMelder app right now, and the app will be temporarily suspended from 22 April 2022 onwards.</p><p>As a result, the app will stop exchanging any (anonymous) data with other CoronaMelder users. In addition, data will no longer be shared with notification apps abroad.</p><p>Should a new variant of the coronavirus emerge in future and make an alert system necessary, CoronaMelder may be reactivated.</p><p>To find out more about the effect that CoronaMelder had, view the <a href="/en/faq/3-2-coronamelder-data-dashboard/">statistics</a>.</p>'
   ar: '<h2>إيقاف تطبيق CoronaMelder مؤقتًا من 22 إبريل / نيسان 2022 </h2><p>عادت الأمور إلى طبيعتها في المجتمع مرة أخرى. وهذا أمر قد حققناه جميعًا. ولا تزال بعض <a href="https://www.government.nl/topics/c/coronavirus-covid-19/tackling-new-coronavirus-in-the-netherlands/coronavirus-measures-in-brief" target="_blank" rel="noopener noreferrer" hreflang="en">الإجراءات والنصائح الخاصة بفيروس كورونا (الانجليزية)</a> سارية، غير أنه قد توقفت العديد من الإجراءات الأخرى. فعلى سبيل المثال، لا يلزمك العزل الذاتي إذا كنت بالقرب من شخص ثبتت إيجابية فحصه وإصابته بفيروس كورونا. كما أنه لا يلزم أن يذهب معظم الأفراد الذين ثبتت إيجابية فحصهم وإصابتهم بفيروس كورونا بناء على اختبار التدفق الجانبي إلى دائرة الصحة البلدية لإجراء اختبار بي سي آر. </p><p>وقد أدى هذا إلى التقليص الشديد للحاجة إلى تطبيق CoronaMelder في الوقت الحالي. ومن ثم، سيتم إيقاف التطبيق مؤقتًا اعتبارًا من 22 إبريل / نيسان 2022.</p><p>ونتيجة لذلك، سيتوقف التطبيق عن تبادل أية بيانات (مجهولة الهوية) مع مستخدمي CoronaMelder الآخرين. بالإضافة إلى ذلك فإنه من الآن، لن تتم مشاركة البيانات مع تطبيقات الإشعارات خارج البلاد. </p><p>وإذا ظهر متحور جديد لفيروس كورونا في المستقبل واستلزم الأمر وجود نظام تنبيه، فقد يتم إعادة تنشيط CoronaMelder. </p><p>لمزيد من المعلومات حول أثر CoronaMelder، يرجى<a href="/ar/faq/3-2-coronamelder-data-dashboard/">الاطلاع على الإحصاءات (الانجليزية)</a></p>'
   bg: '<h2>Приложението CoronaMelder спира временно от 22 април 2022 г.</h2><p>Всичко отново е отворено. Постигнахме го с общи усилия. Все още са в сила някои <a href="https://www.government.nl/topics/c/coronavirus-covid-19/tackling-new-coronavirus-in-the-netherlands/coronavirus-measures-in-brief" target="_blank" rel="noopener noreferrer" hreflang="en">мерки и препоръки във връзка с коронавируса (на английски език)</a> но много от мерките вече са отменени. Така например вече не се налага да си стоите вкъщи, когато сте били в близост до човек с коронавирус. Също така, след положителен самостоятелен тест, повечето хора вече не трябва да си правят тест в Общинската здравна служба (GGD) за потвърждение на резултата.</p>
@@ -543,7 +543,7 @@ info-huawei-img:
  
 footer-phone:
   nl: Heb je vragen over CoronaMelder?
-  fy: Hast fragen oer CoronaMelder?
+  fy: Hast fragen oer KoroanaMelder?
   en: Do you have any questions about the CoronaMelder app?
   ar: هل لديك أي أسئلة حول CoronaMelder؟
   bg: Имаш ли въпроси относно CoronaMelder?
