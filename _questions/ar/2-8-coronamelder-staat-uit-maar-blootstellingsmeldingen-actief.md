@@ -1,14 +1,12 @@
 ---
 set: 2
 index: 8
-title: CoronaMelder app turned off, but mobile settings indicate 'exposure notifications' are still active
+title: إغلاق تطبيق كورونا ميلدر، لكن إعدادات الهاتف التي تشير إلى "إشعارات التعرض" ما زالت نشطة 
 showOnFAQoverview: true
 featuredHome: true
 featuredHomeIndex: -1
 featuredHomeIcon: app-touch
 featuredHomeText: 
-contentLang: en
 ---
-It appears that some phones continue to exchange Bluetooth signals (anonymously or otherwise) even after the app has been turned off. This problem occurs with both iOS and Android. We expect to be able to solve this problem later this week. No action is required on your part.
-
-Since the CoronaMelder app was deactivated on 22 April, you will no longer receive notifications if you have been in contact with someone with the coronavirus.
+يبدو أن بعض الهواتف ما زالت تتبادل إشارات البلوتوث (سواء من جهة غير معلومة أو من أية جهة أخرى) حتى بعد إغلاق التطبيق. تحث هذه المشكلة مع كل من نظامي آي أو إس وأندرويد. ونتوقع أن نحل هذه المشكلة في نهاية هذا الأسبوع. ولا يستلزم الأمر أي إجراء من جانبك. 
+منذ إلغاء تنشيط تطبيق كورونا ميلدر في 22 إبريل / نيسان، فلن تتلقى منذ ذلك التاريخ إشعارات إذا اختلطت بشخص مصاب بفيروس كورونا. 
