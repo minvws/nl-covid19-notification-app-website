@@ -5,7 +5,7 @@ name: Build and deploy Jekyll site
 on:
   push:
     branches:
-      - github-workflow
+      - github-workflows
     tags:
       - v*
 
