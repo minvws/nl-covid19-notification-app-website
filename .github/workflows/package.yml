@@ -1,26 +1,111 @@
----
-
-name: Build and deploy Jekyll site
+name: Create Website Release package
 
 on:
   push:
     branches:
       - github-workflows
     tags:
-      - v*
+      - 'v*'
+
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@2.0.5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+      - uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
+      - name: Install Jekyll
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+          bundle update --bundler
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Create version.json
+        run: 'echo "{ \"version\": \"${{ env.RELEASE_VERSION }}\", \"git_ref\": \"$GITHUB_SHA\"}" > ./_site/version.json'
+
+      - name: Rename folder
+        run: mv _site public
+
+#
+#      - name: Install Node.js
+#        uses: actions/setup-node@v2
+#        with:
+#          node-version: '14.x'
+#
+#      - name: Create NL print portal
+#        run: |
+#          cd print-portal
+#          npm install -g @vue/cli-service
+#          npm install --production=false
+#          npm run build --if-present
+#        env:
+#          NODE_ENV: production
+#
+#      - name: Copy print portal to public
+#        run: mv print-portal/dist public/nl/print
+#
+#      - name: Remake for EN print portal
+#        run: |
+#          sed -i 's/nl\/print/en\/print/g' print-portal/vue.config.js
+#
+#      - name: Create EN print portal
+#        run: |
+#          cd print-portal
+#          npm run build --if-present
+#        env:
+#          NODE_ENV: production
+#
+#      - name: Copy print portal to public
+#        run: mv print-portal/dist public/en/print
+#
+#      - name: Create dashboard SPA
+#        run: |
+#          cd dashboard-spa
+#          npm install --production=false
+#          npm run build
+#        env:
+#          NODE_ENV: production
+#
+#      - name: Copy dashboard SPA to public
+#        run: mv dashboard-spa/dist/* public/js/
+#
+#      - name: Copy fonts
+#        run: cp -R public/nl/print/assets/fonts public/assets/
+#
+#      - name: Copy img
+#        run: cp -R public/nl/print/assets/img public/assets/
+#
+#      - name: Copy auth redirect script
+#        run: cp -R auth.php public/app/auth.php
+#      - name: Copy auth2 redirect script
+#        run: cp -R auth2.php public/app/auth2.php
+#
+#      - name: Install jsonlint
+#        run: sudo apt-get install --yes jsonlint
+#
+#      - name: Lint json files
+#        run: find . -size +2c \( -name *.json -o -name *.json.v* \)  -not -path "./print-portal/node_modules/*" -not -path "./dashboard-spa/node_modules/*" | xargs jsonlint-php
+#
+
+      - name: Create tar
+        run: tar -czf cm_website_${{ env.RELEASE_VERSION }}.tar.gz ./public
+
+      - name: Upload release tar
+        uses: actions/upload-artifact@v2
+        with:
+          name: cm_website_${{ env.RELEASE_VERSION }}
+          path: cm_website_${{ env.RELEASE_VERSION }}.tar.gz
