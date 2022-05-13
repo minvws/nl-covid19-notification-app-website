@@ -20,7 +20,7 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
+      - uses: helaili/jekyll-action@2.0.5
+        with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
