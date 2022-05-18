@@ -44,7 +44,7 @@ plugins:
 
 incremental: false
 
-url: "https://www.coronamelder.nl"
+#url: "https://www.coronamelder.nl"
 
 defaults:
   -
