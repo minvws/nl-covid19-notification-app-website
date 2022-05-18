@@ -37,6 +37,9 @@ jobs:
       - name: Rename folder
         run: mv _site public
 
+      - name: Patch sitemap
+        run: sed -i 's/^<loc>/<loc>https:\/\/coronamelder.nl/' public/sitemap.xml
+
       - name: Create tar
         run: tar -czf cm_website_${{ env.RELEASE_VERSION }}.tar.gz ./public
 
