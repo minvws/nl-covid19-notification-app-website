@@ -7,41 +7,6 @@
 <html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
 {% include open-source-comment.html %}
 {% include head.html %}
-<style>
-        .plot-swatch {
-          margin-bottom: 0.5em;
-          margin-left: 0px;
-        }
-        .plot-swatch::before {
-        content: "";
-        width: 15px;
-        height: 15px;
-        margin-right: 0.5em;
-        background: var(--color);
-      }
-        
-      .plot-legend {
-        display: flex;
-        min-height: 33px;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin-bottom: 1rem;
-      }
-      .plot-swatch {
-        display: inline-flex;
-        align-items: center;
-        margin-right: 1em;
-      }
-
-      img,
-      .plot-legend {
-          margin-top: 20px;
-      }
-
-      .plot-legend + img {
-          margin-top: 0;
-      }
-      </style>
 
 <body>
   {% if page.collection == 'questions-scanner' or page.domain == 'scanner' %}
@@ -143,10 +108,10 @@
                     <span class="number_highlight" id="tp_tested_positive"></span>.</p>
                 <p>The graph shows how many people had themselves tested after a notification from CoronaMelder since the app was put into use on October 10, 2020.</p>
             </div>
-            <div >
+            <div class="plot">
                 <div class="plot-legend">
-                    <span class="plot-swatch" style="--color:#157CCA;">Notifications</span>
-                    <span class="plot-swatch" style="--color:#ec025f;">Tested positive</span>
+                    <span class="plot-swatch">Notifications</span>
+                    <span class="plot-swatch">Tested positive</span>
                 </div>
 
                 <img src="{{ site.baseurl }}/img/coronamelder-graph-3.svg" alt="Graph tests taken following a notification. An average of around 18 thousand, with peaks rising in December 2020 with nearly 49 thousand tests, and fewer tests taken in the summer months of 2021. The percentage tested positive has been increasing since December 2021." class="graph" width="480" height="320">
@@ -181,10 +146,10 @@
                 <p>The graph shows how many people had themselves tested after a notification from CoronaMelder, were found to have the corona virus, and how many of them had no symptoms of the corona virus.</p>
                 <p><small>Due to the discontinuation of CoronaMelder on April 22, 2022, the statistics will no longer be updated.</small></p>
             </div>
-            <div >
+            <div class="plot">
                 <div class="plot-legend">
-                    <span class="plot-swatch" style="--color:#157CCA;">Symptoms</span>
-                    <span class="plot-swatch" style="--color:#ec025f;">No symptoms</span>
+                    <span class="plot-swatch">Symptoms</span>
+                    <span class="plot-swatch">No symptoms</span>
                 </div>
 
                 <img src="{{ site.baseurl }}/img/coronamelder-graph-4.svg" alt="Chart of tests taken that were preceded by a notification per month, divided into number of complaints and no complaints. In the summer of 2021, fewer people were tested, and few people were positive without symptoms. This will steadily increase again from November, with record breaking numbers in March 2022." class="graph" width="480" height="320">
@@ -231,115 +196,6 @@
         <script type="text/javascript" src="/js/statistics/3_positive-results-after-notification.js"></script>
         <script type="text/javascript" src="/js/statistics/4_positive-results-without-symptoms-after-notification.js"></script>
 
-    <script> 
-        active_users_number = document.getElementById('active_users_number');
-
-        warnings_number = document.getElementById('warnings_number');
-
-        tp_tested_total = document.getElementById('tp_tested_total');
-        tp_tested_positive = document.getElementById('tp_tested_positive');
-
-        tests_total = document.getElementById('tests_total');
-        tests_tested_positive = document.getElementById('tests_tested_positive');
-
-        const active_users_table = document.getElementById("active_users_table");
-        const warnings_table = document.getElementById("warnings_table");
-        const tests_table = document.getElementById("tests_table");
-         
-        function constructTable(selectedData, selected_table) {
-            // loop through all the data objects in the requested JSON
-            for (let i = 0; i < selectedData.length; i++) {
-                // store object in a variable
-                const statsObject = Object.values(selectedData[i]);
-
-                // turn today's date into a string we can compare to a date string in the JSON
-                const today = new Date();
-                const currentMonthYear = today.toLocaleString("en", { "month": "numeric" }) + today.toLocaleString("en", { "year": "numeric" });
-                const dataMonthYear = statsObject[0].toLocaleString("en", { "month": "numeric" }) + statsObject[0].toLocaleString("en", { "year": "numeric" });
-
-                // get the number of key value pairs
-                let number_of_key_value_pairs = Object.values(selectedData[i]).length;
-
-                // convert the value shown in the table column later
-                function getColumnValue(valueID) {
-                    if (typeof(statsObject[valueID]) == 'number') {
-                        columnValue = Math.round(statsObject[valueID]);
-                        return new Intl.NumberFormat('en-GB', {  }).format(columnValue)
-                    } else {
-                        return statsObject[valueID];
-                    }
-                }
-
-                // add an asterisk if the current month is the last month in the JSON
-                if (dataMonthYear === currentMonthYear) {
-                    // statsIncomplete += `*`;
-                } else {
-                    statsIncomplete = ``;
-                }
-
-                // create a row string, adding html and content to it
-                let statsRow = ``;
-                 
-                statsRow += `<tr>`;
-
-                statsRow += `<td>
-                    ${statsObject[0].toLocaleString("en", { "month": "long", "year": "numeric" })} ${statsIncomplete}
-                </td>`;
-
-                for (let j = 1; j < number_of_key_value_pairs; j++) {
-                    statsRow += `<td>${getColumnValue(j)}</td>`
-                }
-
-                statsRow += `</tr>`;
-                selected_table.innerHTML += statsRow;
-
-            }
-        }
-
-
-        function updateStatisticNumber(selectedData, selectedKey, selectedElement) {
-            for (let i = 0; i < selectedData.length; i++) {
-                if (i == (selectedData.length -1)) {
-                    function getValue(valueID) {
-                        valueToGet = Math.round(valueID);
-                        return new Intl.NumberFormat('en-GB', {  }).format(valueToGet)
-                    }
-                
-                    statisticNumber = getValue(selectedData[i][selectedKey]);
-                }
-            } 
-
-            selectedElement.innerHTML = statisticNumber;
-        }
-
-        function getTotals(selectedData, selectedElement) {
-            function getValue(valueID) {
-                valueToGet = Math.round(valueID);
-                return new Intl.NumberFormat('en-GB', {  }).format(valueToGet)
-            }
-        
-            statisticNumber = getValue(selectedData);
-
-            selectedElement.innerHTML = statisticNumber;
-        }
-
-        // constructTable(selectedData, selected_table) 
-        constructTable(active_users, active_users_table);
-        constructTable(shared_keys, warnings_table);
-        constructTable(positive_results_after_notification, tests_positive_table);
-        constructTable(positive_results_without_complaints_after_notification, tests_complaints_table);
-
-        // updateStatisticNumber(selectedData, selectedKey, selectedElement) 
-        updateStatisticNumber(active_users, 'active_users', active_users_number);
-        updateStatisticNumber(shared_keys, 'cumulative_shared_keys', warnings_number);
-        
-        // getTotals(selectedData, selectedElement)
-        getTotals(totals.total_tested, tp_tested_total); 
-        getTotals(totals.tested_positive, tp_tested_positive);
-
-        getTotals(positive_results_without_complaints_after_notification_totals.total_tested_positive, total_tested_positive);       
-        getTotals(positive_results_without_complaints_after_notification_totals.tested_positive_without_complaints, tested_positive_without_complaints);
-
-    </script>
+        <script type="text/javascript" src="/js/load-statistics-en.js"></script>
 </body>
 </html>
