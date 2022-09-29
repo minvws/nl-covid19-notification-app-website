@@ -4,81 +4,86 @@
 {%- endif -%}
 
 <footer>
-    {% if page.showContact  %}
-        {% include footer-phone.html %}
-    {% endif %}
-    
-    <div class="footer">
-        <div class="footer-inner">
-            <div class="footer-links">
-                <div class="footer-links-col ___desktop-50">
-                    <div class="footer-logos-info">
-                        <h2 class="screen-reader-text">{{ site.data.translations.footer-colophon[page.lang] }}</h2>
-                        {{ site.data.translations.footer-logos-info_md[page.lang] }}</div>
-                </div>
-                <div class="footer-links-col ___desktop-25">
-                    <h3>{{ site.data.translations.footer-misc-title[page.lang] }}</h3>
-                    <ul>
-                        <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-privacy-url }}">
-                                {{ site.data.translations.footer-misc-privacy[page.lang] }}
-                            </a>
-                        </li>
-                        <!-- <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-interoperability-url }}">
-                                {{ site.data.translations.footer-misc-interoperability[page.lang] }}
-                            </a>
-                        </li> -->
-                        <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-cookies-url }}">
-                                {{ site.data.translations.footer-misc-cookies[page.lang] }}
-                                {{ site.data.translations.english[page.lang] }}
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ langSlug}}{{ site.data.translations.footer-misc-colofon-url[page.lang] }}">
-                                {{ site.data.translations.footer-misc-colofon[page.lang] }}
-                                {{ site.data.translations.english[page.lang] }}
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-accessibility-statement-url }}">
-                                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}  {{ site.data.translations.english[page.lang] }}
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-report-vulnerability-url }}">
-                                {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
-                                {{ site.data.translations.english[page.lang] }}
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ langSlug }}{{ site.data.translations.footer-misc-pers-url[page.lang] }}">
-                                {{ site.data.translations.footer-misc-pers[page.lang] }} {{ site.data.translations.english[page.lang] }}
-                            </a>
-                        </li>
-                        {% if page.lang == 'nl' or page.lang == 'fy' or page.lang == 'en' %}
-                        <!-- <li>
-                            <a href="{{ site.data.translations.footer-misc-partnertoolkit-url }}" target="_blank" rel="noopener noreferrer">
-                                {{ site.data.translations.footer-misc-partnertoolkit[page.lang] }} 
-                                {% if page.lang == 'en' %}(Dutch){% endif %}
-                                {% if page.lang == 'fy' %}(Nederlânsk){% endif %}
-                            </a>
-                        </li> -->
-                        {% endif %}
-                    </ul>
-                </div>
-                <div class="footer-links-col ___desktop-25">
-                    <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}</h3>
-                    <ul>
-                        <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}" target="_blank" rel="noopener noreferrer">{{ site.data.translations.footer-more-info[page.lang] }} {{ site.data.translations.english[page.lang] }}</a></li>
-                    </ul>
-                </div>
-            
-            </div>
-        
+  {% if page.showContact  %}
+    {% include footer-phone.html %}
+  {% endif %}
+
+  <div class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <div class="footer-links-col ___desktop-50">
+          <div class="footer-logos-info">
+            <h2 class="screen-reader-text">{{ site.data.translations.footer-colophon[page.lang] }}
+            </h2>
+            {{ site.data.translations.footer-logos-info_md[page.lang] }}
+          </div>
         </div>
+        <div class="footer-links-col ___desktop-25">
+          <h3>{{ site.data.translations.footer-misc-title[page.lang] }}
+          </h3>
+          <ul>
+            <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-dashboard-url }}">
+                {{ site.data.translations.footer-dashboard-link[page.lang] }}
+                {{ site.data.translations.english[page.lang] }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-misc-privacy-url }}">
+                {{ site.data.translations.footer-misc-privacy[page.lang] }}
+              </a>
+            </li>
+            {% comment %}
+              <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-misc-interoperability-url }}">
+              {{ site.data.translations.footer-misc-interoperability[page.lang] }}
+              </a>
+              </li>
+            {% endcomment %}
+            <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-misc-cookies-url }}">
+                {{ site.data.translations.footer-misc-cookies[page.lang] }}
+                {{ site.data.translations.english[page.lang] }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ langSlug}}{{ site.data.translations.footer-misc-colofon-url }}">
+                {{ site.data.translations.footer-misc-colofon[page.lang] }}
+                {{ site.data.translations.english[page.lang] }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-misc-accessibility-statement-url }}">
+                {{ site.data.translations.footer-misc-accessibility-statement[page.lang] }}
+                {{ site.data.translations.english[page.lang] }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-misc-report-vulnerability-url }}">
+                {{ site.data.translations.footer-misc-report-vulnerability[page.lang] }}
+                {{ site.data.translations.english[page.lang] }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ langSlug }}{{ site.data.translations.footer-misc-pers-url }}">
+                {{ site.data.translations.footer-misc-pers[page.lang] }}
+                {{ site.data.translations.english[page.lang] }}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links-col ___desktop-25">
+          <h3>{{ site.data.translations.footer-more-info-title[page.lang] }}
+          </h3>
+          <ul>
+            <li><a href="{{ site.data.translations.footer-more-info-url[page.lang] }}" target="_blank" rel="noopener noreferrer">{{ site.data.translations.footer-more-info[page.lang] }}{{ site.data.translations.english[page.lang] }}</a></li>
+          </ul>
+        </div>
+
+      </div>
+
     </div>
+  </div>
 </footer>
 
 {% include footer-js.html %}

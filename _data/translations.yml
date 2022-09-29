@@ -606,7 +606,20 @@ footer-phone-mail-label:
   ro: "Sau trimiteți un mesaj prin email la: "
   tr: "Veya şu adrese bir e-posta gönderin: "
 
-    
+
+footer-dashboard-link: 
+  ar: 'لوحة بيانات كورونا ميلدر '
+  fr: Tableau de bord des statistiques de CoronaMelder
+  pl: Statystyki aplikacji CoronaMelder
+  tr: CoronaMelder veri kontrol paneli
+  ro: Dashboard date CoronaMelder
+  nl: CoronaMelder data dashboard
+  fy: KoroanaMelder data dashboard
+  es: Tablero de datos de CoronaMelder
+  en: CoronaMelder data dashboard
+  de: CoronaMelder Daten-Dashboard
+  bg: Табло с данни за CoronaMelder
+
 footer-colophon: 
   nl: Colofon
   fy: Kolofon
@@ -835,18 +848,7 @@ footer-misc-cookies:
   ro: Cookies
   tr: Çerezler
   
-footer-misc-colofon-url: 
-  nl: colofon
-  fy: colofon
-  en: colofon
-  ar: colofon
-  bg: colofon
-  de: colofon
-  fr: colofon
-  es: colofon
-  pl: colofon
-  ro: colofon
-  tr: colofon
+footer-misc-colofon-url: colofon
 
 footer-misc-colofon:
   nl: Colofon
@@ -860,19 +862,11 @@ footer-misc-colofon:
   pl: Stopka
   ro: Colofon
   tr: Kolofon
-  
-footer-misc-pers-url: 
-  nl: pers
-  fy: pers
-  en: pers
-  ar: pers
-  bg: pers
-  de: pers
-  fr: pers
-  es: pers
-  pl: pers
-  ro: pers
-  tr: pers
+
+
+footer-dashboard-url: coronamelder-data-dashboard
+
+footer-misc-pers-url: pers
 
 footer-misc-pers:
   nl: Pers
