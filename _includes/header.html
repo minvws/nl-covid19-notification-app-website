@@ -11,9 +11,11 @@
           <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}" width="40" height="80">
         </a>
       </div>
-      <a href="{{ langSlug }}/faq" class="header__layout__faq-link">
+      {% comment %} 
+        <a href="{{ langSlug }}/faq" class="header__layout__faq-link">
         {{ site.data.translations.faq[page.lang] }}
-      </a>
+        </a> 
+      {% endcomment %}
       {% include language-picker.html %}
     </div>
     <div class="container">

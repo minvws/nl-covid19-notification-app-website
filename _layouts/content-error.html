@@ -5,41 +5,43 @@
 {%- endif -%}
 <!DOCTYPE html>
 <html lang="{{page.lang}}" {% if page.lang == 'ar' %}dir="rtl"{% endif %}>
-{% include open-source-comment.html %}
-{% include head.html %}
-<body>
-  <div class="logobar" role="banner">
-    <div class="logo">
-      <a href="{{ langSlug }}">
-        <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
-      </a>
-    </div>
-  </div>
-  <main class="content-error" id="content">
-    <div class="content-center content-center--error">
-      {% include language-picker.html %}
-      <div class="content-block">
-
-        <img src="{{ site.baseurl }}/img/404-logo.svg" alt="Logo CoronaMelder" />
-
-        <h1 id="{{ site.data.translations.error-title[page.lang] | slugify }}">{{ site.data.translations.error-title[page.lang] }}</h1>
-
-        <p>
-          <a href="{{ langSlug }}" class="link__404">{{ site.data.translations.error-back-to-home-page[page.lang] }}</a> 
-        </p>
-
-        <p>
-          <a href="{{ langSlug }}/faq" class="link__404">{{ site.data.translations.error-back-to-faq[page.lang] }}</a>
-        </p>
-
-
-        {{ content }}
+  {% include open-source-comment.html %}
+  {% include head.html %}
+  <body>
+    <div class="logobar" role="banner">
+      <div class="logo">
+        <a href="{{ langSlug }}">
+          <img src="{{ site.baseurl }}/img/logo-RO.svg" alt="{{ site.data.translations.govlogo[page.lang] }}">
+        </a>
       </div>
     </div>
-  </main>
+    <main class="content-error" id="content">
+      <div class="content-center content-center--error">
+        {% include language-picker.html %}
+        <div class="content-block">
+
+          <img src="{{ site.baseurl }}/img/404-logo.svg" alt="Logo CoronaMelder"/>
+
+          <h1 id="{{ site.data.translations.error-title[page.lang] | slugify }}">{{ site.data.translations.error-title[page.lang] }}
+          </h1>
+
+          <p>
+            <a href="{{ langSlug }}" class="link__404">{{ site.data.translations.error-back-to-home-page[page.lang] }}
+            </a>
+          </p>
+
+          {% comment %}
+            <p>
+            <a href="{{ langSlug }}/faq" class="link__404">{{ site.data.translations.error-back-to-faq[page.lang] }}</a>
+            </p>
+          {% endcomment %}
+
+          {{ content }}
+        </div>
+      </div>
+    </main>
 
 
-{% include footer-js.html %}
-</body>
+    {% include footer-js.html %}
+  </body>
 </html>
-

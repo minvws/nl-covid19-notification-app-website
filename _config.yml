@@ -3,12 +3,12 @@ repo: minvws/nl-covid19-notification-app-website
 # remove next line in case CoronaMelder is used
 app_status: disabled
 
-collections:
-  questions:
-    output: true
-    permalink: /:categories/:name/
-  stories:
-    output: false
+# collections:
+#   questions:
+#     output: true
+#     permalink: /:categories/:name/
+#   stories:
+#     output: false
 
 sass:
   style: compressed

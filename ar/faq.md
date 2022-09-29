@@ -5,44 +5,5 @@ showBreadCrumbs: true
 showContact: true
 title: ''
 contentLang: en
-redirect_from: 
-  - /ar/faq/
-  - /ar/faq/1-waarom-is-coronamelder-nodig
-  - /ar/faq/9-hoe-gebruik-je-de-app
-  - /ar/faq/17-hoe-betrouwbaar-is-een-melding
-  - /ar/faq/21-waar-meld-ik-misbruik
-  - /ar/faq/28-melding-24-uur-geen-controle
-  - /ar/faq/30-is-coronamelder-wel-nodig-als-ik-beschermingsmiddelen-gebruik
-  - /ar/faq/31-als-ik-werk-met-corona-patienten-krijg-ik-dan-continue-alerts
-  - /ar/faq/32-wat-kan-ik-doen-als-ik-mijn-telefoon-niet-bij-me-draag
-  - /ar/faq/33-kan-ik-CoronaMelder-ook-tijdens-mijn-werk-gebruiken
-  - /ar/faq/34-hoe-weet-CoronaMelder-dat-ik-in-dezelfde-ruimte-ben
-  - /ar/faq/35-waarom-extra-onderzoek-naar-invloed-muren-deuren-en-ramen
-  - /ar/faq/38-heeft-de-europese-uitwisseling-gevolgen-voor-het-dataverbruik-van-mijn-telefoon
-  - /ar/faq/39-hoe-kunnen-scholieren-coronamelder-het-beste-gebruiken
-  - /ar/faq/41-ben-ik-verplicht-om-me-te-houden-aan-het-advies-in-de-app
-  - /ar/faq/43-zijn-er-op-dit-moment-storingen-in-de-coronamelder-app
-  - /ar/faq/44-is-er-een-bug-bounty-voor-de-coronamelder-app
-  - /ar/faq/47-ik-heb-een-android-telefoon-wat-moet-ik-weten-nu-coronamelder-weer-actief-is-na-landelijke-pauze
-  - /ar/faq/49-wat-is-er-nieuw-in-coronamelder-versie-2-punt-0
-  - /ar/faq/51-ik-ben-al-gevaccineerd-of-hersteld-heb-ik-coronamelder-dan-nog-nodig
-  - /ar/faq/1-waarom-is-coronamelder-nodig
-  - /ar/faq/9-hoe-gebruik-je-de-app/
-  - /ar/faq/17-hoe-betrouwbaar-is-een-melding/
-  - /ar/faq/21-waar-meld-ik-misbruik/
-  - /ar/faq/28-melding-24-uur-geen-controle/
-  - /ar/faq/30-is-coronamelder-wel-nodig-als-ik-beschermingsmiddelen-gebruik/
-  - /ar/faq/31-als-ik-werk-met-corona-patienten-krijg-ik-dan-continue-alerts/
-  - /ar/faq/32-wat-kan-ik-doen-als-ik-mijn-telefoon-niet-bij-me-draag/
-  - /ar/faq/33-kan-ik-CoronaMelder-ook-tijdens-mijn-werk-gebruiken/
-  - /ar/faq/34-hoe-weet-CoronaMelder-dat-ik-in-dezelfde-ruimte-ben/
-  - /ar/faq/35-waarom-extra-onderzoek-naar-invloed-muren-deuren-en-ramen/
-  - /ar/faq/38-heeft-de-europese-uitwisseling-gevolgen-voor-het-dataverbruik-van-mijn-telefoon/
-  - /ar/faq/39-hoe-kunnen-scholieren-coronamelder-het-beste-gebruiken/
-  - /ar/faq/41-ben-ik-verplicht-om-me-te-houden-aan-het-advies-in-de-app/
-  - /ar/faq/43-zijn-er-op-dit-moment-storingen-in-de-coronamelder-app/
-  - /ar/faq/44-is-er-een-bug-bounty-voor-de-coronamelder-app
-  - /ar/faq/47-ik-heb-een-android-telefoon-wat-moet-ik-weten-nu-coronamelder-weer-actief-is-na-landelijke-pauze/
-  - /ar/faq/49-wat-is-er-nieuw-in-coronamelder-versie-2-punt-0/
-  - /ar/faq/51-ik-ben-al-gevaccineerd-of-hersteld-heb-ik-coronamelder-dan-nog-nodig/
+published: false
 ---

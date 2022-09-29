@@ -37,7 +37,9 @@
         {% endif %}
     {% endif %}
 
-    {% include faq.html %}
+    {% comment %}    
+        {% include faq.html %}
+    {% endcomment %}
 
     {% if site.app_status != "disabled" %}
         {% include badges.html class="layout-app-badges--center-wrap layout-app-badges--background" %}
