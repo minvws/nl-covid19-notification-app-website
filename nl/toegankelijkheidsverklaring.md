@@ -6,7 +6,7 @@ title: Toegankelijkheid
 redirect_from: 
   - /toegankelijkheidsverklaring
 ---
-Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden via een e-mail aan helpdesk@coronamelder.nl of door te bellen naar de helpdesk via telefoonnummer {{ site.data.translations.phone-action[page.lang] }} (gratis, openingstijden: Maandag t/m zondag 08.00 – 20.00 uur).
+Het ministerie van Volksgezondheid, Welzijn en Sport, wil dat iedereen deze website kan gebruiken. Kom je toch een pagina tegen die niet toegankelijk is? Dan kun je dit aan ons melden via een e-mail aan helpdesk@coronamelder.nl of door te bellen naar de helpdesk via telefoonnummer {{ site.data.translations.phone-action[page.lang] }} (gratis, openingstijden: Maandag t/m vrijdag 08.00 – 18.00 uur).
 
 <a href="https://www.toegankelijkheidsverklaring.nl/register/3214" lang="nl" rel="noreferrer noopener">Toegankelijkheidsverklaring CoronaMelder.nl</a>
 

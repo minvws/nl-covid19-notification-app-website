@@ -562,17 +562,17 @@ footer-phone-opening:
   tr: yardım masasını arayın
   
 footer-phone-opening-hours:
-  nl: "Openingstijden: Maandag t/m zondag 08.00 – 20.00 uur."
-  fy: "Iepeningstiden: Moandei o/m snein 08:00 – 20:00 oere."
-  en: "Opening hours: Monday till Sunday 08.00 a.m. - 08.00 p.m. "
-  ar: " ساعات العمل: من الإثنين حتى الأحد 08.00 صباحًا-08.00 مساءً."
-  bg: "Работно време: От понеделник до неделя 08.00 - 20.00 часа."
-  de: "Öffnungszeiten: Mo-So 8–20 Uhr."
-  es: "Horarios: de lunes a domingo 8.00 h - 20.00 h."
-  fr: "Horaires d’ouverture: Du lundi au dimanche 8.00 h - 20.00 h."
-  pl: "Godziny pracy: od poniedziałku do piątku w godz. 08:00 - 20:00."
-  ro: "Orele de lucru: De luni până vineri: 08.00 - 20.00."
-  tr: "Açılış saatleri: Pazartesi - Pazar 08:00 - 20:00."
+  nl: "Openingstijden: Maandag t/m vrijdag 08.00 – 18.00 uur."
+  fy: "Iepeningstiden: Moandei o/m freed 08:00 – 18:00 oere."
+  en: "Opening hours: Monday till Friday 08.00 a.m. - 06.00 p.m. "
+  ar: "ساعات العمل: من الاثنين إلى الجمعة 08:00 - 18:00."
+  bg: "Работно време: От понеделник до петък 08.00 - 18.00 часа."
+  de: "Öffnungszeiten: Mo-Fr 8–18 Uhr."
+  es: "Horarios: de lunes a viernes 8.00 h - 18.00 h."
+  fr: "Horaires d’ouverture: Du lundi au vendredi 8.00 h - 18.00 h."
+  pl: "Godziny pracy: od poniedziałku do piątku w godz. 08:00 - 18:00."
+  ro: "Orele de lucru: De luni până vineri: 08.00 - 18.00."
+  tr: "Açılış saatleri: Pazartesi - Cuma 08:00 - 18:00."
   
 footer-phone-mail-label: 
   nl: "Of stuur een e-mail naar:"
