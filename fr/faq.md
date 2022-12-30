@@ -1,9 +1,7 @@
 ---
 layout: faq-overview
 lang: fr
-showBreadCrumbs: true
-showContact: true
-title: 'Questions fréquemment posées'
+showBreadCrumbs: true fréquemment posées'
 contentLang: en
 published: false
 ---

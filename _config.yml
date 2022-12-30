@@ -58,7 +58,6 @@ defaults:
       - faq
       lang: ar
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/bg"
@@ -70,7 +69,6 @@ defaults:
       - faq
       lang: bg
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/de"
@@ -82,7 +80,6 @@ defaults:
       - faq
       lang: de
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/en"
@@ -94,7 +91,6 @@ defaults:
       - faq
       lang: en
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/es"
@@ -106,7 +102,6 @@ defaults:
       - faq
       lang: es
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/fr"
@@ -118,7 +113,6 @@ defaults:
       - faq
       lang: fr
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/fy"
@@ -130,7 +124,6 @@ defaults:
       - faq
       lang: fy
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/nl"
@@ -142,7 +135,6 @@ defaults:
       - faq
       lang: nl
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/pl"
@@ -154,7 +146,6 @@ defaults:
       - faq
       lang: pl
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/ro"
@@ -166,7 +157,6 @@ defaults:
       - faq
       lang: ro
       showBreadCrumbs: true
-      showContact: true
   -
     scope:
       path: "_questions/tr"
@@ -178,4 +168,4 @@ defaults:
       - faq
       lang: tr
       showBreadCrumbs: true
-      showContact: true
+      

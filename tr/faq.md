@@ -1,9 +1,7 @@
 ---
 layout: faq-overview
 lang: tr
-showBreadCrumbs: true
-showContact: true
-title: 'Bütün sık sorulan sorular'
+showBreadCrumbs: true sorulan sorular'
 contentLang: en
 published: false
 ---
