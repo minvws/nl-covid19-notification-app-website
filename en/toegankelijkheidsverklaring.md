@@ -5,8 +5,7 @@ showBreadCrumbs: true
 title: Accessibility
 ---
 <p class="md-block-lead md-text-color-RO-donkerblauw" markdown="1">
-  The Ministry of Health, Welfare and Sport wants everybody to be able to use this website, which is being updated all the time. However, if you encounter a page which you find inaccessible we ask you to please let us know by emailing  <a href="mailto:helpdesk@coronamelder.nl?subject={{ site.data.translations.accessibility-in-app-email-subject[page.lang] | url_encode | replace: "+", "%20" }}">helpdesk@coronamelder.nl</a> or by calling our contact centre at {{ site.data.translations.phone-action[page.lang] }}. <br />
-  Find detailed information about the website's accessibility in <a href="https://www.toegankelijkheidsverklaring.nl/register/3214" hreflang="nl">our accessibility statement</a> (Dutch).
+  Find detailed information about this website's accessibility in <a href="https://www.toegankelijkheidsverklaring.nl/register/3214" hreflang="nl">our accessibility statement</a> (Dutch).
 </p>
 
 ## What is an accessible website?
